@@ -1,0 +1,797 @@
+/*
+Merlin - Responsive One Page Template
+Version: 1.0
+By: Hasan Alibegic, hasan461@gmail.com
+License: Apache License v2.0
+*/
+body {
+font-family: 'Source Sans Pro', sans-serif;
+color: #444;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { font-weight: 300 }
+*,
+*:focus { outline: none !important }
+a { color: #2d2d2d }
+a:hover,
+a:focus {
+color: #0c86b6;
+text-decoration: none;
+}
+.hiding { opacity: 0 }
+.showing { opacity: 1 }
+.img-rounded {
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+}
+.btn {
+font-size: 12px;
+font-weight: bold;
+text-transform: uppercase;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+-webkit-transition: all .2s;
+-moz-transition: all .2s;
+-ms-transition: all .2s;
+transition: all .2s;
+}
+.btn-blue {
+color: #fff;
+background-color: #0093cf;
+}
+.btn-blue:hover,
+.btn-blue:focus {
+color: #fff;
+background-color: #2a3940;
+}
+.btn-green {
+color: #fff;
+background-color: #71be3c;
+}
+.btn-green:hover,
+.btn-green:focus {
+color: #fff;
+background-color: #2a3940;
+}
+.btn-dark {
+color: #fff;
+background-color: #2a3940;
+}
+.btn-dark:hover,
+.btn-dark:focus {
+color: #fff;
+background-color: #2a3940;
+}
+.loader {
+position: fixed;
+z-index: 100000;
+width: 100%;
+height: 100%;
+background-color: #fff;
+}
+.link{
+text-decoration: underline;
+color: #428bca;
+}
+.fading-line {
+position: absolute;
+top: 50%;
+left: 50%;
+width: 40px;
+height: 40px;
+margin: -20px 0 0 -20px;
+background-image: url(../img/fading-line.gif);
+background-repeat: no-repeat;
+background-position: center center;
+}
+#navbar-top { min-height: 51px }
+.navbar-default {
+margin-bottom: 0;
+background-color: #fff;
+border-top: 0;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+}
+.navbar-default .navbar-brand {
+font-weight: 600;
+text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li > a {
+font-weight: 600;
+text-transform: uppercase;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+color: #0093cf;
+background-color: transparent;
+}
+.navbar-default .navbar-toggle { border-color: transparent }
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus { background-color: transparent }
+.navbar-default .navbar-toggle:hover .icon-bar { background-color: #333 }
+.navbar-default.affix {
+top: 0;
+z-index: 99;
+width: 100%;
+border-bottom-color: transparent;
+-webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
+box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
+}
+.page { overflow: hidden }
+.page .content { padding: 30px 0;}
+.page .content.cover { padding: 20px 0px 180px 0px;}
+.page .heading h2 {
+margin-top: 0;
+margin-bottom: 20px;
+font-size: 40px;
+font-weight: bold;
+}
+.page .border {
+width: 80px;
+height: 2px;
+margin: 0 auto;
+background-color: #71be3c;
+}
+.page .heading p { margin: 20px auto 0 ; font-size: 20px;}
+.page .heading p.subtitle{ margin: 5px 0px 5px 0px ; font-size: 15px;}
+.page .heading p.address{ margin: 5px auto 0 ; font-size: 15px;}
+#home {
+padding: 0;
+color: #fff;
+background-image: url(../img/cover/IMG_1377.JPG);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+#home h1 {
+margin-top: 0;
+margin-bottom: 20px;
+font-size: 60px;
+font-weight: bold;
+}
+#home a { margin: 0 5px }
+#home h3 {
+margin-top: 10px;
+margin-bottom: 0;
+margin-right: 55px;
+font-weight: bold;
+font-size: 35px;
+color: #F2F2F2;
+}
+.logo {
+max-width: 100%;
+}
+#services {
+background-color: #f5f5f5;
+border-bottom: solid 1px #e7e7e7;
+}
+#services .service i { margin-top: 60px }
+#services .service:hover i { color: #71be3c }
+#speakers .speaker-info{
+margin-top: 35px;
+height:320px;
+}
+#speakers .bio h4{
+font-size: 20px;
+font-weight: bold;
+}
+#speakers .bio p{
+font-size: 15px;
+margin-top: 5px;
+}
+#speakers .profile-photo{
+	width: 165px;
+	margin:auto;
+}
+#speakers .profile-photo img{
+margin-left: auto;
+margin-right: auto;
+border-radius: 150px;
+}
+#speakers .profile-photo a .overlay {
+	position: absolute;
+	top: 0px;	
+	width: 165px;
+	height: 165px;
+	border-radius: 150px;
+	background-color: rgba(0, 0, 0, 0.6);
+	transition: all 0.3s ease-in-out 0s;
+	opacity: 0;
+}
+#speakers .profile-photo a .overlay span {
+  position: absolute;
+  left: 5px;
+  top: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size:14px;
+  padding-left:7px;
+  padding-right:12px;
+  width: 100%;
+}
+#speakers .profile-photo a:hover .overlay { 
+	opacity: 1;
+	-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-ms-transform: scale(1.1);
+-o-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+#speakers .twitter {
+background-color: #f5f5f5;
+border-top: solid 1px #e7e7e7;
+padding: 4px;
+}
+#speakers .twitter i {
+color: #00aced;
+font-size: 20px;
+}
+#speakers .homepage {
+background-color: #ffffff;
+padding: 4px;
+}
+#speakers .homepage i {
+color: #222222;
+font-size: 20px;
+}
+#speakers .button,#location .button{
+margin: 10px;
+padding-top: 10px;
+}
+#speakers .button a ,#location .button a {
+border-radius: 20px;
+text-align: center;
+font-size: 20px;
+font-weight: bold;
+background-color: #428bca;
+color: #EEEEEE;
+padding: 15px;
+}
+#speakers .button a:hover,#location .button a:hover{
+color: #428bca;
+background-color: #D5D5D5;
+}
+#speakers .teammate .profile-photo img {
+-webkit-transition: all .4s ease;
+-moz-transition: all .4s ease;
+-ms-transition: all .4s ease;
+-o-transition: all .4s ease;
+transition: all .4s ease;
+}
+#speakers .teammate:hover .profile-photo img,
+#speakers .teammate:focus .profile-photo img {
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-ms-transform: scale(1.1);
+-o-transform: scale(1.1);
+transform: scale(1.1);
+}
+#sponsors a{
+text-decoration: underline;
+color: #428bca;
+}
+#sponsors .sponsor .sponsor-photo{
+margin-top:3px;
+}
+#sponsors .sponsor .sponsor-photo img {
+margin-left: auto;
+margin-right: auto;
+-webkit-transition: all .4s ease;
+-moz-transition: all .4s ease;
+-ms-transition: all .4s ease;
+-o-transition: all .4s ease;
+transition: all .4s ease;
+}
+
+#sponsors .sponsor:hover .sponsor-photo img,
+#sponsors .sponsor:focus .sponsor-photo img {
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-ms-transform: scale(1.1);
+-o-transform: scale(1.1);
+transform: scale(1.1);
+}
+#sponsors .row{
+margin-bottom: 75px;
+}
+#sponsors .border{
+margin-bottom: 40px;
+}
+#sponsors .type{
+margin-top: 15px;
+margin-bottom: 15px;
+}
+#sponsors .type p{
+font-size: 50px;
+font-weight: 800;
+margin: 0px;
+}
+#sponsors .separator {
+	background-color: #CAC5BD;
+    height: 3px;
+    margin: 10px auto 10px;
+    width: 380px;
+}
+#sponsors .separator.gold {
+	background-color: #D4AF37;
+}
+#sponsors .separator.silver {
+	background-color: #C0C0C0;
+}
+#sponsors .separator.bronze {
+	background-color: #CD7F32;
+}
+#sponsors .separator.supporters {
+	background-color: #444;
+}
+#sponsors .gold p{
+color: #D4AF37;
+}
+#sponsors .silver p{
+color: #C0C0C0;
+}
+#sponsors .bronze p{
+color: #CD7F32;
+}
+#sponsors .besponsor{
+	margin-top:25px;
+	margin-bottom:40px;
+}
+#sponsors .besponsor a{
+font-weight: bold;
+font-size: 20px;
+}
+#sponsors .gold a{
+color: #D4AF37;
+}
+#sponsors .bronze a{
+color: #CD7F32;
+}
+#sponsors .sponsor-txt {
+font-size: 20px;
+font-weight: 700;
+margin-top: 5px;
+}
+#sponsors .sponsoring{
+margin-top:10px;
+}
+#callforpapers a.cfp{
+font-weight: bold;
+color: #428bca;
+text-decoration: underline;
+}
+#about .content { padding-bottom: 0 }
+#about .teammate {
+margin-top: 60px;
+margin-bottom: 60px;
+}
+#about .teammate .bio { padding-top: 10px }
+#about .teammate .profile-photo {
+overflow: hidden;
+margin-left: auto;
+margin-right: auto;
+width: 263px;
+}
+#about .teammate .profile-photo img {
+-webkit-transition: all .4s ease;
+-moz-transition: all .4s ease;
+-ms-transition: all .4s ease;
+-o-transition: all .4s ease;
+transition: all .4s ease;
+}
+#about .teammate:hover .profile-photo img,
+#about .teammate:focus .profile-photo img {
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-ms-transform: scale(1.1);
+-o-transform: scale(1.1);
+transform: scale(1.1);
+}
+#about .teammate .bio .border {
+height: 1px;
+margin: 15px auto;
+}
+#about .teammate .bio ul {
+margin-bottom: 0;
+font-size: 16px;
+}
+#about .teammate .bio a { color: #666 }
+#about .teammate .bio a:hover,
+#about .teammate .bio a:focus { color: #222 }
+#about .twitter {
+background-color: #f5f5f5;
+border-top: solid 1px #e7e7e7;
+padding: 4px;
+}
+#about .twitter i {
+color: #00aced;
+font-size: 20px;
+}
+#about .linkedin {
+background-color: #007bb6;
+border-top: solid 1px #e7e7e7;
+padding: 4px;
+}
+#about .linkedin i {
+color: #ffffff;
+font-size: 20px;
+}
+#tickets .row{
+margin-top:20px;
+margin-bottom: 10px;
+}
+#tickets .open{
+/* border: 1px solid; */
+padding: 10px;
+/* margin: 0px 10px 0px 10px; */
+height: 305px;
+/* width: 370px; */
+}
+#tickets .close{
+padding: 10px;
+/* border: 1px solid; */
+/* margin: 0px 10px 0px 10px; */
+height: 305px;
+/* width: 370px; */
+}
+#tickets p{
+font-size: 20px;
+}
+#tickets .ticket i{
+}
+#tickets .name{
+font-size: 25px;
+font-weight: bold;
+margin-top: 5px;
+}
+#tickets .dates{
+}
+#tickets .price{
+font-weight: bold;
+font-size: 25px;
+margin-bottom: 0px;
+}
+#tickets .service img {
+-webkit-transition: all .4s ease;
+-moz-transition: all .4s ease;
+-ms-transition: all .4s ease;
+-o-transition: all .4s ease;
+transition: all .4s ease;
+}
+#tickets .open:hover i { color: #71be3c }
+#tickets .service:hover  img,
+#tickets .service:focus  img {
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-ms-transform: scale(1.1);
+-o-transform: scale(1.1);
+transform: scale(1.1);
+}
+#tickets .includedThings{
+max-width:300px;
+margin-left: auto;
+margin-right: auto;
+
+}
+#tickets .includedThings p{
+font-weight: bold;
+text-decoration:underline;
+}
+#tickets .includedThings ul{
+font-size: 15px;
+text-align:left;
+}
+#contact {
+padding: 20px 0;
+color: #ccc;
+text-align: center;
+background-color: #2a3940;
+}
+#contact a  { color: #fff }
+#contact a:hover .jug,
+#contact a:focus .jug{ color: #007bb6 }
+#contact a:hover .barcelona,
+#contact a:focus .barcelona{ color: #bb0000 }
+#contact .social li .linkedin:hover,
+#contact .social li .linkedin:focus { color: #007bb6 }
+#contact .social li .twitter:hover,
+#contact .social li .twitter:focus { color: #00aced }
+#contact .social li .google-plus:hover,
+#contact .social li .google-plus:focus { color: #d34836 }
+#contact .social li .mail:hover,
+#contact .social li .mail:focus { color: #7C7C7C }
+#contact .social li .youtube:hover,
+#contact .social li .youtube:focus { color: #bb0000 }
+#contact .social li .meetup {
+display:block;
+width:30px;
+height:32px;
+background:url('../img/meetup_trans.png');
+}
+#contact .social li .meetup:hover,
+#contact .social li .meetup:focus {
+display:block;
+width:30px;
+height:32px;
+background:url('../img/meetup_trans_vermell.png');
+}
+#contact .copyright {
+margin-bottom: 0;
+font-size: 18px;
+}
+#accomodation .row{
+margin-left:10px;
+}
+#accomodation .button{
+margin: 10px;
+padding-top: 8px;
+}
+#accomodation .button a  {
+border-radius: 12px;
+text-align: center;
+font-size: 20px;
+font-weight: bold;
+background-color: #428bca;
+color: #EEEEEE;
+padding: 8px;
+}
+#accomodation .button a:hover{
+color: #428bca;
+background-color: #D5D5D5;
+}
+#accomodation .name {
+  font-size : 22px;
+  font-weight: bold;
+}
+#accomodation .star {
+  color : #D8D820;
+}
+#accomodation .price {
+  font-size : 20px;
+  color : #428BCA;
+}
+#accomodation img {
+  width: 260px;
+}
+#accomodation .hotel {
+  max-width : 280px;
+  border : 1px solid ;
+  border-color: lightgrey;
+  padding: 10px;
+  margin : 10px;
+  background-color: #eee;
+}
+#speaker .content { 
+	padding: 30px 0px 10px 0px;
+}
+#speaker .row{
+	margin:20px;
+}
+#speaker .row img{
+	margin-bottom:10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 150px;
+}
+#speaker .twitter {
+background-color: #f5f5f5;
+border-top: solid 1px #e7e7e7;
+padding: 4px;
+}
+#speaker .twitter i {
+color: #00aced;
+font-size: 20px;
+}
+#speaker .homepage {
+background-color: #ffffff;
+padding: 4px;
+}
+#speaker .homepage i {
+color: #222222;
+font-size: 20px;
+}
+#speaker .biography{
+	text-align: left;
+	font-size: 20px;
+}
+#talk .content { 
+	padding: 10px 0;
+}
+#talk .row{
+	margin: 0px 20px 20px 20px;
+}
+#talk .title{
+	font-size: 35px;
+	font-weight:bold;
+	text-align: left;
+}
+#talk .borderTitle {
+height: 2px;
+margin-left:auto;
+margin-right:auto;
+margin-top:5px;
+margin-bottom:20px;
+background-color: #71be3c;
+}
+#talk .abstract{
+	text-align: left;
+	font-size: 20px;
+}
+#schedule .row{
+	margin-top:10px;
+}
+#schedule .days{
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 25px;
+}
+
+#schedule .days .active{
+font-weight:bold;
+color:#428BCA;
+}
+
+#schedule thead{
+	font-size: 16px;
+	background-color:#C9C9C9;
+	color:#00000;
+}
+
+#schedule .keynote{
+	font-size: 17px;
+	color:#333333;
+	font-weight:bold;
+}
+
+#schedule .hour{
+	font-size: 16px;
+	font-weight:bold;
+}
+
+#schedule .talks{
+background-color:#428BCA;
+color:#FFFFFF;
+}
+
+#schedule .talks .pending{
+background-color:#428BCA;
+color:#FFFFFF;
+font-size: 16px;
+}
+
+#schedule .talks .title {
+	display: block;
+	font-size: 16px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+#schedule .talks  a:hover  .title{
+	text-decoration:underline;
+}
+
+#schedule .talks .speaker{
+	display: block;
+	font-size: 16px;
+	color:#000000;
+}
+
+#schedule .welcome{
+background-color:#86B8E4;
+color:#FFFFFF;
+font-size: 16px;
+font-weight:bold;
+}
+#schedule .register{
+background-color:rgb(239, 239, 239);
+color:#00000;
+font-size: 16px;
+font-weight:bold;
+}
+#schedule .breaks{
+background-color:rgb(239, 239, 239);
+color:#00000;
+font-size: 16px;
+font-weight:bold;
+}
+
+#schedule .party{
+background-color:rgb(239, 239, 239);
+color:#00000;
+font-size: 16px;
+font-weight:bold;
+}
+
+#schedule #saturday{
+	display:none;
+}
+
+#talks #grid-talks ul{
+	padding-left:15px;
+	padding-right:15px;
+}
+
+#talks #grid-talks li {
+	margin-bottom:10px;
+}
+#talks .row{
+	font-size:18px;	
+}
+
+#talks .title{
+	font-size:22px;
+	font-weight:bold;
+}
+#talks .speaker{
+	font-size:22px;
+}
+
+#talks .tag{
+margin-left : 5px;
+font-size : 14px;
+display:inline-block
+}
+
+#talks .tag.Architecture{
+	background-color: #d50000;
+}
+
+#talks .tag.Metodology{
+	background-color: #41520f;
+}
+
+#talks .tag.Tools{
+	background-color: #d54991;
+}
+
+#talks .tag.IoT{
+	background-color: #98c66e;
+}
+
+#talks .tag.Java8{
+	background-color: #23a4b0;
+}
+
+#talks .tag.JVMLangs{
+	background-color: #60a91e;
+}
+
+#talks .tag.JVM{
+	background-color: #a64d79;
+}
+
+#talks .tag.Microservices{
+	background-color: #ff9e06;
+}
+
+#talks .tag.noSQL{
+	background-color: #0555c3;
+}
+
+#talks .tag.AsyncDevelopment{
+	background-color: #9900ff;
+}
+
+#talks .tag.Mobile{
+	background-color: #b45f06;
+}
+
+#talks .tag.Frameworks{
+	background-color: #9cbedb;
+}
+
+#talks .tag.unknown{
+	background-color: grey;
+}
