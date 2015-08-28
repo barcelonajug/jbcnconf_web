@@ -795,3 +795,6 @@ display:inline-block
 #talks .tag.unknown{
 	background-color: grey;
 }
+#references ul { margin: 20px auto 0 ; font-size: 20px; text-decoration: underline;}
+
+#references ul li { margin-bottom:10px;}
