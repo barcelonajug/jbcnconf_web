@@ -16,7 +16,9 @@
         "tags": [
           "Microservices",
           "Design"
-        ]
+        ],
+		"slides":"test",
+		"video":"test2"
       },
       "scheduleId": "#Fri-Track1-1655h"
     },
@@ -71,7 +73,9 @@
         "tags": [
           "Microservices",
           "Design"
-        ]
+        ],
+		"slides":"test",
+		"video":"test2"
       },
       "scheduleId": "#Fri-Track1-1655h"
     },

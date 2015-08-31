@@ -798,3 +798,32 @@ display:inline-block
 #references ul { margin: 20px auto 0 ; font-size: 20px; text-decoration: underline;}
 
 #references ul li { margin-bottom:10px;}
+
+#talks .slides{
+	padding: 5px 5px 5px 5px;
+}
+
+#talks .video{
+	padding: 5px 5px 5px 5px;
+}
+
+#schedule .slides{
+	padding: 5px 5px 5px 5px;
+}
+
+#schedule .video{
+	padding: 5px 5px 5px 5px;
+}
+
+#talk .slidesandvideo{
+	text-align: left;
+	font-size: 20px;
+}
+
+#talk .slides{
+	padding: 5px 5px 5px 5px;	
+}
+
+#talk .video{
+	padding: 5px 5px 5px 5px;
+}

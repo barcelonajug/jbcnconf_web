@@ -16,6 +16,12 @@ $(document).ready(function () {
 				if(val.scheduleId=='#Fri-Keynote' || val.scheduleId=='#Sat-Keynote'){
 					divspeaker="<span class='keynote'>Keynote [Auditorium]</span>"+divspeaker;
 				}
+				if(val.talk.slides){
+					divspeaker += "<a href='"+val.talk.slides+"'><span class='slides'><i class='fa fa-picture-o fa-1x'></i></span></a>";
+				}
+				if(val.talk.video){
+					divspeaker += "<a href='"+val.talk.video+"'><span class='video'><i class='fa fa-film fa-1x'></i></span></a>";
+				}
 				$(val.scheduleId).html(divspeaker);
 			}
 		}
