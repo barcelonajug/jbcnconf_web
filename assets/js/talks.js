@@ -26,10 +26,10 @@ $(document).ready(function () {
 			  });
 			}
 			if(val.talk.slides){
-				divtalk += "<a href='"+val.talk.slides+"'><span class='slides'><i class='fa fa-picture-o fa-1x'></i></span></a>";
+				divtalk += "<a href='"+val.talk.slides+"'><span class='slides' title='Slides'><i class='fa fa-picture-o fa-1x'></i></span></a>";
 			}
 			if(val.talk.video){
-				divtalk += "<a href='"+val.talk.video+"'><span class='video'><i class='fa fa-film fa-1x'></i></span></a>";
+				divtalk += "<a href='"+val.talk.video+"'><span class='video' title='Video'><i class='fa fa-film fa-1x'></i></span></a>";
 			}
 			divtalk += "</li>";
 

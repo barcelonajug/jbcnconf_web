@@ -79,10 +79,10 @@ $(document).ready(function () {
 				if(val.talk.slides || val.talk.video){
 					divtalk += "<p class='slidesandvideo'>";
 					if(val.talk.slides){
-						divtalk += "<a href='"+val.talk.slides+"'><span class='slides'><i class='fa fa-picture-o fa-1x'></i></span></a>";
+						divtalk += "<a href='"+val.talk.slides+"'><span class='slides'>Slides <i class='fa fa-picture-o fa-1x'></i></span></a>";
 					}
 					if(val.talk.video){
-						divtalk += "<a href='"+val.talk.video+"'><span class='video'><i class='fa fa-film fa-1x'></i></span></a>";
+						divtalk += "<a href='"+val.talk.video+"'><span class='video'>Video <i class='fa fa-film fa-1x'></i></span></a>";
 					}
 					divtalk += "</p>";
 				}
@@ -101,10 +101,10 @@ $(document).ready(function () {
 							if(valspeaker2.talk.slides || valspeaker2.talk.video){
 								divtalk += "<p class='slidesandvideo'>";
 								if(valspeaker2.talk.slides){
-									divtalk += "<a href='"+valspeaker2.talk.slides+"'><span class='slides'><i class='fa fa-picture-o fa-1x'></i></span></a>";
+									divtalk += "<a href='"+valspeaker2.talk.slides+"'><span class='slides'>Slides <i class='fa fa-picture-o fa-1x'></i></span></a>";
 								}
 								if(valspeaker2.talk.video){
-									divtalk += "<a href='"+valspeaker2.talk.video+"'><span class='video'><i class='fa fa-film fa-1x'></i></span></a>";
+									divtalk += "<a href='"+valspeaker2.talk.video+"'><span class='video'>Video <i class='fa fa-film fa-1x'></i></span></a>";
 								}
 								divtalk += "</p>";
 							}

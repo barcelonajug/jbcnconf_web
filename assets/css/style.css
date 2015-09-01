@@ -800,19 +800,31 @@ display:inline-block
 #references ul li { margin-bottom:10px;}
 
 #talks .slides{
-	padding: 5px 5px 5px 5px;
+	padding: 8px 5px 8px 5px;
+	font-size: 20px;
 }
 
 #talks .video{
-	padding: 5px 5px 5px 5px;
+	padding: 8px 5px 8px 5px;
+	font-size: 20px;
 }
 
 #schedule .slides{
-	padding: 5px 5px 5px 5px;
+	padding: 8px 5px 8px 5px;
+	font-size: 18px;
 }
 
 #schedule .video{
-	padding: 5px 5px 5px 5px;
+	padding: 8px 5px 8px 5px;
+	font-size: 18px;
+}
+
+#schedule .slides:hover {
+	color: rgb(185, 222, 243);
+}
+
+#schedule .video:hover {
+	color: rgb(185, 222, 243);
 }
 
 #talk .slidesandvideo{
@@ -821,9 +833,11 @@ display:inline-block
 }
 
 #talk .slides{
-	padding: 5px 5px 5px 5px;	
+	padding: 5px 20px 5px 0px;	
+	font-weight:bold;
 }
 
 #talk .video{
-	padding: 5px 5px 5px 5px;
+	padding: 5px 20px 5px 0px;
+	font-weight:bold;
 }
