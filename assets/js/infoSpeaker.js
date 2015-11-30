@@ -74,8 +74,19 @@ $(document).ready(function () {
 				divtalk="<div class='row'>"+
 						"<p class='title'>"+val.talk.title+"</p>"+
 						"<div class='borderTitle'></div>"+
-						"<p class='abstract'>"+val.talk.abstract+"</p>"+
-						"</div>";
+						"<p class='abstract'>"+val.talk.abstract+"</p>";
+				
+				if(val.talk.slides || val.talk.video){
+					divtalk += "<p class='slidesandvideo'>";
+					if(val.talk.slides){
+						divtalk += "<a href='"+val.talk.slides+"'><span class='slides'>Slides <i class='fa fa-picture-o fa-1x'></i></span></a>";
+					}
+					if(val.talk.video){
+						divtalk += "<a href='"+val.talk.video+"'><span class='video'>Video <i class='fa fa-film fa-1x'></i></span></a>";
+					}
+					divtalk += "</p>";
+				}
+				divtalk += "</div>";
 			  
 			
 			if(val.hasMoreTalks == 1){
@@ -86,8 +97,18 @@ $(document).ready(function () {
 							divtalk=divtalk+"<div class='row'>"+
 									"<p class='title'>"+valspeaker2.talk.title+"</p>"+
 									"<div class='borderTitle'></div>"+
-									"<p class='abstract'>"+valspeaker2.talk.abstract+"</p>"+
-									"</div>";						
+									"<p class='abstract'>"+valspeaker2.talk.abstract+"</p>";					
+							if(valspeaker2.talk.slides || valspeaker2.talk.video){
+								divtalk += "<p class='slidesandvideo'>";
+								if(valspeaker2.talk.slides){
+									divtalk += "<a href='"+valspeaker2.talk.slides+"'><span class='slides'>Slides <i class='fa fa-picture-o fa-1x'></i></span></a>";
+								}
+								if(valspeaker2.talk.video){
+									divtalk += "<a href='"+valspeaker2.talk.video+"'><span class='video'>Video <i class='fa fa-film fa-1x'></i></span></a>";
+								}
+								divtalk += "</p>";
+							}
+							divtalk += "</div>";
 						}
 					}
 				}

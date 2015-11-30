@@ -16,7 +16,9 @@
         "tags": [
           "Microservices",
           "Design"
-        ]
+        ],
+		"slides":"https://speakerdeck.com/tuenti/experiences-with-microservices-at-tuenti",
+		"video":"https://www.youtube.com/watch?v=og0MAiJ48I0"
       },
       "scheduleId": "#Fri-Track1-1655h"
     },
@@ -31,8 +33,9 @@
 		"twitter":"https://twitter.com/alexsotob",
 		"talk":{
 			"title":"Java EE 7, what's in it for me?",
-			"abstract":"The latest version of the Java EE plataform had three major goals. First, improve developer productivity by introducing more annotations and removing boilerplate code to simplify integration with the plataform. JMS 2 is the perfect example; Second, add first-class support for web standards, including a new API to build WebSockets, a new API to parse, process and generate JSON and a new Client API in JAX-RS 2 to invoke RESTful services; Third, meet the enterprise demands. The long awaited Batch Processing API is now available to build batch processing applications using all the capabilities of the platform itself. The Concurrency Utilities API provides you with asynchronous capabilities. This session will explore all the new features introduced in Java EE 7 and share information to learn, develop and contribute."
-			,"tags" : ["JavaEE"]
+			"abstract":"The latest version of the Java EE plataform had three major goals. First, improve developer productivity by introducing more annotations and removing boilerplate code to simplify integration with the plataform. JMS 2 is the perfect example; Second, add first-class support for web standards, including a new API to build WebSockets, a new API to parse, process and generate JSON and a new Client API in JAX-RS 2 to invoke RESTful services; Third, meet the enterprise demands. The long awaited Batch Processing API is now available to build batch processing applications using all the capabilities of the platform itself. The Concurrency Utilities API provides you with asynchronous capabilities. This session will explore all the new features introduced in Java EE 7 and share information to learn, develop and contribute.",
+			"tags" : ["JavaEE"],
+			"slides":"http://www.tomitribe.com/blog/presentation/java-ee-7-whats-in-it-for-me/"
 		},
         "scheduleId": "#Sat-Track2-9h"
 	},
@@ -51,7 +54,8 @@
         "abstract": "Are you one of those that search Around the World looking for clues on how to get maven to do your bidding or do you just toss a coin and Get Lucky One More Time? Maven works OK but there’s a new tool in town that goes Beyond maven: Gradle. It’s Fresh, almost Aerodynamic. Once you get in Contact with it you’ll feel like Doin’ It Right when building a project. We kid you not, it’s an Instant Crush for those that have followed the maven path. This is The Prime Time of Your Life as a developer, make the most out of it by leveraging the best tools. Oh Yeah.",
         "tags": [
           "Gradle"
-        ]
+        ],
+		"video":"https://www.youtube.com/watch?v=w5_kHZyCnVc"
       },
       "scheduleId": "#Sat-Track3-15h"
     },
@@ -71,7 +75,9 @@
         "tags": [
           "Microservices",
           "Design"
-        ]
+        ],
+		"slides":"https://speakerdeck.com/tuenti/experiences-with-microservices-at-tuenti",
+		"video":"https://www.youtube.com/watch?v=og0MAiJ48I0"
       },
       "scheduleId": "#Fri-Track1-1655h"
     },
@@ -135,7 +141,9 @@
           "Event-driven",
           "Async",
           "Scalability"
-        ]
+        ],
+		"slides":"https://speakerdeck.com/zdanek/vert-dot-x-3-high-performance-polyglot-application-platform",
+		"video":"https://www.youtube.com/watch?v=dBQhoNlU2Ts"
       },
       "scheduleId": "#Fri-Track1-11h"
     },
@@ -155,7 +163,8 @@
         "tags": [
           "Java8",
           "FunctionalProgramming"
-        ]
+        ],
+		"video":"https://www.youtube.com/watch?v=MC6UdZAd7ZE"
       },
       "scheduleId": "#Fri-Track3-1535h"
     },
@@ -196,7 +205,8 @@
         "tags": [
           "Integration",
           "Microservices"
-        ]
+        ],
+		"video":"https://www.youtube.com/watch?v=HX7Po8_MI2w"
       },
       "scheduleId": "#Fri-Track1-1535h"
     },
@@ -234,7 +244,8 @@
         "tags": [
           "Java8",
           "FunctionalProgramming"
-        ]
+        ],
+		"slides":"http://www.slideshare.net/dgomezg/streams-en-java-8"
       },
       "scheduleId": "#Sat-Track2-1005h"
     },
@@ -254,7 +265,8 @@
           "Cloud",
           "Containers",
           "Microservices"
-        ]
+        ],
+		"video":"https://www.youtube.com/watch?v=qhXqySYopuQ"
       },
       "scheduleId": "#Sat-Track3-1005h"
     },
@@ -274,7 +286,9 @@
           "DistributedSystems",
           "MapReduce",
           "Hadoop"
-        ]
+        ],
+		"slides":"http://www.slideshare.net/FerranGalReniu/unleash-your-cluster-with-yarn",
+		"video":"https://www.youtube.com/watch?v=kuDbTRZhe1U"
       },
       "scheduleId": "#Sat-Track1-1005h"
     },
@@ -318,7 +332,9 @@
           "Containers",
           "ContinuousDelivery",
           "Devops"
-        ]
+        ],
+		"slides":"https://www.ibm.com/developerworks/community/groups/service/html/communityview?communityUuid=e4b149c1-b695-4de1-9671-538da8d1fb5f#fullpageWidgetId=W0019f1518246_458d_9ed6_5e85a6074492&file=2026dc95-b6f1-4329-80a2-09184e90f7c7",
+		"video":"https://www.youtube.com/watch?v=ITwPPjiRf2Y"
       },
       "scheduleId": "#Sat-Track3-1130h"
     },
@@ -338,7 +354,8 @@
           "Ceylon",
           "JVM langs",
           "Design"
-        ]
+        ],
+		"video":"https://www.youtube.com/watch?v=kZqkJ0jU49A"
       },
       "scheduleId": "#Sat-Keynote"
     },
@@ -358,7 +375,8 @@
         "tags": [
           "Kotlin",
           "JVM langs"
-        ]
+        ],
+		"video":"https://www.youtube.com/watch?v=8dM4I7Iue78"
       },
       "scheduleId": "#Fri-Track3-1430h"
     },
@@ -378,7 +396,9 @@
           "bigdata",
           "MapReduce",
           "Hadoop"
-        ]
+        ],
+		"slides":"https://github.com/mitxino77/Slides/tree/master/20150626-JBCNConf",
+		"video":"https://www.youtube.com/watch?v=jExowJxa6Mk"
       },
       "scheduleId": "#Sat-Track1-9h"
     },
@@ -400,7 +420,9 @@
           "Containers",
           "Kubernetes",
           "Scalability"
-        ]
+        ],
+		"slides":"http://fabric8.io/presentations/kubernetes-for-java-developers/",
+		"video":"https://www.youtube.com/watch?v=d9js_j2syjo"
       },
       "scheduleId": "#Fri-Keynote"
     },
@@ -420,7 +442,8 @@
           "Scalability",
 		  "Cloud",
 		  "Microservices"
-        ]
+        ],
+		"video":"https://www.youtube.com/watch?v=UGzgFekUelI"
       },
       "scheduleId": "#Sat-Track1-1605h"
     },
@@ -440,7 +463,8 @@
         "tags": [
           "Cloud",
           "Microservices"
-        ]
+        ],
+		"slides":"https://github.com/capside/spring-cloud-lab"
       },
       "scheduleId": "#Fri-Track4-1655h"
     },
@@ -459,7 +483,8 @@
         "abstract": "Apache Karaf becomes more and more popular and the new 3.0.x releases have been an important step forward for to increase the adaption of Karaf in enterprise. This talk will introduce the new features provided in Karaf 3.0.x and how they answer to the enterprise needs. It will also introduce the new features coming in the roadmap. ",
         "tags": [
           "Integration"
-        ]
+        ],
+		"video":"https://www.youtube.com/watch?v=2tkdlIMc2cI"
       },
       "scheduleId": "#Fri-Track1-1205h"
     },
@@ -501,7 +526,9 @@
         "tags": [
           "Async",
           "Netty"
-        ]
+        ],
+		"slides":"http://es.slideshare.net/giro9/netty-from-the-trenches",
+		"video":"https://www.youtube.com/watch?v=Q5i162D_1TU"
       },
       "scheduleId": "#Sat-Track1-1235h"
     },
@@ -521,7 +548,8 @@
         "tags": [
           "Cloud",
           "Devops"
-        ]
+        ],
+		"video":"https://www.youtube.com/watch?v=hOXJg2XAsIg"
       },
       "scheduleId": "#Sat-Track3-9h"
     },
@@ -546,7 +574,9 @@
           "Clojure",
           "Ceylon",
           "Kotlin"
-        ]
+        ],
+		"slides":"https://speakerdeck.com/jmortega/comparing-jvm-languages",
+		"video":"https://www.youtube.com/watch?v=sLsTXW2aNXY"
       },
       "scheduleId": "#Fri-Track3-1205h"
     },
@@ -586,7 +616,9 @@
         "tags": [
           "Containers",
           "ContinuousDelivery"
-        ]
+        ],
+		"slides":"http://www.slideshare.net/JuliaMateo1/continuous-delivery-with-docker-and-mesosmarathon-jbcnconf",
+		"video":"https://www.youtube.com/watch?v=sdN3g1fnpaE"
       },
       "scheduleId": "#Sat-Track3-1235h"
     },
@@ -609,7 +641,8 @@
           "AngularJS",
           "MongoDB",
           "ElasticSearch"
-        ]
+        ],
+		"video":"https://www.youtube.com/watch?v=tfYBD0F5Tes"
       },
       "scheduleId": "#Fri-Track3-1655h"
     },
@@ -630,7 +663,8 @@
         "tags": [
           "RxJava",
           "FunctionalProgramming"
-        ]
+        ],
+		"slides":"https://speakerdeck.com/simonbasle/practical-rxjava-workshop"
       },
       "scheduleId": "#Fri-Track4-1430h"
     },
@@ -652,7 +686,9 @@
           "Cloud",
           "Design",
           "Scalability"
-        ]
+        ],
+		"slides":"http://es.slideshare.net/ZalandoTech/jbcnconf",
+		"video":"https://www.youtube.com/watch?v=QWYsun7EEJo"
       },
       "scheduleId": "#Sat-Track1-15h"
     },
@@ -672,7 +708,8 @@
         "tags": [
           "jBPM",
           "Vert.x"
-        ]
+        ],
+		"slides":"http://www.slideshare.net/salaboy/jbcnconf-jbpm-vertx-reactive-and-polyglot-bpm"
       },
       "scheduleId": "#Fri-Track2-1655h"
     },
@@ -693,7 +730,8 @@
           "Architecture",
           "Design",
           "Microservices"
-        ]
+        ],
+		"video":"https://www.youtube.com/watch?v=y6ZbHV_zCfs"
       },
       "scheduleId": "#Fri-Track1-1750h"
     },
@@ -713,7 +751,9 @@
           "Design",
           "Bigdata",
           "Groovy"
-        ]
+        ],
+		"slides":"http://www.slideshare.net/marc.de.palol/no-bid-left-behind",
+		"video":"https://www.youtube.com/watch?v=6q9hFmLmaYo"
       },
       "scheduleId": "#Sat-Track1-1130h"
     },
@@ -732,7 +772,8 @@
         "tags": [
           "Android",
           "Groovy"
-        ]
+        ],
+		"video":"https://www.youtube.com/watch?v=-f9VSLvTA3w"
       },
       "scheduleId": "#Fri-Track3-11h"
     },
@@ -753,7 +794,8 @@
         "tags": [
           "jBPM",
           "Vert.x"
-        ]
+        ],
+		"slides":"http://www.slideshare.net/salaboy/jbcnconf-jbpm-vertx-reactive-and-polyglot-bpm"
       },
       "scheduleId": "#Fri-Track2-1655h"
     },
@@ -795,7 +837,9 @@
           "noSQL",
           "MongoDB",
           "Design"
-        ]
+        ],
+		"slides":"http://www.slideshare.net/NorbertoLeite/strongly-typed-languages-and-flexible-schemas",
+		"video":"https://www.youtube.com/watch?v=1bRC_WS-fB4"
       },
       "scheduleId": "#Sat-Track3-1605h"
     },
@@ -815,7 +859,9 @@
         "tags": [
           "Frameworks",
           "Design"
-        ]
+        ],
+		"slides":"http://www.slideshare.net/pablochacin/look-ma-no-frameworks",
+		"video":"https://www.youtube.com/watch?v=c6_m2XmasCo"
       },
       "scheduleId": "#Fri-Track3-1750h"
     },
@@ -835,7 +881,8 @@
         "tags": [
           "Compiler",
           "Performance"
-        ]
+        ],
+		"slides":"http://blog.rafols.org/?p=373"
       },
       "scheduleId": "#Sat-Track2-15h"
     },
@@ -854,7 +901,8 @@
         "tags": [
           "Clojure",
           "FunctionalProgramming"
-        ]
+        ],
+		"slides":"https://github.com/reborg/fp-languages/tree/jbcn2015"
       },
       "scheduleId": "#Sat-Track2-1130h"
     },
@@ -875,7 +923,8 @@
           "Messaging",
           "Scalability",
           "Cloud"
-        ]
+        ],
+		"video":"https://www.youtube.com/watch?v=H-u_D93iV6w"
       },
       "scheduleId": "#Fri-Track1-1430h"
     },
@@ -896,7 +945,9 @@
           "Cloud",
           "Design",
           "Scalability"
-        ]
+        ],
+		"slides":"http://es.slideshare.net/ZalandoTech/jbcnconf",
+		"video":"https://www.youtube.com/watch?v=QWYsun7EEJo"
       },
       "scheduleId": "#Sat-Track1-15h"
     },
@@ -917,7 +968,8 @@
         "tags": [
           "RxJava",
           "FunctionalProgramming"
-        ]
+        ],
+		"slides":"https://speakerdeck.com/simonbasle/practical-rxjava-workshop"
       },
       "scheduleId": "#Fri-Track4-1430h"
     },

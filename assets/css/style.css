@@ -795,3 +795,49 @@ display:inline-block
 #talks .tag.unknown{
 	background-color: grey;
 }
+#references ul { margin: 20px auto 0 ; font-size: 20px; text-decoration: underline;}
+
+#references ul li { margin-bottom:10px;}
+
+#talks .slides{
+	padding: 8px 5px 8px 5px;
+	font-size: 20px;
+}
+
+#talks .video{
+	padding: 8px 5px 8px 5px;
+	font-size: 20px;
+}
+
+#schedule .slides{
+	padding: 8px 5px 8px 5px;
+	font-size: 18px;
+}
+
+#schedule .video{
+	padding: 8px 5px 8px 5px;
+	font-size: 18px;
+}
+
+#schedule .slides:hover {
+	color: rgb(185, 222, 243);
+}
+
+#schedule .video:hover {
+	color: rgb(185, 222, 243);
+}
+
+#talk .slidesandvideo{
+	text-align: left;
+	font-size: 20px;
+}
+
+#talk .slides{
+	padding: 5px 20px 5px 0px;	
+	font-weight:bold;
+}
+
+#talk .video{
+	padding: 5px 20px 5px 0px;
+	font-weight:bold;
+}
