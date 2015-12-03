@@ -206,6 +206,7 @@
           "Integration",
           "Microservices"
         ],
+               "slides":"https://drive.google.com/open?id=0B7MDmWNgX3E1TGtQZVVHM2E3ZC1fSnJxSEh0a21BYk8tSmUw",
 		"video":"https://www.youtube.com/watch?v=HX7Po8_MI2w"
       },
       "scheduleId": "#Fri-Track1-1535h"
@@ -312,7 +313,7 @@
         ]
       },
       "scheduleId": "#Fri-Track4-11h",
-      "hasMoreTalks": 1
+      "hasMoreTalks": "1"
     },
     {
       "enabled": "1",
@@ -376,7 +377,8 @@
           "Kotlin",
           "JVM langs"
         ],
-		"video":"https://www.youtube.com/watch?v=8dM4I7Iue78"
+               "slides":"http://try.kotlinlang.org/",
+		           "video":"https://www.youtube.com/watch?v=8dM4I7Iue78"
       },
       "scheduleId": "#Fri-Track3-1430h"
     },
@@ -484,7 +486,8 @@
         "tags": [
           "Integration"
         ],
-		"video":"https://www.youtube.com/watch?v=2tkdlIMc2cI"
+               "slides":"https://drive.google.com/open?id=0B7MDmWNgX3E1MlcwTGVLUW1mbTJOV1JESVdReVpFam5PcWtN",
+		           "video":"https://www.youtube.com/watch?v=2tkdlIMc2cI"
       },
       "scheduleId": "#Fri-Track1-1205h"
     },
@@ -507,7 +510,8 @@
           "AngularJS",
           "IoT",
           "Scala"
-        ]
+        ],
+            "slides":"https://drive.google.com/open?id=0B7MDmWNgX3E1SXR2NFZmS0xsVElkel9LNHBxa25keW9nYmFR"
       },
       "scheduleId": "#Fri-Track2-11h"
     },
@@ -731,7 +735,8 @@
           "Design",
           "Microservices"
         ],
-		"video":"https://www.youtube.com/watch?v=y6ZbHV_zCfs"
+               "slides" : "https://docs.google.com/presentation/d/1A7Qum59gc7o-qC6oaYQ0Bz2hZNKHWFnauphLWg7NonI/edit?usp=sharing",
+		           "video":"https://www.youtube.com/watch?v=y6ZbHV_zCfs"
       },
       "scheduleId": "#Fri-Track1-1750h"
     },
@@ -924,7 +929,8 @@
           "Scalability",
           "Cloud"
         ],
-		"video":"https://www.youtube.com/watch?v=H-u_D93iV6w"
+               "slides":"https://drive.google.com/open?id=0B7MDmWNgX3E1Y0VXMDhXOTVRZF9tRERpX2otRFVtU1g0ZnBV",
+		           "video":"https://www.youtube.com/watch?v=H-u_D93iV6w"
       },
       "scheduleId": "#Fri-Track1-1430h"
     },
@@ -1012,7 +1018,8 @@
           "AngularJS",
           "IoT",
           "Scala"
-        ]
+        ],
+        "slides":"https://drive.google.com/open?id=0B7MDmWNgX3E1SXR2NFZmS0xsVElkel9LNHBxa25keW9nYmFR"
       },
       "scheduleId": "#Fri-Track2-11h"
     }
