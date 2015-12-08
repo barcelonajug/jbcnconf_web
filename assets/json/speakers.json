@@ -356,6 +356,7 @@
           "JVM langs",
           "Design"
         ],
+    "slides":"http://ceylon-lang.org/community/presentations/MODERN_LANGUAGES-en.pdf",
 		"video":"https://www.youtube.com/watch?v=kZqkJ0jU49A"
       },
       "scheduleId": "#Sat-Keynote"
