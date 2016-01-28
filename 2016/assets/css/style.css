@@ -51,6 +51,12 @@ a:focus {
 	background-repeat: no-repeat;
 	background-position: center center;
 }
+.bcn-blue{
+    background-image: url(../img/bcn_blue.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 190px;
+}
 #navbar-top { min-height: 51px }
 .navbar-default {
 	margin-bottom: 0;
@@ -484,7 +490,7 @@ a:focus {
 	padding: 20px 0;
 	color: #ccc;
 	text-align: center;
-	background-color: #2a3940;
+	background-color: black;
 }
 #contact a  { color: #fff }
 #contact a:hover .jug,
