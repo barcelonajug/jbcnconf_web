@@ -7,6 +7,7 @@ License: Apache License v2.0
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #444;
+	background-color: #f5f5f5;
 }
 h1,
 h2,
@@ -145,8 +146,11 @@ a:focus {
 .logo {
 	max-width: 100%;
 }
-#services,#location,#tickets,.bcn-blue {
-	background-color: #f5f5f5;
+#sponsors,#speakers{
+	background-color: white;
+}
+.speakers-page{
+	background-color: #f5f5f5 !important;
 }
 #services .service i { margin-top: 60px }
 #services .service:hover i { color: #71be3c }
