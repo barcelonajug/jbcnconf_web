@@ -146,6 +146,11 @@ a:focus {
 .logo {
 	max-width: 100%;
 }
+.twitter iframe{
+	background-color: white;
+	border-radius: 5px;
+	margin: 5px;
+}
 #sponsors,#speakers{
 	background-color: white;
 }
@@ -258,6 +263,28 @@ a:focus {
 	text-decoration: underline;
 	color: #428bca;
 }
+#sponsors img{
+	margin: 0 auto;
+}
+#sponsors .goldenrow{
+	border: #D4AF37 dashed 5px;
+	border-radius: 10px;
+	padding: 10px;
+}
+#sponsors .silverrow{
+	border: #C0C0C0 dashed 5px;
+	border-radius: 10px;
+	padding: 10px;
+}
+#sponsors .bronzerow{
+	border: #CD7F32 dashed 5px;
+	border-radius: 10px;
+	padding: 10px;
+}
+#sponsors .supportersrow{
+	border: #444 dashed 5px;
+	border-radius: 10px;
+}
 #sponsors .sponsor .sponsor-photo{
 	margin-top:3px;
 }
@@ -295,44 +322,44 @@ a:focus {
 	margin: 0px;
 }
 #sponsors .gold{
-	color: white;
 	background-color: #D4AF37;
-	width: 165px;
-	height: 165px;
-	border-radius: 150px;
-	padding: 45px 25px 0 25px;
-	font-size: 50px;
+	color: #FFF;
+	height: 50px;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 30px;
 	font-weight: bold;
+	margin: 20px;
 }
 #sponsors .silver {
-	color: white;
 	background-color: #C0C0C0;
-	width: 165px;
-	height: 165px;
-	border-radius: 150px;
-	padding: 45px 0 0 5px;
-	font-size: 50px;
+	color: #FFF;
+	height: 50px;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 30px;
 	font-weight: bold;
+	margin: 20px;
 }
 #sponsors .bronze {
-	color: white;
 	background-color: #CD7F32;
-	width: 165px;
-	height: 165px;
-	border-radius: 150px;
-	padding: 50px 0 0 5px;
-	font-size: 40px;
+	color: #FFF;
+	height: 50px;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 30px;
 	font-weight: bold;
+	margin: 20px;
 }
 #sponsors .supporters {
-	color: white;
 	background-color: #444;
-	width: 165px;
-	height: 165px;
-	border-radius: 150px;
-	padding: 60px 0 0 5px;
-	font-size: 25px;
+	color: #FFF;
+	height: 50px;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 30px;
 	font-weight: bold;
+	margin: 20px;
 }
 #sponsors .separator.bronze {
 

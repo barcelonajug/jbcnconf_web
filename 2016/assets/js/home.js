@@ -1,17 +1,21 @@
 $(document).ready(function () {
 	loadRandomSpeakers();
+	$('.popov').popover({
+		'trigger':'hover',
+		'placement':'top'
+	});
 });
 
 function loadRandomSpeakers() {
 	$.getJSON( "assets/json/speakers.json", function( data ) {
 		var currentIndex = data.speakers.length;
 	    for(var i=0;i<4;i++){
- 		    randomIndex = Math.floor(Math.random() * currentIndex);		
+ 		    randomIndex = Math.floor(Math.random() * currentIndex);
   		    val = data.speakers[randomIndex];
 		  	if (val.enabled == 1 && val.repeated !=1) {
 				divspeaker="<div class='speaker-info col-md-3 col-sm-6 col-xs-12 teammate animated' data-animation='fadeInUp' data-delay='600'>"+
 							  "<div class='profile-photo'>";
-				if(val.url!=""){						  
+				if(val.url!=""){
 					divspeaker=divspeaker+"<a href='"+val.url+"'><img class='img-responsive' src='"+val.image+"' alt='"+val.name+"' width='165px' height='165px'>";
 					if(val.talk !=null){
 						divspeaker=divspeaker+"<div class='overlay'>"+
@@ -42,7 +46,7 @@ function loadRandomSpeakers() {
 						  "<i class='fa fa-globe'></i>"+
 						"</a>"+
 					"</li>";
-				}				  
+				}
 				divspeaker=divspeaker+"</ul>"+
 				  "</div>"+
 				"</div>";
@@ -55,7 +59,7 @@ function loadRandomSpeakers() {
 				data.speakers[randomIndex] = temporaryValue;
 	        }	else {
 	        	i--;
-	        }		
+	        }
 		}
 	});
 }
