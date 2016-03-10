@@ -123,9 +123,10 @@ a:focus {
 #home {
 	padding: 0;
 	color: #fff;
-	background-image: url(../img/cover/parcguell.jpg);
+	background-image: url(../img/cover/2016.jpg);
 	background-repeat: no-repeat;
-	background-position: center center;
+	/* background-position: center center; */
+	background-position: center top -70px;
 	background-size: cover;
 }
 #home h1 {
