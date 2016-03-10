@@ -268,23 +268,13 @@ a:focus {
 	margin: 0 auto;
 }
 #sponsors .goldenrow{
-	border: #D4AF37 dashed 5px;
-	border-radius: 10px;
 	padding: 10px;
 }
 #sponsors .silverrow{
-	border: #C0C0C0 dashed 5px;
-	border-radius: 10px;
 	padding: 10px;
 }
 #sponsors .bronzerow{
-	border: #CD7F32 dashed 5px;
-	border-radius: 10px;
 	padding: 10px;
-}
-#sponsors .supportersrow{
-	border: #444 dashed 5px;
-	border-radius: 10px;
 }
 #sponsors .sponsor .sponsor-photo{
 	margin-top:3px;
