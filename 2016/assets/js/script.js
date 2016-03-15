@@ -11,7 +11,13 @@ function initNavbar() {
         scrollOffset: scrollOffset,
         scrollThreshold: 0.5,
         filter: ':not(.external)',
-        easing: easing
+        easing: easing,
+        scrollChange: function($currentListItem) {
+            $currentListItem.siblings().each(function() {
+                $(this).removeClass("active");
+                $(this).children("a").blur();
+            });
+    }
     });
 
     $('.nav-external').click(function (e) {
