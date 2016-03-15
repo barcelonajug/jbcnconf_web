@@ -343,6 +343,16 @@ a:focus {
 	font-weight: bold;
 	margin: 20px;
 }
+#sponsors .startups {
+	background-color: green;
+	color: #FFF;
+	height: 50px;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 20px;
+}
 #sponsors .supporters {
 	background-color: #444;
 	color: #FFF;
