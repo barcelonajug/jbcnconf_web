@@ -1,0 +1,26 @@
+{
+  "speakers": [
+    {
+      "enabled": "1",
+      "name": "Andrés Viedma",
+      "description": "Senior software engineer at Tuenti.",
+      "biography": "Java dinosaur with more than 20 years of experience, working for companies in different industries (aerospace, libraries, advertising, bank/insurance...). Now working as senior software engineer at Tuenti.",
+      "image": "assets/img/logo.png",
+      "ref": "aviedma",
+      "url": "infoSpeaker.html?ref=aviedma",
+      "twitter": "https://twitter.com/andres_viedma",
+      "cospeakerref": "afas",
+      "talk": {
+        "title": "Experiences with Microservices at Tuenti",
+        "abstract": "'Microservices' is one of the most popular buzzwords in the industry now, but are they really a step forward? Or they might be more a problem than a solution? When are they really helpful? How should they be addressed? What challenges will we face if we decide to implement a microservices based architecture?<br><br>One year ago, Tuenti moved from a monolithic PHP backend to a Java + PHP microservices architecture. In this talk, we'll share our experiences so far: how we addressed the change, how we implemented it, why we think it's been valuable for us (and how is that related to the company culture), why it might not be a good idea for your company / application and, mostly, what lessons we have learned from this experience.",
+        "tags": [
+          "Microservices",
+          "Design"
+        ],
+    "slides":"https://speakerdeck.com/tuenti/experiences-with-microservices-at-tuenti",
+    "video":"https://www.youtube.com/watch?v=og0MAiJ48I0"
+      },
+      "scheduleId": "#Fri-Track1-1655h"
+    }
+  ]
+}
