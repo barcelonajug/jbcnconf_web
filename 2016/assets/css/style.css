@@ -298,9 +298,9 @@ a:focus {
 	-o-transform: scale(1.1);
 	transform: scale(1.1);
 }
-#sponsors .row{
+/* #sponsors .row{
 	margin-bottom: 75px;
-}
+} */
 #sponsors .border{
 	margin-bottom: 40px;
 }

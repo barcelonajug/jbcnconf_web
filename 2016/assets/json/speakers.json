@@ -5,7 +5,7 @@
       "name": "Andrés Viedma",
       "description": "Senior software engineer at Tuenti.",
       "biography": "Java dinosaur with more than 20 years of experience, working for companies in different industries (aerospace, libraries, advertising, bank/insurance...). Now working as senior software engineer at Tuenti.",
-      "image": "assets/img/speakers/AndresViedma.jpg",
+      "image": "assets/img/logo.png",
       "ref": "aviedma",
       "url": "infoSpeaker.html?ref=aviedma",
       "twitter": "https://twitter.com/andres_viedma",
@@ -17,8 +17,8 @@
           "Microservices",
           "Design"
         ],
-		"slides":"https://speakerdeck.com/tuenti/experiences-with-microservices-at-tuenti",
-		"video":"https://www.youtube.com/watch?v=og0MAiJ48I0"
+    "slides":"https://speakerdeck.com/tuenti/experiences-with-microservices-at-tuenti",
+    "video":"https://www.youtube.com/watch?v=og0MAiJ48I0"
       },
       "scheduleId": "#Fri-Track1-1655h"
     }
