@@ -823,8 +823,16 @@ a:focus {
 }
 
 #talks .tag.unknown{
-	background-color: grey;
+	background-color: yellow;
 }
+
+#talks .level.Intermediate,
+#talks .level.Beginner,
+#talks .level.Advanced{
+	font-style: italic;
+	color: gray;
+}
+
 #references ul { margin: 20px auto 0 ; font-size: 20px; text-decoration: underline;}
 
 #references ul li { margin-bottom:10px;}
