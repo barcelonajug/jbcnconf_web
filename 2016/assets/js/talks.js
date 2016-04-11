@@ -25,6 +25,10 @@ $(document).ready(function () {
 			  	divtalk += "<span class='label tag "+getFamilyForTag(value)+"'>" + value + "</span>";
 			  });
 			}
+			if(val.talk.level){
+				divtalk += "<span class='label level "+val.talk.level+"'>"+ val.talk.level +"</span>";
+			}
+
 			if(val.talk.slides){
 				divtalk += "<a href='"+val.talk.slides+"'><span class='slides' title='Slides'><i class='fa fa-picture-o fa-1x'></i></span></a>";
 			}
@@ -49,29 +53,28 @@ function getFamilyForTag(tag){
 		case "Cloud":
 		case "Integration":
 		case "Design":
+		case "Modularity":
 		case "Architecture":
+		case "Patterns":
 			family = "Architecture"; break;
-			
+
 		case "Testing" : 
 		case "Devops" :
 		case "ContinuousDelivery":
 		case "ContinuousIntegration":
 			family = "Metodology"; break;
-
 		case "Gradle":
 			family = "Tools"; break;
-			
 		case "IoT":
 			family = "IoT"; break;
-			
+		case "Java9":
 		case "Java8":
 		case "FunctionalProgramming":
 			family = "Java8"; break;
-			
-		case "Kotlin" : 
-		case "Clojure" :		
+		case "Kotlin" :
+		case "Clojure":
 		case "Groovy" :
-		case "Ceylon": 
+		case "Ceylon":
 		case "JVM langs" :
 		case "Scala":
 			family = "JVMLangs"; break;
@@ -87,6 +90,7 @@ function getFamilyForTag(tag){
 		case "Kubernetes":
 		case "Microservices":
 		case "RESTful":
+		case "Docker":
 			family = "Microservices"; break;
 
 		case "noSQL" :
@@ -114,6 +118,7 @@ function getFamilyForTag(tag){
 		case "Vert.x" : 
 		case "Frameworks":
 		case "jBPM":
+		case "Drools":
 			family = "Frameworks"; break;
 			
 		default : family = "unknown"; 

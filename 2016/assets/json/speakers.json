@@ -9,14 +9,13 @@
       "ref": "rdavies",
       "url": "infoSpeaker.html?ref=rdavies",
       "twitter": "https://twitter.com/rajdavies",
-      
       "talk": {
         "title": "Messaging and Microservices",
         "abstract": "Microservices sometimes need more than REST for scaling and performance and Message-oriented Middleware seems like an ideal fit. However, traditional Enterprise Message Brokers are pretty static, and are poor at providing the elasticity required for cloud deployments. This talk will walk through some scenarios and different deployments, adding automatic sharding across clusters of brokers and sprinkle with magic from fabric8 - to show we can have a highly scalable cloud based messaging solution ideal for microservices.",
         "tags": [
-          "Microservices"
-        ]
-    
+          "Microservices", "Messaging"
+        ],
+        "level": "Intermediate"
       },
       "scheduleId": ""
     },
@@ -33,10 +32,9 @@
         "title": "Cloud Native Camel riding with Kubernetes and OpenShift",
         "abstract": "Microservices is still a distributed-systems problem and integration is a core component to any distributed system. A lot of organizations that are looking to deploy microservices are running into the following problems: how to test, how to deploy, VM proliferation, how to manage, and ultimately how to get services to integrate in a reliable way. Fuse Integration Services for OpenShift is a Docker/Kubernetes-native way of packaging our microservices and leveraging powerful integration technology built on Apache Camel to do connect the pieces together. After that, how do you build, manage and continuously deploy your microserivces? With another open-source project, fabric8.io, we can hook into well-known CI/CD tools like github, jenkins, nexus, et al, and build out end to end  pipelines with promotion and approval processes that can be customized to suit your projects and organizations needs. CI/CD also integrates with LetsChat/Slack/Ryver using Hubot automation to deliver transparency and control to enable organizations to practice ChatOps. Once you've got your microservices being built and deployed, leverage the built-in API Management, middleware visualization console, chaos monkey, and centralized logging/metrics/monitoring to operationalize your services and ensure they stay resilient.",
         "tags": [
-          "Microservices",
-          "Cloud"
-        ]
-    
+          "Microservices", "Cloud", "Docker", "Kubernetes"
+        ],
+        "level": "Intermediate"
       },
       "scheduleId": ""
     },
@@ -52,9 +50,9 @@
         "title": "Knowledge driven micro services",
         "abstract": "With constantly growing business demands more and more focus is put on gathering business knowledge and making use of it in IT. Knowledge Is Everything - that’s a slogan that lots of business domains is catching up right now.On the other hand, recent trends in software development are shifting into micro services environments where loosely coupled, standalone and independent services provide access to various business assets. With that in mind, knowledge driven micro service idea came into live to combine couple of great technologies together to satisfy such needs:- vert.x - toolkit for building reactive applications on JVM- jBPM and Drools flexible process and rule engines that provide excellent execution environment for business assets - the knowledge- hazelcast - in memory data grid- various programming languages (Java, JavaScript, Scala, Groovy) to attract various development teams. This session is about illustrating how easily and fast you can build knowledge driven micro services and scale them to almost no limits. All in reactive and polyglot fashion with powerful clustering. Scale individual knowledge micro services without a hassle and allow various languages to easily interact with business knowledge without a need to know where they are located. It all goes via clustered event bus provided by Vert.x, backed by deployable knowledge archives provided by jBPM and Drools, clustering delivered by hazelcast data grid and allow polyglot client side access.It’s all about business knowledge that can be delivered as software solution with:- flexibility - speed of development - isolated scalability - manageability . Come and see how to transform your IT solutions into knowledge driven micro services with Vert.x, jBPM, Drools and Hazelcast. This session will be full of life demos to actually show the running micro services driven by business knowledge.",
         "tags": [
-          "Microservices",
-          "Design"
-        ]
+          "Microservices", "Design", "Vert.x", "jBPM"
+        ],
+        "level": "Intermediate"
       },
       "scheduleId": ""
     },
@@ -71,9 +69,9 @@
         "title": "What's NOT new in Modular Java!",
         "abstract": "With Java 9 and Jigsaw project around the corner (this time apparently for real), we finally need to stop pretending we can simply ignore the concept of modularity in Java! The thing is - modularity is NOT just some new framework! Neither it is a simple set of APIs! It's a complex concept that has been around for almost as long as the industry itself. So in this talk I'd like to take a step back and reason about the fundamental idea of modularity in Java by comparing the concepts of Jigsaw with other Java modularity approaches and implementations that have been around for quite some time.",
         "tags": [
-          "Modularity",
-          "Java9"
-        ]
+          "Modularity", "Java9"
+        ],
+        "level": "Intermediate"
       },
       "scheduleId": ""
     },
@@ -90,8 +88,9 @@
         "title": "Advanced testing patterns in Java and Scala",
         "abstract": "Not your father's unit testing. This talk will deal with advanced testing techniques like parameterized testing, property testing, dynamic test generation. It will also focus on techniques for making seemingly untestable code testable. I'll show techniques for both Java and Scala, along with hints on how to integrate the two.",
         "tags": [
-          "Testing"
-        ]
+          "Testing", "Scala", "Patterns"
+        ],
+        "level": "Intermediate"
       },
       "scheduleId": ""
     }
