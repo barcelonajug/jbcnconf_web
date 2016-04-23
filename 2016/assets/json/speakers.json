@@ -93,6 +93,63 @@
         "level": "Intermediate"
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "0",
+      "name": "Jean Baptiste Onofre",
+      "description": "Apache Member, PMC Chair of Karaf",
+      "biography": "JB is Apache Member, PMC Chair of Karaf, and working on about 20 Apache projects.",
+      "image": "assets/img/speakers/jbonofre.png",
+      "ref": "jbonofre",
+      "url": "infoSpeaker.html?ref=jbonofre",
+      "twitter": "https://twitter.com/jbonofre",
+      "talk": {
+        "title": "Apache Beam to design your data pipelines",
+        "abstract": "Instead of directly implementing your data processing jobs using MapReduce or Spark, you can abstract by using Apache Beam. It provides a very convenient SDK allowing you to design pipelines working in stream or batch mode.",
+        "tags": [
+          "DB", "NoSQL"
+        ],
+        "level": "Beginner"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "0",
+      "name": "Viktor Farcic",
+      "description": "Apache Member, PMC Chair of Karaf",
+      "biography": "Viktor Farcic is a Senior Consultant at CloudBees.He coded using a plethora of languages starting with Pascal (yes, he is old), Basic (before it got Visual prefix), ASP (before it got .Net suffix), C, C++, Perl, Python, ASP.Net, Visual Basic, C#, JavaScript, etc. He never worked with Fortran. His current favorites are Scala and JavaScript even though most of his office hours are spent with Java.His big passions are Microservices, Continuous Integration, Delivery and Deployment (CI/CD) and Test-Driven Development.He often speaks at community gatherings and conferences.He wrote the ""Test-Driven Java Development"" and ""The DevOps 2.0 Toolkit: Automating the Continuous Deployment Pipeline with Containerized Microservices books.",
+      "image": "assets/img/speakers/vfarcic.png",
+      "ref": "vfarcic",
+      "url": "infoSpeaker.html?ref=vfarcic",
+      "twitter": "https://twitter.com/vfarcic",
+      "talk": {
+        "title": "Continuously Deploying Microservices",
+        "abstract": "The chances are that you already tried Docker. You probably started by running one of the images from Docker Hub. The ease of use led you to experiment writing your own Dockerfile and building images from it. You tried Docker Compose. You might have realized benefits Docker provides in conjunction with microservices. Hopefully, you already deployed a container or two to production or, at least, recognized the advantages it brings to development, testing, integration and other environments and phases. All those pieces are necessary requirements for the "real deal". The final objective is to combine quite a few processes and technologies that will allow us to create a deployment pipeline. Docker makes it possible to reach nirvana. The world many thought is far from reality. The world where the last thing we do is run git push. From thereon, a machine takes over, and few minutes later our software is tested, built, deployed to production, and what so not. Let's see how that nirvana looks like. Let's explore which steps are required for a fully automated continuous deployment pipeline combined with microservices, and Docker containers.",
+        "tags": [
+          "microservices", "CD"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "0",
+      "name": "Claus Ibsen",
+      "description": "Principal software engineer from Red Hat",
+      "biography": "Claus Ibsen is a principal software engineer from Red Hat. Claus is working full time on open source integration projects such as Apache Camel, fabric8, hawtio. He is also involved with container projects such as Kubernetes and OpenShift3. Claus is author of the Camel in Action books. Currently busy writing the 2nd edition.",
+      "image": "assets/img/speakers/cibsen.png",
+      "ref": "cibsen",
+      "url": "infoSpeaker.html?ref=cibsen",
+      "twitter": "https://twitter.com/davsclaus",
+      "talk": {
+        "title": "Developing Java based microservices ready for the world of containers",
+        "abstract": "The so-called experts are saying microservices and containers will change the way we build, maintain, operate, and integrate applications. This talk is intended for Java developers who wants to hear and see how you can develop Java microservices that are ready to run in containers. In this talk we will build a set of Java based microservices that uses a mix of technologies with:- Apache Camel with CDI - Spring Boot - Vert.x - WildFly Swarm . You will see how we can build small discrete microservices with these Java technologies and build and deploy on the Kubernets/OpenShift3 container platform. We will discuss practices how to build distributed and fault tolerant microservices using technologies such as Kubernetes Services, Camel EIPs, Netflixx Hysterix, and Ribbon. We will use Zipkin service tracing across all four Java based microservices to provide a visualization of timings and help highlight latency problems in our mesh of microservices. And the self healing and fault tolerant aspects of the Kubernetes/OpenShift3 platform is also discussed and demoed when we let the chaos monkeys loose killing containers. This talk is a 50/50 mix between slides and demo.",
+        "tags": [
+          "microservices", "containers"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
     }
   ]
 }
