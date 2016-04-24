@@ -114,11 +114,11 @@
       "scheduleId": ""
     },
     {
-      "enabled": "0",
+      "enabled": "1",
       "name": "Viktor Farcic",
-      "description": "Apache Member, PMC Chair of Karaf",
+      "description": "Senior Consultant at CloudBees",
       "biography": "Viktor Farcic is a Senior Consultant at CloudBees.He coded using a plethora of languages starting with Pascal (yes, he is old), Basic (before it got Visual prefix), ASP (before it got .Net suffix), C, C++, Perl, Python, ASP.Net, Visual Basic, C#, JavaScript, etc. He never worked with Fortran. His current favorites are Scala and JavaScript even though most of his office hours are spent with Java.His big passions are Microservices, Continuous Integration, Delivery and Deployment (CI/CD) and Test-Driven Development.He often speaks at community gatherings and conferences.He wrote the 'Test-Driven Java Development' and 'The DevOps 2.0 Toolkit: Automating the Continuous Deployment Pipeline with Containerized Microservices' books.",
-      "image": "assets/img/speakers/vfarcic.png",
+      "image": "assets/img/speakers/vfarcic.jpg",
       "ref": "vfarcic",
       "url": "infoSpeaker.html?ref=vfarcic",
       "twitter": "https://twitter.com/vfarcic",
@@ -133,11 +133,11 @@
       "scheduleId": ""
     },
     {
-      "enabled": "0",
+      "enabled": "1",
       "name": "Claus Ibsen",
       "description": "Principal software engineer from Red Hat",
       "biography": "Claus Ibsen is a principal software engineer from Red Hat. Claus is working full time on open source integration projects such as Apache Camel, fabric8, hawtio. He is also involved with container projects such as Kubernetes and OpenShift3. Claus is author of the Camel in Action books. Currently busy writing the 2nd edition.",
-      "image": "assets/img/speakers/cibsen.png",
+      "image": "assets/img/speakers/cibsen.jpg",
       "ref": "cibsen",
       "url": "infoSpeaker.html?ref=cibsen",
       "twitter": "https://twitter.com/davsclaus",
