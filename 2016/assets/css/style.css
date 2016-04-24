@@ -266,16 +266,19 @@ a:focus {
 	color: #428bca;
 }
 #sponsors img{
-	margin: 0 auto;
+	margin: 15px auto;
 }
 #sponsors .goldenrow{
 	padding: 10px;
+	margin:20px;
 }
 #sponsors .silverrow{
 	padding: 10px;
+	margin:20px;
 }
 #sponsors .bronzerow{
 	padding: 10px;
+	margin:20px;
 }
 #sponsors .sponsor .sponsor-photo{
 	margin-top:3px;
