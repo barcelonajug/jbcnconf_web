@@ -827,6 +827,7 @@ a:focus {
 
 #talks .tag.unknown{
 	background-color: yellow;
+	color: black;
 }
 
 #talks .level.Intermediate,
