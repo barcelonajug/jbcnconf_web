@@ -95,11 +95,11 @@
       "scheduleId": ""
     },
     {
-      "enabled": "0",
+      "enabled": "1",
       "name": "Jean Baptiste Onofre",
       "description": "Apache Member, PMC Chair of Karaf",
       "biography": "JB is Apache Member, PMC Chair of Karaf, and working on about 20 Apache projects.",
-      "image": "assets/img/speakers/jbonofre.png",
+      "image": "assets/img/speakers/jbonofre.jpg",
       "ref": "jbonofre",
       "url": "infoSpeaker.html?ref=jbonofre",
       "twitter": "https://twitter.com/jbonofre",
