@@ -150,6 +150,25 @@
         "level": "Intermediate"
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Esther Lozano",
+      "description": "Software Engineer at Autentia",
+      "biography": "Esther Lozano works as Software Engineer in Autentia since 2015, mainly as Java backend developer. However, this has not always been her role. After getting her degree in Computer Science, she suddenly woke up into a PhD program about Semantic Web and ontologies - because who doesn't, right? She successfully finished her research in 2015, but by then she had already made her mind about pursuing a more technical career. So she rolled an ability check, paid some hope points, and... hooray! She epically made it into professional development.",
+      "image": "assets/img/speakers/elozano.png",
+      "ref": "elozano",
+      "url": "infoSpeaker.html?ref=elozano",
+      "twitter": "https://twitter.com/esloho",
+      "talk": {
+        "title": "Geb+Spock: let your functional tests live long and prosper",
+        "abstract": "Functional testing, as any other testing, is important to ensure the health of our apps. However, functional tests are often tricky, too susceptible to change, and their maintenance ends up being a nightmare. Are we hopeless then? Not at all! Luckily, there are tools to ease this task like Geb and Spock, which help us to create well structured, comprehensive, and easy to maintain tests. In this talk we will review these tools, showing different options for creating the tests. Demo included!",
+        "tags": [
+          "Testing", "Geb", "Spock"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
     }
   ]
 }
