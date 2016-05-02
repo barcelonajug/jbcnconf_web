@@ -56,6 +56,7 @@ function getFamilyForTag(tag){
 		case "Modularity":
 		case "Architecture":
 		case "Patterns":
+		case "Real-time":
 			family = "Architecture"; break;
 
 		case "Testing" : 
@@ -67,10 +68,12 @@ function getFamilyForTag(tag){
 			family = "Tools"; break;
 		case "IoT":
 			family = "IoT"; break;
-		case "Java9":
 		case "Java8":
+		case "Lambdas":
 		case "FunctionalProgramming":
 			family = "Java8"; break;
+		case "Java9":
+			family = "Java9"; break;
 		case "Kotlin" :
 		case "Clojure":
 		case "Groovy" :
@@ -78,21 +81,18 @@ function getFamilyForTag(tag){
 		case "JVM langs" :
 		case "Scala":
 			family = "JVMLangs"; break;
-
 		case "Cache" : 
 		case "JavaEE" : 
 		case "Performance":
 		case "Compiler":
 		case "JavaFX":
 			family = "JVM"; break;
-
 		case "Containers" : 
 		case "Kubernetes":
 		case "Microservices":
 		case "RESTful":
 		case "Docker":
 			family = "Microservices"; break;
-
 		case "noSQL" :
 		case "Bigdata":
 		case "Cassandra":
@@ -100,18 +100,17 @@ function getFamilyForTag(tag){
 		case "MapReduce":
 		case "MongoDB":
 		case "Hadoop":
+		case "Couchbase":
 			family = "noSQL"; break;
-		
 		case "Async" : 
 		case "Netty" : 
 		case "Event-driven":
 		case "DistributedSystems":
 		case "RxJava":
+		case "Ratpack":
 			family = "AsyncDevelopment"; break;
-		
 		case "Android" : 
 			family = "Mobile"; break;
-		
 		case "AngularJS" : 
 		case "Play" : 
 		case "Akka" : 
