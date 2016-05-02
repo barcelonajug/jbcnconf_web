@@ -229,6 +229,26 @@
         "level": "Beginner"
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Tomasz Dubikowski",
+      "description": "Software Development Team Lead at Ocado Technology",
+      "biography": "Tomek is a Software Development Team Lead at Ocado Technology.  He has 5 years experience working as a Software Engineer, Scrum Master and Agile Trainer. As an engineer, he is passionate about craftsmanship, propagating clean code, automated tests, behaviour driven development and domain driven design. As a leader, he helps to build an organisational culture based upon autonomy, collaboration and trust so that developers are equipped with both the hard and soft skills necessary to build truly awesome products. Tomasz loves to change the reality around him. He his highly pragmatic, challenges orthodoxy at all levels and believes that there is always room for improvement.  He is always eager to discuss and share his ideas.",
+      "image": "assets/img/speakers/tomasz-dubikowski.png",
+      "ref": "tdubikowski",
+      "url": "infoSpeaker.html?ref=tdubikowski",
+      "twitter": "https://twitter.com/tdubikowski",
+      "homepage": "https://agilehabits.wordpress.com/",
+      "talk": {
+        "title": "Epic Battle: Zombies vs Mutants",
+        "abstract": "People love zombies. Just look how many movies about zombies are made. But Why? They don't have purpose, consume 'non-zombie' resources, spread panic and fear. Even though, people love them. People don't love mutants. 'Mutant' is such a negative word. Even if you find a really cool mutants, like Spiderman or Wolverine, we call them superheros. It just sounds better. But when you look at them they have great powers that can be used for great things. But nope, people don't love mutants. IT people are much smarter and prefer mutants over zombies. How many zombie test we have in our systems? Tests, that don't check anything, fail in the worst moment, consume resources and time? Do we even know where they are and how many of them there is exactly? Not really, and here mutants can help. And to be more precise - mutation testing. In my presentation I would like to talk about mutation testing and how they affect the quality of both the code and tests. During live coding session I would like to present lightweight and easy to introduce framework PITest, which I consider to be the best available solution for mutation testing.",
+        "tags": [
+          "Testing"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
     }
   ]
 }
