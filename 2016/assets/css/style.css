@@ -821,6 +821,10 @@ a:focus {
 	background-color: #b45f06;
 }
 
+#talks .tag.Java9{
+	background-color: #29d9f4;
+}
+
 #talks .tag.Frameworks{
 	background-color: #9cbedb;
 }

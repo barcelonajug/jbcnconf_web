@@ -184,9 +184,49 @@
         "title": "JDK 8: Lessons Learnt With Lambdas and Streams",
         "abstract": "Lambda expressions and the streams API add a more functional style of programming to Java; something developers have not really had in the past. This session will start with a short summary of the key features of both Lambda expressions and streams before moving on to some real world examples of how to use them effectively, including a number of lessons learnt from trying to apply an imperative style of programming when it should have been functional. We’ll move on to a discussion about the way parallel streams work under-the-hood, factors that affect parallel stream performance including details of when not to use a parallel stream. We'll finish off with a quick look at some of the ideas for improvements to streams in JDK 9.",
         "tags": [
-          "Java8", "FunctionalProgramming", "Java9", "Performance"
+          "Java8", "FunctionalProgramming", "Java9", "Performance", "Lambdas"
         ],
         "level": "Intermediate"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Tugdual Grall",
+      "description": "Chief Technical Evangelist for EMEA at MapR",
+      "biography": "Tugdual Grall is Chief Technical Evangelist for EMEA at MapR, an open source advocate and a passionate developer. He currently works with the European developer communities to ease MapR, Hadoop and NoSQL adoption. Before joining MapR, Tug was Technical Evangelist at MongoDB and Couchbase. Tug has also worked as CTO at eXo Plaform and JavaEE product manager, and software engineer at Oracle. Tugdual is Co-Founder of the Nantes JUG (Java User Group) that holds since 2008 monthly meeting about Java ecosystem.",
+      "image": "assets/img/speakers/tgrall.png",
+      "ref": "tgrall",
+      "url": "infoSpeaker.html?ref=tgrall",
+      "twitter": "https://twitter.com/tgrall",
+      "homepage": "http://tgrall.github.io/",
+      "talk": {
+        "title": "Fast Cars, Big Data - How Streaming Can Help Formula 1",
+        "abstract": "Modern cars produce data. Lots of data. And Formula 1 cars produce more than their share. I will present a working demonstration of how modern data streaming can be applied to the data acquisition and analysis problem posed by modern motorsports. Instead of bringing multiple Formula 1 cars to the talk, I will show how we instrumented a high fidelity physics-based automotive simulator to produce realistic data from simulated cars running on the Spa-Francorchamps track. We move data from the cars, to the pits, to the engineers back at HQ. The result is near real-time visualization and comparison of performance and a great exposition of how to move data using messaging systems like Kafka. The code from this talk will be made available as open source.",
+        "tags": [
+          "Bigdata", "real-time", "Performance", "Messaging"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Laurent Doguin",
+      "description": "Developer Advocate at Couchbase",
+      "biography": "Laurent is a Paris based Developer Advocate where he focuses on helping Java developers and the French community. He writes code in Java and blog posts in Markdown. Prior to joining Couchbase he was Nuxeo’s community liaison where he devoted his time and expertise to helping the entire Nuxeo Community become more active and efficient.",
+      "image": "assets/img/speakers/ldoguin.jpg",
+      "ref": "ldoguin",
+      "url": "infoSpeaker.html?ref=ldoguin",
+      "twitter": "http://twitter.com/ldoguin",
+      "homepage": "http://blog.couchbase.com/facet/Author/Laurent+Doguin",
+      "talk": {
+        "title": "A practical RxJava example with Ratpack and Couchbase",
+        "abstract": "RxJava seems to be this awesome thing that every cool kids start using. But when you read about it, half of the time it's hard to make anything out of it. Sure the isolated examples look nice but it's always hard to put this in perspective with a real app. In this talk I'll go through an application made to store, index and search files. We'll see the benefit brought by using RxJava and Ratpack. Nothing too complicated or advanced, just something pragmatic.",
+        "tags": [
+          "RxJava", "Couchbase", "noSQL", "Ratpack"
+        ],
+        "level": "Beginner"
       },
       "scheduleId": ""
     }
