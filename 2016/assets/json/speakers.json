@@ -249,6 +249,26 @@
         "level": "Intermediate"
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Arek Sokolowski",
+      "description": "Programmer, mainly Java, working at Ocado Technology",
+      "biography": "Programmer, mainly Java, JVM & Co. Currently working at Ocado Technology. Fan of functional programming, good books, continuous delivery, and mountains. Claims, that writing a code is not the most difficult part of so-called software engineering. Likes to find patterns, common rules, and common denominators, both in software and life. Hobby: erasing whiteboards.",
+      "image": "assets/img/speakers/arek-sokolowski.jpg",
+      "ref": "asokolowski",
+      "url": "infoSpeaker.html?ref=asokolowski",
+      "twitter": "https://twitter.com/areksokolowski",
+      "homepage": "",
+      "talk": {
+        "title": "Taste of new in Java 9",
+        "abstract": "Do you know what are jshell, jigsaw, G1? How can they help you and your team? To give you the taste of Java 9, I will present the most interesting of its features, like jshell (Java 9 REPL environment) and jigsaw (Java 9 modules) in action. If you are interested in the future of core Java platform, this session is for you!",
+        "tags": [
+          "Java9"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
     }
   ]
 }
