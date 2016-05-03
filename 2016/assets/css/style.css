@@ -280,6 +280,10 @@ a:focus {
 	padding: 10px;
 	margin:20px;
 }
+#sponsors .suporterrow{
+	padding: 10px;
+	margin:20px;
+}
 #sponsors .sponsor .sponsor-photo{
 	margin-top:3px;
 }
