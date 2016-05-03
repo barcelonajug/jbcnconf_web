@@ -269,6 +269,28 @@
         "level": "Intermediate"
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Maarten Mulders",
+      "description": "Senior developer, trainer and architect",
+      "biography": "Enthusiastic senior developer, trainer and architect with a passion for elegant and simple solutions. My speaking experience includes talks on a range of topics, held both inside my company (<a href='https://youtu.be/HXSB5DxIQUk' style='color:blue'>https://youtu.be/HXSB5DxIQUk</a>) and at different clients. I’ve spoken about the ELK-stack at ConFESS_2015 (<a href='https://youtu.be/mtI88EkWZgU' style='color:blue'>https://youtu.be/mtI88EkWZgU</a>) and Javantura v3. I’ve also given lectures and workshop about other topics during various events in my own company and at clients.",
+      "image": "assets/img/speakers/mmulders.jpg",
+      "ref": "mmulders",
+      "url": "infoSpeaker.html?ref=mmulders",
+      "talk": {
+        "title": "ELK: BigData for DevOps",
+        "abstract": "Big Data is often related to companies like Google, Facebook or Twitter. Indeed, 500 bilion tweets a day, 1,3 billion active Facebook users or 30 billion web pages to search, we're talking 'Big Data'. Many smaller companies have Big Data, too, without knowing it: application log files. This talk discusses how to use Elasticsearch, Logstash and Kibana to gain insight in these data. It also covers a real-world example at a major Dutch bank, including common pit falls, best practices and lessons  learned. It also addresses how monitoring was done before using the ELK stack and what the major advantages are. After attending this session you will be able to leverage the power of the ELK stack for your own application. Even for smaller companies and applications, a lot of knowledge can be gained from proper insight in your production environment.",
+        "tags": [
+          "Bigdata",
+          "Elasticsearch",
+          "Logstash",
+          "Kibana",
+          "ELK-stack"
+        ],
+        "level": "Advanced"
+      },
+      "scheduleId": ""
     }
   ]
 }
