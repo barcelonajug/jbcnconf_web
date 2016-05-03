@@ -101,6 +101,9 @@ function getFamilyForTag(tag){
 		case "MongoDB":
 		case "Hadoop":
 		case "Couchbase":
+		case "Kibana":
+		case "Logstash":
+		case "DB":
 			family = "noSQL"; break;
 		case "Async" : 
 		case "Netty" : 
@@ -118,6 +121,8 @@ function getFamilyForTag(tag){
 		case "Frameworks":
 		case "jBPM":
 		case "Drools":
+		case "Geb":
+		case "Spock":
 			family = "Frameworks"; break;
 			
 		default : family = "unknown"; 

@@ -107,7 +107,7 @@
         "title": "Apache Beam to design your data pipelines",
         "abstract": "Instead of directly implementing your data processing jobs using MapReduce or Spark, you can abstract by using Apache Beam. It provides a very convenient SDK allowing you to design pipelines working in stream or batch mode.",
         "tags": [
-          "DB", "NoSQL"
+          "DB", "noSQL"
         ],
         "level": "Beginner"
       },
@@ -126,7 +126,7 @@
         "title": "Continuously Deploying Microservices",
         "abstract": "The chances are that you already tried Docker. You probably started by running one of the images from Docker Hub. The ease of use led you to experiment writing your own Dockerfile and building images from it. You tried Docker Compose. You might have realized benefits Docker provides in conjunction with microservices. Hopefully, you already deployed a container or two to production or, at least, recognized the advantages it brings to development, testing, integration and other environments and phases. All those pieces are necessary requirements for the 'real deal'. The final objective is to combine quite a few processes and technologies that will allow us to create a deployment pipeline. Docker makes it possible to reach nirvana. The world many thought is far from reality. The world where the last thing we do is run git push. From thereon, a machine takes over, and few minutes later our software is tested, built, deployed to production, and what so not. Let's see how that nirvana looks like. Let's explore which steps are required for a fully automated continuous deployment pipeline combined with microservices, and Docker containers.",
         "tags": [
-          "Microservices", "CD"
+          "Microservices", "ContinuousDelivery"
         ],
         "level": "Intermediate"
       },
@@ -204,7 +204,7 @@
         "title": "Fast Cars, Big Data - How Streaming Can Help Formula 1",
         "abstract": "Modern cars produce data. Lots of data. And Formula 1 cars produce more than their share. I will present a working demonstration of how modern data streaming can be applied to the data acquisition and analysis problem posed by modern motorsports. Instead of bringing multiple Formula 1 cars to the talk, I will show how we instrumented a high fidelity physics-based automotive simulator to produce realistic data from simulated cars running on the Spa-Francorchamps track. We move data from the cars, to the pits, to the engineers back at HQ. The result is near real-time visualization and comparison of performance and a great exposition of how to move data using messaging systems like Kafka. The code from this talk will be made available as open source.",
         "tags": [
-          "Bigdata", "real-time", "Performance", "Messaging"
+          "Bigdata", "Real-time", "Performance", "Messaging"
         ],
         "level": "Intermediate"
       },
@@ -282,11 +282,7 @@
         "title": "ELK: BigData for DevOps",
         "abstract": "Big Data is often related to companies like Google, Facebook or Twitter. Indeed, 500 bilion tweets a day, 1,3 billion active Facebook users or 30 billion web pages to search, we're talking 'Big Data'. Many smaller companies have Big Data, too, without knowing it: application log files. This talk discusses how to use Elasticsearch, Logstash and Kibana to gain insight in these data. It also covers a real-world example at a major Dutch bank, including common pit falls, best practices and lessons  learned. It also addresses how monitoring was done before using the ELK stack and what the major advantages are. After attending this session you will be able to leverage the power of the ELK stack for your own application. Even for smaller companies and applications, a lot of knowledge can be gained from proper insight in your production environment.",
         "tags": [
-          "Bigdata",
-          "Elasticsearch",
-          "Logstash",
-          "Kibana",
-          "ELK-stack"
+          "Bigdata","ElasticSearch","Logstash","Kibana"
         ],
         "level": "Advanced"
       },
