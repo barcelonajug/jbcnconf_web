@@ -287,6 +287,27 @@
         "level": "Advanced"
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Mario Garcia",
+      "description": "Software Developer",
+      "biography": "I’ve always been interested in learning new ways of improving my skill sets as software developer. That idea sometimes has led me in the past to look for that knowledge abroad. Although I’m also have my days, I wouldn’t start anything without testing it in the first place. What languages do I like ? Although I personally prefer Groovy, all languages within the JVM are welcomed, and of course some others outside the JVM such as Haskell. When I’m not programming I like simple things like: a full moon, testing, having a coffee, coding, walking downtown, refactoring, and all over again.",
+      "image": "assets/img/speakers/mgarcia.jpg",
+      "ref": "mgarcia",
+      "url": "infoSpeaker.html?ref=mgarcia",
+      "twitter": "https://twitter.com/marioggar",
+      "talk": {
+        "title": "Generative Testing with Spock",
+        "abstract": "As our application grows in size and complexity, sometimes our testing code becomes more and more difficult to write and maintain, more use cases, more values to check...STOP! This talk will discuss on how property-based testing and Spock could help you writing more concise and maintainable testing code. Spock is a testing and specification framework for Java and Groovy with a beautiful and highly expressive specification language.",
+        "tags": [
+          "Testing",
+          "Spock",
+          "Groovy"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
     }
   ]
 }
