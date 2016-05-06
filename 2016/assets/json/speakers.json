@@ -308,6 +308,105 @@
         "level": "Intermediate"
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Alex Soto",
+      "description": "Software Engineer at CloudBees",
+      "biography": "Alex is a software engineer at CloudBees. He is a passionate of Java world, software automation and he believes in the open source software model. Alex is the creator of NoSQLUnit project and team member of Arquillian, Asciidoctor and Apache TomEE projects. He is a member of JSR374 (Java API for JSON Processing) Expert Group. Currently Alex is co-writing Arquillian in Action book for Manning and he is an international speaker presenting his talks at software conferences like Devoxx, JavaOne, JavaZone or JavaLand.",
+      "image": "assets/img/speakers/alex-soto.jpg",
+      "ref": "asoto",
+      "url": "infoSpeaker.html?ref=asoto",
+      "twitter": "https://twitter.com/alexsotob",
+      "talk": {
+        "title": "Dockerized system testing, with a dash of chaos",
+        "abstract": "With microservices, polyglot and DevOps on the rise, where are we at with testing? Does it bring more complexity and make our testing effort harder or maybe in contrary; it actually helps us write better tests easier? In this session, we will be exploring not only how we can do our testing in this new world, but also how the new world can help us test better. Meet Arquillian Cube and Q. We will take a close look at topics varying from polyglot services, orchestrated microservices to system scale testing. All are within reach. And with full control; Let's add a dash of chaos!",
+        "tags": [
+          "Docker",
+          "Testing"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Schalk Cronjé",
+      "description": "Software Engineer and author",
+      "biography": "Schalk Cronjé’s experience in the software industry spans three decades and has performed most roles in software delivery. He believes that both software engineering and craftsmanship is important for the industry and that both disciplines should be taught to achieve holism in technology delivery.  He keeps his technical skills fit by frequent contributions to various open-source projects. He is the creator of Groovy-VFS as well a maintainer of various Gradle plugins including JRuby, GMake, Doxygen and more. He is also the author of the Leanpub book 'Idiomatic Gradle : 25 recipes for plugin authors'. He is currently working on a second volume of plugin recipes. He is a regular speaker on various software delivery techniques in aroos Europe, USA, India and South Africa. He currently serves as a steering committee member of the Agile Testing Alliance.",
+      "image": "assets/img/speakers/schalk-cronje.jpg",
+      "ref": "scronje",
+      "url": "infoSpeaker.html?ref=scronje",
+      "twitter": "http://twitter.com/ysb33r",
+      "talk": {
+        "title": "Quickstart Gradle for JVM Development",
+        "abstract": "Gradle has become a very popular build tool for JVM development, especially after becoming the primary way of building Android apps.  Yet Gradle is far more than that. It presents a next generation of build tooling,and large-scale deployment-pipeline automation. Some people see it as a replacement for Maven, but the comparison is unfair as Gradle offers much more in both functionality and philosophy. In this session we'll be looking at: <ul style='text-align:left'><li>Introduction to Gradle for non-Groovy geeks </li><li> Breaking into the next generation of build tools </li><li>Gradle in a polyglot JVM world </li><li>Usage of Gradle for deployment, Devops, and documentation</li></ul>",
+        "tags": [
+          "Gradle"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Nicolas Hormazabal",
+      "description": "Team lead at Schibsted Classified Media",
+      "biography": "A researcher for 6 years but a Java developer for the whole professional life, now at Schibsted Classified Media leading a team for developing a service that supports the communication to millions of users across the different sites of our media group. Previously, some experience in Android development, by leading the development and delivering apps for Schibsted across 7 different countries with a wide range of requirements.",
+      "image": "assets/img/speakers/nicolas-hormazabal.jpg",
+      "ref": "nhormazabal",
+      "url": "infoSpeaker.html?ref=nhormazabal",
+      "twitter": "https://twitter.com/pnikosis",
+      "talk": {
+        "title": "Fascinating! Testing with Spock",
+        "abstract": "When it comes to testing on Java, usually the first thing that comes to most developers' mind is JUnit. Probably some mocking will be needed too, and the almost de-facto option ends up being Mockito. Spock is an alternative for the popular JUnit/Mockito combo written in Groovy but not limited for tests in that language. We are going to show how to write expressive tests in Java using Spock, how to mock objects, write Data Driven tests and support Behaviour Driven Development. Also we will review other features of Spock and how they compare with JUnit/Mockito and how it has helped us locally on our productivity when testing our code, providing some real examples.",
+        "tags": [
+          "Spock",
+          "Testing"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "José Pereda",
+      "description": "Software Engineer at Gluon",
+      "biography": "José Pereda, PhD in Structural Engineering, works as a software engineer at Gluon. Being on Java since 1999, he is a JavaFX advocate, developing JavaFX applications for mobile platforms and embedded platforms, while he also works on open source projects (JFXtras, FXyz, https://github.com/jperedadnr), co-authoring a JavaFX book (JavaFX 8 Introduction by Example), blogging (http://jperedadnr.blogspot.com.es/), tweeting (@JPeredaDnr) or speaking at conferences (JavaOne, JAX, JFokus, JavaLand, CodingSerbia, JBCNConf...). José lives with his wife and kids in Valladolid, Spain",
+      "image": "assets/img/speakers/jose-pereda.png",
+      "ref": "jpereda",
+      "url": "infoSpeaker.html?ref=jpereda",
+      "twitter": "https://twitter.com/JPeredaDnr",
+      "talk": {
+        "title": "Compelling mobile apps with Java: a dream come true!",
+        "abstract": "While JavaFX allows Java developers to create client applications with mainly oriented to desktop user interfaces, the market tendencies go to mobile and web applications. JavaFXPorts is an open source project that allows those developers to package and deploy their desktop applications on mobile devices with the same codebase. This session will show the current state of deploying Java on Android and iOS. Attendees will see all the steps required to create JavaFX applications that can be deployed on mobile devices and distributed via the major stores, using free tools like the Gluon plugin. Through different apps, attendees will see how those apps can be enhanced with the use of the Gluon Mobile library, which provides native UI, custom JavaFX controls, native interaction with the device, cloud integration, reducing repetitive work and improving massively time-to-market.",
+        "tags": [
+          "JavaFX",
+          "Testing"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "David Gómez",
+      "description": "Software engineer at Autentia",
+      "biography": "David Gómez works as Software engineer at Autentia. With more than 15 years of experience in software development, has been part, lead, and developed projects for Banking, Insurance, Defense and Sea & ground transportation business. Aside of software development he is also dedicated to training, beeing a SringSource Certified Instructor and also delivers the JavaSpecialists Master courses in Spain. In fact, he has delivered more than 50 training courses all over spain from 2009 to the date.",
+      "image": "assets/img/speakers/david-gomezg.png",
+      "ref": "dgomez",
+      "url": "infoSpeaker.html?ref=dgomez",
+      "twitter": "http://twitter.com/dgomezg",
+      "talk": {
+        "title": "Parallel Streams: A look under the hood",
+        "abstract": "With Java 8 and its Stream API, we have seen a brand new way of processing collections of data.<br>One of the most powerful features of the Java8 Streams is its possibility of paralellize the operations pipeline. But, in some cases, there has been several developers which has found that not always the parallel stream works better than the serial stream (or even the traditional for or foreach loops to iterate over a collection).<br>In this talk we will take a look at the Streams performance and we will present some of the elements that could affect the performance.<br>We will also present the mechanisms under the Parallel Stream in order to know better the way it works and to try to understand what could affect to the performance of a parallel stream",
+        "tags": [
+          "Java8",
+          "Streams"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
     }
   ]
 }
