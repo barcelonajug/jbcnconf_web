@@ -382,7 +382,7 @@
         "abstract": "While JavaFX allows Java developers to create client applications with mainly oriented to desktop user interfaces, the market tendencies go to mobile and web applications. JavaFXPorts is an open source project that allows those developers to package and deploy their desktop applications on mobile devices with the same codebase. This session will show the current state of deploying Java on Android and iOS. Attendees will see all the steps required to create JavaFX applications that can be deployed on mobile devices and distributed via the major stores, using free tools like the Gluon plugin. Through different apps, attendees will see how those apps can be enhanced with the use of the Gluon Mobile library, which provides native UI, custom JavaFX controls, native interaction with the device, cloud integration, reducing repetitive work and improving massively time-to-market.",
         "tags": [
           "JavaFX",
-          "Testing"
+          "Android"
         ],
         "level": "Intermediate"
       },
