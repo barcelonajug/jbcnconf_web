@@ -407,6 +407,25 @@
         "level": "Intermediate"
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Christopher Richard James Brett",
+      "description": "Algorithm Development Team Lead at Ocado Technology",
+      "biography": "Chris is Simulation Algorithm Development Team Lead at Ocado Technology, and helps run their Code for Life CSR initiative too.",
+      "image": "assets/img/speakers/chris-brett.jpg",
+      "ref": "cbrett",
+      "url": "infoSpeaker.html?ref=cbrett",
+      "twitter": "https://twitter.com/chrisbrett665",
+      "talk": {
+        "title": "Testing, Analysis and Optimisation using Discrete Event Simulation in Java",
+        "abstract": "Ocado Technology writes software and creates hardware for massive automated warehouses and supply chains. The physical devices, layout and algorithms we use affect cost, efficiency and site capacity – getting it right is worth millions.<br>Making highly optimal choices for these three aspects is often beyond human capability. We can either optimise and test by trial and error in production, which is expensive, risky and slow, or we can write software to test our systems and identify highly optimal choices for us.<br>Learn how we use Discrete Event Simulation to test production applications, predict operational performance, and optimise physical layouts, hardware design and control algorithms. Discrete Event Simulation gives us scenario and full production case testing capability. These tests are deterministic, making debugging faster and simpler, and preventing erroneous test failures. Each test can complete faster than real-time meaning that you can afford to add a vast amount of tests without excessively slowing down your development cycle.  Come along and I’ll show you how this can be done.",
+        "tags": [
+          "Testing"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
     }
   ]
 }
