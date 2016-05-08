@@ -426,6 +426,26 @@
         "level": "Intermediate"
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Raquel Pau",
+      "description": "Technical Lead of Walkmod",
+      "biography": "I am the technical lead of walkmod, an open source tool to apply and share code conventions. I have participated as speaker in some important Java conferences such as Devoxx or 33rdegreeconf and JUGs.<br>Additionally, I am working as project manager in research projects in Sparsity-Technologies with more than 8 years coding in Java.<br>Also, I am the writer of some posts in JavaCodeGeeks about Docker. ",
+      "image": "assets/img/speakers/raquel-pau.jpg",
+      "ref": "rpau",
+      "url": "infoSpeaker.html?ref=rpau",
+      "twitter": "https://twitter.com/walkmod",
+      "talk": {
+        "title": "How to Maintain and Fix code conventions with SonarQube and Walkmod",
+        "abstract": "Code conventions are programming guidelines to improve the code readability, reduce bugs and thus, reduce maintenance costs. Currently, developers can detect automatically which parts of your code are violating a specific code convention through static analysis tools such as SonarQube.<br>However, after having a detailed report about which parts of the code contain bad programming practices, developers need to fix them manually using their favorite editor over and over again even if the solution is completely simple and deterministic. To solve this problem, we have created Walkmod, an open source tool to share and automatically fix code conventions.<br>In this session we will introduce Walkmod and  we will explain how to configure it to automatically fix our sonar rules using one of the most important java open source project.",
+        "tags": [
+          "Coding",
+          "Conventions"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
     }
   ]
 }
