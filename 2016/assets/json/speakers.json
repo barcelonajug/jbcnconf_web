@@ -466,6 +466,25 @@
         "level": "Advanced"
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "James Rawlings",
+      "description": "Principal Software Engineer @ Red Hat",
+      "biography": "Principal Software Engineer @ Red Hat. James works on Open Source projects such as fabric8, with a view to enabling teams to build better software, faster while continually improving",
+      "image": "assets/img/speakers/james-rawlings.jpg",
+      "ref": "jrawlings",
+      "url": "infoSpeaker.html?ref=jrawlings",
+      "twitter": "https://twitter.com/jdrawlings",
+      "talk": {
+        "title": "Fabric8'ing continuous improvement",
+        "abstract": "Designing, building and releasing new features is only half the story.  As developers, we need to understand more about how our applications and features are running so that we can improve them.  This ultimately leads to greater efficiencies, reliability, cost savings as well as happier developers, operations, businesses and consumers.<br>In this session we'll see a demo building different implementations of Java based applications and the effect of change during their continuous delivery pipelines.  By establishing feedback loops involving out of the box centralised logs and metrics, alerting, dashboards and charting to help learn more about our apps and processes so we can improve.<br>The talk will give insight to the advances of Open Source software including Kubernetes, Kibana, Elasticsearch, Prometheus, Grafana and how they can be used together to build better software.",
+        "tags": [
+          "Architecture"
+        ],
+        "level": "Beginner"
+      },
+      "scheduleId": ""
     }
   ]
 }
