@@ -446,6 +446,26 @@
         "level": "Intermediate"
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Martin Toshev",
+      "description": "IT consultant",
+      "biography": "Martin is an IT consultant, Java enthusiast and one of the leads of the Bulgarian Java User group (BG JUG). He is a certified Java professional (SCJP6) and a certified IBM cloud computing solution advisor. His areas of interest include the wide range of Java-related technologies (such as Servlets, JSP, JAXB, JAXP, JMS, JMX, JAX-RS, JAX-WS, Hibernate, Spring Framework, Liferay Portal and Eclipse RCP), cloud computing technologies, cloud-based software architectures, enterprise application integration, relational and NoSQL databases. You can reach him for any Java and FOSS-related topics (especially Eclipse and the OpenJDK). Martin is a regular speaker at Java conferences and one of the organizers behind the jPrime conference in Bulgaria (http://jprime.io/).",
+      "image": "assets/img/speakers/martin-toshev.jpg",
+      "ref": "mtoshev",
+      "url": "infoSpeaker.html?ref=mtoshev",
+      "twitter": "https://twitter.com/martin_fmi",
+      "talk": {
+        "title": "Security architecture of the Java platform",
+        "abstract": "The session provides an overview of the security architecture of the Java platform in terms of its evolution throughout the versions of the JDK up to JDK 9 and beyond. The security utilities that fullfill the security portfolio of the JDK will be discussed briefly along with several guidelines in designing and implementing secure applications by following security best practices.",
+        "tags": [
+          "Security",
+          "Java9"
+        ],
+        "level": "Advanced"
+      },
+      "scheduleId": ""
     }
   ]
 }
