@@ -585,6 +585,46 @@
         "level": "Intermediate"
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Clement Escoffier",
+      "description": "Red Hat as vert.x core developer",
+      "biography": "Who am I? That’s a good question. I had several professional lives, from academic positions to management. Currently, I’m working for Red Hat as vert.x core developer. I touched to many domains and technologies such as OSGi, mobile app development, continuous delivery, devops… My main point of interest? Software engineering, so processes, methods, tools that make the development of software more efficient and also more fun. I’m also an active contributor on many open source projects such as Apache Felix, iPOJO, Wisdom Framework, and obviously, vert.x.",
+      "image": "assets/img/speakers/clement-escofier.jpg",
+      "ref": "cescofier",
+      "url": "infoSpeaker.html?ref=cescofier",
+      "twitter": "https://twitter.com/clementplop",
+      "homepage":"http://vertx.io",
+      "talk": {
+        "title": "Building distributed reactive applications with Vert.x",
+        "abstract": "Sorry guys, there is no free lunch. We are in 2016, but distributed applications are not simple. You can embrace any cool trends such as microservices, developing a distributed application is a challenge. Why? Well, because it’s complicated. Distributed systems have many many reason to fail, technically it’s complicated, and the theory behind distributed system is also complicated.<br>Vert.x is a toolkit for build reactive distributed applications on top of the Java Virtual Machine. The application can be developed in Java of course but also in JavaScript, Groovy, Ruby or Ceylon. Vert.x does not hide the complexity of distributed applications; it lets you handle it. Vert.x applications are able to face failures, can use several protocols and interaction styles (messages, RPC, REST,…), handle heavy load, integrate with almost anything, and cope with all the requirements of modern applications.<br>In this session, an introduction to vert.x is given while highlighting all the complexity to build distributed applications. For each hotspot, vert.x features are demonstrated. This includes clustering, distributed structure, message-based communication, HTTP and REST, load balancing, failure recovery, integration with other technologies….",
+        "tags": [
+          "Reactive"
+        ],
+        "level": "Beginner"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Ola Petersson",
+      "description": "Fullstack web developer working at Squeed",
+      "biography": "I'm a fullstack web developer working at Squeed (JUG organizers in Gothenbrug). I hold a Masters in Software Engineering and come from an academic background with programming as my base, but with a specialty in software processes, requirements engineering etc.<br>During my career I have worked with different types of systems such as Android applications or building meta-models for requirement databases or building web based systems. I have the last years worked as a fullstack web-developer with my main focus in JavaEE. Outside of my everyday work I'm also spending time in spreading and especially gaining knowledge through meetups, JUGs, conferences etc.<br>On a personal level I'm a guy who likes music, gaming, playing badminton or spending time with my friends and family.  I also spend a lot of my spare time to learn about Software development in general, wether it be a new database solution or a philosophical aspect about people or processes.",
+      "image": "assets/img/speakers/ola-peterson.jpg",
+      "ref": "opeterson",
+      "url": "infoSpeaker.html?ref=opeterson",
+      "twitter": "https://twitter.com/olbpetersson",
+      "homepage":"http://www.squeed.com/",
+      "talk": {
+        "title": "Reactive Java EE",
+        "abstract": "Hardware has gone through an evolution in the last 10 years. Have you adapted your Software to it?<br>Todays end users have high demands on the responsiveness of your application and as an answer the reactive manifesto is getting more acknowledgement every day. But what really is reactive programming and do you have to invest in a new flashy framework to get the benefits of it?<br>Join me as we take a look at what reactive programming really is. With a hands on presentation we will go through the concepts of reactive programming and then proceed to how we actually can implement it. With a well established framework (Java EE) we will visit areas such as asynchronous programming, message- and event-driven architecture as well as websockets.<br>When you leave this session you will have the utilities to build responsive applications with higher throughput, better use of your hardware and especially; a nicer user experience!",
+        "tags": [
+          "Reactive"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
     }
   ]
 }
