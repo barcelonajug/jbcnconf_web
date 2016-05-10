@@ -598,9 +598,9 @@
       "homepage":"http://vertx.io",
       "talk": {
         "title": "Building distributed reactive applications with Vert.x",
-        "abstract": "Sorry guys, there is no free lunch. We are in 2016, but distributed applications are not simple. You can embrace any cool trends such as microservices, developing a distributed application is a challenge. Why? Well, because it’s complicated. Distributed systems have many many reason to fail, technically it’s complicated, and the theory behind distributed system is also complicated.<br>Vert.x is a toolkit for build reactive distributed applications on top of the Java Virtual Machine. The application can be developed in Java of course but also in JavaScript, Groovy, Ruby or Ceylon. Vert.x does not hide the complexity of distributed applications; it lets you handle it. Vert.x applications are able to face failures, can use several protocols and interaction styles (messages, RPC, REST,…), handle heavy load, integrate with almost anything, and cope with all the requirements of modern applications.<br>In this session, an introduction to vert.x is given while highlighting all the complexity to build distributed applications. For each hotspot, vert.x features are demonstrated. This includes clustering, distributed structure, message-based communication, HTTP and REST, load balancing, failure recovery, integration with other technologies….",
+        "abstract": "Sorry guys, there is no free lunch. We are in 2016, but distributed applications are not simple. You can embrace any cool trends such as microservices, developing a distributed application is a challenge. Why? Well, because it’s complicated. Distributed systems have many many reason to fail, technically it’s complicated, and the theory behind distributed system is also complicated.<br>Vert.x is a toolkit for build reactive distributed applications on top of the Java Virtual Machine. The application can be developed in Java of course but also in JavaScript, Groovy, Ruby or Ceylon. Vert.x does not hide the complexity of distributed applications; it lets you handle it. Vert.x applications are able to face failures, can use several protocols and interaction styles (messages, RPC, REST,…), handle heavy load, integrate with almost anything, and cope with all the requirements of modern applications.<br>In this session, an introduction to vert.x is given while highlighting all the complexity to build distributed applications. For each hotspot, vert.x features are demonstrated. This includes clustering, distributed structure, message-based communication, HTTP and REST, load balancing, failure recovery, integration with other technologies...",
         "tags": [
-          "Reactive"
+          "Reactive", "DistributedSystems", "Vert.x"
         ],
         "level": "Beginner"
       },
@@ -620,9 +620,88 @@
         "title": "Reactive Java EE",
         "abstract": "Hardware has gone through an evolution in the last 10 years. Have you adapted your Software to it?<br>Todays end users have high demands on the responsiveness of your application and as an answer the reactive manifesto is getting more acknowledgement every day. But what really is reactive programming and do you have to invest in a new flashy framework to get the benefits of it?<br>Join me as we take a look at what reactive programming really is. With a hands on presentation we will go through the concepts of reactive programming and then proceed to how we actually can implement it. With a well established framework (Java EE) we will visit areas such as asynchronous programming, message- and event-driven architecture as well as websockets.<br>When you leave this session you will have the utilities to build responsive applications with higher throughput, better use of your hardware and especially; a nicer user experience!",
         "tags": [
-          "Reactive"
+          "Event-driven", "Reactive", "DistributedSystems"
         ],
         "level": "Intermediate"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Albert Margarit",
+      "description": "Software Development Manager and Architect at NetSuite",
+      "biography": "Albert Margarit is a Software Development Manager and Architect at NetSuite. He dedicates most of his time to software design of robust and performant cloud solutions. He champions best coding practices and instills the culture of clean design. Recently, he has been focused in building a multi-tenant asynchronous backend processing component for automating business processes. In his spare time he enjoys geeking out and playing inline hockey.",
+      "image": "assets/img/speakers/albert-margarit.jpg",
+      "ref": "amargarit",
+      "url": "infoSpeaker.html?ref=amargarit",
+      "twitter": "https://twitter.com/albertmargarit",
+      "homepage": "http://www.netsuite.com",
+      "talk": {
+        "title": "How to run 30.000 companies on a single system without dying in the attempt",
+        "abstract": "Imagine yourself building a highly-available and performant cloud system used by thousands of customers - with enough flexibility to allow any customer change the behavior of the application to match the needs of their business, and scalable enough to support the processing workload needs of all customers. Sounds like a worthwhile challenge?.",
+        "tags": [
+          "Architecture", "Cloud"
+        ],
+        "level": "Advanced"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Jakub Korab",
+      "description": "Independent consultant specialising in open source messaging and integration",
+      "biography": "Jakub Korab is a independent consultant specialising in open source messaging and integration, working exclusively with a suite of tools from the Apache Software Foundation, of which ActiveMQ and Kafka are corner stones. His experience ranges from architecture to troubleshooting across a broad range of industries that have included investment banking, law enforcement, gambling, logistics, utilities and space exploration. In 2016 he will complete his 100th messaging engagement.",
+      "image": "assets/img/speakers/jakub-korab.jpg",
+      "ref": "jkorab",
+      "url": "infoSpeaker.html?ref=jkorab",
+      "twitter": "http://twitter.com/jakekorab",
+      "homepage": "http://jakubkorab.net",
+      "talk": {
+        "title": "The Myth of the Magical Messaging Fabric",
+        "abstract": "Messaging systems underpin architectures ranging from stream processing, through to event sourcing and communication between loosely-coupled microservices. To most developers the technology is tangential to the business they work in, and is often disregarded with much hand waving as “just a pipe” for message distribution. Without a clear understanding of their capabilities and underlying design decisions, we tell ourselves stories about how they “should” work and are frustrated in production by behaviours emerging from design trade-offs.<br>In this session we will compare and contrast the approaches taken by two similar but fundamentally different messaging platforms – Apache ActiveMQ and Apache Kafka. We will discuss how their underlying philosophies impact message distribution, reliability, scalability, and performance. Along the way we will dip into how IOPS, latency and bandwidth affect throughput, why messaging does not play nicely with containers, and the unicorn of once-and-only-once delivery in distributed systems.",
+        "tags": [
+          "Messaging", "DistributedSystems", "Design", "Performance"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Ruslan Synytsky",
+      "description": "CEO and Co-founder of Jelastic",
+      "biography": "Ruslan Synytsky is CEO and Co-founder of Jelastic, a DevOps PaaS and CaaS for developers, cloud hosting service providers, systems integrators and enterprises. The platform provides the fastest and most agile deployment models, flexible scaling for stateless and stateful applications, collaboration and access control tools, billing and business analytics tools, while driving down TCO with high density and hardware utilization. With over 15 years experience in the IT industry, Ruslan is an expert in cloud solutions and large-scale distributed applications. Before starting Jelastic in 2011, he was a leading engineer at National Space Agency of Ukraine and worked on various innovative projects.",
+      "image": "assets/img/speakers/ruslan-synytsky.jpg",
+      "ref": "rsynytsky",
+      "url": "infoSpeaker.html?ref=rsynytsky",
+      "twitter": "https://twitter.com/siruslan",
+      "homepage": "https://jelastic.com/",
+      "talk": {
+        "title": "Autoscaling and load balancing of Java EE Cluster with Docker containers",
+        "abstract": "Provisioning and scaling of Java enterprise applications were always a hard task. Containers give a promise to bring automation of such IT operations to the next level. However very often it's even harder to decompose large monolithic enterprise applications into multiple containers architecture. At this session we'll dive deeply into the decomposition process and the ways to make it smooth in order to remove the bottlenecks for auto scaling and load balancing based on containers.",
+        "tags": [
+          "Containers", "Scalability", "Docker"
+        ],
+        "level": "Advanced"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Toni Tassani",
+      "description": "Agile Coach at eDreams ODIGEO",
+      "biography": "Toni Tassani is a Software Developer interested in people, communication and data. Recently he changed his title from Architect to Agile Coach. He works at eDreams ODIGEO.",
+      "image": "assets/img/speakers/toni-tassani.jpg",
+      "ref": "atassani",
+      "url": "infoSpeaker.html?ref=atassani",
+      "twitter": "https://twitter.com/atassani",
+      "talk": {
+        "title": "Putting order to your API ecosystem",
+        "abstract": "All Companies need to interact with other companies, and all Systems need some communication point. Nowadays web APIs are everywhere. We consume APIs (public and proprietary) and we build them for others to interact with. No matter what library or technology we use, regardless if we use REST or SOAP, we will have to evolve, document and communicate our APIs. In this talk we will review some solutions related to API Management like Axway, 3Scale, Apigee, WSO2 or CA. We will compare them with Enterprise Service Buses and we will review the features they provide in order to help you control the evolution of your APIs. But we will also talk about what you have to consider when designing and evolving APIs to make your life easier.",
+        "tags": [
+          "Architecture", "APIs", "Design"
+        ],
+        "level": "Beginner"
       },
       "scheduleId": ""
     }
