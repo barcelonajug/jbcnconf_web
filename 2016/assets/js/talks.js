@@ -66,8 +66,9 @@ function getFamilyForTag(tag){
 			family = "Metodology"; break;
 		case "Gradle":
 			family = "Tools"; break;
-		case "IoT":
-			family = "IoT"; break;
+		case "APIs":
+		case "RESTful":
+			family = "APIs"; break;
 		case "Java8":
 		case "Lambdas":
 		case "FunctionalProgramming":
@@ -90,7 +91,6 @@ function getFamilyForTag(tag){
 		case "Containers" : 
 		case "Kubernetes":
 		case "Microservices":
-		case "RESTful":
 		case "Docker":
 			family = "Microservices"; break;
 		case "noSQL" :
