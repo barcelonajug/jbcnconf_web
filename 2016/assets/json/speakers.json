@@ -489,7 +489,7 @@
     {
       "enabled": "1",
       "name": "Dimitris Kapanidis",
-      "description": "Software engineer, SQA evangelist, organizer of the Docker meetup in BCN",
+      "description": "Founder & Senior Consultant at Harbur",
       "biography": "Dimitris is a software engineer, SQA evangelist, organizer of the Docker meetup in BCN and founder of Harbur. He has been for a decade the ultimate responsible of the software quality of e-voting solutions with governments across all continents, a working environment that requires pristine-quality. Now in Harbur he helps enterprise tech companies modernize their development processes and infrastructures in order to embrace containers as first-class citizens on their ecosystem.<br>He loves automation, continuous delivery, and anything that boost the development-lifecycle and make developer's life easier. He also loves noodles.",
       "image": "assets/img/speakers/dimitris-kapanidis.jpg",
       "ref": "dkapanidis",
@@ -543,6 +543,86 @@
           "Java", "Groovy", "devops", "Testing", "Integration"
         ],
         "level": "Beginner"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Christian Schneider",
+      "description": "Open Source Architect at Talend",
+      "biography": "Christian is an Open Source Architect at Talend. He was the responsible architect for the Services Oriented Architecture of EnBW Trading GmbH (Trading floor of one of Germany’s largest utility companies). He specializes in OSGi and practical integration solutions. He was a a regular speaker at several Java conferences in Germany like JAX. W-JAX and at Apachecon.",
+      "image": "assets/img/speakers/christian-schneider.jpg",
+      "ref": "cschneider",
+      "url": "infoSpeaker.html?ref=cschneider",
+      "twitter": "https://twitter.com/schneider_chris",
+      "homepage":"http://liquid-reality.de",
+      "talk": {
+        "title": "Lean Microservices using OSGi",
+        "abstract": "Microservices and their frameworks like spring boot allow to start fast but can easily produce ugly monoliths again. OSGi on the other hand provides great modularity but is regarded as more complex than spring boot and alike. This Talk shows how to create lean and modular microservices using OSGi, maven and bndtools. The build result is a runnable jar or docker image and nicely fits microservice deployments. See how OSGi allows the flexibility to deploy each microservice on its own and let them communicate over (REST) remote calls or deploy them together and talk using OSGi services locally using the same business code bundles.",
+        "tags": [
+          "Microservices", "OSGi"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Cecilio Alvarez Caules",
+      "description": "Consultant and Trainer on Java EE, and author",
+      "biography": "I am an Oracle Certified Master (Architect). I have worked for 15 years in Consulting and Training Java EE  for companies in northern  Spain.  As author of two books on Java and Java EE frameworks, I  highly enjoy working with HTML5 and JavaScript technologies.",
+      "image": "assets/img/speakers/cecilio-alvarez.jpg",
+      "ref": "calvarez",
+      "url": "infoSpeaker.html?ref=calvarez",
+      "twitter": "http://twitter.com/arquitectojava",
+      "homepage":"http://www.arquitecturajava.com/",
+      "talk": {
+        "title": "Domain Driven Design and JPA",
+        "abstract": "Building a good model with Domain Driven Design is not an easy task. In this talk, It will shown  how to develop a solid model starting from  scratch. I will make reference to the main problems found by developers. I will show how to solve these issues by using Analysis patterns.<br>We will be using JPA as the standard to build our Domain Model . The latest features of this standard (such as Entity Graph and Programmatic Named Queries) will be analysed. It will also be explained how JPA can  help build better queries to obtain suitable data, which will make the application performance improve.<br>Finally, I will compare JPA with other persistent solutions that provide  alternative approaches.",
+        "tags": [
+          "DDD", "Patterns"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Clement Escoffier",
+      "description": "Red Hat as vert.x core developer",
+      "biography": "Who am I? That’s a good question. I had several professional lives, from academic positions to management. Currently, I’m working for Red Hat as vert.x core developer. I touched to many domains and technologies such as OSGi, mobile app development, continuous delivery, devops… My main point of interest? Software engineering, so processes, methods, tools that make the development of software more efficient and also more fun. I’m also an active contributor on many open source projects such as Apache Felix, iPOJO, Wisdom Framework, and obviously, vert.x.",
+      "image": "assets/img/speakers/clement-escofier.jpg",
+      "ref": "cescofier",
+      "url": "infoSpeaker.html?ref=cescofier",
+      "twitter": "https://twitter.com/clementplop",
+      "homepage":"http://vertx.io",
+      "talk": {
+        "title": "Building distributed reactive applications with Vert.x",
+        "abstract": "Sorry guys, there is no free lunch. We are in 2016, but distributed applications are not simple. You can embrace any cool trends such as microservices, developing a distributed application is a challenge. Why? Well, because it’s complicated. Distributed systems have many many reason to fail, technically it’s complicated, and the theory behind distributed system is also complicated.<br>Vert.x is a toolkit for build reactive distributed applications on top of the Java Virtual Machine. The application can be developed in Java of course but also in JavaScript, Groovy, Ruby or Ceylon. Vert.x does not hide the complexity of distributed applications; it lets you handle it. Vert.x applications are able to face failures, can use several protocols and interaction styles (messages, RPC, REST,…), handle heavy load, integrate with almost anything, and cope with all the requirements of modern applications.<br>In this session, an introduction to vert.x is given while highlighting all the complexity to build distributed applications. For each hotspot, vert.x features are demonstrated. This includes clustering, distributed structure, message-based communication, HTTP and REST, load balancing, failure recovery, integration with other technologies...",
+        "tags": [
+          "Reactive", "DistributedSystems", "Vert.x"
+        ],
+        "level": "Beginner"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Ola Petersson",
+      "description": "Fullstack web developer working at Squeed",
+      "biography": "I'm a fullstack web developer working at Squeed (JUG organizers in Gothenbrug). I hold a Masters in Software Engineering and come from an academic background with programming as my base, but with a specialty in software processes, requirements engineering etc.<br>During my career I have worked with different types of systems such as Android applications or building meta-models for requirement databases or building web based systems. I have the last years worked as a fullstack web-developer with my main focus in JavaEE. Outside of my everyday work I'm also spending time in spreading and especially gaining knowledge through meetups, JUGs, conferences etc.<br>On a personal level I'm a guy who likes music, gaming, playing badminton or spending time with my friends and family.  I also spend a lot of my spare time to learn about Software development in general, wether it be a new database solution or a philosophical aspect about people or processes.",
+      "image": "assets/img/speakers/ola-peterson.jpg",
+      "ref": "opeterson",
+      "url": "infoSpeaker.html?ref=opeterson",
+      "twitter": "https://twitter.com/olbpetersson",
+      "homepage":"http://www.squeed.com/",
+      "talk": {
+        "title": "Reactive Java EE",
+        "abstract": "Hardware has gone through an evolution in the last 10 years. Have you adapted your Software to it?<br>Todays end users have high demands on the responsiveness of your application and as an answer the reactive manifesto is getting more acknowledgement every day. But what really is reactive programming and do you have to invest in a new flashy framework to get the benefits of it?<br>Join me as we take a look at what reactive programming really is. With a hands on presentation we will go through the concepts of reactive programming and then proceed to how we actually can implement it. With a well established framework (Java EE) we will visit areas such as asynchronous programming, message- and event-driven architecture as well as websockets.<br>When you leave this session you will have the utilities to build responsive applications with higher throughput, better use of your hardware and especially; a nicer user experience!",
+        "tags": [
+          "Event-driven", "Reactive", "DistributedSystems"
+        ],
+        "level": "Intermediate"
       },
       "scheduleId": ""
     },
