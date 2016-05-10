@@ -508,26 +508,6 @@
     },
     {
       "enabled": "1",
-      "name": "Dimitris Kapanidis",
-      "description": "Software engineer, SQA evangelist, organizer of the Docker meetup in BCN",
-      "biography": "Dimitris is a software engineer, SQA evangelist, organizer of the Docker meetup in BCN and founder of Harbur. He has been for a decade the ultimate responsible of the software quality of e-voting solutions with governments across all continents, a working environment that requires pristine-quality. Now in Harbur he helps enterprise tech companies modernize their development processes and infrastructures in order to embrace containers as first-class citizens on their ecosystem.<br>He loves automation, continuous delivery, and anything that boost the development-lifecycle and make developer's life easier. He also loves noodles.",
-      "image": "assets/img/speakers/dimitris-kapanidis.jpg",
-      "ref": "dkapanidis",
-      "url": "infoSpeaker.html?ref=dkapanidis",
-      "twitter": "https://twitter.com/spiddy",
-      "talk": {
-        "title": "Netflix OSS and Kubernetes - Building a Microservice based Cloud platform",
-        "abstract": "There is a need these days to break monolithic solutions to distributed microservices. This need arise along with the need to restructure organizations from separate silos to DevOps.<br>Here we'll talk how to enable such migration using Spring Cloud, Spring Boot, Netflix OSS & Kubernetes and create a Cloud Platflorm where Microservices can be deployed easily using Docker containers.<br>We'll discuss about the benefits of using NetflixOSS Eureka as Service Discovery, either on-premise or on-cloud environments and how zero downtime deployments can be easily achieved using rolling updates of Kubernetes. Lastly we'll focus on resiliency using health checks, auto healing, auto scaling and multiple data-centers on cloud providers.",
-        "tags": [
-          "Cloud",
-          "Microservices"
-        ],
-        "level": "Beginner"
-      },
-      "scheduleId": ""
-    },
-    {
-      "enabled": "1",
       "name": "Per Jørgen Walstrøm",
       "description": "Team Lead and Lead Developer of FINN Travel",
       "biography": "He have almost 20 years of experience as developers and still find motivation and inner happiness in a test that goes green..",
