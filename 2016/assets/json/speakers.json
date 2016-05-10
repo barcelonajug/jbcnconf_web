@@ -565,6 +565,26 @@
         "level": "Intermediate"
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Cecilio Alvarez Caules",
+      "description": "Consultant and Trainer on Java EE, and author",
+      "biography": "I am an Oracle Certified Master (Architect). I have worked for 15 years in Consulting and Training Java EE  for companies in northern  Spain.  As author of two books on Java and Java EE frameworks, I  highly enjoy working with HTML5 and JavaScript technologies.",
+      "image": "assets/img/speakers/cecilio-alvarez.jpg",
+      "ref": "calvarez",
+      "url": "infoSpeaker.html?ref=calvarez",
+      "twitter": "http://twitter.com/arquitectojava",
+      "homepage":"http://www.arquitecturajava.com/",
+      "talk": {
+        "title": "Domain Driven Design and JPA",
+        "abstract": "Building a good model with Domain Driven Design is not an easy task. In this talk, It will shown  how to develop a solid model starting from  scratch. I will make reference to the main problems found by developers. I will show how to solve these issues by using Analysis patterns.<br>We will be using JPA as the standard to build our Domain Model . The latest features of this standard (such as Entity Graph and Programmatic Named Queries) will be analysed. It will also be explained how JPA can  help build better queries to obtain suitable data, which will make the application performance improve.<br>Finally, I will compare JPA with other persistent solutions that provide  alternative approaches.",
+        "tags": [
+          "DDD", "Patterns"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
     }
   ]
 }
