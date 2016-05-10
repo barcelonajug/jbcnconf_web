@@ -489,7 +489,7 @@
     {
       "enabled": "1",
       "name": "Dimitris Kapanidis",
-      "description": "Software engineer, SQA evangelist, organizer of the Docker meetup in BCN",
+      "description": "Founder & Senior Consultant at Harbur",
       "biography": "Dimitris is a software engineer, SQA evangelist, organizer of the Docker meetup in BCN and founder of Harbur. He has been for a decade the ultimate responsible of the software quality of e-voting solutions with governments across all continents, a working environment that requires pristine-quality. Now in Harbur he helps enterprise tech companies modernize their development processes and infrastructures in order to embrace containers as first-class citizens on their ecosystem.<br>He loves automation, continuous delivery, and anything that boost the development-lifecycle and make developer's life easier. He also loves noodles.",
       "image": "assets/img/speakers/dimitris-kapanidis.jpg",
       "ref": "dkapanidis",
