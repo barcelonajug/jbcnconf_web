@@ -10,6 +10,7 @@
       "url": "infoSpeaker.html?ref=rdavies",
       "twitter": "https://twitter.com/rajdavies",
       "talk": {
+        "type": "talk",
         "title": "Messaging and Microservices",
         "abstract": "Microservices sometimes need more than REST for scaling and performance and Message-oriented Middleware seems like an ideal fit. However, traditional Enterprise Message Brokers are pretty static, and are poor at providing the elasticity required for cloud deployments. This talk will walk through some scenarios and different deployments, adding automatic sharding across clusters of brokers and sprinkle with magic from fabric8 - to show we can have a highly scalable cloud based messaging solution ideal for microservices.",
         "tags": [
@@ -29,6 +30,7 @@
       "url": "infoSpeaker.html?ref=cposta",
       "twitter": "https://twitter.com/christianposta",
       "talk": {
+        "type": "talk",
         "title": "Cloud Native Camel riding with Kubernetes and OpenShift",
         "abstract": "Microservices is still a distributed-systems problem and integration is a core component to any distributed system. A lot of organizations that are looking to deploy microservices are running into the following problems: how to test, how to deploy, VM proliferation, how to manage, and ultimately how to get services to integrate in a reliable way. Fuse Integration Services for OpenShift is a Docker/Kubernetes-native way of packaging our microservices and leveraging powerful integration technology built on Apache Camel to do connect the pieces together. After that, how do you build, manage and continuously deploy your microserivces? With another open-source project, fabric8.io, we can hook into well-known CI/CD tools like github, jenkins, nexus, et al, and build out end to end  pipelines with promotion and approval processes that can be customized to suit your projects and organizations needs. CI/CD also integrates with LetsChat/Slack/Ryver using Hubot automation to deliver transparency and control to enable organizations to practice ChatOps. Once you've got your microservices being built and deployed, leverage the built-in API Management, middleware visualization console, chaos monkey, and centralized logging/metrics/monitoring to operationalize your services and ensure they stay resilient.",
         "tags": [
@@ -47,6 +49,7 @@
       "ref": "mswiderski",
       "url": "infoSpeaker.html?ref=mswiderski",
       "talk": {
+        "type": "talk",
         "title": "Knowledge driven micro services",
         "abstract": "With constantly growing business demands more and more focus is put on gathering business knowledge and making use of it in IT. Knowledge Is Everything - that’s a slogan that lots of business domains is catching up right now.On the other hand, recent trends in software development are shifting into micro services environments where loosely coupled, standalone and independent services provide access to various business assets. With that in mind, knowledge driven micro service idea came into live to combine couple of great technologies together to satisfy such needs:- vert.x - toolkit for building reactive applications on JVM- jBPM and Drools flexible process and rule engines that provide excellent execution environment for business assets - the knowledge- hazelcast - in memory data grid- various programming languages (Java, JavaScript, Scala, Groovy) to attract various development teams. This session is about illustrating how easily and fast you can build knowledge driven micro services and scale them to almost no limits. All in reactive and polyglot fashion with powerful clustering. Scale individual knowledge micro services without a hassle and allow various languages to easily interact with business knowledge without a need to know where they are located. It all goes via clustered event bus provided by Vert.x, backed by deployable knowledge archives provided by jBPM and Drools, clustering delivered by hazelcast data grid and allow polyglot client side access.It’s all about business knowledge that can be delivered as software solution with:- flexibility - speed of development - isolated scalability - manageability . Come and see how to transform your IT solutions into knowledge driven micro services with Vert.x, jBPM, Drools and Hazelcast. This session will be full of life demos to actually show the running micro services driven by business knowledge.",
         "tags": [
@@ -66,6 +69,7 @@
       "url": "infoSpeaker.html?ref=mdyankov",
       "twitter": "https://twitter.com/milendyankov",
       "talk": {
+        "type": "talk",
         "title": "What's NOT new in Modular Java!",
         "abstract": "With Java 9 and Jigsaw project around the corner (this time apparently for real), we finally need to stop pretending we can simply ignore the concept of modularity in Java! The thing is - modularity is NOT just some new framework! Neither it is a simple set of APIs! It's a complex concept that has been around for almost as long as the industry itself. So in this talk I'd like to take a step back and reason about the fundamental idea of modularity in Java by comparing the concepts of Jigsaw with other Java modularity approaches and implementations that have been around for quite some time.",
         "tags": [
@@ -85,6 +89,7 @@
       "url": "infoSpeaker.html?ref=sfloyd",
       "twitter": "https://twitter.com/oldjavaguy",
       "talk": {
+        "type": "talk",
         "title": "Advanced testing patterns in Java and Scala",
         "abstract": "Not your father's unit testing. This talk will deal with advanced testing techniques like parameterized testing, property testing, dynamic test generation. It will also focus on techniques for making seemingly untestable code testable. I'll show techniques for both Java and Scala, along with hints on how to integrate the two.",
         "tags": [
@@ -104,6 +109,7 @@
       "url": "infoSpeaker.html?ref=jbonofre",
       "twitter": "https://twitter.com/jbonofre",
       "talk": {
+        "type": "talk",
         "title": "Apache Beam to design your data pipelines",
         "abstract": "Instead of directly implementing your data processing jobs using MapReduce or Spark, you can abstract by using Apache Beam. It provides a very convenient SDK allowing you to design pipelines working in stream or batch mode.",
         "tags": [
@@ -123,6 +129,7 @@
       "url": "infoSpeaker.html?ref=vfarcic",
       "twitter": "https://twitter.com/vfarcic",
       "talk": {
+        "type": "talk",
         "title": "Continuously Deploying Microservices",
         "abstract": "The chances are that you already tried Docker. You probably started by running one of the images from Docker Hub. The ease of use led you to experiment writing your own Dockerfile and building images from it. You tried Docker Compose. You might have realized benefits Docker provides in conjunction with microservices. Hopefully, you already deployed a container or two to production or, at least, recognized the advantages it brings to development, testing, integration and other environments and phases. All those pieces are necessary requirements for the 'real deal'. The final objective is to combine quite a few processes and technologies that will allow us to create a deployment pipeline. Docker makes it possible to reach nirvana. The world many thought is far from reality. The world where the last thing we do is run git push. From thereon, a machine takes over, and few minutes later our software is tested, built, deployed to production, and what so not. Let's see how that nirvana looks like. Let's explore which steps are required for a fully automated continuous deployment pipeline combined with microservices, and Docker containers.",
         "tags": [
@@ -142,6 +149,7 @@
       "url": "infoSpeaker.html?ref=cibsen",
       "twitter": "https://twitter.com/davsclaus",
       "talk": {
+        "type": "talk",
         "title": "Developing Java based microservices ready for the world of containers",
         "abstract": "The so-called experts are saying microservices and containers will change the way we build, maintain, operate, and integrate applications. This talk is intended for Java developers who wants to hear and see how you can develop Java microservices that are ready to run in containers. In this talk we will build a set of Java based microservices that uses a mix of technologies with:- Apache Camel with CDI - Spring Boot - Vert.x - WildFly Swarm . You will see how we can build small discrete microservices with these Java technologies and build and deploy on the Kubernets/OpenShift3 container platform. We will discuss practices how to build distributed and fault tolerant microservices using technologies such as Kubernetes Services, Camel EIPs, Netflixx Hysterix, and Ribbon. We will use Zipkin service tracing across all four Java based microservices to provide a visualization of timings and help highlight latency problems in our mesh of microservices. And the self healing and fault tolerant aspects of the Kubernetes/OpenShift3 platform is also discussed and demoed when we let the chaos monkeys loose killing containers. This talk is a 50/50 mix between slides and demo.",
         "tags": [
@@ -161,6 +169,7 @@
       "url": "infoSpeaker.html?ref=elozano",
       "twitter": "https://twitter.com/esloho",
       "talk": {
+        "type": "talk",
         "title": "Geb+Spock: let your functional tests live long and prosper",
         "abstract": "Functional testing, as any other testing, is important to ensure the health of our apps. However, functional tests are often tricky, too susceptible to change, and their maintenance ends up being a nightmare. Are we hopeless then? Not at all! Luckily, there are tools to ease this task like Geb and Spock, which help us to create well structured, comprehensive, and easy to maintain tests. In this talk we will review these tools, showing different options for creating the tests. Demo included!",
         "tags": [
@@ -181,6 +190,7 @@
       "twitter": "https://twitter.com/speakjava",
       "homepage": "http://www.azul.com",
       "talk": {
+        "type": "talk",
         "title": "JDK 8: Lessons Learnt With Lambdas and Streams",
         "abstract": "Lambda expressions and the streams API add a more functional style of programming to Java; something developers have not really had in the past. This session will start with a short summary of the key features of both Lambda expressions and streams before moving on to some real world examples of how to use them effectively, including a number of lessons learnt from trying to apply an imperative style of programming when it should have been functional. We’ll move on to a discussion about the way parallel streams work under-the-hood, factors that affect parallel stream performance including details of when not to use a parallel stream. We'll finish off with a quick look at some of the ideas for improvements to streams in JDK 9.",
         "tags": [
@@ -201,6 +211,7 @@
       "twitter": "https://twitter.com/tgrall",
       "homepage": "http://tgrall.github.io/",
       "talk": {
+        "type": "talk",
         "title": "Fast Cars, Big Data - How Streaming Can Help Formula 1",
         "abstract": "Modern cars produce data. Lots of data. And Formula 1 cars produce more than their share. I will present a working demonstration of how modern data streaming can be applied to the data acquisition and analysis problem posed by modern motorsports. Instead of bringing multiple Formula 1 cars to the talk, I will show how we instrumented a high fidelity physics-based automotive simulator to produce realistic data from simulated cars running on the Spa-Francorchamps track. We move data from the cars, to the pits, to the engineers back at HQ. The result is near real-time visualization and comparison of performance and a great exposition of how to move data using messaging systems like Kafka. The code from this talk will be made available as open source.",
         "tags": [
@@ -221,6 +232,7 @@
       "twitter": "http://twitter.com/ldoguin",
       "homepage": "http://blog.couchbase.com/facet/Author/Laurent+Doguin",
       "talk": {
+        "type": "talk",
         "title": "A practical RxJava example with Ratpack and Couchbase",
         "abstract": "RxJava seems to be this awesome thing that every cool kids start using. But when you read about it, half of the time it's hard to make anything out of it. Sure the isolated examples look nice but it's always hard to put this in perspective with a real app. In this talk I'll go through an application made to store, index and search files. We'll see the benefit brought by using RxJava and Ratpack. Nothing too complicated or advanced, just something pragmatic.",
         "tags": [
@@ -241,6 +253,7 @@
       "twitter": "https://twitter.com/tdubikowski",
       "homepage": "https://agilehabits.wordpress.com/",
       "talk": {
+        "type": "talk",
         "title": "Epic Battle: Zombies vs Mutants",
         "abstract": "People love zombies. Just look how many movies about zombies are made. But Why? They don't have purpose, consume 'non-zombie' resources, spread panic and fear. Even though, people love them. People don't love mutants. 'Mutant' is such a negative word. Even if you find a really cool mutants, like Spiderman or Wolverine, we call them superheros. It just sounds better. But when you look at them they have great powers that can be used for great things. But nope, people don't love mutants. IT people are much smarter and prefer mutants over zombies. How many zombie test we have in our systems? Tests, that don't check anything, fail in the worst moment, consume resources and time? Do we even know where they are and how many of them there is exactly? Not really, and here mutants can help. And to be more precise - mutation testing. In my presentation I would like to talk about mutation testing and how they affect the quality of both the code and tests. During live coding session I would like to present lightweight and easy to introduce framework PITest, which I consider to be the best available solution for mutation testing.",
         "tags": [
@@ -261,6 +274,7 @@
       "twitter": "https://twitter.com/areksokolowski",
       "homepage": "",
       "talk": {
+        "type": "talk",
         "title": "Taste of new in Java 9",
         "abstract": "Do you know what are jshell, jigsaw, G1? How can they help you and your team? To give you the taste of Java 9, I will present the most interesting of its features, like jshell (Java 9 REPL environment) and jigsaw (Java 9 modules) in action. If you are interested in the future of core Java platform, this session is for you!",
         "tags": [
@@ -279,6 +293,7 @@
       "ref": "mmulders",
       "url": "infoSpeaker.html?ref=mmulders",
       "talk": {
+        "type": "talk",
         "title": "ELK: BigData for DevOps",
         "abstract": "Big Data is often related to companies like Google, Facebook or Twitter. Indeed, 500 bilion tweets a day, 1,3 billion active Facebook users or 30 billion web pages to search, we're talking 'Big Data'. Many smaller companies have Big Data, too, without knowing it: application log files. This talk discusses how to use Elasticsearch, Logstash and Kibana to gain insight in these data. It also covers a real-world example at a major Dutch bank, including common pit falls, best practices and lessons  learned. It also addresses how monitoring was done before using the ELK stack and what the major advantages are. After attending this session you will be able to leverage the power of the ELK stack for your own application. Even for smaller companies and applications, a lot of knowledge can be gained from proper insight in your production environment.",
         "tags": [
@@ -298,6 +313,7 @@
       "url": "infoSpeaker.html?ref=mgarcia",
       "twitter": "https://twitter.com/marioggar",
       "talk": {
+        "type": "talk",
         "title": "Generative Testing with Spock",
         "abstract": "As our application grows in size and complexity, sometimes our testing code becomes more and more difficult to write and maintain, more use cases, more values to check...STOP! This talk will discuss on how property-based testing and Spock could help you writing more concise and maintainable testing code. Spock is a testing and specification framework for Java and Groovy with a beautiful and highly expressive specification language.",
         "tags": [
@@ -319,6 +335,7 @@
       "url": "infoSpeaker.html?ref=asoto",
       "twitter": "https://twitter.com/alexsotob",
       "talk": {
+        "type": "talk",
         "title": "Dockerized system testing, with a dash of chaos",
         "abstract": "With microservices, polyglot and DevOps on the rise, where are we at with testing? Does it bring more complexity and make our testing effort harder or maybe in contrary; it actually helps us write better tests easier? In this session, we will be exploring not only how we can do our testing in this new world, but also how the new world can help us test better. Meet Arquillian Cube and Q. We will take a close look at topics varying from polyglot services, orchestrated microservices to system scale testing. All are within reach. And with full control; Let's add a dash of chaos!",
         "tags": [
@@ -339,6 +356,7 @@
       "url": "infoSpeaker.html?ref=scronje",
       "twitter": "http://twitter.com/ysb33r",
       "talk": {
+        "type": "talk",
         "title": "Quickstart Gradle for JVM Development",
         "abstract": "Gradle has become a very popular build tool for JVM development, especially after becoming the primary way of building Android apps.  Yet Gradle is far more than that. It presents a next generation of build tooling,and large-scale deployment-pipeline automation. Some people see it as a replacement for Maven, but the comparison is unfair as Gradle offers much more in both functionality and philosophy. In this session we'll be looking at: <ul style='text-align:left'><li>Introduction to Gradle for non-Groovy geeks </li><li> Breaking into the next generation of build tools </li><li>Gradle in a polyglot JVM world </li><li>Usage of Gradle for deployment, Devops, and documentation</li></ul>",
         "tags": [
@@ -358,6 +376,7 @@
       "url": "infoSpeaker.html?ref=nhormazabal",
       "twitter": "https://twitter.com/pnikosis",
       "talk": {
+        "type": "talk",
         "title": "Fascinating! Testing with Spock",
         "abstract": "When it comes to testing on Java, usually the first thing that comes to most developers' mind is JUnit. Probably some mocking will be needed too, and the almost de-facto option ends up being Mockito. Spock is an alternative for the popular JUnit/Mockito combo written in Groovy but not limited for tests in that language. We are going to show how to write expressive tests in Java using Spock, how to mock objects, write Data Driven tests and support Behaviour Driven Development. Also we will review other features of Spock and how they compare with JUnit/Mockito and how it has helped us locally on our productivity when testing our code, providing some real examples.",
         "tags": [
@@ -378,6 +397,7 @@
       "url": "infoSpeaker.html?ref=jpereda",
       "twitter": "https://twitter.com/JPeredaDnr",
       "talk": {
+        "type": "talk",
         "title": "Compelling mobile apps with Java: a dream come true!",
         "abstract": "While JavaFX allows Java developers to create client applications with mainly oriented to desktop user interfaces, the market tendencies go to mobile and web applications. JavaFXPorts is an open source project that allows those developers to package and deploy their desktop applications on mobile devices with the same codebase. This session will show the current state of deploying Java on Android and iOS. Attendees will see all the steps required to create JavaFX applications that can be deployed on mobile devices and distributed via the major stores, using free tools like the Gluon plugin. Through different apps, attendees will see how those apps can be enhanced with the use of the Gluon Mobile library, which provides native UI, custom JavaFX controls, native interaction with the device, cloud integration, reducing repetitive work and improving massively time-to-market.",
         "tags": [
@@ -398,6 +418,7 @@
       "url": "infoSpeaker.html?ref=dgomez",
       "twitter": "http://twitter.com/dgomezg",
       "talk": {
+        "type": "talk",
         "title": "Parallel Streams: A look under the hood",
         "abstract": "With Java 8 and its Stream API, we have seen a brand new way of processing collections of data.<br>One of the most powerful features of the Java8 Streams is its possibility of paralellize the operations pipeline. But, in some cases, there has been several developers which has found that not always the parallel stream works better than the serial stream (or even the traditional for or foreach loops to iterate over a collection).<br>In this talk we will take a look at the Streams performance and we will present some of the elements that could affect the performance.<br>We will also present the mechanisms under the Parallel Stream in order to know better the way it works and to try to understand what could affect to the performance of a parallel stream",
         "tags": [
@@ -418,6 +439,7 @@
       "url": "infoSpeaker.html?ref=cbrett",
       "twitter": "https://twitter.com/chrisbrett665",
       "talk": {
+        "type": "talk",
         "title": "Testing, Analysis and Optimisation using Discrete Event Simulation in Java",
         "abstract": "Ocado Technology writes software and creates hardware for massive automated warehouses and supply chains. The physical devices, layout and algorithms we use affect cost, efficiency and site capacity – getting it right is worth millions.<br>Making highly optimal choices for these three aspects is often beyond human capability. We can either optimise and test by trial and error in production, which is expensive, risky and slow, or we can write software to test our systems and identify highly optimal choices for us.<br>Learn how we use Discrete Event Simulation to test production applications, predict operational performance, and optimise physical layouts, hardware design and control algorithms. Discrete Event Simulation gives us scenario and full production case testing capability. These tests are deterministic, making debugging faster and simpler, and preventing erroneous test failures. Each test can complete faster than real-time meaning that you can afford to add a vast amount of tests without excessively slowing down your development cycle.  Come along and I’ll show you how this can be done.",
         "tags": [
@@ -437,6 +459,7 @@
       "url": "infoSpeaker.html?ref=rpau",
       "twitter": "https://twitter.com/walkmod",
       "talk": {
+        "type": "talk",
         "title": "How to Maintain and Fix code conventions with SonarQube and Walkmod",
         "abstract": "Code conventions are programming guidelines to improve the code readability, reduce bugs and thus, reduce maintenance costs. Currently, developers can detect automatically which parts of your code are violating a specific code convention through static analysis tools such as SonarQube.<br>However, after having a detailed report about which parts of the code contain bad programming practices, developers need to fix them manually using their favorite editor over and over again even if the solution is completely simple and deterministic. To solve this problem, we have created Walkmod, an open source tool to share and automatically fix code conventions.<br>In this session we will introduce Walkmod and  we will explain how to configure it to automatically fix our sonar rules using one of the most important java open source project.",
         "tags": [
@@ -457,6 +480,7 @@
       "url": "infoSpeaker.html?ref=mtoshev",
       "twitter": "https://twitter.com/martin_fmi",
       "talk": {
+        "type": "talk",
         "title": "Security architecture of the Java platform",
         "abstract": "The session provides an overview of the security architecture of the Java platform in terms of its evolution throughout the versions of the JDK up to JDK 9 and beyond. The security utilities that fullfill the security portfolio of the JDK will be discussed briefly along with several guidelines in designing and implementing secure applications by following security best practices.",
         "tags": [
@@ -477,6 +501,7 @@
       "url": "infoSpeaker.html?ref=jrawlings",
       "twitter": "https://twitter.com/jdrawlings",
       "talk": {
+        "type": "talk",
         "title": "Fabric8'ing continuous improvement",
         "abstract": "Designing, building and releasing new features is only half the story.  As developers, we need to understand more about how our applications and features are running so that we can improve them.  This ultimately leads to greater efficiencies, reliability, cost savings as well as happier developers, operations, businesses and consumers.<br>In this session we'll see a demo building different implementations of Java based applications and the effect of change during their continuous delivery pipelines.  By establishing feedback loops involving out of the box centralised logs and metrics, alerting, dashboards and charting to help learn more about our apps and processes so we can improve.<br>The talk will give insight to the advances of Open Source software including Kubernetes, Kibana, Elasticsearch, Prometheus, Grafana and how they can be used together to build better software.",
         "tags": [
@@ -496,6 +521,7 @@
       "url": "infoSpeaker.html?ref=dkapanidis",
       "twitter": "https://twitter.com/spiddy",
       "talk": {
+        "type": "talk",
         "title": "Netflix OSS and Kubernetes - Building a Microservice based Cloud platform",
         "abstract": "There is a need these days to break monolithic solutions to distributed microservices. This need arise along with the need to restructure organizations from separate silos to DevOps.<br>Here we'll talk how to enable such migration using Spring Cloud, Spring Boot, Netflix OSS & Kubernetes and create a Cloud Platflorm where Microservices can be deployed easily using Docker containers.<br>We'll discuss about the benefits of using NetflixOSS Eureka as Service Discovery, either on-premise or on-cloud environments and how zero downtime deployments can be easily achieved using rolling updates of Kubernetes. Lastly we'll focus on resiliency using health checks, auto healing, auto scaling and multiple data-centers on cloud providers.",
         "tags": [
@@ -517,6 +543,7 @@
       "twitter": "https://twitter.com/pjwalstrom",
       "cospeakerref": "stigkleppejorgensen",
       "talk": {
+        "type": "talk",
         "title": "How we deploy to production 42 times a day",
         "abstract": "When the Schibsted-company FINN Travel created its new platform in 2013, one requirement was that the code should be rolled out continuously. To be able to do this, the code that hits production needs to behave well and not destroy existing functionality. This is the story of how Continuous Integration and Continuous Delivery is a natural part of a developer's life in FINN. We show how tests will help us on our way, how the developers' role has changed to cope with the new demands, and take a dive into the internal infrastructure of FINN.",
         "tags": [
@@ -537,6 +564,7 @@
       "twitter": "https://twitter.com/stigkj",
       "cospeakerref": "perjorgenwalstrom",
       "talk": {
+        "type": "talk",
         "title": "How we deploy to production 42 times a day",
         "abstract": "When the Schibsted-company FINN Travel created its new platform in 2013, one requirement was that the code should be rolled out continuously. To be able to do this, the code that hits production needs to behave well and not destroy existing functionality. This is the story of how Continuous Integration and Continuous Delivery is a natural part of a developer's life in FINN. We show how tests will help us on our way, how the developers' role has changed to cope with the new demands, and take a dive into the internal infrastructure of FINN.",
         "tags": [
@@ -557,6 +585,7 @@
       "twitter": "https://twitter.com/schneider_chris",
       "homepage":"http://liquid-reality.de",
       "talk": {
+        "type": "talk",
         "title": "Lean Microservices using OSGi",
         "abstract": "Microservices and their frameworks like spring boot allow to start fast but can easily produce ugly monoliths again. OSGi on the other hand provides great modularity but is regarded as more complex than spring boot and alike. This Talk shows how to create lean and modular microservices using OSGi, maven and bndtools. The build result is a runnable jar or docker image and nicely fits microservice deployments. See how OSGi allows the flexibility to deploy each microservice on its own and let them communicate over (REST) remote calls or deploy them together and talk using OSGi services locally using the same business code bundles.",
         "tags": [
@@ -577,6 +606,7 @@
       "twitter": "http://twitter.com/arquitectojava",
       "homepage":"http://www.arquitecturajava.com/",
       "talk": {
+        "type": "talk",
         "title": "Domain Driven Design and JPA",
         "abstract": "Building a good model with Domain Driven Design is not an easy task. In this talk, It will shown  how to develop a solid model starting from  scratch. I will make reference to the main problems found by developers. I will show how to solve these issues by using Analysis patterns.<br>We will be using JPA as the standard to build our Domain Model . The latest features of this standard (such as Entity Graph and Programmatic Named Queries) will be analysed. It will also be explained how JPA can  help build better queries to obtain suitable data, which will make the application performance improve.<br>Finally, I will compare JPA with other persistent solutions that provide  alternative approaches.",
         "tags": [
@@ -597,6 +627,7 @@
       "twitter": "https://twitter.com/clementplop",
       "homepage":"http://vertx.io",
       "talk": {
+        "type": "talk",
         "title": "Building distributed reactive applications with Vert.x",
         "abstract": "Sorry guys, there is no free lunch. We are in 2016, but distributed applications are not simple. You can embrace any cool trends such as microservices, developing a distributed application is a challenge. Why? Well, because it’s complicated. Distributed systems have many many reason to fail, technically it’s complicated, and the theory behind distributed system is also complicated.<br>Vert.x is a toolkit for build reactive distributed applications on top of the Java Virtual Machine. The application can be developed in Java of course but also in JavaScript, Groovy, Ruby or Ceylon. Vert.x does not hide the complexity of distributed applications; it lets you handle it. Vert.x applications are able to face failures, can use several protocols and interaction styles (messages, RPC, REST,…), handle heavy load, integrate with almost anything, and cope with all the requirements of modern applications.<br>In this session, an introduction to vert.x is given while highlighting all the complexity to build distributed applications. For each hotspot, vert.x features are demonstrated. This includes clustering, distributed structure, message-based communication, HTTP and REST, load balancing, failure recovery, integration with other technologies...",
         "tags": [
@@ -617,6 +648,7 @@
       "twitter": "https://twitter.com/olbpetersson",
       "homepage":"http://www.squeed.com/",
       "talk": {
+        "type": "talk",
         "title": "Reactive Java EE",
         "abstract": "Hardware has gone through an evolution in the last 10 years. Have you adapted your Software to it?<br>Todays end users have high demands on the responsiveness of your application and as an answer the reactive manifesto is getting more acknowledgement every day. But what really is reactive programming and do you have to invest in a new flashy framework to get the benefits of it?<br>Join me as we take a look at what reactive programming really is. With a hands on presentation we will go through the concepts of reactive programming and then proceed to how we actually can implement it. With a well established framework (Java EE) we will visit areas such as asynchronous programming, message- and event-driven architecture as well as websockets.<br>When you leave this session you will have the utilities to build responsive applications with higher throughput, better use of your hardware and especially; a nicer user experience!",
         "tags": [
@@ -637,10 +669,11 @@
       "twitter": "https://twitter.com/albertmargarit",
       "homepage": "http://www.netsuite.com",
       "talk": {
+        "type": "talk",
         "title": "How to run 30.000 companies on a single system without dying in the attempt",
-        "abstract": "Imagine yourself building a highly-available and performant cloud system used by thousands of customers - with enough flexibility to allow any customer change the behavior of the application to match the needs of their business, and scalable enough to support the processing workload needs of all customers. Sounds like a worthwhile challenge?.",
+        "abstract": "Imagine yourself building a highly-available and performant cloud system used by thousands of customers - with enough flexibility to allow any customer change the behavior of the application to match the needs of their business, and scalable enough to support the processing workload needs of all customers. Sounds like a worthwhile challenge?.<br>This talk will go through the common pitfalls of building multitenant solutions (IaaS, PaaS and SaaS) and some common patterns to allow a single system to be used by multiple customers in a concurrent, performant, secure and flexible manner. Welcome to the world of multitenancy!",
         "tags": [
-          "Architecture", "Cloud"
+          "Architecture", "DistributedSystems", "Cloud"
         ],
         "level": "Advanced"
       },
@@ -657,6 +690,7 @@
       "twitter": "http://twitter.com/jakekorab",
       "homepage": "http://jakubkorab.net",
       "talk": {
+        "type": "talk",
         "title": "The Myth of the Magical Messaging Fabric",
         "abstract": "Messaging systems underpin architectures ranging from stream processing, through to event sourcing and communication between loosely-coupled microservices. To most developers the technology is tangential to the business they work in, and is often disregarded with much hand waving as “just a pipe” for message distribution. Without a clear understanding of their capabilities and underlying design decisions, we tell ourselves stories about how they “should” work and are frustrated in production by behaviours emerging from design trade-offs.<br>In this session we will compare and contrast the approaches taken by two similar but fundamentally different messaging platforms – Apache ActiveMQ and Apache Kafka. We will discuss how their underlying philosophies impact message distribution, reliability, scalability, and performance. Along the way we will dip into how IOPS, latency and bandwidth affect throughput, why messaging does not play nicely with containers, and the unicorn of once-and-only-once delivery in distributed systems.",
         "tags": [
@@ -677,6 +711,7 @@
       "twitter": "https://twitter.com/siruslan",
       "homepage": "https://jelastic.com/",
       "talk": {
+        "type": "talk",
         "title": "Autoscaling and load balancing of Java EE Cluster with Docker containers",
         "abstract": "Provisioning and scaling of Java enterprise applications were always a hard task. Containers give a promise to bring automation of such IT operations to the next level. However very often it's even harder to decompose large monolithic enterprise applications into multiple containers architecture. At this session we'll dive deeply into the decomposition process and the ways to make it smooth in order to remove the bottlenecks for auto scaling and load balancing based on containers.",
         "tags": [
@@ -696,12 +731,34 @@
       "url": "infoSpeaker.html?ref=atassani",
       "twitter": "https://twitter.com/atassani",
       "talk": {
+        "type": "talk",
         "title": "Putting order to your API ecosystem",
         "abstract": "All Companies need to interact with other companies, and all Systems need some communication point. Nowadays web APIs are everywhere. We consume APIs (public and proprietary) and we build them for others to interact with. No matter what library or technology we use, regardless if we use REST or SOAP, we will have to evolve, document and communicate our APIs. In this talk we will review some solutions related to API Management like Axway, 3Scale, Apigee, WSO2 or CA. We will compare them with Enterprise Service Buses and we will review the features they provide in order to help you control the evolution of your APIs. But we will also talk about what you have to consider when designing and evolving APIs to make your life easier.",
         "tags": [
           "Architecture", "APIs", "Design"
         ],
         "level": "Beginner"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "",
+      "description": "Senior Software Engineer @RedHat/JBoss",
+      "biography": "Senior Software Engineer @ Red Hat /JBoss working for the Drools & jBPM project. Author of 4 books (3 about jBPM and 1 about Drools).",
+      "image": "assets/img/speakers/salaboy.jpg",
+      "ref": "salaboy",
+      "url": "infoSpeaker.html?ref=salaboy",
+      "twitter": "https://twitter.com/salaboy",
+      "homepage": "http://salaboy.com",
+      "talk": {
+        "type": "workshop",
+        "title": "Drools Hands On - Improve  your Microservices with Drools",
+        "abstract": "Do you want to get started with Drools? Do you want to understand the different architectural patterns to start using Drools efficiently in your applications and/or your microservices? During the workshop you will learn how to code a set of rules to implement the logic inside a set of micro services. The aim of the session is to give you all the tools to start using Drools in your own microservices in almost no time. The session will also cover a set of pitfalls to avoid when you are starting with Drools so you can apply what is covered straight in your apps/microservices.",
+        "tags": [
+          "Drools", "Microservices"
+        ],
+        "level": "Intermediate"
       },
       "scheduleId": ""
     }

@@ -74,3 +74,88 @@ $(window).load(function () {
     $(".loader .fading-line").fadeOut();
     $(".loader").fadeOut("slow");
 });
+
+function getFamilyForTag(tag){
+    family = "unknown";
+    switch (tag) {
+        case "Messaging" : 
+        case "Scalability" :
+        case "Cloud":
+        case "Integration":
+        case "Design":
+        case "Modularity":
+        case "Architecture":
+        case "Patterns":
+        case "Real-time":
+            family = "Architecture"; break;
+
+        case "Testing" : 
+        case "Devops" :
+        case "ContinuousDelivery":
+        case "ContinuousIntegration":
+            family = "Metodology"; break;
+        case "Gradle":
+            family = "Tools"; break;
+        case "APIs":
+        case "RESTful":
+            family = "APIs"; break;
+        case "Java8":
+        case "Lambdas":
+        case "FunctionalProgramming":
+            family = "Java8"; break;
+        case "Java9":
+            family = "Java9"; break;
+        case "Kotlin" :
+        case "Clojure":
+        case "Groovy" :
+        case "Ceylon":
+        case "JVM langs" :
+        case "Scala":
+            family = "JVMLangs"; break;
+        case "Cache" : 
+        case "JavaEE" : 
+        case "Performance":
+        case "Compiler":
+        case "JavaFX":
+            family = "JVM"; break;
+        case "Containers" : 
+        case "Kubernetes":
+        case "Microservices":
+        case "Docker":
+            family = "Microservices"; break;
+        case "noSQL" :
+        case "Bigdata":
+        case "Cassandra":
+        case "ElasticSearch":
+        case "MapReduce":
+        case "MongoDB":
+        case "Hadoop":
+        case "Couchbase":
+        case "Kibana":
+        case "Logstash":
+        case "DB":
+            family = "noSQL"; break;
+        case "Async" : 
+        case "Netty" : 
+        case "Event-driven":
+        case "DistributedSystems":
+        case "RxJava":
+        case "Ratpack":
+            family = "AsyncDevelopment"; break;
+        case "Android" : 
+            family = "Mobile"; break;
+        case "AngularJS" : 
+        case "Play" : 
+        case "Akka" : 
+        case "Vert.x" : 
+        case "Frameworks":
+        case "jBPM":
+        case "Drools":
+        case "Geb":
+        case "Spock":
+            family = "Frameworks"; break;
+            
+        default : family = "unknown"; 
+    }
+    return family;
+}
