@@ -7,14 +7,14 @@ $(document).ready(function () {
 			return 0;
 	  })
 	  $.each( data.speakers, function( key, val ) {
-	  	if (val.enabled == 1 && val.talk != "" && val.talk.type.toLowerCase() == "talk" && divtalk.indexOf(val.talk.title) < 0) {
+	  	if (val.enabled == 1 && val.talk != "" && val.talk.type.toLowerCase() == "workshop" && divtalk.indexOf(val.talk.title) < 0) {
 			if(val.url!=""){
 				divtalk += "<li><a href='"+val.url+"'><span class='title'>"+val.talk.title +"</span> by <span class='speaker'>"+ val.name ;
 				if(val.cospeakerref!=null){
 					for(var i=0;i<data.speakers.length;i++){
 						valspeaker2 = data.speakers[i];
 						if(valspeaker2.ref == val.cospeakerref){
-							divtalk += " & " +valspeaker2.name ;
+							divtalk += " & " +valspeaker2.name ;			
 						}
 					}
 				}
@@ -37,10 +37,10 @@ $(document).ready(function () {
 			}
 			divtalk += "</li>";
 
-
+			
 		}
 	  });
-	divtalk += "</ul>";
+	divtalk += "</ul>"; 
 	$(divtalk).appendTo( "#grid-talks" );
 	});
 });
