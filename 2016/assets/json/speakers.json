@@ -743,7 +743,7 @@
     },
     {
       "enabled": "1",
-      "name": "",
+      "name": "Mauricio Salatino",
       "description": "Senior Software Engineer @RedHat/JBoss",
       "biography": "Senior Software Engineer @ Red Hat /JBoss working for the Drools & jBPM project. Author of 4 books (3 about jBPM and 1 about Drools).",
       "image": "assets/img/speakers/salaboy.jpg",
@@ -757,6 +757,27 @@
         "abstract": "Do you want to get started with Drools? Do you want to understand the different architectural patterns to start using Drools efficiently in your applications and/or your microservices? During the workshop you will learn how to code a set of rules to implement the logic inside a set of micro services. The aim of the session is to give you all the tools to start using Drools in your own microservices in almost no time. The session will also cover a set of pitfalls to avoid when you are starting with Drools so you can apply what is covered straight in your apps/microservices.",
         "tags": [
           "Drools", "Microservices"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "James Strachan",
+      "description": "Senior Consulting Software Engineer at Red Hat",
+      "biography": "James created the Groovy programming language and Apache Camel and was one of the founders of these open source projects: fabric8, hawtio, Apache ActiveMQ, and Apache ServiceMix.<br>James is currently Senior Consulting Software Engineer at Red Hat focussing on making it easy to work with Kubernetes, OpenShift and Fabric8. James and has more than 20 years experience in enterprise software development with a background in finance, consulting, and middleware.",
+      "image": "assets/img/speakers/james-strachan.jpg",
+      "ref": "jstrachan",
+      "url": "infoSpeaker.html?ref=jstrachan",
+      "twitter": "https://twitter.com/jstrachan",
+      "homepage": "http://macstrac.blogspot.com/",
+      "talk": {
+        "type": "talk",
+        "title": "Open Source Microservices Platform based on Docker, Kubernetes and Jenkins",
+        "abstract": "Most enterprises want to develop better software and get it to their customers faster. The quicker software gets to customers, the more iterations and feedback which leads to software that delivers more value to customers.<br>Microservices is our best approach today for developing better software faster. However without a microservices platform it can be challenging creating, building, deploying and managing many independent microservices.<br>In this talk we'll introduce the Fabric8 Microservices Platform which is open source, Apache Licensed and built on top of the shoulders of giants; Docker, Kubernetes and Jenkins.<br>We'll then demonstrate how to create microservices easily, have them automatically built, tested and staged with Continuous Delivery and deal with the issues of building microservices architectures like service discovery, high availability, auto scaling, rolling upgrades, circuit breakers, tracing, logging and metrics.<br>After this talk you should be ready to embark on your microservices journey!",
+        "tags": [
+          "Microservices"
         ],
         "level": "Intermediate"
       },
