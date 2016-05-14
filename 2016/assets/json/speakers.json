@@ -782,6 +782,27 @@
         "level": "Intermediate"
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Charles Moulliard",
+      "description": "Principal Solution Architect @RedHat",
+      "biography": "Charles Moulliard is currently a Sr. Principal Solution Architect @RedHat & Apache Committer with more than 20 years of expertise in solutions design based on JEE / Middleware technologies.<br>As Engineer & Architect, he has been involved in system integration of projects in Financial and Banking world. The skills (Methodology, UML, RUP, Project Management, Network, Security, Web Development, Programming languages, RDBMS, Architecture - JEE/SOA, Middleware) that he acquires during its career path have help him to address business, functional, security and infrastructure requirements and transpose them into operable and efficient solutions.<br>He is also fascinated to train people on SOA, OSGI, ESB & JEE and provide consultancy.<br>As an Apache Committer he contributes since several years on opensource projects Apache Camel, Karaf, ServiceMix, DeltaSpike, Fabric8, Hawtio, Drools, Asciidoctor and uses these technologies as standards for integration projects. He is a Technology Evangelist making regularly conferences, talks. He lives in Belgium, enjoy mountain bike & Rock’n’roll.<br>You can find him online #irc ch007m, Twitter @cmoulliard, GitHub https://github.com/cmoulliard, Linkedin, SlideShare, Google+ or on his Blog http://cmoulliard.github.io.",
+      "image": "assets/img/speakers/charles-moulliard.png",
+      "ref": "cmoulliard",
+      "url": "infoSpeaker.html?ref=cmoulliard",
+      "twitter": "http://twitter.com/cmoulliard",
+      "homepage": "http://cmoulliard.github.io/",
+      "talk": {
+        "type": "talk",
+        "title": "Security enforcement of Java Application with API Management",
+        "abstract": "The goal of this talk is to enforce the security of an RESTfull endpoint using the Basic Auth, OAUth2 authorization policies managed by an Api Management & SSO platform acting as gateway between the client and the target endpoint. ",
+        "tags": [
+          "API","Security"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
     }
   ]
 }
