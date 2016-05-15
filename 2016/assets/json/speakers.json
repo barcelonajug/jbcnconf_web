@@ -803,6 +803,27 @@
         "level": "Intermediate"
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Marc Savy",
+      "description": "Software Engineer @RedHat",
+      "biography": "Marc is a core contributor to the apiman project, joining shortly after its inception. In that role he has responsibilities for research, design and implementation spanning the whole project, but particularly the runtime. Marc has worked as a software engineer at Red Hat for over 5 years, tinkering with a plethora of technologies, but has particular interests in distributed systems, asynchronous and polyglot programming.",
+      "image": "assets/img/speakers/marc-savy.png",
+      "ref": "msavy",
+      "url": "infoSpeaker.html?ref=msavy",
+      "twitter": "http://twitter.com/marcsavy",
+      
+      "talk": {
+        "type": "talk",
+        "title": "Exploring API management and apiman; with an open source twist, and a hint of microservices.",
+        "abstract": "Interacting with, developing, and deploying RESTful APIs forms a key part of many modern applications; this is especially true of microservices architectures. However, there are also an increasing number of ancillary requirements that need fulfilling, amongst which are:<br><ul style='text-align : left'><li>Security; such as authentication and authorisation</li><li>Request tracking; for metrics, logging, and billing</li><li>Access limits; such as rate limiting and quotas</li><li>Service registry, discovery, user management, custom logic, ...</li></ul><p class='abstract'>As developers it's clearly preferable to focus on perfecting the business logic of our applications rather than spending time focussing on the common and prone-to-change requirements found in every of our applications. Centralising these functions enables us not only to reduce time spent in development and maintenance, but also reduces the surface area for bugs and inconsistencies.API Management endeavours to solve these problems.In this talk, we'll explore API management broadly, then dive into the specifics of apiman: a free and open source API management solution.Examining both design time and runtime aspects, we'll examine benefits, detractions and technical approaches taken to achieve a flexible, scalable and high-performance solution.</p>",
+        "tags": [
+          "API","Microservices"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
     }
   ]
 }
