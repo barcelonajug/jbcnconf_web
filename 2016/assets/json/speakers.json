@@ -845,6 +845,27 @@
         "level": "Advanced"
       },
       "scheduleId": ""
+    }, 
+    {
+      "enabled": "1",
+      "name": "Aurelien Broszniowski",
+      "description": "Lead Engineer at Terracotta/Software AG",
+      "biography": "Coder since he was a teenager, currently Lead Engineer at Terracotta/Software AG, Aurelien has worked as a freelancer for many years in the java ecosystem. He has authored several opensource projects, the latest being Rainfall, a java performance testing framework.",
+      "image": "assets/img/speakers/aurelien.jpg",
+      "ref": "aurelien",
+      "url": "infoSpeaker.html?ref=aurelien",
+      "twitter": "https://twitter.com/AurBroszniowski",
+      "homepage": "https://jsoftbiz.wordpress.com",
+      "talk": {
+        "type": "workshop",
+        "title": "Performance through caching",
+        "abstract": "Caching is a solution for developers who need to increase the performance of their application. Through JSR-107, there is now a caching standard for Java. If the words Cache Aside, Cache Through, Write-Behind are not familiar to you, or if you are interested in low latency and scalable architectures, this workshop is for you! Practical exercises will cover the following topics defined in JSR-107: using caches in your application, annotations to cache specific components, expiration policies, and checking the effectiveness of the cache through statistics. We will also cover topics beyond JSR-107 that are fairly common across providers: capacity control, cache topologies and consistency of shared data. We will use Ehcache 3 as the implementation.",
+        "tags": [
+          "Performance", "Cache"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
     }
   ]
 }
