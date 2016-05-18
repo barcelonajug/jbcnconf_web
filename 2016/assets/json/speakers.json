@@ -824,6 +824,27 @@
         "level": "Intermediate"
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Luis Mineiro",
+      "description": "Fullstack Engineer @Zalando",
+      "biography": "Luis Mineiro's broad background in software engineering includes experience in devops, networks, mobile development, and more. Luis has been with Zalando since 2013--starting out on the Shops team, then shifting to Platform to do more full-stack engineering. Originally from Portugal, Luis has a masters in computer science from the Instituto Politécnico de Viseu.",
+      "image": "assets/img/speakers/luis-mineiro.jpg",
+      "ref": "lmineiro",
+      "url": "infoSpeaker.html?ref=lmineiro",
+      "twitter": "https://twitter.com/voidmaze",
+      "homepage" : "https://tech.zalando.com",
+      "talk": {
+        "type": "talk",
+        "title": "The frontend taboo: a story of full stack microservices",
+        "abstract": "Microservices are not news anymore. They allow multiple teams to work autonomously by choosing their own technology stacks and having their own release cycles. There is something not being addressed though, like if it is some kind of dirty little secret, and that is frontend development. The common practice for building websites remains 'the monolith': a single frontend codebase that consumes multiple APIs. We believe we found a better solution.Last year, a handful of Zalando engineers came up with an innovative solution for this exact problem - project Mosaic. Mosaic is a new architecture for websites where microservices are used in the entire stack, all the way to the frontend.Its main components are:<br><ul style='text-align : left'><li>- Skipper - an HTTP router with runtime update of routes</li><li>- Tailor - a streaming layout service with runtime update of templates</li></ul><p class='abstract'>The network is the glue putting it all together.In this talk we want to share our motivation to build Mosaic, how to perform such migration without downtime, and the advantages it has to offer to other organizations, regardless of their size.We'll go through the operational details about Skipper and how it can be customized to answer many other different requirements. I'll also describe in detail how Tailor can dramatically improve the perceived performance of your website by streaming frontend content, from multiple fragments, in parallel.</p>",
+        "tags": [
+          "Fullstack","Microservices"
+        ],
+        "level": "Advanced"
+      },
+      "scheduleId": ""
     }
   ]
 }
