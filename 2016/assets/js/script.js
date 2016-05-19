@@ -111,6 +111,7 @@ function getFamilyForTag(tag){
         case "Ceylon":
         case "JVM langs" :
         case "Scala":
+        case "semantic":
             family = "JVMLangs"; break;
         case "Cache" : 
         case "JavaEE" : 
@@ -134,6 +135,7 @@ function getFamilyForTag(tag){
         case "Kibana":
         case "Logstash":
         case "DB":
+        case "SPARQL":
             family = "noSQL"; break;
         case "Async" : 
         case "Netty" : 
@@ -153,6 +155,7 @@ function getFamilyForTag(tag){
         case "Drools":
         case "Geb":
         case "Spock":
+        case "Grails":
             family = "Frameworks"; break;
             
         default : family = "unknown"; 
