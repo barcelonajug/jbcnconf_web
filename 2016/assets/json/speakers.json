@@ -866,6 +866,47 @@
         "level": "Intermediate"
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Rustam Mehmandarov",
+      "description": "Leader of the Norwegian Java User Group - javaBin",
+      "biography": "Rustam Mehmandarov holds a master's degree in Computer Science from the University of Oslo. He has been working as a developer and lead programmer for 10 years. In addition to being passionate about agile development, web development, architecture and geographical information systems, he is also a guru of both Linux and Windows worlds. On his spare time he enjoys working out, as well as coding in Python and Java [but not simultaneously]. He is a frequent speaker at both national and international conferences and events.",
+      "image": "assets/img/speakers/rmehmandarov.jpg",
+      "ref": "rmehmandarov",
+      "url": "infoSpeaker.html?ref=rmehmandarov",
+      "twitter": "https://twitter.com/rmehmandarov",
+      "homepage": "http://lanyrd.com/profile/rmehmandarov/",
+      "talk": {
+        "type": "workshop",
+        "title": "What’s a semantic model and why should YOU care?",
+        "abstract": "Ever heard of semantic model? Or about triple stores, RDF, OWL, SPARQL, Jena, reasoning, inference? Want to learn what it is about, and why you should know more about it? Or how your data can make more sense? Introduction to semantic model (on Java) with examples.",
+        "tags": [
+          "semantic", "SPARQL"
+        ],
+        "level": "Beginner"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Manuel Ángel Quindimil López",
+      "description": "Passionate Java & Groovy developer",
+      "biography": "Manuel is a passionate and in love with Java/Grails, having been working with Grails for many years, and sharing his heart with UX experience and front-end techs.",
+      "image": "assets/img/speakers/manuel-lopez.jpg",
+      "ref": "quindimildev",
+      "url": "infoSpeaker.html?ref=quindimildev",
+      "twitter": "https://twitter.com/quindimildev",
+      "talk": {
+        "type": "workshop",
+        "title": "Boost your productivity. Grails yourself!",
+        "abstract": "We are going to learn how to create a web-app with Grails 3. Also applying some security plugins and others, to learn how to start developing with the most productivy Java framework, from the beginning to deploying a war into Tomcat.",
+        "tags": [
+          "Groovy", "Grails"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
     }
   ]
 }
