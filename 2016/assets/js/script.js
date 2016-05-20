@@ -136,6 +136,8 @@ function getFamilyForTag(tag){
         case "Logstash":
         case "DB":
         case "SPARQL":
+        case "RDF":
+        case "graph":
             family = "noSQL"; break;
         case "Async" : 
         case "Netty" : 
