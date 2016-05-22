@@ -891,7 +891,7 @@
     {
       "enabled": "1",
       "name": "Manuel Ángel Quindimil López",
-      "description": "Passionate Java & Groovy developer",
+      "description": "Senior Developer at Salenda",
       "biography": "Manuel is a passionate and in love with Java/Grails, having been working with Grails for many years, and sharing his heart with UX experience and front-end techs.",
       "image": "assets/img/speakers/manuel-lopez.jpg",
       "ref": "quindimildev",
@@ -924,6 +924,26 @@
           "Web", "Framework", "CMS"
         ],
         "level": "Intermediate"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Romain Manni-Bucau",
+      "description": "Senior Software Engineer working with Tomitribe",
+      "biography": "Romain is a Senior Software Engineer working with Tomitribe. Romain joined Apache TomEE since 2011 and more generally the Apache EE family (TomEE, Johnzon, BatchEE, OpenJPA...). He contributes to mainly Open Source projects (CukeSpace, Arquillian, ...) and aims to make development a detail of an idea becoming reality. You can follow Romain on twitter at @rmannibucau.",
+      "image": "assets/img/speakers/romain-manibucau.jpg",
+      "ref": "rmannibucau",
+      "url": "infoSpeaker.html?ref=rmannibucau",
+      "twitter":"https://twitter.com/rmannibucau",
+      "talk": {
+        "type": "talk",
+        "title": "Hate me I love you: when JavaEE meets Angular2",
+        "abstract": "JavaEE is has been? Inadapted to modern applications? Angular2 is too recent? It is not prod ready? Cloud is not for you? Too hard to use, too hard to customize? What if we would use all of them to write an application and deploy it easily? This is what this talk is about. From backend to frontend let's see how both Java and Javascript worlds can meet. Then let see how relying on a cloud provider can allow you to deploy any kind of application very easily. If you know what is JavaEE or Javascript but never worked with both, if you want to see how Angular2 is now closer to what Java developers know or if you simply want how to use these technologies and deploy them on Openshift this talk is for you!",
+        "tags": [
+          "Java", "Javascript", "Angular2"
+        ],
+        "level": "Beginner"
       },
       "scheduleId": ""
     }
