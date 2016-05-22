@@ -48,6 +48,8 @@
       "image": "assets/img/speakers/maciej-swiderski.png",
       "ref": "mswiderski",
       "url": "infoSpeaker.html?ref=mswiderski",
+      "cospeakerref": "salaboy",
+      "hasMoreTalks": "1",
       "talk": {
         "type": "talk",
         "title": "Knowledge driven micro services",
@@ -751,6 +753,8 @@
       "url": "infoSpeaker.html?ref=salaboy",
       "twitter": "https://twitter.com/salaboy",
       "homepage": "http://salaboy.com",
+      "cospeakerref": "mswiderski",
+      "hasMoreTalks": "1",
       "talk": {
         "type": "workshop",
         "title": "Drools Hands On - Improve  your Microservices with Drools",
@@ -813,7 +817,6 @@
       "ref": "msavy",
       "url": "infoSpeaker.html?ref=msavy",
       "twitter": "http://twitter.com/marcsavy",
-      
       "talk": {
         "type": "talk",
         "title": "Exploring API management and apiman; with an open source twist, and a hint of microservices.",
@@ -845,7 +848,7 @@
         "level": "Advanced"
       },
       "scheduleId": ""
-    }, 
+    },
     {
       "enabled": "1",
       "name": "Aurelien Broszniowski",
@@ -942,6 +945,28 @@
         "abstract": "JavaEE is has been? Inadapted to modern applications? Angular2 is too recent? It is not prod ready? Cloud is not for you? Too hard to use, too hard to customize? What if we would use all of them to write an application and deploy it easily? This is what this talk is about. From backend to frontend let's see how both Java and Javascript worlds can meet. Then let see how relying on a cloud provider can allow you to deploy any kind of application very easily. If you know what is JavaEE or Javascript but never worked with both, if you want to see how Angular2 is now closer to what Java developers know or if you simply want how to use these technologies and deploy them on Openshift this talk is for you!",
         "tags": [
           "Java", "Javascript", "Angular2"
+        ],
+        "level": "Beginner"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "repeated": "1",
+      "name": "Maciej Swiderski",
+      "description": "Principal software engineer at JBoss",
+      "biography": "Maciej is principal software engineer at JBoss working as core developer of jBPM. Since 2007 he is in BPM domain both from development point of view and helping to adopt BPM in different sectors. He's passionate about open source and tries to promote it wherever possible. In his spare time he enjoys calm and relax life on country side and travels.",
+      "image": "assets/img/speakers/maciej-swiderski.png",
+      "ref": "mswiderski",
+      "url": "infoSpeaker.html?ref=mswiderski",
+      "homepage": "http://mswiderski.blogspot.com",
+      "cospeakerref": "salaboy",
+      "talk": {
+        "type": "talk",
+        "title": "The OpenSource way - what, why & how",
+        "abstract": "Open source is very well known around software industry. But does everyone really understands what is it about? In this talk we would like to bring in some real life experience in working in open source community (JBoss Community). We'll touch upon:<br>-what open source means<br>-what is a community<br>-how and why you should be part of a community<br>-how you can contribute and what is in it for you<br>On top of that we'll try to emphasize the difference between open source way and proprietary way. What you need to focus on when making a decision between these two. Last but not least, we'll try to encourage you to give it a try and become a member of the community - you'll see it's not hard frankly speaking quite the opposite - and you'll enjoy it!",
+        "tags": [
+          "community", "OpenSource"
         ],
         "level": "Beginner"
       },

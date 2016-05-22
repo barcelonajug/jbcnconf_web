@@ -833,6 +833,10 @@ a:focus {
 	background-color: #9cbedb;
 }
 
+#talks .tag.OpenSource{
+	background-color: #5afc73;
+}
+
 #talks .tag.unknown{
 	background-color: yellow;
 	color: black;
