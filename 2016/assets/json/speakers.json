@@ -952,6 +952,26 @@
     },
     {
       "enabled": "1",
+      "name": "Sebastian Daschner",
+      "description": "Java freelancer working as a Consultant / Software Developer / Architect",
+      "biography": "Sebastian Daschner is a Java freelancer working as a Consultant / Software Developer / Architect and is enthusiastic about programming and Java (EE). He is participating in the JCP, serving in the JSR 370 Expert Group and hacking on various open source projects on Github. He has been working with Java for more than 6 years. Besides Java, Sebastian is also a heavy user of Linux and container technologies like Docker. He evangelizes computer science practices on https://blog.sebastian-daschner.com and on Twitter via @DaschnerS.",
+      "image": "assets/img/speakers/sebastian-daschner.jpg",
+      "ref": "sdaschner",
+      "url": "infoSpeaker.html?ref=sdaschner",
+      "twitter":"https://twitter.com/daschners",
+      "talk": {
+        "type": "talk",
+        "title": "Who wants to test anyway? Bulletproof Java EE with least developer frustration",
+        "abstract": "In (enterprise) development testing often is treated very much as poor relations. But for more than 'Hello World' applications testing is not just nice to have (at the end of the project) rather than crucial for working software. This session shows how Java EE application are tested in a productive yet comprehensive way, why it is indispensable to do system tests and why are integration test frameworks like Arquillian overrated for most of the use cases. Most of the time will be spent live-coding and of course live-testing.",
+        "tags": [
+          "JavaEE", "Testing"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
       "repeated": "1",
       "name": "Maciej Swiderski",
       "description": "Principal software engineer at JBoss",
