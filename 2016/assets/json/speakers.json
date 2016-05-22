@@ -955,7 +955,7 @@
       "image": "assets/img/speakers/sebastian-daschner.jpg",
       "ref": "sdaschner",
       "url": "infoSpeaker.html?ref=sdaschner",
-      "twitter":"https://twitter.com/sdaschner",
+      "twitter":"https://twitter.com/daschners",
       "talk": {
         "type": "talk",
         "title": "Who wants to test anyway? Bulletproof Java EE with least developer frustration",
