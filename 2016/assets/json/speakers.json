@@ -907,6 +907,25 @@
         "level": "Intermediate"
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Valdas Jasaitis",
+      "description": "Principal software engineer at Netcentric",
+      "biography": "Principal software engineer at Netcentric, Spain with 15 years of experience in leading web projects based on Java. He has Ph.D. in Computer Science from Vilnius University, Lithuania. Currently Valdas is engaged in Apache Sling, Apache Felix and Apache Jackrabbit frameworks with a focus on customer analytics and data science technologies.",
+      "image": "assets/img/speakers/valdas-jasaitis.jpg",
+      "ref": "vjasaitis",
+      "url": "infoSpeaker.html?ref=vjasaitis",
+      "talk": {
+        "type": "talk",
+        "title": "Sling: a Content Centric Web Development Framework",
+        "abstract": "This presentation will introduce the core values of the Apache Sling Framework and what it means to be content-centric. You will learn some of the advantages of such an approach that allows a developer to forget about database schemas, primary keys (and other constraints) and to focus on development of resources. The RESTful famework contains a Java Content Repository (JCR) standard (JSR 283) implemented as Apache JackRabbit. <br>The talk includes some live code examples, that will review the most key and important phases of development such as testing (unit, integration testing and automatic health checks), deployment in an OSGi environment, surviving web penetration tests for web components, caching strategy and performance for multi-language and region sites, error handling for forms, templates, and components, content hierarchies for organizing different content types, solutions for responsiveness and mobile support, and integration with web templating tools; for example, javascript, Sightly (another Apache Open Source project), and Granite (the hypermedia driven UI that allows for a modular way of building components).The introduction covers the essential Sling and how the REST framework is based on interpreting the (HTTP) request. <br>The center of the framework is the mapping of each resource to an internal representation that is flexible. It explains how scripts are resolved as part of the request and what extra benefits there are to ease development; for example, how to leverage inheritance in certain content hierarchies. The main objective is to show how resources and representations are modeled in the server.The presentation aims to be highly practical, focusing on those aspects of enterprise java systems that deal with Web Content Management and in which the complexity of the different types of pages served, the need for performance, the multinational and multi-lingual rollout are key factors of success.",
+        "tags": [
+          "Web", "Framework", "CMS"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
     }
   ]
 }
