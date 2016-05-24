@@ -89,11 +89,12 @@ $(document).ready(function () {
 				if(val.talk.cospeakerref!=null){
 					for(var i=0;i<data.speakers.length;i++){
 						valspeaker2 = data.speakers[i];
-						if(valspeaker2.ref == val.cospeakerref){
+						if(valspeaker2.ref == val.talk.cospeakerref){
 							divspeaker="<div class='row'>"+
-							"<h2>Talk with:"+valspeaker2.name+"</h2>"+
-							"<div class='border'></div>"+
-						  "</div>"+
+							"<a href='"+valspeaker2.url+"'><span class='cospeaker'>Talk with:"+valspeaker2.name+"</<span></a>"+
+							"</div>";
+							divtalk += divspeaker;
+							break;							
 						}
 					}
 				}
@@ -120,13 +121,15 @@ $(document).ready(function () {
 								divtalk += "</p>";
 							}
 							if(valspeaker2.talk.cospeakerref!=null){
-								for(var i=0;i<data.speakers.length;i++){
-									valspeaker3 = data.speakers[i];
-									if(valspeaker3.ref == valspeaker2.cospeakerref){
+								for(var j=0;j<data.speakers.length;j++){
+									valspeaker3 = data.speakers[j];
+									if(valspeaker3.ref == valspeaker2.talk.cospeakerref){
 										divspeaker="<div class='row'>"+
-										"<h2>Talk with:"+valspeaker3.name+"</h2>"+
-										"<div class='border'></div>"+
-									  "</div>"+
+										"<a href='"+valspeaker3.url+"'><span class='cospeaker'>Talk with:"+valspeaker3.name+"</<span></a>"+					
+										"</div>";
+									  	divtalk += divspeaker;
+										break;							
+				
 									}
 								}
 							}

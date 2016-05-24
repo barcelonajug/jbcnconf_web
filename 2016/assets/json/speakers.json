@@ -56,8 +56,7 @@
         "tags": [
           "Microservices", "Design", "Vert.x", "jBPM"
         ],
-        "level": "Intermediate",
-		"cospeakerref": "salaboy"
+        "level": "Intermediate"		
       },
       "scheduleId": ""
     },
@@ -761,8 +760,7 @@
         "tags": [
           "Drools", "Microservices"
         ],
-        "level": "Intermediate",
-		"cospeakerref": "mswiderski"
+        "level": "Intermediate"
       },
       "scheduleId": ""
     },
@@ -987,7 +985,8 @@
         "tags": [
           "community", "OpenSource"
         ],
-        "level": "Beginner"
+        "level": "Beginner",
+		"cospeakerref": "salaboy"
       },
       "scheduleId": ""
     },
@@ -1009,7 +1008,8 @@
         "tags": [
           "community", "OpenSource"
         ],
-        "level": "Beginner"
+        "level": "Beginner",
+		"cospeakerref": "mswiderski"
       },
       "scheduleId": ""
     }
