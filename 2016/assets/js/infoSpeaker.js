@@ -33,7 +33,7 @@ $(document).ready(function () {
 			  "</div>";
 			  $(divspeaker).appendTo( "#speaker-info" );
 		  
-			if(val.cospeakerref!=null){
+			/*if(val.cospeakerref!=null){
 				for(var i=0;i<data.speakers.length;i++){
 					valspeaker2 = data.speakers[i];
 					if(valspeaker2.ref == val.cospeakerref){
@@ -68,7 +68,7 @@ $(document).ready(function () {
 						  $(divspeaker).appendTo( "#speaker-info" );
 					 }
 				}
-			}
+			}*/
 			
 			if(val.talk !=null){
 				divtalk="<div class='row'>"+
@@ -85,6 +85,17 @@ $(document).ready(function () {
 						divtalk += "<a href='"+val.talk.video+"'><span class='video'>Video <i class='fa fa-film fa-1x'></i></span></a>";
 					}
 					divtalk += "</p>";
+				}
+				if(val.talk.cospeakerref!=null){
+					for(var i=0;i<data.speakers.length;i++){
+						valspeaker2 = data.speakers[i];
+						if(valspeaker2.ref == val.cospeakerref){
+							divspeaker="<div class='row'>"+
+							"<h2>Talk with:"+valspeaker2.name+"</h2>"+
+							"<div class='border'></div>"+
+						  "</div>"+
+						}
+					}
 				}
 				divtalk += "</div>";
 			  
@@ -107,6 +118,17 @@ $(document).ready(function () {
 									divtalk += "<a href='"+valspeaker2.talk.video+"'><span class='video'>Video <i class='fa fa-film fa-1x'></i></span></a>";
 								}
 								divtalk += "</p>";
+							}
+							if(valspeaker2.talk.cospeakerref!=null){
+								for(var i=0;i<data.speakers.length;i++){
+									valspeaker3 = data.speakers[i];
+									if(valspeaker3.ref == valspeaker2.cospeakerref){
+										divspeaker="<div class='row'>"+
+										"<h2>Talk with:"+valspeaker3.name+"</h2>"+
+										"<div class='border'></div>"+
+									  "</div>"+
+									}
+								}
 							}
 							divtalk += "</div>";
 						}

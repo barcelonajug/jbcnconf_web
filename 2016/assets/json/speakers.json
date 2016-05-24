@@ -47,8 +47,7 @@
       "biography": "Maciej is principal software engineer at JBoss working as core developer of jBPM. Since 2007 he is in BPM domain both from development point of view and helping to adopt BPM in different sectors. He's passionate about open source and tries to promote it wherever possible. In his spare time he enjoys calm and relax life on country side and travels.",
       "image": "assets/img/speakers/maciej-swiderski.png",
       "ref": "mswiderski",
-      "url": "infoSpeaker.html?ref=mswiderski",
-      "cospeakerref": "salaboy",
+      "url": "infoSpeaker.html?ref=mswiderski",      
       "hasMoreTalks": "1",
       "talk": {
         "type": "talk",
@@ -57,7 +56,8 @@
         "tags": [
           "Microservices", "Design", "Vert.x", "jBPM"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+		"cospeakerref": "salaboy"
       },
       "scheduleId": ""
     },
@@ -542,8 +542,7 @@
       "image": "assets/img/speakers/perjorgen-walstrom.jpg",
       "ref": "perjorgenwalstrom",
       "url": "infoSpeaker.html?ref=perjorgenwalstrom",
-      "twitter": "https://twitter.com/pjwalstrom",
-      "cospeakerref": "stigkleppejorgensen",
+      "twitter": "https://twitter.com/pjwalstrom",      
       "talk": {
         "type": "talk",
         "title": "How we deploy to production 42 times a day",
@@ -551,7 +550,8 @@
         "tags": [
           "Java", "Groovy", "devops", "Testing", "Integration"
         ],
-        "level": "Beginner"
+        "level": "Beginner",
+		"cospeakerref": "stigkleppejorgensen"
       },
       "scheduleId": ""
     },
@@ -563,8 +563,7 @@
       "image": "assets/img/speakers/stikkleppe-jorgensen.png",
       "ref": "stigkleppejorgensen",
       "url": "infoSpeaker.html?ref=stigkleppejorgensen",
-      "twitter": "https://twitter.com/stigkj",
-      "cospeakerref": "perjorgenwalstrom",
+      "twitter": "https://twitter.com/stigkj",      
       "talk": {
         "type": "talk",
         "title": "How we deploy to production 42 times a day",
@@ -572,7 +571,8 @@
         "tags": [
           "Java", "Groovy", "devops", "Testing", "Integration"
         ],
-        "level": "Beginner"
+        "level": "Beginner",
+		"cospeakerref": "perjorgenwalstrom"
       },
       "scheduleId": ""
     },
@@ -752,8 +752,7 @@
       "ref": "salaboy",
       "url": "infoSpeaker.html?ref=salaboy",
       "twitter": "https://twitter.com/salaboy",
-      "homepage": "http://salaboy.com",
-      "cospeakerref": "mswiderski",
+      "homepage": "http://salaboy.com",      
       "hasMoreTalks": "1",
       "talk": {
         "type": "workshop",
@@ -762,7 +761,8 @@
         "tags": [
           "Drools", "Microservices"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+		"cospeakerref": "mswiderski"
       },
       "scheduleId": ""
     },
