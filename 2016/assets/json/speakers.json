@@ -798,7 +798,7 @@
         "title": "Security enforcement of Java Application with API Management",
         "abstract": "The goal of this talk is to enforce the security of an RESTfull endpoint using the Basic Auth, OAUth2 authorization policies managed by an Api Management & SSO platform acting as gateway between the client and the target endpoint. ",
         "tags": [
-          "API","Security"
+          "API","Security","Microservices"
         ],
         "level": "Intermediate"
       },
