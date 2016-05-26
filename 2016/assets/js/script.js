@@ -159,7 +159,9 @@ function getFamilyForTag(tag){
         case "Spock":
         case "Grails":
             family = "Frameworks"; break;
-            
+        case "community":
+        case "OpenSource":
+            family = "OpenSource"; break;
         default : family = "unknown"; 
     }
     return family;

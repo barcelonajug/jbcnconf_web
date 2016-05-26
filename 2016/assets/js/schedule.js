@@ -4,11 +4,12 @@ $(document).ready(function () {
 		if(val.scheduleId!=null && val.enabled == 1) {
 			if($(val.scheduleId).children('span').hasClass('pending')){
 				divspeaker="<a href='"+val.url+"'><div><span class='title'>"+val.talk.title+"</span><span class='speaker'>"+val.name;
-				if(val.cospeakerref!=null){
+				if(val.talk.cospeakerref!=null){
 						for(var i=0;i<data.speakers.length;i++){
 							valspeaker2 = data.speakers[i];
-							if(valspeaker2.ref == val.cospeakerref){
+							if(valspeaker2.ref == val.talk.cospeakerref){
 								divspeaker=divspeaker+ " & " +valspeaker2.name ;			
+								break;
 							}
 						}
 					}
