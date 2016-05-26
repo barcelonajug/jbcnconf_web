@@ -1054,6 +1054,27 @@
         "level": "Beginner"
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Bilgin Ibryam",
+      "description": "Apache Camel committer, integration architect at Red Hat",
+      "biography": "Bilgin Ibryam is an Apache Camel committer, integration architect at Red Hat and a software craftsman. He is an open source fanatic, passionate about distributed systems, messaging, enterprise integration patterns, and application integration. He is a hands-on software consultant, responsible for designing, and delivering scalable and highly available solutions using open source software such as Apache Camel, Apache ActiveMQ, Apache Karaf, Apache CXF, JBoss Fuse, JBoss Infinispan, etc. In his spare time, he enjoys contributing to open source projects and blogging at ofbizian.com.",
+      "image": "assets/img/speakers/bilgin-ibryam.jpg",
+      "ref": "cibryam",
+      "url": "infoSpeaker.html?ref=cibryam",
+      "twitter":"https://twitter.com/bibryam",
+      "homepage" : "http://www.ofbizian.com/",
+      "talk": {
+        "type": "talk",
+        "title": "Apache Camel design patterns learned through blood, sweat, and tears",
+        "abstract": "Throughout the building of a Camel application, there are many levels of design decisions to be made. Knowing the Camel framework and the Enterprise Integration Patterns (EIPs) is a must, but not enough to design a real-world integration application. Driven by real-world experiences, this talk consolidates the most commonly used patterns and principles for designing Camel applications. For each pattern, we start with a problem description in a context, a proposed solution, and Camel specifics, suggestions and tips around the implementation. Patterns range from individual Camel route designs for happy path scenarios, to error handling and prevention practices, to principles used in the deployment of multiple routes and applications for achieving scalability and high availability. <br>We will cover patterns such as: <ul style='text-align : left'><li>VETRO</li><li>Edge Component</li><li>CQRS</li><li>Data Integrity</li><li>Saga</li><li>Retry</li><li>Circuit Breaker</li><li>Error Channel</li><li>Service Instance</li><li>Singleton Service</li><li>Bulkhead</li></ul>",
+        "tags": [
+          "Design Patterns", "Integration"
+        ],
+        "level": "Advanced"
+      },
+      "scheduleId": ""
     }
   ]
 }
