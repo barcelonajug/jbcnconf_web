@@ -47,7 +47,8 @@
       "biography": "Maciej is principal software engineer at JBoss working as core developer of jBPM. Since 2007 he is in BPM domain both from development point of view and helping to adopt BPM in different sectors. He's passionate about open source and tries to promote it wherever possible. In his spare time he enjoys calm and relax life on country side and travels.",
       "image": "assets/img/speakers/maciej-swiderski.png",
       "ref": "mswiderski",
-      "url": "infoSpeaker.html?ref=mswiderski",
+      "url": "infoSpeaker.html?ref=mswiderski",      
+      "hasMoreTalks": "1",
       "talk": {
         "type": "talk",
         "title": "Knowledge driven micro services",
@@ -55,7 +56,7 @@
         "tags": [
           "Microservices", "Design", "Vert.x", "jBPM"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate"		
       },
       "scheduleId": ""
     },
@@ -540,8 +541,7 @@
       "image": "assets/img/speakers/perjorgen-walstrom.jpg",
       "ref": "perjorgenwalstrom",
       "url": "infoSpeaker.html?ref=perjorgenwalstrom",
-      "twitter": "https://twitter.com/pjwalstrom",
-      "cospeakerref": "stigkleppejorgensen",
+      "twitter": "https://twitter.com/pjwalstrom",      
       "talk": {
         "type": "talk",
         "title": "How we deploy to production 42 times a day",
@@ -549,7 +549,8 @@
         "tags": [
           "Java", "Groovy", "devops", "Testing", "Integration"
         ],
-        "level": "Beginner"
+        "level": "Beginner",
+		"cospeakerref": "stigkleppejorgensen"
       },
       "scheduleId": ""
     },
@@ -561,8 +562,7 @@
       "image": "assets/img/speakers/stikkleppe-jorgensen.png",
       "ref": "stigkleppejorgensen",
       "url": "infoSpeaker.html?ref=stigkleppejorgensen",
-      "twitter": "https://twitter.com/stigkj",
-      "cospeakerref": "perjorgenwalstrom",
+      "twitter": "https://twitter.com/stigkj",      
       "talk": {
         "type": "talk",
         "title": "How we deploy to production 42 times a day",
@@ -570,7 +570,8 @@
         "tags": [
           "Java", "Groovy", "devops", "Testing", "Integration"
         ],
-        "level": "Beginner"
+        "level": "Beginner",
+		"cospeakerref": "perjorgenwalstrom"
       },
       "scheduleId": ""
     },
@@ -750,7 +751,8 @@
       "ref": "salaboy",
       "url": "infoSpeaker.html?ref=salaboy",
       "twitter": "https://twitter.com/salaboy",
-      "homepage": "http://salaboy.com",
+      "homepage": "http://salaboy.com",      
+      "hasMoreTalks": "1",
       "talk": {
         "type": "workshop",
         "title": "Drools Hands On - Improve  your Microservices with Drools",
@@ -813,7 +815,6 @@
       "ref": "msavy",
       "url": "infoSpeaker.html?ref=msavy",
       "twitter": "http://twitter.com/marcsavy",
-      
       "talk": {
         "type": "talk",
         "title": "Exploring API management and apiman; with an open source twist, and a hint of microservices.",
@@ -845,7 +846,7 @@
         "level": "Advanced"
       },
       "scheduleId": ""
-    }, 
+    },
     {
       "enabled": "1",
       "name": "Aurelien Broszniowski",
@@ -968,6 +969,51 @@
       "scheduleId": ""
     },
     {
+      "enabled": "1",
+      "repeated": "1",
+      "name": "Maciej Swiderski",
+      "description": "Principal software engineer at JBoss",
+      "biography": "Maciej is principal software engineer at JBoss working as core developer of jBPM. Since 2007 he is in BPM domain both from development point of view and helping to adopt BPM in different sectors. He's passionate about open source and tries to promote it wherever possible. In his spare time he enjoys calm and relax life on country side and travels.",
+      "image": "assets/img/speakers/maciej-swiderski.png",
+      "ref": "mswiderski",
+      "url": "infoSpeaker.html?ref=mswiderski",
+      "homepage": "http://mswiderski.blogspot.com",
+      "talk": {
+        "type": "talk",
+        "title": "The OpenSource way - what, why & how",
+        "abstract": "Open source is very well known around software industry. But does everyone really understands what is it about? In this talk we would like to bring in some real life experience in working in open source community (JBoss Community). We'll touch upon:<br>-what open source means<br>-what is a community<br>-how and why you should be part of a community<br>-how you can contribute and what is in it for you<br>On top of that we'll try to emphasize the difference between open source way and proprietary way. What you need to focus on when making a decision between these two. Last but not least, we'll try to encourage you to give it a try and become a member of the community - you'll see it's not hard frankly speaking quite the opposite - and you'll enjoy it!",
+        "tags": [
+          "community", "OpenSource"
+        ],
+        "level": "Beginner",
+		"cospeakerref": "salaboy"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "repeated": "1",
+      "name": "Mauricio Salatino",
+      "description": "Senior Software Engineer @RedHat/JBoss",
+      "biography": "Senior Software Engineer @ Red Hat /JBoss working for the Drools & jBPM project. Author of 4 books (3 about jBPM and 1 about Drools).",
+      "image": "assets/img/speakers/salaboy.jpg",
+      "ref": "salaboy",
+      "url": "infoSpeaker.html?ref=salaboy",
+      "twitter": "https://twitter.com/salaboy",
+      "homepage": "http://salaboy.com",
+      "talk": {
+        "type": "talk",
+        "title": "The OpenSource way - what, why & how",
+        "abstract": "Open source is very well known around software industry. But does everyone really understands what is it about? In this talk we would like to bring in some real life experience in working in open source community (JBoss Community). We'll touch upon:<br>-what open source means<br>-what is a community<br>-how and why you should be part of a community<br>-how you can contribute and what is in it for you<br>On top of that we'll try to emphasize the difference between open source way and proprietary way. What you need to focus on when making a decision between these two. Last but not least, we'll try to encourage you to give it a try and become a member of the community - you'll see it's not hard frankly speaking quite the opposite - and you'll enjoy it!",
+        "tags": [
+          "community", "OpenSource"
+        ],
+        "level": "Beginner",
+		"cospeakerref": "mswiderski"
+      },
+      "scheduleId": ""
+    },
+	{
       "enabled": "1",
       "name": "Jean-Frederic Clere",
       "description": "Java developer at RedHat for JBoss division",

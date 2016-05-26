@@ -10,11 +10,12 @@ $(document).ready(function () {
 	  	if (val.enabled == 1 && val.talk != "" && val.talk.type.toLowerCase() == "talk" && divtalk.indexOf(val.talk.title) < 0) {
 			if(val.url!=""){
 				divtalk += "<li><a href='"+val.url+"'><span class='title'>"+val.talk.title +"</span> by <span class='speaker'>"+ val.name ;
-				if(val.cospeakerref!=null){
+				if(val.talk.cospeakerref!=null){
 					for(var i=0;i<data.speakers.length;i++){
 						valspeaker2 = data.speakers[i];
-						if(valspeaker2.ref == val.cospeakerref){
+						if(valspeaker2.ref == val.talk.cospeakerref){
 							divtalk += " & " +valspeaker2.name ;
+							break;
 						}
 					}
 				}

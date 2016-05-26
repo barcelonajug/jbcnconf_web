@@ -33,7 +33,7 @@ $(document).ready(function () {
 			  "</div>";
 			  $(divspeaker).appendTo( "#speaker-info" );
 		  
-			if(val.cospeakerref!=null){
+			/*if(val.cospeakerref!=null){
 				for(var i=0;i<data.speakers.length;i++){
 					valspeaker2 = data.speakers[i];
 					if(valspeaker2.ref == val.cospeakerref){
@@ -68,7 +68,7 @@ $(document).ready(function () {
 						  $(divspeaker).appendTo( "#speaker-info" );
 					 }
 				}
-			}
+			}*/
 			
 			if(val.talk !=null){
 				divtalk="<div class='row'>"+
@@ -85,6 +85,18 @@ $(document).ready(function () {
 						divtalk += "<a href='"+val.talk.video+"'><span class='video'>Video <i class='fa fa-film fa-1x'></i></span></a>";
 					}
 					divtalk += "</p>";
+				}
+				if(val.talk.cospeakerref!=null){
+					for(var i=0;i<data.speakers.length;i++){
+						valspeaker2 = data.speakers[i];
+						if(valspeaker2.ref == val.talk.cospeakerref){
+							divspeaker="<div class='row'>"+
+							"<a href='"+valspeaker2.url+"'><span class='cospeaker'>Talk with:"+valspeaker2.name+"</<span></a>"+
+							"</div>";
+							divtalk += divspeaker;
+							break;							
+						}
+					}
 				}
 				divtalk += "</div>";
 			  
@@ -107,6 +119,19 @@ $(document).ready(function () {
 									divtalk += "<a href='"+valspeaker2.talk.video+"'><span class='video'>Video <i class='fa fa-film fa-1x'></i></span></a>";
 								}
 								divtalk += "</p>";
+							}
+							if(valspeaker2.talk.cospeakerref!=null){
+								for(var j=0;j<data.speakers.length;j++){
+									valspeaker3 = data.speakers[j];
+									if(valspeaker3.ref == valspeaker2.talk.cospeakerref){
+										divspeaker="<div class='row'>"+
+										"<a href='"+valspeaker3.url+"'><span class='cospeaker'>Talk with:"+valspeaker3.name+"</<span></a>"+					
+										"</div>";
+									  	divtalk += divspeaker;
+										break;							
+				
+									}
+								}
 							}
 							divtalk += "</div>";
 						}
