@@ -895,3 +895,12 @@ a:focus {
 	padding: 5px 20px 5px 0px;
 	font-weight:bold;
 }
+
+#talk .cospeaker a{
+font-size: 18px;
+text-align: left;
+ text-decoration: none;
+ display:block;
+ color: #8c8cf0;
+ font-weight:bold;
+}

@@ -32,44 +32,7 @@ $(document).ready(function () {
 				"</div>"+
 			  "</div>";
 			  $(divspeaker).appendTo( "#speaker-info" );
-		  
-			/*if(val.cospeakerref!=null){
-				for(var i=0;i<data.speakers.length;i++){
-					valspeaker2 = data.speakers[i];
-					if(valspeaker2.ref == val.cospeakerref){
-						divspeaker="<div class='heading'>"+
-						"<h2>"+valspeaker2.name+"</h2>"+
-						"<div class='border'></div>"+
-					  "</div>"+
-					  "<div class='row'>"+
-						"<div class='col-lg-2 animated' data-animation='fadeInUp' data-delay='300'>"+
-							"<img class='img-responsive' src='"+valspeaker2.image+"' alt='"+valspeaker2.name+"'>"+
-							"<ul class='list-inline'>";
-						if(valspeaker2.twitter!=null){
-							divspeaker=divspeaker+"<li class='twitter'>"+
-									"<a href='"+valspeaker2.twitter+"' title='Twitter' target='_blank'>"+
-										"<i class='fa fa-twitter'></i>"+
-									"</a>"+
-								"</li>";
-						}						
-						if(valspeaker2.homepage!=null){
-								divspeaker=divspeaker+"<li class='homepage'>"+
-									"<a href='"+valspeaker2.homepage+"' title='Homepage' target='_blank'>"+
-									"<i class='fa fa-globe'></i>"+
-									"</a>"+
-								"</li>";
-						}
-						divspeaker=divspeaker+"</ul>"+
-							"</div>"+
-							"<div class='col-lg-10 animated biography' data-animation='fadeInUp' data-delay='300'>"+
-							"<p>"+valspeaker2.biography+"</p>"+
-							"</div>"+
-						  "</div>";
-						  $(divspeaker).appendTo( "#speaker-info" );
-					 }
-				}
-			}*/
-			
+		  			
 			if(val.talk !=null){
 				divtalk="<div class='row'>"+
 						"<p class='title'>"+val.talk.title+"</p>"+
@@ -90,8 +53,8 @@ $(document).ready(function () {
 					for(var i=0;i<data.speakers.length;i++){
 						valspeaker2 = data.speakers[i];
 						if(valspeaker2.ref == val.talk.cospeakerref){
-							divspeaker="<div class='row'>"+
-							"<a href='"+valspeaker2.url+"'><span class='cospeaker'>Talk with:"+valspeaker2.name+"</<span></a>"+
+							divspeaker="<div class='cospeaker'>"+
+							"<a href='"+valspeaker2.url+"'>Talk with:"+valspeaker2.name+"</a>"+
 							"</div>";
 							divtalk += divspeaker;
 							break;							
@@ -124,8 +87,8 @@ $(document).ready(function () {
 								for(var j=0;j<data.speakers.length;j++){
 									valspeaker3 = data.speakers[j];
 									if(valspeaker3.ref == valspeaker2.talk.cospeakerref){
-										divspeaker="<div class='row'>"+
-										"<a href='"+valspeaker3.url+"'><span class='cospeaker'>Talk with:"+valspeaker3.name+"</<span></a>"+					
+										divspeaker="<div class='cospeaker'>"+
+										"<a href='"+valspeaker3.url+"'>Talk with:"+valspeaker3.name+"</a>"+					
 										"</div>";
 									  	divtalk += divspeaker;
 										break;							
