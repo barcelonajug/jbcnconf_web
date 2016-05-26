@@ -800,7 +800,7 @@
         "title": "Security enforcement of Java Application with API Management",
         "abstract": "The goal of this talk is to enforce the security of an RESTfull endpoint using the Basic Auth, OAUth2 authorization policies managed by an Api Management & SSO platform acting as gateway between the client and the target endpoint. ",
         "tags": [
-          "API","Security"
+          "API","Security","Microservices"
         ],
         "level": "Intermediate"
       },
@@ -967,7 +967,11 @@
         "level": "Intermediate"
       },
       "scheduleId": ""
+<<<<<<< .mine
     },
+=======
+    },
+>>>>>>> .theirs
     {
       "enabled": "1",
       "repeated": "1",
@@ -1012,6 +1016,51 @@
 		"cospeakerref": "mswiderski"
       },
       "scheduleId": ""
+    },
+{
+      "enabled": "1",
+      "name": "Jean-Frederic Clere",
+      "description": "Java developer at RedHat for JBoss division",
+      "biography": "Jean-Frederic has spent more than 20 years writing client/server software. His knowledges range from Cobol to Java, BS2000 to Linux and /390 to i386 but with preference to the later ;). He is committer in Httpd and Tomcat and he likes complex projects where different languages and machines are involved. Borne in France, Jean-Frederic lived in Barcelona (Spain) for 14 years. Since May 2006 he lives in Neuchatel (Switzerland) where he works for RedHat in the JBoss division. ",
+      "image": "assets/img/speakers/jean-frederic.jpg",
+      "ref": "jclere",
+      "url": "infoSpeaker.html?ref=jclere",
+      "twitter":"https://twitter.com/jfclere",
+      "homepage" : "http://www.jfclere.org/",
+      "talk": {
+        "type": "talk",
+        "title": "Tomcat NEXT progress report",
+        "abstract": "This presentation will provide an update on the Tomcat 9 implementation of the next versions of the JavaEE specifications that most impact Tomcat (Servlet, JSP, EL and WebSocket). There will be a particular focus on the progress of HTTP/2 support. The Tomcat 8.5 which brings the HTTP/2, SNI etc in a java7 and EE7 is the step before EE8 will be presented. The configuration changes and migration to earlier Tomcat versions will be discussed and the roadmap to the next stable Tomcat releases will be presented.",
+        "tags": [
+          "JavaEE", "HTTP2"
+        ],
+        "level": "Beginner"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Carlos Ballesteros Velasco",
+      "description": "Passionate programmer that ended programming in Kotlin",
+      "biography": "Passionate programmer that ended programming in Kotlin",
+      "image": "assets/img/speakers/carlos-ballesteros.jpg",
+      "ref": "cballesteros",
+      "url": "infoSpeaker.html?ref=cballesteros",
+      "twitter":"https://twitter.com/jtransc",
+      "homepage" : "https://github.com/jtransc/jtransc/",
+      "talk": {
+        "type": "talk",
+        "title": "JTransc - AOT compiling JVM languages to javascript, C++, flash and others with just one technology",
+        "abstract": "How to use opensource JTransc to AOT your JVM language (Java, Kotlin, Scala and others) projects and bring them to web, flash and mobile.",
+        "tags": [
+          "JVM", "AOT"
+        ],
+        "level": "Beginner"
+      },
+      "scheduleId": ""
+
+
+
     }
   ]
 }
