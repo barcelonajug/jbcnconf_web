@@ -2,13 +2,15 @@
   "speakers": [
     {
       "enabled": "1",
-      "name": "Rob Davies",
-      "description": "Director for xPaaS Engineering at Red Hat",
-      "biography": "Rob Davies is the Director for xPaaS Engineering at Red Hat. With 20 years experience of architecting solutions and developing products for large-scale distributed applications for telcos and finance, Rob is focusing on developing the next generation of open source middleware products. Rob is the founder of ActiveMQ and ServiceMix, and contributor to Apache Camel and Fabric8.",
-      "image": "assets/img/speakers/rob-davies.jpg",
-      "ref": "rdavies",
-      "url": "infoSpeaker.html?ref=rdavies",
-      "twitter": "https://twitter.com/rajdavies",
+      "name": "Charles Moulliard",
+      "description": "Principal Solution Architect @RedHat",
+      "biography": "Charles Moulliard is currently a Sr. Principal Solution Architect @RedHat & Apache Committer with more than 20 years of expertise in solutions design based on JEE / Middleware technologies.<br>As Engineer & Architect, he has been involved in system integration of projects in Financial and Banking world. The skills (Methodology, UML, RUP, Project Management, Network, Security, Web Development, Programming languages, RDBMS, Architecture - JEE/SOA, Middleware) that he acquires during its career path have help him to address business, functional, security and infrastructure requirements and transpose them into operable and efficient solutions.<br>He is also fascinated to train people on SOA, OSGI, ESB & JEE and provide consultancy.<br>As an Apache Committer he contributes since several years on opensource projects Apache Camel, Karaf, ServiceMix, DeltaSpike, Fabric8, Hawtio, Drools, Asciidoctor and uses these technologies as standards for integration projects. He is a Technology Evangelist making regularly conferences, talks. He lives in Belgium, enjoy mountain bike & Rock’n’roll.<br>You can find him online #irc ch007m, Twitter @cmoulliard, GitHub https://github.com/cmoulliard, Linkedin, SlideShare, Google+ or on his Blog http://cmoulliard.github.io.",
+      "image": "assets/img/speakers/charles-moulliard.png",
+      "ref": "cmoulliard",
+       "url": "infoSpeaker.html?ref=cmoulliard",
+      "twitter": "http://twitter.com/cmoulliard",
+      "homepage": "http://cmoulliard.github.io/",
+      "hasMoreTalks": "1",
       "talk": {
         "type": "talk",
         "title": "Messaging and Microservices",
@@ -787,6 +789,7 @@
     },
     {
       "enabled": "1",
+      "repeated": "1",
       "name": "Charles Moulliard",
       "description": "Principal Solution Architect @RedHat",
       "biography": "Charles Moulliard is currently a Sr. Principal Solution Architect @RedHat & Apache Committer with more than 20 years of expertise in solutions design based on JEE / Middleware technologies.<br>As Engineer & Architect, he has been involved in system integration of projects in Financial and Banking world. The skills (Methodology, UML, RUP, Project Management, Network, Security, Web Development, Programming languages, RDBMS, Architecture - JEE/SOA, Middleware) that he acquires during its career path have help him to address business, functional, security and infrastructure requirements and transpose them into operable and efficient solutions.<br>He is also fascinated to train people on SOA, OSGI, ESB & JEE and provide consultancy.<br>As an Apache Committer he contributes since several years on opensource projects Apache Camel, Karaf, ServiceMix, DeltaSpike, Fabric8, Hawtio, Drools, Asciidoctor and uses these technologies as standards for integration projects. He is a Technology Evangelist making regularly conferences, talks. He lives in Belgium, enjoy mountain bike & Rock’n’roll.<br>You can find him online #irc ch007m, Twitter @cmoulliard, GitHub https://github.com/cmoulliard, Linkedin, SlideShare, Google+ or on his Blog http://cmoulliard.github.io.",
@@ -798,7 +801,7 @@
       "talk": {
         "type": "talk",
         "title": "Security enforcement of Java Application with API Management",
-        "abstract": "The goal of this talk is to enforce the security of an RESTfull endpoint using the Basic Auth, OAUth2 authorization policies managed by an Api Management & SSO platform acting as gateway between the client and the target endpoint. ",
+        "abstract": "The Security around the Java Web Services, RESTfull endpoints exposing the Services accessed by the clients are critical in many business applications. Although many technologies/specifications exist currently and can be implemented like WS-Security, WS-SecurityPolicy, WS-Trust, SAML, Oauth2, OpenID Connect  to secure the endpoints, they require strong Security skills from the Java developers and unfortunately this approach doesn't fit very well in a MicroService architecture running potentially hundred of endpoints and where we have to manage also hundreds of certificates. During this talk, you will see and discover how you can leverage the advantages to use an API Management platform to enforce the security of your REST endpoints and externalize such management process. WE will also demonstrate how we can discover the services/endpoints deployed within the different namespaces, define the security of the endpoints and the policies to be applied. This security enforcement will be designed using some of the policies available to authenticate or authorize the MicroService Application running in a Linux Container using Basic Auth, Oauth2 and Roles. This talk contains slides and demos.",
         "tags": [
           "API","Security","Microservices"
         ],
