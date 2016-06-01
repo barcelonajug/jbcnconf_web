@@ -1095,7 +1095,29 @@
         "tags": [
           "Performance", "JVM"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+		"cospeakerref": "gontanon"
+      },
+      "scheduleId": ""
+    },
+	{
+      "enabled": "1",
+      "name": "Guillermo Ontañón",
+      "description": "Software Architect at Zhilabs",
+      "biography": "Software Engineer specialized in systems/network/concurrent/distributed development on Linux. Java, Scala, C, C++, Python. <br>Code samples: https://github.com/gontanon/portfolio",
+      "image": "assets/img/speakers/guillermo.jpg",
+      "ref": "gontanon",
+      "url": "infoSpeaker.html?ref=gontanon",
+      "twitter": "https://twitter.com/gontanon",
+      "talk": {
+        "type": "workshop",
+        "title": "It is slow",
+        "abstract": "This session is aimed at developers on any JVM language that are interested in understanding and improving the performance of their applications. Using both profilers and basic JDK/OS tools, we will identify some common hotspots and pitfalls, explore improvements in areas like memory management or concurrency, and introduce benchmarking tools to validate them. This workshop will only assume basic familiarity with Java.",
+        "tags": [
+          "Performance", "JVM"
+        ],
+        "level": "Intermediate",
+		"cospeakerref": "galo"
       },
       "scheduleId": ""
     },
