@@ -1078,6 +1078,46 @@
         "level": "Advanced"
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Galo Navarro",
+      "description": "Software engineer focused on scalability and distributed systems",
+      "biography": "Software engineer focused on scalability and distributed systems, mostly on the JVM. Currently building systems to analyze mobile network traffic at Zhilabs. Previously, virtual networks at Midokura and social networks at Tuenti and Last.fm.",
+      "image": "assets/img/speakers/galo.jpg",
+      "ref": "galo",
+      "url": "infoSpeaker.html?ref=galo",
+      "twitter": "https://twitter.com/srvaroa",
+      "talk": {
+        "type": "workshop",
+        "title": "It is slow",
+        "abstract": "This session is aimed at developers on any JVM language that are interested in understanding and improving the performance of their applications. Using both profilers and basic JDK/OS tools, we will identify some common hotspots and pitfalls, explore improvements in areas like memory management or concurrency, and introduce benchmarking tools to validate them. This workshop will only assume basic familiarity with Java.",
+        "tags": [
+          "Performance", "JVM"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Nitesh Thakrar",
+      "description": "Software IT Architect at the IBM Ecosystem Development team",
+      "biography": "Nitesh Thakrar is a Software IT Architect at the IBM Ecosystem Development team based in Nice, France. He is dedicated to empowering the IBM Ecosystem of Developers, Independent Software Vendors and partners in Europe, Middle East and Africa. In this capacity Nitesh works with this ecosystem in building and mastering their IT skills across the full solution lifecycle referencing related and appropriate software to the solution (example, Smarter Analytics, BigData, and Cloud (including. IBM Bluemix)). He delivers technical briefing and educational workshops. He also supports the IBM Ecosystem with the development of Proof Of Technology and solutions based on IBM products, provides consultancy on design, and assists them to solve configuration and development issues. Specialised across multiple industries, Nitesh provides architectural and integration technology expertise to take the partner's solution to the market. Previous to working for IBM, Nitesh has over 25 years of experience in software development from Hands-on to IT-Director level. He has a Masters degree in Computer Science from Pace University (White Plains, NY). ",
+      "image": "assets/img/speakers/Nitesh.jpg",
+      "ref": "nthakrar",
+      "url": "infoSpeaker.html?ref=nthakrar",
+      "twitter": "https://twitter.com/niteshpthakrar",
+      "talk": {
+        "type": "workshop",
+        "title": "Build and deploy your Java, IoT and cognitive app in the cloud with the IBM Bluemix platform",
+        "abstract": "During this 2 hours lab, you will first learn how to build your Java app in the Cloud with IBM Bluemix, you will discover the different tools to deploy your code and how to use the DevOps services integrated with Bluemix. In the second part you will build an IoT application using IoT services, IBM Watson cognitive APIs and NoSQL services integrated with Bluemix. <br>http://jbcnconf2016.eu-gb.mybluemix.net/",
+        "tags": [
+          "Java", "IoT"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": ""
     }
   ]
 }
