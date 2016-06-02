@@ -751,6 +751,10 @@ a:focus {
 	font-weight:bold;
 }
 
+#schedule #friday{
+	display:none;
+}
+
 #schedule #saturday{
 	display:none;
 }
