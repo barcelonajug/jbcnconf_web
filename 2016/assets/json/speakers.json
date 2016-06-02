@@ -920,6 +920,7 @@
       "image": "assets/img/speakers/valdas-jasaitis.jpg",
       "ref": "vjasaitis",
       "url": "infoSpeaker.html?ref=vjasaitis",
+      "homepage" : "http://www.netcentric.biz",
       "talk": {
         "type": "talk",
         "title": "Sling: a Content Centric Web Development Framework",
