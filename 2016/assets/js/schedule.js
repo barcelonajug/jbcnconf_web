@@ -30,17 +30,31 @@ $(document).ready(function () {
 	});
 });
 
+$('#showThursday').click(function(){
+ $('#saturday').hide();
+ $('#friday').hide();
+ $('#thursday').show();
+ $('#showSaturday').removeClass("active");
+ $('#showFriday').removeClass("active");
+ $('#showThursday').addClass("active");
+ return false;
+});
+
 $('#showFriday').click(function(){
+ $('#thursday').hide();
  $('#saturday').hide();
  $('#friday').show();
+ $('#showThursday').removeClass("active");
  $('#showSaturday').removeClass("active");
  $('#showFriday').addClass("active");
  return false;
 });
 
 $('#showSaturday').click(function(){
+ $('#thursday').hide();
  $('#friday').hide();
  $('#saturday').show();
+ $('#showThursday').removeClass("active");
  $('#showFriday').removeClass("active");
  $('#showSaturday').addClass("active");
  return false;
