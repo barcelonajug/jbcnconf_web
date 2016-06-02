@@ -764,7 +764,7 @@
         ],
         "level": "Intermediate"
       },
-      "scheduleId": ""
+      "scheduleId": "#THU-TC1-SE1"
     },
     {
       "enabled": "1",
@@ -869,7 +869,7 @@
         ],
         "level": "Intermediate"
       },
-      "scheduleId": ""
+      "scheduleId": "#THU-TC3-SE1"
     },
     {
       "enabled": "1",
@@ -890,7 +890,7 @@
         ],
         "level": "Beginner"
       },
-      "scheduleId": ""
+      "scheduleId": "#THU-TC4-SE1"
     },
     {
       "enabled": "1",
@@ -910,7 +910,7 @@
         ],
         "level": "Intermediate"
       },
-      "scheduleId": ""
+      "scheduleId": "#THU-TC2-SE1"
     },
     {
       "enabled": "1",
@@ -1098,7 +1098,7 @@
         "level": "Intermediate",
 		"cospeakerref": "gontanon"
       },
-      "scheduleId": ""
+      "scheduleId": "#THU-TC3-SE2"
     },
 	{
       "enabled": "1",
@@ -1119,7 +1119,7 @@
         "level": "Intermediate",
 		"cospeakerref": "galo"
       },
-      "scheduleId": ""
+      "scheduleId": "#THU-TC3-SE2"
     },
     {
       "enabled": "1",
@@ -1139,7 +1139,7 @@
         ],
         "level": "Intermediate"
       },
-      "scheduleId": ""
+      "scheduleId": "#THU-TC1-SE2"
     }
   ]
 }
