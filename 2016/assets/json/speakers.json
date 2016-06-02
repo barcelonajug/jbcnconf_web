@@ -1090,8 +1090,8 @@
       "twitter": "https://twitter.com/srvaroa",
       "talk": {
         "type": "workshop",
-        "title": "It is slow",
-        "abstract": "This session is aimed at developers on any JVM language that are interested in understanding and improving the performance of their applications. Using both profilers and basic JDK/OS tools, we will identify some common hotspots and pitfalls, explore improvements in areas like memory management or concurrency, and introduce benchmarking tools to validate them. This workshop will only assume basic familiarity with Java.",
+        "title": "It is slow: performance analysis and optimisation on the JVM",
+        "abstract": "This session is aimed at developers on any JVM language that are interested in understanding and improving the performance of their applications. During the workshop we will experiment with several basic examples and frameworks like Akka, ReactiveX or JCTools, using profilers (Mission Control, VisualVm), raw JDK/OS tools (jstat, jmap, jcmd, etc. perf) and the Java Microbenchmark Harness to examine various the behaviour of our applications: resource utilisation, scalability, etc. We will review how these tools help us detect hotspots and discuss common improvements and good practises that make our applications more performant focusing in critical areas like memory management or concurrency.  This workshop will only assume basic familiarity with Java.",
         "tags": [
           "Performance", "JVM"
         ],
@@ -1111,8 +1111,8 @@
       "twitter": "https://twitter.com/gontanon",
       "talk": {
         "type": "workshop",
-        "title": "It is slow",
-        "abstract": "This session is aimed at developers on any JVM language that are interested in understanding and improving the performance of their applications. Using both profilers and basic JDK/OS tools, we will identify some common hotspots and pitfalls, explore improvements in areas like memory management or concurrency, and introduce benchmarking tools to validate them. This workshop will only assume basic familiarity with Java.",
+        "title": "It is slow: performance analysis and optimisation on the JVM",
+        "abstract": "This session is aimed at developers on any JVM language that are interested in understanding and improving the performance of their applications. During the workshop we will experiment with several basic examples and frameworks like Akka, ReactiveX or JCTools, using profilers (Mission Control, VisualVm), raw JDK/OS tools (jstat, jmap, jcmd, etc. perf) and the Java Microbenchmark Harness to examine various the behaviour of our applications: resource utilisation, scalability, etc. We will review how these tools help us detect hotspots and discuss common improvements and good practises that make our applications more performant focusing in critical areas like memory management or concurrency.  This workshop will only assume basic familiarity with Java.",
         "tags": [
           "Performance", "JVM"
         ],
