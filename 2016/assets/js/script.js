@@ -88,7 +88,6 @@ function getFamilyForTag(tag){
         case "Patterns":
         case "Real-time":
             family = "Architecture"; break;
-
         case "Testing" : 
         case "Devops" :
         case "ContinuousDelivery":
@@ -158,6 +157,7 @@ function getFamilyForTag(tag){
         case "Geb":
         case "Spock":
         case "Grails":
+        case "Spring-boot":
             family = "Frameworks"; break;
         case "community":
         case "OpenSource":

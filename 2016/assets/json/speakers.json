@@ -1036,7 +1036,7 @@
         ],
         "level": "Beginner"
       },
-      "scheduleId": "#SAT-TC2-SE5"
+      "scheduleId": "#SAT-TC4-SE5"
     },
     {
       "enabled": "1",
@@ -1134,13 +1134,34 @@
       "talk": {
         "type": "workshop",
         "title": "Build and deploy your Java, IoT and cognitive app in the cloud with the IBM Bluemix platform",
-        "abstract": "During this 2 hours lab, you will first learn how to build your Java app in the Cloud with IBM Bluemix, you will discover the different tools to deploy your code and how to use the DevOps services integrated with Bluemix. In the second part you will build an IoT application using IoT services, IBM Watson cognitive APIs and NoSQL services integrated with Bluemix. <br>http://jbcnconf2016.eu-gb.mybluemix.net/",
+        "abstract": "During this 2 hours lab, you will first learn how to build your Java app in the Cloud with IBM Bluemix, you will discover the different tools to deploy your code and how to use the DevOps services integrated with Bluemix. In the second part you will build an IoT application using IoT services, IBM Watson cognitive APIs and NoSQL services integrated with Bluemix. <br><br>Follow the instructions posted in <a href=\"http://jbcnconf2016.eu-gb.mybluemix.net/\">this URL</a> ",
         "tags": [
           "Java", "IoT"
         ],
         "level": "Intermediate"
       },
       "scheduleId": "#THU-TC1-SE2"
+    },
+    {
+      "enabled": "1",
+      "name": "Roland Huss",
+      "description": "Principal Software Engineer at Red Hat",
+      "biography": "Roland Huss is a Principal Software Engineer at Red Hat working in the xPaas team on fabric8. He has been developing in Java for nineteen years now but never forgot his roots as system administrator. Roland is an active open source contributor, lead developer of the JMX-HTTP bridge Jolokia and the popular fabric8io/docker-maven-plugin. And he loves chilli pepper.",
+      "image": "assets/img/speakers/roland.jpeg",
+      "ref": "roland",
+      "url": "infoSpeaker.html?ref=roland",
+      "twitter": "https://twitter.com/ro14nd",
+      "homepage": "https://ro14nd.de",
+      "talk": {
+        "type": "talk",
+        "title": "From Zero to a Raspberry-Pi Kubernetes Cluster in 60 minutes",
+        "abstract": "In this hands-on presentation we start from scratch with some Spring-Boot and Wildfly-Swarm Microservices which we first place into Docker images and then deploy them on a Kubernetes cluster running on a four-node Raspberry Pis with load-balancing and rolling updates. We will see how seamless the creation of Docker images and Kubernetes resource descriptors can be integrated into the Maven build process. Many live demos explain the Kubernetes core concepts by example. As bonus a recipe for setting up a Raspberry Pi cluster on your own is given. At the end of this talk you will know how easy it is to bring your Java applications to Kubernetes.",
+        "tags": [
+          "Kubernetes", "Spring-boot", "Docker", "Raspberry Pi"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": "#SAT-TC2-SE5"
     }
   ]
 }
