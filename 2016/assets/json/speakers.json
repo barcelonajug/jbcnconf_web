@@ -1162,6 +1162,27 @@
         "level": "Intermediate"
       },
       "scheduleId": "#SAT-TC2-SE5"
+    },
+    {
+      "enabled": "1",
+      "name": "Alonso Torres",
+      "description": "Software engineer at Kaleidos Open Source",
+      "biography": "Software engineer at Kaleidos Open Source, Alonso has been developing in Java and JVM ecosystem and almost 10 years. He has been fortunately enough to be involved in humongous corporate-level projects and small, cutting-edge technology startups. Alonso also is a big advocate of the Open Source moevement, the functional programming paradigm and the different languages around the JVM like Groovy or Clojure.",
+      "image": "assets/img/speakers/alonso-torres.jpg",
+      "ref": "atorres",
+      "url": "infoSpeaker.html?ref=atorres",
+      "twitter": "https://twitter.com/alotor",
+      "homepage": "http://kaleidos.net/FFFF00/",
+      "talk": {
+        "type": "talk",
+        "title": "Garbage Collection: WTF?!",
+        "abstract": "Have you ever seen an OutOfMemoryError? I'm sure you have. But then, did you understood that line you copied from StackOverflow? If you haven't, and if you want a gently introduction to the complex world of Java Garbage Collection this is your talk. I'll talk about garbage collection concepts, the garbage collection in the Hotspot JVM (the default in Oraclel's JDK/JRE) and I'll try to put it in terms that any Java developer can grasp. The next time you'll face the dreaded 'OutOfMemoryError', at least, you'll know what are you up against.",
+        "tags": [
+          "Java", "Internal"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": "#SAT-TC3-SE6"
     }
   ]
 }
