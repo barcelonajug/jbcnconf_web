@@ -471,7 +471,7 @@
         ],
         "level": "Intermediate"
       },
-      "scheduleId": "#SAT-TC3-SE2"
+      "scheduleId": "#FRI-TC3-SE7"
     },
     {
       "enabled": "1",
@@ -827,7 +827,7 @@
         ],
         "level": "Intermediate"
       },
-      "scheduleId": "#FRI-TC3-SE7"
+      "scheduleId": "#SAT-TC3-SE2"
     },
     {
       "enabled": "1",
@@ -1183,6 +1183,27 @@
         "level": "Intermediate"
       },
       "scheduleId": "#SAT-TC2-SE3"
+    },
+    {
+      "enabled": "1",
+      "name": "Andres L. Martinez-Ortiz",
+      "description": "Developer Program Manager in Google",
+      "biography": "Andres L. Martinez-Ortiz a.k.a Almo is Developer Program Manager in Google's Engineering organisation. He is focused on driving the success of Google's developer products and the open web by creating a thriving ecosystem of 3rd party applications and businesses built on them. Closely with Product Management, Marketing, PR, Business Development, and other, he works with and supports developer communities, initiating activities that meet the needs of the innovation ecosystem. In addition, he meets with developers and partners in large companies, startups, universities and enterprises, promoting Open standards and Google technologies.",
+      "image": "assets/img/speakers/almo.jpg",
+      "ref": "almo",
+      "url": "infoSpeaker.html?ref=almo",
+      "twitter": "https://twitter.com/davilagrau",
+      "homepage": "http://gplus.to/almo",
+      "talk": {
+        "type": "talk",
+        "title": "Google Firebase: developing Android & iOS mobile apps",
+        "abstract": "During the presentation, almo will introduce the tools and architecture necessary for Android & iOS app development using the Firebase Realtime Database, OpenID Connect w. the Google Identity Toolkit and a Go backend in AppEngine.",
+        "tags": [
+          "Firebase", "Go", "Android", "iOS"
+        ],
+        "level": "Advanced"
+      },
+      "scheduleId": "#SAT-TC4-SE6"
     }
   ]
 }

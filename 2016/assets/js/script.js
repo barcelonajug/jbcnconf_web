@@ -109,6 +109,7 @@ function getFamilyForTag(tag){
         case "Groovy" :
         case "Ceylon":
         case "JVM langs" :
+        case "Go":
         case "Scala":
         case "semantic":
             family = "JVMLangs"; break;
@@ -135,6 +136,7 @@ function getFamilyForTag(tag){
         case "Logstash":
         case "DB":
         case "SPARQL":
+        case "Firebase":
         case "RDF":
         case "graph":
             family = "noSQL"; break;
@@ -145,7 +147,8 @@ function getFamilyForTag(tag){
         case "RxJava":
         case "Ratpack":
             family = "AsyncDevelopment"; break;
-        case "Android" : 
+        case "Android" :
+        case "iOS":
             family = "Mobile"; break;
         case "AngularJS" : 
         case "Play" : 
