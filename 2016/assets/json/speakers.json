@@ -533,7 +533,7 @@
         ],
         "level": "Beginner"
       },
-      "scheduleId": "#SAT-TC2-SE3"
+      "scheduleId": "#SAT-TC3-SE6"
     },
     {
       "enabled": "1",
@@ -1182,7 +1182,7 @@
         ],
         "level": "Intermediate"
       },
-      "scheduleId": "#SAT-TC3-SE6"
+      "scheduleId": "#SAT-TC2-SE3"
     }
   ]
 }
