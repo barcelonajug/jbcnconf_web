@@ -904,7 +904,7 @@
       "talk": {
         "type": "workshop",
         "title": "Boost your productivity. Grails yourself!",
-        "abstract": "We are going to learn how to create a web-app with Grails 3. Also applying some security plugins and others, to learn how to start developing with the most productivy Java framework, from the beginning to deploying a war into Tomcat.",
+        "abstract": "We are going to learn how to create a web-app with Grails 3. Also applying some security plugins and others, to learn how to start developing with the most productivy Java framework, from the beginning to deploying a war into Tomcat.<br><br>Follow the instructions posted in <a href=\"http://quindimildev.github.io/jbcnconf2016_workshop/\" class=\"link\">this URL</a>",
         "tags": [
           "Groovy", "Grails"
         ],
