@@ -471,7 +471,7 @@
         ],
         "level": "Intermediate"
       },
-      "scheduleId": "#SAT-TC3-SE2"
+      "scheduleId": "#FRI-TC3-SE7"
     },
     {
       "enabled": "1",
@@ -705,13 +705,13 @@
     },
     {
       "enabled": "1",
-      "name": "Ruslan Synytsky",
-      "description": "CEO and Co-founder of Jelastic",
-      "biography": "Ruslan Synytsky is CEO and Co-founder of Jelastic, a DevOps PaaS and CaaS for developers, cloud hosting service providers, systems integrators and enterprises. The platform provides the fastest and most agile deployment models, flexible scaling for stateless and stateful applications, collaboration and access control tools, billing and business analytics tools, while driving down TCO with high density and hardware utilization. With over 15 years experience in the IT industry, Ruslan is an expert in cloud solutions and large-scale distributed applications. Before starting Jelastic in 2011, he was a leading engineer at National Space Agency of Ukraine and worked on various innovative projects.",
-      "image": "assets/img/speakers/ruslan-synytsky.jpg",
-      "ref": "rsynytsky",
-      "url": "infoSpeaker.html?ref=rsynytsky",
-      "twitter": "https://twitter.com/siruslan",
+      "name": "Ihor Kolodyuk",
+      "description": "CTO of Jelastic",
+      "biography": "Ihor Kolodyuk is a Director of Technology at Jelastic, company that delivers DevOps PaaS with full containers orchestration. With over 15 years in the IT industry, Ihor is an expert in Cloud Architecture Design, Infrastructure Management, Networking and Linux Server Side Development. Ihor likes solving super complex technical problems and never gives up.",
+      "image": "assets/img/speakers/ihor.png",
+      "ref": "ihor",
+      "url": "infoSpeaker.html?ref=ihor",
+      "twitter": "https://twitter.com/jelastic",
       "homepage": "https://jelastic.com/",
       "talk": {
         "type": "talk",
@@ -753,12 +753,12 @@
       "ref": "salaboy",
       "url": "infoSpeaker.html?ref=salaboy",
       "twitter": "https://twitter.com/salaboy",
-      "homepage": "http://salaboy.com",      
+      "homepage": "http://salaboy.com",
       "hasMoreTalks": "1",
       "talk": {
         "type": "workshop",
         "title": "Drools Hands On - Improve  your Microservices with Drools",
-        "abstract": "Do you want to get started with Drools? Do you want to understand the different architectural patterns to start using Drools efficiently in your applications and/or your microservices? During the workshop you will learn how to code a set of rules to implement the logic inside a set of micro services. The aim of the session is to give you all the tools to start using Drools in your own microservices in almost no time. The session will also cover a set of pitfalls to avoid when you are starting with Drools so you can apply what is covered straight in your apps/microservices.",
+        "abstract": "Do you want to get started with Drools? Do you want to understand the different architectural patterns to start using Drools efficiently in your applications and/or your microservices? During the workshop you will learn how to code a set of rules to implement the logic inside a set of micro services. The aim of the session is to give you all the tools to start using Drools in your own microservices in almost no time. The session will also cover a set of pitfalls to avoid when you are starting with Drools so you can apply what is covered straight in your apps/microservices.<br><br>Follow the instructions posted in <a href=\"https://github.com/salaboy/drools-workshop/\" class=\"link\">this URL</a>",
         "tags": [
           "Drools", "Microservices"
         ],
@@ -827,7 +827,7 @@
         ],
         "level": "Intermediate"
       },
-      "scheduleId": "#FRI-TC3-SE7"
+      "scheduleId": "#SAT-TC3-SE2"
     },
     {
       "enabled": "1",
@@ -1134,7 +1134,7 @@
       "talk": {
         "type": "workshop",
         "title": "Build and deploy your Java, IoT and cognitive app in the cloud with the IBM Bluemix platform",
-        "abstract": "During this 2 hours lab, you will first learn how to build your Java app in the Cloud with IBM Bluemix, you will discover the different tools to deploy your code and how to use the DevOps services integrated with Bluemix. In the second part you will build an IoT application using IoT services, IBM Watson cognitive APIs and NoSQL services integrated with Bluemix. <br><br>Follow the instructions posted in <a href=\"http://jbcnconf2016.eu-gb.mybluemix.net/\">this URL</a> ",
+        "abstract": "During this 2 hours lab, you will first learn how to build your Java app in the Cloud with IBM Bluemix, you will discover the different tools to deploy your code and how to use the DevOps services integrated with Bluemix. In the second part you will build an IoT application using IoT services, IBM Watson cognitive APIs and NoSQL services integrated with Bluemix.<br><br>Follow the instructions posted in <a href=\"http://jbcnconf2016.eu-gb.mybluemix.net/\" class=\"link\">this URL</a>",
         "tags": [
           "Java", "IoT"
         ],
@@ -1183,6 +1183,27 @@
         "level": "Intermediate"
       },
       "scheduleId": "#SAT-TC2-SE3"
+    },
+    {
+      "enabled": "1",
+      "name": "Andres L. Martinez-Ortiz",
+      "description": "Developer Program Manager in Google",
+      "biography": "Andres L. Martinez-Ortiz a.k.a Almo is Developer Program Manager in Google's Engineering organisation. He is focused on driving the success of Google's developer products and the open web by creating a thriving ecosystem of 3rd party applications and businesses built on them. Closely with Product Management, Marketing, PR, Business Development, and other, he works with and supports developer communities, initiating activities that meet the needs of the innovation ecosystem. In addition, he meets with developers and partners in large companies, startups, universities and enterprises, promoting Open standards and Google technologies.",
+      "image": "assets/img/speakers/almo.jpg",
+      "ref": "almo",
+      "url": "infoSpeaker.html?ref=almo",
+      "twitter": "https://twitter.com/davilagrau",
+      "homepage": "http://gplus.to/almo",
+      "talk": {
+        "type": "talk",
+        "title": "Google Firebase: developing Android & iOS mobile apps",
+        "abstract": "During the presentation, almo will introduce the tools and architecture necessary for Android & iOS app development using the Firebase Realtime Database, OpenID Connect w. the Google Identity Toolkit and a Go backend in AppEngine.",
+        "tags": [
+          "Firebase", "Go", "Android", "iOS"
+        ],
+        "level": "Advanced"
+      },
+      "scheduleId": "#SAT-TC4-SE6"
     }
   ]
 }
