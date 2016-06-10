@@ -49,6 +49,7 @@ $(document).ready(function () {
 					}
 					divtalk += "</p>";
 				}
+				
 				if(val.talk.cospeakerref!=null){
 					for(var i=0;i<data.speakers.length;i++){
 						valspeaker2 = data.speakers[i];
@@ -64,43 +65,43 @@ $(document).ready(function () {
 				divtalk += "</div>";
 			  
 			
-			if(val.hasMoreTalks == 1){
-				for(var i=0;i<data.speakers.length;i++){
-					valspeaker2 = data.speakers[i];
-					if(valspeaker2.repeated == 1 && valspeaker2.ref == val.ref){
-						if(valspeaker2.talk !=null){
-							divtalk=divtalk+"<div class='row'>"+
-									"<p class='title'>"+valspeaker2.talk.title+"</p>"+
-									"<div class='borderTitle'></div>"+
-									"<p class='abstract'>"+valspeaker2.talk.abstract+"</p>";					
-							if(valspeaker2.talk.slides || valspeaker2.talk.video){
-								divtalk += "<p class='slidesandvideo'>";
-								if(valspeaker2.talk.slides){
-									divtalk += "<a href='"+valspeaker2.talk.slides+"'><span class='slides'>Slides <i class='fa fa-picture-o fa-1x'></i></span></a>";
+				if(val.hasMoreTalks == 1){
+					for(var i=0;i<data.speakers.length;i++){
+						valspeaker2 = data.speakers[i];
+						if(valspeaker2.repeated == 1 && valspeaker2.ref == val.ref){
+							if(valspeaker2.talk !=null){
+								divtalk=divtalk+"<div class='row'>"+
+										"<p class='title'>"+valspeaker2.talk.title+"</p>"+
+										"<div class='borderTitle'></div>"+
+										"<p class='abstract'>"+valspeaker2.talk.abstract+"</p>";					
+								if(valspeaker2.talk.slides || valspeaker2.talk.video){
+									divtalk += "<p class='slidesandvideo'>";
+									if(valspeaker2.talk.slides){
+										divtalk += "<a href='"+valspeaker2.talk.slides+"'><span class='slides'>Slides <i class='fa fa-picture-o fa-1x'></i></span></a>";
+									}
+									if(valspeaker2.talk.video){
+										divtalk += "<a href='"+valspeaker2.talk.video+"'><span class='video'>Video <i class='fa fa-film fa-1x'></i></span></a>";
+									}
+									divtalk += "</p>";
 								}
-								if(valspeaker2.talk.video){
-									divtalk += "<a href='"+valspeaker2.talk.video+"'><span class='video'>Video <i class='fa fa-film fa-1x'></i></span></a>";
-								}
-								divtalk += "</p>";
-							}
-							if(valspeaker2.talk.cospeakerref!=null){
-								for(var j=0;j<data.speakers.length;j++){
-									valspeaker3 = data.speakers[j];
-									if(valspeaker3.ref == valspeaker2.talk.cospeakerref){
-										divspeaker="<div class='cospeaker'>"+
-										"<a href='"+valspeaker3.url+"'>Talk with:"+valspeaker3.name+"</a>"+					
-										"</div>";
-									  	divtalk += divspeaker;
-										break;							
-				
+								if(valspeaker2.talk.cospeakerref!=null){
+									for(var j=0;j<data.speakers.length;j++){
+										valspeaker3 = data.speakers[j];
+										if(valspeaker3.ref == valspeaker2.talk.cospeakerref){
+											divspeaker="<div class='cospeaker'>"+
+											"<a href='"+valspeaker3.url+"'>Talk with:"+valspeaker3.name+"</a>"+					
+											"</div>";
+										  	divtalk += divspeaker;
+											break;							
+					
+										}
 									}
 								}
+								divtalk += "</div>";
 							}
-							divtalk += "</div>";
 						}
 					}
 				}
-			}
 			$(divtalk).appendTo( "#talk-info" );
 			}
 		  return false;
