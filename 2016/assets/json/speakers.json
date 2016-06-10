@@ -13,10 +13,10 @@
       "hasMoreTalks": "1",
       "talk": {
         "type": "talk",
-        "title": "Messaging and Microservices",
-        "abstract": "Microservices sometimes need more than REST for scaling and performance and Message-oriented Middleware seems like an ideal fit. However, traditional Enterprise Message Brokers are pretty static, and are poor at providing the elasticity required for cloud deployments. This talk will walk through some scenarios and different deployments, adding automatic sharding across clusters of brokers and sprinkle with magic from fabric8 - to show we can have a highly scalable cloud based messaging solution ideal for microservices.",
+        "title": "Develop a Mobile Application connected to a REST Microservice",
+        "abstract": "The development of a Mobile Aplication has been donimated during a decade by proprietary technologies developed by Apple, Android & Microsoft for their own mobile brand. With the development of the Apache Cordova Platform and the framework Ionic, this situation has completely changed as a developer can now design a project using their favorite HTML5, Javascript, AngularJS frameworks and rely on the tool provided by Apache Codova to generate the HTML Hybrid code for the target platform. The purpose of this talk is to demonstrate how such Mobile project can be designed and being integrated with a Backend System which is a REST Camel microservice. Next, we will also explain how we can simplify the Management and the packaging of the NodeJS application used to access the backend service using the Feedhenry Mobile Application platform and its Api.",
         "tags": [
-          "Microservices", "Messaging"
+          "Microservices", "Camel"
         ],
         "level": "Intermediate"
       },
