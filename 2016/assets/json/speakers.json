@@ -557,8 +557,8 @@
     {
       "enabled": "1",
       "name": "Per Jørgen Walstrøm",
-      "description": "Team Lead and Lead Developer of FINN Travel",
-      "biography": "He have almost 20 years of experience as developers and still find motivation and inner happiness in a test that goes green..",
+      "description": "Team Lead at FINN Travel",
+      "biography": "Per Jørgen is the Team Lead at FINN Travel and has almost 20 years of experience as a developer. He still finds motivation and inner happiness in a test that goes green",
       "image": "assets/img/speakers/perjorgen-walstrom.jpg",
       "ref": "perjorgenwalstrom",
       "url": "infoSpeaker.html?ref=perjorgenwalstrom",
@@ -568,7 +568,7 @@
         "title": "How we deploy to production 42 times a day",
         "abstract": "When the Schibsted-company FINN Travel created its new platform in 2013, one requirement was that the code should be rolled out continuously. To be able to do this, the code that hits production needs to behave well and not destroy existing functionality. This is the story of how Continuous Integration and Continuous Delivery is a natural part of a developer's life in FINN. We show how tests will help us on our way, how the developers' role has changed to cope with the new demands, and take a dive into the internal infrastructure of FINN.",
         "tags": [
-          "Java", "Groovy", "devops", "Testing", "Integration"
+          "Java", "Groovy", "devops", "Testing", "ContinuousIntegration", "ContinuousDelivery"
         ],
         "level": "Beginner",
 		"cospeakerref": "stigkleppejorgensen"
@@ -578,8 +578,8 @@
     {
       "enabled": "1",
       "name": "Stig Kleppe-Jørgensen",
-      "description": "Team Lead and Lead Developer of FINN Travel",
-      "biography": "He have almost 20 years of experience as developers and still find motivation and inner happiness in a test that goes green..",
+      "description": "Lead Developer at FINN Travel",
+      "biography": "Stig is the Lead Developer at FINN Travel. He has been a developer for 20 years and lived with low test coverage for a long time before getting a new job and green builds at FINN. Always on the lookout for new libraries and tools to make the developer of his team happy, he makes sure code gets deployed into production in the most safe and fast way possible",
       "image": "assets/img/speakers/stikkleppe-jorgensen.png",
       "ref": "stigkleppejorgensen",
       "url": "infoSpeaker.html?ref=stigkleppejorgensen",
@@ -589,7 +589,7 @@
         "title": "How we deploy to production 42 times a day",
         "abstract": "When the Schibsted-company FINN Travel created its new platform in 2013, one requirement was that the code should be rolled out continuously. To be able to do this, the code that hits production needs to behave well and not destroy existing functionality. This is the story of how Continuous Integration and Continuous Delivery is a natural part of a developer's life in FINN. We show how tests will help us on our way, how the developers' role has changed to cope with the new demands, and take a dive into the internal infrastructure of FINN.",
         "tags": [
-          "Java", "Groovy", "devops", "Testing", "Integration"
+          "Java", "Groovy", "devops", "Testing", "ContinuousIntegration", "ContinuousDelivery"
         ],
         "level": "Beginner",
 		"cospeakerref": "perjorgenwalstrom"
