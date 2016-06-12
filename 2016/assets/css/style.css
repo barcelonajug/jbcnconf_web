@@ -908,3 +908,9 @@ text-align: left;
  color: #8c8cf0;
  font-weight:bold;
 }
+
+.noysi {
+	background-color: #0555c3;
+    font-weight:bold;
+    color : #FFFFFF;
+}
