@@ -725,6 +725,12 @@ a:focus {
 	color:#000000;
 }
 
+#schedule .talks .location{
+	display: block;
+	font-size: 14px;
+	color:#000000;
+}
+
 #schedule .welcome{
 	background-color:#86B8E4;
 	color:#FFFFFF;
