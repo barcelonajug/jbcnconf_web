@@ -5,15 +5,14 @@ $(document).ready(function () {
 			if($(val.scheduleId).children('span').hasClass('pending')){
 				divspeaker="<a href='"+val.url+"'><div><span class='title'>"+val.talk.title+"</span><span class='speaker'>"+val.name;
 				if(val.talk.cospeakerref!=null){
-						for(var i=0;i<data.speakers.length;i++){
-							valspeaker2 = data.speakers[i];
-							if(valspeaker2.ref == val.talk.cospeakerref){
-								divspeaker=divspeaker+ " & " +valspeaker2.name ;			
-								break;
-							}
+					for(var i=0;i<data.speakers.length;i++){
+						valspeaker2 = data.speakers[i];
+						if(valspeaker2.ref == val.talk.cospeakerref){
+							divspeaker=divspeaker+ " & " +valspeaker2.name ;			
+							break;
 						}
 					}
-				divspeaker=divspeaker+"</span></div></a>";
+				}
 				if(val.scheduleId=='#Fri-Keynote' || val.scheduleId=='#Sat-Keynote'){
 					divspeaker="<span class='keynote'>Keynote [Auditorium]</span>"+divspeaker;
 				}
