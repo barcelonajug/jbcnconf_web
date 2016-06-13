@@ -192,6 +192,7 @@
       "url": "infoSpeaker.html?ref=sritter",
       "twitter": "https://twitter.com/speakjava",
       "homepage": "http://www.azul.com",
+      "hasMoreTalks": "1",
       "talk": {
         "type": "talk",
         "title": "JDK 8: Lessons Learnt With Lambdas and Streams",
@@ -202,6 +203,28 @@
         "level": "Intermediate"
       },
       "scheduleId": "#FRI-TC2-SE5"
+    },
+    {
+      "enabled": "1",
+      "repeated" : "1",
+      "name": "Simon Ritter",
+      "description": "CTO of Azul Systems",
+      "biography": "Simon Ritter is the Deputy CTO of Azul Systems.  Simon has been in the IT business since 1984 and holds a Bachelor of Science degree in Physics from Brunel University in the U.K. Simon joined Sun Microsystems in 1996 and spent time working in both Java development and consultancy.  He has been presenting Java technologies to developers since 1999 focusing on the core Java platform as well as client and embedded applications.  Now at Azul Systems he continues to help people understand Java and Azul’s JVM products.",
+      "image": "assets/img/speakers/simon-ritter.jpg",
+      "ref": "sritter",
+      "url": "infoSpeaker.html?ref=sritter",
+      "twitter": "https://twitter.com/speakjava",
+      "homepage": "http://www.azul.com",
+      "talk": {
+        "type": "talk",
+        "title": "21 Years of Java, 10 Years of OpenJDK: Where Do We Go From Here?",
+        "abstract": "The Java platform is twenty-one years old putting it right up there with Cobol, C and Fortran in terms of longevity. It’s also now ten years since Sun Microsystems created the OpenJDK project, open sourcing the Sun implementation of the Java Development Kit.<br>In this keynote, we’ll take a look back at how Open Source has radically changed the way software is developed, marketed and commercialised and how the OpenJDK has delivered on its original goals in this space. From there, we’ll look into our crystal ball and try to see where Java goes from here.  With many competing languages available to developers what will be required to keep Java the most popular development platform on the planet?",
+        "tags": [
+          "Java8", "Java9", "OpenJDK", "JavaEE", "OpenSource"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": "#Fri-Keynote"
     },
     {
       "enabled": "1",
@@ -1011,7 +1034,7 @@
         "level": "Beginner",
 		"cospeakerref": "salaboy"
       },
-      "scheduleId": "#SAT-TC1-SE7"
+      "scheduleId": "#Sat-Keynote"
     },
     {
       "enabled": "1",
@@ -1034,7 +1057,7 @@
         "level": "Beginner",
 		"cospeakerref": "mswiderski"
       },
-      "scheduleId": "#SAT-TC1-SE7"
+      "scheduleId": "#Sat-Keynote"
     },
 	{
       "enabled": "1",

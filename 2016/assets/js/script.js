@@ -118,6 +118,7 @@ function getFamilyForTag(tag){
         case "Performance":
         case "Compiler":
         case "JavaFX":
+        case "OpenJDK":
             family = "JVM"; break;
         case "Containers" : 
         case "Kubernetes":
