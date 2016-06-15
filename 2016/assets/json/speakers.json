@@ -1199,7 +1199,7 @@
         "title": "From Zero to a Raspberry-Pi Kubernetes Cluster in 60 minutes",
         "abstract": "In this hands-on presentation we start from scratch with some Spring-Boot and Wildfly-Swarm Microservices which we first place into Docker images and then deploy them on a Kubernetes cluster running on a four-node Raspberry Pis with load-balancing and rolling updates. We will see how seamless the creation of Docker images and Kubernetes resource descriptors can be integrated into the Maven build process. Many live demos explain the Kubernetes core concepts by example. As bonus a recipe for setting up a Raspberry Pi cluster on your own is given. At the end of this talk you will know how easy it is to bring your Java applications to Kubernetes.",
         "tags": [
-          "Kubernetes", "Spring-boot", "Docker", "Raspberry Pi"
+          "Kubernetes", "Spring Boot", "Docker", "Raspberry Pi"
         ],
         "level": "Intermediate"
       },
@@ -1246,6 +1246,26 @@
         "level": "Advanced"
       },
       "scheduleId": "#SAT-TC4-SE6"
+    },
+    {
+      "enabled": "1",
+      "name": "Sergi Almar",
+      "description": "Spring I/O organizer",
+      "biography": "Sergi has been helping customers with best practices in software development in the JVM for the last 10 years. Using Spring Framework since 2006, he has also delivered the official Spring trainings to +1000 people in +20 different countries. Sergi is the organizer of the Spring I/O conference (www.springio.net) and also a core member of the javaHispano JUG.",
+      "image": "assets/img/speakers/sergialmar.jpeg",
+      "ref": "sergialmar",
+      "twitter": "https://twitter.com/sergialmar",
+      "url": "infoSpeaker.html?ref=sergialmar",
+      "talk": {
+        "type": "workshop",
+        "title": "Cloud Native Applications with Spring Cloud",
+        "abstract": "Do you want to build an application using microservices and don't know where to start? How do services find each other? How do I configure many instances of each service? How do I know which instance to use? How do I see what's going on with my services?<br>If you've ever asked any of these questions, this session will give you some answers using Spring Cloud to create microservices that are robust, discoverable, scalable and configurable.<br><br>Follow the instructions posted in <a href=\"https://github.com/salmar/cloud-native-workshop\" class=\"link\">this URL</a>",
+        "tags": [
+          "Spring", "Spring Cloud", "Spring Boot", "microservices"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": "#THU-TC2-SE2"
     }
   ]
 }

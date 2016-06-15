@@ -161,7 +161,9 @@ function getFamilyForTag(tag){
         case "Geb":
         case "Spock":
         case "Grails":
-        case "Spring-boot":
+        case "Spring":
+        case "Spring Boot":
+        case "Spring Cloud":
             family = "Frameworks"; break;
         case "community":
         case "OpenSource":
