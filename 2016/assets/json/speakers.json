@@ -49,7 +49,7 @@
       "biography": "Maciej is principal software engineer at JBoss working as core developer of jBPM. Since 2007 he is in BPM domain both from development point of view and helping to adopt BPM in different sectors. He's passionate about open source and tries to promote it wherever possible. In his spare time he enjoys calm and relax life on country side and travels.",
       "image": "assets/img/speakers/maciej-swiderski.png",
       "ref": "mswiderski",
-      "url": "infoSpeaker.html?ref=mswiderski",      
+      "url": "infoSpeaker.html?ref=mswiderski",
       "hasMoreTalks": "1",
       "talk": {
         "type": "talk",
@@ -58,7 +58,7 @@
         "tags": [
           "Microservices", "Design", "Vert.x", "jBPM"
         ],
-        "level": "Intermediate"		
+        "level": "Intermediate"
       },
       "scheduleId": "#FRI-TC1-SE4"
     },
@@ -373,8 +373,8 @@
     {
       "enabled": "1",
       "name": "Alex Soto",
-      "description": "Software Engineer at CloudBees",
-      "biography": "Alex is a software engineer at CloudBees. He is a passionate of Java world, software automation and he believes in the open source software model. Alex is the creator of NoSQLUnit project and team member of Arquillian, Asciidoctor and Apache TomEE projects. He is a member of JSR374 (Java API for JSON Processing) Expert Group. Currently Alex is co-writing Arquillian in Action book for Manning and he is an international speaker presenting his talks at software conferences like Devoxx, JavaOne, JavaZone or JavaLand.",
+      "description": "Senior Software Engineer at Red Hat",
+      "biography": "Alex is a software engineer at Red Hat. He is a passionate of Java world, software automation and he believes in the open source software model. Alex is the creator of NoSQLUnit project and team member of Arquillian, Asciidoctor and Apache TomEE projects. He is a member of JSR374 (Java API for JSON Processing) Expert Group. Currently Alex is co-writing Arquillian in Action book for Manning and he is an international speaker presenting his talks at software conferences like Devoxx, JavaOne, JavaZone or JavaLand.",
       "image": "assets/img/speakers/alex-soto.jpg",
       "ref": "asoto",
       "url": "infoSpeaker.html?ref=asoto",
@@ -585,7 +585,7 @@
       "image": "assets/img/speakers/perjorgen-walstrom.jpg",
       "ref": "perjorgenwalstrom",
       "url": "infoSpeaker.html?ref=perjorgenwalstrom",
-      "twitter": "https://twitter.com/pjwalstrom",      
+      "twitter": "https://twitter.com/pjwalstrom",
       "talk": {
         "type": "talk",
         "title": "How we deploy to production 42 times a day",
@@ -606,7 +606,7 @@
       "image": "assets/img/speakers/stikkleppe-jorgensen.png",
       "ref": "stigkleppejorgensen",
       "url": "infoSpeaker.html?ref=stigkleppejorgensen",
-      "twitter": "https://twitter.com/stigkj",      
+      "twitter": "https://twitter.com/stigkj",
       "talk": {
         "type": "talk",
         "title": "How we deploy to production 42 times a day",
