@@ -325,7 +325,8 @@
         "tags": [
           "Refactoring", "Coding", "Testing", "Design Patters"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        "slides":"https://docs.google.com/presentation/d/1RGlKjMn4tBNCuXDZArWPskJyN_Dpq1XXbPcBqkX3a2k/edit?usp=sharing"
       },
       "scheduleId": "#THU-TC4-SE2"
     },
@@ -804,7 +805,8 @@
         "tags": [
           "Drools", "Microservices"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        "slides":"http://www.slideshare.net/salaboy/drools-workshop-jbcnconf-2016"
       },
       "scheduleId": "#THU-TC1-SE1"
     },
@@ -825,7 +827,8 @@
         "tags": [
           "Microservices"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        "slides":"http://fabric8.io/presentations/fabric8-microservices-platform-2016-June/#/"
       },
       "scheduleId": "#FRI-TC1-SE2"
     },
@@ -888,7 +891,8 @@
         "tags": [
           "Fullstack","Microservices"
         ],
-        "level": "Advanced"
+        "level": "Advanced",
+        "slides":"http://www.slideshare.net/lmineiro/the-frontend-taboo-a-story-of-full-stack-microservices"
       },
       "scheduleId": "#SAT-TC4-SE2"
     },
@@ -1222,7 +1226,8 @@
         "tags": [
           "Java", "Internal"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        "slides":"http://www.slideshare.net/alotor/jbcn-2016-garbage-collectors-wtf"
       },
       "scheduleId": "#SAT-TC2-SE3"
     },
