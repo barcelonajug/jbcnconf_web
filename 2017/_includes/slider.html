@@ -1,0 +1,47 @@
+<!-- start: Slider -->
+<div class="slider-wrapper">
+
+    <div id="da-slider" class="da-slider">
+
+        {% for slide in site.data.slider.slides %}
+        <div class="da-slide">
+
+            {% if slide.title %}
+            <h2>{{ slide.title }}</h2>
+            {% endif %}
+
+            {% if slide.text %}
+            <p>
+                <span class="subtitle">{{ slide.subtitle }}</span><br/>
+                {{ slide.text }}
+            </p>
+            {% endif %}
+
+
+            {% if slide.link %}
+            <a href="{{ slide.link.url }}" class="da-link">{{ slide.link.label }}</a>
+            {% endif %}
+
+
+            <div class="da-img">
+                {% if slide.include %}
+                {% include {{ slide.include }} %}
+                {% endif %}
+                {% if slide.image %}
+                <img src="{{ slide.image.url }}" alt="{{ slide.image.alt }}"/>
+                {% endif %}
+
+            </div>
+
+        </div>
+        {% endfor %}
+
+
+        <nav class="da-arrows">
+            <span class="da-arrows-prev"></span>
+            <span class="da-arrows-next"></span>
+        </nav>
+    </div>
+
+</div>
+<!-- end: Slider -->
