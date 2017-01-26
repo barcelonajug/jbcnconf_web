@@ -18,7 +18,9 @@
         "tags": [
           "Microservices", "Camel"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=J9Qv4Q3wbY4"
       },
       "scheduleId": "#FRI-TC1-SE7"
     },
@@ -38,7 +40,9 @@
         "tags": [
           "Microservices", "Cloud", "Docker", "Kubernetes"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=sJDArPupDus"
       },
       "scheduleId": "#FRI-TC3-SE1"
     },
@@ -58,7 +62,9 @@
         "tags": [
           "Microservices", "Design", "Vert.x", "jBPM"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=wG1OMWxiDng"
       },
       "scheduleId": "#FRI-TC1-SE4"
     },
@@ -78,7 +84,9 @@
         "tags": [
           "Modularity", "Java9"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=2V8OEtZBBco"
       },
       "scheduleId": "#FRI-TC2-SE1"
     },
@@ -98,7 +106,9 @@
         "tags": [
           "Testing", "Scala", "Patterns"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=HfM5M1GNpL8"
       },
       "scheduleId": "#FRI-TC4-SE6"
     },
@@ -118,7 +128,9 @@
         "tags": [
           "DB", "noSQL"
         ],
-        "level": "Beginner"
+        "level": "Beginner",
+        
+        "video":"https://www.youtube.com/watch?v=GMQZOMAfGds"
       },
       "scheduleId": "#FRI-TC3-SE2"
     },
@@ -138,7 +150,9 @@
         "tags": [
           "Microservices", "ContinuousDelivery"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=QhPEOhKXm-s"
       },
       "scheduleId": "#FRI-TC1-SE1"
     },
@@ -158,7 +172,9 @@
         "tags": [
           "Microservices", "Containers"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=tN8-7OcgsMM"
       },
       "scheduleId": "#FRI-TC1-SE5"
     },
@@ -178,7 +194,9 @@
         "tags": [
           "Testing", "Geb", "Spock"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=jQhlLWpq7Zs"
       },
       "scheduleId": "#FRI-TC4-SE7"
     },
@@ -200,7 +218,9 @@
         "tags": [
           "Java8", "FunctionalProgramming", "Java9", "Performance", "Lambdas"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=Ir7pbpIH0SE"
       },
       "scheduleId": "#FRI-TC2-SE5"
     },
@@ -222,7 +242,9 @@
         "tags": [
           "Java8", "Java9", "OpenJDK", "JavaEE", "OpenSource"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=skXvNZLyCxw"
       },
       "scheduleId": "#Fri-Keynote"
     },
@@ -243,7 +265,9 @@
         "tags": [
           "Bigdata", "Real-time", "Performance", "Messaging"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=xJg_nU-mFa4"
       },
       "scheduleId": "#SAT-TC2-SE1"
     },
@@ -264,7 +288,9 @@
         "tags": [
           "RxJava", "Couchbase", "noSQL", "Ratpack"
         ],
-        "level": "Beginner"
+        "level": "Beginner",
+        
+        "video":"https://www.youtube.com/watch?v=q_5E2ABa1Lk"
       },
       "scheduleId": "#SAT-TC1-SE1"
     },
@@ -285,7 +311,9 @@
         "tags": [
           "Testing"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=ptlSsXU0Jdg"
       },
       "scheduleId": "#FRI-TC4-SE4"
     },
@@ -305,7 +333,9 @@
         "tags": [
           "Refactoring", "Coding", "Testing", "Design Patters"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=4V-A3rkVgRY"
       },
       "scheduleId": "#FRI-TC2-SE6"
     },
@@ -345,7 +375,9 @@
         "tags": [
           "Bigdata","ElasticSearch","Logstash","Kibana"
         ],
-        "level": "Advanced"
+        "level": "Advanced",
+        
+        "video":"https://www.youtube.com/watch?v=tYGn7DX3SUY"
       },
       "scheduleId": "#SAT-TC2-SE2"
     },
@@ -367,7 +399,9 @@
           "Spock",
           "Groovy"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=0egxClEYIcs"
       },
       "scheduleId": "#FRI-TC4-SE1"
     },
@@ -388,7 +422,9 @@
           "Docker",
           "Testing"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=3iQgYsKzm64"
       },
       "scheduleId": "#FRI-TC1-SE6"
     },
@@ -408,7 +444,9 @@
         "tags": [
           "Gradle"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=F0ymFHj6yZ4"
       },
       "scheduleId": "#SAT-TC1-SE2"
     },
@@ -429,7 +467,9 @@
           "Spock",
           "Testing"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=8c6IKF6Z19I"
       },
       "scheduleId": "#FRI-TC4-SE5"
     },
@@ -450,7 +490,9 @@
           "JavaFX",
           "Android"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=r2xDWEFF_l4"
       },
       "scheduleId": "#FRI-TC2-SE4"
     },
@@ -471,7 +513,9 @@
           "Java8",
           "Streams"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=lipQmKyL-N4"
       },
       "scheduleId": "#FRI-TC2-SE7"
     },
@@ -491,7 +535,9 @@
         "tags": [
           "Testing"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=99KJ2IaQOfU"
       },
       "scheduleId": "#FRI-TC4-SE2"
     },
@@ -512,7 +558,9 @@
           "Coding",
           "Conventions"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=-A3YccWOfzY"
       },
       "scheduleId": "#FRI-TC3-SE7"
     },
@@ -533,7 +581,9 @@
           "Security",
           "Java9"
         ],
-        "level": "Advanced"
+        "level": "Advanced",
+        
+        "video":"https://www.youtube.com/watch?v=rZMdibN_zdA"
       },
       "scheduleId": "#FRI-TC3-SE5"
     },
@@ -553,7 +603,9 @@
         "tags": [
           "Architecture"
         ],
-        "level": "Beginner"
+        "level": "Beginner",
+        
+        "video":"https://www.youtube.com/watch?v=MdOwQhGkIV0"
       },
       "scheduleId": "#FRI-TC3-SE4"
     },
@@ -574,7 +626,9 @@
           "Cloud",
           "Microservices"
         ],
-        "level": "Beginner"
+        "level": "Beginner",
+        
+        "video":"https://www.youtube.com/watch?v=tcNf8Dk6VWg"
       },
       "scheduleId": "#SAT-TC3-SE6"
     },
@@ -595,7 +649,9 @@
           "Java", "Groovy", "devops", "Testing", "ContinuousIntegration", "ContinuousDelivery"
         ],
         "level": "Beginner",
-		"cospeakerref": "stigkleppejorgensen"
+		"cospeakerref": "stigkleppejorgensen",
+        
+        "video":"https://www.youtube.com/watch?v=XBf2u-4A6PQ"
       },
       "scheduleId": "#FRI-TC3-SE6"
     },
@@ -616,7 +672,9 @@
           "Java", "Groovy", "devops", "Testing", "ContinuousIntegration", "ContinuousDelivery"
         ],
         "level": "Beginner",
-		"cospeakerref": "perjorgenwalstrom"
+		"cospeakerref": "perjorgenwalstrom",
+        
+        "video":"https://www.youtube.com/watch?v=XBf2u-4A6PQ"
       },
       "scheduleId": "#FRI-TC3-SE6"
     },
@@ -637,7 +695,9 @@
         "tags": [
           "Microservices", "OSGi"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=C8Sj-Pn6_jM"
       },
       "scheduleId": "#SAT-TC1-SE5"
     },
@@ -658,7 +718,9 @@
         "tags": [
           "DDD", "Patterns"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=TmKdRo5qYYc"
       },
       "scheduleId": "#SAT-TC3-SE1"
     },
@@ -679,7 +741,9 @@
         "tags": [
           "Reactive", "DistributedSystems", "Vert.x"
         ],
-        "level": "Beginner"
+        "level": "Beginner",
+        
+        "video":"https://www.youtube.com/watch?v=D8WmFhFHAp0"
       },
       "scheduleId": "#SAT-TC1-SE4"
     },
@@ -700,7 +764,9 @@
         "tags": [
           "Event-driven", "Reactive", "DistributedSystems"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=shVwVJb-7lA"
       },
       "scheduleId": "#SAT-TC1-SE3"
     },
@@ -721,7 +787,9 @@
         "tags": [
           "Architecture", "DistributedSystems", "Cloud"
         ],
-        "level": "Advanced"
+        "level": "Advanced",
+        
+        "video":"https://www.youtube.com/watch?v=zpumRp8n38o"
       },
       "scheduleId": "#SAT-TC2-SE4"
     },
@@ -742,7 +810,9 @@
         "tags": [
           "Messaging", "DistributedSystems", "Design", "Performance"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=yzyw2zteTjU"
       },
       "scheduleId": "#SAT-TC1-SE6"
     },
@@ -763,7 +833,9 @@
         "tags": [
           "Containers", "Scalability", "Docker"
         ],
-        "level": "Advanced"
+        "level": "Advanced",
+        
+        "video":"https://www.youtube.com/watch?v=7XToLGNjqZo"
       },
       "scheduleId": "#SAT-TC4-SE3"
     },
@@ -783,7 +855,9 @@
         "tags": [
           "Architecture", "APIs", "Design"
         ],
-        "level": "Beginner"
+        "level": "Beginner",
+        
+        "video":"https://www.youtube.com/watch?v=W-KKTrpPmWk"
       },
       "scheduleId": "#SAT-TC3-SE4"
     },
@@ -828,7 +902,8 @@
           "Microservices"
         ],
         "level": "Intermediate",
-        "slides":"http://fabric8.io/presentations/fabric8-microservices-platform-2016-June/#/"
+        "slides":"http://fabric8.io/presentations/fabric8-microservices-platform-2016-June/#/",
+        "video":"https://www.youtube.com/watch?v=k5ApeS8s6jY"
       },
       "scheduleId": "#FRI-TC1-SE2"
     },
@@ -851,6 +926,7 @@
           "API","Security","Microservices"
         ],
         "level": "Intermediate"
+        
       },
       "scheduleId": "#FRI-TC2-SE2"
     },
@@ -870,7 +946,9 @@
         "tags": [
           "API","Microservices"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=SerR_D_Yabw"
       },
       "scheduleId": "#SAT-TC3-SE2"
     },
@@ -892,7 +970,8 @@
           "Fullstack","Microservices"
         ],
         "level": "Advanced",
-        "slides":"http://www.slideshare.net/lmineiro/the-frontend-taboo-a-story-of-full-stack-microservices"
+        "slides":"http://www.slideshare.net/lmineiro/the-frontend-taboo-a-story-of-full-stack-microservices",
+        "video":"https://www.youtube.com/watch?v=Vy_FnKOpnb0"
       },
       "scheduleId": "#SAT-TC4-SE2"
     },
@@ -974,7 +1053,9 @@
         "tags": [
           "Web", "Framework", "CMS"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=Vy_FnKOpnb0"
       },
       "scheduleId": "#SAT-TC4-SE4"
     },
@@ -994,7 +1075,9 @@
         "tags": [
           "Java", "Javascript", "Angular2"
         ],
-        "level": "Beginner"
+        "level": "Beginner",
+        
+        "video":"https://www.youtube.com/watch?v=tEb_e1HrMp0"
       },
       "scheduleId": "#SAT-TC4-SE1"
     },
@@ -1014,7 +1097,9 @@
         "tags": [
           "JavaEE", "Testing"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=50GSdzd7zp8"
       },
       "scheduleId": "#SAT-TC3-SE5"
     },
@@ -1036,7 +1121,9 @@
           "community", "OpenSource"
         ],
         "level": "Beginner",
-		"cospeakerref": "salaboy"
+		"cospeakerref": "salaboy",
+    
+    "video":"https://www.youtube.com/watch?v=NvHvC2QfsYk"
       },
       "scheduleId": "#Sat-Keynote"
     },
@@ -1059,7 +1146,9 @@
           "community", "OpenSource"
         ],
         "level": "Beginner",
-		"cospeakerref": "mswiderski"
+		"cospeakerref": "mswiderski",
+    
+    "video":"https://www.youtube.com/watch?v=NvHvC2QfsYk"
       },
       "scheduleId": "#Sat-Keynote"
     },
@@ -1080,7 +1169,9 @@
         "tags": [
           "JavaEE", "HTTP2"
         ],
-        "level": "Beginner"
+        "level": "Beginner",
+        
+        "video":"https://www.youtube.com/watch?v=GvIM0YdO8Rw"
       },
       "scheduleId": "#SAT-TC4-SE5"
     },
@@ -1101,7 +1192,9 @@
         "tags": [
           "JVM", "AOT"
         ],
-        "level": "Beginner"
+        "level": "Beginner",
+        
+        "video":"https://www.youtube.com/watch?v=hJRYNC8lNd4"
       },
       "scheduleId": "#SAT-TC2-SE6"
     },
@@ -1122,7 +1215,9 @@
         "tags": [
           "Design Patterns", "Integration"
         ],
-        "level": "Advanced"
+        "level": "Advanced",
+        
+        "video":"https://www.youtube.com/watch?v=1C7JZxnzB-4"
       },
       "scheduleId": "#SAT-TC3-SE3"
     },
@@ -1205,7 +1300,9 @@
         "tags": [
           "Kubernetes", "Spring Boot", "Docker", "Raspberry Pi"
         ],
-        "level": "Intermediate"
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=Gjij2t14pfg"
       },
       "scheduleId": "#SAT-TC2-SE5"
     },
@@ -1227,7 +1324,8 @@
           "Java", "Internal"
         ],
         "level": "Intermediate",
-        "slides":"http://www.slideshare.net/alotor/jbcn-2016-garbage-collectors-wtf"
+        "slides":"http://www.slideshare.net/alotor/jbcn-2016-garbage-collectors-wtf",
+        "video":"https://www.youtube.com/watch?v=B7cHPDQJXMY"
       },
       "scheduleId": "#SAT-TC2-SE3"
     },
@@ -1248,7 +1346,9 @@
         "tags": [
           "Firebase", "Go", "Android", "iOS"
         ],
-        "level": "Advanced"
+        "level": "Advanced",
+        "slides":"http://www.slideshare.net/alotor/jbcn-2016-garbage-collectors-wtf",
+        "video":"https://www.youtube.com/watch?v=G6ikC7f_MMc"
       },
       "scheduleId": "#SAT-TC4-SE6"
     },
