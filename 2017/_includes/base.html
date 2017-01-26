@@ -1,4 +1,5 @@
 <!-- _includes/base.html -->
 {% assign base = '/2017' %}
-{% assign depth = page.url | split: '/' | size | minus: 1 %}
-{% if    site.github %}{% assign base = 'site.github.url' %}{% endif %}
+{% if site.github %}
+    {% assign base = site.github.url | append: '/2017' %}
+{% endif %}
