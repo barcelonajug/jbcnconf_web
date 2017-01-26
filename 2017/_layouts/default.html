@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+{% include base.html %}
 <head>
     <!-- start: Meta -->
     <meta charset="utf-8">
@@ -28,20 +29,20 @@
     <!-- end: Facebook Open Graph -->
 
     <!-- start: CSS -->
-    <link href="/assets/css/bootstrap.css" rel="stylesheet">
-    <link href="/assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="/assets/css/style.css" rel="stylesheet">
-    <link href="/assets/css/custom.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
+    <link href="{{ base }}/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="{{ base }}/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="{{ base }}/assets/css/style.css" rel="stylesheet">
+    <link href="{{ base }}/assets/css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Droid+Serif">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Boogaloo">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Economica:700,400italic">
     <link rel="shortcut icon" href="/assets/ico/favicon.ico">
     <!-- end: CSS -->
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
 </head>
@@ -60,13 +61,13 @@
 {% include copyright.html %}
 
 <!-- start: Java Script -->
-<script src="/assets/js/jquery-1.8.2.js"></script>
-<script src="/assets/js/bootstrap.js"></script>
-<script src="/assets/js/flexslider.js"></script>
-<script src="/assets/js/carousel.js"></script>
-<script src="/assets/js/jquery.cslider.js"></script>
-<script src="/assets/js/slider.js"></script>
-<script defer="defer" src="/assets/js/custom.js"></script>
+<script src="{{ base }}/assets/js/jquery-1.8.2.js"></script>
+<script src="{{ base }}/assets/js/bootstrap.js"></script>
+<script src="{{ base }}/assets/js/flexslider.js"></script>
+<script src="{{ base }}/assets/js/carousel.js"></script>
+<script src="{{ base }}/assets/js/jquery.cslider.js"></script>
+<script src="{{ base }}/assets/js/slider.js"></script>
+<script defer="defer" src="{{ base }}/assets/js/custom.js"></script>
 <!-- end: Java Script -->
 
 </body>

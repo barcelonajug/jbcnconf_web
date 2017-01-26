@@ -1,3 +1,4 @@
+{% include base.html %}
 <!--start: Header -->
 <header>
 
@@ -10,7 +11,7 @@
             <!--start: Logo -->
             <div class="logo span3">
 
-                <a class="brand" href="#"><img src="/assets/images/logos/LOGO_FINAL_PNG_500x250.png"
+                <a class="brand" href="#"><img src="{{ base }}/assets/images/logos/LOGO_FINAL_PNG_500x250.png"
                                                alt="Logo"></a>
 
             </div>
@@ -33,9 +34,19 @@
                                 <li {% if page.url == menu.url %}
                                         class="active"
                                     {% endif %}>
-                                    <a href="{{menu.url}}">
-                                        {{ menu.label }}
-                                    </a>
+                                    
+                                    {% if  menu.url contains "http" %}
+                                        <a href="{{menu.url}}">
+                                            {{ menu.label }}
+                                        </a>
+                                    {% elsif menu.url %}
+                                        <a href="{{ base }}{{menu.url}}">
+                                            {{ menu.label }}
+                                        </a>
+                                    {% endif %}
+
+
+
                                 </li>
                                 {% endfor %}
 

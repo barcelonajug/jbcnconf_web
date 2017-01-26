@@ -1,4 +1,6 @@
 <!-- start: Slider -->
+{% include base.html %}
+
 <div class="slider-wrapper">
 
     <div id="da-slider" class="da-slider">
@@ -7,7 +9,7 @@
         <div class="da-slide">
 
             {% if slide.title %}
-            <h2>{{ slide.title }}</h2>
+            <h2>{{ slide.title }} </h2>
             {% endif %}
 
             {% if slide.text %}
@@ -19,7 +21,7 @@
 
 
             {% if slide.link %}
-            <a href="{{ slide.link.url }}" class="da-link">{{ slide.link.label }}</a>
+            <a href="{{ base }}{{ slide.link.url }}" class="da-link">{{ slide.link.label }}</a>
             {% endif %}
 
 
@@ -28,7 +30,7 @@
                 {% include {{ slide.include }} %}
                 {% endif %}
                 {% if slide.image %}
-                <img src="{{ slide.image.url }}" alt="{{ slide.image.alt }}"/>
+                <img src="{{ base }}{{ slide.image.url }}" alt="{{ slide.image.alt }}"/>
                 {% endif %}
 
             </div>
