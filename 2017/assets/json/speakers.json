@@ -3,26 +3,47 @@
     {
       "enabled": "1",
       "name": "Venkat Subramaniam",
-      "description": "Principal Solution Architect @RedHat",
-      "biography": "Charles Moulliard is currently a Sr. Principal Solution Architect @RedHat & Apache Committer with more than 20 years of expertise in solutions design based on JEE / Middleware technologies.<br>As Engineer & Architect, he has been involved in system integration of projects in Financial and Banking world. The skills (Methodology, UML, RUP, Project Management, Network, Security, Web Development, Programming languages, RDBMS, Architecture - JEE/SOA, Middleware) that he acquires during its career path have help him to address business, functional, security and infrastructure requirements and transpose them into operable and efficient solutions.<br>He is also fascinated to train people on SOA, OSGI, ESB & JEE and provide consultancy.<br>As an Apache Committer he contributes since several years on opensource projects Apache Camel, Karaf, ServiceMix, DeltaSpike, Fabric8, Hawtio, Drools, Asciidoctor and uses these technologies as standards for integration projects. He is a Technology Evangelist making regularly conferences, talks. He lives in Belgium, enjoy mountain bike & Rock’n’roll.<br>You can find him online #irc ch007m, Twitter @cmoulliard, GitHub https://github.com/cmoulliard, Linkedin, SlideShare, Google+ or on his Blog http://cmoulliard.github.io.",
-      "image": "assets/img/speakers/charles-moulliard.png",
-      "ref": "cmoulliard",
-       "url": "infoSpeaker.html?ref=cmoulliard",
-      "twitter": "http://twitter.com/cmoulliard",
-      "homepage": "http://cmoulliard.github.io/",
-      "hasMoreTalks": "1",
+      "description": "Founder of Agile Developer, Inc.",
+      "biography": "Dr. Venkat Subramaniam is an award-winning author, founder of Agile Developer, Inc., creator of agilelearner.com, and an instructional professor at the University of Houston. He has trained and mentored thousands of software developers in the US, Canada, Europe, and Asia, and is a regularly-invited speaker at several international conferences. Venkat helps his clients effectively apply and succeed with sustainable agile practices on their software projects. Venkat is a (co)author of multiple technical books, including the 2007 Jolt Productivity award winning book Practices of an Agile Developer. You can find a list of his books at agiledeveloper.com. You can reach him by email at venkats@agiledeveloper.com or on twitter at @venkat_s.",
+      "image": "assets/img/speakers/venkat-subramaniam.jpg",
+      "ref": "venkat",
+       "url": "infoSpeaker.html?ref=venkat",
+      "twitter": "http://twitter.com/venkat_s",
+      "homepage": "http://agiledeveloper.com",
+      "hasMoreTalks": "0",
       "talk": {
         "type": "talk",
-        "title": "Develop a Mobile Application connected to a REST Microservice",
-        "abstract": "The development of a Mobile Aplication has been donimated during a decade by proprietary technologies developed by Apple, Android & Microsoft for their own mobile brand. With the development of the Apache Cordova Platform and the framework Ionic, this situation has completely changed as a developer can now design a project using their favorite HTML5, Javascript, AngularJS frameworks and rely on the tool provided by Apache Codova to generate the HTML Hybrid code for the target platform. The purpose of this talk is to demonstrate how such Mobile project can be designed and being integrated with a Backend System which is a REST Camel microservice. Next, we will also explain how we can simplify the Management and the packaging of the NodeJS application used to access the backend service using the Feedhenry Mobile Application platform and its Api.",
+        "title": "Keynote",
+        "abstract": "Keynote TBD",
         "tags": [
-          "Microservices", "Camel"
         ],
         "level": "Intermediate",
-        
-        "video":"https://www.youtube.com/watch?v=J9Qv4Q3wbY4"
+        "video":""
       },
-      "scheduleId": "#FRI-TC1-SE7"
+      "scheduleId": "#MON-TC1-SE1"
+    },
+    {
+      "enabled": "1",
+      "name": "Sandro Mancuso",
+      "description": "Founder of Codurance and London Software Craftmanship Community",
+      "biography": "Software craftsman, author, and founder of the London Software Craftsmanship Community (LSCC). Sandro has been coding since a very young age but only started his professional career in 1996. He has worked for startups, software houses, product companies, international consultancy companies, and investment banks. During his career Sandro had the opportunity to work in a good variety of projects, with different languages, technologies, and across many different industries. Sandro has a lot of experience in bringing the Software Craftsmanship ideology and Extreme Programming practices to organisations of all sizes. Sandro is internationally renowned by his work on evolving and spreading Software Craftsmanship and is frequently invited to speak in many conferences around the world. His professional aspiration is to raise the bar of the software industry by helping developers become better at and care more about their craft.",
+      "image": "assets/img/speakers/sandro-mancuso.jpg",
+      "ref": "sandro",
+       "url": "infoSpeaker.html?ref=sandro",
+      "twitter": "http://twitter.com/sandromancuso",
+      "homepage": "https://codurance.com/blog/author/sandro-mancuso/",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Closure TBD",
+        "abstract": "Closure TBD",
+        "tags": [
+        ],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": "#TUE-TC1-SE7"
     }
+
   ]
 }
