@@ -95,6 +95,24 @@ a:focus {
 	-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
 	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
 }
+
+.navbar-default .dropdown-menu  {
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.navbar-nav .active .dropdown-menu  a{
+	background: #fff  !important;
+	color: black !important;
+}
+
+.navbar-nav .dropdown-menu  li a:hover,
+.navbar-nav .dropdown-menu  li a:focus{
+	background: rgba(255,0,0,0.8) !important;
+	color: white !important;
+}
+
 .page {
 	overflow: hidden;
     padding: 10px 0;
