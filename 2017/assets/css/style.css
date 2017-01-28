@@ -775,11 +775,15 @@ a:focus {
 	font-weight:bold;
 }
 
-#schedule #friday{
+#schedule #monday{
+	display:block;
+}
+
+#schedule #tuesday{
 	display:none;
 }
 
-#schedule #saturday{
+#schedule #wednesday{
 	display:none;
 }
 
