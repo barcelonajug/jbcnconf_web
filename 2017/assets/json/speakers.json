@@ -13,7 +13,7 @@
       "hasMoreTalks": "0",
       "talk": {
         "type": "talk",
-        "title": "Keynote",
+        "title": "Welcome Keynote",
         "abstract": "Keynote TBD",
         "tags": [
         ],
@@ -35,8 +35,8 @@
       "hasMoreTalks": "0",
       "talk": {
         "type": "talk",
-        "title": "Closure TBD",
-        "abstract": "Closure TBD",
+        "title": "Closing Keynote",
+        "abstract": "Keynote TBD",
         "tags": [
         ],
         "level": "Intermediate",
