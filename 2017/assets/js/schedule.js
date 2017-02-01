@@ -29,32 +29,33 @@ $(document).ready(function () {
 	});
 });
 
-$('#showThursday').click(function(){
- $('#saturday').hide();
- $('#friday').hide();
- $('#thursday').show();
- $('#showSaturday').removeClass("active");
- $('#showFriday').removeClass("active");
- $('#showThursday').addClass("active");
+
+$('#showMonday').click(function(){
+ $('#wednesday').hide();
+ $('#tuesday').hide();
+ $('#monday').show();
+ $('#showWednesday').removeClass("active");
+ $('#showTuesday').removeClass("active");
+ $('#showMonday').addClass("active");
  return false;
 });
 
-$('#showFriday').click(function(){
- $('#thursday').hide();
- $('#saturday').hide();
- $('#friday').show();
- $('#showThursday').removeClass("active");
- $('#showSaturday').removeClass("active");
- $('#showFriday').addClass("active");
+$('#showTuesday').click(function(){
+ $('#wednesday').hide();
+ $('#monday').hide();
+ $('#tuesday').show();
+ $('#showWednesday').removeClass("active");
+ $('#showMonday').removeClass("active");
+ $('#showTuesday').addClass("active");
  return false;
 });
 
-$('#showSaturday').click(function(){
- $('#thursday').hide();
- $('#friday').hide();
- $('#saturday').show();
- $('#showThursday').removeClass("active");
- $('#showFriday').removeClass("active");
- $('#showSaturday').addClass("active");
+$('#showWednesday').click(function(){
+ $('#tuesday').hide();
+ $('#monday').hide();
+ $('#wednesday').show();
+ $('#showMonday').removeClass("active");
+ $('#showTuesday').removeClass("active");
+ $('#showWednesday').addClass("active");
  return false;
 });

@@ -13,7 +13,7 @@
       "hasMoreTalks": "0",
       "talk": {
         "type": "talk",
-        "title": "Keynote",
+        "title": "Welcome Keynote",
         "abstract": "Keynote TBD",
         "tags": [
         ],
@@ -35,15 +35,40 @@
       "hasMoreTalks": "0",
       "talk": {
         "type": "talk",
-        "title": "Closure TBD",
-        "abstract": "Closure TBD",
+        "title": "Closing Keynote",
+        "abstract": "Keynote TBD",
         "tags": [
         ],
         "level": "Intermediate",
         "video":""
       },
       "scheduleId": "#TUE-TC1-SE7"
+    },
+    {
+      "enabled": "1",
+      "name": "Trisha Gee",
+      "description": "Developer Advocate at JetBrains",
+      "biography": "Trisha has developed Java applications for a range of industries, including finance, manufacturing, software and non-profit, for companies of all sizes. She has expertise in Java high performance systems, is passionate about enabling developer productivity, and dabbles with Open Source development. Trisha is a leader of the Sevilla Java User Group, a MongoDB Master and a Java Champion. She believes we shouldn't all have to make the same mistakes again and again. She’s a Developer Advocate for JetBrains so she can share all the cool stuff she's discovered so far. Blog: http://www.trishagee.com",
+      "image": "assets/img/speakers/trisha-gee.jpg",
+      "ref": "trisha",
+       "url": "infoSpeaker.html?ref=trisha",
+      "twitter": "http://twitter.com/trisha_gee",
+      "homepage": "http://www.trishagee.com",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "TBD",
+        "abstract": "TBD",
+        "tags": [
+        ],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
     }
+
+
+
 
   ]
 }
