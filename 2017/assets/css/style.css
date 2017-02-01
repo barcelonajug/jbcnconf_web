@@ -943,10 +943,8 @@ text-align: left;
     color : #FFFFFF;
 }
 
-
-
 .btn-stats {
 	background:rgba(255,255,255,0.5);
-	color:black;
+	color:#f33;
+	border-color:#f33;
 }
-              
