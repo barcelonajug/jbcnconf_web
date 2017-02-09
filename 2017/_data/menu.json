@@ -14,5 +14,9 @@
   {
     "label": "Venue",
     "url": "/barcelona-conference-venue.html"
+  },
+  {
+    "label": "Tickets",
+    "url": "/#tickets"
   }
 ]

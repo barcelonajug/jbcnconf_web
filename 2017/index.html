@@ -42,36 +42,44 @@ title: JBCNConf - The first Java and JVM conference in Spain
 
             <div class="span4">
                 <div class="icons-box">
-                    <i class="ico-credit circle big"></i>
-                    <div class="title"><h3>Sponsorship</h3></div>
-                    <p>
-                        This is a priceless opportunity to participate in the first big Java and JVM conference in Spain, to promote your company and to support technological communities.
-
-                    </p>
-                    <div class="clear"></div>
-                </div>
-            </div>
-
-            <div class="span4">
-                <div class="icons-box">
                     <i class="ico-heart circle big"></i>
                     <div class="title"><h3>Code of conduct</h3></div>
-                    <p>
-                        Our code sets out expectations for members of our community,
-                        with regard to how we will behave toward each other.
+                    <p style="text-align:justify">
+                        Our conference is dedicated to providing a harassment-free conference experience for everyone,
+                        regardless of gender, age, sexual orientation, disability, physical appearance, body size, race,
+                        or religion (or lack thereof). <br/>
+                        We do not tolerate harassment of conference participants in any
+                        form. Sexual language and imagery is not appropriate for any conference venue, including talks,
+                        workshops, parties, Twitter and other online media. <br/>
+                        Conference participants violating these
+                        rules may be sanctioned or expelled from the conference without a refund at the discretion of
+                        the conference organisers.
 
                     </p>
                     <div class="clear"></div>
                 </div>
             </div>
 
-            <div class="span4">
+
+            <div class="span8" id="tickets">
                 <div class="icons-box">
                     <i class="ico-tags circle big"></i>
                     <div class="title"><h3>Tickets</h3></div>
-                    <p>
-                        Tickets are going to be available for purchasing before the end of February.
-                    </p>
+                    <!-- Ticket Tailor Widget. Paste this in to your website where you want the widget to appear. Do no change the code or the widget may not work properly. -->
+                    <div class="tt-widget">
+                        <div class="tt-widget-fallback">
+                            <p><a href="https://www.tickettailor.com/new-order/81154/cc20/ref/website_widget/"
+                                  target="_blank">Click here to buy tickets</a><br/>
+                                <small><a href="http://www.tickettailor.com?rf=wdg" class="tt-widget-powered">Sell
+                                    tickets online with Ticket Tailor</a></small>
+                            </p>
+                        </div>
+                        <script src="https://dc161a0a89fedd6639c9-03787a0970cd749432e2a6d3b34c55df.ssl.cf3.rackcdn.com/tt-widget.js"
+                                data-url="https://www.tickettailor.com/new-order/81154/cc20/ref/website_widget/"
+                                data-type="inline" data-inline-minimal="true" data-inline-show-logo="false"
+                                data-inline-bg-fill="true"></script>
+                    </div>
+                    <!-- End of Ticket Tailor Widget -->
                     <div class="clear"></div>
                 </div>
             </div>
@@ -81,34 +89,66 @@ title: JBCNConf - The first Java and JVM conference in Spain
 
         <hr>
 
+
+        <div class="row">
+
+
+            <h2>Sponsors:</h2>
+            <p>
+                This is a priceless opportunity to participate in the first big Java and JVM conference in Spain, to
+                promote your company and to support technological communities.
+            </p>
+            <!-- start Sponsors List -->
+            <div class="clients-carousel">
+
+                <ul class="slides clients">
+                    {% for sponsor in site.data.sponsors %}
+                        <li>
+                            <a href="{{sponsor.url}}" title="{{sponsor.name}}">
+                                <img src="{{base}}{{sponsor.image.url}}" alt="{{sponsor.image.alt}}"/>
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+
+            </div>
+            <!-- end Sponsors List -->
+        </div>
+        <hr>
+
         <div class="row">
             <h2 class="pagination-centered">Join the conversation #JBCN17</h2>
             <div class="span6">
-                <a class="twitter-timeline"  href="https://twitter.com/jbcnconf" data-widget-id="709504526965993472" data-tweet-limit="3" width="400" height="400" data-chrome="transparent">Tweets by @jbcnconf.</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                <a class="twitter-timeline" href="https://twitter.com/jbcnconf" data-widget-id="709504526965993472"
+                   data-tweet-limit="3" width="400" height="400" data-chrome="transparent">Tweets by @jbcnconf.</a>
+                <script>!function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                    if (!d.getElementById(id)) {
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = p + "://platform.twitter.com/widgets.js";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }
+                }(document, "script", "twitter-wjs");</script>
             </div>
             <div class="span6">
-                <a class="twitter-timeline"  href="https://twitter.com/hashtag/jbcn17" data-widget-id="823659523089059844">Tweets about #jbcn17</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                <a class="twitter-timeline" href="https://twitter.com/hashtag/jbcn17"
+                   data-widget-id="823659523089059844">Tweets about #jbcn17</a>
+                <script>!function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                    if (!d.getElementById(id)) {
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = p + "://platform.twitter.com/widgets.js";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }
+                }(document, "script", "twitter-wjs");</script>
                 <div class="clear"></div>
             </div>
         </div>
 
         <hr>
 
-
-        <h2>Sponsors:</h2>
-        <!-- start Sponsors List -->
-        <div class="clients-carousel">
-
-            <ul class="slides clients">
-
-
-            </ul>
-
-        </div>
-        <!-- end Sponsors List -->
-        <hr>
 
     </div>
     <!--end: Container-->

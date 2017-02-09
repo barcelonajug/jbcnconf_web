@@ -1,5 +1,10 @@
 [
   {
-    
+    "name": "Methods and Tools",
+    "url": "http://www.methodsandtools.com/",
+    "image": {
+      "url": "/assets/images/sponsors/method_and_tools.jpg",
+      "alt": "Methods and Tools"
+    }
   }
 ]
