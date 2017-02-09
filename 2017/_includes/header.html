@@ -31,9 +31,7 @@
                             <ul class="nav">
 
                                 {% for menu in site.data.menu %}
-                                <li {% if page.url == menu.url %}
-                                        class="active"
-                                    {% endif %}>
+                                <li>
                                     
                                     {% if  menu.url contains "http" %}
                                         <a href="{{menu.url}}">
@@ -45,8 +43,6 @@
                                         </a>
                                     {% endif %}
 
-
-
                                 </li>
                                 {% endfor %}
 
@@ -54,13 +50,13 @@
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b
                                             class="caret"></b></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="mailto:info@jbcnconf.com">Contact info@jbcnconf.com</a></li>
+                                        <li><a href="{{ base }}/barcelona-java-user-group.html">About us</a></li>
                                         <li class="divider"></li>
-
                                         <li class="nav-header">Previous Editions:</li>
                                         <li><a href="http://jbcnconf.com/2016">2016</a></li>
                                         <li><a href="http://jbcnconf.com/2015">2015</a></li>
                                         <li class="divider"></li>
+                                        <li><a href="mailto:info@jbcnconf.com">Contact info@jbcnconf.com</a></li>
                                     </ul>
                                 </li>
 
