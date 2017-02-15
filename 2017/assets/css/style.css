@@ -1714,4 +1714,5 @@ form#newsletter input[type=submit] {
 
 .slider-wrapper img {
     width: 100%;
+    min-height: 60%;
 }

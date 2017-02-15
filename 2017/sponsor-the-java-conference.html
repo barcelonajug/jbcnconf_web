@@ -12,10 +12,37 @@ layout: default
 
         <!-- start: Hero Unit -->
         <div class="hero-unit">
-            JBCN
-            <h1>Work in progress</h1>
+            <h1>Sponsors:</h1>
         </div>
         <!-- end: Hero Unit -->
+
+        <div class="row">
+
+
+          
+            <p>
+                {{ site.data.general.call_for_sponsors }}
+            </p>
+            <!-- start Sponsors List -->
+            <div class="clients-carousel">
+
+                <ul class="slides clients">
+                    {% for sponsor in site.data.sponsors %}
+                    <li>
+                        <a href="{{sponsor.url}}" target="_blank" title="{{sponsor.name}}">
+                            <img src="{{base}}{{sponsor.image.url}}" alt="{{sponsor.image.alt}}"/>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <!-- end Sponsors List -->
+        </div>
+        <hr>
+        
+        <div class="row">
+            For Sponsorship Packages: <h3>info@barcelonajug.org</h3>
+        </div>
 
     </div>
     <!--end: Container-->

@@ -15,28 +15,40 @@ title: JBCNConf - The first Java and JVM conference in Spain
 
         <!-- start: Hero Unit -->
         <div class="hero-unit">
-            proudly hosted by:
-            <h1>Barcelona Java User Group</h1>
+            proudly hosted by the Barcelona Java User Group
+            <h1>JBCN Conference: 19-21 June</h1>
             <p>
-                Do not miss the opportunity to participate in this event to immerse yourself in 3-days interesting talks
-                on Java, JVM and open-source technologies.
+               {{ site.data.general.home_page_announcement }}
             </p>
-        </div>
-        <!-- end: Hero Unit -->
-
-        <!-- start: Hero Unit -->
-        <div class="hero-unit">
-            <h2>Call for Papers</h2>
-            <p>
-                Are you an enthusiast and geek? Do yo want to share your knowledge and experiences?
-                Join as speaker in JBCNConf. <br/>The call for papers will be open until 1st of May.
-            </p>
-            <h2 class="pagination-centered"><a href="https://goo.gl/forms/RGrCs36VcfpRMHX43">Send Paper</a></h2>
         </div>
         <!-- end: Hero Unit -->
 
         <hr>
+        <div class="row">
 
+
+            <h2>Sponsors:</h2>
+            <p>
+                {{ site.data.general.call_for_sponsors }}
+            </p>
+            <!-- start Sponsors List -->
+            <div class="clients-carousel">
+
+                <ul class="slides clients">
+                    {% for sponsor in site.data.sponsors %}
+                    <li>
+                        <a href="{{sponsor.url}}" target="_blank" title="{{sponsor.name}}">
+                            <img src="{{base}}{{sponsor.image.url}}" alt="{{sponsor.image.alt}}"/>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+
+            </div>
+            <!-- end Sponsors List -->
+        </div>
+        <hr>
+        
         <!-- start: Row -->
         <div class="row">
 
@@ -44,17 +56,8 @@ title: JBCNConf - The first Java and JVM conference in Spain
                 <div class="icons-box">
                     <i class="ico-heart circle big"></i>
                     <div class="title"><h3>Code of conduct</h3></div>
-                    <p style="text-align:justify">
-                        Our conference is dedicated to providing a harassment-free conference experience for everyone,
-                        regardless of gender, age, sexual orientation, disability, physical appearance, body size, race,
-                        or religion (or lack thereof). <br/>
-                        We do not tolerate harassment of conference participants in any
-                        form. Sexual language and imagery is not appropriate for any conference venue, including talks,
-                        workshops, parties, Twitter and other online media. <br/>
-                        Conference participants violating these
-                        rules may be sanctioned or expelled from the conference without a refund at the discretion of
-                        the conference organisers.
-
+                    <p style="text-align:justify;">
+                        {{ site.data.general.code_of_conduct }}
                     </p>
                     <div class="clear"></div>
                 </div>
@@ -88,33 +91,48 @@ title: JBCNConf - The first Java and JVM conference in Spain
         <!-- end: Row -->
 
         <hr>
-
-
+        
         <div class="row">
+            <h4>Limited tickets</h4>
+            <div class="three-tables">
+            
+                <div class="pricing-table  best-option">
+                   <!--  <div class="color-666777"> -->
+                    <div class="color-custom">
+                        <h3>Early Bird</h3>
+                        <i class="fa fa-rocket fa-4x"></i>
+                        <h4><span class="price">120&euro;</span> <span class="time">From 1st of February to 1st of March</span></h4>
+                        <ul>
+                        </ul>
+                        <a href="#tickets" class="buy"><span>Buy</span></a>
+                    </div>
+                </div>
 
+                <div class="pricing-table">
+                    <div class="color-cccddd">
+                        <h3>Standard</h3>
+                        <h4><span class="price">200&euro;</span> <span class="time">From 1st of March to 1st of May</span></h4>
+                        <ul>
+                        </ul>
+                        <a href="#" class="buy"><span>Buy</span></a>
+                    </div>
+                </div>
 
-            <h2>Sponsors:</h2>
-            <p>
-                This is a priceless opportunity to participate in the first big Java and JVM conference in Spain, to
-                promote your company and to support technological communities.
-            </p>
-            <!-- start Sponsors List -->
-            <div class="clients-carousel">
-
-                <ul class="slides clients">
-                    {% for sponsor in site.data.sponsors %}
-                        <li>
-                            <a href="{{sponsor.url}}" title="{{sponsor.name}}">
-                                <img src="{{base}}{{sponsor.image.url}}" alt="{{sponsor.image.alt}}"/>
-                            </a>
-                        </li>
-                    {% endfor %}
-                </ul>
+                <div class="pricing-table">
+                    <div class="color-cccddd">
+                        <h3>Late bird</h3>
+                        <h4><span class="price">290&euro;</span> <span class="time">From 1st of May to 1st of June</span></h4>
+                        <ul>
+                        </ul>
+                        <a href="#tickets" class="buy"><span>Buy</span></a>
+                    </div>
+                </div>
 
             </div>
-            <!-- end Sponsors List -->
+            <!-- end: Table -->
+
         </div>
-        <hr>
+
 
         <div class="row">
             <h2 class="pagination-centered">Join the conversation #JBCN17</h2>

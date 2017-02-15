@@ -19,7 +19,7 @@
     {
       "title": "Call for Papers",
       "subtitle": "",
-      "text": "Do yo want to share your knowledge and experiences? <br/>Join as a speaker in JBCNConf. ",
+      "text": "Do yo want to share your knowledge and experiences? <br/> Join as a speaker in JBCNConf. <br/>The call for papers will be open until 1st of May. ",
       "image": {
         "url": "/assets/images/jbcn/speak-at-jbcn.png",
         "alt": "Java Barcelona Conference Sponsor"
@@ -27,7 +27,7 @@
       "link": {
         "label": "Submit Paper",
         "url": "https://goo.gl/forms/RGrCs36VcfpRMHX43"
-      },
+      }
     },
     {
       "title": "Venkat Subramaniam",

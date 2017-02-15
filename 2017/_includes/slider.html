@@ -21,7 +21,11 @@
 
 
             {% if slide.link %}
-            <a href="{{ base }}{{ slide.link.url }}" class="da-link">{{ slide.link.label }}</a>
+            {% if  slide.link.url contains "http" %}
+                <a href="{{ slide.link.url }}" class="da-link">{{ slide.link.label }}</a>
+            {% elsif slide.link.url %}
+                <a href="{{ base }}{{ slide.link.url }}" class="da-link">{{ slide.link.label }}</a>
+            {% endif %}
             {% endif %}
 
 
