@@ -1,5 +1,6 @@
 .DS_Store
 *.swp
 
+_site
 *.iml
-.idea   
+.idea
