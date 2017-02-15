@@ -98,12 +98,42 @@
             }
 
 
+            if (window.CURRENT_SPEAKER) {
+                updateSpeakerPage(window.CURRENT_SPEAKER);
+            }
+
         }, 100);
 
 
         $('.testimonials-carousel').carousel({
             namespace: "mr-rotato" // Defaults to “carousel”.
         })
+
+
+        var updateSpeakerPage = function (speaker) {
+            var speaker = window.CURRENT_SPEAKER[0],
+                $container = $(".speaker-page"),
+                updateSocialLink = function (social) {
+                    if (speaker[social]) {
+                        $container.find("." + social).show();
+                        $container.find("." + social + " a").attr("href", speaker[social]);
+                    }
+
+                };
+
+            $container.find('.speaker-image').attr("src", $('.speaker-image').attr("data-image-base") + speaker.image);
+            $container.find(".name").html(speaker.name);
+            $container.find(".biography").html(speaker.biography);
+            $container.find(".description").html(speaker.description);
+            $container.find(".abstract").html(speaker.talk.abstract);
+            $container.find(".talk-title").html(speaker.talk.title);
+
+            updateSocialLink("linkedin");
+            updateSocialLink("twitter");
+            updateSocialLink("homepage");
+
+        }
+
 
     });
 
