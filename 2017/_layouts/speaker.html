@@ -1,0 +1,71 @@
+---
+layout: default
+---
+
+{% include base.html %}
+
+<!--start: Wrapper-->
+<div id="wrapper">
+
+    <!--start: Container -->
+    <div class="container">
+
+        <!-- start: Hero Unit -->
+        <div class="hero-unit">
+            <br/>
+            <h1>{{ page.speaker.name }}</h1>
+            <p>
+                {{ page.speaker.description }}
+            </p>
+        </div>
+        <!-- end: Hero Unit -->
+
+        <div class="row">
+            <div class="span4">
+                <div class="icons-box">
+                    <a href="{{ base }}/speakers/{{page.speaker.ref}}">
+                        <img class="circle medium" style="opacity: 1"
+                             src="{{ base }}{{ page.speaker.image }}"/>
+                    </a>
+
+                    <div class="social_profiles">
+                        <ul class="social-bookmarks pull-right">
+
+                            {% if page.speaker.linkedin %}
+                            <li class="linkedin"><a target="_blank" href="{{ page.speaker.linkedin }}"></a></li>
+                            {% endif %}
+
+                            {% if page.speaker.twitter %}
+                            <li class="twitter"><a target="_blank" href="{{ page.speaker.twitter }}"></a></li>
+                            {% endif %}
+
+                            {% if page.speaker.homepage %}
+                            <li class="rss"><a target="_blank" href="{{ page.speaker.homepage}}"></a></li>
+                            {% endif %}
+
+
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="span8">
+                <div id="history">
+                    <div class="title"><h3>About</h3></div>
+                    <span class="dropcap"> </span>
+                    <p>
+                        {{ page.speaker.biography }}
+                    </p>
+                    <div class="title"><h3>{{ page.speaker.talk.title }}</h3></div>
+                    <p>
+                        {{ page.speaker.talk.abstract }}
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--end: Container-->
+
+</div>
+<!-- end: Wrapper  -->

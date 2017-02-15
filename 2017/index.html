@@ -18,14 +18,63 @@ title: JBCNConf - The first Java and JVM conference in Spain
             proudly hosted by the Barcelona Java User Group
             <h1>JBCN Conference: 19-21 June</h1>
             <p>
-               {{ site.data.general.home_page_announcement }}
+                {{ site.data.general.home_page_announcement }}
             </p>
         </div>
         <!-- end: Hero Unit -->
 
-        <hr>
-        <div class="row">
+        <hr/>
 
+        <div class="row">
+            <h2>Speakers:</h2>
+
+
+            {% for speaker in site.data.speakers.speakers %}
+
+            <div class="span3 homepage-speaker" style="display:none">
+                <div class="icons-box">
+                    <a href="{{ base }}/speakers/{{speaker.ref}}">
+                        <img class="circle medium"
+                             src="{{ base }}{{ speaker.image }}"/>
+                    </a>
+                    <div class="title"><h3 style="margin:0 !important;">{{ speaker.name }}</h3></div>
+
+                    <div class="team-name" style="padding: 0"><span>{{ speaker.description }}</span></div>
+
+                    <div class="social_profiles">
+                        <ul class="social-bookmarks pull-right">
+
+                            {% if speaker.linkedin %}
+                            <li class="linkedin"><a target="_blank" href="{{ speaker.linkedin }}"></a></li>
+                            {% endif %}
+
+                            {% if speaker.twitter %}
+                            <li class="twitter"><a target="_blank" href="{{ speaker.twitter }}"></a></li>
+                            {% endif %}
+
+                            {% if speaker.homepage %}
+                            <li class="rss"><a target="_blank" href="{{ speaker.homepage}}"></a></li>
+                            {% endif %}
+
+
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+
+                </div>
+            </div>
+
+            {% endfor %}
+
+
+            <div class="span12">
+                <h3>Stay tunned, more great speakers will be announced soon!</h3>
+            </div>
+        </div>
+
+
+        <hr/>
+        <div class="row">
 
             <h2>Sponsors:</h2>
             <p>
@@ -47,8 +96,8 @@ title: JBCNConf - The first Java and JVM conference in Spain
             </div>
             <!-- end Sponsors List -->
         </div>
-        <hr>
-        
+        <hr/>
+
         <!-- start: Row -->
         <div class="row">
 
@@ -91,17 +140,18 @@ title: JBCNConf - The first Java and JVM conference in Spain
         <!-- end: Row -->
 
         <hr>
-        
+
         <div class="row">
             <h4>Limited tickets</h4>
             <div class="three-tables">
-            
+
                 <div class="pricing-table  best-option">
-                   <!--  <div class="color-666777"> -->
+                    <!--  <div class="color-666777"> -->
                     <div class="color-custom">
                         <h3>Early Bird</h3>
                         <i class="fa fa-rocket fa-4x"></i>
-                        <h4><span class="price">120&euro;</span> <span class="time">From 1st of February to 1st of March</span></h4>
+                        <h4><span class="price">120&euro;</span> <span
+                                class="time">From 1st of February to 1st of March</span></h4>
                         <ul>
                         </ul>
                         <a href="#tickets" class="buy"><span>Buy</span></a>
@@ -111,7 +161,8 @@ title: JBCNConf - The first Java and JVM conference in Spain
                 <div class="pricing-table">
                     <div class="color-cccddd">
                         <h3>Standard</h3>
-                        <h4><span class="price">200&euro;</span> <span class="time">From 1st of March to 1st of May</span></h4>
+                        <h4><span class="price">200&euro;</span> <span
+                                class="time">From 1st of March to 1st of May</span></h4>
                         <ul>
                         </ul>
                         <a href="#" class="buy"><span>Buy</span></a>
@@ -121,7 +172,8 @@ title: JBCNConf - The first Java and JVM conference in Spain
                 <div class="pricing-table">
                     <div class="color-cccddd">
                         <h3>Late bird</h3>
-                        <h4><span class="price">290&euro;</span> <span class="time">From 1st of May to 1st of June</span></h4>
+                        <h4><span class="price">290&euro;</span> <span
+                                class="time">From 1st of May to 1st of June</span></h4>
                         <ul>
                         </ul>
                         <a href="#tickets" class="buy"><span>Buy</span></a>

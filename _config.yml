@@ -11,3 +11,10 @@ defaults:
 layouts_dir: 2017/_layouts
 includes_dir: 2017/_includes
 data_dir: 2017/_data
+plugins_dir: 2017/_plugins
+page_gen-dirs: true # uncomment, if you prefer to generate named folders
+page_gen:
+  - data: 'speakers.speakers'
+    template: 'speaker'
+    name: 'ref'
+    dir: '2017/speakers'

@@ -1,0 +1,28 @@
+{
+  "speakers": [
+    {
+      "enabled": "1",
+      "name": "Venkat Subramaniam",
+      "description": "Principal Solution Architect @RedHat",
+      "biography": "Charles Moulliard is currently a Sr. Principal Solution Architect @RedHat & Apache Committer with more than 20 years of expertise in solutions design based on JEE / Middleware technologies.<br>As Engineer & Architect, he has been involved in system integration of projects in Financial and Banking world. The skills (Methodology, UML, RUP, Project Management, Network, Security, Web Development, Programming languages, RDBMS, Architecture - JEE/SOA, Middleware) that he acquires during its career path have help him to address business, functional, security and infrastructure requirements and transpose them into operable and efficient solutions.<br>He is also fascinated to train people on SOA, OSGI, ESB & JEE and provide consultancy.<br>As an Apache Committer he contributes since several years on opensource projects Apache Camel, Karaf, ServiceMix, DeltaSpike, Fabric8, Hawtio, Drools, Asciidoctor and uses these technologies as standards for integration projects. He is a Technology Evangelist making regularly conferences, talks. He lives in Belgium, enjoy mountain bike & Rock’n’roll.<br>You can find him online #irc ch007m, Twitter @cmoulliard, GitHub https://github.com/cmoulliard, Linkedin, SlideShare, Google+ or on his Blog http://cmoulliard.github.io.",
+      "image": "assets/img/speakers/charles-moulliard.png",
+      "ref": "cmoulliard",
+       "url": "infoSpeaker.html?ref=cmoulliard",
+      "twitter": "http://twitter.com/cmoulliard",
+      "homepage": "http://cmoulliard.github.io/",
+      "hasMoreTalks": "1",
+      "talk": {
+        "type": "talk",
+        "title": "Develop a Mobile Application connected to a REST Microservice",
+        "abstract": "The development of a Mobile Aplication has been donimated during a decade by proprietary technologies developed by Apple, Android & Microsoft for their own mobile brand. With the development of the Apache Cordova Platform and the framework Ionic, this situation has completely changed as a developer can now design a project using their favorite HTML5, Javascript, AngularJS frameworks and rely on the tool provided by Apache Codova to generate the HTML Hybrid code for the target platform. The purpose of this talk is to demonstrate how such Mobile project can be designed and being integrated with a Backend System which is a REST Camel microservice. Next, we will also explain how we can simplify the Management and the packaging of the NodeJS application used to access the backend service using the Feedhenry Mobile Application platform and its Api.",
+        "tags": [
+          "Microservices", "Camel"
+        ],
+        "level": "Intermediate",
+        
+        "video":"https://www.youtube.com/watch?v=J9Qv4Q3wbY4"
+      },
+      "scheduleId": "#FRI-TC1-SE7"
+    }
+  ]
+}
