@@ -65,6 +65,50 @@
         "video":""
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Bert Jan Schrijver",
+      "description": "CTO at OpenValue",
+      "biography": "Bert Jan is a software craftsman at JPoint in the Netherlands and CTO at OpenValue. His focus is on Java, Continuous Delivery and DevOps. He is User Group leader for NLJUG, the Dutch Java User Group and a JavaOne Rock Star speaker. He loves to share his experience by speaking at conferences, writing for the Dutch Java magazine and helping out Devoxx4Kids with teaching kids how to code.",
+      "image": "assets/img/speakers/bert-jan-schrijver.jpg",
+      "ref": "schrijver",
+      "url": "infoSpeaker.html?ref=schrijver",
+      "twitter": "https://twitter.com/bjschrijver",
+      "homepage": "https://openvalue.nl",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Building microservices with Vert.x",
+        "abstract": "Vert.x is a toolkit for building reactive applications on the JVM. It was awarded for 'Most Innovative Java Technology' at the JAX Innovation awards. Vert.x is event driven, non blocking and polyglot, which makes it an excellent platform for building microservices. In this talk, I’ll share experiences and real-world use cases from a Dutch company that started building reactive web applications with Vert.x about 4 years ago. You’ll learn the concepts behind Vert.x, why we chose Vert.x, how we’re using it and the challenges we faced. Topics include the anatomy of our projects, (micro)services architecture, deployment model and DevOps, scalability, the upgrade from Vert.x 2 to Vert.x 3 and cooperation with the team behind Vert.x. At the end of this session, you’ll know enough about Vert.x to get started yourself right away!",
+        "tags": [
+        ],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Maarten Mulders",
+      "description": "Enthusiastic senior developer and trainer",
+      "biography": "Enthusiastic senior developer and trainer. Passionate about 'building the right thing' and 'building the thing right'. Seasoned in Java and JavaScript, recently entangled by Scala and Akka. Love to share new ideas and knowledge.",
+      "image": "assets/img/speakers/maarten-mulders.jpg",
+      "ref": "mmulders",
+      "url": "infoSpeaker.html?ref=mmulders",
+      "twitter": "https://twitter.com/mthmulders",
+      "homepage": "https://maarten.mulders.tk",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "How To Stay Responsive With 400 Backends",
+        "abstract": "In these days of web scale and microservices, gracefully handling faulty or crashing backend web services becomes increasingly important. As long as your application uses just a handful of such backends, there’s no problem. But what if you have hundreds of them? How will you prevent your application from the negative effects of inevitable incidental crashes or timeouts when contacting other web services? In this talk, we’ll take a real-world example from a web scale system. This system is targeted at 10 million users and has around 400 heterogeneous backends. Akka and Scala power a system that is capable of running smoothly even when some backends might not be so stable.",
+        "tags": [
+        ],
+        "level": "Advanced",
+        "video":""
+      },
+      "scheduleId": ""
     }
 
 
