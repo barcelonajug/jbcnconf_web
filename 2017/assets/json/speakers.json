@@ -87,6 +87,28 @@
         "video":""
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Maarten Mulders",
+      "description": "Enthusiastic senior developer and trainer",
+      "biography": "Enthusiastic senior developer and trainer. Passionate about 'building the right thing' and 'building the thing right'. Seasoned in Java and JavaScript, recently entangled by Scala and Akka. Love to share new ideas and knowledge.",
+      "image": "assets/img/speakers/maarten-mulders.jpg",
+      "ref": "mmulders",
+      "url": "infoSpeaker.html?ref=mmulders",
+      "twitter": "https://twitter.com/mthmulders",
+      "homepage": "https://maarten.mulders.tk",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "How To Stay Responsive With 400 Backends",
+        "abstract": "In these days of web scale and microservices, gracefully handling faulty or crashing backend web services becomes increasingly important. As long as your application uses just a handful of such backends, there’s no problem. But what if you have hundreds of them? How will you prevent your application from the negative effects of inevitable incidental crashes or timeouts when contacting other web services? In this talk, we’ll take a real-world example from a web scale system. This system is targeted at 10 million users and has around 400 heterogeneous backends. Akka and Scala power a system that is capable of running smoothly even when some backends might not be so stable.",
+        "tags": [
+        ],
+        "level": "Advanced",
+        "video":""
+      },
+      "scheduleId": ""
     }
 
 
