@@ -109,10 +109,27 @@
         "video":""
       },
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Claus Ibsen",
+      "description": "Principal software engineer from Red Hat",
+      "biography": "Works for Red Hat on open source integration projects such as Apache Camel, fabric8 and hawtio. Author of Camel in Action books.",
+      "image": "assets/img/speakers/claus-ibsen.jpg",
+      "ref": "cibsen",
+      "url": "infoSpeaker.html?ref=cibsen",
+      "twitter": "https://twitter.com/davsclaus",
+      "homepage": "http://www.davsclaus.com",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Developing cloud-ready Camel microservices",
+        "abstract": "As a Java developer it may be daunting to know how to get started how to develop container applications that runs on Kubernetes cluster. Using minikube its very easy to run a local Kubernetes cluster and with the help of fabric8 tooling its even easier to install and run using familiar tools like Maven. In this talk we will build a set of Apache Camel and Java based Microservices that uses Spring Boot and WildFly Swarm. With the help of fabric8 maven tooling you will see how to build, deploy, and run your Java projects on a Kubernetes cluster (local or remote). And even live debugging is easy to do as well. We will discuss practices how to build distributed and fault tolerant microservices using technologies such as Kubernetes Services, Netflix Hystrix, and Camel EIP patterns for fault tolerance. This talk is a 50/50 mix between slides and demo.",
+        "tags": ["Microservices","Kubernetes","Integration"],
+        "level": "Beginner",
+        "video":""
+      },
+      "scheduleId": ""
     }
-
-
-
-
   ]
 }
