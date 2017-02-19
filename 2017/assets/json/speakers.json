@@ -148,6 +148,26 @@
         "video":""
       },
       "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Alex Soto",
+      "description": "Software Engineer at RedHat",
+      "biography": "Alex is a software engineer at Red Hat. He is a passionate of Java world, software automation and he believes in the open source software model. Alex is the creator of NoSQLUnit project and team member of Arquillian, Asciidoctor and Apache TomEE projects. He is a member of JSR374 (Java API for JSON Processing) Expert Group. Currently Alex is co-writing Arquillian in Action book for Manning and he is an international speaker presenting his talks at software conferences like JBCNConf, Devoxx, JavaOne, JavaZone or JavaLand.",
+      "image": "assets/img/speakers/alex-soto.jpg",
+      "ref": "alexsoto",
+      "url": "infoSpeaker.html?ref=alexsoto",
+      "twitter": "https://twitter.com/asotobu",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Testing For Unicorns",
+        "abstract": "One of the most imporant benefits of automated testing is to ensure a fast and safe code refactoring to evolve our system architecture.  The main problem is how to write tests that are easy to write, easy to follow and not time consuming during development nor execution time. In this session, we are going to explore some powerful Java testing libraries that will help you write better (unit) tests focusing on the main Unicorns architecture challenges such as validating microservices endpoints, remote calls to other microservices or just asynchronous/reactive code.",
+        "tags": ["Testing"],
+        "level": "Beginner",
+        "video":""
+      },
+      "scheduleId": ""
     }
   ]
 }
