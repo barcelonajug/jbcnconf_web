@@ -57,10 +57,9 @@
       "hasMoreTalks": "0",
       "talk": {
         "type": "talk",
-        "title": "TBD",
-        "abstract": "TBD",
-        "tags": [
-        ],
+        "title": "Real World Java 9",
+        "abstract": "The feature we always hear about whenever Java 9 is in the news is Jigsaw, modularity.  But this doesn't scratch the same developer itch that Java 8's lambdas and streams did, and we're left with a vague sensation that the next version might not be that interesting. Java 9 actually has a lot of great additions and changes to make development a bit nicer.  These features can't be lumped under an umbrella term like Java 8's lambdas and streams, the changes are scattered throughout the APIs and language features that we regularly use. In this presentation Trisha will show, via live coding:<br> - How we can use the new Flow API to utilise Reactive Programming <br> - How the improvements to the Streams API make it easier to control real-time streaming data <br> - How to the Collections convenience methods simplify code<br> Along the way we'll bump into other Java 9 features, including some of the additions to interfaces and changes to deprecation.  We’ll see that once you start using Java 9, you can't go back to Before.",
+        "tags": ["Java", "Java 9", "Reactive", "Live coding"],
         "level": "Intermediate",
         "video":""
       },
@@ -81,8 +80,7 @@
         "type": "talk",
         "title": "Building microservices with Vert.x",
         "abstract": "Vert.x is a toolkit for building reactive applications on the JVM. It was awarded for 'Most Innovative Java Technology' at the JAX Innovation awards. Vert.x is event driven, non blocking and polyglot, which makes it an excellent platform for building microservices. In this talk, I’ll share experiences and real-world use cases from a Dutch company that started building reactive web applications with Vert.x about 4 years ago. You’ll learn the concepts behind Vert.x, why we chose Vert.x, how we’re using it and the challenges we faced. Topics include the anatomy of our projects, (micro)services architecture, deployment model and DevOps, scalability, the upgrade from Vert.x 2 to Vert.x 3 and cooperation with the team behind Vert.x. At the end of this session, you’ll know enough about Vert.x to get started yourself right away!",
-        "tags": [
-        ],
+        "tags": ["Vertx","Microservices","Reactive"],
         "level": "Intermediate",
         "video":""
       },
@@ -103,8 +101,7 @@
         "type": "talk",
         "title": "How To Stay Responsive With 400 Backends",
         "abstract": "In these days of web scale and microservices, gracefully handling faulty or crashing backend web services becomes increasingly important. As long as your application uses just a handful of such backends, there’s no problem. But what if you have hundreds of them? How will you prevent your application from the negative effects of inevitable incidental crashes or timeouts when contacting other web services? In this talk, we’ll take a real-world example from a web scale system. This system is targeted at 10 million users and has around 400 heterogeneous backends. Akka and Scala power a system that is capable of running smoothly even when some backends might not be so stable.",
-        "tags": [
-        ],
+        "tags": ["Microservice","Web scale","Reactive","Akka","Scala"],
         "level": "Advanced",
         "video":""
       },
@@ -146,7 +143,7 @@
         "type": "talk",
         "title": "Going Reactive with Vert.x",
         "abstract": "Forget the theory, ignore the academics, in the end all that matters for us is CODE! Come to this session and we won't disappoint you! We are simply going to build awesome, next generation apps, with a reactive and asynchronous programming model on RxJava + Vert.x. Bring your smartphone as you will be participating in this fast and furious session. Brace yourselves! Forget Spring. Winter is coming.",
-        "tags": [        ],
+        "tags": ["RxJava", "Reactive programming", "Java 8", "Asynchronous", "Microservices"],
         "level": "Intermediate",
         "video":""
       },
