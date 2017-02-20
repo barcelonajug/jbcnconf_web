@@ -20,7 +20,7 @@
 	*margin-right: .3em;
 	line-height: 48px;
 	vertical-align: text-top;
-	background-image: url("../images/template/icons/glyphicons.png");
+	background-image: url("../img/template/icons/glyphicons.png");
 	background-position: 48px 48px;
 	background-repeat: no-repeat;
 }
@@ -31,7 +31,7 @@
 }
 
 .ico-white {
-	background-image: url("../images/template/icons/glyphicons-white.png");
+	background-image: url("../img/template/icons/glyphicons-white.png");
 	opacity: 1;
 }
 
@@ -1485,7 +1485,7 @@
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("../images/template/icons/glyphicons-mini.png");
+  background-image: url("../img/template/icons/glyphicons-mini.png");
   background-position: 14px 14px;
   background-repeat: no-repeat;
   opacity: 1;
@@ -1497,7 +1497,7 @@
 }
 
 .mini-white {
-  background-image: url("../images/template/icons/glyphicons-mini-white.png");
+  background-image: url("../img/template/icons/glyphicons-mini-white.png");
   opacity: 1;
 }
 

@@ -6,7 +6,7 @@
       "subtitle": "Conference by JUG Barcelona.",
       "text": "The first big Java and JVM conference in Spain. <br/> Barcelona will be the host next 19th - 21st of June 2017.",
       "image": {
-        "url": "/assets/images/jbcn/bcn_blue.png",
+        "url": "/assets/img/jbcn/bcn_blue.png",
         "alt": "Java Barcelona 2017 Conference"
       }
     },
@@ -21,7 +21,7 @@
       "subtitle": "",
       "text": "Do yo want to share your knowledge and experiences? <br/> Join as a speaker in JBCNConf. <br/>The call for papers will be open until 1st of May. ",
       "image": {
-        "url": "/assets/images/jbcn/speak-at-jbcn.png",
+        "url": "/assets/img/jbcn/speak-at-jbcn.png",
         "alt": "Java Barcelona Conference Sponsor"
       },
       "link": {
@@ -34,7 +34,7 @@
       "subtitle": "Keynote Speaker",
       "text": "He has trained and mentored thousands of software developers in the US, Canada, Europe, and Asia, and is a regularly-invited speaker at several international conferences. ",
       "image": {
-        "url": "/assets/images/speakers/venkat_subramaniam_java_barcelona.png",
+        "url": "/assets/img/speakers/venkat_subramaniam_java_barcelona.png",
         "alt": "Keynote Speaker: Venkat Subramaniam"
       }
     },
@@ -43,7 +43,7 @@
       "subtitle": "Your Name Can Be Here!",
       "text": "As a nonprofit association most of our costs are covered by donations. Each contribution is compensated as described in our sponsor packages.",
       "image": {
-        "url": "/assets/images/logos/java_logo.png",
+        "url": "/assets/img/logos/java_logo.png",
         "alt": "Java Barcelona Conference Sponsor"
       },
       "link": {

@@ -228,7 +228,7 @@ header {
 }
 
 #page-title {
-    background: url(../images/template/bg-grey2.png);
+    background: url(../img/template/bg-grey2.png);
     display: block;
     margin-bottom: 25px;
     position: relative;
@@ -385,14 +385,14 @@ html[xmlns] .slides {
 }
 
 .flex-direction-nav .flex-next {
-    background-image: url(../images/template/slider-control-right.png);
+    background-image: url(../img/template/slider-control-right.png);
     background-repeat: no-repeat;
     background-position: 52% 50%;
 }
 
 .flex-direction-nav .flex-prev {
     margin-right: 36px;
-    background-image: url(../images/template/slider-control-left.png);
+    background-image: url(../img/template/slider-control-left.png);
     background-repeat: no-repeat;
     background-position: 48% 50%;
 }
@@ -484,7 +484,7 @@ html[xmlns] .slides {
 ====================================================================== */
 
 .hero-unit {
-    background: #fff url(../images/template/bg-k10.png);
+    background: #fff url(../img/template/bg-k10.png);
     border-left: 4px solid rgba(255, 0, 0, 0.8);
     padding: 13px 13px 13px 15px;
     margin: 20px auto;
@@ -508,7 +508,11 @@ html[xmlns] .slides {
     text-align: center;
     border: 1px solid #fff;
     padding: 20px 10px 10px 10px;
-    min-height: 400px;
+    min-height:400px;
+}
+
+.icons-box .title {
+    min-height: 20px;
 }
 
 .icons-box:hover {
@@ -558,7 +562,7 @@ html[xmlns] .slides {
     opacity: .1;
 }
 
-a .circle{
+a .circle {
     opacity: .8;
 }
 
@@ -567,12 +571,12 @@ a .circle{
 }
 
 .ico-color {
-    background-image: url("../images/template/icons/green/glyphicons.png");
+    background-image: url("../img/template/icons/green/glyphicons.png");
     opacity: 1;
 }
 
 .mini-color {
-    background-image: url("../images/template/icons/green/glyphicons-mini.png");
+    background-image: url("../img/template/icons/green/glyphicons-mini.png");
     opacity: 1;
 }
 
@@ -743,14 +747,14 @@ a .circle{
 }
 
 .mr-rotato-next {
-    background: url(../images/template/testimonials-right-01.png) no-repeat 50%;
+    background: url(../img/template/testimonials-right-01.png) no-repeat 50%;
     background-color: #fff;
     right: -1px;
     z-index: 6;
 }
 
 .mr-rotato-prev {
-    background: url(../images/template/testimonials-left-01.png) no-repeat 50%;
+    background: url(../img/template/testimonials-left-01.png) no-repeat 50%;
     background-color: #fff;
     right: 25px;
     -webkit-box-shadow: 3px 0px 0px 0px #fff;
@@ -759,11 +763,11 @@ a .circle{
 }
 
 .mr-rotato-next:hover {
-    background: url(../images/template/testimonials-right-02.png) no-repeat 50%;
+    background: url(../img/template/testimonials-right-02.png) no-repeat 50%;
 }
 
 .mr-rotato-prev:hover {
-    background: url(../images/template/testimonials-left-02.png) no-repeat 50%;
+    background: url(../img/template/testimonials-left-02.png) no-repeat 50%;
 }
 
 .mr-rotato-prev:hover,
@@ -1199,7 +1203,7 @@ a.buy:hover {
 ====================================================================== */
 #footer-menu {
     height: 50px;
-    background: #fcfcfc url(../images/template/bg-k20.png) repeat;
+    background: #fcfcfc url(../img/template/bg-k20.png) repeat;
     border-top: 4px solid #f6f6f6;
     border-bottom: 4px solid #f6f6f6;
     margin-top: 20px;
@@ -1280,7 +1284,7 @@ a.buy:hover {
     height: 30px;
     display: block;
     background-color: #aaa;
-    background-image: url(../images/template/scroll-top-top.png);
+    background-image: url(../img/template/scroll-top-top.png);
     background-repeat: no-repeat;
     background-position: 50%;
     -webkit-transition: all 0.1s ease-in-out;
@@ -1295,7 +1299,7 @@ a.buy:hover {
 }
 
 #footer {
-    background: url(../images/template/bg-k10.png) repeat;
+    background: url(../img/template/bg-k10.png) repeat;
     border-bottom: 4px solid #f6f6f6;
     color: #666 !important;
     padding: 40px 0px;
@@ -1720,6 +1724,7 @@ form#newsletter input[type=submit] {
     width: 100%;
     min-height: 60%;
 }
-.circle:hover{
+
+.circle:hover {
     opacity: 0.9;
 }
