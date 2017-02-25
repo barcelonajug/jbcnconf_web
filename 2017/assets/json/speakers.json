@@ -188,6 +188,46 @@
         "video":""
       },
       "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Bilgin Ibryam",
+      "description": "Architect at Red Hat",
+      "biography": "Bilgin Ibryam is an Architect at Red Hat and committer at Apache for Camel, OFBiz, and Isis projects. He is a blogger, speaker, open-source enthusiast and the author of Camel Design Patterns and Instant Apache Camel Message Routing books. In his day-to-day job, Bilgin enjoys mentoring, training and leading teams to be successful with application integration, distributed systems, microservices, devops, and cloud-native applications.",
+      "image": "assets/img/speakers/bilgin-ibryam.jpg",
+      "ref": "bibryam",
+      "url": "infoSpeaker.html?ref=bibryam",
+      "twitter": "http://twitter.com/bibryam",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Designing Cloud Native Applications with Kubernetes",
+        "abstract": "The way we design, develop and run applications on Cloud Native platforms differs significantly from traditional applications. When working with Kubernetes, there are fewer concerns for developers to think about, but at the same time, there are new patterns and practices for solving every-day challenges. In this talk, we will look at on a number of common practices and patterns for developing Cloud Native applications. More specifically we will look at the following patterns: Application Descriptor, Observable Interior , Life Cycle Conformance, Service Discovery and Load Balancing , Self Service Environments, Dynamic Placement, Declarative Deployment.",
+        "tags": ["Cloud", "Kubernetes", "architecture", "Design", "Docker", "Patterns"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Michal Matloka",
+      "description": "CEOs at SoftwareMill",
+      "biography": "Through his career Michał worked with C, Java, forgotten lands of Java EE, Spring, Scala and Big data. He committed a crime of writing a Java EE book, which may hunt him for the rest of his life. He is an open source contributor and a winner of the JBoss Community Recognition Award in 2013 for his contributions to ShrinkWrap. He is currently one of the 40 CEOs at SoftwareMill, a fully distributed company with no main office and a completely flat organization structure. He presented on GeeCON Kraków & Prague, Devoxx Poland, JDD, Confitura and other events.",
+      "image": "assets/img/speakers/michal-matloka.png",
+      "ref": "mmatloka",
+      "url": "infoSpeaker.html?ref=mmatloka",
+      "twitter": "",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Machine learning by example",
+        "abstract": "Are the machines learning on their own? Wait, is Skynet already here? During this session we will tackle an easy Machine Learning problem, show how can it be processed on Spark including data cleaning, normalization and a learning process. Live coding session, but only if the machines don’t rise against us.",
+        "tags": ["Machine learning", "Spark"],
+        "level": "Beginner",
+        "video":""
+      },
+      "scheduleId": ""
     }
   ]
 }
