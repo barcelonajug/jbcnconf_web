@@ -257,7 +257,8 @@
       "image": "assets/img/speakers/clement-escoffier.jpg",
       "ref": "cescoffier",
       "url": "infoSpeaker.html?ref=cescoffier",
-      "twitter": "http://twitter.com/cescoffier",
+      "twitter": "http://twitter.com/clementplop",
+      "homepage": "http://vertx.io",
       "hasMoreTalks": "0",
       "talk": {
         "type": "talk",
@@ -265,6 +266,27 @@
         "abstract": "Reactive Programming, Reactive eXtensions, Reactive Streams, Reactive Systems, Reactive Manifesto, that’s a lot of 'reactive' thingies. Just to make it even more confusing, 'reactive' is often associated with asynchronous, scalability, RX libraries (RX Java, RX JS), back pressure, streams, observables, futures, promises, spreadsheets and so on…. That's a lot to digest… This session helps you understanding what's behind the 'reactive' word. It explores the reactive landscape and explains what all these 'things' are and how they are related. Attendees don't only learn what does 'reactive' mean, but also how it is related to their projects and applications. By providing a global overview of the reactive landscape, this session also provides to the attendees a general understanding of the 'reactive' trend, and why it matters. The presentation uses several live coding demos to explain the different concepts. It uses Eclipse Vert.x as a playground to explain how all these concepts work together. Eclipse Vert.x is a toolkit to build reactive and distributed systems on the JVM. It supports a set of languages such as Java, JavaScript, Ceylon, Scala and Kotlin… but also a set of programming styles (callbacks, futures, streams, RX...). It covers a large part of the reactive spectrum making it a great choice to implement reactive applications and systems.",
         "tags": ["Reactive", "Vert.x"],
         "level": "Beginner",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Willem Meints",
+      "description": "Technical evangelist for Info Support",
+      "biography": "Willem is a technical evangelist for Info Support. He works with projects to adopt new technologies such as AI and machine learning. He loves new technology. When not at work you can find him outside with his camera.",
+      "image": "assets/img/speakers/willem-meints.jpg",
+      "ref": "wmeints",
+      "url": "infoSpeaker.html?ref=wmeints",
+      "twitter": "http://www.twitter.com/willem_meints",
+      "homepage": "http://fizzylogic.nl/",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Build a Q&A bot with Deeplearning4J",
+        "abstract": "Chatbots are here, you don't longer necessarily talk to a human when you contact your local insurance agency. Whether that's a good thing remains to be seen, but it sure is interesting for us as developers. In this talk I will show you how you can build a basic chatbot that is capable of answering questions. I will show you how you can use DeepLearning4J to build a neural network and how the neural network can be trained with a FAQ from your company. This talk is aimed at developers who have heard of neural networks, but don't want to get involved in all the math behind it. This is a not so scientific introduction into the wonderful world of chatbots and AI.",
+        "tags": ["Chatbot", "Deeplearning4J"],
+        "level": "Intermediate",
         "video":""
       },
       "scheduleId": ""
