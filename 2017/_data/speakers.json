@@ -168,6 +168,26 @@
         "video":""
       },
       "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Matthias Wessendorf",
+      "description": "Project lead of AeroGear",
+      "biography": "Matthias Wessendorf is the project lead of AeroGear, working at Red Hat where he is focused on next generation of mobile computing. Previously, he was the PMC Chair of the Apache MyFaces project. Matthias is a regular speaker at international conferences, like ApacheCon, JavaOne, Devoxx, Red Hat Summit or JAX.",
+      "image": "/assets/img/speakers/matthias-wessendorf.jpeg",
+      "ref": "mwessendorf",
+      "url": "infoSpeaker.html?ref=mwessendorf",
+      "twitter": "http://twitter.com/mwessendorf",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Reactive Stream Processing with MicroProfile and Apache Kafka",
+        "abstract": "The community driven Microprofile initiative aims to optimize Enterprise Java for a microservices architecture, by leveraging a few Java EE APIs, such as JAX-RS, CDI and JSONP. With this minimal, but very powerful set of technologies, the profile is a perfect base for modern Java EE applications in combinations new technologies, such as integration with Apache Kafka for reactive stream processing. The session gives a short introduction to Apache Kafka and WildFly Swarm. You will learn about integration between WildFly Swarm's Microprofile fraction and Apache Kafka, mixing both Java EE standard APIs as well as Kafka Client APIs. The session is supported by a demo, showing processing of mobile application data for metric analysis. The session ends with an outlook how to run the different parts on Docker and Kubernetes, as well as bringing in other technologies for consuming Kafka messages, such as Vert.x.",
+        "tags": ["Reactive", "MicroProfile", "Kafka", "Microservices", "Docker", "Kubernetes"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
     }
   ]
 }
