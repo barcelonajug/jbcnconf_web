@@ -1,0 +1,193 @@
+{
+  "speakers": [
+    {
+      "enabled": "1",
+      "name": "Venkat Subramaniam",
+      "description": "Founder of Agile Developer, Inc.",
+      "biography": "Dr. Venkat Subramaniam is an award-winning author, founder of Agile Developer, Inc., creator of agilelearner.com, and an instructional professor at the University of Houston. He has trained and mentored thousands of software developers in the US, Canada, Europe, and Asia, and is a regularly-invited speaker at several international conferences. Venkat helps his clients effectively apply and succeed with sustainable agile practices on their software projects. Venkat is a (co)author of multiple technical books, including the 2007 Jolt Productivity award winning book Practices of an Agile Developer. You can find a list of his books at agiledeveloper.com. You can reach him by email at venkats@agiledeveloper.com or on twitter at @venkat_s.",
+      "image": "/assets/img/speakers/venkat-subramaniam.jpg",
+      "ref": "venkat",
+      "url": "infoSpeaker.html?ref=venkat",
+      "twitter": "http://twitter.com/venkat_s",
+      "homepage": "http://agiledeveloper.com",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Welcome Keynote",
+        "abstract": "Keynote TBD",
+        "tags": [
+        ],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": "#MON-TC1-SE1"
+    },
+    {
+      "enabled": "1",
+      "name": "Sandro Mancuso",
+      "description": "Founder of Codurance and London Software Craftmanship Community",
+      "biography": "Software craftsman, author, and founder of the London Software Craftsmanship Community (LSCC). Sandro has been coding since a very young age but only started his professional career in 1996. He has worked for startups, software houses, product companies, international consultancy companies, and investment banks. During his career Sandro had the opportunity to work in a good variety of projects, with different languages, technologies, and across many different industries. Sandro has a lot of experience in bringing the Software Craftsmanship ideology and Extreme Programming practices to organisations of all sizes. Sandro is internationally renowned by his work on evolving and spreading Software Craftsmanship and is frequently invited to speak in many conferences around the world. His professional aspiration is to raise the bar of the software industry by helping developers become better at and care more about their craft.",
+      "image": "/assets/img/speakers/sandro-mancuso.jpg",
+      "ref": "sandro",
+      "url": "infoSpeaker.html?ref=sandro",
+      "twitter": "http://twitter.com/sandromancuso",
+      "homepage": "https://codurance.com/blog/author/sandro-mancuso/",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Closing Keynote",
+        "abstract": "Keynote TBD",
+        "tags": [
+        ],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": "#TUE-TC1-SE7"
+    },
+    {
+      "enabled": "1",
+      "name": "Trisha Gee",
+      "description": "Developer Advocate at JetBrains",
+      "biography": "Trisha has developed Java applications for a range of industries, including finance, manufacturing, software and non-profit, for companies of all sizes. She has expertise in Java high performance systems, is passionate about enabling developer productivity, and dabbles with Open Source development. Trisha is a leader of the Sevilla Java User Group, a MongoDB Master and a Java Champion. She believes we shouldn't all have to make the same mistakes again and again. She’s a Developer Advocate for JetBrains so she can share all the cool stuff she's discovered so far. Blog: http://www.trishagee.com",
+      "image": "/assets/img/speakers/trisha-gee.jpg",
+      "ref": "trisha",
+      "url": "infoSpeaker.html?ref=trisha",
+      "twitter": "http://twitter.com/trisha_gee",
+      "homepage": "http://www.trishagee.com",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Real World Java 9",
+        "abstract": "The feature we always hear about whenever Java 9 is in the news is Jigsaw, modularity.  But this doesn't scratch the same developer itch that Java 8's lambdas and streams did, and we're left with a vague sensation that the next version might not be that interesting. Java 9 actually has a lot of great additions and changes to make development a bit nicer.  These features can't be lumped under an umbrella term like Java 8's lambdas and streams, the changes are scattered throughout the APIs and language features that we regularly use. In this presentation Trisha will show, via live coding:<br> - How we can use the new Flow API to utilise Reactive Programming <br> - How the improvements to the Streams API make it easier to control real-time streaming data <br> - How to the Collections convenience methods simplify code<br> Along the way we'll bump into other Java 9 features, including some of the additions to interfaces and changes to deprecation.  We’ll see that once you start using Java 9, you can't go back to Before.",
+        "tags": ["Java", "Java 9", "Reactive", "Live coding"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Bert Jan Schrijver",
+      "description": "CTO at OpenValue",
+      "biography": "Bert Jan is a software craftsman at JPoint in the Netherlands and CTO at OpenValue. His focus is on Java, Continuous Delivery and DevOps. He is User Group leader for NLJUG, the Dutch Java User Group and a JavaOne Rock Star speaker. He loves to share his experience by speaking at conferences, writing for the Dutch Java magazine and helping out Devoxx4Kids with teaching kids how to code.",
+      "image": "/assets/img/speakers/bert-jan-schrijver.jpg",
+      "ref": "schrijver",
+      "url": "infoSpeaker.html?ref=schrijver",
+      "twitter": "https://twitter.com/bjschrijver",
+      "homepage": "https://openvalue.nl",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Building microservices with Vert.x",
+        "abstract": "Vert.x is a toolkit for building reactive applications on the JVM. It was awarded for 'Most Innovative Java Technology' at the JAX Innovation awards. Vert.x is event driven, non blocking and polyglot, which makes it an excellent platform for building microservices. In this talk, I’ll share experiences and real-world use cases from a Dutch company that started building reactive web applications with Vert.x about 4 years ago. You’ll learn the concepts behind Vert.x, why we chose Vert.x, how we’re using it and the challenges we faced. Topics include the anatomy of our projects, (micro)services architecture, deployment model and DevOps, scalability, the upgrade from Vert.x 2 to Vert.x 3 and cooperation with the team behind Vert.x. At the end of this session, you’ll know enough about Vert.x to get started yourself right away!",
+        "tags": ["Vertx","Microservices","Reactive"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Maarten Mulders",
+      "description": "Enthusiastic senior developer and trainer",
+      "biography": "Enthusiastic senior developer and trainer. Passionate about 'building the right thing' and 'building the thing right'. Seasoned in Java and JavaScript, recently entangled by Scala and Akka. Love to share new ideas and knowledge.",
+      "image": "/assets/img/speakers/maarten-mulders.jpg",
+      "ref": "mmulders",
+      "url": "infoSpeaker.html?ref=mmulders",
+      "twitter": "https://twitter.com/mthmulders",
+      "homepage": "https://maarten.mulders.tk",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "How To Stay Responsive With 400 Backends",
+        "abstract": "In these days of web scale and microservices, gracefully handling faulty or crashing backend web services becomes increasingly important. As long as your application uses just a handful of such backends, there’s no problem. But what if you have hundreds of them? How will you prevent your application from the negative effects of inevitable incidental crashes or timeouts when contacting other web services? In this talk, we’ll take a real-world example from a web scale system. This system is targeted at 10 million users and has around 400 heterogeneous backends. Akka and Scala power a system that is capable of running smoothly even when some backends might not be so stable.",
+        "tags": ["Microservice","Web scale","Reactive","Akka","Scala"],
+        "level": "Advanced",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Claus Ibsen",
+      "description": "Principal software engineer from Red Hat",
+      "biography": "Works for Red Hat on open source integration projects such as Apache Camel, fabric8 and hawtio. Author of Camel in Action books.",
+      "image": "/assets/img/speakers/claus-ibsen.jpg",
+      "ref": "cibsen",
+      "url": "infoSpeaker.html?ref=cibsen",
+      "twitter": "https://twitter.com/davsclaus",
+      "homepage": "http://www.davsclaus.com",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Developing cloud-ready Camel microservices",
+        "abstract": "As a Java developer it may be daunting to know how to get started how to develop container applications that runs on Kubernetes cluster. Using minikube its very easy to run a local Kubernetes cluster and with the help of fabric8 tooling its even easier to install and run using familiar tools like Maven. In this talk we will build a set of Apache Camel and Java based Microservices that uses Spring Boot and WildFly Swarm. With the help of fabric8 maven tooling you will see how to build, deploy, and run your Java projects on a Kubernetes cluster (local or remote). And even live debugging is easy to do as well. We will discuss practices how to build distributed and fault tolerant microservices using technologies such as Kubernetes Services, Netflix Hystrix, and Camel EIP patterns for fault tolerance. This talk is a 50/50 mix between slides and demo.",
+        "tags": ["Microservices","Kubernetes","Integration"],
+        "level": "Beginner",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Burr Sutter",
+      "description": "Red Hat’s Director of Developer Experience",
+      "biography": "A lifelong developer advocate, community organizer, and technology evangelist, Burr Sutter is a featured speaker at technology events around the globe—from Bangalore to Brussels and Berlin to Beijing (and most parts in between)—he is currently Red Hat’s Director of Developer Experience. A Java Champion since 2005 and former president of the Atlanta Java User Group, Burr founded the DevNexus conference—now the second largest Java event in the U.S.—with the aim of making access to the world’s leading developers affordable to the developer community. When not speaking abroad, Burr is also the passionate creator and orchestrator of highly-interactive live demo keynotes at Red Hat Summit, the company’s premier annual event.",
+      "image": "/assets/img/speakers/burr-sutter.jpg",
+      "ref": "burrsutter",
+      "url": "infoSpeaker.html?ref=burrsutter",
+      "twitter": "https://twitter.com/burrsutter",
+      "homepage": "https://developers.redhat.com/",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Going Reactive with Vert.x",
+        "abstract": "Forget the theory, ignore the academics, in the end all that matters for us is CODE! Come to this session and we won't disappoint you! We are simply going to build awesome, next generation apps, with a reactive and asynchronous programming model on RxJava + Vert.x. Bring your smartphone as you will be participating in this fast and furious session. Brace yourselves! Forget Spring. Winter is coming.",
+        "tags": ["RxJava", "Reactive programming", "Java 8", "Asynchronous", "Microservices"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Alex Soto",
+      "description": "Software Engineer at RedHat",
+      "biography": "Alex is a software engineer at Red Hat. He is a passionate of Java world, software automation and he believes in the open source software model. Alex is the creator of NoSQLUnit project and team member of Arquillian, Asciidoctor and Apache TomEE projects. He is a member of JSR374 (Java API for JSON Processing) Expert Group. Currently Alex is co-writing Arquillian in Action book for Manning and he is an international speaker presenting his talks at software conferences like JBCNConf, Devoxx, JavaOne, JavaZone or JavaLand.",
+      "image": "/assets/img/speakers/alex-soto.jpg",
+      "ref": "alexsoto",
+      "url": "infoSpeaker.html?ref=alexsoto",
+      "twitter": "https://twitter.com/alexsotob",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Testing For Unicorns",
+        "abstract": "One of the most imporant benefits of automated testing is to ensure a fast and safe code refactoring to evolve our system architecture.  The main problem is how to write tests that are easy to write, easy to follow and not time consuming during development nor execution time. In this session, we are going to explore some powerful Java testing libraries that will help you write better (unit) tests focusing on the main Unicorns architecture challenges such as validating microservices endpoints, remote calls to other microservices or just asynchronous/reactive code.",
+        "tags": ["Testing"],
+        "level": "Beginner",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Matthias Wessendorf",
+      "description": "Project lead of AeroGear",
+      "biography": "Matthias Wessendorf is the project lead of AeroGear, working at Red Hat where he is focused on next generation of mobile computing. Previously, he was the PMC Chair of the Apache MyFaces project. Matthias is a regular speaker at international conferences, like ApacheCon, JavaOne, Devoxx, Red Hat Summit or JAX.",
+      "image": "/assets/img/speakers/matthias-wessendorf.jpeg",
+      "ref": "mwessendorf",
+      "url": "infoSpeaker.html?ref=mwessendorf",
+      "twitter": "http://twitter.com/mwessendorf",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Reactive Stream Processing with MicroProfile and Apache Kafka",
+        "abstract": "The community driven Microprofile initiative aims to optimize Enterprise Java for a microservices architecture, by leveraging a few Java EE APIs, such as JAX-RS, CDI and JSONP. With this minimal, but very powerful set of technologies, the profile is a perfect base for modern Java EE applications in combinations new technologies, such as integration with Apache Kafka for reactive stream processing. The session gives a short introduction to Apache Kafka and WildFly Swarm. You will learn about integration between WildFly Swarm's Microprofile fraction and Apache Kafka, mixing both Java EE standard APIs as well as Kafka Client APIs. The session is supported by a demo, showing processing of mobile application data for metric analysis. The session ends with an outlook how to run the different parts on Docker and Kubernetes, as well as bringing in other technologies for consuming Kafka messages, such as Vert.x.",
+        "tags": ["Reactive", "MicroProfile", "Kafka", "Microservices", "Docker", "Kubernetes"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
+    }
+  ]
+}

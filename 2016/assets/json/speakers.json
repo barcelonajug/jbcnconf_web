@@ -1238,6 +1238,7 @@
           "Performance", "JVM"
         ],
         "level": "Intermediate",
+        "slides":"https://github.com/srvaroa/jbcnconf",
 		"cospeakerref": "gontanon"
       },
       "scheduleId": "#THU-TC3-SE2"

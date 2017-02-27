@@ -1,0 +1,89 @@
+---
+layout: default
+---
+{% include base.html %}
+
+<!--start: Wrapper-->
+<div id="wrapper">
+
+    <!--start: Container -->
+    <div class="container">
+
+        <!-- start: Hero Unit -->
+        <div class="hero-unit">
+            Conference Venue:
+            <h1>Cinema Filmax Gran Via 2
+            </h1>
+            <p>
+                <a href="https://www.google.es/maps/place/Filmax+Granvia/@41.3581589,2.1286963,15z/data=!4m5!3m4!1s0x0:0x139283c13221c7be!8m2!3d41.3581589!4d2.1286963">
+                    Location Map
+                </a>
+                <br/>
+                Centre Comercial Gran Via 2
+                Avinguda de la Granvia, 75
+                08908 L'Hospitalet de Llobregat, Barcelona
+
+            </p>
+        </div>
+        <!-- end: Hero Unit -->
+        <!-- start: Row -->
+        <div class="row">
+
+            <div class="span6">
+                <div class="icons-box">
+                    <div class="title"><h3></h3></div>
+                    <img style="height:292px" src="{{ base }}/assets/img/jbcn/jbcn_venue_inside.jpg" alt="JBCN Venue inside"/>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <div class="span6">
+                <div class="icons-box">
+                    <div class="title"><h3></h3></div>
+                    <img src="{{ base }}/assets/img/jbcn/jbcn_venue_outside.jpg" alt="JBCN Venue Outside"/>
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- end: Row -->
+
+        <hr/>
+
+        <!-- start: Row -->
+        <div class="row">
+
+            <style>
+                .google-maps {
+                    position: relative;
+                    padding-bottom: 75%;
+                / / This is the aspect ratio height: 0;
+                    overflow: hidden;
+                }
+
+                .google-maps iframe {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100% !important;
+                    height: 100% !important;
+                }
+            </style>
+
+            <div class="google-maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11978.931616710535!2d2.1286963!3d41.3581589!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x139283c13221c7be!2sFilmax+Granvia!5e0!3m2!1sen!2ses!4v1485445737461"
+                        width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+
+        </div>
+        <!-- end: Row -->
+
+        <hr>
+
+    </div>
+    <!--end: Container-->
+
+</div>
+<!-- end: Wrapper  -->

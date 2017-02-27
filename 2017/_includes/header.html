@@ -1,0 +1,79 @@
+{% include base.html %}
+<!--start: Header -->
+<header>
+
+    <!--start: Container -->
+    <div class="container">
+
+        <!--start: Row -->
+        <div class="row">
+
+            <!--start: Logo -->
+            <div class="logo span3">
+
+                <a class="brand" href="{{base}}"><img src="{{ base }}/assets/img/logos/LOGO_FINAL_PNG_500x250.png"
+                                               alt="Logo"></a>
+
+            </div>
+            <!--end: Logo -->
+
+            <!--start: Navigation -->
+            <div class="span9 menu">
+
+                <div class="navbar navbar-inverse">
+                    <div class="navbar-inner">
+                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                        <div class="nav-collapse collapse">
+                            <ul class="nav">
+
+                                {% for menu in site.data.menu %}
+                                <li>
+                                    
+                                    {% if  menu.url contains "http" %}
+                                        <a href="{{menu.url}}">
+                                            {{ menu.label }}
+                                        </a>
+                                    {% elsif menu.url %}
+                                        <a href="{{ base }}{{menu.url}}">
+                                            {{ menu.label }}
+                                        </a>
+                                    {% endif %}
+
+                                </li>
+                                {% endfor %}
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b
+                                            class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="{{ base }}/barcelona-java-user-group.html">About us</a></li>
+                                        <li class="divider"></li>
+                                        <li class="nav-header">Previous Editions:</li>
+                                        <li><a href="http://jbcnconf.com/2016">2016</a></li>
+                                        <li><a href="http://jbcnconf.com/2015">2015</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="mailto:info@barcelonajug.org">Contact info@barcelonajug.org</a></li>
+                                    </ul>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--end: Navigation -->
+
+        </div>
+        <!--end: Row -->
+
+    </div>
+    <!--end: Container-->
+
+</header>
+<!--end: Header-->

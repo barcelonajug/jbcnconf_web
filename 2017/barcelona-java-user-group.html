@@ -1,0 +1,80 @@
+---
+layout: default
+---
+{% include base.html %}
+
+<!--start: Wrapper-->
+<div id="wrapper">
+
+    <!--start: Container -->
+    <div class="container">
+
+        <div class="hero-unit">
+        </div>
+
+
+        <div id="about">
+            <div class="title"><h3>About Us</h3></div>
+            <div class="row">
+                <div class="span8">
+                    <p>The <a href="http://www.barcelonajug.org" target="_blank" class="link">Barcelona JUG</a> is a nonprofit association with a great team and a broad experience in Java technologies.</p>
+                    <p>Since 2012, <a href="http://www.barcelonajug.org" target="_blank" class="link">Barcelona JUG</a> is organizing talks and meetups focused on <strong>Java</strong> topics, looking forward to spin this technology from our hometown to the rest of the world.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- start: Team -->
+        <div id="team">
+
+            <div class="title"><h3>Team</h3></div>
+
+
+            <!-- start: Row -->
+            <div class="row">
+
+
+                {% for team in site.data.team %}
+
+
+                <!-- start: About Member -->
+                <div class="span4">
+                    <div class="social_profiles">
+                        <ul class="social-bookmarks">
+
+                            {% if team.linkedin %}
+                            <li class="linkedin"><a target="_blank" href="{{team.linkedin}}">linkedin</a></li>
+                            {% endif %}
+                            {% if team.twitter %}
+                            <li class="twitter"><a target="_blank" href="{{team.twitter}}">twitter</a></li>
+                            {% endif %}
+
+                        </ul>
+                    </div>
+                    <div class="avatar view-team">
+                        <img src="{{ base }}{{team.image.url}} " alt="{{team.image.alt}}">
+                        <div class="mask">
+                            <h2>{{team.name}}</h2>
+                            <p>
+                                {{team.bio}}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="team-name">{{team.name}}<span> / {{team.position}}<br/> {{team.role}}</span></div>
+                    
+                   
+                </div>
+                <!-- end: About Member -->
+
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+    </div>
+    <!--end: Container-->
+
+</div>
+<!-- end: Wrapper  -->
