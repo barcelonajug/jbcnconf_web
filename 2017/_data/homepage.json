@@ -1,0 +1,22 @@
+{
+  "ticket_section_title": "buy a ticket",
+  "ticket_section_desc": "Do not miss the opportunity to participate in this event and to immerse yourself in 3-days interesting talks on Java, JVM and open-source technologies.",
+  "ticket_01_label": "<strike>Early Bird</strike>",
+  "ticket_01_desc": "Limited to <strong>80 tickets</strong> available until 1st of March.",
+  "ticket_02_label": "Standard",
+  "ticket_02_desc": "Limited to <strong>200 tickets</strong> available until 1st of May.",
+  "ticket_03_label": "Late Bird",
+  "ticket_03_desc": "Starting 1st of May or upon standard ticket exhaustion.",
+  "counter_01_label": "Conference",
+  "counter_01_number": "01",
+  "counter_02_label": "Days",
+  "counter_02_number": "03",
+  "counter_03_label": "Tracks",
+  "counter_03_number": "04",
+  "counter_04_label": "Sponsors",
+  "counter_04_number": "25",
+  "counter_05_label": "Speakers",
+  "counter_05_number": "64",
+  "counter_06_label": "Java DeveLovers",
+  "counter_06_number": "512"
+}
