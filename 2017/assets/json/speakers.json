@@ -331,7 +331,48 @@
         "video":""
       },
       "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Ioannis Canellos",
+      "description": "Principal Software Engineer at Red Hat",
+      "biography": "Ioannis has more than 10 years experience as Java developer 5 of which are as full time OpenSource developer.<br>He is a member of the <a href=\"http://www.apache.org\">Apache Software Foundation</a>, with contribution to numerous projects as a committer and PMC member.<br>He is currently working as a Principal Software Engineer at Red Hat as part of iPAAS team, where he spends most of his time implementing tools and frameworks related to <a href=\"http://kubernetes.io\">Kubernetes</a>, <a href=\"https://www.openshift.com\">Openshift</a> and <a href=\"http://fabric8.io\">Fabric8</a>.",
+      "image": "assets/img/speakers/ioannis-canellos.jpg",
+      "ref": "icanellos",
+      "url": "infoSpeaker.html?ref=icanellos",
+      "twitter": "https://twitter.com/iocanel",
+      "homepage": "https://iocanel.blogspot.com",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Spring Cloud Kubernetes",
+        "abstract": "Spring Cloud Kubernetes is an opensource project which provides Spring Cloud integration with Kubernetes. This presentation is going to be a live coding tour through all of the Spring Cloud Kubernetes features:<br/><ul style='text-align:left'><li>Service Discovery</li><li>Client side Load Balancing</li><li>Circuit Breakers</li><li>Tracing</li></ul><p class='abstract'>The presentation aims at both Spring developers that interested in making the move to Kubernetes and for Kubernetes users that are in need of a framework that can help them glue everything together and ease the burden of microservices.</p>",
+        "tags": ["spring","cloud","kubernetes"],
+        "level": "Advanced",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Heather VanCura",
+      "description": "Chair of the JCP Program at Oracle",
+      "biography": "Heather VanCura is the Chair of the JCP Program at Oracle, and is a leader of the global community driven adoption and user group programs. Heather drives the efforts to transform the JCP program and broaden participation and diversity in the community. She is passionate about Java, women in technology and developer communities, serving as an international speaker and community organizer of developer hack days around the world. Heather enjoys speaking at conferences, such as OSCON, Devoxx, JFokus, and the JavaOne Conferences. She resides in the San Francisco Bay Area, California USA and enjoys trying new sports and fitness activities in her free time.",
+      "image": "assets/img/speakers/heather-vancura.jpg",
+      "ref": "hvancura",
+      "url": "infoSpeaker.html?ref=hvancura",
+      "twitter": "https://twitter.com/heathervc",
+      "homepage": "https://jcp.org/",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Java + JCP + Adopt-a-JSR + You",
+        "abstract": "Learn how to take part in Java technology evolution through the Java Community Process (JCP) program. You can participate as an individual, corporation, or nonprofit such as a Java user group (JUG). This session outlines why and how to participate in the JCP Program. You will also learn about the global Adoption programs and how you can participate in the programs. We will discuss details such as how to run hack days, collaborate with other JUG leads on Adopt-a-JSR activities, and review use cases from other JUGs around the world contributing to the Java EE 7 and Java SE 8 JSRs. Currently there are new JSRs being submitted and developed for the Java EE 8 and Java SE 9 platforms. Find out how you have contribute to the future editions of the Java Standard and Java Enterprise Editions.",
+        "tags": ["java", "community", "opensource"],
+        "level": "Beginner",
+        "video":""
+      },
+      "scheduleId": ""
     }
-
   ]
 }
