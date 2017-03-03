@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "label": "Home",
+      "href": "/#"
+    },
+    {
+      "label": "Publicity",
+      "href": "/#Publicity"
+    },
+    {
+      "label": "Speakers",
+      "href": "/speakers.html"
+    },
+    {
+      "label": "Buy Ticket",
+      "href": "/#Tickets"
+    },
+    {
+      "label": "Travel",
+      "href": "/#Travel"
+    },
+    {
+      "label": "Extra",
+      "href": "/#Extra"
+    },
+    {
+      "label": "Sponsors",
+      "href": "/#Sponsors"
+    }
+  ]
+}
