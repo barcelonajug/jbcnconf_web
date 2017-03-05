@@ -509,6 +509,10 @@ a:focus {
 	font-weight: bold;
 	margin-top: 5px;
 }
+#tickets .soldout{
+	color: red;
+	font-weight: bold;
+}
 #tickets .dates{
 }
 #tickets .price{
