@@ -377,7 +377,7 @@
     {
       "enabled":"1",
       "name": "Mark Heckler",
-      "description": "Pivotal Principal Technologist & Developer Advocate",
+      "description": "Principal Technologist/Developer Advocate at Pivotal Software, Inc.",
       "biography": "Mark Heckler is a Pivotal Principal Technologist & Developer Advocate, conference speaker, published author & Java Champion focusing upon developing innovative production-ready software at velocity for the Cloud and IoT applications. He has worked with key players in the manufacturing, retail, medical, scientific, telecom, and financial industries and various public sector organizations to develop and deliver critical capabilities on time and on budget. Mark is an open source contributor and author/curator of a developer-focused blog (http://www.thehecklers.org) and an occasionally interesting Twitter account (@MkHeck).",
       "image": "assets/img/speakers/mark-heckler.png",
       "ref": "mheckler",
@@ -388,7 +388,7 @@
       "talk": {
         "type": "talk",
         "title": "Services Assemble! Apply MVP Principles to Create Cutting-Edge Microservices Without Chaos with Spring Cloud/Netflix OSS",
-        "abstract": "In this session, learn how to use proven patterns & open source software to rapidly build a robust portfolio of microservices that provide a solid foundation for your dynamic and growing microservice architecture. This session addresses vital points such as: Configuration services, Microservice registration and discovery, Circuit breakers for graceful degradation, Load balancing and intelligent routing and Asynchronous messaging. Additional topics discussed include logging & tracing, testing approaches, and migration patterns. The presenter will demonstrate how to develop & effectively manage microservices using OSS tools employed by Netflix to keep movies streaming globally 24x7.",
+        "abstract": "In this session, learn how to use proven patterns & open source software to rapidly build a robust portfolio of microservices that provide a solid foundation for your dynamic and growing microservice architecture. This session addresses vital points such as: <br/><ul style='text-align:left'><li>Configuration services</li><li>Microservice registration and discovery</li><li>Circuit breakers for graceful degradation</li><li>Load balancing and intelligent routing</li><li>Asynchronous messaging</li></ul><p class='abstract'>Additional topics discussed include logging & tracing, testing approaches, and migration patterns. The presenter will demonstrate how to develop & effectively manage microservices using OSS tools employed by Netflix to keep movies streaming globally 24x7.</p>",
         "tags": ["Microservices", "Spring", "Spring Boot", "Netflix", "Zuul", "Devices", "asynchronous", "live code"],
         "level": "Beginner",
         "video":""
