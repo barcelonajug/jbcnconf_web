@@ -621,10 +621,9 @@ a:focus {
 	color : #428BCA;
 }
 #accomodation img {
-	width: 260px;
+	width: 100%;
 }
 #accomodation .hotel {
-	max-width : 280px;
 	border : 1px solid ;
 	border-color: lightgrey;
 	padding: 10px;
