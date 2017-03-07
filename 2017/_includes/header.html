@@ -28,7 +28,8 @@
                             {% for menu in site.data.menu.items %}
                             <li>
                                 {% if menu.href contains "http" %}
-                                <a class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home  active"
+                                <a target="_blank"
+                                   class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home  active"
                                    href="{{menu.href}}">
                                     {{ menu.label }}
                                 </a>
@@ -43,11 +44,8 @@
                             {% endfor %}
 
                             <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children dropdown menu-item-13"
-                                    data-dropdown="dropdown"><a href="#Contact" class="dropdown-toggle disabled" data-toggle="dropdown">About</a>
+                                data-dropdown="dropdown"><a href="#Contact" class="dropdown-toggle disabled" data-toggle="dropdown">Contact</a>
                                 <ul role="menu" class=" dropdown-menu">
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-396">
-                                        <a href="#Contact">Contact</a>
-                                    </li>
                                     <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7 current_page_item menu-item-14 active">
                                         <a href="{{ base }}/about.html">About Us</a></li>

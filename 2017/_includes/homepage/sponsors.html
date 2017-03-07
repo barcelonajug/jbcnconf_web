@@ -1,37 +1,41 @@
 <div id="Sponsors"
      class="vc_row wpb_row vc_row-fluid container-fluid animate anim-fadeIn vc_custom_1461855586554 vc_row-has-fill">
+    <div class="content-widget-title">
+        <div class="content-title-text"><i class="fa fa-life-ring"></i>
+            <h3>Sponsors<span class="separator">
+											<span class="separator-line"></span>
+											<span class="separator-dot"></span>
+										</span></h3>
+            <p> {{ site.data.homepage.sponsors_desc }}</p>
+        </div>
+    </div>
+
     <div class="wpb_column vc_column_container vc_col-sm-12">
         <div class="vc_column-inner vc_custom_1461673193635">
             <div class="wpb_wrapper">
                 <div class="clients-widget">
                     <div class="owl-carousel-clients-22509910">
-                        <div class="item"><a href="http://gloriatheme.com/" title="Client"><img
-                                src="http://gloriatheme.com/demo/wp/eventstation/wp-content/uploads/2016/04/sponsors1.png"
-                                alt="Client"/></a></div>
-                        <div class="item"><a href="http://gloriatheme.com/" title="Client"><img
-                                src="http://gloriatheme.com/demo/wp/eventstation/wp-content/uploads/2016/04/sponsors2.png"
-                                alt="Client"/></a></div>
-                        <div class="item"><a href="http://gloriatheme.com/" title="Client"><img
-                                src="http://gloriatheme.com/demo/wp/eventstation/wp-content/uploads/2016/04/sponsors3.png"
-                                alt="Client"/></a></div>
-                        <div class="item"><a href="http://gloriatheme.com/" title="Client"><img
-                                src="http://gloriatheme.com/demo/wp/eventstation/wp-content/uploads/2016/04/sponsors4.png"
-                                alt="Client"/></a></div>
-                        <div class="item"><a href="http://gloriatheme.com/" title="Client"><img
-                                src="http://gloriatheme.com/demo/wp/eventstation/wp-content/uploads/2016/04/sponsors5.png"
-                                alt="Client"/></a></div>
-                        <div class="item"><a href="http://gloriatheme.com/" title="Client"><img
-                                src="http://gloriatheme.com/demo/wp/eventstation/wp-content/uploads/2016/04/sponsors6.png"
-                                alt="Client"/></a></div>
-                        <div class="item"><a href="http://gloriatheme.com/" title="Client"><img
-                                src="http://gloriatheme.com/demo/wp/eventstation/wp-content/uploads/2016/04/sponsors7.png"
-                                alt="Client"/></a></div>
-                        <div class="item"><a href="http://gloriatheme.com/" title="Client"><img
-                                src="http://gloriatheme.com/demo/wp/eventstation/wp-content/uploads/2016/04/sponsors8.png"
-                                alt="Client"/></a></div>
-                        <div class="item"><a href="http://gloriatheme.com/" title="Client"><img
-                                src="http://gloriatheme.com/demo/wp/eventstation/wp-content/uploads/2016/04/sponsors9.png"
-                                alt="Client"/></a></div>
+                        
+                        
+                        <div class="item">
+                            <a target="_blank" href="http://barcelonajug.org" title="Barcelona JUG">
+                                <img
+                                        src="{{ base }}/assets/img/logos/logo_bicolor_blog_barcelonajug.png"
+                                        alt="Barcelona JUG"/>
+                            </a>
+                        </div>
+
+                        {% for sponsor in site.data.sponsors.items %}
+                        <div class="item">
+                            <a target="_blank" href="{{ sponsor.href }}" title="{{ sponsor.name }}">
+                                <img
+                                        src="{{ base }}{{ sponsor.image.src }}"
+                                        alt="{{ sponsor.image.alt }}"/>
+                            </a>
+                        </div>
+                        {% endfor %}
+
+
                     </div>
                 </div>
                 <script>
@@ -41,15 +45,7 @@
                             nav: false,
                             margin: 70,
                             dots: false,
-                            autoWidth: true,
-                            responsive: {
-                                0: {
-                                    items: 2,
-                                },
-                                768: {
-                                    items: 7,
-                                },
-                            }
+                            autoWidth: true
                         });
                     });
                 </script>

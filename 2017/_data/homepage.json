@@ -1,6 +1,6 @@
 {
   "ticket_section_title": "buy a ticket",
-  "ticket_section_desc": "Do not miss the opportunity to participate in this event and to immerse yourself in 3-days interesting talks on Java, JVM and open-source technologies.",
+  "ticket_section_desc": "Do not miss the opportunity to participate in this event and to immerse yourself in 3-days interesting talks on Java, JVM and open-source technologies. <br/><b>All Prices Include:</b><br/> Access to talks and workshops for 3 days <br/>Access to networking party on Monday, <br/>Welcome pack, Coffee breaks and lunches for Monday and Tuesday, Raffles of sponsors products.",
   "ticket_01_label": "<strike>Early Bird</strike>",
   "ticket_01_desc": "Limited to <strong>80 tickets</strong> available until 1st of March.",
   "ticket_02_label": "Standard",
@@ -18,5 +18,19 @@
   "counter_05_label": "Speakers",
   "counter_05_number": "64",
   "counter_06_label": "Java DeveLovers",
-  "counter_06_number": "512"
+  "counter_06_number": "512",
+  "event_what_is_title": "What is the Java Barcelona Conference?",
+  "event_what_is_desc": "Three days to share knowledge and experiences, meet enthusiasts and geeks and learn about new technologies related to the JVM.",
+  "event_what_is_full": "",
+  "event_why_participate_title": "Why Should I Participate?",
+  "event_why_participate_desc": "This conference is the perfect stage to discover how others are using your favourite VM. <br/> from(Java).to(Scala).or(Groovy).in(Open_Source).or(JCP)<br/> ... there is something interesting for any kind of tech passionate.",
+  "event_why_participate_full": "",
+  "travel_subtitle": "Barcelona, the capital of Catalonia, is a Mediterranean and cosmopolitan city with Roman remains, medieval quarters and the most beautiful examples of 20th century Modernism.",
+  "travel_title": "Take a view over the conference area.",
+  "travel_desc": "Barcelona is internationally well-known for its great climate, incredible beaches, stunning architecture, delicious tapas and its successful football team.",
+  "travel_transportation": "~23 minutes from the Airport by <b>Metro L9S</b> to <b>Europa Fira</b> station, <br/> followed by a 10 minutes walk towards Gran Via 2 Mall.",
+  "travel_accommodation": "We have prepared several discounts at hotels nearby. <br/>Find out more about these offers: <u><a href='#'> HERE! </a></u>",
+  "travel_food": "Coffee, Water & Lunch will be provided at the venue.</br> Additionally the food court in the building can satisfy any needs.",
+  "sponsors_desc": "This is a priceless opportunity to promote your company and to support technological communities.",
+  "test": " It is no wonder this place attracts a lot of talent having with more than 200 active digital startups in mobile, e-commerce, gaming or B2B."
 }

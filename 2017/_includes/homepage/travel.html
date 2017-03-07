@@ -1,20 +1,104 @@
-
 {% include base.html %}
 
-<div id="Travel" class="vc_row wpb_row vc_row-fluid">
+<div id="Travel" class="vc_row wpb_row vc_row-fluid container-fluid vc_custom_1461668209075">
+    <div class="wpb_column vc_column_container vc_col-sm-12">
+        <div class="vc_column-inner vc_custom_1461666279279">
+            <div class="wpb_wrapper">
+                <div class="content-widget-title">
+                    <div class="content-title-text"><i class="fa fa-puzzle-piece"></i>
+                        <h3>Travel<span class="separator">
+											<span class="separator-line"></span>
+											<span class="separator-dot"></span>
+										</span></h3>
+                        <p> {{ site.data.homepage.travel_subtitle }}</p>
+                        <p>
+                            Location: <a target="_blank" href="https://www.google.es/maps/place/Centre+Comercial+Gran+Via+2+L'Hospitalet/@41.3592764,2.1296054,15z/data=!4m5!3m4!1s0x0:0x1e8a39c5cc296b4b!8m2!3d41.3592764!4d2.1296054">
+                                Cinema Filmax Gran Via 2, Centre Comercial Gran Via 2<br/>
+                                Avinguda de la Granvia, 75
+                                08908 L'Hospitalet de Llobregat, Barcelona
+                            </a>
+
+                        </p>
+                    </div>
+                </div>
+                <div class="vc_empty_space" style="height: 33px"><span class="vc_empty_space_inner"></span></div>
+                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                    <div class="wpb_column vc_column_container vc_col-sm-3">
+                        <div class="vc_column-inner vc_custom_1461600189414">
+                            <div class="wpb_wrapper">
+                                <div class="service-box service-box-icon-style">
+                                    <div class="service-box-icon animate anim-fadeInDown animate-delay-0"><i
+                                            class="fa fa-car"></i></div>
+                                    <h2 class="animate anim-fadeInDown animate-delay-0-20">
+                                        Transportation
+                                    </h2>
+                                    <p class="animate anim-fadeInDown animate-delay-0-40">
+                                        {{ site.data.homepage.travel_transportation }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-3">
+                        <div class="vc_column-inner vc_custom_1461600193083">
+                            <div class="wpb_wrapper">
+                                <div class="service-box service-box-icon-style">
+                                    <div class="service-box-icon animate anim-fadeInDown animate-delay-0"><i
+                                            class="fa fa-bed"></i></div>
+                                    <h2 class="animate anim-fadeInDown animate-delay-0-20">Accommodation</h2>
+                                    <p class="animate anim-fadeInDown animate-delay-0-40">
+                                        {{ site.data.homepage.travel_accommodation }}
+                                    </p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-3">
+                        <div class="vc_column-inner vc_custom_1461600196865">
+                            <div class="wpb_wrapper">
+                                <div class="service-box service-box-icon-style">
+                                    <div class="service-box-icon animate anim-fadeInDown animate-delay-0"><i
+                                            class="fa fa-cutlery"></i></div>
+                                    <h2 class="animate anim-fadeInDown animate-delay-0-20">Cafe &amp; Restaurant</h2>
+                                    <p class="animate anim-fadeInDown animate-delay-0-40">
+                                        {{ site.data.homepage.travel_food }}
+                                    </p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-3">
+                        <div class="vc_column-inner vc_custom_1461600200548">
+                            <div class="wpb_wrapper">
+                                <div class="service-box service-box-icon-style">
+                                    <div class="service-box-icon animate anim-fadeInDown animate-delay-0"><i
+                                            class="fa fa-spinner"></i></div>
+                                    <h2 class="animate anim-fadeInDown animate-delay-0-20">Networking Event <br/> - Party -</h2>
+                                    <p class="animate anim-fadeInDown animate-delay-0-40">
+                                        Details will be provided before the event.
+                                    </p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="vc_row wpb_row vc_row-fluid">
     <div class="wpb_column vc_column_container vc_col-sm-12">
         <div class="vc_column-inner vc_custom_1461336181509">
             <div class="wpb_wrapper">
                 <div class="map-3d-tour">
                     <div class="map-3d-tour-content"
                          style="background-image:url('{{base}}/assets/img/barcelona/barcelona_java_conference.jpg');">
-                        <i class="map-3d-tour-icon fa fa-map-marker"></i>
-                        <h3 class="animate anim-fadeIn">Take a view over the conference area.</h3>
-                        <p class="animate anim-fadeIn">If you are wondering what kind of a place you are going to visit
-                            when you participate in this exciting conference, move your mouse to the point you wish to
-                            see. Take a complete tour throughout the conference area. See beforehand the place we are
-                            going to host you.</p>
-                        <div class="map-3d-tour-button animate anim-fadeIn"><span>Take A 3D Tour</span><i
+                        <h3 class="animate anim-fadeIn">{{ site.data.homepage.travel_title }}</h3>
+                        <p class="animate anim-fadeIn">
+
+                            {{ site.data.homepage.travel_desc }}
+
+                        </p>
+                        <div class="map-3d-tour-button animate anim-fadeIn"><span>Find out more</span><i
                                 class="fa fa-angle-right"></i></div>
                     </div>
                     <div class="map-3d-tour-iframe"><i class="close fa fa-times"></i>
