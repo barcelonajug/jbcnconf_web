@@ -8,260 +8,68 @@
 											<span class="separator-line"></span>
 											<span class="separator-dot"></span>
 										</span></h3>
-                        <p>Nam pellentesque dui ante, in suscipit justo laoreet sit amet. Ut ex erat, bibendum in.</p>
+                        <p>{{ site.data.homepage.speakers_desc }}.</p>
                     </div>
                 </div>
                 <div class="vc_empty_space" style="height: 33px"><span class="vc_empty_space_inner"></span></div>
+
+
                 <div class="speakers-widget speakers-widget-344564632 animate anim-fadeInUp">
+
+
+                    {% for speaker in site.data.speakers.speakers %}
                     <div class="item">
                         <div class="speaker-item-header"
-                             style="background-image:url(http://gloriatheme.com/demo/wp/eventstation/wp-content/uploads/2016/04/orlina.jpg);">
-                            <div class="speaker-item-topic-wrapper"><h4 class="speaker-item-topic-title">Why Is It So Hard
-                                to Change How We Manage Ourselves?</h4></div>
+                             style="background-image:url({{ base }}/{{ speaker.image }});">
+                            <div class="speaker-item-topic-wrapper"><h4 class="speaker-item-topic-title">
+                                {{ speaker.talk.title }}</h4></div>
                         </div>
                         <div class="speaker-item-body">
                             <ul class="speaker-item-information">
-                                <li><i class="fa fa-calendar-check-o"></i><span>MAY 22, 2017</span></li>
-                                <li><i class="fa fa-clock-o"></i><span>10:00</span></li>
-                                <li><i class="fa fa-map"></i><span>Red Hall</span></li>
+
                             </ul>
-                            <div class="name-job"><h2>ORLINA MAELEE</h2>
-                                <h3>Project Finance Expert</h3></div>
+                            <div class="name-job"><h2>{{ speaker.name }}</h2>
+                                <h3>{{ speaker.description }}</h3></div>
                             <ul class="speaker-item-social-links">
-                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://plus.google.com/" target="_blank"><i
-                                        class="fa fa-google-plus"></i></a></li>
-                                <li><a href="https://tr.pinterest.com/" target="_blank"><i
-                                        class="fa fa-pinterest"></i></a></li>
-                                <li><a href="https://www.instagram.com/" target="_blank"><i
-                                        class="fa fa-instagram"></i></a></li>
-                                <li><a href="http://gloriatheme.com/" target="_blank"><i class="fa fa-link"></i></a></li>
+
                             </ul>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="speaker-item-header"
-                             style="background-image:url(http://gloriatheme.com/demo/wp/eventstation/wp-content/uploads/2016/04/lorenza.jpg);">
-                            <div class="speaker-item-topic-wrapper"><h4 class="speaker-item-topic-title">What to Expect
-                                From the BOJ This Year?</h4></div>
-                        </div>
-                        <div class="speaker-item-body">
-                            <ul class="speaker-item-information">
-                                <li><i class="fa fa-calendar-check-o"></i><span>MAY 22, 2017</span></li>
-                                <li><i class="fa fa-clock-o"></i><span>13:15</span></li>
-                                <li><i class="fa fa-map"></i><span>White Hall</span></li>
-                            </ul>
-                            <div class="name-job"><h2>LORENZA LOLA VARD</h2>
-                                <h3>Finance Expert</h3></div>
-                            <ul class="speaker-item-social-links">
-                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://plus.google.com/" target="_blank"><i
-                                        class="fa fa-google-plus"></i></a></li>
-                                <li><a href="https://tr.pinterest.com/" target="_blank"><i
-                                        class="fa fa-pinterest"></i></a></li>
-                                <li><a href="https://www.instagram.com/" target="_blank"><i
-                                        class="fa fa-instagram"></i></a></li>
-                                <li><a href="http://gloriatheme.com/" target="_blank"><i class="fa fa-link"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="speaker-item-header"
-                             style="background-image:url(http://gloriatheme.com/demo/wp/eventstation/wp-content/uploads/2016/04/robert.jpg);">
-                            <div class="speaker-item-topic-wrapper"><h4 class="speaker-item-topic-title">Seven Ways
-                                Osborne Could Fill the Hole in Britain&#039;s Finances</h4></div>
-                        </div>
-                        <div class="speaker-item-body">
-                            <ul class="speaker-item-information">
-                                <li><i class="fa fa-calendar-check-o"></i><span>MAY 22, 2017</span></li>
-                                <li><i class="fa fa-clock-o"></i><span>15:00</span></li>
-                                <li><i class="fa fa-map"></i><span>Red Hall</span></li>
-                            </ul>
-                            <div class="name-job"><h2>ROBERT BEN BLOOM</h2>
-                                <h3>Chief Economist</h3></div>
-                            <ul class="speaker-item-social-links">
-                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://plus.google.com/" target="_blank"><i
-                                        class="fa fa-google-plus"></i></a></li>
-                                <li><a href="https://tr.pinterest.com/" target="_blank"><i
-                                        class="fa fa-pinterest"></i></a></li>
-                                <li><a href="https://www.instagram.com/" target="_blank"><i
-                                        class="fa fa-instagram"></i></a></li>
-                                <li><a href="http://gloriatheme.com/" target="_blank"><i class="fa fa-link"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="speaker-item-header"
-                             style="background-image:url(http://gloriatheme.com/demo/wp/eventstation/wp-content/uploads/2016/04/karl.jpg);">
-                            <div class="speaker-item-topic-wrapper"><h4 class="speaker-item-topic-title">There Really Is
-                                An App For Everything</h4></div>
-                        </div>
-                        <div class="speaker-item-body">
-                            <ul class="speaker-item-information">
-                                <li><i class="fa fa-calendar-check-o"></i><span>MAY 24, 2017</span></li>
-                                <li><i class="fa fa-clock-o"></i><span>17:00</span></li>
-                                <li><i class="fa fa-map"></i><span>Lightfull Hall</span></li>
-                            </ul>
-                            <div class="name-job"><h2>KARL LARA</h2>
-                                <h3>PHP Developer</h3></div>
-                            <ul class="speaker-item-social-links">
-                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://plus.google.com/" target="_blank"><i
-                                        class="fa fa-google-plus"></i></a></li>
-                                <li><a href="https://tr.pinterest.com/" target="_blank"><i
-                                        class="fa fa-pinterest"></i></a></li>
-                                <li><a href="https://www.instagram.com/" target="_blank"><i
-                                        class="fa fa-instagram"></i></a></li>
-                                <li><a href="http://gloriatheme.com/" target="_blank"><i class="fa fa-link"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="speaker-item-header"
-                             style="background-image:url(http://gloriatheme.com/demo/wp/eventstation/wp-content/uploads/2016/04/orlina.jpg);">
-                            <div class="speaker-item-topic-wrapper"><h4 class="speaker-item-topic-title">Why Is It So Hard
-                                to Change How We Manage Ourselves?</h4></div>
-                        </div>
-                        <div class="speaker-item-body">
-                            <ul class="speaker-item-information">
-                                <li><i class="fa fa-calendar-check-o"></i><span>MAY 22, 2017</span></li>
-                                <li><i class="fa fa-clock-o"></i><span>10:00</span></li>
-                                <li><i class="fa fa-map"></i><span>Red Hall</span></li>
-                            </ul>
-                            <div class="name-job"><h2>ORLINA MAELEE</h2>
-                                <h3>Project Finance Expert</h3></div>
-                            <ul class="speaker-item-social-links">
-                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://plus.google.com/" target="_blank"><i
-                                        class="fa fa-google-plus"></i></a></li>
-                                <li><a href="https://tr.pinterest.com/" target="_blank"><i
-                                        class="fa fa-pinterest"></i></a></li>
-                                <li><a href="https://www.instagram.com/" target="_blank"><i
-                                        class="fa fa-instagram"></i></a></li>
-                                <li><a href="http://gloriatheme.com/" target="_blank"><i class="fa fa-link"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="speaker-item-header"
-                             style="background-image:url(http://gloriatheme.com/demo/wp/eventstation/wp-content/uploads/2016/04/lorenza.jpg);">
-                            <div class="speaker-item-topic-wrapper"><h4 class="speaker-item-topic-title">What to Expect
-                                From the BOJ This Year?</h4></div>
-                        </div>
-                        <div class="speaker-item-body">
-                            <ul class="speaker-item-information">
-                                <li><i class="fa fa-calendar-check-o"></i><span>MAY 22, 2017</span></li>
-                                <li><i class="fa fa-clock-o"></i><span>13:15</span></li>
-                                <li><i class="fa fa-map"></i><span>White Hall</span></li>
-                            </ul>
-                            <div class="name-job"><h2>LORENZA LOLA VARD</h2>
-                                <h3>Finance Expert</h3></div>
-                            <ul class="speaker-item-social-links">
-                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://plus.google.com/" target="_blank"><i
-                                        class="fa fa-google-plus"></i></a></li>
-                                <li><a href="https://tr.pinterest.com/" target="_blank"><i
-                                        class="fa fa-pinterest"></i></a></li>
-                                <li><a href="https://www.instagram.com/" target="_blank"><i
-                                        class="fa fa-instagram"></i></a></li>
-                                <li><a href="http://gloriatheme.com/" target="_blank"><i class="fa fa-link"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="speaker-item-header"
-                             style="background-image:url(http://gloriatheme.com/demo/wp/eventstation/wp-content/uploads/2016/04/robert.jpg);">
-                            <div class="speaker-item-topic-wrapper"><h4 class="speaker-item-topic-title">Seven Ways
-                                Osborne Could Fill the Hole in Britain&#039;s Finances</h4></div>
-                        </div>
-                        <div class="speaker-item-body">
-                            <ul class="speaker-item-information">
-                                <li><i class="fa fa-calendar-check-o"></i><span>MAY 22, 2017</span></li>
-                                <li><i class="fa fa-clock-o"></i><span>15:00</span></li>
-                                <li><i class="fa fa-map"></i><span>Red Hall</span></li>
-                            </ul>
-                            <div class="name-job"><h2>ROBERT BEN BLOOM</h2>
-                                <h3>Chief Economist</h3></div>
-                            <ul class="speaker-item-social-links">
-                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://plus.google.com/" target="_blank"><i
-                                        class="fa fa-google-plus"></i></a></li>
-                                <li><a href="https://tr.pinterest.com/" target="_blank"><i
-                                        class="fa fa-pinterest"></i></a></li>
-                                <li><a href="https://www.instagram.com/" target="_blank"><i
-                                        class="fa fa-instagram"></i></a></li>
-                                <li><a href="http://gloriatheme.com/" target="_blank"><i class="fa fa-link"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="speaker-item-header"
-                             style="background-image:url(http://gloriatheme.com/demo/wp/eventstation/wp-content/uploads/2016/04/karl.jpg);">
-                            <div class="speaker-item-topic-wrapper"><h4 class="speaker-item-topic-title">There Really Is
-                                An App For Everything</h4></div>
-                        </div>
-                        <div class="speaker-item-body">
-                            <ul class="speaker-item-information">
-                                <li><i class="fa fa-calendar-check-o"></i><span>MAY 24, 2017</span></li>
-                                <li><i class="fa fa-clock-o"></i><span>17:00</span></li>
-                                <li><i class="fa fa-map"></i><span>Lightfull Hall</span></li>
-                            </ul>
-                            <div class="name-job"><h2>KARL LARA</h2>
-                                <h3>PHP Developer</h3></div>
-                            <ul class="speaker-item-social-links">
-                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://plus.google.com/" target="_blank"><i
-                                        class="fa fa-google-plus"></i></a></li>
-                                <li><a href="https://tr.pinterest.com/" target="_blank"><i
-                                        class="fa fa-pinterest"></i></a></li>
-                                <li><a href="https://www.instagram.com/" target="_blank"><i
-                                        class="fa fa-instagram"></i></a></li>
-                                <li><a href="http://gloriatheme.com/" target="_blank"><i class="fa fa-link"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    {% endfor %}
                 </div>
+
+
                 <script>
+
+
                     jQuery(document).ready(function ($) {
+
+                        $.fn.randomize = function (selector) {
+                            var $elems = selector ? $(this).find(selector) : $(this).children(),
+                                    $parents = $elems.parent();
+
+                            $parents.each(function () {
+                                $(this).children(selector).sort(function () {
+                                    return Math.round(Math.random()) - 0.5;
+                                    // }). remove().appendTo(this); // 2014-05-24: Removed `random` but leaving for reference. See notes under 'ANOTHER EDIT'
+                                }).detach().appendTo(this);
+                            });
+
+                            return this;
+                        };
+
+
+                        $('.speakers-widget-344564632').randomize(".item");
+
                         $('.speakers-widget-344564632').owlCarousel({
                             loop: true,
                             nav: false,
                             margin: 45,
-                            dots: true,
-                            responsive: {
-                                0: {
-                                    items: 1,
-                                },
-                                768: {
-                                    items: 2,
-                                },
-                                1000: {
-                                    items: 3,
-                                },
-                                1300: {
-                                    items: 4,
-                                },
-                            }
+                            dots: true
                         });
                     });
                 </script>
+
             </div>
         </div>
     </div>
