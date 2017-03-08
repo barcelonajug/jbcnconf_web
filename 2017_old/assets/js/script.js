@@ -77,96 +77,97 @@ $(window).load(function () {
 
 function getFamilyForTag(tag){
     family = "unknown";
-    switch (tag) {
-        case "Messaging" : 
-        case "Scalability" :
-        case "Cloud":
-        case "Integration":
-        case "Design":
-        case "Modularity":
-        case "Architecture":
-        case "Patterns":
-        case "Real-time":
+    switch (tag.toLowerCase()) {
+        case "messaging" : 
+        case "scalability" :
+        case "cloud":
+        case "integration":
+        case "design":
+        case "modularity":
+        case "architecture":
+        case "patterns":
+        case "real-time":
             family = "Architecture"; break;
-        case "Testing" : 
-        case "Devops" :
-        case "ContinuousDelivery":
-        case "ContinuousIntegration":
+        case "testing" : 
+        case "devops" :
+        case "continuousdelivery":
+        case "continuousintegration":
             family = "Metodology"; break;
-        case "Gradle":
+        case "maven":
+        case "gradle":
             family = "Tools"; break;
-        case "APIs":
-        case "RESTful":
+        case "apis":
+        case "restful":
             family = "APIs"; break;
-        case "Java8":
-        case "Lambdas":
-        case "FunctionalProgramming":
+        case "java8":
+        case "lambdas":
+        case "functionalprogramming":
             family = "Java8"; break;
-        case "Java9":
+        case "java9":
             family = "Java9"; break;
-        case "Kotlin" :
-        case "Clojure":
-        case "Groovy" :
-        case "Ceylon":
-        case "JVM langs" :
-        case "Go":
-        case "Scala":
+        case "kotlin" :
+        case "clojure":
+        case "groovy" :
+        case "ceylon":
+        case "jvm langs" :
+        case "go":
+        case "scala":
         case "semantic":
             family = "JVMLangs"; break;
-        case "Cache" : 
-        case "JavaEE" : 
-        case "Performance":
-        case "Compiler":
-        case "JavaFX":
-        case "OpenJDK":
+        case "cache" : 
+        case "javaee" : 
+        case "performance":
+        case "compiler":
+        case "javafx":
+        case "openjdk":
             family = "JVM"; break;
-        case "Containers" : 
-        case "Kubernetes":
-        case "Microservices":
-        case "Docker":
+        case "containers" : 
+        case "kubernetes":
+        case "microservices":
+        case "docker":
             family = "Microservices"; break;
-        case "noSQL" :
-        case "Bigdata":
-        case "Cassandra":
-        case "ElasticSearch":
-        case "MapReduce":
-        case "MongoDB":
-        case "Hadoop":
-        case "Couchbase":
-        case "Kibana":
-        case "Logstash":
-        case "DB":
-        case "SPARQL":
-        case "Firebase":
-        case "RDF":
+        case "nosql" :
+        case "bigdata":
+        case "cassandra":
+        case "elasticsearch":
+        case "mapreduce":
+        case "mongodb":
+        case "hadoop":
+        case "couchbase":
+        case "kibana":
+        case "logstash":
+        case "db":
+        case "sparql":
+        case "firebase":
+        case "rdf":
         case "graph":
             family = "noSQL"; break;
-        case "Async" : 
-        case "Netty" : 
-        case "Event-driven":
-        case "DistributedSystems":
-        case "RxJava":
-        case "Ratpack":
+        case "async" : 
+        case "netty" : 
+        case "event-driven":
+        case "distributedsystems":
+        case "rxjava":
+        case "ratpack":
             family = "AsyncDevelopment"; break;
-        case "Android" :
-        case "iOS":
+        case "android" :
+        case "ios":
             family = "Mobile"; break;
-        case "AngularJS" : 
-        case "Play" : 
-        case "Akka" : 
-        case "Vert.x" : 
-        case "Frameworks":
-        case "jBPM":
-        case "Drools":
-        case "Geb":
-        case "Spock":
-        case "Grails":
-        case "Spring":
-        case "Spring Boot":
-        case "Spring Cloud":
+        case "angularjs" : 
+        case "play" : 
+        case "akka" : 
+        case "vert.x" : 
+        case "frameworks":
+        case "jbpm":
+        case "drools":
+        case "geb":
+        case "spock":
+        case "grails":
+        case "spring":
+        case "spring boot":
+        case "spring cloud":
             family = "Frameworks"; break;
         case "community":
-        case "OpenSource":
+        case "opensource":
             family = "OpenSource"; break;
         default : family = "unknown"; 
     }
