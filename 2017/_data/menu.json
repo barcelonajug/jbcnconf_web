@@ -2,15 +2,19 @@
   "items": [
     {
       "label": "Home",
-      "href": "/#"
+      "href": "/#JBCN"
     },
     {
       "label": "Event",
-      "href": "/#Publicity"
+      "href": "/#Event"
+    },
+    {
+      "label": "Sponsors",
+      "href": "/#Sponsors"
     },
     {
       "label": "Speakers",
-      "href": "/speakers.html"
+      "href": "/#Speakers"
     },
     {
       "label": "Buy Ticket",
@@ -21,12 +25,8 @@
       "href": "/#Travel"
     },
     {
-      "label":"Call For Papers",
-      "href":"https://goo.gl/forms/RGrCs36VcfpRMHX43"
-    },
-    {
-      "label": "Sponsors",
-      "href": "/#Sponsors"
+      "label": "Call For Papers",
+      "href": "https://goo.gl/forms/RGrCs36VcfpRMHX43"
     }
   ]
 }

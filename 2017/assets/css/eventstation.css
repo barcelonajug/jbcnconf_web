@@ -1769,7 +1769,9 @@ blockquote.right {}
 }
 
 .content-heading {
-	background:#1A9ADA;
+	background: #EB3349; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #EB3349 , #F45C43); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #EB3349 , #F45C43); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color:#FFFFFF;
 	padding:20px 0px;
 	margin-bottom:70px;
@@ -1777,10 +1779,10 @@ blockquote.right {}
 
 .content-heading .heading-navigation i {
 	width: 31px;
-	height: 31px;
-	line-height: 32px;
+	height: 30px;
+	line-height: 30px;
 	padding-left: 2px;
-	color: #1A9ADA;
+	color: black;
 	font-size: 20px;
 	text-align: center;
 	background: #FFFFFF;
@@ -5855,7 +5857,7 @@ _::-ms-reveal, .speakers-widget .speaker-item-body .speaker-item-information li 
 .comments-area .comment-respond .comment-reply-title h2 {
 	font-weight: 600;
 	font-size: 15px;
-	color: #1A9ADA;
+	color: #EB3349;
 	position: relative;
 	padding: 0px 0px;
 	margin: 0px;
@@ -5885,7 +5887,9 @@ _::-ms-reveal, .speakers-widget .speaker-item-body .speaker-item-information li 
 	border-radius: 7px;
 	margin-right: 10px;
 	text-align: center;
-	background: #1A9ADA;
+	background: #EB3349; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #EB3349 , #F45C43); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #EB3349 , #F45C43); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: #FFFFFF;
 }
 
@@ -6234,7 +6238,9 @@ _::-ms-reveal, .speakers-widget .speaker-item-body .speaker-item-information li 
 }
 
 .eventstation-latest-posts-widget ul li .desc {
-	background:#1A9ADA;
+	background: #EB3349; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #EB3349 , #F45C43); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #EB3349 , #F45C43); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color:#FFFFFF;
 	padding:17px 26px 24px;
 }
@@ -6788,7 +6794,7 @@ _::-ms-reveal, .speakers-widget .speaker-item-body .speaker-item-information li 
 .category-post-list article .post-wrapper .post-header h2,
 .page-content article .page-header h2 {
 	font-size:24px;
-	color: #1A9ADA;
+	color: black;
 	margin:0px;
 	padding:0px;
 	text-transform:uppercase;

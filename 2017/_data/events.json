@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Hands-on session: TDD in Baby Steps",
+      "url": "https://www.meetup.com/BarcelonaJUG/events/238052019/",
+      "image": "/assets/img/speakers/sandro-mancuso.jpg",
+      "date": "March 08, 2017"
+    },
+    {
+      "title": "Code For Life, teaching kids to code",
+      "url": "https://www.meetup.com/BarcelonaJUG/events/237635058/",
+      "image": "/assets/img/events/code_for_life.jpeg",
+      "date": "March 01, 2017"
+    }
+  ]
+}
