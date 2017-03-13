@@ -346,7 +346,7 @@
       "talk": {
         "type": "talk",
         "title": "Spring Cloud Kubernetes",
-        "abstract": "Spring Cloud Kubernetes is an opensource project which provides Spring Cloud integration with Kubernetes. This presentation is going to be a live coding tour through all of the Spring Cloud Kubernetes features:<br/><ul style='text-align:left'><li>Service Discovery</li><li>Client side Load Balancing</li><li>Circuit Breakers</li><li>Tracing</li></ul><p class='abstract'>The presentation aims at both Spring developers that interested in making the move to Kubernetes and for Kubernetes users that are in need of a framework that can help them glue everything together and ease the burden of microservices.</p>",
+        "abstract": "Spring Cloud Kubernetes is an opensource project which provides Spring Cloud integration with Kubernetes. This presentation is going to be a live coding tour through all of the Spring Cloud Kubernetes features:<br/><ul><li>Service Discovery</li><li>Client side Load Balancing</li><li>Circuit Breakers</li><li>Tracing</li></ul><p class='abstract'>The presentation aims at both Spring developers that interested in making the move to Kubernetes and for Kubernetes users that are in need of a framework that can help them glue everything together and ease the burden of microservices.</p>",
         "tags": ["spring","cloud","kubernetes"],
         "level": "Advanced",
         "video":""
@@ -369,6 +369,27 @@
         "title": "Java + JCP + Adopt-a-JSR + You",
         "abstract": "Learn how to take part in Java technology evolution through the Java Community Process (JCP) program. You can participate as an individual, corporation, or nonprofit such as a Java user group (JUG). This session outlines why and how to participate in the JCP Program. You will also learn about the global Adoption programs and how you can participate in the programs. We will discuss details such as how to run hack days, collaborate with other JUG leads on Adopt-a-JSR activities, and review use cases from other JUGs around the world contributing to the Java EE 7 and Java SE 8 JSRs. Currently there are new JSRs being submitted and developed for the Java EE 8 and Java SE 9 platforms. Find out how you have contribute to the future editions of the Java Standard and Java Enterprise Editions.",
         "tags": ["java", "community", "opensource"],
+        "level": "Beginner",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Mark Heckler",
+      "description": "Principal Technologist/Developer Advocate at Pivotal Software, Inc.",
+      "biography": "Mark Heckler is a Pivotal Principal Technologist & Developer Advocate, conference speaker, published author & Java Champion focusing upon developing innovative production-ready software at velocity for the Cloud and IoT applications. He has worked with key players in the manufacturing, retail, medical, scientific, telecom, and financial industries and various public sector organizations to develop and deliver critical capabilities on time and on budget. Mark is an open source contributor and author/curator of a developer-focused blog (http://www.thehecklers.org) and an occasionally interesting Twitter account (@MkHeck).",
+      "image": "assets/img/speakers/mark-heckler.png",
+      "ref": "mheckler",
+      "url": "infoSpeaker.html?ref=mheckler",
+      "twitter": "https://twitter.com/mkheck",
+      "homepage": "http://www.thehecklers.org/",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Services Assemble! Apply MVP Principles to Create Cutting-Edge Microservices Without Chaos with Spring Cloud/Netflix OSS",
+        "abstract": "In this session, learn how to use proven patterns & open source software to rapidly build a robust portfolio of microservices that provide a solid foundation for your dynamic and growing microservice architecture. This session addresses vital points such as: <br/><ul><li>Configuration services</li><li>Microservice registration and discovery</li><li>Circuit breakers for graceful degradation</li><li>Load balancing and intelligent routing</li><li>Asynchronous messaging</li></ul><p class='abstract'>Additional topics discussed include logging & tracing, testing approaches, and migration patterns. The presenter will demonstrate how to develop & effectively manage microservices using OSS tools employed by Netflix to keep movies streaming globally 24x7.</p>",
+        "tags": ["Microservices", "Spring", "Spring Boot", "Netflix", "Zuul", "Devices", "asynchronous", "live code"],
         "level": "Beginner",
         "video":""
       },
