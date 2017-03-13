@@ -588,9 +588,6 @@ a:focus {
 	margin-bottom: 0;
 	font-size: 18px;
 }
-#accomodation .row{
-	margin-left:10px;
-}
 #accomodation .button{
 	margin: 10px;
 	padding-top: 8px;
@@ -669,6 +666,11 @@ a:focus {
 #talk .row{
 	margin: 0px 20px 20px 20px;
 }
+#talk .row ul {
+	text-align: left;
+	font-size: 20px;
+}
+
 #talk .title{
 	font-size: 35px;
 	font-weight:bold;

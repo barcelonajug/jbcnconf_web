@@ -346,7 +346,7 @@
       "talk": {
         "type": "talk",
         "title": "Spring Cloud Kubernetes",
-        "abstract": "Spring Cloud Kubernetes is an opensource project which provides Spring Cloud integration with Kubernetes. This presentation is going to be a live coding tour through all of the Spring Cloud Kubernetes features:<br/><ul style='text-align:left'><li>Service Discovery</li><li>Client side Load Balancing</li><li>Circuit Breakers</li><li>Tracing</li></ul><p class='abstract'>The presentation aims at both Spring developers that interested in making the move to Kubernetes and for Kubernetes users that are in need of a framework that can help them glue everything together and ease the burden of microservices.</p>",
+        "abstract": "Spring Cloud Kubernetes is an opensource project which provides Spring Cloud integration with Kubernetes. This presentation is going to be a live coding tour through all of the Spring Cloud Kubernetes features:<br/><ul><li>Service Discovery</li><li>Client side Load Balancing</li><li>Circuit Breakers</li><li>Tracing</li></ul><p class='abstract'>The presentation aims at both Spring developers that interested in making the move to Kubernetes and for Kubernetes users that are in need of a framework that can help them glue everything together and ease the burden of microservices.</p>",
         "tags": ["spring","cloud","kubernetes"],
         "level": "Advanced",
         "video":""
@@ -388,7 +388,7 @@
       "talk": {
         "type": "talk",
         "title": "Services Assemble! Apply MVP Principles to Create Cutting-Edge Microservices Without Chaos with Spring Cloud/Netflix OSS",
-        "abstract": "In this session, learn how to use proven patterns & open source software to rapidly build a robust portfolio of microservices that provide a solid foundation for your dynamic and growing microservice architecture. This session addresses vital points such as: <br/><ul style='text-align:left'><li>Configuration services</li><li>Microservice registration and discovery</li><li>Circuit breakers for graceful degradation</li><li>Load balancing and intelligent routing</li><li>Asynchronous messaging</li></ul><p class='abstract'>Additional topics discussed include logging & tracing, testing approaches, and migration patterns. The presenter will demonstrate how to develop & effectively manage microservices using OSS tools employed by Netflix to keep movies streaming globally 24x7.</p>",
+        "abstract": "In this session, learn how to use proven patterns & open source software to rapidly build a robust portfolio of microservices that provide a solid foundation for your dynamic and growing microservice architecture. This session addresses vital points such as: <br/><ul><li>Configuration services</li><li>Microservice registration and discovery</li><li>Circuit breakers for graceful degradation</li><li>Load balancing and intelligent routing</li><li>Asynchronous messaging</li></ul><p class='abstract'>Additional topics discussed include logging & tracing, testing approaches, and migration patterns. The presenter will demonstrate how to develop & effectively manage microservices using OSS tools employed by Netflix to keep movies streaming globally 24x7.</p>",
         "tags": ["Microservices", "Spring", "Spring Boot", "Netflix", "Zuul", "Devices", "asynchronous", "live code"],
         "level": "Beginner",
         "video":""
