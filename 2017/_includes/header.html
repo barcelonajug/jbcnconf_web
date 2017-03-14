@@ -26,7 +26,13 @@
                         <ul id="menu-home-1-menu" class="nav navbar-nav">
 
                             {% for menu in site.data.menu.items %}
-                            <li>
+
+                            <li
+                                    {% if menu.items %}
+                                    data-dropdown="dropdown"
+                                    class="dropdown menu-item-has-children"
+                                    {% endif %}
+                            >
                                 {% if menu.href contains "http" %}
                                 <a target="_blank"
                                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home  active"
@@ -34,27 +40,45 @@
                                     {{ menu.label }}
                                 </a>
                                 {% elsif menu.href %}
-                                <a class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home  active"
+                                <a class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home  active
+                                {% if menu.items %}
+                                   dropdown-toggle
+                                {% endif %}"
+
+
+                                   {% if menu.items %}
+                                   data-toggle="dropdown"
+                                   {% endif %}
+
                                    href="{{ base }}{{menu.href}}">
                                     {{ menu.label }}
                                 </a>
+                                {% if menu.items %}
+
+                                {% endif %}
+                                
+                                <ul role="menu" class=" dropdown-menu">
+                                    {% for child in menu.items %}
+                                    <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item">
+                                        <a href="{{ base }}{{child.href}}">{{child.label}}</a>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+
                                 {% endif %}
 
                             </li>
+
                             {% endfor %}
 
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children dropdown menu-item-13"
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children dropdown"
                                 data-dropdown="dropdown"><a href="#Contact" class="dropdown-toggle disabled" data-toggle="dropdown">Contact</a>
                                 <ul role="menu" class=" dropdown-menu">
                                     <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7 current_page_item menu-item-14 active">
-                                        <a href="{{ base }}/about.html">About Us</a></li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-396"><a
-                                            target="_blank"
-                                            href="/2016/">2016 Edition</a></li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-449"><a
-                                            target="_blank"
-                                            href="/2015/">2015 Edition</a></li>
+                                        <a href="{{ base }}/about.html">About Us</a>
+                                    </li>
                                 </ul>
                             </li>
 

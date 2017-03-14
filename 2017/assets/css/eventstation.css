@@ -1649,6 +1649,7 @@ blockquote.right {}
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+	max-height: 419px;
 }
 
 .owl-carousel .owl-item img {
@@ -3943,7 +3944,7 @@ _::-ms-reveal, .speakers-widget .speaker-item-body .speaker-item-information li 
 .counter-box .counter-box-general-wrapper .counter-box-general-content-wrapper .counter-box-general-content .counter-box-general-content-date .counter-box-general-content-date-center .counter-box-general-content-date-monthyear {
 	font-size: 40.5px;
 	line-height: 40px;
-	color: #FFFFFF;
+	color: black;
 	font-weight: 500;
 }
 
@@ -4115,7 +4116,7 @@ _::-ms-reveal, .speakers-widget .speaker-item-body .speaker-item-information li 
 }
 
 .counter-box .DateCountdown {
-	margin: 0px 0px 81px;
+	margin: 0px 20px 81px;
 	padding-top: 22px;
 }
 
@@ -4842,7 +4843,7 @@ _::-ms-reveal, .speakers-widget .speaker-item-body .speaker-item-information li 
 }
 
 .step-boxes .step-boxes-item {
-	width: 20%;
+	width: 25%;
 	float: left;
 	position: relative;
 }
@@ -6229,6 +6230,14 @@ _::-ms-reveal, .speakers-widget .speaker-item-body .speaker-item-information li 
 
 .eventstation-latest-posts-widget>ul>li {
 	margin-bottom:35px;
+}
+
+.post-content .eventstation-latest-posts-widget>ul>li{
+	width:45%;
+	margin-left:10px;
+	margin-right:10px;
+	float:left;
+	max-height: 300px !important;
 }
 
 .eventstation-latest-posts-widget>ul>li:last-child {
