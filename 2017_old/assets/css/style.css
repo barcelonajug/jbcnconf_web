@@ -588,9 +588,6 @@ a:focus {
 	margin-bottom: 0;
 	font-size: 18px;
 }
-#accomodation .row{
-	margin-left:10px;
-}
 #accomodation .button{
 	margin: 10px;
 	padding-top: 8px;
@@ -612,6 +609,7 @@ a:focus {
 	font-size : 22px;
 	font-weight: bold;
 }
+
 #accomodation .star {
 	color : #D8D820;
 }
@@ -620,10 +618,9 @@ a:focus {
 	color : #428BCA;
 }
 #accomodation img {
-	width: 260px;
+	width: 100%;
 }
 #accomodation .hotel {
-	max-width : 280px;
 	border : 1px solid ;
 	border-color: lightgrey;
 	padding: 10px;
@@ -669,6 +666,11 @@ a:focus {
 #talk .row{
 	margin: 0px 20px 20px 20px;
 }
+#talk .row ul {
+	text-align: left;
+	font-size: 20px;
+}
+
 #talk .title{
 	font-size: 35px;
 	font-weight:bold;
