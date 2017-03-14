@@ -9,6 +9,14 @@
       "href": "/#Event"
     },
     {
+      "label": "Talks",
+      "href": "/talks.html"
+    },
+    {
+      "label": "Workshops",
+      "href": "/workshops.html"
+    },
+    {
       "label": "Sponsors",
       "href": "/#Sponsors"
     },
@@ -22,7 +30,17 @@
     },
     {
       "label": "Travel",
-      "href": "/#Travel"
+      "href": "/#Travel",
+      "items": [
+        {
+          "label": "Accomodation",
+          "href": "/accomodation.html"
+        },
+        {
+          "label": "To Barcelona",
+          "href": "/travel-to-java-barcelona.html"
+        }
+      ]
     },
     {
       "label": "Venue",
