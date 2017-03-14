@@ -1649,6 +1649,7 @@ blockquote.right {}
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+	max-height: 419px;
 }
 
 .owl-carousel .owl-item img {
