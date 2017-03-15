@@ -8540,3 +8540,7 @@ _::-ms-reveal, .speakers-widget .speaker-item-body .speaker-item-information li 
 		clear: both;
 	}
 }
+
+.pricing-table-text, .pricing-table-packagename {
+	text-shadow: 1px -1px black;
+}
