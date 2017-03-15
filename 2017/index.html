@@ -23,7 +23,6 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 </style>
 
 
-
 <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1461326947361 {
     padding-right: 0px !important;
     padding-left: 0px !important;
@@ -39,7 +38,6 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
     padding-bottom: 27px !important;
 }
 
-
 .vc_custom_1461668209075 {
     padding-top: 27px !important;
     padding-bottom: 31px !important;
@@ -53,7 +51,11 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 
 .vc_custom_1461848427453 {
     padding-bottom: 35px !important;
-    background-image: url({{base}}/assets/img/homepage/counters_bg.jpg) !important;
+    background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+    ), url({{base}}/assets/img/homepage/counters_bg.jpg) !important;
+
 }
 
 .vc_custom_1461673433268 {
@@ -210,7 +212,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                     {% include homepage/tickets.html %}
                     {% include homepage/counters.html %}
                     {% include homepage/sponsors.html %}
-                    
+
                     {% include homepage/travel.html %}
                     {% include homepage/twitter.html %}
 
