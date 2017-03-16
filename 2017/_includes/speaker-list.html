@@ -1,0 +1,21 @@
+<script>
+
+    (function(global){
+        var speakers = [], currentSpeaker;
+        
+        {% for speaker in site.data.speakers.speakers %}
+        currentSpeaker = {{ speaker | jsonify }}
+        
+        if(window.location.search.indexOf(currentSpeaker.ref)!==-1){
+            speakers.push(currentSpeaker);
+        }
+        {% endfor %}
+        
+
+        global.CURRENT_SPEAKER = speakers;
+
+    }(window));
+
+
+    //don't format this file
+</script>
