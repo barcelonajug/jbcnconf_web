@@ -7,6 +7,14 @@
         "src": "/assets/img/sponsors/method_and_tools.jpg",
         "alt": "Method and Tools"
       }
+    },
+    {
+      "name": "Canoo",
+      "href": "http://www.canoo.com/",
+      "image": {
+        "src": "/assets/img/sponsors/canoo.png",
+        "alt": "Canoo"
+      }
     }
   ]
 }
