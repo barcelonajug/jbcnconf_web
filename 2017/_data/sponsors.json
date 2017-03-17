@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "name": "Barcelona JUG",
+      "href": "http://www.methodsandtools.com/",
+      "image": {
+        "src": "/assets/img/logos/logo_bicolor_blog_barcelonajug.png",
+        "alt": "Barcelona JUG"
+      }
+    },
+    {
       "name": "Method and Tools",
       "href": "http://www.methodsandtools.com/",
       "image": {
