@@ -15,18 +15,11 @@
             <div class="wpb_wrapper">
                 <div class="clients-widget">
                     <div class="owl-carousel-clients-22509910">
-                        
-                        
-                        <div class="item">
-                            <a target="_blank" href="http://barcelonajug.org" title="Barcelona JUG">
-                                <img
-                                        src="{{ base }}/assets/img/logos/logo_bicolor_blog_barcelonajug.png"
-                                        alt="Barcelona JUG"/>
-                            </a>
-                        </div>
+
+                        <!-- TODO - sponsor type differentiation, by size? -->
 
                         {% for sponsor in site.data.sponsors.items %}
-                        <div class="item">
+                        <div class="item" style="float:left;margin:10px;">
                             <a target="_blank" href="{{ sponsor.href }}" title="{{ sponsor.name }}">
                                 <img
                                         src="{{ base }}{{ sponsor.image.src }}"
@@ -38,17 +31,6 @@
 
                     </div>
                 </div>
-                <script>
-                    jQuery(document).ready(function ($) {
-                        $('.owl-carousel-clients-22509910').owlCarousel({
-                            loop: true,
-                            nav: false,
-                            margin: 70,
-                            dots: false,
-                            autoWidth: true
-                        });
-                    });
-                </script>
             </div>
         </div>
     </div>

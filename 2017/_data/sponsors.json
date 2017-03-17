@@ -1,11 +1,27 @@
 {
   "items": [
     {
+      "name": "Barcelona JUG",
+      "href": "http://www.barcelonajug.org/",
+      "image": {
+        "src": "/assets/img/logos/logo_bicolor_blog_barcelonajug.png",
+        "alt": "Barcelona JUG"
+      }
+    },
+    {
       "name": "Method and Tools",
       "href": "http://www.methodsandtools.com/",
       "image": {
         "src": "/assets/img/sponsors/method_and_tools.jpg",
         "alt": "Method and Tools"
+      }
+    },
+    {
+      "name": "Canoo",
+      "href": "http://www.canoo.com/",
+      "image": {
+        "src": "/assets/img/sponsors/canoo.png",
+        "alt": "Canoo"
       }
     }
   ]

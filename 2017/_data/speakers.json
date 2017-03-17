@@ -477,6 +477,27 @@
         "video": ""
       },
       "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Andres Almiray",
+      "description": "Java/Groovy developer",
+      "biography": "Andres is a Java/Groovy developer and a Java Champion with more than 17 years of experience in software design and development. He has been involved in web and desktop application development since the early days of Java. Andres is a true believer in open source and has participated on popular projects like Groovy, Griffon, and DbUnit, as well as starting his own projects (Json-lib, EZMorph, GraphicsBuilder, JideBuilder). Founding member of the Griffon framework and Hackergarten community event.",
+      "image": "assets/img/speakers/andres-almiray.jpg",
+      "ref": "aalmiray",
+      "url": "infoSpeaker.html?ref=aalmiray",
+      "twitter": "https://twitter.com/aalmiray",
+      "homepage": "http://andresalmiray.com",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Java Libraries You Can’t Afford to Miss",
+        "abstract": "The Java language has passed its 20th anniversary, and with it comes an incredible range of tools libraries to choose from; sometimes there are actually too many choices for the same task. This presentation covers those libraries that have risen to the top, having proved themselves to be worthy of a place in every developer’s toolbox, for both production and testing code. It also discusses some fairly new libraries that are bound to make a big impact in the ecosystem.",
+        "tags": ["Java", "opensource", "libraries"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
     }
   ]
 }
