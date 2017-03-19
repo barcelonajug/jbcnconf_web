@@ -519,6 +519,27 @@
         "video":""
       },
       "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Roland Huss",
+      "description": "Principal Software Engineer at RedHat",
+      "biography": "Dr. Roland Huß is a Principal Software Engineer at Red Hat working in the Fuse team on FIS and iPaaS. He has been developing in Java for eighteen years now but never forgot his roots as system administrator. Roland is an active Open Source contributor, lead developer of the JMX-HTTP bridge Jolokia and the popular fabric8io/docker-maven-plugin. And he loves chilli pepper.",
+      "image": "assets/img/speakers/roland-huss.jpg",
+      "ref": "roland-huss",
+      "url": "infoSpeaker.html?ref=roland-huss",
+      "twitter": "https://twitter.com/ro14nd",
+      "homepage": "https://ro14nd.de",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Docker Patterns",
+        "abstract": "It is for sure fair to claim that Docker changed the way how we develop, ship and run applications. Although everything is set for a bright future, there are still a lot of open questions. A multitude of different Docker usage patterns has been tried out. But what will survive when the gold rush is over ? This talk presents several useful Docker patterns for Java Developers focused on the categories 'Configuration', 'Service Discovery' and 'Image Building'. You will meet commonly used patterns like 'Configuration Container, 'DNS Service Lookup', 'Dockerfile Template' or the famous 'Sidecar Pattern', but also some more esoteric recipes like the 'Wormhole' pattern. Live demos explain these patterns in detail. After the session you will have a good overview about popular and useful Docker patterns that are used in the real world. ",
+        "tags": ["Docker", "Container", "Pattern", "Cloud", "DevOps"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
     }
   ]
 }
