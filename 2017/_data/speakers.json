@@ -540,6 +540,27 @@
         "video":""
       },
       "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Sebastian Daschner",
+      "description": "Java Champion",
+      "biography": "Sebastian Daschner is a Java freelancer working as a Consultant / Software Developer / Architect and is enthusiastic about programming and Java (EE). He is participating in the JCP, serving in the JSR 370 and 374 Expert Groups and hacking on various open source projects on Github. He is a Java Champion, JavaOne 2016 Rockstar and has been working with Java for more than 7 years. Besides Java, Sebastian is also a heavy user of Linux and container technologies like Docker. He evangelizes computer science practices on https://blog.sebastian-daschner.com and on Twitter via @DaschnerS. When not working with Java, he also loves to travel the world — either by plane or motorbike.",
+      "image": "assets/img/speakers/sebastian-daschner.jpg",
+      "ref": "sebastian-daschner",
+      "url": "infoSpeaker.html?ref=sebastian-daschner",
+      "twitter": "https://twitter.com/DaschnerS",
+      "homepage": "https://blog.sebastian-daschner.com",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "When, why and how to CQRS",
+        "abstract": "Most of today’s enterprise applications base on a CRUD data model that is simple and straightforward to implement. Another concept of how to model applications is Command Query Responsibility Segregation (CQRS) that enables interesting solutions and use cases, especially with rising demands of scalability. In this session I’ll show the concept and benefits of CQRS, to which other buzzwords such as eventual consistency, event-driven architectures and event sourcing it is related and how to realize a CQRS application. The questions whether this concept can be realized with Java EE technology, where the framework already offers solutions and where it has to be extended will be answered. Most of the time will be spent live-coding and examining the 'devil is in the details' cases of both approaches.",
+        "tags": ["java","architecture","microservices","event sourcing","event-driven"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
     }
   ]
 }
