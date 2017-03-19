@@ -498,6 +498,48 @@
         "video":""
       },
       "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Bastian Hofman",
+      "description": "Software Engineer at ResearchGate",
+      "biography": "Bastian works as a Software Engineer at ResearchGate, the social network for researchers and scientists. There he is caring about performance, monitoring, web-security and developer productivity. When he is not developing stuff or looking at graphs, he frequently speaks at international conferences on software architecture, scaling web applications and open standards and protocols.",
+      "image": "assets/img/speakers/bastian-hofman.jpg",
+      "ref": "bastian-hofman",
+      "url": "infoSpeaker.html?ref=bastian-hofman",
+      "twitter": "https://twitter.com/BastianHofmann",
+      "homepage": "",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Elastic scaling with Kubernetes in a (micro)service oriented architecture",
+        "abstract": "Splitting an application up into multiple independent services can be a good way to keep it scaling and ensure stability and developer productivity in larger, growing teams. But just splitting the codebase, creating APIs and deploying the code on some servers is not enough, somehow your services need to know where and how other services are accessible. Classical approaches like hardcoding everything in every service or having a central load-balancer can quickly lead to problems in terms of scalability and maintainability. In this talk I'll show how we at ResearchGate tackled this challenge. With the help of tools like Consul, linkerd and Kubernetes we created a setup that allows us to quickly boot and shutdown services. This ensures that all servers are utilized optimally and load spikes can be reacted upon quickly and automatically.",
+        "tags": ["Kubernetes","Microservices","Devops"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Roland Huss",
+      "description": "Principal Software Engineer at RedHat",
+      "biography": "Dr. Roland Huß is a Principal Software Engineer at Red Hat working in the Fuse team on FIS and iPaaS. He has been developing in Java for eighteen years now but never forgot his roots as system administrator. Roland is an active Open Source contributor, lead developer of the JMX-HTTP bridge Jolokia and the popular fabric8io/docker-maven-plugin. And he loves chilli pepper.",
+      "image": "assets/img/speakers/roland-huss.jpg",
+      "ref": "roland-huss",
+      "url": "infoSpeaker.html?ref=roland-huss",
+      "twitter": "https://twitter.com/ro14nd",
+      "homepage": "https://ro14nd.de",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Docker Patterns",
+        "abstract": "It is for sure fair to claim that Docker changed the way how we develop, ship and run applications. Although everything is set for a bright future, there are still a lot of open questions. A multitude of different Docker usage patterns has been tried out. But what will survive when the gold rush is over ? This talk presents several useful Docker patterns for Java Developers focused on the categories 'Configuration', 'Service Discovery' and 'Image Building'. You will meet commonly used patterns like 'Configuration Container, 'DNS Service Lookup', 'Dockerfile Template' or the famous 'Sidecar Pattern', but also some more esoteric recipes like the 'Wormhole' pattern. Live demos explain these patterns in detail. After the session you will have a good overview about popular and useful Docker patterns that are used in the real world. ",
+        "tags": ["Docker", "Container", "Pattern", "Cloud", "DevOps"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
     }
   ]
 }
