@@ -8547,3 +8547,8 @@ _::-ms-reveal, .speakers-widget .speaker-item-body .speaker-item-information li 
 .pricing-table-text, .pricing-table-packagename {
 	text-shadow: 1px -1px black;
 }
+.btn-jbcn{
+	background: #EB3349; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #EB3349 , #F45C43); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #EB3349 , #F45C43); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
