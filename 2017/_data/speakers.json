@@ -561,6 +561,27 @@
         "video":""
       },
       "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Jacek Kunicki",
+      "description": "Passionate software engineer",
+      "biography": "I'm a passionate software engineer living in the JVM land - mainly, but not limited to. I also tend to play with electronics and hardware. When sharing my knowlegde, I always keep in mind that a working example is worth a thousand words.",
+      "image": "assets/img/speakers/jacek-kunicki.jpg",
+      "ref": "jacek-kunicki",
+      "url": "infoSpeaker.html?ref=jacek-kunicki",
+      "twitter": "https://twitter.com/rucek",
+      "homepage": "http://blog.kunicki.org/",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Tame Your Data with Akka Streams and Java 8",
+        "abstract": "Stream processing is a hot topic today and it’s easy to get lost among all the possibilities. In this live coding session we will explore the Reactive Streams approach used by the Akka Streams project. On an almost real-life example we’re going to walk through both the basics and some more advanced usages of the library. And if you thought Akka Streams was a Scala library, come to learn the nice Java API and see how wrong you were.",
+        "tags": ["reactive streams", "akka streams", "stream processing", "java 8"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
     }
   ]
 }
