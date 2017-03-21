@@ -582,6 +582,47 @@
         "video":""
       },
       "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Schalk Cronjé",
+      "description": "Creator of Groovy-VFS",
+      "biography": "Schalk Cronjé’s experience in the software industry spans three decades and has performed most roles in software delivery. He believes that both software engineering and craftsmanship is important for the industry and that both disciplines should be taught to achieve holism in technology delivery. He also understands that there is a strong relationship between the modern software techniques that are used and the signature skills of people and these should be aligned for effective delivery. He is also a strong advocate of using systems thinking, holistic stakeholder analysis and impact mapping. He keeps his technical skills fit by frequent contributions to various open-source projects. He is the creator of Groovy-VFS as well a maintainer of various Gradle plugins including for JRuby, GMake, Doxygen and more. He is a regular speaker on various software delivery techniques across Europe and in the UK, USA, India and South Africa. He currently serves as a steering committee member of the Agile Testing Alliance. He is also the author of “Idiomatic Gradle: 25 recipes for plugin authors” and is currently working on Vol 2.",
+      "image": "assets/img/speakers/schalk-cronje.jpg",
+      "ref": "schalk-cronje",
+      "url": "infoSpeaker.html?ref=schalk-cronje",
+      "twitter": "https://twitter.com/ysb33r",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Trials & Tribulations of Java NIO2 Providers",
+        "abstract": "Java NIO2 has been around since JDK7, yet we have not seen any real libraries from virtual file system support. It is totally possible to simplify service access such as classic FTP or SFTP or modern cloud services such as S3 or Dropbox using NIO2 yet does not exist. This talk will explore a very useful predecessor, Apache Commons VFS2 as well as my own Groovy VFS library. We'll then look at what is required to make real providers for virtual system using NIO2. We'll explore the various interfaces and the complexity of writing such providers. The hope is that this will be a useful substitute for the complete lack of any useful documentation of the subject and will inspire people to contribute their own providers.",
+        "tags": ["java", "groovy", "Apache commons", "NIO2"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Ivar Grimstad",
+      "description": "Java Champion",
+      "biography": "Ivar Grimstad is a Java Champion, JUG Leader and software architect focusing on Enterprise Java. He is participating in the Java Community Process as a member of the Executive Committee, Spec Lead for JSR 371 (MVC 1.0) and Expert Group Member for JSR 375 (Java EE Security API). He is also a member of the NetBeans Dream Team. Ivar is a frequent speaker at international developer conferences.",
+      "image": "assets/img/speakers/ivar-grimstad.jpg",
+      "ref": "ivar-grimstad",
+      "url": "infoSpeaker.html?ref=ivar-grimstad",
+      "twitter": "https://twitter.com/ivar_grimstad",
+      "homepage": "http://www.agilejava.eu",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "MicroProfile - by Example",
+        "abstract": "Architectures based on microservices introduce new challenges for architects and developers. An ever-increasing list of languages and tools brings with it the capabilities to conquer this challenge. Java is no exception. The latest addition in this area is the http://microprofile.io initiative. In this session, we will explore different approaches to building microservices using the Java ecosystem and compare them to using Microprofile.io. Strategies for building microservices with Java that are presented will be compared and demoed in live coding demos. The demos will include technologies such as Java, Java EE, microprofile.io, Docker and more.",
+        "tags": ["JavaEE","MicroProfile","Microservices"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
     }
   ]
 }
