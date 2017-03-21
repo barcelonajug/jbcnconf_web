@@ -623,6 +623,48 @@
         "video":""
       },
       "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Jeroen Resoort",
+      "description": "Java Consultant at JDriven",
+      "biography": "Jeroen Resoort is a Java Consultant at JDriven. He has over 10 years of experience writing enterprise applications. He is passionate about writing good code, learning new technologies and sharing his knowledge with others.",
+      "image": "assets/img/speakers/jeroen-resoort.jpg",
+      "ref": "jeroen-resoort",
+      "url": "infoSpeaker.html?ref=jeroen-resoort",
+      "twitter": "https://twitter.com/JeroenResoort",
+      "homepage": "https://blog.jdriven.com/author/jeroen-resoort/",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Mission to Mars: Exploring new worlds with AWS IoT",
+        "abstract": "Would you like to explore new worlds with your connected devices? In this presentation we will build a simple robot and connect to it remotely, receiving data and sending instructions over the internet. Just like the Pathfinder spacecraft and its Sojourner Mars rover, our little robot will boldly travel into uncharted territory. In a live demo, our robot will explore the session room and transmit all kinds of sensor data. We will visualise that data in a web UI. With the Mars robot use case, we explore the capabilities of the Amazon IoT platform. AWS IoT comes with easy to use APIs and arranges secure communication with our robot. It also provides neat features like a rules engine and ‘device shadow’. Even when our robot is offline, device shadow makes it very easy to retrieve its latest status. And last but not least, for small scale use, AWS IoT is free to try out. Are you curious about how to connect your devices to the cloud? Take this journey and find out if this mission will lead to new discoveries.",
+        "tags": ["IoT","Robot"],
+        "level": "Beginner",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Daniel Lebrero",
+      "description": "Technical architect at fin-tech IG",
+      "biography": "Daniel Lebrero is a technical architect with more than 15 years of software development experience. He works at the fin-tech IG, where he is involved in architecting the web platform, the analytics website and the big data solution. A long time Java practitioner, he now also loves ().",
+      "image": "assets/img/speakers/daniel-lebrero.jpg",
+      "ref": "daniel-lebrero",
+      "url": "infoSpeaker.html?ref=daniel-lebrero",
+      "twitter": "https://twitter.com/DanLebrero",
+      "homepage": "http://danlebrero.com",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Applying stability patterns: a case study",
+        "abstract": "We all know how painful is to be paged at 3 am because the site is not responding. Netflix has made popular the Circuit Breaker pattern, but that is just one of the stability patterns of Michael Nygard's 'Release it!' book. On this presentation, you will learn each of the stability patterns found in the 'Release it!' book and we will look at practical examples of how they were applied while building a Java based system that integrates and mash up information from more than twenty different sources, some of them quite unreliable.",
+        "tags": ["StabilityPatterns"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
     }
   ]
 }
