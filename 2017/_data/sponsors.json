@@ -17,7 +17,16 @@
         "src": "/assets/img/sponsors/everis-logo.png",
         "alt": "Everis - an NTT Data Company"
       }
+    },
+    {
+      "name": "OpenTrends",
+      "href": "http://opentrends.net/",
+      "image": {
+        "src": "/assets/img/sponsors/opentrends-logo.png",
+        "alt": "OpenTrends"
+      }
     }
+    
   ],
   "silver": [
     {
@@ -27,9 +36,50 @@
         "src": "/assets/img/sponsors/opentrends-logo.png",
         "alt": "OpenTrends"
       }
+    },
+    {
+      "name": "Netcentric",
+      "href": "https://netcentric.biz",
+      "image": {
+        "src": "/assets/img/sponsors/netcentric-logo.png",
+        "alt": "Netcentric - Expect Excellence"
+      }
+    },
+    {
+      "name": "Everis",
+      "href": "http://www.everis.com/",
+      "image": {
+        "src": "/assets/img/sponsors/everis-logo.png",
+        "alt": "Everis - an NTT Data Company"
+      }
     }
   ],
   "bronze": [
+    {
+      "name": "Everis",
+      "href": "http://www.everis.com/",
+      "image": {
+        "src": "/assets/img/sponsors/everis-logo.png",
+        "alt": "Everis - an NTT Data Company"
+      }
+    },
+    {
+      "name": "OpenTrends",
+      "href": "http://opentrends.net/",
+      "image": {
+        "src": "/assets/img/sponsors/opentrends-logo.png",
+        "alt": "OpenTrends"
+      }
+    },
+    {
+      "name": "Netcentric",
+      "href": "https://netcentric.biz",
+      "image": {
+        "src": "/assets/img/sponsors/netcentric-logo.png",
+        "alt": "Netcentric - Expect Excellence"
+      }
+    },
+    
   ],
   "supporters": [
     {
