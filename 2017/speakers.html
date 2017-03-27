@@ -25,7 +25,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 <div class="site-sub-content clearfix">
     <div class="container-fluid">
         <div class="row alternative-row">
-            <div class="col-lg-9 col-sm-9 col-xs-12 site-content-left">
+            <div class="col-lg-12 col-sm-12 col-xs-12 site-content-left">
                 <div class="category-post-list post-list single-list">
                     <article id="post-294"
                              class="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
@@ -37,12 +37,15 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                 <h2></h2>
                                 <p>
                                     Topics are related to the Java World and related technologies: <br/>
-                                    #Java #JVM langs (Scala/Cloujure/Groovy/Kotlin ...) <br/> #Functional Programming #Microservices #Docker #Kubernetes #Mesos #Marathon #JavaFX #DevOps #Testing #DDD #TDD #CI #CD #noSQL #SOA #Cloud #Mobile #Integration #Architecture #Scalability #IoT #Actors #Concurrency. <br/>
-                                    The call for papers will be open until 1st of May. Due to the number of proposals we are receiving, the CFP may close earlier.
+                                    #Java #JVM langs (Scala/Cloujure/Groovy/Kotlin ...) <br/> #Functional Programming #Microservices #Docker
+                                    #Kubernetes #Mesos #Marathon #JavaFX #DevOps #Testing #DDD #TDD #CI #CD #noSQL #SOA #Cloud #Mobile #Integration
+                                    #Architecture #Scalability #IoT #Actors #Concurrency. <br/>
+                                    The call for papers will be open until 1st of May. Due to the number of proposals we are receiving, the CFP may
+                                    close earlier.
                                 </p>
 
 
-                                <div class="speakers-widget speakers-widget-344564632 animate anim-fadeInUp">
+                                <div class="speakers-widget animate anim-fadeInUp">
 
 
                                     {% for speaker in site.data.speakers.speakers %}
@@ -92,9 +95,6 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                         </div>
                     </article>
                 </div>
-            </div>
-            <div class="col-lg-3 col-sm-3 col-xs-12 site-content-right rightsidebar fixedrightSidebar">
-                {% include recent-events.html %}
             </div>
 
         </div>

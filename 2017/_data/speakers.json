@@ -279,7 +279,7 @@
     {
       "enabled": "1",
       "name": "Michal Matloka",
-      "description": "CEOs at SoftwareMill",
+      "description": "1 of 40 CEOs at SoftwareMill",
       "biography": "Through his career Michał worked with C, Java, forgotten lands of Java EE, Spring, Scala and Big data. He committed a crime of writing a Java EE book, which may hunt him for the rest of his life. He is an open source contributor and a winner of the JBoss Community Recognition Award in 2013 for his contributions to ShrinkWrap. He is currently one of the 40 CEOs at SoftwareMill, a fully distributed company with no main office and a completely flat organization structure. He presented on GeeCON Kraków & Prague, Devoxx Poland, JDD, Confitura and other events.",
       "image": "assets/img/speakers/michal-matloka.jpg",
       "ref": "mmatloka",
@@ -557,6 +557,152 @@
         "title": "When, why and how to CQRS",
         "abstract": "Most of today’s enterprise applications base on a CRUD data model that is simple and straightforward to implement. Another concept of how to model applications is Command Query Responsibility Segregation (CQRS) that enables interesting solutions and use cases, especially with rising demands of scalability. In this session I’ll show the concept and benefits of CQRS, to which other buzzwords such as eventual consistency, event-driven architectures and event sourcing it is related and how to realize a CQRS application. The questions whether this concept can be realized with Java EE technology, where the framework already offers solutions and where it has to be extended will be answered. Most of the time will be spent live-coding and examining the 'devil is in the details' cases of both approaches.",
         "tags": ["java","architecture","microservices","event sourcing","event-driven"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Jacek Kunicki",
+      "description": "Passionate software engineer",
+      "biography": "I'm a passionate software engineer living in the JVM land - mainly, but not limited to. I also tend to play with electronics and hardware. When sharing my knowlegde, I always keep in mind that a working example is worth a thousand words.",
+      "image": "assets/img/speakers/jacek-kunicki.jpg",
+      "ref": "jacek-kunicki",
+      "url": "infoSpeaker.html?ref=jacek-kunicki",
+      "twitter": "https://twitter.com/rucek",
+      "homepage": "http://blog.kunicki.org/",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Tame Your Data with Akka Streams and Java 8",
+        "abstract": "Stream processing is a hot topic today and it’s easy to get lost among all the possibilities. In this live coding session we will explore the Reactive Streams approach used by the Akka Streams project. On an almost real-life example we’re going to walk through both the basics and some more advanced usages of the library. And if you thought Akka Streams was a Scala library, come to learn the nice Java API and see how wrong you were.",
+        "tags": ["reactive streams", "akka streams", "stream processing", "java 8"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Schalk Cronjé",
+      "description": "Creator of Groovy-VFS",
+      "biography": "Schalk Cronjé’s experience in the software industry spans three decades and has performed most roles in software delivery. He believes that both software engineering and craftsmanship is important for the industry and that both disciplines should be taught to achieve holism in technology delivery. He also understands that there is a strong relationship between the modern software techniques that are used and the signature skills of people and these should be aligned for effective delivery. He is also a strong advocate of using systems thinking, holistic stakeholder analysis and impact mapping. He keeps his technical skills fit by frequent contributions to various open-source projects. He is the creator of Groovy-VFS as well a maintainer of various Gradle plugins including for JRuby, GMake, Doxygen and more. He is a regular speaker on various software delivery techniques across Europe and in the UK, USA, India and South Africa. He currently serves as a steering committee member of the Agile Testing Alliance. He is also the author of “Idiomatic Gradle: 25 recipes for plugin authors” and is currently working on Vol 2.",
+      "image": "assets/img/speakers/schalk-cronje.jpg",
+      "ref": "schalk-cronje",
+      "url": "infoSpeaker.html?ref=schalk-cronje",
+      "twitter": "https://twitter.com/ysb33r",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Trials & Tribulations of Java NIO2 Providers",
+        "abstract": "Java NIO2 has been around since JDK7, yet we have not seen any real libraries from virtual file system support. It is totally possible to simplify service access such as classic FTP or SFTP or modern cloud services such as S3 or Dropbox using NIO2 yet does not exist. This talk will explore a very useful predecessor, Apache Commons VFS2 as well as my own Groovy VFS library. We'll then look at what is required to make real providers for virtual system using NIO2. We'll explore the various interfaces and the complexity of writing such providers. The hope is that this will be a useful substitute for the complete lack of any useful documentation of the subject and will inspire people to contribute their own providers.",
+        "tags": ["java", "groovy", "Apache commons", "NIO2"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Ivar Grimstad",
+      "description": "Java Champion",
+      "biography": "Ivar Grimstad is a Java Champion, JUG Leader and software architect focusing on Enterprise Java. He is participating in the Java Community Process as a member of the Executive Committee, Spec Lead for JSR 371 (MVC 1.0) and Expert Group Member for JSR 375 (Java EE Security API). He is also a member of the NetBeans Dream Team. Ivar is a frequent speaker at international developer conferences.",
+      "image": "assets/img/speakers/ivar-grimstad.jpg",
+      "ref": "ivar-grimstad",
+      "url": "infoSpeaker.html?ref=ivar-grimstad",
+      "twitter": "https://twitter.com/ivar_grimstad",
+      "homepage": "http://www.agilejava.eu",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "MicroProfile - by Example",
+        "abstract": "Architectures based on microservices introduce new challenges for architects and developers. An ever-increasing list of languages and tools brings with it the capabilities to conquer this challenge. Java is no exception. The latest addition in this area is the http://microprofile.io initiative. In this session, we will explore different approaches to building microservices using the Java ecosystem and compare them to using Microprofile.io. Strategies for building microservices with Java that are presented will be compared and demoed in live coding demos. The demos will include technologies such as Java, Java EE, microprofile.io, Docker and more.",
+        "tags": ["JavaEE","MicroProfile","Microservices"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Jeroen Resoort",
+      "description": "Java Consultant at JDriven",
+      "biography": "Jeroen Resoort is a Java Consultant at JDriven. He has over 10 years of experience writing enterprise applications. He is passionate about writing good code, learning new technologies and sharing his knowledge with others.",
+      "image": "assets/img/speakers/jeroen-resoort.jpg",
+      "ref": "jeroen-resoort",
+      "url": "infoSpeaker.html?ref=jeroen-resoort",
+      "twitter": "https://twitter.com/JeroenResoort",
+      "homepage": "https://blog.jdriven.com/author/jeroen-resoort/",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Mission to Mars: Exploring new worlds with AWS IoT",
+        "abstract": "Would you like to explore new worlds with your connected devices? In this presentation we will build a simple robot and connect to it remotely, receiving data and sending instructions over the internet. Just like the Pathfinder spacecraft and its Sojourner Mars rover, our little robot will boldly travel into uncharted territory. In a live demo, our robot will explore the session room and transmit all kinds of sensor data. We will visualise that data in a web UI. With the Mars robot use case, we explore the capabilities of the Amazon IoT platform. AWS IoT comes with easy to use APIs and arranges secure communication with our robot. It also provides neat features like a rules engine and ‘device shadow’. Even when our robot is offline, device shadow makes it very easy to retrieve its latest status. And last but not least, for small scale use, AWS IoT is free to try out. Are you curious about how to connect your devices to the cloud? Take this journey and find out if this mission will lead to new discoveries.",
+        "tags": ["IoT","Robot"],
+        "level": "Beginner",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Daniel Lebrero",
+      "description": "Technical architect at fin-tech IG",
+      "biography": "Daniel Lebrero is a technical architect with more than 15 years of software development experience. He works at the fin-tech IG, where he is involved in architecting the web platform, the analytics website and the big data solution. A long time Java practitioner, he now also loves ().",
+      "image": "assets/img/speakers/daniel-lebrero.jpg",
+      "ref": "daniel-lebrero",
+      "url": "infoSpeaker.html?ref=daniel-lebrero",
+      "twitter": "https://twitter.com/DanLebrero",
+      "homepage": "http://danlebrero.com",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Applying stability patterns: a case study",
+        "abstract": "We all know how painful is to be paged at 3 am because the site is not responding. Netflix has made popular the Circuit Breaker pattern, but that is just one of the stability patterns of Michael Nygard's 'Release it!' book. On this presentation, you will learn each of the stability patterns found in the 'Release it!' book and we will look at practical examples of how they were applied while building a Java based system that integrates and mash up information from more than twenty different sources, some of them quite unreliable.",
+        "tags": ["StabilityPatterns"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Carlos Cornejo",
+      "description": "Software Craftsman at atSistemas",
+      "biography": "Software Craftsman, Life-long learner, Java architect wannabe. In love with TDD and BDD. DevOps and cloud-based architectures advocate. Big on CI/CD with docker.",
+      "image": "assets/img/speakers/carlos-cornejo.jpg",
+      "ref": "carlos-cornejo",
+      "url": "infoSpeaker.html?ref=carlos-cornejo",
+      "twitter": "",
+      "homepage": "",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "workshop",
+        "title": "Fully-automated CI stack to improve time-to-market using Docker and friends",
+        "abstract": "Developers nowadays are very comfortable with software life cycle management and ceremonies around agile methodologies but the reality is that every time we need to setup a CI environment from scratch there is always struggling and suffering involved. Also the resulting environment due to its moving parts requires to have a solid mechanism to trace logs and metrics as liaising with sysadmins is out of the equation. We propose a solution that aims at minimising the time-to-market by providing an ecosystem that is able to help developers and QA ́s to deliver fast and quality code focusing on coding itself and not in the infrastructure or the setting up of the environment required. In this workshop we'll introduce how at atSistemas we tackle this problem by providing a fully-automated open-sourced CI stack where containers are first-class citizens. In the session we´ll talk about docker, Gitlab, Jenkins, SonarQube, Nexus, Selenium, Kubernetes, Graylog and Prometheus among others. We'll also cover and apply some common quality standards in the building stages, run all sort of tests, promote images, orchestrate deployments and monitoring logs and metrics.",
+        "tags": ["Docker", "Continuous Integration"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Philipp Krenn",
+      "description": "Developer Advocate at Elastic",
+      "biography": "Philipp is part of the infrastructure team and a Developer Advocate at Elastic, spreading the love and knowledge of full-text search, analytics, and real-time data. He is a frequent speaker at conferences and meetups about all things search & analytics, databases, cloud computing, and devops. Philipp lives in Vienna where he enjoys experimenting with software, organizing meetups, and sports.",
+      "image": "assets/img/speakers/philipp-krenn.jpg",
+      "ref": "philipp-krenn",
+      "url": "infoSpeaker.html?ref=philipp-krenn",
+      "twitter": "",
+      "homepage": "",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Monitor Your Containers",
+        "abstract": "Containers are quickly gaining popularity as the preferred tool for deploying and running services. While being easier to deploy and isolate, containerized applications are creating new challenges for the logging and monitoring systems. This talk looks into the details about how the Elastic Stack, and in particular Beats — lightweight shippers — are gathering data from containers. The session shows our way to: fetch logs from containers, collect different measurements from cgroups, collect metrics using the Docker API, enhance the data with the metadata of the containers, monitor the network traffic exchanged between containers, collect metrics from the underlying host. We conclude the talk with a live demo of all the components in action.",
+        "tags": ["Docker", "Elastic", "Beats", "Monitoring"],
         "level": "Intermediate",
         "video":""
       },
