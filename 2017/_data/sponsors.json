@@ -1,5 +1,37 @@
 {
-  "items": [
+  "diamond": [
+  ],
+  "gold": [
+    {
+      "name": "Netcentric",
+      "href": "https://netcentric.biz",
+      "image": {
+        "src": "/assets/img/sponsors/netcentric-logo.png",
+        "alt": "Netcentric - Expect Excellence"
+      }
+    },
+    {
+      "name": "Everis",
+      "href": "http://www.everis.com/",
+      "image": {
+        "src": "/assets/img/sponsors/everis-logo.png",
+        "alt": "Everis - an NTT Data Company"
+      }
+    }
+  ],
+  "silver": [
+    {
+      "name": "OpenTrends",
+      "href": "http://opentrends.net/",
+      "image": {
+        "src": "/assets/img/sponsors/opentrends-logo.png",
+        "alt": "OpenTrends"
+      }
+    }
+  ],
+  "bronze": [
+  ],
+  "supporters": [
     {
       "name": "Barcelona JUG",
       "href": "http://www.barcelonajug.org/",
