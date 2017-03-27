@@ -52,6 +52,14 @@
         "src": "/assets/img/sponsors/everis-logo.png",
         "alt": "Everis - an NTT Data Company"
       }
+    },
+    {
+      "name": "Everis",
+      "href": "http://www.everis.com/",
+      "image": {
+        "src": "/assets/img/sponsors/everis-logo.png",
+        "alt": "Everis - an NTT Data Company"
+      }
     }
   ],
   "bronze": [
@@ -79,6 +87,14 @@
         "alt": "Netcentric - Expect Excellence"
       }
     },
+    {
+      "name": "Everis",
+      "href": "http://www.everis.com/",
+      "image": {
+        "src": "/assets/img/sponsors/everis-logo.png",
+        "alt": "Everis - an NTT Data Company"
+      }
+    }
     
   ],
   "supporters": [
@@ -104,6 +120,14 @@
       "image": {
         "src": "/assets/img/sponsors/canoo.png",
         "alt": "Canoo"
+      }
+    },
+    {
+      "name": "Everis",
+      "href": "http://www.everis.com/",
+      "image": {
+        "src": "/assets/img/sponsors/everis-logo.png",
+        "alt": "Everis - an NTT Data Company"
       }
     }
   ]
