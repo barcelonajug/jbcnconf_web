@@ -56,56 +56,7 @@
                 </a>
 
             </div>
-
-
-            <script>
-
-
-                jQuery(document).ready(function ($) {
-
-                    $.fn.randomize = function (selector) {
-                        var $elems = selector ? $(this).find(selector) : $(this).children(),
-                                $parents = $elems.parent();
-
-                        $parents.each(function () {
-                            $(this).children(selector).sort(function () {
-                                return Math.round(Math.random()) - 0.5;
-                                // }). remove().appendTo(this); // 2014-05-24: Removed `random` but leaving for reference. See notes under 'ANOTHER EDIT'
-                            }).detach().appendTo(this);
-                        });
-
-                        return this;
-                    };
-
-
-                    $('.speakers-widget-344564632').randomize(".item");
-
-                    $('.speakers-widget-344564632').owlCarousel({
-                        loop: true,
-                        nav: false,
-                        margin: 45,
-                        dots: true,
-                        responsive: {
-                            0: {
-                                items: 1
-                            },
-                            768: {
-                                items: 2
-                            },
-                            1000: {
-                                items: 3
-                            },
-                            1300: {
-                                items: 4
-                            },
-                            1600: {
-                                items: 5
-                            }
-                        }
-                    });
-                });
-            </script>
-
+            
         </div>
     </div>
 </div>
