@@ -2,6 +2,14 @@
   "diamond": [
   ],
   "gold": [
+    {
+      "name": "Adaptive",
+      "href": "http://weareadaptive.com",
+      "image": {
+        "src": "/assets/img/sponsors/adaptive-logo.png",
+        "alt": "Adaptive"
+      }
+    }
   ],
   "silver": [
   ],
