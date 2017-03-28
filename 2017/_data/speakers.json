@@ -279,7 +279,7 @@
     {
       "enabled": "1",
       "name": "Michal Matloka",
-      "description": "CEOs at SoftwareMill",
+      "description": "1 of 40 CEOs at SoftwareMill",
       "biography": "Through his career Michał worked with C, Java, forgotten lands of Java EE, Spring, Scala and Big data. He committed a crime of writing a Java EE book, which may hunt him for the rest of his life. He is an open source contributor and a winner of the JBoss Community Recognition Award in 2013 for his contributions to ShrinkWrap. He is currently one of the 40 CEOs at SoftwareMill, a fully distributed company with no main office and a completely flat organization structure. He presented on GeeCON Kraków & Prague, Devoxx Poland, JDD, Confitura and other events.",
       "image": "assets/img/speakers/michal-matloka.jpg",
       "ref": "mmatloka",
@@ -661,6 +661,48 @@
         "title": "Applying stability patterns: a case study",
         "abstract": "We all know how painful is to be paged at 3 am because the site is not responding. Netflix has made popular the Circuit Breaker pattern, but that is just one of the stability patterns of Michael Nygard's 'Release it!' book. On this presentation, you will learn each of the stability patterns found in the 'Release it!' book and we will look at practical examples of how they were applied while building a Java based system that integrates and mash up information from more than twenty different sources, some of them quite unreliable.",
         "tags": ["StabilityPatterns"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Carlos Cornejo",
+      "description": "Software Craftsman at atSistemas",
+      "biography": "Software Craftsman, Life-long learner, Java architect wannabe. In love with TDD and BDD. DevOps and cloud-based architectures advocate. Big on CI/CD with docker.",
+      "image": "assets/img/speakers/carlos-cornejo.jpg",
+      "ref": "carlos-cornejo",
+      "url": "infoSpeaker.html?ref=carlos-cornejo",
+      "twitter": "",
+      "homepage": "",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "workshop",
+        "title": "Fully-automated CI stack to improve time-to-market using Docker and friends",
+        "abstract": "Developers nowadays are very comfortable with software life cycle management and ceremonies around agile methodologies but the reality is that every time we need to setup a CI environment from scratch there is always struggling and suffering involved. Also the resulting environment due to its moving parts requires to have a solid mechanism to trace logs and metrics as liaising with sysadmins is out of the equation. We propose a solution that aims at minimising the time-to-market by providing an ecosystem that is able to help developers and QA ́s to deliver fast and quality code focusing on coding itself and not in the infrastructure or the setting up of the environment required. In this workshop we'll introduce how at atSistemas we tackle this problem by providing a fully-automated open-sourced CI stack where containers are first-class citizens. In the session we´ll talk about docker, Gitlab, Jenkins, SonarQube, Nexus, Selenium, Kubernetes, Graylog and Prometheus among others. We'll also cover and apply some common quality standards in the building stages, run all sort of tests, promote images, orchestrate deployments and monitoring logs and metrics.",
+        "tags": ["Docker", "Continuous Integration"],
+        "level": "Intermediate",
+        "video":""
+      },
+      "scheduleId": ""
+    },
+    {
+      "enabled":"1",
+      "name": "Philipp Krenn",
+      "description": "Developer Advocate at Elastic",
+      "biography": "Philipp is part of the infrastructure team and a Developer Advocate at Elastic, spreading the love and knowledge of full-text search, analytics, and real-time data. He is a frequent speaker at conferences and meetups about all things search & analytics, databases, cloud computing, and devops. Philipp lives in Vienna where he enjoys experimenting with software, organizing meetups, and sports.",
+      "image": "assets/img/speakers/philipp-krenn.jpg",
+      "ref": "philipp-krenn",
+      "url": "infoSpeaker.html?ref=philipp-krenn",
+      "twitter": "",
+      "homepage": "",
+      "hasMoreTalks": "0",
+      "talk": {
+        "type": "talk",
+        "title": "Monitor Your Containers",
+        "abstract": "Containers are quickly gaining popularity as the preferred tool for deploying and running services. While being easier to deploy and isolate, containerized applications are creating new challenges for the logging and monitoring systems. This talk looks into the details about how the Elastic Stack, and in particular Beats — lightweight shippers — are gathering data from containers. The session shows our way to: fetch logs from containers, collect different measurements from cgroups, collect metrics using the Docker API, enhance the data with the metadata of the containers, monitor the network traffic exchanged between containers, collect metrics from the underlying host. We conclude the talk with a live demo of all the components in action.",
+        "tags": ["Docker", "Elastic", "Beats", "Monitoring"],
         "level": "Intermediate",
         "video":""
       },

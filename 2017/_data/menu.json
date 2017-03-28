@@ -22,7 +22,13 @@
     },
     {
       "label": "Speakers",
-      "href": "/#Speakers"
+      "href": "/#Speakers",
+      "items": [
+        {
+          "label": "One Page List",
+          "href": "/speakers.html"
+        }
+      ]
     },
     {
       "label": "Buy Ticket",
