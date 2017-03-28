@@ -112,15 +112,21 @@
             <div class="col-lg-4 col-md-4 hidden-xs">
                 <h2>Our sponsors:</h2>
                 {% for sponsor in site.data.sponsors.gold %}
-                <img style="float:left" width="160" src="{{ base }}{{ sponsor.image.src }}"/>
+                <a  target="_blank" href="{{sponsor.href}}">
+                    <img style="float:left" width="160" src="{{ base }}{{ sponsor.image.src }}"/>
+                </a>
                 {% endfor %}
                 <span class="clearfix"></span><br/>
                 {% for sponsor in site.data.sponsors.silver %}
-                <img style="float:left" width="130" src="{{ base }}{{ sponsor.image.src }}"/>
+                <a target="_blank"  href="{{sponsor.href}}">
+                    <img style="float:left" width="130" src="{{ base }}{{ sponsor.image.src }}"/>
+                </a>
                 {% endfor %}
                 <span class="clearfix"></span><br/>
                 {% for sponsor in site.data.sponsors.bronze %}
-                <img style="float:left" width="80" src="{{ base }}{{ sponsor.image.src }}"/>
+                <a target="_blank"  href="{{sponsor.href}}">
+                    <img style="float:left" width="80" src="{{ base }}{{ sponsor.image.src }}"/>
+                </a>
                 {% endfor %}
             </div>
 
