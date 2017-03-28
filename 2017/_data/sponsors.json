@@ -3,99 +3,17 @@
   ],
   "gold": [
     {
-      "name": "Netcentric",
-      "href": "https://netcentric.biz",
+      "name": "Adaptive",
+      "href": "http://weareadaptive.com",
       "image": {
-        "src": "/assets/img/sponsors/netcentric-logo.png",
-        "alt": "Netcentric - Expect Excellence"
-      }
-    },
-    {
-      "name": "Everis",
-      "href": "http://www.everis.com/",
-      "image": {
-        "src": "/assets/img/sponsors/everis-logo.png",
-        "alt": "Everis - an NTT Data Company"
-      }
-    },
-    {
-      "name": "OpenTrends",
-      "href": "http://opentrends.net/",
-      "image": {
-        "src": "/assets/img/sponsors/opentrends-logo.png",
-        "alt": "OpenTrends"
+        "src": "/assets/img/sponsors/adaptive-logo.png",
+        "alt": "Adaptive"
       }
     }
-    
   ],
   "silver": [
-    {
-      "name": "OpenTrends",
-      "href": "http://opentrends.net/",
-      "image": {
-        "src": "/assets/img/sponsors/opentrends-logo.png",
-        "alt": "OpenTrends"
-      }
-    },
-    {
-      "name": "Netcentric",
-      "href": "https://netcentric.biz",
-      "image": {
-        "src": "/assets/img/sponsors/netcentric-logo.png",
-        "alt": "Netcentric - Expect Excellence"
-      }
-    },
-    {
-      "name": "Everis",
-      "href": "http://www.everis.com/",
-      "image": {
-        "src": "/assets/img/sponsors/everis-logo.png",
-        "alt": "Everis - an NTT Data Company"
-      }
-    },
-    {
-      "name": "Everis",
-      "href": "http://www.everis.com/",
-      "image": {
-        "src": "/assets/img/sponsors/everis-logo.png",
-        "alt": "Everis - an NTT Data Company"
-      }
-    }
   ],
   "bronze": [
-    {
-      "name": "Everis",
-      "href": "http://www.everis.com/",
-      "image": {
-        "src": "/assets/img/sponsors/everis-logo.png",
-        "alt": "Everis - an NTT Data Company"
-      }
-    },
-    {
-      "name": "OpenTrends",
-      "href": "http://opentrends.net/",
-      "image": {
-        "src": "/assets/img/sponsors/opentrends-logo.png",
-        "alt": "OpenTrends"
-      }
-    },
-    {
-      "name": "Netcentric",
-      "href": "https://netcentric.biz",
-      "image": {
-        "src": "/assets/img/sponsors/netcentric-logo.png",
-        "alt": "Netcentric - Expect Excellence"
-      }
-    },
-    {
-      "name": "Everis",
-      "href": "http://www.everis.com/",
-      "image": {
-        "src": "/assets/img/sponsors/everis-logo.png",
-        "alt": "Everis - an NTT Data Company"
-      }
-    }
-    
   ],
   "supporters": [
     {
