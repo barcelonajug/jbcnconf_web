@@ -178,6 +178,17 @@
           "level": "Intermediate",
           "video": "",
           "scheduleId": ""
+        },
+        {
+          "type": "talk",
+          "title": "Why you’re going to FAIL running Java on docker!",
+          "abstract": "Running Java on docker is easy, right? Just create a Dockerfile, run a docker build and then you’re ready to go! Thinking this way is the easiest path to complete FAILURE when running docker containers in production.<br/>The JVM knows how to auto-tune itself to achieve the best possible performance in the environment it’s running. So far, the environment has been a single physical or virtual machine. But now you have containers, and it changes everything: you need to know how containers manages their own resources, and you need to apply this knowledge when running and optimizing your JVM running in a container.<br/>Want to get ready to really run Java on docker in production? Then come to this session to learn a lot about JVM and containers and avoid the highway to debugging hell. You’ll get simple tips & tricks that will save you hundreds of hours of debugging & logging to figure out what is wrong with your containers.",
+          "tags": [
+            "docker", "jvm", "java", "containers", "kubernetes", "openshift"
+          ],
+          "level": "Intermediate",
+          "video": "",
+          "scheduleId": ""
         }
       ]
     },
