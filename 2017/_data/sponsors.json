@@ -9,6 +9,14 @@
         "src": "/assets/img/sponsors/adaptive-logo.png",
         "alt": "Adaptive"
       }
+    },
+    {
+      "name": "Netcentric",
+      "href": "https://netcentric.biz",
+      "image": {
+        "src": "/assets/img/sponsors/netcentric-logo.png",
+        "alt": "Netcentric - Expect Excellence"
+      }
     }
   ],
   "silver": [
