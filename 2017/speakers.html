@@ -45,7 +45,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                 </p>
 
 
-                                <div class="speakers-widget speakers-widget-344564632 animate anim-fadeInUp">
+                                <div class="speakers-widget animate anim-fadeInUp">
 
 
                                     {% for speaker in site.data.speakers.speakers %}
@@ -55,7 +55,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                             <div class="speaker-item-topic-wrapper">
                                                 <a href="{{ base }}/{{ speaker.url }}">
                                                     <h4 class="speaker-item-topic-title">
-                                                        {{ speaker.talk.title }}
+                                                        {{ speaker.talks[0].title }}
                                                     </h4>
                                                 </a>
 

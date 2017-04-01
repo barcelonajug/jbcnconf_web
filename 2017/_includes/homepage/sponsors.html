@@ -11,27 +11,85 @@
     </div>
 
     <div class="wpb_column vc_column_container vc_col-sm-12">
-        <div class="vc_column-inner vc_custom_1461673193635">
-            <div class="wpb_wrapper">
-                <div class="clients-widget">
-                    <div class="owl-carousel-clients-22509910">
-
-                        <!-- TODO - sponsor type differentiation, by size? -->
-
-                        {% for sponsor in site.data.sponsors.items %}
-                        <div class="item" style="float:left;margin:10px;">
-                            <a target="_blank" href="{{ sponsor.href }}" title="{{ sponsor.name }}">
-                                <img
-                                        src="{{ base }}{{ sponsor.image.src }}"
-                                        alt="{{ sponsor.image.alt }}"/>
-                            </a>
-                        </div>
-                        {% endfor %}
+        <div class="vc_column-inner" style="text-align: center;">
+            <hr class="sponsor-separator-gold sponsor-separator"/>
+            <h1 class="sponsor-gold">Gold</h1>
 
 
+            <div class="post-related-posts row">
+                {% for sponsor in site.data.sponsors.gold %}
+                <div class="item col-sm-4 col-xs-12" style="line-height: 200px;">
+                    <div class="image align-middle">
+                        <a href="{{ sponsor.href }}" target="_blank" title="{{ sponsor.name }}"
+                           style=" display:table-cell;    vertical-align:middle;">
+                            <img src="{{ base }}{{ sponsor.image.src }}" style="max-height:85%; max-width:85%"
+                                 class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
+                                 alt="{{ sponsor.image.alt }}"/></a>
                     </div>
                 </div>
+                {% endfor %}
             </div>
+
+            <hr class="sponsor-separator"/>
+
+            <h1 class="sponsor-silver">Silver</h1>
+
+            <div class="post-related-posts row">
+
+                {% for sponsor in site.data.sponsors.silver %}
+                <div class="item col-sm-3 col-xs-6" style="line-height: 150px;">
+                    <div class="image align-middle">
+                        <a href="{{ sponsor.href }}" target="_blank" title="{{ sponsor.name }}"
+                           style=" display:table-cell;    vertical-align:middle;">
+                            <img src="{{ base }}{{ sponsor.image.src }}" style="max-height:70%; max-width:70%"
+                                 class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
+                                 alt="{{ sponsor.image.alt }}"/></a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+
+            <hr class="sponsor-separator"/>
+
+            <h1 class="sponsor-bronze">Bronze</h1>
+
+            <div class="post-related-posts row">
+
+                {% for sponsor in site.data.sponsors.bronze %}
+                <div class="item col-sm-2 col-xs-6" style="line-height: 100px;">
+                    <div class="image align-middle">
+                        <a href="{{ sponsor.href }}" target="_blank" title="{{ sponsor.name }}"
+                           style=" display:table-cell;    vertical-align:middle;">
+                            <img src="{{ base }}{{ sponsor.image.src }}" style="max-height:70%; max-width:70%"
+                                 class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
+                                 alt="{{ sponsor.image.alt }}"/></a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+            <hr class="sponsor-separator"/>
+
+            <h1 class="sponsor-supporter">Supporters</h1>
+            <div class="post-related-posts row">
+
+                {% for sponsor in site.data.sponsors.supporters %}
+                <div class="item col-sm-2 col-xs-6" style="line-height: 100px;">
+                    <div class="image align-middle">
+                        <a href="{{ sponsor.href }}" target="_blank" title="{{ sponsor.name }}"
+                           style=" display:table-cell;    vertical-align:middle;">
+                            <img src="{{ base }}{{ sponsor.image.src }}" style="max-height:70%; max-width:70%"
+                                 class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
+                                 alt="{{ sponsor.image.alt }}"/></a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+            <hr class="sponsor-separator"/>
+
         </div>
+
     </div>
 </div>
