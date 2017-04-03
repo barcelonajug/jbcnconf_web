@@ -751,8 +751,7 @@
       "image": "assets/img/speakers/carlos-cornejo.jpg",
       "ref": "carlos-cornejo",
       "url": "infoSpeaker.html?ref=carlos-cornejo",
-      "twitter": "",
-      "homepage": "",
+      "twitter": "https://twitter.com/cmcornejocrespo",      
       "talks": [
         {
           "type": "workshop",
@@ -776,8 +775,8 @@
       "image": "assets/img/speakers/philipp-krenn.jpg",
       "ref": "philipp-krenn",
       "url": "infoSpeaker.html?ref=philipp-krenn",
-      "twitter": "",
-      "homepage": "",
+      "twitter": "https://twitter.com/xeraa",
+      "homepage": "https://xeraa.net/en/",
       "talks": [
         {
           "type": "talk",
@@ -803,8 +802,7 @@
       "image": "assets/img/speakers/albert-margarit.png",
       "ref": "albert-margarit",
       "url": "infoSpeaker.html?ref=albert-margarit",
-      "twitter": "",
-      "homepage": "",
+      "twitter": "https://twitter.com/albertmargarit",
       "talks": [
         {
           "type": "talk",
@@ -830,8 +828,8 @@
       "image": "assets/img/speakers/hubert-klein-ikkink.jpg",
       "ref": "hubert-klein-ikkink",
       "url": "infoSpeaker.html?ref=hubert-klein-ikkink",
-      "twitter": "",
-      "homepage": "",
+      "twitter": "https://twitter.com/mrhaki",
+      "homepage": "http://www.mrhaki.com",
       "talks": [
         {
           "type": "talk",
