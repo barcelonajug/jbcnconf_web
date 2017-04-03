@@ -847,6 +847,31 @@
           "scheduleId": ""
         }
       ]
+    },
+    {
+      "enabled": "1",
+      "name": "Charlotte Cavalier",
+      "description": "Developper evangelist on the Codingame learning platform and Jug Leader at Montpellier.",      
+      "image": "assets/img/speakers/charlotte-cavalier.jpg",
+      "ref": "charlotte-cavalier",
+      "url": "infoSpeaker.html?ref=charlotte-cavalier",
+      "twitter": "https://twitter.com/cavalierch",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Functional Programming Explained to my grandma",
+          "abstract": "Functional programming reminds you of some old school memories... Monad scares you and you think High Order Function are rude words. However you love lambdas and you feel immutability is a great thing. I will introduce you to core principles of functionnal programming without complexity and you will be able to apply them straight away. No installation required: just internet, a basic knowledge of your favourite language and a web browser.",
+          "tags": [
+            "Scala",
+            "Functional",
+            "Programming"
+          ],
+          "level": "Beginner",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
     }
+
   ]
 }
