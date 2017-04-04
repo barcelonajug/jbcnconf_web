@@ -751,8 +751,7 @@
       "image": "assets/img/speakers/carlos-cornejo.jpg",
       "ref": "carlos-cornejo",
       "url": "infoSpeaker.html?ref=carlos-cornejo",
-      "twitter": "",
-      "homepage": "",
+      "twitter": "https://twitter.com/cmcornejocrespo",      
       "talks": [
         {
           "type": "workshop",
@@ -776,8 +775,8 @@
       "image": "assets/img/speakers/philipp-krenn.jpg",
       "ref": "philipp-krenn",
       "url": "infoSpeaker.html?ref=philipp-krenn",
-      "twitter": "",
-      "homepage": "",
+      "twitter": "https://twitter.com/xeraa",
+      "homepage": "https://xeraa.net/en/",
       "talks": [
         {
           "type": "talk",
@@ -803,8 +802,7 @@
       "image": "assets/img/speakers/albert-margarit.png",
       "ref": "albert-margarit",
       "url": "infoSpeaker.html?ref=albert-margarit",
-      "twitter": "",
-      "homepage": "",
+      "twitter": "https://twitter.com/albertmargarit",
       "talks": [
         {
           "type": "talk",
@@ -821,6 +819,56 @@
           "scheduleId": ""
         }
       ]
+    },
+    {
+      "enabled": "1",
+      "name": "Hubert Klein Ikkink",
+      "description": "Also known as mrhaki, he works with Java and Groovy during his daytime job at JDriven.",
+      "biography": "Hubert Klein Ikkink is also known as mrhaki. He uses his alias to write on his blog `Messages from mrhaki` (http://mrhaki.blogspot.com/). On this blog he writes short tips and tricks about Groovy, Grails, Gradle, Spock, Spring and Asciidoctor. Hubert started to develop Java applications more than two decades ago. Nine years ago he started to explore Groovy and Grails in personal projects, because of the dynamic nature of Groovy and the speed of development. Today he works with Java and Groovy during his daytime job at JDriven in the Netherlands. He also wrote books on Gradle published at Packt Publishing and spoke at different conferences like Gr8Conf in Copenhagen and Minneapolis, Greach in Madrid, JavaLand in Germany and JFall in the Netherlands.",
+      "image": "assets/img/speakers/hubert-klein-ikkink.jpg",
+      "ref": "hubert-klein-ikkink",
+      "url": "infoSpeaker.html?ref=hubert-klein-ikkink",
+      "twitter": "https://twitter.com/mrhaki",
+      "homepage": "http://www.mrhaki.com",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Writing tests is fun with Spock",
+          "abstract": "Spock is a test framework with built-in mocking and stubbing facilities. We can use Spock to write test code for testing Java and Groovy code. Spock tests are called specifications and we write specifications with a Groovy DSL. The DSL enforces a certain way to define the specifications, which results in better readable and maintainable test code. First we learn about the DSL Spock uses. We can write for example test methods and simply use a sentence as a method name. Also we use labels to define fixed sections each test needs. Spock support data driven testing, where we can invoke a method under test multiple times and each time with a different value. We can define the data in data providers, like lists or database rows and with data tables. To write a mock or stub we don’t need an external library. Spock has support built-in and with a very concise syntax. We learn about this syntax and see how clean our test code will be.",
+          "tags": [
+            "Spock",
+            "Tests",
+            "Groovy"
+          ],
+          "level": "Beginner",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
+    },
+    {
+      "enabled": "1",
+      "name": "Charlotte Cavalier",
+      "description": "Developper evangelist on the Codingame learning platform and Jug Leader at Montpellier.",      
+      "image": "assets/img/speakers/charlotte-cavalier.jpg",
+      "ref": "charlotte-cavalier",
+      "url": "infoSpeaker.html?ref=charlotte-cavalier",
+      "twitter": "https://twitter.com/cavalierch",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Functional Programming Explained to my grandma",
+          "abstract": "Functional programming reminds you of some old school memories... Monad scares you and you think High Order Function are rude words. However you love lambdas and you feel immutability is a great thing. I will introduce you to core principles of functionnal programming without complexity and you will be able to apply them straight away. No installation required: just internet, a basic knowledge of your favourite language and a web browser.",
+          "tags": [
+            "Scala",
+            "Functional Programming"
+          ],
+          "level": "Beginner",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
     }
+
   ]
 }
