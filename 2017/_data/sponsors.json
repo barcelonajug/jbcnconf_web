@@ -20,6 +20,14 @@
     }
   ],
   "silver": [
+    {
+      "name": "Opentrends",
+      "href": "http://www.opentrends.net",
+      "image": {
+        "src": "/assets/img/sponsors/opentrends-logo.png",
+        "alt": "Opentrends"
+      }
+    }
   ],
   "bronze": [
   ],
