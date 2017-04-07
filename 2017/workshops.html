@@ -41,28 +41,33 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                 </p>
                                 
                             </div>
-
                             <div class="post-content">
 
 
                                 {% for speaker in site.data.speakers.speakers %}
-                                {% if speaker.talk.type contains "worshop" %}
+                                {% for talk in speaker.talks %}
+
+
+                                {% if talk.type contains "workshop" %}
                                 <a href="{{base}}/{{speaker.url}}">
-                                    <b>{{speaker.talk.title}}</b> by {{speaker.name}}
+                                    <b>{{talk.title}}</b> by {{speaker.name}}
                                 </a>
 
                                 </br>
-                                Level: {{speaker.talk.level}}
-                                {% for tag in speaker.talk.tags %}
+                                Level: {{talk.level}}
+                                {% for tag in talk.tags %}
                                 <span class="label tag label-info {{tag}}">{{ tag }}</span>
                                 {% endfor %}
 
                                 </br>
+
                                 {% endif %}
+                                {% endfor %}
                                 {% endfor %}
 
 
                             </div>
+
 
                         </div>
                     </article>
