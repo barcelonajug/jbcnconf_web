@@ -12162,36 +12162,20 @@ hr.sponsor-separator:after {
  * ==== diamond 
  */
 
-.sponsor-diamond, .dia {
-    margin: 0 auto;
-    transform-origin: 50% 50%;
-    overflow: hidden;
-    width: 300px;
-    height: 300px;
-}
-
-.sponsor-diamond {
-    transform: rotate(45deg) translateY(-25px) translateX(-25px);
-}
-
-.sponsor-diamond .dia {
-    width: 380px;
-    height: 380px;
-    transform: rotate(-45deg);
-
-
-    background: rgba(255,255,255,1);
-    background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(252,249,252,1) 47%, rgba(224,224,224,1) 100%);
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(252,249,252,1)), color-stop(100%, rgba(224,224,224,1)));
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(252,249,252,1) 47%, rgba(224,224,224,1) 100%);
-    background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(252,249,252,1) 47%, rgba(224,224,224,1) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(252,249,252,1) 47%, rgba(224,224,224,1) 100%);
-    background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(252,249,252,1) 47%, rgba(224,224,224,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e0e0e0', GradientType=1 );
-    
-}
-
 .sponsor-diamond img {
-    width: 60%;
+    width: 30%;
     height: auto;
+}
+
+@media (max-width: 600px) {
+    .sponsor-diamond img {
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .sponsor-diamond img {
+        width: 80%;
+    }
 }
