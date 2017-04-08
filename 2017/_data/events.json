@@ -1,6 +1,12 @@
 {
   "items": [
     {
+      "title": "JSF with Primefaces, from ugly duckling to a beautiful swan",
+      "url": "https://www.meetup.com/BarcelonaJUG/events/238620028/",
+      "image": "/assets/img/events/primefaces.jpeg",
+      "date": "April 6, 2017"
+    },
+    {
       "title": "Testing with Arquillian, Docker and Kubernetes",
       "url": "https://www.meetup.com/BarcelonaJUG/events/238249460/",
       "image": "/assets/img/events/testing-with-arquilian.jpg",

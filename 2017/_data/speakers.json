@@ -178,6 +178,17 @@
           "level": "Intermediate",
           "video": "",
           "scheduleId": ""
+        },
+        {
+          "type": "talk",
+          "title": "Why you’re going to FAIL running Java on docker!",
+          "abstract": "Running Java on docker is easy, right? Just create a Dockerfile, run a docker build and then you’re ready to go! Thinking this way is the easiest path to complete FAILURE when running docker containers in production.<br/>The JVM knows how to auto-tune itself to achieve the best possible performance in the environment it’s running. So far, the environment has been a single physical or virtual machine. But now you have containers, and it changes everything: you need to know how containers manages their own resources, and you need to apply this knowledge when running and optimizing your JVM running in a container.<br/>Want to get ready to really run Java on docker in production? Then come to this session to learn a lot about JVM and containers and avoid the highway to debugging hell. You’ll get simple tips & tricks that will save you hundreds of hours of debugging & logging to figure out what is wrong with your containers.",
+          "tags": [
+            "docker", "jvm", "java", "containers", "kubernetes", "openshift"
+          ],
+          "level": "Intermediate",
+          "video": "",
+          "scheduleId": ""
         }
       ]
     },
@@ -751,8 +762,7 @@
       "image": "assets/img/speakers/carlos-cornejo.jpg",
       "ref": "carlos-cornejo",
       "url": "infoSpeaker.html?ref=carlos-cornejo",
-      "twitter": "",
-      "homepage": "",
+      "twitter": "https://twitter.com/cmcornejocrespo",
       "talks": [
         {
           "type": "workshop",
@@ -776,8 +786,8 @@
       "image": "assets/img/speakers/philipp-krenn.jpg",
       "ref": "philipp-krenn",
       "url": "infoSpeaker.html?ref=philipp-krenn",
-      "twitter": "",
-      "homepage": "",
+      "twitter": "https://twitter.com/xeraa",
+      "homepage": "https://xeraa.net/en/",
       "talks": [
         {
           "type": "talk",
@@ -803,8 +813,7 @@
       "image": "assets/img/speakers/albert-margarit.png",
       "ref": "albert-margarit",
       "url": "infoSpeaker.html?ref=albert-margarit",
-      "twitter": "",
-      "homepage": "",
+      "twitter": "https://twitter.com/albertmargarit",
       "talks": [
         {
           "type": "talk",
@@ -817,6 +826,134 @@
             "Cloud"
           ],
           "level": "Intermediate",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
+    },
+    {
+      "enabled": "1",
+      "name": "Hubert Klein Ikkink",
+      "description": "Also known as mrhaki, he works with Java and Groovy during his daytime job at JDriven.",
+      "biography": "Hubert Klein Ikkink is also known as mrhaki. He uses his alias to write on his blog `Messages from mrhaki` (http://mrhaki.blogspot.com/). On this blog he writes short tips and tricks about Groovy, Grails, Gradle, Spock, Spring and Asciidoctor. Hubert started to develop Java applications more than two decades ago. Nine years ago he started to explore Groovy and Grails in personal projects, because of the dynamic nature of Groovy and the speed of development. Today he works with Java and Groovy during his daytime job at JDriven in the Netherlands. He also wrote books on Gradle published at Packt Publishing and spoke at different conferences like Gr8Conf in Copenhagen and Minneapolis, Greach in Madrid, JavaLand in Germany and JFall in the Netherlands.",
+      "image": "assets/img/speakers/hubert-klein-ikkink.jpg",
+      "ref": "hubert-klein-ikkink",
+      "url": "infoSpeaker.html?ref=hubert-klein-ikkink",
+      "twitter": "https://twitter.com/mrhaki",
+      "homepage": "http://www.mrhaki.com",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Writing tests is fun with Spock",
+          "abstract": "Spock is a test framework with built-in mocking and stubbing facilities. We can use Spock to write test code for testing Java and Groovy code. Spock tests are called specifications and we write specifications with a Groovy DSL. The DSL enforces a certain way to define the specifications, which results in better readable and maintainable test code. First we learn about the DSL Spock uses. We can write for example test methods and simply use a sentence as a method name. Also we use labels to define fixed sections each test needs. Spock support data driven testing, where we can invoke a method under test multiple times and each time with a different value. We can define the data in data providers, like lists or database rows and with data tables. To write a mock or stub we don’t need an external library. Spock has support built-in and with a very concise syntax. We learn about this syntax and see how clean our test code will be.",
+          "tags": [
+            "Spock",
+            "Tests",
+            "Groovy"
+          ],
+          "level": "Beginner",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
+    },
+    {
+      "enabled": "1",
+      "name": "Charlotte Cavalier",
+      "description": "Developper evangelist on the Codingame learning platform and Jug Leader at Montpellier.",
+      "image": "assets/img/speakers/charlotte-cavalier.jpg",
+      "ref": "charlotte-cavalier",
+      "url": "infoSpeaker.html?ref=charlotte-cavalier",
+      "twitter": "https://twitter.com/cavalierch",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Functional Programming Explained to my grandma",
+          "abstract": "Functional programming reminds you of some old school memories... Monad scares you and you think High Order Function are rude words. However you love lambdas and you feel immutability is a great thing. I will introduce you to core principles of functionnal programming without complexity and you will be able to apply them straight away. No installation required: just internet, a basic knowledge of your favourite language and a web browser.",
+          "tags": [
+            "Scala",
+            "Functional Programming"
+          ],
+          "level": "Beginner",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
+    },
+    {
+      "enabled": "1",
+      "name": "Victor Rentea",
+      "description": "Java Engineer, Architect and Technical Lead at IBM",
+      "image": "assets/img/speakers/victor-rentea.jpg",
+      "ref": "victor-rentea",
+      "url": "infoSpeaker.html?ref=victor-rentea",
+      "twitter": "https://twitter.com/victorrentea",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Clean Lambdas",
+          "abstract": "Everybody's using Java8 Lambdas and Streams nowadays, right? So then, why shouldn't you use them in developing your enterprise application? It's absurd to keep away from these exponents, but at some point you may start having some weird feeling about them. And then you get to your first code review, and you start wondering... How do the 'Clean Code' principles change, when you jump on Lambdas? How should you use Lambdas while keeping a clean maintainable codebase - the ultimate goal of any java enterprise application.<br/> We'll remember how a clean function should look like, as stated in the Clean Code 'bible' by Uncle Bob, and then we'll see how these principles change when you throw Lambdas in. We'll try to figure out together some guidelines you should you keep in mind when playing with fire (oups,sorry.. Lambdas) in your enterprise application code.<br/> Then, we'll walk together through some Lambdas code samples, from the most trivial to the more mind-stretching, following an order inferred from a little study I'm running. This way, you'll see that the adoption of Lambdas and Streams can become a gradual process, that would allow your developers to master the functional thinking bit-by-bit.<br/> The talk will leave you with a lot of take-aways: hints, tips, warnings, useful even if you don't have practical experience with Lambdas. Some prior experience with Java 8 Streams and Lambdas IS recommended however, to be able to follow the discussion closely.",
+          "tags": [
+            "Java8",
+            "Lambda",
+            "Streams API",
+            "Clean Code",
+            "Functional Programming"
+          ],
+          "level": "Intermediate",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
+    },
+    {
+      "enabled": "1",
+      "name": "Nicola Ferraro",
+      "description": "Software Engineer at Red Hat",
+      "image": "assets/img/speakers/nicola-ferraro.jpg",
+      "ref": "nicola-ferraro",
+      "url": "infoSpeaker.html?ref=nicola-ferraro",
+      "twitter": "https://twitter.com/ni_ferraro",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Integrating Applications: The Reactive Way",
+          "abstract": "Reactive programming is one of the top trending paradigms for building fast asynchronous applications in the microservices era. But if you dive a bit into the reactive world, you will find out that scaling from a single application to a fully fledged reactive system is hard: you need to solve complex integration problems and communicating inside a heterogeneous system is simply a headache!<br/> In this talk, we will explore how reactive applications currently address integration problems, with live coding examples based on RxJava and Vert.x. You’ll learn how the popular framework Apache Camel can be used as reactive integration layer through the new Java 9 Flow API, opening a lot of new possibilities to reactive applications.<br/> This talk will also give you insights on the future directions of the Apache Camel project with reference to reactive systems.",
+          "tags": [
+            "Java",
+            "Integration",
+            "Functional Programming",
+            "Microservices",
+            "Actors"
+          ],
+          "level": "Intermediate",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
+    },
+    {
+      "enabled": "1",
+      "name": "Manuel Alvarez",
+      "description": "Software developer at CERN",
+      "image": "assets/img/speakers/manuel-alvarez.jpg",
+      "ref": "manuel-alvarez",
+      "url": "infoSpeaker.html?ref=manuel-alvarez",
+      "talks": [
+        {
+          "type": "workshop",
+          "title": "From Monoliths to Microservices using CQRS and Event Sourcing",
+          "abstract": "In a Microservices architecture state is distributed across many applications and databases. Keeping all the microservices consistent is a non trivial task and here is where CQRS and Event Sourcing really shine.<br/>In this workshop we will move from a terrible Monolith to a nice Microservices app using CQRS/ES as the  middle man.<br/>The recipe to Microservices that we will follow here will be:<br/>1. Start with an ugly Monolith.<br/>2. Add some CQRS and ES to the Monolith using Spring Streams and Apache Kafka.<br/>3. Break your CQRS Monolith into small microservices using Spring Cloud.<br/>The only requirement will be a running Docker installation in your machine.",
+          "tags": [
+            "Microservices",
+            "CQRS",
+            "Event Sourcing",
+            "Spring Cloud",
+            "Spring Streams",
+            "Apache Kafka",
+            "Docker"
+          ],
+          "level": "Beginner",
           "video": "",
           "scheduleId": ""
         }
