@@ -13,13 +13,27 @@
       "talks": [
         {
           "type": "talk",
-          "title": "Welcome Keynote",
-          "abstract": "Keynote TBD",
+          "title": "The Art of Simplicity",
+          "abstract": "We've been told to keep things simple. It turns out, that's easily said than done. Creating something simple is, well, not really that simple. If simple was sitting next to us, would we even recognize it? Is my design simple, is yours simple? How can we tell? That's a simple question, but the answer to it is… well come to this keynote to find out.",
           "tags": [
+            "Design",
+            "KISS"          
           ],
           "level": "Intermediate",
           "video": "",
           "scheduleId": "#MON-TC1-SE1"
+        },
+        {
+          "type": "talk",
+          "title": "Functional Programming in Java",
+          "abstract": "Java 8 is the most significant change to the language since it's introduction, surpassing changes seen in any of the previous versions. It is not merely syntactical change or addition of a few extra features, it's a paradigm shift. Come to this presentation to learn about the power and capabilities of functional programming using Java 8 and how to benefit from those when building Java applications.",
+          "tags": [
+            "Functional",
+            "Java"          
+          ],
+          "level": "Intermediate",
+          "video": "",
+          "scheduleId": ""
         }
       ]
     },
