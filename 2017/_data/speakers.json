@@ -13,13 +13,27 @@
       "talks": [
         {
           "type": "talk",
-          "title": "Welcome Keynote",
-          "abstract": "Keynote TBD",
+          "title": "The Art of Simplicity",
+          "abstract": "We've been told to keep things simple. It turns out, that's easily said than done. Creating something simple is, well, not really that simple. If simple was sitting next to us, would we even recognize it? Is my design simple, is yours simple? How can we tell? That's a simple question, but the answer to it is… well come to this keynote to find out.",
           "tags": [
+            "Design",
+            "KISS"          
           ],
           "level": "Intermediate",
           "video": "",
           "scheduleId": "#MON-TC1-SE1"
+        },
+        {
+          "type": "talk",
+          "title": "Functional Programming in Java",
+          "abstract": "Java 8 is the most significant change to the language since it's introduction, surpassing changes seen in any of the previous versions. It is not merely syntactical change or addition of a few extra features, it's a paradigm shift. Come to this presentation to learn about the power and capabilities of functional programming using Java 8 and how to benefit from those when building Java applications.",
+          "tags": [
+            "Functional",
+            "Java"          
+          ],
+          "level": "Intermediate",
+          "video": "",
+          "scheduleId": ""
         }
       ]
     },
@@ -65,6 +79,20 @@
             "Java",
             "Java 9",
             "Reactive",
+            "Live coding"
+          ],
+          "level": "Intermediate",
+          "video": "",
+          "scheduleId": ""
+        },
+        {
+          "type": "workshop",
+          "title": "Refactoring to Java 8",
+          "abstract": "In reality, many projects that developers are working on are pre-Java-8. Even if a project has technically adopted Java 8, and even if new features are developed taking advantage of Java 8 syntax, it’s likely the majority of the code is still not making the most of what’s available - features like Lambda Expressions, the Streams API, and new Date/Time. In this workshop we’ll: <br>Cover some of the benefits of using Java 8 - after all, you’ll probably have to persuade The Management that tampering with existing code is worthwhile <br>Learn how to identify areas of code that can be updated to use Java 8 features<br>See how to automatically refactor your code to make use of features like lambdas and streams.<br>Cover some of the pros and cons of using the new features - including examples of when refactoring may not be the best idea. <br>Take a look at example benchmarks using JMH and discuss what makes a good performance test.",
+          "tags": [
+            "Java",
+            "Java 9",
+            "Refactoring",
             "Live coding"
           ],
           "level": "Intermediate",
@@ -953,6 +981,31 @@
             "Spring Streams",
             "Apache Kafka",
             "Docker"
+           ],
+          "level": "Beginner",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
+    },
+    {
+      "enabled":"1",             
+      "name": "Rustam Mehmandarov",
+      "description" : "Passionate computer scientist. Leader of the Norwegian JUG – javaBin and JavaZone. Speaker.",    
+      "image": "assets/img/speakers/rustam-mehmandarov.jpg",
+      "ref": "rustam-mehmandarov",
+      "url": "infoSpeaker.html?ref=rustam-mehmandarov",
+      "twitter": "https://twitter.com/rmehmandarov",
+      "homepage":"http://mehmandarov.com/",
+      "talks": [
+        {
+          "type": "workshop",
+          "title": "IoT Hackathon",
+          "abstract": "I will bring a bunch of devices and give you some code to get started. We will put all that things together during the workshop. I will have Raspberry Pis, some sensors, controller, and peripheral devices that use Z-Wave for communication. You are also welcome to bring your own devices, if you have any. And don’t forget your PC. Machine Learning, cloud, data analysis, security, home automation (bingo!) – sky is the limit! Primarily for: Developers, Participant requirements: Bring your own devices, if you have any. And don’t forget your PC.",
+          "tags": [
+            "IoT",
+            "Hackathon",
+            "Cloud"
           ],
           "level": "Beginner",
           "video": "",
