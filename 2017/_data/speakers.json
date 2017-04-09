@@ -84,6 +84,20 @@
           "level": "Intermediate",
           "video": "",
           "scheduleId": ""
+        },
+        {
+          "type": "workshop",
+          "title": "Refactoring to Java 8",
+          "abstract": "In reality, many projects that developers are working on are pre-Java-8. Even if a project has technically adopted Java 8, and even if new features are developed taking advantage of Java 8 syntax, it’s likely the majority of the code is still not making the most of what’s available - features like Lambda Expressions, the Streams API, and new Date/Time. In this workshop we’ll: <br>Cover some of the benefits of using Java 8 - after all, you’ll probably have to persuade The Management that tampering with existing code is worthwhile <br>Learn how to identify areas of code that can be updated to use Java 8 features<br>See how to automatically refactor your code to make use of features like lambdas and streams.<br>Cover some of the pros and cons of using the new features - including examples of when refactoring may not be the best idea. <br>Take a look at example benchmarks using JMH and discuss what makes a good performance test.",
+          "tags": [
+            "Java",
+            "Java 9",
+            "Refactoring",
+            "Live coding"
+          ],
+          "level": "Intermediate",
+          "video": "",
+          "scheduleId": ""
         }
       ]
     },
