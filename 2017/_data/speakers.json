@@ -790,7 +790,7 @@
       "image": "assets/img/speakers/carlos-cornejo.jpg",
       "ref": "carlos-cornejo",
       "url": "infoSpeaker.html?ref=carlos-cornejo",
-      "twitter": "https://twitter.com/cmcornejocrespo",      
+      "twitter": "https://twitter.com/cmcornejocrespo",
       "talks": [
         {
           "type": "workshop",
@@ -888,7 +888,7 @@
     {
       "enabled": "1",
       "name": "Charlotte Cavalier",
-      "description": "Developper evangelist on the Codingame learning platform and Jug Leader at Montpellier.",      
+      "description": "Developper evangelist on the Codingame learning platform and Jug Leader at Montpellier.",
       "image": "assets/img/speakers/charlotte-cavalier.jpg",
       "ref": "charlotte-cavalier",
       "url": "infoSpeaker.html?ref=charlotte-cavalier",
@@ -910,6 +910,86 @@
     },
     {
       "enabled": "1",
+      "name": "Victor Rentea",
+      "description": "Java Engineer, Architect and Technical Lead at IBM",
+      "image": "assets/img/speakers/victor-rentea.jpg",
+      "ref": "victor-rentea",
+      "url": "infoSpeaker.html?ref=victor-rentea",
+      "twitter": "https://twitter.com/victorrentea",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Clean Lambdas",
+          "abstract": "Everybody's using Java8 Lambdas and Streams nowadays, right? So then, why shouldn't you use them in developing your enterprise application? It's absurd to keep away from these exponents, but at some point you may start having some weird feeling about them. And then you get to your first code review, and you start wondering... How do the 'Clean Code' principles change, when you jump on Lambdas? How should you use Lambdas while keeping a clean maintainable codebase - the ultimate goal of any java enterprise application.<br/> We'll remember how a clean function should look like, as stated in the Clean Code 'bible' by Uncle Bob, and then we'll see how these principles change when you throw Lambdas in. We'll try to figure out together some guidelines you should you keep in mind when playing with fire (oups,sorry.. Lambdas) in your enterprise application code.<br/> Then, we'll walk together through some Lambdas code samples, from the most trivial to the more mind-stretching, following an order inferred from a little study I'm running. This way, you'll see that the adoption of Lambdas and Streams can become a gradual process, that would allow your developers to master the functional thinking bit-by-bit.<br/> The talk will leave you with a lot of take-aways: hints, tips, warnings, useful even if you don't have practical experience with Lambdas. Some prior experience with Java 8 Streams and Lambdas IS recommended however, to be able to follow the discussion closely.",
+          "tags": [
+            "Java8",
+            "Lambda",
+            "Streams API",
+            "Clean Code",
+            "Functional Programming"
+          ],
+          "level": "Intermediate",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
+    },
+    {
+      "enabled": "1",
+      "name": "Nicola Ferraro",
+      "description": "Software Engineer at Red Hat",
+      "image": "assets/img/speakers/nicola-ferraro.jpg",
+      "ref": "nicola-ferraro",
+      "url": "infoSpeaker.html?ref=nicola-ferraro",
+      "twitter": "https://twitter.com/ni_ferraro",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Integrating Applications: The Reactive Way",
+          "abstract": "Reactive programming is one of the top trending paradigms for building fast asynchronous applications in the microservices era. But if you dive a bit into the reactive world, you will find out that scaling from a single application to a fully fledged reactive system is hard: you need to solve complex integration problems and communicating inside a heterogeneous system is simply a headache!<br/> In this talk, we will explore how reactive applications currently address integration problems, with live coding examples based on RxJava and Vert.x. You’ll learn how the popular framework Apache Camel can be used as reactive integration layer through the new Java 9 Flow API, opening a lot of new possibilities to reactive applications.<br/> This talk will also give you insights on the future directions of the Apache Camel project with reference to reactive systems.",
+          "tags": [
+            "Java",
+            "Integration",
+            "Functional Programming",
+            "Microservices",
+            "Actors"
+          ],
+          "level": "Intermediate",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
+    },
+    {
+      "enabled": "1",
+      "name": "Manuel Alvarez",
+      "description": "Software developer at CERN",
+      "image": "assets/img/speakers/manuel-alvarez.jpg",
+      "ref": "manuel-alvarez",
+      "url": "infoSpeaker.html?ref=manuel-alvarez",
+      "twitter": "https://twitter.com/malvarez_bis",
+      "talks": [
+        {
+          "type": "workshop",
+          "title": "From Monoliths to Microservices using CQRS and Event Sourcing",
+          "abstract": "In a Microservices architecture state is distributed across many applications and databases. Keeping all the microservices consistent is a non trivial task and here is where CQRS and Event Sourcing really shine.<br/>In this workshop we will move from a terrible Monolith to a nice Microservices app using CQRS/ES as the  middle man.<br/>The recipe to Microservices that we will follow here will be:<br/>1. Start with an ugly Monolith.<br/>2. Add some CQRS and ES to the Monolith using Spring Streams and Apache Kafka.<br/>3. Break your CQRS Monolith into small microservices using Spring Cloud.<br/>The only requirement will be a running Docker installation in your machine.",
+          "tags": [
+            "Microservices",
+            "CQRS",
+            "Event Sourcing",
+            "Spring Cloud",
+            "Spring Streams",
+            "Apache Kafka",
+            "Docker"
+           ],
+          "level": "Beginner",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
+    },
+    {
+      "enabled":"1",             
       "name": "Rustam Mehmandarov",
       "description" : "Passionate computer scientist. Leader of the Norwegian JUG – javaBin and JavaZone. Speaker.",    
       "image": "assets/img/speakers/rustam-mehmandarov.jpg",
@@ -933,6 +1013,5 @@
         }
       ]
     }
-
   ]
 }
