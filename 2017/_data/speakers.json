@@ -1012,6 +1012,57 @@
           "scheduleId": ""
         }
       ]
+    },
+    {
+      "enabled":"1",             
+      "name": "Charles Moulliard",
+      "description":"Principal Software Engineer @RedHat & Apache Committer.",
+      "biography" : "Charles Moulliard is currently a Sr. Principal Software Engineer @RedHat & Apache Committer with more than 20 years of expertise in solutions design based on JEE / Middleware technologies. As Engineer & Architect, he has been involved in system integration of projects in Financial and Banking world. The skills (Methodology, UML, RUP, Project Management, Network, Security, Web Development, Fluent Api & DSL - JavaEE, Middleware) that he acquires during its career path have help him to address business, functional, security and infrastructure requirements and transpose them into operable and efficient solutions. He is also passionated to train people on Microservices, SOA, Middleware & JavaEE. As an Apache Committer he contributes since several years on opensource projects Apache Camel, Karaf, ServiceMix, DeltaSpike, Fabric8, Hawtio, Drools, Asciidoctor and uses these technologies as standards for integration projects. He is a Technology Evangelist making regularly conferences, talks. He lives in Belgium, enjoy Mountain bike & Rock’n’roll. You can find him online #irc ch007m, Twitter @cmoulliard, GitHub https://github.com/cmoulliard, Linkedin, SlideShare, Google+ or on his Blog http://cmoulliard.github.io.",    
+      "image": "assets/img/speakers/charles-moulliard.jpg",
+      "ref": "charles-moulliard",
+      "url": "infoSpeaker.html?ref=charles-moulliard",
+      "twitter": "https://twitter.com/cmoulliard",
+      "homepage":"http://cmoulliard.github.io/",
+      "talks": [
+        {
+          "type": "workshop",
+          "title": "Design a SpringBoot Application running on Kubernetes/OpenShift",
+          "abstract": "The goal of this workshop is to demonstrate how easy it could be to design/develop a microservice architecture using Spring Boot technology, Kubernetes/OpenShift as Containerized & Management platform. During the workshop, you will learn how to create a Spring Boot Application composed of 3 microservices (a CD Front Store, the backend exposing and running the service & the Database store), transform it to a Kubernetes/Docker Project using the Fabric8 Technology and deploy/operate it on OpenShift.  With the help of JBoss Forge Tool, you will accelerate the creation of the project and scaffolding of the code",
+          "tags": [
+            "Microservices",
+            "Kubernetes",
+            "Spring Boot"
+          ],
+          "level": "Intermediate",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
+    },
+    {
+      "enabled":"1",             
+      "name": "Maria Gomez",
+      "description":"Market Tech Principal at ThoughtWorks in Barcelona.",
+      "biography" : "Maria Gomez is a Market Tech Principal at ThoughtWorks in Barcelona. She's been a developer and an architect for over 9 years. She has worked with many different technologies and domains, which has helped her lead teams and advise stakeholders in making the right technology decisions. She is also a speaker and an advocate for diversity and inclusion in the IT industry.",
+      "image": "assets/img/speakers/maria-gomez.png",
+      "ref": "maria-gomez",
+      "url": "infoSpeaker.html?ref=maria-gomez",
+      "twitter": "https://twitter.com/mariascandella",
+      "homepage":"http://maria-gomez.me/",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Observable Microservices",
+          "abstract": "Think of this talk as a Microservices 201. You know the basic of microservices and their pros and cons, but can you successfully maintain them in production? Microservices can make your code cleaner and more decoupled but they can be a pain to maintain in production: services writing logs in different places, requests that need to be tracked through multiple endpoints, circuit breakers going off… In this talk I review these and other operational concerns and I explain how making your microservices “observable” helps you maintain a healthy production environment without driving you crazy.",
+          "tags": [
+            "Microservices",
+            "DevOps"
+          ],
+          "level": "Intermediate",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
     }
   ]
 }
