@@ -1087,5 +1087,30 @@
           "scheduleId": ""
         }
       ]
-    }  ]
+    },
+    {
+      "enabled":"1",
+      "name": "Juantomas Garcia",
+      "description":"Data Solution Manager at Open Sistemas",
+      "biography" : "Data Solution Manager at Open Sistemas. Co-author of 'La pastilla roja' the first spanish book about free software. Former President of Hispalinux, Google Developer Expert. GDG Cloud Madrid Organizer. Machine Learning Spain Meetup Organizer.",
+      "image": "assets/img/speakers/juantomas-garcia.jpg",
+      "ref": "juantomas-garcia",
+      "url": "infoSpeaker.html?ref=juantomas-garcia",
+      "twitter": "https://twitter.com/juantomas",
+      "homepage":"http://www.juantomas.net",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Kappa Architecture",
+          "abstract": "The kappa architecture was coined by Jay Kreps in a key post that he wrote for the o'reilly radar website. Kappa Architecture is an strategic pattern design to work with data. At the talk we will see the main concepts, what's the differences with lambda architecture, why scala language is very important in all the definition and creation of the project and what's our favorite tools to implement it (kafka+spark+scala). In addition we will show a real use case with IoT (with data from cars) and how the adoption of kappa architecture improve the project. We will finish with our vision about the future with tools like google dataflow, apache beams or Scio (an scala port of apache beams).",
+          "tags": [
+            "kappa-architecture", "patterns", "data", "scala", "kafka", "spark"
+          ],
+          "level": "Intermediate",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
+    }
+  ]
 }
