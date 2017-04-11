@@ -17,7 +17,7 @@
           "abstract": "We've been told to keep things simple. It turns out, that's easily said than done. Creating something simple is, well, not really that simple. If simple was sitting next to us, would we even recognize it? Is my design simple, is yours simple? How can we tell? That's a simple question, but the answer to it is… well come to this keynote to find out.",
           "tags": [
             "Design",
-            "KISS"          
+            "KISS"
           ],
           "level": "Intermediate",
           "video": "",
@@ -29,7 +29,7 @@
           "abstract": "Java 8 is the most significant change to the language since it's introduction, surpassing changes seen in any of the previous versions. It is not merely syntactical change or addition of a few extra features, it's a paradigm shift. Come to this presentation to learn about the power and capabilities of functional programming using Java 8 and how to benefit from those when building Java applications.",
           "tags": [
             "Functional",
-            "Java"          
+            "Java"
           ],
           "level": "Intermediate",
           "video": "",
@@ -989,9 +989,9 @@
       ]
     },
     {
-      "enabled":"1",             
+      "enabled":"1",
       "name": "Rustam Mehmandarov",
-      "description" : "Passionate computer scientist. Leader of the Norwegian JUG – javaBin and JavaZone. Speaker.",    
+      "description" : "Passionate computer scientist. Leader of the Norwegian JUG - javaBin and JavaZone. Speaker.",
       "image": "assets/img/speakers/rustam-mehmandarov.jpg",
       "ref": "rustam-mehmandarov",
       "url": "infoSpeaker.html?ref=rustam-mehmandarov",
@@ -1014,10 +1014,10 @@
       ]
     },
     {
-      "enabled":"1",             
+      "enabled":"1",
       "name": "Charles Moulliard",
       "description":"Principal Software Engineer @RedHat & Apache Committer.",
-      "biography" : "Charles Moulliard is currently a Sr. Principal Software Engineer @RedHat & Apache Committer with more than 20 years of expertise in solutions design based on JEE / Middleware technologies. As Engineer & Architect, he has been involved in system integration of projects in Financial and Banking world. The skills (Methodology, UML, RUP, Project Management, Network, Security, Web Development, Fluent Api & DSL - JavaEE, Middleware) that he acquires during its career path have help him to address business, functional, security and infrastructure requirements and transpose them into operable and efficient solutions. He is also passionated to train people on Microservices, SOA, Middleware & JavaEE. As an Apache Committer he contributes since several years on opensource projects Apache Camel, Karaf, ServiceMix, DeltaSpike, Fabric8, Hawtio, Drools, Asciidoctor and uses these technologies as standards for integration projects. He is a Technology Evangelist making regularly conferences, talks. He lives in Belgium, enjoy Mountain bike & Rock’n’roll. You can find him online #irc ch007m, Twitter @cmoulliard, GitHub https://github.com/cmoulliard, Linkedin, SlideShare, Google+ or on his Blog http://cmoulliard.github.io.",    
+      "biography" : "Charles Moulliard is currently a Sr. Principal Software Engineer @RedHat & Apache Committer with more than 20 years of expertise in solutions design based on JEE / Middleware technologies. As Engineer & Architect, he has been involved in system integration of projects in Financial and Banking world. The skills (Methodology, UML, RUP, Project Management, Network, Security, Web Development, Fluent Api & DSL - JavaEE, Middleware) that he acquires during its career path have help him to address business, functional, security and infrastructure requirements and transpose them into operable and efficient solutions. He is also passionated to train people on Microservices, SOA, Middleware & JavaEE. As an Apache Committer he contributes since several years on opensource projects Apache Camel, Karaf, ServiceMix, DeltaSpike, Fabric8, Hawtio, Drools, Asciidoctor and uses these technologies as standards for integration projects. He is a Technology Evangelist making regularly conferences, talks. He lives in Belgium, enjoy Mountain bike & Rock’n’roll. You can find him online #irc ch007m, Twitter @cmoulliard, GitHub https://github.com/cmoulliard, Linkedin, SlideShare, Google+ or on his Blog http://cmoulliard.github.io.",
       "image": "assets/img/speakers/charles-moulliard.jpg",
       "ref": "charles-moulliard",
       "url": "infoSpeaker.html?ref=charles-moulliard",
@@ -1040,7 +1040,7 @@
       ]
     },
     {
-      "enabled":"1",             
+      "enabled":"1",
       "name": "Maria Gomez",
       "description":"Market Tech Principal at ThoughtWorks in Barcelona.",
       "biography" : "Maria Gomez is a Market Tech Principal at ThoughtWorks in Barcelona. She's been a developer and an architect for over 9 years. She has worked with many different technologies and domains, which has helped her lead teams and advise stakeholders in making the right technology decisions. She is also a speaker and an advocate for diversity and inclusion in the IT industry.",
@@ -1063,6 +1063,29 @@
           "scheduleId": ""
         }
       ]
-    }
-  ]
+    },
+    {
+      "enabled":"1",
+      "name": "Hanno Embregts",
+      "description":"Java Developer, Scrum Master and Trainer at Info Support",
+      "biography" : "Hanno is a Java Developer, Scrum Master and Trainer at Info Support (Veenendaal, Netherlands). He has over 9 years of experience developing enterprise software in various fields (insurance companies, banks, hospitals, industry) and currently works for the Dutch Railway Company (‘NS’). He loves building innovative software and has a passion for clean, elegant solutions. On top of that, he likes continuous delivery, behavior-driven development and all things agile.",
+      "image": "assets/img/speakers/hanno-embregts.jpg",
+      "ref": "hanno-embregts",
+      "url": "infoSpeaker.html?ref=hanno-embregts",
+      "twitter": "https://twitter.com/hannotify",
+      "homepage":"https://blogs.infosupport.com/author/h-embregts/",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Building a Spring Boot application: Ask the Audience!",
+          "abstract": "Spring Boot makes it easy to create stand-alone Spring-based application that you can ‘just run’. It uses a ‘convention over configuration’ approach to get you up and running in no-time, while offering all Spring features that you have grown fond of in the past years. In this session this is demonstrated by live-coding a Spring Boot application that will 'just work'.<br/>But audience beware, this is not your standard ‘live-coding session’. Attendees will have a vital say in the session’s content by defining the application’s requirements. Should it be an app to track your kitchen cupboard contents or do you want a simple task planner? It's up to you! Should it use MongoDB or Couchbase? You decide! Do you want an Angular front-end with a RESTful back-end or do you prefer a classic web app with Thymeleaf templates? It's your call! Seriously.<br/>During the session you get to make these decisions by participating in an online vote. And you will discover that Spring Boot is up to the task no matter what choices you make.<br/>So what are you waiting for? Bring your own device, help shape the application that we're building and learn lots about Spring Boot in the process.<br/>This session is intended for Java software engineers with an interest in Spring Boot. Some Spring experience could come in handy, but is not strictly necessary. After this session, you will know enough to start your own Spring Boot project.",
+          "tags": [
+            "spring-boot", "java", "spring", "mongodb", "couchbase", "thymeleaf", "angular"
+          ],
+          "level": "Beginner",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
+    }  ]
 }
