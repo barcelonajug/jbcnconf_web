@@ -1111,6 +1111,30 @@
           "scheduleId": ""
         }
       ]
+    },
+    {
+      "enabled":"1",
+      "name": "Tomasz Dubikowski",
+      "description":"Software Development Manager at Ocado Technology",
+      "biography" : "Tomek is a Software Development Manager at Ocado Technology. He has 5 years of experience working as a Software Engineer, Scrum Master and Agile Trainer. As an engineer, he is passionate about craftsmanship, propagating clean code, automated tests, behavior-driven development and domain-driven design. As a leader, he helps to build an organizational culture based upon autonomy, collaboration, and trust so that developers are equipped with both the hard and soft skills necessary to build truly awesome products. Tomek loves to change the reality around him. He is highly pragmatic, challenges orthodoxy at all levels, and believes that there is always room for improvement. He is always eager to share and discuss his ideas.",
+      "image": "assets/img/speakers/tomasz-dubikowski.png",
+      "ref": "tomasz-dubikowski",
+      "url": "infoSpeaker.html?ref=tomasz-dubikowski",
+      "twitter": "https://twitter.com/tdubikowski",
+      "homepage":"https://agilehabits.wordpress.com/",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Star Trek: BDD Enterprise",
+          "abstract": "'To explore strange new worlds, to seek out new life and new civilisations, to boldly go where no man has gone before.' Just like the crew of the Starship Enterprise, we explore the IT universe – seeking out new solutions, new technologies, and frameworks – from which we can learn to help us work better and more efficiently. We do this to create more functional and usable software for our customers, to put a big smile on their faces, and maybe – if we do our job really well – to make them stand back and admire what we have crafted. Tomasz was lucky enough to work in BDD (Behaviour Driven Development) quite early in his career, but he also had the misfortune to see how this great idea so often tends to fail. In his presentation Tomasz wanted to show what it is like working with BDD frameworks like JBehave, Cucumber or Concordian. He proposed an effective alternative solution for BDD which is 'Spock' – a convenient, lightweight framework, based on the Groovy language.",
+          "tags": [
+            "bdd", "test", "spock"
+          ],
+          "level": "Intermediate",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
     }
   ]
 }
