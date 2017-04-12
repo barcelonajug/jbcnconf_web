@@ -1087,5 +1087,54 @@
           "scheduleId": ""
         }
       ]
-    }  ]
+    },
+    {
+      "enabled":"1",
+      "name": "Juantomas Garcia",
+      "description":"Data Solution Manager at Open Sistemas",
+      "biography" : "Data Solution Manager at Open Sistemas. Co-author of 'La pastilla roja' the first spanish book about free software. Former President of Hispalinux, Google Developer Expert. GDG Cloud Madrid Organizer. Machine Learning Spain Meetup Organizer.",
+      "image": "assets/img/speakers/juantomas-garcia.jpg",
+      "ref": "juantomas-garcia",
+      "url": "infoSpeaker.html?ref=juantomas-garcia",
+      "twitter": "https://twitter.com/juantomas",
+      "homepage":"http://www.juantomas.net",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Kappa Architecture",
+          "abstract": "The kappa architecture was coined by Jay Kreps in a key post that he wrote for the o'reilly radar website. Kappa Architecture is an strategic pattern design to work with data. At the talk we will see the main concepts, what's the differences with lambda architecture, why scala language is very important in all the definition and creation of the project and what's our favorite tools to implement it (kafka+spark+scala). In addition we will show a real use case with IoT (with data from cars) and how the adoption of kappa architecture improve the project. We will finish with our vision about the future with tools like google dataflow, apache beams or Scio (an scala port of apache beams).",
+          "tags": [
+            "kappa-architecture", "patterns", "data", "scala", "kafka", "spark"
+          ],
+          "level": "Intermediate",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
+    },
+    {
+      "enabled":"1",
+      "name": "Tomasz Dubikowski",
+      "description":"Software Development Manager at Ocado Technology",
+      "biography" : "Tomek is a Software Development Manager at Ocado Technology. He has 5 years of experience working as a Software Engineer, Scrum Master and Agile Trainer. As an engineer, he is passionate about craftsmanship, propagating clean code, automated tests, behavior-driven development and domain-driven design. As a leader, he helps to build an organizational culture based upon autonomy, collaboration, and trust so that developers are equipped with both the hard and soft skills necessary to build truly awesome products. Tomek loves to change the reality around him. He is highly pragmatic, challenges orthodoxy at all levels, and believes that there is always room for improvement. He is always eager to share and discuss his ideas.",
+      "image": "assets/img/speakers/tomasz-dubikowski.png",
+      "ref": "tomasz-dubikowski",
+      "url": "infoSpeaker.html?ref=tomasz-dubikowski",
+      "twitter": "https://twitter.com/tdubikowski",
+      "homepage":"https://agilehabits.wordpress.com/",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Star Trek: BDD Enterprise",
+          "abstract": "'To explore strange new worlds, to seek out new life and new civilisations, to boldly go where no man has gone before.' Just like the crew of the Starship Enterprise, we explore the IT universe – seeking out new solutions, new technologies, and frameworks – from which we can learn to help us work better and more efficiently. We do this to create more functional and usable software for our customers, to put a big smile on their faces, and maybe – if we do our job really well – to make them stand back and admire what we have crafted. Tomasz was lucky enough to work in BDD (Behaviour Driven Development) quite early in his career, but he also had the misfortune to see how this great idea so often tends to fail. In his presentation Tomasz wanted to show what it is like working with BDD frameworks like JBehave, Cucumber or Concordian. He proposed an effective alternative solution for BDD which is 'Spock' – a convenient, lightweight framework, based on the Groovy language.",
+          "tags": [
+            "bdd", "test", "spock"
+          ],
+          "level": "Intermediate",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
+    }
+  ]
 }
