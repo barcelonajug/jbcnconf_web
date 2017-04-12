@@ -1135,6 +1135,31 @@
           "scheduleId": ""
         }
       ]
+    },
+    {
+      "enabled":"1",
+      "name": "Marcus Fihlon",
+      "description":"Software Engineer at CSS Insurance in Lucerne, Switzerland",
+      "biography" : "Marcus Fihlon is an Agile Coach and Software Engineer at CSS Insurance in Lucerne. He also lectures at TEKO Swiss Technical College in Olten and is a speaker at conferences and user groups. He has been developing software for more than three decades and has worked with Java since the late 90s. Marcus is the grounding member and organizer of the monthly Hackergarten in Lucerne and is involved in several open source projects. Since 2017, he is member of the board of the Java User Group Switzerland and responsible for organizing events and workshops in central Switzerland.",
+      "image": "assets/img/speakers/marcus-fihlon.jpg",
+      "ref": "marcus-fihlon",
+      "url": "infoSpeaker.html?ref=marcus-fihlon",
+      "twitter": "https://twitter.com/McPringle",
+      "homepage":"https://www.fihlon.ch",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Lightweight Java EE for Buzzword Services",
+          "abstract": "Java EE is not a hype. It is a well known player since 1999 – a quite long time but Java EE is just about to come off age. 'Modern' developers create micro or nano services, they use 'state of the art' and 'lightweight' frameworks. But when is a service micro or nano? When is a framework lightweight? How does Java EE fit in this modern world of software development? In my opinion Java EE is a perfect choice for writing micro or nano services. In this talk I try to prove my statement. Live on stage I write two services with RESTful JSON APIs with only a few lines of code which communicate with each other and run the services using a local Docker cloud where you can see how these can be scaled up and down to manage fluctuating loads. Coding, building, deploying, scaling: fast and efficient!",
+          "tags": [
+            "microservices", "nanoservices", "JavaEE", "lightweight", "Docker", "REST", "JSON"
+          ],
+          "level": "Beginner",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
     }
+
   ]
 }
