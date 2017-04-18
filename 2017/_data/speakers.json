@@ -1159,7 +1159,29 @@
           "scheduleId": ""
         }
       ]
+    },
+    {
+      "enabled":"1",
+      "name": "Adrian Cole",
+      "description": "Software Engineer at Pivotal",
+      "biography" : "Adrian works at Pivotal, on the Spring Cloud team. He spends most on Zipkin, usually in Java. He also runs a distributed tracing working group for implementors.",
+      "image": "assets/img/speakers/adrian-cole.jpeg",
+      "ref": "adrian-cole",
+      "url": "infoSpeaker.html?ref=adrian-cole",
+      "twitter": "https://twitter.com/adrianfcole",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "How to Properly Blame Things for Causing Latency: An Introduction to Distributed Tracing and Zipkin",
+          "abstract": "Latency analysis is the act of blaming components for causing user perceptible delay. In today's world of microservices, this can be tricky as requests can fan out across polyglot components and even data-centers. This session will overview how to debug latency problems, using call graphs created by Zipkin.",
+          "tags": [
+            "zipkin","tracing","performance"
+          ],
+          "level": "Intermediate",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
     }
-
   ]
 }
