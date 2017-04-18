@@ -1017,7 +1017,7 @@
       "enabled":"1",
       "name": "Charles Moulliard",
       "description":"Principal Software Engineer @RedHat & Apache Committer.",
-      "biography" : "Charles Moulliard is currently a Sr. Principal Software Engineer @RedHat & Apache Committer with more than 20 years of expertise in solutions design based on JEE / Middleware technologies. As Engineer & Architect, he has been involved in system integration of projects in Financial and Banking world. The skills (Methodology, UML, RUP, Project Management, Network, Security, Web Development, Fluent Api & DSL - JavaEE, Middleware) that he acquires during its career path have help him to address business, functional, security and infrastructure requirements and transpose them into operable and efficient solutions. He is also passionated to train people on Microservices, SOA, Middleware & JavaEE. As an Apache Committer he contributes since several years on opensource projects Apache Camel, Karaf, ServiceMix, DeltaSpike, Fabric8, Hawtio, Drools, Asciidoctor and uses these technologies as standards for integration projects. He is a Technology Evangelist making regularly conferences, talks. He lives in Belgium, enjoy Mountain bike & Rock’n’roll. You can find him online #irc ch007m, Twitter @cmoulliard, GitHub https://github.com/cmoulliard, Linkedin, SlideShare, Google+ or on his Blog http://cmoulliard.github.io.",
+      "biography" : "Charles Moulliard is currently a Sr. Principal Software Engineer @RedHat & Apache Committer with more than 20 years of expertise in solutions design based on JEE / Middleware technologies. As Engineer & Architect, he has been involved in system integration of projects in Financial and Banking world. The skills (Methodology, UML, RUP, Project Management, Network, Security, Web Development, Fluent Api & DSL - JavaEE, Middleware) that he acquires during its career path have help him to address business, functional, security and infrastructure requirements and transpose them into operable and efficient solutions. He is also passionated to train people on Microservices, SOA, Middleware & JavaEE. As an Apache Committer he contributes since several years on opensource projects Apache Camel, Karaf, ServiceMix, DeltaSpike, Fabric8, Hawtio, Drools, Asciidoctor and uses these technologies as standards for integration projects. He is a Technology Evangelist making regularly conferences, talks. He lives in Belgium, enjoy Mountain bike & Rock’n’roll. You can find him online #irc ch007m, Twitter, GitHub https://github.com/cmoulliard, Linkedin, SlideShare, Google+ or on his Blog",
       "image": "assets/img/speakers/charles-moulliard.jpg",
       "ref": "charles-moulliard",
       "url": "infoSpeaker.html?ref=charles-moulliard",
@@ -1190,6 +1190,29 @@
             "Java9", "modularity"
           ],
           "level": "Beginner",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
+    },
+    {
+      "enabled":"1",
+      "name": "Adrian Cole",
+      "description": "Software Engineer at Pivotal",
+      "biography" : "Adrian works at Pivotal, on the Spring Cloud team. He spends most on Zipkin, usually in Java. He also runs a distributed tracing working group for implementors.",
+      "image": "assets/img/speakers/adrian-cole.jpeg",
+      "ref": "adrian-cole",
+      "url": "infoSpeaker.html?ref=adrian-cole",
+      "twitter": "https://twitter.com/adrianfcole",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "How to Properly Blame Things for Causing Latency: An Introduction to Distributed Tracing and Zipkin",
+          "abstract": "Latency analysis is the act of blaming components for causing user perceptible delay. In today's world of microservices, this can be tricky as requests can fan out across polyglot components and even data-centers. This session will overview how to debug latency problems, using call graphs created by Zipkin.",
+          "tags": [
+            "zipkin","tracing","performance"
+          ],
+          "level": "Intermediate",
           "video": "",
           "scheduleId": ""
         }
