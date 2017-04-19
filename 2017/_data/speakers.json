@@ -1172,7 +1172,7 @@
       "homepage":"",
       "talks": [
         {
-          "type": "workshop",
+          "type": "talk",
           "title": "Productivity Tips for Java EE and Spring Developers",
           "abstract": "In this live coding session, we’ll build a Java EE application using JBoss Forge, deploy it onto Wildfly and test it using Arquillian. All of this is possible while barely writing a line of code! We’ll also create a microservice using JBoss Swarm. If you’re more into Spring we’ll also show you how to create a Spring application from scratch, use Spring Boot and how you can rapidly develop you applications using JRebel. There will be a bunch of other tools and tips in this session, so if you want to write code like a pro, this is the session for you!",
           "tags": [
@@ -1183,7 +1183,7 @@
           "scheduleId": ""
         },
         {
-          "type": "talk",
+          "type": "workshop",
           "title": "The Pragmatic Developer's Guide to Java 9 and beyond",
           "abstract": "The upcoming Java 9 release brings with it modularity, a new REPL, a new default garbage collector, HTTP 2 client, and much more. However it importantly misses out on such features as Value Types, JSON API and others. This session looks at what is in and what is out of the Java 9 release and whether the features *really* benefit a developer. We’ll discuss questions like whether Java 9 will be as useful to a developer as Java 8 was? How will libraries and frameworks make use of the modularity framework? How will applications benefit, or not, from the new default garbage collector? This session cuts through the hype to outline how Java 9 will realistically affect the everyday pragmatic developer and looks forward to what we can expect in future releases.",
           "tags": [
