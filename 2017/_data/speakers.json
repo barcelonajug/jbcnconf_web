@@ -1217,6 +1217,29 @@
           "scheduleId": ""
         }
       ]
+    },
+    {
+      "enabled":"1",
+      "name": "Michel Schudel",
+      "description": "Passionate Java developer working for Railways in the Netherlands",
+      "biography" : "Michel Schudel has been a passionate Java developer since 1998, building various Java solutions for banks, insurance companies and telecom providers. Since then he has seen the good, the bad and the ugly in Java land. He loves agile development and coding with micro and meso frameworks like SpringBoot and SparkJava to get up-and-running as fast as possible. Futhermore, he likes to coach junior developers in Core Java. Michel is currently working for Dutch Railways in the Netherlands.",
+      "image": "assets/img/speakers/michel-schudel.jpg",
+      "ref": "michel-schudel",
+      "url": "infoSpeaker.html?ref=michel-schudel",
+      "homepage": "http://www.craftsmen.nl",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Test your microservices with REST-assured",
+          "abstract": "As the number of microservices in our application landscape grows, we'd better make sure they are tested really well! There are multiple approaches to testing microservices. Unit tests help, but if we want to test a microservice as a whole, we'll have to use integration testing. In this talk, I will use REST-assured, a framework using a Java DSL, to test against the REST interface of a microservice. REST-assured is a 100% java REST testing solution that integrates nicely with other tools such as JUnit. I will also show how this compares with other solutions, for example Cucumber in combination with custom glue code, and Spring integration tests.",
+          "tags": [
+            "test","microservices","restassured"
+          ],
+          "level": "Beginner",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
     }
   ]
 }
