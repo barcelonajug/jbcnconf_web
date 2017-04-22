@@ -1264,6 +1264,30 @@
           "scheduleId": ""
         }
       ]
+    },
+    {
+      "enabled":"1",
+      "name": "Dmitry Vinnik",
+      "description": "Senior software engineer at Salesforce",
+      "biography" : "Senior Software Engineer at Salesforce, who has been passionate about software quality since the very beginning of his career. Started as a Quality Engineer, he was able to bring test expertise into current role of a software engineer, and ensure a delivery of a high quality product. In addition to being an Individual Contributor, he is a Scrum Master focused on making his team more efficient and productive. His background involves studying Medicine, later transition into Bioinformatics field, and now being in a purely Software Engineering-centric area.",
+      "image": "assets/img/speakers/dmitry-vinnik.jpg",
+      "ref": "dmitry-vinnik",
+      "url": "infoSpeaker.html?ref=dmitry-vinnik",
+      "homepage": "",
+      "twitter":"",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Back to the ComparableFuture: Concurrency in Action",
+          "abstract": "Starting Java 8, the main focus of many developers was on Functional Programming in Java including Streams, Optional, and Functional Interfaces. However, there were more amazing features introduced along the way which has changed Java programming. One of such features was ComparableFuture which is continuously being improved in Java 9 (JEP 266). As Concurrency in Java is generally a complicated topic where many had a difficult time switching to ThreadLocal from regular Threads, the idea of Future and ComparableFuture which refers to asynchronous computations is even more difficult. In this talk, the speaker will attempt to make asynchronous programming using Java 8/9 more compelling by approaching the topic with clear examples and references to other languages. One example of a language heavily relying on asynchronous tasks is JavaScript. Using some of the conceptual similarities of two languages in regards to asynchronous programming, this talk will cover how Future/ComparableFuture can be used in a safe and a programmer friendly way. As mentioned in this abstract, this talk will include enhancements made to concurrency in Java 9 as a part of JEP 266.",
+          "tags": [
+            "java", "concurrency"
+          ],
+          "level": "Advanced",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
     }
   ]
 }
