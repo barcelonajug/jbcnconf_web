@@ -1240,6 +1240,78 @@
           "scheduleId": ""
         }
       ]
+    },
+    {
+      "enabled":"1",
+      "name": "Grzegorz Piwowarek",
+      "description": "Senior software developer at Touk",
+      "biography" : "Grzegorz is a senior software developer@TouK in Warsaw, senior technical editor@Baeldung, guitarist@VisionsOfTondal, professional yo-yo player and a former Mensa member. His professional experience ranges from backend web development and systems’ integration to image recognition engines. Grzegorz is fascinated by the beauty of functional programming and recently helping in spreading the Javaslang word.",
+      "image": "assets/img/speakers/grzegorz-piwowarek.jpg",
+      "ref": "grzegorz-piwowarek",
+      "url": "infoSpeaker.html?ref=grzegorz-piwowarek",
+      "homepage": "",
+      "twitter":"https://twitter.com/pivovarit",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Javaslang - Functional Java Done Right",
+          "abstract": "Java 8’s lambdas empower us to create wonderful APIs. Javaslang lets us dive deeper into the world of functional programming by providing us with persistent data types, immutable collections, and functional control structures. The results are beautiful and do just work. During this presentation, we will recall Java8’s downsides and explore how Javaslang’s Scala-inspired features fill-in the gaps.",
+          "tags": [
+            "java8","javaslang","functional"
+          ],
+          "level": "Intermediate",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
+    },
+    {
+      "enabled":"1",
+      "name": "Dmitry Vinnik",
+      "description": "Senior software engineer at Salesforce",
+      "biography" : "Senior Software Engineer at Salesforce, who has been passionate about software quality since the very beginning of his career. Started as a Quality Engineer, he was able to bring test expertise into current role of a software engineer, and ensure a delivery of a high quality product. In addition to being an Individual Contributor, he is a Scrum Master focused on making his team more efficient and productive. His background involves studying Medicine, later transition into Bioinformatics field, and now being in a purely Software Engineering-centric area.",
+      "image": "assets/img/speakers/dmitry-vinnik.jpg",
+      "ref": "dmitry-vinnik",
+      "url": "infoSpeaker.html?ref=dmitry-vinnik",
+      "homepage": "",
+      "twitter":"",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Back to the ComparableFuture: Concurrency in Action",
+          "abstract": "Starting Java 8, the main focus of many developers was on Functional Programming in Java including Streams, Optional, and Functional Interfaces. However, there were more amazing features introduced along the way which has changed Java programming. One of such features was ComparableFuture which is continuously being improved in Java 9 (JEP 266). As Concurrency in Java is generally a complicated topic where many had a difficult time switching to ThreadLocal from regular Threads, the idea of Future and ComparableFuture which refers to asynchronous computations is even more difficult. In this talk, the speaker will attempt to make asynchronous programming using Java 8/9 more compelling by approaching the topic with clear examples and references to other languages. One example of a language heavily relying on asynchronous tasks is JavaScript. Using some of the conceptual similarities of two languages in regards to asynchronous programming, this talk will cover how Future/ComparableFuture can be used in a safe and a programmer friendly way. As mentioned in this abstract, this talk will include enhancements made to concurrency in Java 9 as a part of JEP 266.",
+          "tags": [
+            "java", "concurrency"
+          ],
+          "level": "Advanced",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
+    },
+    {
+      "enabled":"1",
+      "name": "Piotr Kafel",
+      "description": "Software Engineer and Reactive programming evangelist at Groupon",
+      "biography" : "Software Engineer and reactive programming evangelist at Groupon. I wrote my first line of code in Java when I was 16 years old. Since then I was working on projects for companies like Nokia, HP or Credit Suisse. Even though Java is my main programming language I'm trying not to limit myself to it. I love exploring new languages, technologies and approaches. I'm an open source contributor and ex Wroclaw JUG leader. Related links: <ul><li>http://www.reactivemanifesto.org/</li><li>http://www.reactive-streams.org/</li><li>https://github.com/ReactiveX/RxJava</li></ul>",
+      "image": "assets/img/speakers/piotr-kafel.png",
+      "ref": "piotr-kafel",
+      "url": "infoSpeaker.html?ref=piotr-kafel",
+      "homepage": "",
+      "twitter":"http://twitter.com/daftano",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Reactive - land of confusion",
+          "abstract": "Buzzword, buzzwords everywhere! Among them word with many meanings - reactive. Reactive systems, reactive manifesto, reactive programing, reactive streams... Do you know them all and do you know what are the difference between them? During the talk we will try to put some order in the reactive land of confusion. We will take a closer look into the most prominent reactive initiatives, how they relate to each other, what are the benefits coming from them and if this is something you should pay attention to. At the end of the talk everyone should have clear understanding of reactive landscape. Lets spread the knowledge!",
+          "tags": [
+            "reactive programming", "reactive manifesto", "reactive streams", "rxjava"
+          ],
+          "level": "Intermediate",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
     }
   ]
 }
