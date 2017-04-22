@@ -1240,6 +1240,30 @@
           "scheduleId": ""
         }
       ]
+    },
+    {
+      "enabled":"1",
+      "name": "Grzegorz Piwowarek",
+      "description": "Senior software developer at Touk",
+      "biography" : "Grzegorz is a senior software developer@TouK in Warsaw, senior technical editor@Baeldung, guitarist@VisionsOfTondal, professional yo-yo player and a former Mensa member. His professional experience ranges from backend web development and systems’ integration to image recognition engines. Grzegorz is fascinated by the beauty of functional programming and recently helping in spreading the Javaslang word.",
+      "image": "assets/img/speakers/grzegorz-piwowarek.jpg",
+      "ref": "grzegorz-piwowarek",
+      "url": "infoSpeaker.html?ref=grzegorz-piwowarek",
+      "homepage": "http://www.craftsmen.nl",
+      "twitter":"https://twitter.com/pivovarit",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Javaslang - Functional Java Done Right",
+          "abstract": "Java 8’s lambdas empower us to create wonderful APIs. Javaslang lets us dive deeper into the world of functional programming by providing us with persistent data types, immutable collections, and functional control structures. The results are beautiful and do just work. During this presentation, we will recall Java8’s downsides and explore how Javaslang’s Scala-inspired features fill-in the gaps.",
+          "tags": [
+            "java8","javaslang","functional"
+          ],
+          "level": "Intermediate",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
     }
   ]
 }
