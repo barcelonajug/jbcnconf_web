@@ -1288,6 +1288,30 @@
           "scheduleId": ""
         }
       ]
+    },
+    {
+      "enabled":"1",
+      "name": "Piotr Kafel",
+      "description": "Software Engineer and Reactive programming evangelist at Groupon",
+      "biography" : "Software Engineer and reactive programming evangelist at Groupon. I wrote my first line of code in Java when I was 16 years old. Since then I was working on projects for companies like Nokia, HP or Credit Suisse. Even though Java is my main programming language I'm trying not to limit myself to it. I love exploring new languages, technologies and approaches. I'm an open source contributor and ex Wroclaw JUG leader. Related links: <ul><li>http://www.reactivemanifesto.org/</li><li>http://www.reactive-streams.org/</li><li>https://github.com/ReactiveX/RxJava</li></ul>",
+      "image": "assets/img/speakers/piotr-kafel.png",
+      "ref": "piotr-kafel",
+      "url": "infoSpeaker.html?ref=piotr-kafel",
+      "homepage": "",
+      "twitter":"http://twitter.com/daftano",
+      "talks": [
+        {
+          "type": "talk",
+          "title": "Reactive - land of confusion",
+          "abstract": "Buzzword, buzzwords everywhere! Among them word with many meanings - reactive. Reactive systems, reactive manifesto, reactive programing, reactive streams... Do you know them all and do you know what are the difference between them? During the talk we will try to put some order in the reactive land of confusion. We will take a closer look into the most prominent reactive initiatives, how they relate to each other, what are the benefits coming from them and if this is something you should pay attention to. At the end of the talk everyone should have clear understanding of reactive landscape. Lets spread the knowledge!",
+          "tags": [
+            "reactive programming", "reactive manifesto", "reactive streams", "rxjava"
+          ],
+          "level": "Intermediate",
+          "video": "",
+          "scheduleId": ""
+        }
+      ]
     }
   ]
 }
