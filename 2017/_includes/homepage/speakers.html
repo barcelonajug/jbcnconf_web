@@ -17,14 +17,23 @@
                 <div class="speakers-widget speakers-widget-344564632 animate anim-fadeInUp">
 
 
-                    {% for speaker in site.data.speakers.speakers %}
+                    {% for speaker in site.data.speakers.items %}
+
+                    {% assign talkTitle = '' %}
+                    {% for talk in site.data.talks.items %}
+                    {% if speaker.ref == talk.speakers[0] %}
+                    {% capture talkTitle %}  {{ talk.title }}. {{ talkTitle }}{% endcapture %}
+                    {% endif %}
+                    {% endfor %}
+
+
                     <div class="item">
                         <div class="speaker-item-header"
                              style="background-image:url('{{ base }}/{{ speaker.image }}');">
                             <div class="speaker-item-topic-wrapper">
                                 <a href="{{ base }}/{{ speaker.url }}">
                                     <h4 class="speaker-item-topic-title">
-                                        {{ speaker.talks[0].title }}
+                                        {{ talkTitle }}
                                     </h4>
                                 </a>
 
