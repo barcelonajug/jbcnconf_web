@@ -23,6 +23,14 @@
         "src": "/assets/img/sponsors/netcentric-logo.png",
         "alt": "Netcentric - Expect Excellence"
       }
+    },
+    {
+      "name": "Everis",
+      "href": "http://www.everis.com",
+      "image": {
+        "src": "/assets/img/sponsors/everis-logo.png",
+        "alt": "Everis"
+      }
     }
   ],
   "silver": [
