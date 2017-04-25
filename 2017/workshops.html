@@ -37,12 +37,11 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                 <h2></h2>
                                 <h2>Workshops</h2>
                                 <p>
-                                   Wednesday 21st of June 2017
+                                    Wednesday 21st of June 2017
                                 </p>
-                                
+
                             </div>
                             <div class="post-content">
-
 
 
                                 {% for talk in site.data.talks.items %}
@@ -70,14 +69,13 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                 </br>
                                 Level: {{talk.level}}
                                 {% for tag in talk.tags %}
-                                <span class="label tag label-info {{tag}}">{{ tag }}</span>
+                                <span class="label tag label-info" data-tag="{{tag}}">{{ tag }}</span>
                                 {% endfor %}
 
                                 </br>
 
                                 {% endif %}
                                 {% endfor %}
-
 
 
                             </div>
@@ -93,6 +91,9 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 
         </div>
     </div>
+
+    <script type='text/javascript'
+            src='{{ base }}/assets/js/tag-colors.js'></script>
 
 </div>
 
