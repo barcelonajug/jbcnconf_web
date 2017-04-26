@@ -63,6 +63,14 @@
         "src": "/assets/img/sponsors/canoo.png",
         "alt": "Canoo"
       }
-    }
+    },
+    {
+      "name": "London Java Community",
+      "href": "https://www.meetup.com/Londonjavacommunity/",
+      "image": {
+        "src": "/assets/img/sponsors/london-jug.png",
+        "alt": "London Java Community"
+      }
+    }    
   ]
 }
