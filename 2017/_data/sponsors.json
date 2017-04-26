@@ -25,6 +25,14 @@
         "src": "/assets/img/sponsors/everis-logo.png",
         "alt": "Everis"
       }
+    },
+    {
+      "name": "Netsuite",
+      "href": "http://www.netsuite.com",
+      "image": {
+        "src": "/assets/img/sponsors/oracle-netsuite.png",
+        "alt": "Netsuite"
+      }
     }
   ],
   "silver": [
