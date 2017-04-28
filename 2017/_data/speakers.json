@@ -544,6 +544,28 @@
       "ref": "esther-lozano",
       "url": "infoSpeaker.html?ref=esther-lozano",
       "twitter": "https://twitter.com/esloho"
+    },
+    {
+      "enabled": "1",
+      "name": "Mauricio Salatino",
+      "description": "Principal Software Engineer at Alfresco",
+      "biography": "Open Source, Java, BPM and Rule Engine enthusiast and promoter. Writer of 4 books about jBPM & Drools, now Principal Software Engineer @ Alfresco",
+      "image": "assets/img/speakers/mauricio-salatino.jpg",
+      "ref": "mauricio-salatino",
+      "url": "infoSpeaker.html?ref=mauricio-salatino",
+      "homepage": "http://salaboy.com",
+      "twitter": "http://twitter.com/salaboy"
+    },
+    {
+      "enabled": "1",
+      "name": "Mario Romano",
+      "description": "Director of Engineering in Alfresco",
+      "biography": "Mario is the Director of Engineering in Alfresco but he is still really much involved with the coding. Before Alfresco, Mario accumulated nearly 8 years of experience in developing software for large organisations, and in particular in developing microservices architecture. He's been coding since he was 10 years old. Mario is currently based in London, but grew up in Naples the city where the pizza was invented (not New York or Chicago), and also the city where has played the best football player of all the time (Maradona ). Mario likes to plays the piano when is not busy writing code, reading code or thinking about code.",
+      "image": "assets/img/speakers/mario-romano.jpg",
+      "ref": "mario-romano",
+      "url": "infoSpeaker.html?ref=mario-romano",
+      "homepage": "http://magemello.github.io",
+      "twitter": "https://twitter.com/MagemelloMario"
     }
   ]
 }

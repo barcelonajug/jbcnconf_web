@@ -898,6 +898,25 @@
       "speakers": [
         "david-gomez", "esther-lozano"
       ]
+    },
+    {
+      "type": "talk",
+      "title": "Tomorrow's Model Driven Development",
+      "abstract": "With microservices all over the place how do we make sure that we don't hide the core business logic deep inside our services and their interactions? How can we separate the technical details from the domain expertise? During this presentation we will be talking about how to best take advantage of DDD and how it compares and can be used in conjunction with model driven methodologies. In order to demonstrate all these concepts in action we will be showing how to use Spring Cloud with modelling tools and frameworks to create self-documenting, adaptable and context-aware applications that will run into highly-distributed environments.",
+      "tags": [
+        "ddd",
+        "model driven", 
+        "spring cloud",
+        "distributed",
+        "knowledge engineering",
+        "frameworks"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "mauricio-salatino", "mario-romano"
+      ]
     }
   ]
 }
