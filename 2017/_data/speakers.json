@@ -503,7 +503,6 @@
       "image": "assets/img/speakers/grzegorz-piwowarek.jpg",
       "ref": "grzegorz-piwowarek",
       "url": "infoSpeaker.html?ref=grzegorz-piwowarek",
-      "homepage": "",
       "twitter": "https://twitter.com/pivovarit"
     },
     {
@@ -514,7 +513,6 @@
       "image": "assets/img/speakers/dmitry-vinnik.jpg",
       "ref": "dmitry-vinnik",
       "url": "infoSpeaker.html?ref=dmitry-vinnik",
-      "homepage": "",
       "twitter": ""
     },
     {
@@ -525,8 +523,27 @@
       "image": "assets/img/speakers/piotr-kafel.png",
       "ref": "piotr-kafel",
       "url": "infoSpeaker.html?ref=piotr-kafel",
-      "homepage": "",
       "twitter": "http://twitter.com/daftano"
+    },
+    {
+      "enabled": "1",
+      "name": "David Gómez",
+      "description": "Software engineer at Autentia",
+      "biography": "David Gómez works as Software engineer at Autentia. With more than 15 years of experience in software development, has been part, lead, and developed projects for Banking, Insurance, Defense and Sea & ground transportation business. Aside of software development he is also dedicated to training, beeing a SringSource Certified Instructor and also delivers the JavaSpecialists Master courses in Spain. In fact, he has delivered more than 50 training courses all over spain from 2009 to the date.",
+      "image": "assets/img/speakers/david-gomez.png",
+      "ref": "david-gomez",
+      "url": "infoSpeaker.html?ref=david-gomez",
+      "twitter": "https://twitter.com/dgomezg"
+    },
+    {
+      "enabled": "1",
+      "name": "Esther Lozano",
+      "description": "Software engineer at Autentia",
+      "biography": "Esther Lozano works as Software Engineer in Autentia since 2015, as Java backend developer, although this was not always her role. After getting her degree in Computer Science, she suddenly woke up into a PhD program about Semantic Web and ontologies - because who doesn't, right? She successfully finished her research in 2015, but she had already made her mind about pursuing a more technical career. So she rolled an ability check, paid some hope points, and... hooray! She epically made it into professional development.",
+      "image": "assets/img/speakers/esther-lozano.png",
+      "ref": "esther-lozano",
+      "url": "infoSpeaker.html?ref=esther-lozano",
+      "twitter": "https://twitter.com/esloho"
     }
   ]
 }
