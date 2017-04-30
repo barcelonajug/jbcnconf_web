@@ -25,6 +25,14 @@
         "src": "/assets/img/sponsors/everis-logo.png",
         "alt": "Everis"
       }
+    },
+    {
+      "name": "Alfresco",
+      "href": "http://www.alfresco.com",
+      "image": {
+        "src": "/assets/img/sponsors/alfresco-logo.png",
+        "alt": "Alfresco"
+      }
     }
   ],
   "silver": [
