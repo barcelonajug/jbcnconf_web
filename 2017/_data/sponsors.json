@@ -25,6 +25,22 @@
         "src": "/assets/img/sponsors/everis-logo.png",
         "alt": "Everis"
       }
+    },
+    {
+      "name": "RedHat",
+      "href": "http://www.redhat.com",
+      "image": {
+        "src": "/assets/img/sponsors/redhat.png",
+        "alt": "RedHat"
+      }
+    },
+    {
+      "name": "Alfresco",
+      "href": "http://www.alfresco.com",
+      "image": {
+        "src": "/assets/img/sponsors/alfresco-logo.png",
+        "alt": "Alfresco"
+      }
     }
   ],
   "silver": [
@@ -71,6 +87,14 @@
         "src": "/assets/img/sponsors/london-jug.png",
         "alt": "London Java Community"
       }
-    }    
+    },
+    {
+      "name": "Salesforce",
+      "href": "https://www.salesforce.com",
+      "image": {
+        "src": "/assets/img/sponsors/salesforce-logo.png",
+        "alt": "Salesforce"
+      }
+    }      
   ]
 }
