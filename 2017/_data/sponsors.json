@@ -87,6 +87,14 @@
         "src": "/assets/img/sponsors/london-jug.png",
         "alt": "London Java Community"
       }
-    }    
+    },
+    {
+      "name": "Salesforce",
+      "href": "https://www.salesforce.com",
+      "image": {
+        "src": "/assets/img/sponsors/salesforce-logo.png",
+        "alt": "Salesforce"
+      }
+    }      
   ]
 }
