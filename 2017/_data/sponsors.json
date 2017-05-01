@@ -27,6 +27,14 @@
       }
     },
     {
+      "name": "Alfresco",
+      "href": "http://www.alfresco.com",
+      "image": {
+        "src": "/assets/img/sponsors/alfresco-logo.png",
+        "alt": "Alfresco"
+      }
+    },
+    {
       "name": "RedHat",
       "href": "http://www.redhat.com",
       "image": {
