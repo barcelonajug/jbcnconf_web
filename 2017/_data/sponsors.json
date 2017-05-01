@@ -25,6 +25,14 @@
         "src": "/assets/img/sponsors/everis-logo.png",
         "alt": "Everis"
       }
+    },
+    {
+      "name": "RedHat",
+      "href": "http://www.redhat.com",
+      "image": {
+        "src": "/assets/img/sponsors/redhat.png",
+        "alt": "RedHat"
+      }
     }
   ],
   "silver": [
