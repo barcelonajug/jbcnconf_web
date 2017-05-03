@@ -882,6 +882,41 @@
       "speakers": [
         "piotr-kafel"
       ]
+    },
+    {
+      "type": "talk",
+      "title": "The... Wonderful? World of lambdas",
+      "abstract": "We, Java developers, embrace Java 8 in the hope that by mastering Lambdas and Streams, we would be gifted with a functional programming mind. And thus we walk down the yellow brick road to the wizard of lambdas. That road usually starts from the fear and terror of learning their syntax until finally getting to understand them and opening our minds to the fruitful fields of functional programming. But this road eventually reaches a final stage: the lambda abuse.<br/>Let’s get the curtain down!<br/>During our talk, we will see examples of abuse and misuse of lambdas and streams. To master the lambas art means to know when to use them and when not to not damage your brain and, most importantly, other Java developers’. Keep your code readable and maintainable, avoid becoming a lambda addict!<br/>And if nothing else you will take with you a bunch of apparently smart java 8 one-liners to show off among your friends and colleagues.",
+      "tags": [
+        "java8",
+        "lambda",
+        "abuse"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "david-gomez", "esther-lozano"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Tomorrow's Model Driven Development",
+      "abstract": "With microservices all over the place how do we make sure that we don't hide the core business logic deep inside our services and their interactions? How can we separate the technical details from the domain expertise? During this presentation we will be talking about how to best take advantage of DDD and how it compares and can be used in conjunction with model driven methodologies. In order to demonstrate all these concepts in action we will be showing how to use Spring Cloud with modelling tools and frameworks to create self-documenting, adaptable and context-aware applications that will run into highly-distributed environments.",
+      "tags": [
+        "ddd",
+        "model driven", 
+        "spring cloud",
+        "distributed",
+        "knowledge engineering",
+        "frameworks"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "mauricio-salatino", "mario-romano"
+      ]
     }
   ]
 }
