@@ -12156,3 +12156,26 @@ hr.sponsor-separator:after {
     background: -webkit-linear-gradient(to left, #D1913C, #FFD194); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #D1913C, #FFD194); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+
+/*
+ * ==== diamond 
+ */
+
+.sponsor-diamond img {
+    width: 30%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .sponsor-diamond img {
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .sponsor-diamond img {
+        width: 80%;
+    }
+}
