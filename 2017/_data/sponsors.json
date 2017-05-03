@@ -1,6 +1,12 @@
 {
-  "diamond": [
-  ],
+  "diamond": {
+    "name": "New Relic",
+    "href": "https://newrelic.com/",
+    "image": {
+      "src": "/assets/img/sponsors/newrelic-logo.png",
+      "alt": "New Relic"
+    }
+  },
   "gold": [
     {
       "name": "Adaptive",
