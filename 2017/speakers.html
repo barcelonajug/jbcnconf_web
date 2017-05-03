@@ -52,7 +52,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 
                                     {% assign talkTitle = '' %}
                                     {% for talk in site.data.talks.items %}
-                                    {% if speaker.ref == talk.speakers[0] %}
+                                    {% if speaker.ref == talk.speakers[0] or speaker.ref == talk.speakers[1] %}
                                     {% capture talkTitle %}  {{ talk.title }}. {{ talkTitle }}{% endcapture %}
                                     {% endif %}
                                     {% endfor %}
