@@ -41,14 +41,6 @@
         "src": "/assets/img/sponsors/alfresco-logo.png",
         "alt": "Alfresco"
       }
-    },
-    {
-      "name": "Netsuite",
-      "href": "http://www.netsuite.com",
-      "image": {
-        "src": "/assets/img/sponsors/oracle-netsuite.png",
-        "alt": "Netsuite"
-      }
     }
   ],
   "silver": [
