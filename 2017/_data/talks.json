@@ -917,6 +917,22 @@
       "speakers": [
         "mauricio-salatino", "mario-romano"
       ]
+    },
+    {
+      "type": "workshop",
+      "title": "Streaming and the Internet of Things: Hands-on Workshop",
+      "abstract": "During this Workshop you will learn how to design a scalable IoT application from sensor to data center, including: Data capture with various sensors, Data transport using various protocol and API, for example Apache Kafka API with MapR Streams, Stream processing using Apache Spark and/or Apache Flink, Data Persistence using Streams, NoSQL Database, and File System, Analytics with Apache Drill. Come with your laptop and start coding your first scalable IoT Application; you will have access to sensors 'the things', a MapR Cluster to capture, store, process and analyse the data; and sample code to play with the data. Prerequisites: Some Java Experience, Java  Development Kit 1.8 (JDK), Your favorite IDE, Maven, Git.",
+      "tags": [
+        "IoT",
+        "MapR",
+        "Apache Kafka"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "tugdual-grall"
+      ]
     }
   ]
 }
