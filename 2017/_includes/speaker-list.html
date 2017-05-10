@@ -3,8 +3,19 @@
     (function(global){
         var speakers = [], currentSpeaker;
         
-        {% for speaker in site.data.speakers.speakers %}
+        {% for speaker in site.data.speakers.items %}
         currentSpeaker = {{ speaker | jsonify }}
+        currentSpeaker.talks = [];
+
+        {% for talk in site.data.talks.items %}
+        {% if speaker.ref == talk.speakers[0] or speaker.ref == talk.speakers[1] %}
+
+        currentSpeaker.talks.push({{ talk | jsonify }})
+
+        {% endif %}
+        {% endfor %}
+
+
         
         if(window.location.search.indexOf(currentSpeaker.ref)!==-1){
             speakers.push(currentSpeaker);

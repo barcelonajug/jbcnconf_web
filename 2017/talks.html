@@ -45,25 +45,36 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                             <div class="post-content">
 
 
-                                {% for speaker in site.data.speakers.speakers %}
-                                {% for talk in speaker.talks %}
-                                
-                                
+                                {% for talk in site.data.talks.items %}
+
                                 {% if talk.type contains "talk" %}
-                                <a href="{{base}}/{{speaker.url}}">
-                                    <b>{{talk.title}}</b> by {{speaker.name}}
+
+                                {% assign speakersList = '' %}
+                                {% for speakerRef in talk.speakers %}
+                                {% for speaker in site.data.speakers.items %}
+
+                                {% if speakerRef == speaker.ref %}
+                                {% capture speakerUrl %}{{ speaker.url }}{% endcapture %}
+                                {% capture speakersList %} {{speakersList}} {{ speaker.name }} {% endcapture %}
+                                {% endif %}
+
+
+                                {% endfor %}
+                                {% endfor %}
+
+
+                                <a href="{{base}}/{{speakerUrl}}">
+                                    <b>{{talk.title}}</b> by {{ speakersList }}
                                 </a>
-                             
                                 </br>
                                 Level: {{talk.level}}
                                 {% for tag in talk.tags %}
-                                    <span class="label tag label-info {{tag}}">{{ tag }}</span>
+                                <span class="label tag label-info" data-tag="{{tag}}">{{ tag }}</span>
                                 {% endfor %}
 
                                 </br>
-                                
+
                                 {% endif %}
-                                {% endfor %}
                                 {% endfor %}
 
 
@@ -79,6 +90,9 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 
         </div>
     </div>
+
+    <script type='text/javascript'
+            src='{{ base }}/assets/js/tag-colors.js'></script>
 
 </div>
 
