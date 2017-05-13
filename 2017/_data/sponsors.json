@@ -51,7 +51,15 @@
         "src": "/assets/img/sponsors/opentrends-logo.png",
         "alt": "Opentrends"
       }
-    }
+    },
+    {
+      "name": "Thoughtworks",
+      "href": "https://www.thoughtworks.com/",
+      "image": {
+        "src": "/assets/img/sponsors/thoughtworks.png",
+        "alt": "Thoughtworks"
+      }
+    }    
   ],
   "bronze": [
   ],
@@ -94,6 +102,14 @@
       "image": {
         "src": "/assets/img/sponsors/salesforce-logo.png",
         "alt": "Salesforce"
+      }
+    },
+    {
+      "name": "Sevilla Java User Group",
+      "href": "https://www.meetup.com/SVQJUG",
+      "image": {
+        "src": "/assets/img/sponsors/sevilla-jug.png",
+        "alt": "Sevilla Java User Group"
       }
     }      
   ]
