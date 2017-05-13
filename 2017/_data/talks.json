@@ -933,6 +933,24 @@
       "speakers": [
         "tugdual-grall"
       ]
+    },
+    {
+      "type": "talk",
+      "title": "Clustered event-driven services",
+      "abstract": "In 2010 I came across a strange, new (to me!) architecture that the LMAX team used for their Foreign Exchange system. You might have heard about the Disruptor, it came out of this project.<br/>The core of our system is a clustered service which uses the Raft consensus algorithm to reliably replicate state between the different nodes and hosts our application logic. We will take a quick look at Raft and then at the benefits of this design compared to more “mainstream” architectures. This architecture offers a clean separation of concerns between the infrastructure - which takes care of the concurrency, I/O and high availability aspects -  and the application logic. The clean architecture is a great fit for domain-driven design.<br/>If you fancy building fast, resilient services without a database you should come to this talk!",
+      "tags": [
+        "Architecture",
+        "Event sourcing",
+        "Raft",
+        "Event driven"
+      ],
+      "level": "Advanced",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "olivier-deheurles"
+      ]
     }
+
   ]
 }
