@@ -566,6 +566,18 @@
       "url": "infoSpeaker.html?ref=mario-romano",
       "homepage": "http://magemello.github.io",
       "twitter": "https://twitter.com/MagemelloMario"
+    },
+    {
+      "enabled": "1",
+      "name": "Tugdual Grall",
+      "description": "EMEA's Chief Technicaal Evangelist at MapR",
+      "biography": "Tugdual Grall is Chief Technical Evangelist for EMEA at MapR, an open source advocate and a passionate developer. He currently works with the European developer communities to ease MapR, Hadoop and NoSQL adoption.Before joining MapR, Tug was Technical Evangelist at MongoDB and Couchbase. Tug has also worked as CTO at eXo Plaform and JavaEE product manager, and software engineer at Oracle. Tugdual is Co-Founder of the Nantes JUG (Java User Group) that holds since 2008 monthly meeting about Java ecosystem.",
+      "image": "assets/img/speakers/tugdual-grall.jpeg",
+      "ref": "tugdual-grall",
+      "url": "infoSpeaker.html?ref=tugdual-grall",
+      "homepage": "http://tgrall.github.io",
+      "twitter": "http://twittter.com/tgrall"
     }
+
   ]
 }

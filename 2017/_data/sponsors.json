@@ -1,6 +1,12 @@
 {
-  "diamond": [
-  ],
+  "diamond": {
+    "name": "New Relic",
+    "href": "https://newrelic.com/",
+    "image": {
+      "src": "/assets/img/sponsors/newrelic-logo.png",
+      "alt": "New Relic"
+    }
+  },
   "gold": [
     {
       "name": "Adaptive",
@@ -41,6 +47,14 @@
         "src": "/assets/img/sponsors/alfresco-logo.png",
         "alt": "Alfresco"
       }
+    },
+    {
+      "name": "eDreams ODIGEO",
+      "href": "http://www.edreamsodigeo.com",
+      "image": {
+        "src": "/assets/img/sponsors/eDreamsODIGEO_logo_RGB.png",
+        "alt": "eDreams ODIGEO"
+      }
     }
   ],
   "silver": [
@@ -58,6 +72,14 @@
       "image": {
         "src": "/assets/img/sponsors/thoughtworks.png",
         "alt": "Thoughtworks"
+      }
+    },
+    {
+      "name": "Arhs Group",
+      "href": "http://www.arhs-group.com",
+      "image": {
+        "src": "/assets/img/sponsors/arhs-logo.png",
+        "alt": "Arhs Group"
       }
     }    
   ],
