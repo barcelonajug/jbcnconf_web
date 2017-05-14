@@ -577,7 +577,17 @@
       "url": "infoSpeaker.html?ref=tugdual-grall",
       "homepage": "http://tgrall.github.io",
       "twitter": "http://twittter.com/tgrall"
+    },
+    {
+      "enabled": "1",
+      "name": "Olivier Deheurles",
+      "description": "Developer and Technical Architect at Adaptive",
+      "biography": "Olivier is one of the co-founders of Adaptive, a consulting firm delivering trading systems for the financial and commodities industries. He is working as a developer and technical architect with 15+ years experience building large scale event driven systems. He also contributed to several open source projects, including the Disruptor, Aeron and SBE.",
+      "image": "assets/img/speakers/olivier-deheurles.jpg",
+      "ref": "olivier-deheurles",
+      "url": "infoSpeaker.html?ref=olivier-deheurles",
+      "homepage": "https://www.linkedin.com/in/odeheurles/",
+      "twitter": "https://twitter.com/olivierdeheurle"
     }
-
   ]
 }
