@@ -9746,6 +9746,7 @@ _::-ms-reveal, .speakers-widget .speaker-item-body .speaker-item-information li 
     margin-left: 10px;
     margin-right: 10px;
     float: left;
+    margin-bottom:130px;
     max-height: 300px !important;
 }
 

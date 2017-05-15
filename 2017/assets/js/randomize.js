@@ -28,9 +28,9 @@
 
         $('.speakers-widget-344564632').owlCarousel({
             loop: true,
-            nav: false,
+            nav: true,
             margin: 45,
-            dots: true,
+            dots: false,
             responsive: {
                 0: {
                     items: 1
