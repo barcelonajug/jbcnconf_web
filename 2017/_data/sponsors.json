@@ -81,6 +81,14 @@
         "src": "/assets/img/sponsors/arhs-logo.png",
         "alt": "Arhs Group"
       }
+    },
+    {
+      "name": "GFT",
+      "href": "http://www.gft.com/empleo",
+      "image": {
+        "src": "/assets/img/sponsors/gft-logo.jpg",
+        "alt": "GFT"
+      }
     }    
   ],
   "bronze": [
