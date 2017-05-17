@@ -55,6 +55,14 @@
         "src": "/assets/img/sponsors/eDreamsODIGEO_logo_RGB.png",
         "alt": "eDreams ODIGEO"
       }
+    },
+    {
+      "name": "Oracle + NetSuite",
+      "href": "http://www.netsuite.com",
+      "image": {
+        "src": "/assets/img/sponsors/oracle-netsuite.png",
+        "alt": "Oracle + NetSuite"
+      }
     }
   ],
   "silver": [
