@@ -97,6 +97,14 @@
         "src": "/assets/img/sponsors/gft-logo.jpg",
         "alt": "GFT"
       }
+    },
+    {
+      "name": "Jetbrains",
+      "href": "https://www.jetbrains.com/",
+      "image": {
+        "src": "/assets/img/sponsors/jetbrains.png",
+        "alt": "JetBrains"
+      }
     }    
   ],
   "bronze": [
