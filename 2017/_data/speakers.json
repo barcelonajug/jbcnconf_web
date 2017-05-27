@@ -401,8 +401,8 @@
     {
       "enabled": "1",
       "name": "Charles Moulliard",
-      "description": "Principal Software Engineer @RedHat & Apache Committer.",
-      "biography": "Charles Moulliard is currently a Sr. Principal Software Engineer @RedHat & Apache Committer with more than 20 years of expertise in solutions design based on JEE / Middleware technologies. As Engineer & Architect, he has been involved in system integration of projects in Financial and Banking world. The skills (Methodology, UML, RUP, Project Management, Network, Security, Web Development, Fluent Api & DSL - JavaEE, Middleware) that he acquires during its career path have help him to address business, functional, security and infrastructure requirements and transpose them into operable and efficient solutions. He is also passionated to train people on Microservices, SOA, Middleware & JavaEE. As an Apache Committer he contributes since several years on opensource projects Apache Camel, Karaf, ServiceMix, DeltaSpike, Fabric8, Hawtio, Drools, Asciidoctor and uses these technologies as standards for integration projects. He is a Technology Evangelist making regularly conferences, talks. He lives in Belgium, enjoy Mountain bike & Rock’n’roll. You can find him online #irc ch007m, Twitter, GitHub https://github.com/cmoulliard, Linkedin, SlideShare, Google+ or on his Blog",
+      "description": "Software Engineer Manager - Spring Technology at RedHat",
+      "biography": "Charles Moulliard is currently a Software Engineer Manager - Spring Technology at RedHat & Apache Committer with more than 20 years of expertise in solutions design based on JEE / Middleware technologies. As Engineer & Architect, he has been involved in system integration of projects in Financial and Banking world. The skills (Methodology, UML, RUP, Project Management, Network, Security, Web Development, Fluent Api & DSL - JavaEE, Middleware) that he acquires during its career path have help him to address business, functional, security and infrastructure requirements and transpose them into operable and efficient solutions. He is also passionated to train people on Microservices, SOA, Middleware & JavaEE. As an Apache Committer he contributes since several years on opensource projects Apache Camel, Karaf, ServiceMix, DeltaSpike, Fabric8, Hawtio, Drools, Asciidoctor and uses these technologies as standards for integration projects. He is a Technology Evangelist making regularly conferences, talks. He lives in Belgium, enjoy Mountain bike & Rock’n’roll. You can find him online #irc ch007m, Twitter, GitHub https://github.com/cmoulliard, Linkedin, SlideShare, Google+ or on his Blog",
       "image": "assets/img/speakers/charles-moulliard.jpg",
       "ref": "charles-moulliard",
       "url": "infoSpeaker.html?ref=charles-moulliard",
@@ -503,7 +503,6 @@
       "image": "assets/img/speakers/grzegorz-piwowarek.jpg",
       "ref": "grzegorz-piwowarek",
       "url": "infoSpeaker.html?ref=grzegorz-piwowarek",
-      "homepage": "",
       "twitter": "https://twitter.com/pivovarit"
     },
     {
@@ -514,19 +513,81 @@
       "image": "assets/img/speakers/dmitry-vinnik.jpg",
       "ref": "dmitry-vinnik",
       "url": "infoSpeaker.html?ref=dmitry-vinnik",
-      "homepage": "",
       "twitter": ""
     },
     {
       "enabled": "1",
       "name": "Piotr Kafel",
       "description": "Software Engineer and Reactive programming evangelist at Groupon",
-      "biography": "Software Engineer and reactive programming evangelist at Groupon. I wrote my first line of code in Java when I was 16 years old. Since then I was working on projects for companies like Nokia, HP or Credit Suisse. Even though Java is my main programming language I'm trying not to limit myself to it. I love exploring new languages, technologies and approaches. I'm an open source contributor and ex Wroclaw JUG leader. Related links: <ul><li>http://www.reactivemanifesto.org/</li><li>http://www.reactive-streams.org/</li><li>https://github.com/ReactiveX/RxJava</li></ul>",
+      "biography": "Software Engineer and reactive programming evangelist at Groupon. I wrote my first line of code in Java when I was 16 years old. Since then I was working on projects for companies like Nokia, HP or Credit Suisse. Even though Java is my main programming language I'm trying not to limit myself to it. I love exploring new languages, technologies and approaches. I'm an open source contributor and ex Wroclaw JUG leader.",
       "image": "assets/img/speakers/piotr-kafel.png",
       "ref": "piotr-kafel",
       "url": "infoSpeaker.html?ref=piotr-kafel",
-      "homepage": "",
       "twitter": "http://twitter.com/daftano"
+    },
+    {
+      "enabled": "1",
+      "name": "David Gómez",
+      "description": "Software engineer at Autentia",
+      "biography": "David Gómez works as Software engineer at Autentia. With more than 15 years of experience in software development, has been part, lead, and developed projects for Banking, Insurance, Defense and Sea & ground transportation business. Aside of software development he is also dedicated to training, beeing a SringSource Certified Instructor and also delivers the JavaSpecialists Master courses in Spain. In fact, he has delivered more than 50 training courses all over spain from 2009 to the date.",
+      "image": "assets/img/speakers/david-gomez.png",
+      "ref": "david-gomez",
+      "url": "infoSpeaker.html?ref=david-gomez",
+      "twitter": "https://twitter.com/dgomezg"
+    },
+    {
+      "enabled": "1",
+      "name": "Esther Lozano",
+      "description": "Software engineer at Autentia",
+      "biography": "Esther Lozano works as Software Engineer in Autentia since 2015, as Java backend developer, although this was not always her role. After getting her degree in Computer Science, she suddenly woke up into a PhD program about Semantic Web and ontologies - because who doesn't, right? She successfully finished her research in 2015, but she had already made her mind about pursuing a more technical career. So she rolled an ability check, paid some hope points, and... hooray! She epically made it into professional development.",
+      "image": "assets/img/speakers/esther-lozano.png",
+      "ref": "esther-lozano",
+      "url": "infoSpeaker.html?ref=esther-lozano",
+      "twitter": "https://twitter.com/esloho"
+    },
+    {
+      "enabled": "1",
+      "name": "Mauricio Salatino",
+      "description": "Principal Software Engineer at Alfresco",
+      "biography": "Open Source, Java, BPM and Rule Engine enthusiast and promoter. Writer of 4 books about jBPM & Drools, now Principal Software Engineer @ Alfresco",
+      "image": "assets/img/speakers/mauricio-salatino.jpg",
+      "ref": "mauricio-salatino",
+      "url": "infoSpeaker.html?ref=mauricio-salatino",
+      "homepage": "http://salaboy.com",
+      "twitter": "http://twitter.com/salaboy"
+    },
+    {
+      "enabled": "1",
+      "name": "Mario Romano",
+      "description": "Director of Engineering in Alfresco",
+      "biography": "Mario is the Director of Engineering in Alfresco but he is still really much involved with the coding. Before Alfresco, Mario accumulated nearly 8 years of experience in developing software for large organisations, and in particular in developing microservices architecture. He's been coding since he was 10 years old. Mario is currently based in London, but grew up in Naples the city where the pizza was invented (not New York or Chicago), and also the city where has played the best football player of all the time (Maradona ). Mario likes to plays the piano when is not busy writing code, reading code or thinking about code.",
+      "image": "assets/img/speakers/mario-romano.jpg",
+      "ref": "mario-romano",
+      "url": "infoSpeaker.html?ref=mario-romano",
+      "homepage": "http://magemello.github.io",
+      "twitter": "https://twitter.com/MagemelloMario"
+    },
+    {
+      "enabled": "1",
+      "name": "Tugdual Grall",
+      "description": "EMEA's Chief Technicaal Evangelist at MapR",
+      "biography": "Tugdual Grall is Chief Technical Evangelist for EMEA at MapR, an open source advocate and a passionate developer. He currently works with the European developer communities to ease MapR, Hadoop and NoSQL adoption.Before joining MapR, Tug was Technical Evangelist at MongoDB and Couchbase. Tug has also worked as CTO at eXo Plaform and JavaEE product manager, and software engineer at Oracle. Tugdual is Co-Founder of the Nantes JUG (Java User Group) that holds since 2008 monthly meeting about Java ecosystem.",
+      "image": "assets/img/speakers/tugdual-grall.jpeg",
+      "ref": "tugdual-grall",
+      "url": "infoSpeaker.html?ref=tugdual-grall",
+      "homepage": "http://tgrall.github.io",
+      "twitter": "http://twittter.com/tgrall"
+    },
+    {
+      "enabled": "1",
+      "name": "Olivier Deheurles",
+      "description": "Developer and Technical Architect at Adaptive",
+      "biography": "Olivier is one of the co-founders of Adaptive, a consulting firm delivering trading systems for the financial and commodities industries. He is working as a developer and technical architect with 15+ years experience building large scale event driven systems. He also contributed to several open source projects, including the Disruptor, Aeron and SBE.",
+      "image": "assets/img/speakers/olivier-deheurles.jpg",
+      "ref": "olivier-deheurles",
+      "url": "infoSpeaker.html?ref=olivier-deheurles",
+      "homepage": "https://www.linkedin.com/in/odeheurles/",
+      "twitter": "https://twitter.com/olivierdeheurle"
     }
   ]
 }

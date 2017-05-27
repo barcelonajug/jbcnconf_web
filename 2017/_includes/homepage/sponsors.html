@@ -11,6 +11,22 @@
     </div>
 
     <div class="wpb_column vc_column_container vc_col-sm-12">
+
+        {% if site.data.sponsors.diamond %}
+
+        <div class="vc_column-inner" style="text-align: center;">
+
+            <div class="sponsor-diamond">
+                <h1>Diamond</h1>
+                <a href="{{ site.data.sponsors.diamond.href }}" target="_blank" title="{{ site.data.sponsors.diamond.name }}">
+                    <img src="{{base}}{{ site.data.sponsors.diamond.image.src }}" alt="{{ site.data.sponsors.diamond.image.alt }}"/>
+                </a>
+            </div>
+        </div>
+
+        {% endif %}
+
+
         <div class="vc_column-inner" style="text-align: center;">
             <hr class="sponsor-separator-gold sponsor-separator"/>
             <h1 class="sponsor-gold">Gold</h1>

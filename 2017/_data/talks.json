@@ -32,8 +32,8 @@
     },
     {
       "type": "talk",
-      "title": "Closing Keynote",
-      "abstract": "Keynote TBD",
+      "title": "The Long Road",
+      "abstract": "Choosing the next career step in such a diverse and fast-paced industry is not an easy task. But when it comes to our careers, there is no right or wrong. Or there is? How do we know? In this talk we will be talking about different career choices, how can we choose good companies to work for, what we can learn from interviews and selection processes, when should we look for a new job, and how to change our working environment.",
       "tags": [
       ],
       "level": "Intermediate",
@@ -853,8 +853,8 @@
     },
     {
       "type": "talk",
-      "title": "Back to the ComparableFuture: Concurrency in Action",
-      "abstract": "Starting Java 8, the main focus of many developers was on Functional Programming in Java including Streams, Optional, and Functional Interfaces. However, there were more amazing features introduced along the way which has changed Java programming. One of such features was ComparableFuture which is continuously being improved in Java 9 (JEP 266). As Concurrency in Java is generally a complicated topic where many had a difficult time switching to ThreadLocal from regular Threads, the idea of Future and ComparableFuture which refers to asynchronous computations is even more difficult. In this talk, the speaker will attempt to make asynchronous programming using Java 8/9 more compelling by approaching the topic with clear examples and references to other languages. One example of a language heavily relying on asynchronous tasks is JavaScript. Using some of the conceptual similarities of two languages in regards to asynchronous programming, this talk will cover how Future/ComparableFuture can be used in a safe and a programmer friendly way. As mentioned in this abstract, this talk will include enhancements made to concurrency in Java 9 as a part of JEP 266.",
+      "title": "Back to the CompletableFuture: Concurrency in Action",
+      "abstract": "Starting Java 8, the main focus of many developers was on Functional Programming in Java including Streams, Optional, and Functional Interfaces. However, there were more amazing features introduced along the way which has changed Java programming. One of such features was ComparableFuture which is continuously being improved in Java 9 (JEP 266). As Concurrency in Java is generally a complicated topic where many had a difficult time switching to ThreadLocal from regular Threads, the idea of Future and ComparableFuture which refers to asynchronous computations is even more difficult. In this talk, the speaker will attempt to make asynchronous programming using Java 8/9 more compelling by approaching the topic with clear examples and references to other languages. One example of a language heavily relying on asynchronous tasks is JavaScript. Using some of the conceptual similarities of two languages in regards to asynchronous programming, this talk will cover how Future/CompletableFuture can be used in a safe and a programmer friendly way. As mentioned in this abstract, this talk will include enhancements made to concurrency in Java 9 as a part of JEP 266.",
       "tags": [
         "java",
         "concurrency"
@@ -882,6 +882,89 @@
       "speakers": [
         "piotr-kafel"
       ]
+    },
+    {
+      "type": "talk",
+      "title": "The... Wonderful? World of lambdas",
+      "abstract": "We, Java developers, embrace Java 8 in the hope that by mastering Lambdas and Streams, we would be gifted with a functional programming mind. And thus we walk down the yellow brick road to the wizard of lambdas. That road usually starts from the fear and terror of learning their syntax until finally getting to understand them and opening our minds to the fruitful fields of functional programming. But this road eventually reaches a final stage: the lambda abuse.<br/>Let’s get the curtain down!<br/>During our talk, we will see examples of abuse and misuse of lambdas and streams. To master the lambas art means to know when to use them and when not to not damage your brain and, most importantly, other Java developers’. Keep your code readable and maintainable, avoid becoming a lambda addict!<br/>And if nothing else you will take with you a bunch of apparently smart java 8 one-liners to show off among your friends and colleagues.",
+      "tags": [
+        "java8",
+        "lambda",
+        "abuse"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "david-gomez", "esther-lozano"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Tomorrow's Model Driven Development",
+      "abstract": "With microservices all over the place how do we make sure that we don't hide the core business logic deep inside our services and their interactions? How can we separate the technical details from the domain expertise? During this presentation we will be talking about how to best take advantage of DDD and how it compares and can be used in conjunction with model driven methodologies. In order to demonstrate all these concepts in action we will be showing how to use Spring Cloud with modelling tools and frameworks to create self-documenting, adaptable and context-aware applications that will run into highly-distributed environments.",
+      "tags": [
+        "ddd",
+        "model driven", 
+        "spring cloud",
+        "distributed",
+        "knowledge engineering",
+        "frameworks"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "mauricio-salatino", "mario-romano"
+      ]
+    },
+    {
+      "type": "workshop",
+      "title": "Streaming and the Internet of Things: Hands-on Workshop",
+      "abstract": "During this Workshop you will learn how to design a scalable IoT application from sensor to data center, including: Data capture with various sensors, Data transport using various protocol and API, for example Apache Kafka API with MapR Streams, Stream processing using Apache Spark and/or Apache Flink, Data Persistence using Streams, NoSQL Database, and File System, Analytics with Apache Drill. Come with your laptop and start coding your first scalable IoT Application; you will have access to sensors 'the things', a MapR Cluster to capture, store, process and analyse the data; and sample code to play with the data. Prerequisites: Some Java Experience, Java  Development Kit 1.8 (JDK), Your favorite IDE, Maven, Git.",
+      "tags": [
+        "IoT",
+        "MapR",
+        "Apache Kafka"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "tugdual-grall"
+      ]
+    },
+    {
+      "type": "workshop",
+      "title": "TDD in Baby Steps",
+      "abstract": "Committing fast and often helps us focus on the behaviour we are implementing and allows design to incrementally emerge. It takes a lot of discipline to mae your TDD cycle (red-green-refactor) as small as possible so that you can commit often and reduce merge problems. In this workshop we will learn how to work in tiny increments. It is guaranteed to frustrate you in the beginning (as it frustrated me when I started) but you will be surprised how quickly you will get use to it and will never go back to big commits. Essential Requirements for the workshop: bring your own laptop, your favourite IDE / Text editor and your favourite language, make sure you can start a new project and run tests, you should be familiar with TDD (or at least know how to right unit tests), have git installed (preferably on the command line). You should be familiar with the basic commands to add and commit files.",
+      "tags": [
+        "TDD",
+        "Testing"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "sandro"
+      ]},
+    {
+      "type": "talk",
+      "title": "Clustered event-driven services",
+      "abstract": "In 2010 I came across a strange, new (to me!) architecture that the LMAX team used for their Foreign Exchange system. You might have heard about the Disruptor, it came out of this project.<br/>The core of our system is a clustered service which uses the Raft consensus algorithm to reliably replicate state between the different nodes and hosts our application logic. We will take a quick look at Raft and then at the benefits of this design compared to more “mainstream” architectures. This architecture offers a clean separation of concerns between the infrastructure - which takes care of the concurrency, I/O and high availability aspects -  and the application logic. The clean architecture is a great fit for domain-driven design.<br/>If you fancy building fast, resilient services without a database you should come to this talk!",
+      "tags": [
+        "Architecture",
+        "Event sourcing",
+        "Raft",
+        "Event driven"
+      ],
+      "level": "Advanced",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "olivier-deheurles"
+      ]
     }
+
   ]
 }

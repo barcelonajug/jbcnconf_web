@@ -21,7 +21,7 @@
 
                     {% assign talkTitle = '' %}
                     {% for talk in site.data.talks.items %}
-                    {% if speaker.ref == talk.speakers[0] %}
+                    {% if speaker.ref == talk.speakers[0] or speaker.ref == talk.speakers[1] %}
                     {% capture talkTitle %}  {{ talk.title }}. {{ talkTitle }}{% endcapture %}
                     {% endif %}
                     {% endfor %}
@@ -57,12 +57,15 @@
                         </div>
                     </div>
                     {% endfor %}
+
                 </div>
 
-                <a href="{{ base }}/speakers.html"
-                   title="SEE ALL">
-                    <button type="button" class="btn btn-jbcn">All Speakers</button>
-                </a>
+                <div style="text-align:center;">
+                    <a href="{{ base }}/speakers.html"
+                       title="SEE ALL">
+                        <button type="button" class="btn btn-jbcn">All Speakers</button>
+                    </a>
+                </div>                
 
             </div>
             
