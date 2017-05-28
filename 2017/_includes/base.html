@@ -1,5 +1,10 @@
 <!-- _includes/base.html -->
 {% assign base = '/2017' %}
+
+{% if site.github %}
+{% assign base = site.github.url | append: '/2017' %}
+{% endif %}
+                     
 <script>
     var BASE_URL = '{{base}}';
 </script>
