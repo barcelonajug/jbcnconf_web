@@ -97,6 +97,22 @@
         "src": "/assets/img/sponsors/gft-logo.jpg",
         "alt": "GFT"
       }
+    },
+    {
+      "name": "JetBrains",
+      "href": "https://www.jetbrains.com/",
+      "image": {
+        "src": "/assets/img/sponsors/jetbrains.png",
+        "alt": "JetBrains"
+      }
+    },
+    {
+      "name": "Altran",
+      "href": "http://www.altran.es",
+      "image": {
+        "src": "/assets/img/sponsors/altran-logo.jpg",
+        "alt": "Altran"
+      }
     }    
   ],
   "bronze": [
