@@ -920,18 +920,17 @@
     },
     {
       "type": "workshop",
-      "title": "Streaming and the Internet of Things: Hands-on Workshop",
-      "abstract": "During this Workshop you will learn how to design a scalable IoT application from sensor to data center, including: Data capture with various sensors, Data transport using various protocol and API, for example Apache Kafka API with MapR Streams, Stream processing using Apache Spark and/or Apache Flink, Data Persistence using Streams, NoSQL Database, and File System, Analytics with Apache Drill. Come with your laptop and start coding your first scalable IoT Application; you will have access to sensors 'the things', a MapR Cluster to capture, store, process and analyse the data; and sample code to play with the data. Prerequisites: Some Java Experience, Java  Development Kit 1.8 (JDK), Your favorite IDE, Maven, Git.",
+      "title": "Tests Refactoring",
+      "abstract": "Treat your tests as the first class citizen. You must have heard it. In this workshop I will perform some live-refactoring of a messy test that shows too many details and this way are hard to read. I will start from initial clean-up and continue towards extracting a reusable classes (fluent-builder, template) which allow us to replace the low level details with much more readable and simpler API. My goals will be to show step by step approach in refactoring to prove it’s never too late to start to improve quality of your code a little every day. We will also go through some slides about approach to refactoring - why it happens and / or why it does not. https://github.com/wlodekkr/tests-refactoring",
       "tags": [
-        "IoT",
-        "MapR",
-        "Apache Kafka"
+        "Testing",
+        "Refactoring"
       ],
       "level": "Intermediate",
       "video": "",
       "scheduleId": "",
       "speakers": [
-        "tugdual-grall"
+        "wlodek"
       ]
     },
     {
