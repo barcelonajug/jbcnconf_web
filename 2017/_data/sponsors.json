@@ -116,6 +116,14 @@
     }    
   ],
   "bronze": [
+    {
+      "name": "O'Reilly",
+      "href": "https://www.oreilly.com",
+      "image": {
+        "src": "/assets/img/sponsors/oreilly.jpg",
+        "alt": "OReilly"
+      }
+    }
   ],
   "supporters": [
     {
