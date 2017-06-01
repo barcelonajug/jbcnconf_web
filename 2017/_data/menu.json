@@ -9,6 +9,10 @@
       "href": "/#Event"
     },
     {
+      "label": "Schedule",
+      "href": "/schedule.html"
+    },
+    {
       "label": "Talks",
       "href": "/talks.html"
     },
@@ -29,10 +33,6 @@
           "href": "/speakers.html"
         }
       ]
-    },
-    {
-      "label": "Buy Ticket",
-      "href": "/#Tickets"
     },
     {
       "label": "Travel",
