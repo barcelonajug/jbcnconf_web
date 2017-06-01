@@ -9,6 +9,10 @@
       "href": "/#Event"
     },
     {
+      "label": "Schedule",
+      "href": "/schedule.html"
+    },
+    {
       "label": "Talks",
       "href": "/talks.html"
     },
