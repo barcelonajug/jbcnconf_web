@@ -578,6 +578,17 @@
       "url": "infoSpeaker.html?ref=olivier-deheurles",
       "homepage": "https://www.linkedin.com/in/odeheurles/",
       "twitter": "https://twitter.com/olivierdeheurle"
+    },
+    {
+      "enabled": "1",
+      "name": "Michał Płachta",
+      "description": "Team leader at Ocado Technology",
+      "biography": "Polyglot software engineer specialised in developing distributed applications. Functional programming enthusiast. Loves the human component in software projects. Drinks a lot of tea. Has a blog at michalplachta.com. He currently works as team leader at Ocado Technology, where he is building actor-based software for automated warehouse.",
+      "image": "assets/img/speakers/michal-plachta.jpg",
+      "ref": "michal-plachta",
+      "url": "infoSpeaker.html?ref=michal-plachta",
+      "homepage": "https://michalplachta.com",
+      "twitter": "https://twitter.com/miciek"
     }
   ]
 }
