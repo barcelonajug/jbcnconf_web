@@ -69,6 +69,18 @@
         "url": "/assets/img/team/miklos.jpg",
         "alt": "Miklos Java Lover"
       }
+    },
+    {
+      "name": "Xavi Rodríguez",
+      "position": "Software Engineer",
+      "role": "Team Member Barcelona JUG.",
+      "bio": "I am a Java developer trying to keep learning every day. Clean code enthusiast, interested in Agile practices and cloud architectures.",
+      "linkedin": "https://www.linkedin.com/in/xrodriguezmo",
+      "twitter": "https://twitter.com/xeeevi",
+      "image": {
+        "url": "/assets/img/team/xavi.jpg",
+        "alt": "Xavi Rodríguez, Java Lover"
+      }
     }
   ]
 }
