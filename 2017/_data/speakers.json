@@ -507,16 +507,6 @@
     },
     {
       "enabled": "1",
-      "name": "Dmitry Vinnik",
-      "description": "Senior software engineer at Salesforce",
-      "biography": "Senior Software Engineer at Salesforce, who has been passionate about software quality since the very beginning of his career. Started as a Quality Engineer, he was able to bring test expertise into current role of a software engineer, and ensure a delivery of a high quality product. In addition to being an Individual Contributor, he is a Scrum Master focused on making his team more efficient and productive. His background involves studying Medicine, later transition into Bioinformatics field, and now being in a purely Software Engineering-centric area.",
-      "image": "assets/img/speakers/dmitry-vinnik.jpg",
-      "ref": "dmitry-vinnik",
-      "url": "infoSpeaker.html?ref=dmitry-vinnik",
-      "twitter": ""
-    },
-    {
-      "enabled": "1",
       "name": "Piotr Kafel",
       "description": "Software Engineer and Reactive programming evangelist at Groupon",
       "biography": "Software Engineer and reactive programming evangelist at Groupon. I wrote my first line of code in Java when I was 16 years old. Since then I was working on projects for companies like Nokia, HP or Credit Suisse. Even though Java is my main programming language I'm trying not to limit myself to it. I love exploring new languages, technologies and approaches. I'm an open source contributor and ex Wroclaw JUG leader.",

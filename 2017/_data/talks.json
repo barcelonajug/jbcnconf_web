@@ -25,7 +25,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC1-SE1",
       "speakers": [
         "venkat"
       ]
@@ -55,7 +55,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC1-SE3",
       "speakers": [
         "trisha"
       ]
@@ -72,7 +72,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#WED-TC1-SE2",
       "speakers": [
         "trisha"
       ]
@@ -88,7 +88,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC1-SE6",
       "speakers": [
         "schrijver"
       ]
@@ -106,7 +106,7 @@
       ],
       "level": "Advanced",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC2-SE1",
       "speakers": [
         "mmulders"
       ]
@@ -122,7 +122,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC3-SE3",
       "speakers": [
         "davsclaus"
       ]
@@ -140,7 +140,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC1-SE5",
       "speakers": [
         "burrsutter"
       ]
@@ -159,7 +159,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC1-SE2",
       "speakers": [
         "burrsutter"
       ]
@@ -173,7 +173,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC4-SE1",
       "speakers": [
         "alexsoto"
       ]
@@ -192,7 +192,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC4-SE3",
       "speakers": [
         "mwessendorf"
       ]
@@ -210,7 +210,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC1-SE5",
       "speakers": [
         "edsonyanaga"
       ]
@@ -229,7 +229,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC2-SE3",
       "speakers": [
         "bibryam"
       ]
@@ -244,7 +244,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC4-SE4",
       "speakers": [
         "mmatloka"
       ]
@@ -259,7 +259,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC2-SE6",
       "speakers": [
         "cescoffier"
       ]
@@ -274,7 +274,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC3-SE1",
       "speakers": [
         "wmeints"
       ]
@@ -289,7 +289,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC3-SE4",
       "speakers": [
         "bvermeer"
       ]
@@ -309,7 +309,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC3-SE6",
       "speakers": [
         "vfarcic"
       ]
@@ -325,7 +325,7 @@
       ],
       "level": "Advanced",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC2-SE5",
       "speakers": [
         "icanellos"
       ]
@@ -341,7 +341,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC1-SE7",
       "speakers": [
         "hvancura"
       ]
@@ -362,7 +362,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC1-SE4",
       "speakers": [
         "mheckler"
       ]
@@ -378,7 +378,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC1-SE2",
       "speakers": [
         "aalmiray"
       ]
@@ -394,7 +394,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC2-SE4",
       "speakers": [
         "bastian-hofman"
       ]
@@ -412,7 +412,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC2-SE2",
       "speakers": [
         "roland-huss"
       ]
@@ -430,7 +430,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC1-SE4",
       "speakers": [
         "sebastian-daschner"
       ]
@@ -447,7 +447,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC4-SE7",
       "speakers": [
         "jacek-kunicki"
       ]
@@ -464,7 +464,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC4-SE2",
       "speakers": [
         "schalk-cronje"
       ]
@@ -480,7 +480,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC1-SE6",
       "speakers": [
         "ivar-grimstad"
       ]
@@ -495,7 +495,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC2-SE6",
       "speakers": [
         "jeroen-resoort"
       ]
@@ -509,7 +509,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC3-SE4",
       "speakers": [
         "daniel-lebrero"
       ]
@@ -524,7 +524,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#WED-TC1-SE1",
       "speakers": [
         "carlos-cornejo"
       ]
@@ -541,7 +541,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC2-SE5",
       "speakers": [
         "philipp-krenn"
       ]
@@ -558,7 +558,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC4-SE5",
       "speakers": [
         "albert-margarit"
       ]
@@ -574,7 +574,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC2-SE4",
       "speakers": [
         "hubert-klein-ikkink"
       ]
@@ -589,7 +589,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC4-SE4",
       "speakers": [
         "charlotte-cavalier"
       ]
@@ -607,7 +607,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC3-SE2",
       "speakers": [
         "victor-rentea"
       ]
@@ -625,7 +625,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC3-SE2",
       "speakers": [
         "nicola-ferraro"
       ]
@@ -645,7 +645,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#WED-TC2-SE2",
       "speakers": [
         "manuel-alvarez"
       ]
@@ -661,7 +661,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#WED-TC3-SE1",
       "speakers": [
         "rustam-mehmandarov"
       ]
@@ -677,7 +677,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#WED-TC2-SE1",
       "speakers": [
         "charles-moulliard"
       ]
@@ -692,7 +692,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC2-SE2",
       "speakers": [
         "maria-gomez"
       ]
@@ -712,7 +712,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC4-SE6",
       "speakers": [
         "hanno-embregts"
       ]
@@ -731,7 +731,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC3-SE5",
       "speakers": [
         "juantomas-garcia"
       ]
@@ -747,7 +747,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC3-SE7",
       "speakers": [
         "tomasz-dubikowski"
       ]
@@ -767,7 +767,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC2-SE7",
       "speakers": [
         "marcus-fihlon"
       ]
@@ -783,7 +783,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC1-SE3",
       "speakers": [
         "simon-maple"
       ]
@@ -798,7 +798,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#WED-TC4-SE1",
       "speakers": [
         "simon-maple"
       ]
@@ -814,7 +814,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC3-SE5",
       "speakers": [
         "adrian-cole"
       ]
@@ -830,7 +830,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC3-SE6",
       "speakers": [
         "michel-schudel"
       ]
@@ -846,24 +846,9 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC4-SE2",
       "speakers": [
         "grzegorz-piwowarek"
-      ]
-    },
-    {
-      "type": "talk",
-      "title": "Back to the CompletableFuture: Concurrency in Action",
-      "abstract": "Starting Java 8, the main focus of many developers was on Functional Programming in Java including Streams, Optional, and Functional Interfaces. However, there were more amazing features introduced along the way which has changed Java programming. One of such features was ComparableFuture which is continuously being improved in Java 9 (JEP 266). As Concurrency in Java is generally a complicated topic where many had a difficult time switching to ThreadLocal from regular Threads, the idea of Future and ComparableFuture which refers to asynchronous computations is even more difficult. In this talk, the speaker will attempt to make asynchronous programming using Java 8/9 more compelling by approaching the topic with clear examples and references to other languages. One example of a language heavily relying on asynchronous tasks is JavaScript. Using some of the conceptual similarities of two languages in regards to asynchronous programming, this talk will cover how Future/CompletableFuture can be used in a safe and a programmer friendly way. As mentioned in this abstract, this talk will include enhancements made to concurrency in Java 9 as a part of JEP 266.",
-      "tags": [
-        "java",
-        "concurrency"
-      ],
-      "level": "Advanced",
-      "video": "",
-      "scheduleId": "",
-      "speakers": [
-        "dmitry-vinnik"
       ]
     },
     {
@@ -878,7 +863,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC4-SE3",
       "speakers": [
         "piotr-kafel"
       ]
@@ -894,9 +879,10 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC2-SE3",
       "speakers": [
-        "david-gomez", "esther-lozano"
+        "david-gomez",
+        "esther-lozano"
       ]
     },
     {
@@ -905,7 +891,7 @@
       "abstract": "With microservices all over the place how do we make sure that we don't hide the core business logic deep inside our services and their interactions? How can we separate the technical details from the domain expertise? During this presentation we will be talking about how to best take advantage of DDD and how it compares and can be used in conjunction with model driven methodologies. In order to demonstrate all these concepts in action we will be showing how to use Spring Cloud with modelling tools and frameworks to create self-documenting, adaptable and context-aware applications that will run into highly-distributed environments.",
       "tags": [
         "ddd",
-        "model driven", 
+        "model driven",
         "spring cloud",
         "distributed",
         "knowledge engineering",
@@ -913,6 +899,10 @@
       ],
       "level": "Intermediate",
       "video": "",
+      "scheduleId": "#TUE-TC4-SE5",
+      "speakers": [
+        "mauricio-salatino",
+        "mario-romano"
       "scheduleId": "",
       "speakers": [
         "mauricio-salatino", "mario-romano"
@@ -928,7 +918,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#WED-TC4-SE2",
       "speakers": [
         "wlodek"
       ]
@@ -943,10 +933,11 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#WED-TC3-SE2",
       "speakers": [
         "sandro"
-      ]},
+      ]
+    },
     {
       "type": "talk",
       "title": "Clustered event-driven services",
@@ -959,11 +950,10 @@
       ],
       "level": "Advanced",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC4-SE6",
       "speakers": [
         "olivier-deheurles"
       ]
     }
-
   ]
 }

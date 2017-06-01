@@ -31,10 +31,6 @@
       ]
     },
     {
-      "label": "Buy Ticket",
-      "href": "/#Tickets"
-    },
-    {
       "label": "Travel",
       "href": "/#Travel",
       "items": [
