@@ -559,6 +559,17 @@
     },
     {
       "enabled": "1",
+      "name": "Wlodek Krakowski",
+      "description": "Team leader in Ocado",
+      "biography": "Wlodek Krakowski is a team leader and technical trainer. Also a developer is the time allows. His main interest is taking care of delivering valued software from different perspectives. These are how people take care of quality of code, how people work together towards proving business value, how people help to grow each other and how people are managed.  Currently he works for Ocado company in Kraków, Poland and also deliver technical trainings at www.refactoring.pl.",
+      "image": "assets/img/speakers/wlodek.jpg",
+      "ref": "wlodek",
+      "url": "infoSpeaker.html?ref=wlodek",
+      "homepage": "http://www.refactoring.pl",
+      "twitter": "https://twitter.com/wlodekkr"
+    },
+    {
+      "enabled": "1",
       "name": "Olivier Deheurles",
       "description": "Developer and Technical Architect at Adaptive",
       "biography": "Olivier is one of the co-founders of Adaptive, a consulting firm delivering trading systems for the financial and commodities industries. He is working as a developer and technical architect with 15+ years experience building large scale event driven systems. He also contributed to several open source projects, including the Disruptor, Aeron and SBE.",

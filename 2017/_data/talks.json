@@ -903,6 +903,24 @@
       "speakers": [
         "mauricio-salatino",
         "mario-romano"
+      "scheduleId": "",
+      "speakers": [
+        "mauricio-salatino", "mario-romano"
+      ]
+    },
+    {
+      "type": "workshop",
+      "title": "Tests Refactoring",
+      "abstract": "Treat your tests as the first class citizen. You must have heard it. In this workshop I will perform some live-refactoring of a messy test that shows too many details and this way are hard to read. I will start from initial clean-up and continue towards extracting a reusable classes (fluent-builder, template) which allow us to replace the low level details with much more readable and simpler API. My goals will be to show step by step approach in refactoring to prove it’s never too late to start to improve quality of your code a little every day. We will also go through some slides about approach to refactoring - why it happens and / or why it does not. https://github.com/wlodekkr/tests-refactoring",
+      "tags": [
+        "Testing",
+        "Refactoring"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "#WED-TC4-SE2",
+      "speakers": [
+        "wlodek"
       ]
     },
     {
