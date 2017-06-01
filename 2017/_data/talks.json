@@ -853,21 +853,6 @@
     },
     {
       "type": "talk",
-      "title": "Back to the CompletableFuture: Concurrency in Action",
-      "abstract": "Starting Java 8, the main focus of many developers was on Functional Programming in Java including Streams, Optional, and Functional Interfaces. However, there were more amazing features introduced along the way which has changed Java programming. One of such features was ComparableFuture which is continuously being improved in Java 9 (JEP 266). As Concurrency in Java is generally a complicated topic where many had a difficult time switching to ThreadLocal from regular Threads, the idea of Future and ComparableFuture which refers to asynchronous computations is even more difficult. In this talk, the speaker will attempt to make asynchronous programming using Java 8/9 more compelling by approaching the topic with clear examples and references to other languages. One example of a language heavily relying on asynchronous tasks is JavaScript. Using some of the conceptual similarities of two languages in regards to asynchronous programming, this talk will cover how Future/CompletableFuture can be used in a safe and a programmer friendly way. As mentioned in this abstract, this talk will include enhancements made to concurrency in Java 9 as a part of JEP 266.",
-      "tags": [
-        "java",
-        "concurrency"
-      ],
-      "level": "Advanced",
-      "video": "",
-      "scheduleId": "#TUE-TC3-SE3",
-      "speakers": [
-        "dmitry-vinnik"
-      ]
-    },
-    {
-      "type": "talk",
       "title": "Reactive - land of confusion",
       "abstract": "Buzzword, buzzwords everywhere! Among them word with many meanings - reactive. Reactive systems, reactive manifesto, reactive programing, reactive streams... Do you know them all and do you know what are the difference between them? During the talk we will try to put some order in the reactive land of confusion. We will take a closer look into the most prominent reactive initiatives, how they relate to each other, what are the benefits coming from them and if this is something you should pay attention to. At the end of the talk everyone should have clear understanding of reactive landscape. Lets spread the knowledge!",
       "tags": [
@@ -918,22 +903,6 @@
       "speakers": [
         "mauricio-salatino",
         "mario-romano"
-      ]
-    },
-    {
-      "type": "workshop",
-      "title": "Streaming and the Internet of Things: Hands-on Workshop",
-      "abstract": "During this Workshop you will learn how to design a scalable IoT application from sensor to data center, including: Data capture with various sensors, Data transport using various protocol and API, for example Apache Kafka API with MapR Streams, Stream processing using Apache Spark and/or Apache Flink, Data Persistence using Streams, NoSQL Database, and File System, Analytics with Apache Drill. Come with your laptop and start coding your first scalable IoT Application; you will have access to sensors 'the things', a MapR Cluster to capture, store, process and analyse the data; and sample code to play with the data. Prerequisites: Some Java Experience, Java  Development Kit 1.8 (JDK), Your favorite IDE, Maven, Git.",
-      "tags": [
-        "IoT",
-        "MapR",
-        "Apache Kafka"
-      ],
-      "level": "Intermediate",
-      "video": "",
-      "scheduleId": "#WED-TC4-SE2",
-      "speakers": [
-        "tugdual-grall"
       ]
     },
     {
