@@ -798,7 +798,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "#WED-TC4-SE1",
+      "scheduleId": "#WED-TC4-SE2",
       "speakers": [
         "simon-maple"
       ]
@@ -901,7 +901,8 @@
       "video": "",
       "scheduleId": "#TUE-TC4-SE5",
       "speakers": [
-        "mauricio-salatino", "mario-romano"
+        "mauricio-salatino",
+        "mario-romano"
       ]
     },
     {
@@ -914,7 +915,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "#WED-TC4-SE2",
+      "scheduleId": "#WED-TC4-SE1",
       "speakers": [
         "wlodek"
       ]
@@ -949,6 +950,21 @@
       "scheduleId": "#TUE-TC4-SE6",
       "speakers": [
         "olivier-deheurles"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Pragmatist’s Guide to Functional Geekery",
+      "abstract": "Basic functional concepts like immutable data, second-order functions, lambdas and function composition can already be found in the modern programmer’s toolkit. During this talk you will learn about more advanced functional concepts and how they can solve real problems. I will talk about pattern matching, algebraic data types, type classes, functional abstractions, folding and type-level programming. I will show you a practical example written using today’s Java functional constructs and build up from there. I will use only JVM-based languages to show you how they can improve the code, make it more maintainable and testable.",
+      "tags": [
+        "lambdas",
+        "functional programming"
+      ],
+      "level": "Advanced",
+      "video": "",
+      "scheduleId": "#TUE-TC3-SE3",
+      "speakers": [
+        "michal-plachta"
       ]
     }
   ]
