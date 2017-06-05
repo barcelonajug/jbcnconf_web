@@ -113,7 +113,15 @@
         "src": "/assets/img/sponsors/altran-logo.jpg",
         "alt": "Altran"
       }
-    }    
+    },
+    {
+      "name": "YourKit",
+      "href": "https://www.yourkit.com",
+      "image": {
+        "src": "/assets/img/sponsors/yourkit.png",
+        "alt": "YourKit"
+      }
+    }
   ],
   "bronze": [
     {
