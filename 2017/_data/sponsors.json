@@ -121,7 +121,15 @@
       "href": "https://www.oreilly.com",
       "image": {
         "src": "/assets/img/sponsors/oreilly.jpg",
-        "alt": "OReilly"
+        "alt": "O'Reilly"
+      }
+    },
+    {
+      "name": "Manning",
+      "href": "http://www.manning.com",
+      "image": {
+        "src": "/assets/img/sponsors/manning.png",
+        "alt": "Manning"
       }
     }
   ],
