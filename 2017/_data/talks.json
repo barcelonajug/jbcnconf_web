@@ -63,7 +63,7 @@
     {
       "type": "workshop",
       "title": "Microservices from 0-100",
-      "abstract": "During the workshop you will start from scratch a new projects based on Spring cloud. We will guide you thru the process of setting up the technical services that will support you business microservices. We will add continuous delivery and devops with jenkins and docker to the mix as we want to build and run the full scenario. We will complement these with some open source starters and opinionated accelerators to complete this in 2 hours while we explain the decisiones made. You could expect to walk out of the workshop with a running example of a Microservices application and the knowledge to start your new project already warmed up!",
+      "abstract": "During the workshop you will start from scratch a new projects based on Spring cloud. We will guide you thru the process of setting up the technical services that will support you business microservices. We will add continuous delivery and devops with jenkins and docker to the mix as we want to build and run the full scenario. We will complement these with some open source starters and opinionated accelerators to complete this in 2 hours while we explain the decisiones made. You could expect to walk out of the workshop with a running example of a Microservices application and the knowledge to start your new project already warmed up!<br/><br/><span style=\"text-decoration: underline;\">Requirements for the workshop</span>: <a href=\"https://github.com/Appverse/JBCNConf-Microservices_0-100\" style=\"text-decoration: underline; color: blue;\">Follow this link</a>",
       "tags": [ 
         "Java",
         "Spring",
@@ -76,7 +76,7 @@
       "video": "",
       "scheduleId": "#WED-TC1-SE2",
       "speakers": [
-        "carlos-rubio"
+        "marcelo-colomer", "carlos-rubio"
       ]
     },
     {
