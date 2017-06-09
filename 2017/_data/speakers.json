@@ -589,6 +589,17 @@
       "url": "infoSpeaker.html?ref=michal-plachta",
       "homepage": "https://michalplachta.com",
       "twitter": "https://twitter.com/miciek"
+    },
+    {
+      "enabled": "1",
+      "name": "Carlos Rubio",
+      "description": "Senior Architect at GFT",
+      "biography": "Carlos has spent the last 15 years working on web centric solutions. He had the opportunity to get involved in all the layers and had great fun overcoming their own challenges each time. Today he loves how modern user interface technologies are evolving and the things we can do with so little code.",
+      "image": "assets/img/speakers/carlos-rubio.jpg",
+      "ref": "carlos-rubio",
+      "url": "infoSpeaker.html?ref=carlos-rubio",
+      "twitter": "https://twitter.com/_carlos_rubio"
     }
+
   ]
 }
