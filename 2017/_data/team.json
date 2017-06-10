@@ -81,6 +81,19 @@
         "url": "/assets/img/team/xavi.jpg",
         "alt": "Xavi Rodríguez, Java Lover"
       }
+    },
+    {
+      "name": "Sergio Ferraz",
+      "position": "Software Engineer",
+      "role": "Team Member Barcelona JUG.",
+      "bio": "I am a software developer specialized in Java.",
+      "linkedin": "https://www.linkedin.com/in/sferrazjr/",
+      "twitter": "https://twitter.com/sferrazjr",
+      "image": {
+        "url": "/assets/img/team/sergio-ferraz.jpg",
+        "alt": "Sergio Ferraz"
+      }
     }
+
   ]
 }

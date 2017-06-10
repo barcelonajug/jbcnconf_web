@@ -589,6 +589,27 @@
       "url": "infoSpeaker.html?ref=michal-plachta",
       "homepage": "https://michalplachta.com",
       "twitter": "https://twitter.com/miciek"
+    },
+    {
+      "enabled": "1",
+      "name": "Carlos Rubio",
+      "description": "Senior Architect at GFT",
+      "biography": "It was 1984 when Carlos saw his cousin's first computer. He was so impressed of what that \"high-tech artifact\" could do. It was a Sinclair ZX Spectrum 16KB RAM and he was not allowed to touch it. Things had changed a lot since then... He spent the last 15 years working at web and mobile centric solutions. He had the opportunity to get involved in all different layers and had great fun overcoming their own challenges each time. Doing things right way, with the proper tools and looking into the future. After all these years, he still loves to make complex things simpler.",
+      "image": "assets/img/speakers/carlos-rubio.jpg",
+      "ref": "carlos-rubio",
+      "url": "infoSpeaker.html?ref=carlos-rubio",
+      "twitter": "https://twitter.com/_carlos_rubio"
+    },
+    {
+      "enabled": "1",
+      "name": "Marcelo Colomer",
+      "description": "Just a developer at GFT",
+      "biography": "Valencian, father of two children, who has been working for 10 years in GFT, primary doing backends for web projects with the Java and Spring ecosystem. Currently focused on microservices architectures, cloud environments and nowadays with the serverless trend. Docker and NodeJS fan, sometimes he cross the barrier to the front-end world and plays with the UI frameoworks like Angular, Ionic, React or InfernoJS.",
+      "image": "assets/img/speakers/marcelo-colomer.jpg",
+      "ref": "marcelo-colomer",
+      "url": "infoSpeaker.html?ref=marcelo-colomer",
+      "homepage": "http://fromsources.com",
+      "twitter": "https://twitter.com/mcolomer"
     }
   ]
 }

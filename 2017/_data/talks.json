@@ -62,19 +62,21 @@
     },
     {
       "type": "workshop",
-      "title": "Refactoring to Java 8",
-      "abstract": "In reality, many projects that developers are working on are pre-Java-8. Even if a project has technically adopted Java 8, and even if new features are developed taking advantage of Java 8 syntax, it’s likely the majority of the code is still not making the most of what’s available - features like Lambda Expressions, the Streams API, and new Date/Time. In this workshop we’ll: <br>Cover some of the benefits of using Java 8 - after all, you’ll probably have to persuade The Management that tampering with existing code is worthwhile <br>Learn how to identify areas of code that can be updated to use Java 8 features<br>See how to automatically refactor your code to make use of features like lambdas and streams.<br>Cover some of the pros and cons of using the new features - including examples of when refactoring may not be the best idea. <br>Take a look at example benchmarks using JMH and discuss what makes a good performance test.",
-      "tags": [
+      "title": "Microservices from 0-100",
+      "abstract": "During the workshop you will start from scratch a new projects based on Spring cloud. We will guide you thru the process of setting up the technical services that will support you business microservices. We will add continuous delivery and devops with jenkins and docker to the mix as we want to build and run the full scenario. We will complement these with some open source starters and opinionated accelerators to complete this in 2 hours while we explain the decisiones made. You could expect to walk out of the workshop with a running example of a Microservices application and the knowledge to start your new project already warmed up!<br/><br/><span style=\"text-decoration: underline;\">Requirements for the workshop</span>: <a href=\"https://github.com/Appverse/JBCNConf-Microservices_0-100\" style=\"text-decoration: underline; color: blue;\" target=\"_blank\">Follow this link</a>",
+      "tags": [ 
         "Java",
-        "Java 9",
-        "Refactoring",
-        "Live coding"
+        "Spring",
+        "Devops",
+        "MSA",
+        "Docker",
+        "Jenkins"
       ],
-      "level": "Intermediate",
+      "level": "Beginner",
       "video": "",
       "scheduleId": "#WED-TC1-SE2",
       "speakers": [
-        "trisha"
+        "marcelo-colomer", "carlos-rubio"
       ]
     },
     {
@@ -908,7 +910,7 @@
     {
       "type": "workshop",
       "title": "Tests Refactoring",
-      "abstract": "Treat your tests as the first class citizen. You must have heard it. In this workshop I will perform some live-refactoring of a messy test that shows too many details and this way are hard to read. I will start from initial clean-up and continue towards extracting a reusable classes (fluent-builder, template) which allow us to replace the low level details with much more readable and simpler API. My goals will be to show step by step approach in refactoring to prove it’s never too late to start to improve quality of your code a little every day. We will also go through some slides about approach to refactoring - why it happens and / or why it does not. https://github.com/wlodekkr/tests-refactoring",
+      "abstract": "Treat your tests as the first class citizen. You must have heard it. In this workshop I will perform some live-refactoring of a messy test that shows too many details and this way are hard to read. I will start from initial clean-up and continue towards extracting a reusable classes (fluent-builder, template) which allow us to replace the low level details with much more readable and simpler API. My goals will be to show step by step approach in refactoring to prove it’s never too late to start to improve quality of your code a little every day. We will also go through some slides about approach to refactoring - why it happens and / or why it does not.<br/><br/><span style=\"text-decoration: underline;\">Requirements for the workshop</span>: <a href=\"https://github.com/wlodekkr/tests-refactoring\" style=\"text-decoration: underline; color: blue;\" target=\"_blank\">Follow this link</a>",
       "tags": [
         "Testing",
         "Refactoring"
