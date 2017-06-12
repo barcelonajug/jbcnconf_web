@@ -655,7 +655,7 @@
     {
       "type": "workshop",
       "title": "IoT Hackathon",
-      "abstract": "I will bring a bunch of devices and give you some code to get started. We will put all that things together during the workshop. I will have Raspberry Pis, some sensors, controller, and peripheral devices that use Z-Wave for communication. You are also welcome to bring your own devices, if you have any. And don’t forget your PC. Machine Learning, cloud, data analysis, security, home automation (bingo!) – sky is the limit! Primarily for: Developers, Participant requirements: Bring your own devices, if you have any. And don’t forget your PC.",
+      "abstract": "I will bring a bunch of devices and give you some code to get started. We will put all that things together during the workshop. I will have Raspberry Pis, some sensors, controller, and peripheral devices that use Z-Wave for communication. You are also welcome to bring your own devices, if you have any. And don’t forget your PC. Machine Learning, cloud, data analysis, security, home automation (bingo!) – sky is the limit! Primarily for: Developers, Participant requirements: Bring your own devices, if you have any. And don’t forget your PC.<br/><br/><span style=\"text-decoration: underline;\">Requirements for the workshop</span>: <a href=\"https://mehmandarov.com/iot-prototyping-startup-kit\" style=\"text-decoration: underline; color: blue;\" target=\"_blank\">Follow this link</a>",
       "tags": [
         "IoT",
         "Hackathon",
