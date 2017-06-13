@@ -189,6 +189,15 @@
         "src": "/assets/img/sponsors/sevilla-jug.png",
         "alt": "Sevilla Java User Group"
       }
+    },
+    {
+      "name": "Warszawa Java User Group",
+      "href": "http://warszawa.jug.pl",
+      "image": {
+        "src": "/assets/img/sponsors/warszawa-jug.png",
+        "alt": "Warszawa Java User Group"
+      }
     }      
+
   ]
 }
