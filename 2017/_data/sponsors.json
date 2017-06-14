@@ -189,7 +189,7 @@
         "src": "/assets/img/sponsors/sevilla-jug.png",
         "alt": "Sevilla Java User Group"
       }
-    },
+    },    
     {
       "name": "Warszawa Java User Group",
       "href": "http://warszawa.jug.pl",
@@ -197,7 +197,30 @@
         "src": "/assets/img/sponsors/warszawa-jug.png",
         "alt": "Warszawa Java User Group"
       }
-    }      
-
+    },
+    {
+      "name": "Berlin Java User Group",
+      "href": "https://www.meetup.com/jug-bb/",
+      "image": {
+        "src": "/assets/img/sponsors/berlin-jug.png",
+        "alt": "Berlin Java User Group"
+      }
+    },
+    {
+      "name": "Malaga Java User Group",
+      "href": "https://www.meetup.com/MalagaJUG/",
+      "image": {
+        "src": "/assets/img/sponsors/malaga-jug.png",
+        "alt": "Malaga Java User Group"
+      }
+    },    
+    {
+      "name": "Madrid Java User Group",
+      "href": "https://www.meetup.com/MadridJUG/",
+      "image": {
+        "src": "/assets/img/sponsors/madrid-jug.jpg",
+        "alt": "Madrid Java User Group"
+      }
+    }
   ]
 }
