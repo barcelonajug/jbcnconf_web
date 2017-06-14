@@ -131,10 +131,21 @@
 
 <div class="row schedule-row schedule-break">
     <div class="{{scheduleLeftWidth}} ">
-
+        19:30
     </div>
 
-    {% assign breakContent = 'Networking Party' %}
+    {% assign breakContent = '<a href="networking-party.html">Bus from the venue to the restaurant</a>' %}
+    {% include schedule/schedule-break-single-track.html %}
+
+</div>
+
+
+<div class="row schedule-row schedule-break">
+    <div class="{{scheduleLeftWidth}} ">
+        20:00
+    </div>
+
+    {% assign breakContent = '<a href="networking-party.html">Networking Party on the beach!</a>' %}
     {% include schedule/schedule-break-single-track.html %}
 
 </div>
