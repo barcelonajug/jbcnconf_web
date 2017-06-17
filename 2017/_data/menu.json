@@ -5,10 +5,6 @@
       "href": "/#JBCN"
     },
     {
-      "label": "Event",
-      "href": "/#Event"
-    },
-    {
       "label": "Schedule",
       "href": "/schedule.html"
     },
@@ -33,6 +29,10 @@
           "href": "/speakers.html"
         }
       ]
+    },
+    {
+      "label": "Networking",
+      "href": "/networking-party.html"
     },
     {
       "label": "Travel",
