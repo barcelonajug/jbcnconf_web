@@ -70,7 +70,7 @@ jQuery(document).ready(function () {
         jQuery("#card-container").prepend(template);
         setTimeout(function () {
             jQuery("#card-" + tweet.id).fadeIn();
-            jQuery("#card-" + tweet.id).effect("bounce", {times: 3}, 500);
+            jQuery("#card-" + tweet.id).effect("bounce", {times: 3}, 1000);
         }, 1000);
     }
 
@@ -100,7 +100,7 @@ jQuery(document).ready(function () {
     var offSet = 500;
 
     function processTweet(tweet) {
-        offSet = offSet + 2000;
+        offSet = offSet + 4000;
         setTimeout(function () {
             addTweet(tweet);
         }, offSet);
