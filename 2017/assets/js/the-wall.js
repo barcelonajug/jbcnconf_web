@@ -124,7 +124,11 @@ jQuery(document).ready(function () {
 
     setInterval(function () {
         fetchData();
-    }, 45000);
+    }, 60000);
+
+    setTimeout(function () {
+        window.locaton.reload();
+    }, 360000);
 
 
     function callBackend() {
@@ -140,7 +144,6 @@ jQuery(document).ready(function () {
             });
         });
     }
-
 
 
     /*
