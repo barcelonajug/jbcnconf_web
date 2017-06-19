@@ -107,24 +107,17 @@ jQuery(document).ready(function () {
     }
 
     function callInterval() {
-        var hasFinished = true;
         setInterval(function () {
-            if (!hasFinished) {
-                return;
-            }
-            hasFinished = false;
             jQuery.get(URL, function (data) {
                 data = data.slice(0, MAX_SIZE);
                 for (var i = 0; i < data.length; i++) {
                     var tweet = new Tweet(data[i]);
                     if (hasTweet(tweet.id)) {
-                        hasFinished = true;
                         return;
                     } else {
                         processTweet(tweet);
                     }
                 }
-                hasFinished = true;
             });
 
         }, 25000);
@@ -138,7 +131,7 @@ jQuery(document).ready(function () {
                 if ((data.length - 1) === row) {
                     setTimeout(function () {
                         callInterval();
-                    }, 100000);
+                    }, 50000);
                 }
             });
         });
