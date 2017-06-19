@@ -16,7 +16,7 @@ jQuery(document).ready(function () {
         '  </div>' +
         ' <div class="card__action">' +
         '     <div class="card__author">' +
-        '<img width="75px" src="${userPhoto}" alt="user">' +
+        '<img width="75px" src="${userPhoto}" alt="">' +
         '     <div class="card__author-content">' +
         '     ${userName} ${userLocation}<br/>' +
         ' <span class="counts"> <i class="fa fa-heart" aria-hidden="true">${favoriteCount}</i>' +
@@ -70,7 +70,7 @@ jQuery(document).ready(function () {
         jQuery("#card-container").prepend(template);
         setTimeout(function () {
             jQuery("#card-" + tweet.id).fadeIn();
-            jQuery("#card-" + tweet.id).effect("bounce", {times: 3}, 1000);
+            jQuery("#card-" + tweet.id).effect("bounce", {times: 3}, 600);
         }, 1000);
     }
 
@@ -100,28 +100,32 @@ jQuery(document).ready(function () {
     var offSet = 500;
 
     function processTweet(tweet) {
-        offSet = offSet + 4000;
+        offSet = offSet + 3000;
         setTimeout(function () {
             addTweet(tweet);
         }, offSet);
     }
 
-    function callInterval() {
-        setInterval(function () {
-            jQuery.get(URL, function (data) {
-                data = data.slice(0, MAX_SIZE);
-                for (var i = 0; i < data.length; i++) {
-                    var tweet = new Tweet(data[i]);
-                    if (hasTweet(tweet.id)) {
-                        return;
-                    } else {
-                        processTweet(tweet);
-                    }
+    function fetchData() {
+        jQuery.get(URL, function (data) {
+            data = data.slice(0, MAX_SIZE);
+            for (var i = 0; i < data.length; i++) {
+                var tweet = new Tweet(data[i]);
+                if (hasTweet(tweet.id)) {
+                    return;
+                } else {
+                    processTweet(tweet);
                 }
-            });
-
-        }, 25000);
+            }
+        });
     }
+
+    fetchData();
+
+    setInterval(function () {
+        fetchData();
+    }, 45000);
+
 
     function callBackend() {
         jQuery.get(URL, function (data) {
@@ -137,7 +141,6 @@ jQuery(document).ready(function () {
         });
     }
 
-    callBackend();
 
 
     /*
