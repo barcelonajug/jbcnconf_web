@@ -77,6 +77,7 @@ h2 {
 
 .card__image img {
     width: 100%;
+    max-height:350px;
     max-width: 100%;
     display: block;
 }
