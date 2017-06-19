@@ -109,7 +109,7 @@ jQuery(document).ready(function () {
     function fetchData() {
         jQuery.get(URL, function (data) {
             data = data.slice(0, MAX_SIZE);
-            for (var i = 0; i < data.length; i++) {
+            for (var i = data.length - 1; i >= 0; i--) {
                 var tweet = new Tweet(data[i]);
                 if (hasTweet(tweet.id)) {
                     return;
