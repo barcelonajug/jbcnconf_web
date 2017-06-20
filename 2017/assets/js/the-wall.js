@@ -71,7 +71,7 @@ jQuery(document).ready(function () {
         setTimeout(function () {
             jQuery("#card-" + tweet.id).fadeIn();
             jQuery("#card-" + tweet.id).effect("bounce", {times: 3}, 600);
-        }, 1000);
+        }, 3000);
     }
 
     function addTweet(tweet) {
@@ -97,24 +97,14 @@ jQuery(document).ready(function () {
     }
 
 
-    var offSet = 500;
-
-    function processTweet(tweet) {
-        offSet = offSet + 3000;
-        setTimeout(function () {
-            addTweet(tweet);
-        }, offSet);
-    }
-
     function fetchData() {
         jQuery.get(URL, function (data) {
             data = data.slice(0, MAX_SIZE);
             for (var i = data.length - 1; i >= 0; i--) {
                 var tweet = new Tweet(data[i]);
                 if (hasTweet(tweet.id)) {
-                    return;
                 } else {
-                    processTweet(tweet);
+                    addTweet(tweet);
                 }
             }
         });
