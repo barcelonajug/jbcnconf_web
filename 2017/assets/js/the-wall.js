@@ -127,7 +127,7 @@ jQuery(document).ready(function () {
     }, 60000);
 
     setTimeout(function () {
-        window.locaton.reload();
+        window.location.reload();
     }, 360000);
 
 
