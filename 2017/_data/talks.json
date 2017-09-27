@@ -74,7 +74,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "#WED-TC1-SE2",
+      "scheduleId": "#WED-TC4-SE2",
       "speakers": [
         "marcelo-colomer", "carlos-rubio"
       ]
@@ -175,7 +175,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "#TUE-TC4-SE1",
+      "scheduleId": "#TUE-TC3-SE3",
       "speakers": [
         "alexsoto"
       ]
@@ -800,7 +800,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "#WED-TC4-SE2",
+      "scheduleId": "#WED-TC1-SE2",
       "speakers": [
         "simon-maple"
       ]
@@ -964,7 +964,7 @@
       ],
       "level": "Advanced",
       "video": "",
-      "scheduleId": "#TUE-TC3-SE3",
+      "scheduleId": "#TUE-TC4-SE1",
       "speakers": [
         "michal-plachta"
       ]
