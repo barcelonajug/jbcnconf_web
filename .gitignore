@@ -6,3 +6,4 @@ _site
 .idea
 
 tools/client_id.json
+tools/*.log
