@@ -72,9 +72,9 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                         
                                     </span>
                                 </p>
-                               
 
-                               
+
+
                             </div>
 
                         </div>
@@ -88,14 +88,14 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 
                                 var updateSpeakerPage = function () {
                                     var speaker = window.CURRENT_SPEAKER[0],
-                                            $container = $("#speaker-page"),
-                                            updateSocialLink = function (social) {
-                                                if (speaker[social]) {
-                                                    $container.find("." + social).show();
-                                                    $container.find("." + social + " a").attr("href", speaker[social]);
-                                                }
+                                        $container = $("#speaker-page"),
+                                        updateSocialLink = function (social) {
+                                            if (speaker[social]) {
+                                                $container.find("." + social).show();
+                                                $container.find("." + social + " a").attr("href", speaker[social]);
+                                            }
 
-                                            };
+                                        };
 
                                     $container.find('.speaker-image').attr("src", $('.speaker-image').attr("data-image-base") + speaker.image);
                                     $container.find(".name").html(speaker.name);
@@ -103,14 +103,18 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                     $container.find(".description").html(speaker.description);
 
 
-                                    
-                                    for(var index=0;index<speaker.talks.length;index++){
+                                    for (var index = 0; index < speaker.talks.length; index++) {
 
                                         var title = ' <h2 class="talk-title"> ' + speaker.talks[index].title + '</h2>';
                                         var abstract = '<p style="text-align: justify;" class="abstract"> ' + speaker.talks[index].abstract + ' </p>';
+                                        var video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + speaker.talks[index].video + '"' +
+                                            'frameborder="0" allowfullscreen></iframe>';
 
                                         $container.find(".post-content").append(title);
                                         $container.find(".post-content").append(abstract);
+                                        if (speaker.talks[index].video) {
+                                            $container.find(".post-content").append(video);
+                                        }
                                     }
 
                                     updateSocialLink("linkedin");

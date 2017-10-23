@@ -9,7 +9,7 @@
         "KISS"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "Z-8ZGgGadHU",
       "scheduleId": "#MON-TC1-SE1",
       "speakers": [
         "venkat"
@@ -24,7 +24,7 @@
         "Java"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "mlxPIeu-M7s",
       "scheduleId": "#TUE-TC1-SE1",
       "speakers": [
         "venkat"
@@ -37,7 +37,7 @@
       "tags": [
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "Fya3Q3AJyVM",
       "scheduleId": "#TUE-TC1-SE7",
       "speakers": [
         "sandro"
@@ -89,7 +89,7 @@
         "Reactive"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "2DS0XQtou80",
       "scheduleId": "#MON-TC1-SE6",
       "speakers": [
         "schrijver"
@@ -107,7 +107,7 @@
         "Scala"
       ],
       "level": "Advanced",
-      "video": "",
+      "video": "59a_z6PP9tM",
       "scheduleId": "#TUE-TC2-SE1",
       "speakers": [
         "mmulders"
@@ -123,7 +123,7 @@
         "Integration"
       ],
       "level": "Beginner",
-      "video": "",
+      "video": "8PIJ6ODxAPE",
       "scheduleId": "#MON-TC3-SE3",
       "speakers": [
         "davsclaus"
@@ -141,7 +141,7 @@
         "Microservices"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "e7kHSdLW-uM",
       "scheduleId": "#TUE-TC1-SE5",
       "speakers": [
         "burrsutter"
@@ -160,7 +160,7 @@
         "openshift"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "sJ-_htmU0TE",
       "scheduleId": "#TUE-TC1-SE2",
       "speakers": [
         "burrsutter"
@@ -174,7 +174,7 @@
         "Testing"
       ],
       "level": "Beginner",
-      "video": "",
+      "video": "W8bRLH0rrxI",
       "scheduleId": "#TUE-TC3-SE3",
       "speakers": [
         "alexsoto"
@@ -211,7 +211,7 @@
         "Microservices"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "pm3aRKkxZuA",
       "scheduleId": "#MON-TC1-SE5",
       "speakers": [
         "edsonyanaga"
@@ -230,7 +230,7 @@
         "Patterns"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "ehLJtRrlNiI",
       "scheduleId": "#MON-TC2-SE3",
       "speakers": [
         "bibryam"
@@ -245,7 +245,7 @@
         "Spark"
       ],
       "level": "Beginner",
-      "video": "",
+      "video": "qAFzCSY_mqI",
       "scheduleId": "#MON-TC4-SE4",
       "speakers": [
         "mmatloka"
@@ -260,7 +260,7 @@
         "Vert.x"
       ],
       "level": "Beginner",
-      "video": "",
+      "video": "8WTX6xaZTjo",
       "scheduleId": "#MON-TC2-SE6",
       "speakers": [
         "cescoffier"
@@ -275,7 +275,7 @@
         "Deeplearning4J"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "XFaDPsxD3NU",
       "scheduleId": "#TUE-TC3-SE1",
       "speakers": [
         "wmeints"
@@ -310,7 +310,7 @@
         "schedulers"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "JHmyHuqQzOY",
       "scheduleId": "#MON-TC3-SE6",
       "speakers": [
         "vfarcic"
@@ -326,7 +326,7 @@
         "kubernetes"
       ],
       "level": "Advanced",
-      "video": "",
+      "video": "fvBlA6nAGsY",
       "scheduleId": "#TUE-TC2-SE5",
       "speakers": [
         "icanellos"
@@ -342,7 +342,7 @@
         "opensource"
       ],
       "level": "Beginner",
-      "video": "",
+      "video": "YMTbYkPaXJo",
       "scheduleId": "#MON-TC1-SE7",
       "speakers": [
         "hvancura"
@@ -363,7 +363,7 @@
         "live code"
       ],
       "level": "Beginner",
-      "video": "",
+      "video": "5c0nCkHTAMI",
       "scheduleId": "#TUE-TC1-SE4",
       "speakers": [
         "mheckler"
@@ -395,7 +395,7 @@
         "Devops"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "WA4siaFXuBw",
       "scheduleId": "#MON-TC2-SE4",
       "speakers": [
         "bastian-hofman"
@@ -413,7 +413,7 @@
         "DevOps"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "UCC3Lso9GRU",
       "scheduleId": "#MON-TC2-SE2",
       "speakers": [
         "roland-huss"
@@ -431,7 +431,7 @@
         "event-driven"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "KIwLrgg75PM",
       "scheduleId": "#MON-TC1-SE4",
       "speakers": [
         "sebastian-daschner"
@@ -448,7 +448,7 @@
         "java 8"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "QxsRPi74UBY",
       "scheduleId": "#MON-TC4-SE7",
       "speakers": [
         "jacek-kunicki"
@@ -465,7 +465,7 @@
         "NIO2"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "6uSC0Oi1MnA",
       "scheduleId": "#TUE-TC4-SE2",
       "speakers": [
         "schalk-cronje"
@@ -481,7 +481,7 @@
         "Microservices"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "sssWFa1jHcM",
       "scheduleId": "#TUE-TC1-SE6",
       "speakers": [
         "ivar-grimstad"
@@ -496,7 +496,7 @@
         "Robot"
       ],
       "level": "Beginner",
-      "video": "",
+      "video": "JLcX5sO7yqc",
       "scheduleId": "#TUE-TC2-SE6",
       "speakers": [
         "jeroen-resoort"
@@ -510,7 +510,7 @@
         "StabilityPatterns"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "V51Kwva3CpQ",
       "scheduleId": "#TUE-TC3-SE4",
       "speakers": [
         "daniel-lebrero"
@@ -542,7 +542,7 @@
         "Monitoring"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "AHs2djYeHX4",
       "scheduleId": "#MON-TC2-SE5",
       "speakers": [
         "philipp-krenn"
@@ -559,7 +559,7 @@
         "Cloud"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "swDnvmCMHwo",
       "scheduleId": "#MON-TC4-SE5",
       "speakers": [
         "albert-margarit"
@@ -575,7 +575,7 @@
         "Groovy"
       ],
       "level": "Beginner",
-      "video": "",
+      "video": "YzhIyF836-A",
       "scheduleId": "#TUE-TC2-SE4",
       "speakers": [
         "hubert-klein-ikkink"
@@ -590,7 +590,7 @@
         "Functional Programming"
       ],
       "level": "Beginner",
-      "video": "",
+      "video": "ouIA11cZZkg",
       "scheduleId": "#TUE-TC4-SE4",
       "speakers": [
         "charlotte-cavalier"
@@ -608,7 +608,7 @@
         "Functional Programming"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "qcIiufH_u7c",
       "scheduleId": "#MON-TC3-SE2",
       "speakers": [
         "victor-rentea"
@@ -626,7 +626,7 @@
         "Actors"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "1JtdUhLf5pE",
       "scheduleId": "#TUE-TC3-SE2",
       "speakers": [
         "nicola-ferraro"
@@ -693,7 +693,7 @@
         "DevOps"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "1Uvba4r_I8w",
       "scheduleId": "#TUE-TC2-SE2",
       "speakers": [
         "maria-gomez"
@@ -713,7 +713,7 @@
         "angular"
       ],
       "level": "Beginner",
-      "video": "",
+      "video": "iywXl48dJI4",
       "scheduleId": "#MON-TC4-SE6",
       "speakers": [
         "hanno-embregts"
@@ -732,7 +732,7 @@
         "spark"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "kffQ67zTqSY",
       "scheduleId": "#MON-TC3-SE5",
       "speakers": [
         "juantomas-garcia"
@@ -748,7 +748,7 @@
         "spock"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "Q-a6f6zkIBI",
       "scheduleId": "#MON-TC3-SE7",
       "speakers": [
         "tomasz-dubikowski"
@@ -768,7 +768,7 @@
         "JSON"
       ],
       "level": "Beginner",
-      "video": "",
+      "video": "sMrnx9899xM",
       "scheduleId": "#MON-TC2-SE7",
       "speakers": [
         "marcus-fihlon"
@@ -784,7 +784,7 @@
         "Arquillian"
       ],
       "level": "Beginner",
-      "video": "",
+      "video": "YQoiIKeBVfQ",
       "scheduleId": "#TUE-TC1-SE3",
       "speakers": [
         "simon-maple"
@@ -815,7 +815,7 @@
         "performance"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "UQjnp_i6PtQ",
       "scheduleId": "#TUE-TC3-SE5",
       "speakers": [
         "adrian-cole"
@@ -831,7 +831,7 @@
         "restassured"
       ],
       "level": "Beginner",
-      "video": "",
+      "video": "-d2IxHXOnKs",
       "scheduleId": "#TUE-TC3-SE6",
       "speakers": [
         "michel-schudel"
@@ -847,7 +847,7 @@
         "functional"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "3Imdp6BUW34",
       "scheduleId": "#MON-TC4-SE2",
       "speakers": [
         "grzegorz-piwowarek"
@@ -864,7 +864,7 @@
         "rxjava"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "aW6EThRF5uI",
       "scheduleId": "#TUE-TC4-SE3",
       "speakers": [
         "piotr-kafel"
@@ -880,7 +880,7 @@
         "abuse"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "YzcVgKD9sdQ",
       "scheduleId": "#TUE-TC2-SE3",
       "speakers": [
         "david-gomez",
@@ -900,7 +900,7 @@
         "frameworks"
       ],
       "level": "Intermediate",
-      "video": "",
+      "video": "tRUKB6Ll-g4",
       "scheduleId": "#TUE-TC4-SE5",
       "speakers": [
         "mauricio-salatino",
@@ -948,7 +948,7 @@
         "Event driven"
       ],
       "level": "Advanced",
-      "video": "",
+      "video": "PUTDRmkqvCw",
       "scheduleId": "#TUE-TC4-SE6",
       "speakers": [
         "olivier-deheurles"
@@ -963,7 +963,7 @@
         "functional programming"
       ],
       "level": "Advanced",
-      "video": "",
+      "video": "1XmqVBdNtZ0",
       "scheduleId": "#TUE-TC4-SE1",
       "speakers": [
         "michal-plachta"
