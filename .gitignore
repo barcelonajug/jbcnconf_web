@@ -4,3 +4,6 @@
 _site
 *.iml
 .idea
+
+tools/client_id.json
+tools/*.log

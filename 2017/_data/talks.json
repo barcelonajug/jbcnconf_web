@@ -9,7 +9,8 @@
         "KISS"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "Venkat Subramaniam OK.mp4",
+      "video": "Z-8ZGgGadHU",
       "scheduleId": "#MON-TC1-SE1",
       "speakers": [
         "venkat"
@@ -24,7 +25,8 @@
         "Java"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "Venkat Subramaniam 2 OK.mp4",
+      "video": "mlxPIeu-M7s",
       "scheduleId": "#TUE-TC1-SE1",
       "speakers": [
         "venkat"
@@ -35,9 +37,11 @@
       "title": "The Long Road",
       "abstract": "Choosing the next career step in such a diverse and fast-paced industry is not an easy task. But when it comes to our careers, there is no right or wrong. Or there is? How do we know? In this talk we will be talking about different career choices, how can we choose good companies to work for, what we can learn from interviews and selection processes, when should we look for a new job, and how to change our working environment.",
       "tags": [
+          "Software Craftmanship"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "Sandro Mancuso OK.mp4",
+      "video": "Fya3Q3AJyVM",
       "scheduleId": "#TUE-TC1-SE7",
       "speakers": [
         "sandro"
@@ -46,7 +50,7 @@
     {
       "type": "talk",
       "title": "Real World Java 9",
-      "abstract": "The feature we always hear about whenever Java 9 is in the news is Jigsaw, modularity.  But this doesn't scratch the same developer itch that Java 8's lambdas and streams did, and we're left with a vague sensation that the next version might not be that interesting. Java 9 actually has a lot of great additions and changes to make development a bit nicer.  These features can't be lumped under an umbrella term like Java 8's lambdas and streams, the changes are scattered throughout the APIs and language features that we regularly use. In this presentation Trisha will show, via live coding:<br> - How we can use the new Flow API to utilise Reactive Programming <br> - How the improvements to the Streams API make it easier to control real-time streaming data <br> - How to the Collections convenience methods simplify code<br> Along the way we'll bump into other Java 9 features, including some of the additions to interfaces and changes to deprecation.  We’ll see that once you start using Java 9, you can't go back to Before.",
+      "abstract": "The feature we always hear about whenever Java 9 is in the news is Jigsaw, modularity.  But this doesn't scratch the same developer itch that Java 8's lambdas and streams did, and we're left with a vague sensation that the next version might not be that interesting. Java 9 actually has a lot of great additions and changes to make development a bit nicer.  These features can't be lumped under an umbrella term like Java 8's lambdas and streams, the changes are scattered throughout the APIs and language features that we regularly use. In this presentation Trisha will show, via live coding:<br> - How we can use the new Flow API to utilise Reactive Programming <br> - How the improvements to the Streams API make it easier to control real-time streaming data <br> - How to the Collections convenience methods simplify code<br> Along the way we'll bump into other Java 9 features, including some of the additions to interfaces and changes to deprecation.  We'll see that once you start using Java 9, you can't go back to Before.",
       "tags": [
         "Java",
         "Java 9",
@@ -54,6 +58,7 @@
         "Live coding"
       ],
       "level": "Intermediate",
+      "file": "xxx.mp4",
       "video": "",
       "scheduleId": "#MON-TC1-SE3",
       "speakers": [
@@ -73,6 +78,7 @@
         "Jenkins"
       ],
       "level": "Beginner",
+      "file": ".mp4",
       "video": "",
       "scheduleId": "#WED-TC4-SE2",
       "speakers": [
@@ -82,14 +88,15 @@
     {
       "type": "talk",
       "title": "Building microservices with Vert.x",
-      "abstract": "Vert.x is a toolkit for building reactive applications on the JVM. It was awarded for 'Most Innovative Java Technology' at the JAX Innovation awards. Vert.x is event driven, non blocking and polyglot, which makes it an excellent platform for building microservices. In this talk, I’ll share experiences and real-world use cases from a Dutch company that started building reactive web applications with Vert.x about 4 years ago. You’ll learn the concepts behind Vert.x, why we chose Vert.x, how we’re using it and the challenges we faced. Topics include the anatomy of our projects, (micro)services architecture, deployment model and DevOps, scalability, the upgrade from Vert.x 2 to Vert.x 3 and cooperation with the team behind Vert.x. At the end of this session, you’ll know enough about Vert.x to get started yourself right away!",
+      "abstract": "Vert.x is a toolkit for building reactive applications on the JVM. It was awarded for 'Most Innovative Java Technology' at the JAX Innovation awards. Vert.x is event driven, non blocking and polyglot, which makes it an excellent platform for building microservices. In this talk, I'll share experiences and real-world use cases from a Dutch company that started building reactive web applications with Vert.x about 4 years ago. You'll learn the concepts behind Vert.x, why we chose Vert.x, how we're using it and the challenges we faced. Topics include the anatomy of our projects, (micro)services architecture, deployment model and DevOps, scalability, the upgrade from Vert.x 2 to Vert.x 3 and cooperation with the team behind Vert.x. At the end of this session, you'll know enough about Vert.x to get started yourself right away!",
       "tags": [
         "Vertx",
         "Microservices",
         "Reactive"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "BERT JAN SCHREIVER ok.mp4",
+      "video": "2DS0XQtou80",
       "scheduleId": "#MON-TC1-SE6",
       "speakers": [
         "schrijver"
@@ -98,7 +105,7 @@
     {
       "type": "talk",
       "title": "How To Stay Responsive With 400 Backends",
-      "abstract": "In these days of web scale and microservices, gracefully handling faulty or crashing backend web services becomes increasingly important. As long as your application uses just a handful of such backends, there’s no problem. But what if you have hundreds of them? How will you prevent your application from the negative effects of inevitable incidental crashes or timeouts when contacting other web services? In this talk, we’ll take a real-world example from a web scale system. This system is targeted at 10 million users and has around 400 heterogeneous backends. Akka and Scala power a system that is capable of running smoothly even when some backends might not be so stable.",
+      "abstract": "In these days of web scale and microservices, gracefully handling faulty or crashing backend web services becomes increasingly important. As long as your application uses just a handful of such backends, there's no problem. But what if you have hundreds of them? How will you prevent your application from the negative effects of inevitable incidental crashes or timeouts when contacting other web services? In this talk, we'll take a real-world example from a web scale system. This system is targeted at 10 million users and has around 400 heterogeneous backends. Akka and Scala power a system that is capable of running smoothly even when some backends might not be so stable.",
       "tags": [
         "Microservice",
         "Web scale",
@@ -107,7 +114,8 @@
         "Scala"
       ],
       "level": "Advanced",
-      "video": "",
+      "file": "Maarten Mulders OK.mp4",
+      "video": "59a_z6PP9tM",
       "scheduleId": "#TUE-TC2-SE1",
       "speakers": [
         "mmulders"
@@ -123,7 +131,8 @@
         "Integration"
       ],
       "level": "Beginner",
-      "video": "",
+      "file": "Claus Ibsen OK.mp4",
+      "video": "8PIJ6ODxAPE",
       "scheduleId": "#MON-TC3-SE3",
       "speakers": [
         "davsclaus"
@@ -141,7 +150,8 @@
         "Microservices"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "Burr Sutter 2 OK.mp4",
+      "video": "e7kHSdLW-uM",
       "scheduleId": "#TUE-TC1-SE5",
       "speakers": [
         "burrsutter"
@@ -149,8 +159,8 @@
     },
     {
       "type": "talk",
-      "title": "Why you’re going to FAIL running Java on docker!",
-      "abstract": "Running Java on docker is easy, right? Just create a Dockerfile, run a docker build and then you’re ready to go! Thinking this way is the easiest path to complete FAILURE when running docker containers in production.<br/>The JVM knows how to auto-tune itself to achieve the best possible performance in the environment it’s running. So far, the environment has been a single physical or virtual machine. But now you have containers, and it changes everything: you need to know how containers manages their own resources, and you need to apply this knowledge when running and optimizing your JVM running in a container.<br/>Want to get ready to really run Java on docker in production? Then come to this session to learn a lot about JVM and containers and avoid the highway to debugging hell. You’ll get simple tips & tricks that will save you hundreds of hours of debugging & logging to figure out what is wrong with your containers.",
+      "title": "Why you're going to FAIL running Java on docker!",
+      "abstract": "Running Java on docker is easy, right? Just create a Dockerfile, run a docker build and then you're ready to go! Thinking this way is the easiest path to complete FAILURE when running docker containers in production.<br/>The JVM knows how to auto-tune itself to achieve the best possible performance in the environment it's running. So far, the environment has been a single physical or virtual machine. But now you have containers, and it changes everything: you need to know how containers manages their own resources, and you need to apply this knowledge when running and optimizing your JVM running in a container.<br/>Want to get ready to really run Java on docker in production? Then come to this session to learn a lot about JVM and containers and avoid the highway to debugging hell. You'll get simple tips & tricks that will save you hundreds of hours of debugging & logging to figure out what is wrong with your containers.",
       "tags": [
         "docker",
         "jvm",
@@ -160,7 +170,8 @@
         "openshift"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "Burr Sutter 1 OK.mp4",
+      "video": "sJ-_htmU0TE",
       "scheduleId": "#TUE-TC1-SE2",
       "speakers": [
         "burrsutter"
@@ -174,7 +185,8 @@
         "Testing"
       ],
       "level": "Beginner",
-      "video": "",
+      "file": "Alex Soto OK.mp4",
+      "video": "W8bRLH0rrxI",
       "scheduleId": "#TUE-TC3-SE3",
       "speakers": [
         "alexsoto"
@@ -194,9 +206,27 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "#MON-TC4-SE3",
+      "scheduleId": "",
       "speakers": [
         "mwessendorf"
+      ]
+    },    
+    {
+      "type": "talk",
+      "title": "Migrating to Microservices Databases: From relational Monolith to Distributed Data",
+      "abstract": "In a Microservices architecture with multiple moving parts we can't allow that a single complement downtime breaks down the entire system. Dealing with stateless code is easy, but it gets much harder when we have to deal with persistent state. In this scenario, zero downtime migrations are paramount to guarantee integrity and consistency.<br>Within all the Microservices characteristics, undoubtedly the one that creates more perplexity is the \"one database per Microservice\". However, very few teams have the privilege of starting something from scratch: most of the times they have a legacy database that will survive any new implementation.<br>In legacy systems you traditionally have a model that adopts transactions and CRUD. Now we must reassess some of these concepts. In this talk we'll discuss consistency, CRUD and CQRS, Event Sourcing, and how these techniques relate to each other in many different integration strategies for databases. We'll explore Views, Materialized Views, Mirror Tables, Event Sourcing, Data Virtualization, Change Data Capture, and how these strategies enable you to build up a Microservices architecture from a legacy monolithic relational database.",
+      "tags": [
+        "consistency",
+        "Distributed",
+        "Microservices",
+        "Databases"
+      ],
+      "level": "Intermediate",
+      "file": "EDSON YANAGA X2 OK.mp4",
+      "video": "7KZJkhxQYJM",      
+      "scheduleId": "#MON-TC4-SE3",
+      "speakers": [
+        "edsonyanaga"
       ]
     },
     {
@@ -211,7 +241,8 @@
         "Microservices"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "EDSON YANAGA ok.mp4",      
+      "video": "pm3aRKkxZuA",
       "scheduleId": "#MON-TC1-SE5",
       "speakers": [
         "edsonyanaga"
@@ -230,7 +261,8 @@
         "Patterns"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "Bilgin Ibryam ok.mp4",
+      "video": "ehLJtRrlNiI",
       "scheduleId": "#MON-TC2-SE3",
       "speakers": [
         "bibryam"
@@ -239,13 +271,14 @@
     {
       "type": "talk",
       "title": "Machine learning by example",
-      "abstract": "Are the machines learning on their own? Wait, is Skynet already here? During this session we will tackle an easy Machine Learning problem, show how can it be processed on Spark including data cleaning, normalization and a learning process. Live coding session, but only if the machines don’t rise against us.",
+      "abstract": "Are the machines learning on their own? Wait, is Skynet already here? During this session we will tackle an easy Machine Learning problem, show how can it be processed on Spark including data cleaning, normalization and a learning process. Live coding session, but only if the machines don't rise against us.",
       "tags": [
         "Machine learning",
         "Spark"
       ],
       "level": "Beginner",
-      "video": "",
+      "file": "MICHAL MATLOKA OK.mp4",
+      "video": "qAFzCSY_mqI",
       "scheduleId": "#MON-TC4-SE4",
       "speakers": [
         "mmatloka"
@@ -254,13 +287,14 @@
     {
       "type": "talk",
       "title": "The reactive landscape",
-      "abstract": "Reactive Programming, Reactive eXtensions, Reactive Streams, Reactive Systems, Reactive Manifesto, that’s a lot of 'reactive' thingies. Just to make it even more confusing, 'reactive' is often associated with asynchronous, scalability, RX libraries (RX Java, RX JS), back pressure, streams, observables, futures, promises, spreadsheets and so on…. That's a lot to digest… This session helps you understanding what's behind the 'reactive' word. It explores the reactive landscape and explains what all these 'things' are and how they are related. Attendees don't only learn what does 'reactive' mean, but also how it is related to their projects and applications. By providing a global overview of the reactive landscape, this session also provides to the attendees a general understanding of the 'reactive' trend, and why it matters. The presentation uses several live coding demos to explain the different concepts. It uses Eclipse Vert.x as a playground to explain how all these concepts work together. Eclipse Vert.x is a toolkit to build reactive and distributed systems on the JVM. It supports a set of languages such as Java, JavaScript, Ceylon, Scala and Kotlin… but also a set of programming styles (callbacks, futures, streams, RX...). It covers a large part of the reactive spectrum making it a great choice to implement reactive applications and systems.",
+      "abstract": "Reactive Programming, Reactive eXtensions, Reactive Streams, Reactive Systems, Reactive Manifesto, that's a lot of 'reactive' thingies. Just to make it even more confusing, 'reactive' is often associated with asynchronous, scalability, RX libraries (RX Java, RX JS), back pressure, streams, observables, futures, promises, spreadsheets and so on…. That's a lot to digest… This session helps you understanding what's behind the 'reactive' word. It explores the reactive landscape and explains what all these 'things' are and how they are related. Attendees don't only learn what does 'reactive' mean, but also how it is related to their projects and applications. By providing a global overview of the reactive landscape, this session also provides to the attendees a general understanding of the 'reactive' trend, and why it matters. The presentation uses several live coding demos to explain the different concepts. It uses Eclipse Vert.x as a playground to explain how all these concepts work together. Eclipse Vert.x is a toolkit to build reactive and distributed systems on the JVM. It supports a set of languages such as Java, JavaScript, Ceylon, Scala and Kotlin… but also a set of programming styles (callbacks, futures, streams, RX...). It covers a large part of the reactive spectrum making it a great choice to implement reactive applications and systems.",
       "tags": [
         "Reactive",
         "Vert.x"
       ],
       "level": "Beginner",
-      "video": "",
+      "file": "Clement Escoffier OK.mp4",
+      "video": "8WTX6xaZTjo",
       "scheduleId": "#MON-TC2-SE6",
       "speakers": [
         "cescoffier"
@@ -275,7 +309,8 @@
         "Deeplearning4J"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "Willem Meints OK.mp4",
+      "video": "XFaDPsxD3NU",
       "scheduleId": "#TUE-TC3-SE1",
       "speakers": [
         "wmeints"
@@ -290,6 +325,7 @@
         "clean code"
       ],
       "level": "Intermediate",
+      "file": "xxx.mp4",
       "video": "",
       "scheduleId": "#MON-TC3-SE4",
       "speakers": [
@@ -310,7 +346,8 @@
         "schedulers"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "Viktor Farcic OK.mp4",
+      "video": "JHmyHuqQzOY",
       "scheduleId": "#MON-TC3-SE6",
       "speakers": [
         "vfarcic"
@@ -326,7 +363,8 @@
         "kubernetes"
       ],
       "level": "Advanced",
-      "video": "",
+      "file": "Ioannis Canellos OK.mp4",
+      "video": "fvBlA6nAGsY",
       "scheduleId": "#TUE-TC2-SE5",
       "speakers": [
         "icanellos"
@@ -342,7 +380,8 @@
         "opensource"
       ],
       "level": "Beginner",
-      "video": "",
+      "file": "Heather VanCura Ok.mp4",
+      "video": "YMTbYkPaXJo",
       "scheduleId": "#MON-TC1-SE7",
       "speakers": [
         "hvancura"
@@ -363,7 +402,8 @@
         "live code"
       ],
       "level": "Beginner",
-      "video": "",
+      "file": "Mark Heckler OK.mp4",
+      "video": "5c0nCkHTAMI",
       "scheduleId": "#TUE-TC1-SE4",
       "speakers": [
         "mheckler"
@@ -371,14 +411,15 @@
     },
     {
       "type": "talk",
-      "title": "Java Libraries You Can’t Afford to Miss",
-      "abstract": "The Java language has passed its 20th anniversary, and with it comes an incredible range of tools libraries to choose from; sometimes there are actually too many choices for the same task. This presentation covers those libraries that have risen to the top, having proved themselves to be worthy of a place in every developer’s toolbox, for both production and testing code. It also discusses some fairly new libraries that are bound to make a big impact in the ecosystem.",
+      "title": "Java Libraries You Can't Afford to Miss",
+      "abstract": "The Java language has passed its 20th anniversary, and with it comes an incredible range of tools libraries to choose from; sometimes there are actually too many choices for the same task. This presentation covers those libraries that have risen to the top, having proved themselves to be worthy of a place in every developer's toolbox, for both production and testing code. It also discusses some fairly new libraries that are bound to make a big impact in the ecosystem.",
       "tags": [
         "Java",
         "opensource",
         "libraries"
       ],
       "level": "Intermediate",
+      "file": "xxx.mp4",
       "video": "",
       "scheduleId": "#MON-TC1-SE2",
       "speakers": [
@@ -395,7 +436,8 @@
         "Devops"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "Bastian HOFFMAN ok.mp4",
+      "video": "WA4siaFXuBw",
       "scheduleId": "#MON-TC2-SE4",
       "speakers": [
         "bastian-hofman"
@@ -413,7 +455,8 @@
         "DevOps"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "ROLAND HUSS ok.mp4",
+      "video": "UCC3Lso9GRU",
       "scheduleId": "#MON-TC2-SE2",
       "speakers": [
         "roland-huss"
@@ -422,7 +465,7 @@
     {
       "type": "talk",
       "title": "When, why and how to CQRS",
-      "abstract": "Most of today’s enterprise applications base on a CRUD data model that is simple and straightforward to implement. Another concept of how to model applications is Command Query Responsibility Segregation (CQRS) that enables interesting solutions and use cases, especially with rising demands of scalability. In this session I’ll show the concept and benefits of CQRS, to which other buzzwords such as eventual consistency, event-driven architectures and event sourcing it is related and how to realize a CQRS application. The questions whether this concept can be realized with Java EE technology, where the framework already offers solutions and where it has to be extended will be answered. Most of the time will be spent live-coding and examining the 'devil is in the details' cases of both approaches.",
+      "abstract": "Most of today's enterprise applications base on a CRUD data model that is simple and straightforward to implement. Another concept of how to model applications is Command Query Responsibility Segregation (CQRS) that enables interesting solutions and use cases, especially with rising demands of scalability. In this session I'll show the concept and benefits of CQRS, to which other buzzwords such as eventual consistency, event-driven architectures and event sourcing it is related and how to realize a CQRS application. The questions whether this concept can be realized with Java EE technology, where the framework already offers solutions and where it has to be extended will be answered. Most of the time will be spent live-coding and examining the 'devil is in the details' cases of both approaches.",
       "tags": [
         "java",
         "architecture",
@@ -431,7 +474,8 @@
         "event-driven"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "Sebastian Daschner OK.mp4",
+      "video": "KIwLrgg75PM",
       "scheduleId": "#MON-TC1-SE4",
       "speakers": [
         "sebastian-daschner"
@@ -440,7 +484,7 @@
     {
       "type": "talk",
       "title": "Tame Your Data with Akka Streams and Java 8",
-      "abstract": "Stream processing is a hot topic today and it’s easy to get lost among all the possibilities. In this live coding session we will explore the Reactive Streams approach used by the Akka Streams project. On an almost real-life example we’re going to walk through both the basics and some more advanced usages of the library. And if you thought Akka Streams was a Scala library, come to learn the nice Java API and see how wrong you were.",
+      "abstract": "Stream processing is a hot topic today and it's easy to get lost among all the possibilities. In this live coding session we will explore the Reactive Streams approach used by the Akka Streams project. On an almost real-life example we're going to walk through both the basics and some more advanced usages of the library. And if you thought Akka Streams was a Scala library, come to learn the nice Java API and see how wrong you were.",
       "tags": [
         "reactive streams",
         "akka streams",
@@ -448,7 +492,8 @@
         "java 8"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "Jacek Kunicki OK.mp4",
+      "video": "QxsRPi74UBY",
       "scheduleId": "#MON-TC4-SE7",
       "speakers": [
         "jacek-kunicki"
@@ -465,7 +510,8 @@
         "NIO2"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "Schalk Cronjé OK.mp4",
+      "video": "6uSC0Oi1MnA",
       "scheduleId": "#TUE-TC4-SE2",
       "speakers": [
         "schalk-cronje"
@@ -481,7 +527,8 @@
         "Microservices"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "Ivar Grimstad OK.mp4",
+      "video": "sssWFa1jHcM",
       "scheduleId": "#TUE-TC1-SE6",
       "speakers": [
         "ivar-grimstad"
@@ -490,13 +537,14 @@
     {
       "type": "talk",
       "title": "Mission to Mars: Exploring new worlds with AWS IoT",
-      "abstract": "Would you like to explore new worlds with your connected devices? In this presentation we will build a simple robot and connect to it remotely, receiving data and sending instructions over the internet. Just like the Pathfinder spacecraft and its Sojourner Mars rover, our little robot will boldly travel into uncharted territory. In a live demo, our robot will explore the session room and transmit all kinds of sensor data. We will visualise that data in a web UI. With the Mars robot use case, we explore the capabilities of the Amazon IoT platform. AWS IoT comes with easy to use APIs and arranges secure communication with our robot. It also provides neat features like a rules engine and ‘device shadow’. Even when our robot is offline, device shadow makes it very easy to retrieve its latest status. And last but not least, for small scale use, AWS IoT is free to try out. Are you curious about how to connect your devices to the cloud? Take this journey and find out if this mission will lead to new discoveries.",
+      "abstract": "Would you like to explore new worlds with your connected devices? In this presentation we will build a simple robot and connect to it remotely, receiving data and sending instructions over the internet. Just like the Pathfinder spacecraft and its Sojourner Mars rover, our little robot will boldly travel into uncharted territory. In a live demo, our robot will explore the session room and transmit all kinds of sensor data. We will visualise that data in a web UI. With the Mars robot use case, we explore the capabilities of the Amazon IoT platform. AWS IoT comes with easy to use APIs and arranges secure communication with our robot. It also provides neat features like a rules engine and ‘device shadow'. Even when our robot is offline, device shadow makes it very easy to retrieve its latest status. And last but not least, for small scale use, AWS IoT is free to try out. Are you curious about how to connect your devices to the cloud? Take this journey and find out if this mission will lead to new discoveries.",
       "tags": [
         "IoT",
         "Robot"
       ],
       "level": "Beginner",
-      "video": "",
+      "file": "Jeroen Resoort OK.mp4",
+      "video": "JLcX5sO7yqc",
       "scheduleId": "#TUE-TC2-SE6",
       "speakers": [
         "jeroen-resoort"
@@ -510,7 +558,8 @@
         "StabilityPatterns"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "Daniel Lebrero OK.mp4",
+      "video": "V51Kwva3CpQ",
       "scheduleId": "#TUE-TC3-SE4",
       "speakers": [
         "daniel-lebrero"
@@ -525,6 +574,7 @@
         "Continuous Integration"
       ],
       "level": "Intermediate",
+      "file": ".mp4",
       "video": "",
       "scheduleId": "#WED-TC1-SE1",
       "speakers": [
@@ -542,7 +592,8 @@
         "Monitoring"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "Philipp Krenn ok.mp4",
+      "video": "AHs2djYeHX4",
       "scheduleId": "#MON-TC2-SE5",
       "speakers": [
         "philipp-krenn"
@@ -559,7 +610,8 @@
         "Cloud"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "ALBERT MARGARIT OK.mp4",
+      "video": "swDnvmCMHwo",
       "scheduleId": "#MON-TC4-SE5",
       "speakers": [
         "albert-margarit"
@@ -568,14 +620,15 @@
     {
       "type": "talk",
       "title": "Writing tests is fun with Spock",
-      "abstract": "Spock is a test framework with built-in mocking and stubbing facilities. We can use Spock to write test code for testing Java and Groovy code. Spock tests are called specifications and we write specifications with a Groovy DSL. The DSL enforces a certain way to define the specifications, which results in better readable and maintainable test code. First we learn about the DSL Spock uses. We can write for example test methods and simply use a sentence as a method name. Also we use labels to define fixed sections each test needs. Spock support data driven testing, where we can invoke a method under test multiple times and each time with a different value. We can define the data in data providers, like lists or database rows and with data tables. To write a mock or stub we don’t need an external library. Spock has support built-in and with a very concise syntax. We learn about this syntax and see how clean our test code will be.",
+      "abstract": "Spock is a test framework with built-in mocking and stubbing facilities. We can use Spock to write test code for testing Java and Groovy code. Spock tests are called specifications and we write specifications with a Groovy DSL. The DSL enforces a certain way to define the specifications, which results in better readable and maintainable test code. First we learn about the DSL Spock uses. We can write for example test methods and simply use a sentence as a method name. Also we use labels to define fixed sections each test needs. Spock support data driven testing, where we can invoke a method under test multiple times and each time with a different value. We can define the data in data providers, like lists or database rows and with data tables. To write a mock or stub we don't need an external library. Spock has support built-in and with a very concise syntax. We learn about this syntax and see how clean our test code will be.",
       "tags": [
         "Spock",
         "Tests",
         "Groovy"
       ],
       "level": "Beginner",
-      "video": "",
+      "file": "Hubert Klein OK.mp4",
+      "video": "YzhIyF836-A",
       "scheduleId": "#TUE-TC2-SE4",
       "speakers": [
         "hubert-klein-ikkink"
@@ -590,7 +643,8 @@
         "Functional Programming"
       ],
       "level": "Beginner",
-      "video": "",
+      "file": "Charlotte Cavalier OK.mp4",
+      "video": "ouIA11cZZkg",
       "scheduleId": "#TUE-TC4-SE4",
       "speakers": [
         "charlotte-cavalier"
@@ -608,7 +662,8 @@
         "Functional Programming"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "VICTOR RENTEA ok.mp4",
+      "video": "qcIiufH_u7c",
       "scheduleId": "#MON-TC3-SE2",
       "speakers": [
         "victor-rentea"
@@ -617,7 +672,7 @@
     {
       "type": "talk",
       "title": "Integrating Applications: The Reactive Way",
-      "abstract": "Reactive programming is one of the top trending paradigms for building fast asynchronous applications in the microservices era. But if you dive a bit into the reactive world, you will find out that scaling from a single application to a fully fledged reactive system is hard: you need to solve complex integration problems and communicating inside a heterogeneous system is simply a headache!<br/> In this talk, we will explore how reactive applications currently address integration problems, with live coding examples based on RxJava and Vert.x. You’ll learn how the popular framework Apache Camel can be used as reactive integration layer through the new Java 9 Flow API, opening a lot of new possibilities to reactive applications.<br/> This talk will also give you insights on the future directions of the Apache Camel project with reference to reactive systems.",
+      "abstract": "Reactive programming is one of the top trending paradigms for building fast asynchronous applications in the microservices era. But if you dive a bit into the reactive world, you will find out that scaling from a single application to a fully fledged reactive system is hard: you need to solve complex integration problems and communicating inside a heterogeneous system is simply a headache!<br/> In this talk, we will explore how reactive applications currently address integration problems, with live coding examples based on RxJava and Vert.x. You'll learn how the popular framework Apache Camel can be used as reactive integration layer through the new Java 9 Flow API, opening a lot of new possibilities to reactive applications.<br/> This talk will also give you insights on the future directions of the Apache Camel project with reference to reactive systems.",
       "tags": [
         "Java",
         "Integration",
@@ -626,7 +681,8 @@
         "Actors"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "Nicola Ferraro OK.mp4",
+      "video": "1JtdUhLf5pE",
       "scheduleId": "#TUE-TC3-SE2",
       "speakers": [
         "nicola-ferraro"
@@ -646,6 +702,7 @@
         "Docker"
       ],
       "level": "Beginner",
+      "file": ".mp4",
       "video": "",
       "scheduleId": "#WED-TC2-SE2",
       "speakers": [
@@ -655,13 +712,14 @@
     {
       "type": "workshop",
       "title": "IoT Hackathon",
-      "abstract": "I will bring a bunch of devices and give you some code to get started. We will put all that things together during the workshop. I will have Raspberry Pis, some sensors, controller, and peripheral devices that use Z-Wave for communication. You are also welcome to bring your own devices, if you have any. And don’t forget your PC. Machine Learning, cloud, data analysis, security, home automation (bingo!) – sky is the limit! Primarily for: Developers, Participant requirements: Bring your own devices, if you have any. And don’t forget your PC.<br/><br/><span style=\"text-decoration: underline;\">Requirements for the workshop</span>: <a href=\"https://mehmandarov.com/iot-prototyping-startup-kit\" style=\"text-decoration: underline; color: blue;\" target=\"_blank\">Follow this link</a>",
+      "abstract": "I will bring a bunch of devices and give you some code to get started. We will put all that things together during the workshop. I will have Raspberry Pis, some sensors, controller, and peripheral devices that use Z-Wave for communication. You are also welcome to bring your own devices, if you have any. And don't forget your PC. Machine Learning, cloud, data analysis, security, home automation (bingo!) – sky is the limit! Primarily for: Developers, Participant requirements: Bring your own devices, if you have any. And don't forget your PC.<br/><br/><span style=\"text-decoration: underline;\">Requirements for the workshop</span>: <a href=\"https://mehmandarov.com/iot-prototyping-startup-kit\" style=\"text-decoration: underline; color: blue;\" target=\"_blank\">Follow this link</a>",
       "tags": [
         "IoT",
         "Hackathon",
         "Cloud"
       ],
       "level": "Beginner",
+      "file": ".mp4",
       "video": "",
       "scheduleId": "#WED-TC3-SE1",
       "speakers": [
@@ -678,6 +736,7 @@
         "Spring Boot"
       ],
       "level": "Intermediate",
+      "file": ".mp4",
       "video": "",
       "scheduleId": "#WED-TC2-SE1",
       "speakers": [
@@ -693,7 +752,8 @@
         "DevOps"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "Maria Gomez OK.mp4",
+      "video": "1Uvba4r_I8w",
       "scheduleId": "#TUE-TC2-SE2",
       "speakers": [
         "maria-gomez"
@@ -702,7 +762,7 @@
     {
       "type": "talk",
       "title": "Building a Spring Boot application: Ask the Audience!",
-      "abstract": "Spring Boot makes it easy to create stand-alone Spring-based application that you can ‘just run’. It uses a ‘convention over configuration’ approach to get you up and running in no-time, while offering all Spring features that you have grown fond of in the past years. In this session this is demonstrated by live-coding a Spring Boot application that will 'just work'.<br/>But audience beware, this is not your standard ‘live-coding session’. Attendees will have a vital say in the session’s content by defining the application’s requirements. Should it be an app to track your kitchen cupboard contents or do you want a simple task planner? It's up to you! Should it use MongoDB or Couchbase? You decide! Do you want an Angular front-end with a RESTful back-end or do you prefer a classic web app with Thymeleaf templates? It's your call! Seriously.<br/>During the session you get to make these decisions by participating in an online vote. And you will discover that Spring Boot is up to the task no matter what choices you make.<br/>So what are you waiting for? Bring your own device, help shape the application that we're building and learn lots about Spring Boot in the process.<br/>This session is intended for Java software engineers with an interest in Spring Boot. Some Spring experience could come in handy, but is not strictly necessary. After this session, you will know enough to start your own Spring Boot project.",
+      "abstract": "Spring Boot makes it easy to create stand-alone Spring-based application that you can ‘just run'. It uses a ‘convention over configuration' approach to get you up and running in no-time, while offering all Spring features that you have grown fond of in the past years. In this session this is demonstrated by live-coding a Spring Boot application that will 'just work'.<br/>But audience beware, this is not your standard ‘live-coding session'. Attendees will have a vital say in the session's content by defining the application's requirements. Should it be an app to track your kitchen cupboard contents or do you want a simple task planner? It's up to you! Should it use MongoDB or Couchbase? You decide! Do you want an Angular front-end with a RESTful back-end or do you prefer a classic web app with Thymeleaf templates? It's your call! Seriously.<br/>During the session you get to make these decisions by participating in an online vote. And you will discover that Spring Boot is up to the task no matter what choices you make.<br/>So what are you waiting for? Bring your own device, help shape the application that we're building and learn lots about Spring Boot in the process.<br/>This session is intended for Java software engineers with an interest in Spring Boot. Some Spring experience could come in handy, but is not strictly necessary. After this session, you will know enough to start your own Spring Boot project.",
       "tags": [
         "spring-boot",
         "java",
@@ -713,7 +773,8 @@
         "angular"
       ],
       "level": "Beginner",
-      "video": "",
+      "file": "Hanno Embregets OK.mp4",
+      "video": "iywXl48dJI4",
       "scheduleId": "#MON-TC4-SE6",
       "speakers": [
         "hanno-embregts"
@@ -732,7 +793,8 @@
         "spark"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "JUANTOMAS GARCIA OK.mp4",
+      "video": "kffQ67zTqSY",
       "scheduleId": "#MON-TC3-SE5",
       "speakers": [
         "juantomas-garcia"
@@ -748,7 +810,8 @@
         "spock"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "Tomasz Dubikowski OK.mp4",
+      "video": "Q-a6f6zkIBI",
       "scheduleId": "#MON-TC3-SE7",
       "speakers": [
         "tomasz-dubikowski"
@@ -768,7 +831,8 @@
         "JSON"
       ],
       "level": "Beginner",
-      "video": "",
+      "file": "Marcus Fihlon OK.mp4",
+      "video": "sMrnx9899xM",
       "scheduleId": "#MON-TC2-SE7",
       "speakers": [
         "marcus-fihlon"
@@ -777,14 +841,15 @@
     {
       "type": "talk",
       "title": "Productivity Tips for Java EE and Spring Developers",
-      "abstract": "In this live coding session, we’ll build a Java EE application using JBoss Forge, deploy it onto Wildfly and test it using Arquillian. All of this is possible while barely writing a line of code! We’ll also create a microservice using JBoss Swarm. If you’re more into Spring we’ll also show you how to create a Spring application from scratch, use Spring Boot and how you can rapidly develop you applications using JRebel. There will be a bunch of other tools and tips in this session, so if you want to write code like a pro, this is the session for you!",
+      "abstract": "In this live coding session, we'll build a Java EE application using JBoss Forge, deploy it onto Wildfly and test it using Arquillian. All of this is possible while barely writing a line of code! We'll also create a microservice using JBoss Swarm. If you're more into Spring we'll also show you how to create a Spring application from scratch, use Spring Boot and how you can rapidly develop you applications using JRebel. There will be a bunch of other tools and tips in this session, so if you want to write code like a pro, this is the session for you!",
       "tags": [
         "JavaEE",
         "testing",
         "Arquillian"
       ],
       "level": "Beginner",
-      "video": "",
+      "file": "Simon Maple OK.mp4",
+      "video": "YQoiIKeBVfQ",
       "scheduleId": "#TUE-TC1-SE3",
       "speakers": [
         "simon-maple"
@@ -799,6 +864,7 @@
         "modularity"
       ],
       "level": "Beginner",
+      "file": ".mp4",
       "video": "",
       "scheduleId": "#WED-TC1-SE2",
       "speakers": [
@@ -815,7 +881,8 @@
         "performance"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "Adrian Cole OK.mp4",
+      "video": "UQjnp_i6PtQ",
       "scheduleId": "#TUE-TC3-SE5",
       "speakers": [
         "adrian-cole"
@@ -831,7 +898,8 @@
         "restassured"
       ],
       "level": "Beginner",
-      "video": "",
+      "file": "Michael Schudel OK.mp4",
+      "video": "-d2IxHXOnKs",
       "scheduleId": "#TUE-TC3-SE6",
       "speakers": [
         "michel-schudel"
@@ -840,14 +908,15 @@
     {
       "type": "talk",
       "title": "Javaslang - Functional Java Done Right",
-      "abstract": "Java 8’s lambdas empower us to create wonderful APIs. Javaslang lets us dive deeper into the world of functional programming by providing us with persistent data types, immutable collections, and functional control structures. The results are beautiful and do just work. During this presentation, we will recall Java8’s downsides and explore how Javaslang’s Scala-inspired features fill-in the gaps.",
+      "abstract": "Java 8's lambdas empower us to create wonderful APIs. Javaslang lets us dive deeper into the world of functional programming by providing us with persistent data types, immutable collections, and functional control structures. The results are beautiful and do just work. During this presentation, we will recall Java8's downsides and explore how Javaslang's Scala-inspired features fill-in the gaps.",
       "tags": [
         "java8",
         "javaslang",
         "functional"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "Grzegorz Piwowarek OK.mp4",
+      "video": "3Imdp6BUW34",
       "scheduleId": "#MON-TC4-SE2",
       "speakers": [
         "grzegorz-piwowarek"
@@ -864,7 +933,8 @@
         "rxjava"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "Piotr Kafel OK.mp4",
+      "video": "aW6EThRF5uI",
       "scheduleId": "#TUE-TC4-SE3",
       "speakers": [
         "piotr-kafel"
@@ -873,14 +943,15 @@
     {
       "type": "talk",
       "title": "The... Wonderful? World of lambdas",
-      "abstract": "We, Java developers, embrace Java 8 in the hope that by mastering Lambdas and Streams, we would be gifted with a functional programming mind. And thus we walk down the yellow brick road to the wizard of lambdas. That road usually starts from the fear and terror of learning their syntax until finally getting to understand them and opening our minds to the fruitful fields of functional programming. But this road eventually reaches a final stage: the lambda abuse.<br/>Let’s get the curtain down!<br/>During our talk, we will see examples of abuse and misuse of lambdas and streams. To master the lambas art means to know when to use them and when not to not damage your brain and, most importantly, other Java developers’. Keep your code readable and maintainable, avoid becoming a lambda addict!<br/>And if nothing else you will take with you a bunch of apparently smart java 8 one-liners to show off among your friends and colleagues.",
+      "abstract": "We, Java developers, embrace Java 8 in the hope that by mastering Lambdas and Streams, we would be gifted with a functional programming mind. And thus we walk down the yellow brick road to the wizard of lambdas. That road usually starts from the fear and terror of learning their syntax until finally getting to understand them and opening our minds to the fruitful fields of functional programming. But this road eventually reaches a final stage: the lambda abuse.<br/>Let's get the curtain down!<br/>During our talk, we will see examples of abuse and misuse of lambdas and streams. To master the lambas art means to know when to use them and when not to not damage your brain and, most importantly, other Java developers'. Keep your code readable and maintainable, avoid becoming a lambda addict!<br/>And if nothing else you will take with you a bunch of apparently smart java 8 one-liners to show off among your friends and colleagues.",
       "tags": [
         "java8",
         "lambda",
         "abuse"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "David Esther OK.mp4",
+      "video": "YzcVgKD9sdQ",
       "scheduleId": "#TUE-TC2-SE3",
       "speakers": [
         "david-gomez",
@@ -900,7 +971,8 @@
         "frameworks"
       ],
       "level": "Intermediate",
-      "video": "",
+      "file": "Mauricio Mario OK.mp4",
+      "video": "tRUKB6Ll-g4",
       "scheduleId": "#TUE-TC4-SE5",
       "speakers": [
         "mauricio-salatino",
@@ -910,12 +982,13 @@
     {
       "type": "workshop",
       "title": "Tests Refactoring",
-      "abstract": "Treat your tests as the first class citizen. You must have heard it. In this workshop I will perform some live-refactoring of a messy test that shows too many details and this way are hard to read. I will start from initial clean-up and continue towards extracting a reusable classes (fluent-builder, template) which allow us to replace the low level details with much more readable and simpler API. My goals will be to show step by step approach in refactoring to prove it’s never too late to start to improve quality of your code a little every day. We will also go through some slides about approach to refactoring - why it happens and / or why it does not.<br/><br/><span style=\"text-decoration: underline;\">Requirements for the workshop</span>: <a href=\"https://github.com/wlodekkr/tests-refactoring\" style=\"text-decoration: underline; color: blue;\" target=\"_blank\">Follow this link</a>",
+      "abstract": "Treat your tests as the first class citizen. You must have heard it. In this workshop I will perform some live-refactoring of a messy test that shows too many details and this way are hard to read. I will start from initial clean-up and continue towards extracting a reusable classes (fluent-builder, template) which allow us to replace the low level details with much more readable and simpler API. My goals will be to show step by step approach in refactoring to prove it's never too late to start to improve quality of your code a little every day. We will also go through some slides about approach to refactoring - why it happens and / or why it does not.<br/><br/><span style=\"text-decoration: underline;\">Requirements for the workshop</span>: <a href=\"https://github.com/wlodekkr/tests-refactoring\" style=\"text-decoration: underline; color: blue;\" target=\"_blank\">Follow this link</a>",
       "tags": [
         "Testing",
         "Refactoring"
       ],
       "level": "Intermediate",
+      "file": ".mp4",
       "video": "",
       "scheduleId": "#WED-TC4-SE1",
       "speakers": [
@@ -931,6 +1004,7 @@
         "Testing"
       ],
       "level": "Intermediate",
+      "file": ".mp4",
       "video": "",
       "scheduleId": "#WED-TC3-SE2",
       "speakers": [
@@ -948,7 +1022,8 @@
         "Event driven"
       ],
       "level": "Advanced",
-      "video": "",
+      "file": "Olivier Deheurles OK.mp4",
+      "video": "PUTDRmkqvCw",
       "scheduleId": "#TUE-TC4-SE6",
       "speakers": [
         "olivier-deheurles"
@@ -956,14 +1031,15 @@
     },
     {
       "type": "talk",
-      "title": "Pragmatist’s Guide to Functional Geekery",
-      "abstract": "Basic functional concepts like immutable data, second-order functions, lambdas and function composition can already be found in the modern programmer’s toolkit. During this talk you will learn about more advanced functional concepts and how they can solve real problems. I will talk about pattern matching, algebraic data types, type classes, functional abstractions, folding and type-level programming. I will show you a practical example written using today’s Java functional constructs and build up from there. I will use only JVM-based languages to show you how they can improve the code, make it more maintainable and testable.",
+      "title": "Pragmatist's Guide to Functional Geekery",
+      "abstract": "Basic functional concepts like immutable data, second-order functions, lambdas and function composition can already be found in the modern programmer's toolkit. During this talk you will learn about more advanced functional concepts and how they can solve real problems. I will talk about pattern matching, algebraic data types, type classes, functional abstractions, folding and type-level programming. I will show you a practical example written using today's Java functional constructs and build up from there. I will use only JVM-based languages to show you how they can improve the code, make it more maintainable and testable.",
       "tags": [
         "lambdas",
         "functional programming"
       ],
       "level": "Advanced",
-      "video": "",
+      "file": "Michal Plachta OK.mp4",
+      "video": "1XmqVBdNtZ0",
       "scheduleId": "#TUE-TC4-SE1",
       "speakers": [
         "michal-plachta"
