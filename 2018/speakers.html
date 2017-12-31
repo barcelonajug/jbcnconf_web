@@ -1,0 +1,112 @@
+---
+layout: default
+title: JBCNConf - About the Organizers from Barcelona JUG
+bodyClass: home page-template-default page page-id-7 eventstation-class  eventstation-shop-column-4 wpb-js-composer js-comp-ver-5.0.1 vc_responsive
+---
+{% include base.html %}
+
+
+<div class="content-heading">
+    <div class="container-fluid">
+        <div class="heading-navigation">
+            <i class="fa fa-address-book"></i>
+            <ul>
+                <li>Home</li>
+                <li>&#47;</li>
+                <li>Speakers</li>
+            </ul>
+        </div>
+
+        <div class="heading-title">
+        </div>
+    </div>
+</div>
+
+<div class="site-sub-content clearfix">
+    <div class="container-fluid">
+        <div class="row alternative-row">
+            <div class="col-lg-12 col-sm-12 col-xs-12 site-content-left">
+                <div class="category-post-list post-list single-list">
+                    <article id="post-294"
+                             class="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
+                        <div class="post-wrapper">
+                            <div class="post-header">
+                                <ul class="post-information">
+
+                                </ul>
+                                <h2></h2>
+                                <p>
+                                    Topics are related to the Java World and related technologies: <br/>
+                                    #Java #JVM langs (Scala/Cloujure/Groovy/Kotlin ...) <br/> #Functional Programming #Microservices #Docker
+                                    #Kubernetes #Mesos #Marathon #JavaFX #DevOps #Testing #DDD #TDD #CI #CD #noSQL #SOA #Cloud #Mobile #Integration
+                                    #Architecture #Scalability #IoT #Actors #Concurrency. <br/>
+                                </p>
+
+
+                                <div class="speakers-widget animate anim-fadeInUp">
+
+
+                                    {% for speaker in site.data.speakers.items %}
+
+                                    {% assign talkTitle = '' %}
+                                    {% for talk in site.data.talks.items %}
+                                    {% if speaker.ref == talk.speakers[0] or speaker.ref == talk.speakers[1] %}
+                                    {% capture talkTitle %}  {{ talk.title }}. {{ talkTitle }}{% endcapture %}
+                                    {% endif %}
+                                    {% endfor %}
+
+
+
+                                    <div class="item col-md-4" style="height:550px;">
+                                        <div class="speaker-item-header"
+                                             style="background-image:url('{{ base }}/{{ speaker.image }}');">
+                                            <div class="speaker-item-topic-wrapper">
+                                                <a href="{{ base }}/{{ speaker.url }}">
+                                                    <h4 class="speaker-item-topic-title">
+                                                        {{ talkTitle }}
+                                                    </h4>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                        <div class="speaker-item-body" style="height:195px">
+                                            <ul class="speaker-item-information">
+                                                {% if speaker.homepage %}
+                                                <li class="">
+                                                    <a target="_blank" href="{{speaker.homepage}}">
+                                                        <i class="fa fa-rss"></i>
+                                                    </a>
+                                                </li>
+                                                {% endif %}
+                                                {% if speaker.twitter %}
+                                                <li class="twitter">
+                                                    <a target="_blank" href="{{speaker.twitter}}">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                {% endif %}
+                                            </ul>
+                                            <div class="name-job">
+                                                <a href="{{ base }}/{{ speaker.url }}">
+                                                    <h2>{{ speaker.name }}</h2>
+                                                </a>
+                                                <a href="{{ base }}/{{ speaker.url }}">
+                                                    <h3>{{ speaker.description }}</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
