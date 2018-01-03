@@ -15,10 +15,10 @@
     {
       "name": "Jonathan Vila",
       "position": "Senior Java Developer",
-      "role": "Coordinator at Barcelona JUG.",
+      "role": "Treasurer at Barcelona JUG.",
       "twitter": "https://twitter.com/vilojona",
       "linkedin": "https://www.linkedin.com/in/jonathanvila",
-      "bio": "I'm interested in Software Development Management Methodologies such as Agile ( XP, Scrum ) ... Also in treating people as individuals with dreams, interests and powers, not in treating people as 'workers at service' ...",
+      "bio": "Interested on learning and specially about Java and microservices",
       "image": {
         "url": "/assets/img/team/jonathan.jpg",
         "alt": "Jonathan Vila, Java Lover"
@@ -48,17 +48,6 @@
       }
     },
     {
-      "name": "Christian Sisti",
-      "position": "Team Leader",
-      "role": "Team Member Barcelona JUG.",
-      "bio": "High-Energy, Results-Driven, Focused Software Engineer.  Interested in RestFul API, cloud platforms and micro services architectures.  Highly skilled table soccer player.",
-      "linkedin": "https://www.linkedin.com/in/christiansisti",
-      "image": {
-        "url": "/assets/img/team/christian.jpg",
-        "alt": "Christian Java Lover"
-      }
-    },
-    {
       "name": "Miklós Csere",
       "position": "Software Craftsman",
       "role": "Team Member Barcelona JUG.",
@@ -68,18 +57,6 @@
       "image": {
         "url": "/assets/img/team/miklos.jpg",
         "alt": "Miklos Java Lover"
-      }
-    },
-    {
-      "name": "Xavi Rodríguez",
-      "position": "Software Engineer",
-      "role": "Team Member Barcelona JUG.",
-      "bio": "I am a Java developer trying to keep learning every day. Clean code enthusiast, interested in Agile practices and cloud architectures.",
-      "linkedin": "https://www.linkedin.com/in/xrodriguezmo",
-      "twitter": "https://twitter.com/xeeevi",
-      "image": {
-        "url": "/assets/img/team/xavi.jpg",
-        "alt": "Xavi Rodríguez, Java Lover"
       }
     },
     {
@@ -93,7 +70,6 @@
         "url": "/assets/img/team/sergio-ferraz.jpg",
         "alt": "Sergio Ferraz"
       }
-    }
-
+    } 
   ]
 }
