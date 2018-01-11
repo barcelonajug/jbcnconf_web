@@ -1,0 +1,206 @@
+---
+layout: default
+title: JBCNConf - Schedule Java Barcelona Conference
+bodyClass: home page-template-default page page-id-7 eventstation-class  eventstation-shop-column-4 wpb-js-composer js-comp-ver-5.0.1 vc_responsive
+---
+{% include base.html %}
+
+<style>
+    .remove-speaker-button {
+        float: right;
+        margin-bottom: 10px;
+    }
+</style>
+
+<div class="content-heading">
+    <div class="container-fluid">
+        <div class="heading-navigation">
+            <i class="fa fa-address-book"></i>
+            <ul>
+                <li>Home</li>
+                <li>&#47;</li>
+                <li>Send you Paper</li>
+            </ul>
+        </div>
+
+        <div class="heading-title">
+        </div>
+    </div>
+</div>
+
+<div class="site-sub-content clearfix">
+    <div class="container-fluid">
+        <div class="row alternative-row">
+            <div class="col-lg-8 col-sm-8 col-xs-12 site-content-left">
+                <div class="category-post-list post-list single-list">
+                    <article id="post-294" class="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
+                        <div class="post-wrapper">
+                            <div class="post-header">
+                                <ul class="post-information"></ul>
+                                <h2></h2>
+                                <h2>Send your Paper</h2>
+                            </div>
+
+                            <div class="post-content">
+                                <div id="paperSuccess" class="alert alert-success hide" role="alert">Success!</div>
+                                <div id="paperError" class="alert alert-danger hide" role="alert">Error!</div>
+                                <form name="sendPaperForm" id="sendPaperForm" class="form">
+                                    <div class="form-group">
+                                        <label for="paperTitle">Title:</label>
+                                        <input type="text" class="form-control" id="paperTitle" placeholder="Title">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="paperType">Type:</label>
+                                        <select class="form-control" id="paperType">
+                                            <option value="talk" selected>Talk</option>
+                                            <option value="workshop">Workshop</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="paperLevel">Level:</label>
+                                        <select class="form-control" id="paperLevel">
+                                            <option value="beginner" selected>Beginner</option>
+                                            <option value="middle">Middle</option>
+                                            <option value="advanced">Advanced</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="paperAbstract">Abstract:</label>
+                                        <textarea class="form-control" id="paperAbstract" rows="5"></textarea>
+                                    </div>
+                                    <h3>Speakers
+                                        <button class="btn btn-success" type="button" onclick="addSpeaker()">+</button>
+                                    </h3>
+                                    <div class="panel panel-info" id="speakersSection">
+                                        <div class="panel-body" id="speaker0">
+                                            <div class="form-group">
+                                                <label for="senderName0">Full name:</label>
+                                                <input type="text" name="senderName0" id="senderName0">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="email0">e-mail:</label>
+                                                <input type="text" name="email0" id="email0">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="twitter0">Twitter:</label>
+                                                <input type="text" name="twitter0" id="twitter0">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="web">Web:</label>
+                                                <input type="text" name="web0" id="web0">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="biography">Biography:</label>
+                                                <textarea class="form-control" name="biography0" id="biography0" rows="5"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+                </div>
+                <button class="btn btn-primary" type="button" onclick="sendPaper()">Send</button>
+                </form>
+
+
+            </div>
+
+        </div>
+        </article>
+    </div>
+</div>
+<!--
+<div class="col-lg-3 col-sm-3 col-xs-12 site-content-right rightsidebar fixedrightSidebar">
+    {% include recent-events.html %}
+</div>
+-->
+
+</div>
+</div>
+
+<script type='text/javascript' src='{{ base }}/assets/js/tag-colors.js'></script>
+<script type="text/javascript">
+    var speakers = [0];
+    var template =
+        '<div class="panel-body" id="speaker::i::"><div class="form-group"><button class="btn btn-danger remove-speaker-button" onclick="removeSpeaker(::i::)" type="button">-</button><label for="senderName::i::">Full name:</label><input type="text" name="senderName::i::" id="senderName::i::"></div><div class="form-group"><label for="email::i::">e-mail:</label><input type="text" name="email::i::" id="email::i::"></div><div class="form-group"><label for="twitter::i::">Twitter:</label><input type="text" name="twitter::i::" id="twitter::i::"></div><div class="form-group"><label for="web::i::">Web:</label><input type="text" name="web::i::" id="web::i::"></div><div class="form-group"><label for="biography::i::">Biography:</label><textarea class="form-control" id="biography::i::" name="biography::i::" rows="5"></textarea></div></div></div>';
+
+    function addSpeaker() {
+        next = speakers[speakers.length - 1] + 1;
+        speakers.push(next);
+        jQuery("#speakersSection").append(template.replace(/::i::/g, next));
+    }
+
+    function removeSpeaker(i) {
+        jQuery("#speaker" + i).remove();
+        speakers.splice(speakers.indexOf(i), 1);
+    }
+
+    function sendPaper() {
+        jQuery("#paperSuccess").addClass("hide");
+        jQuery("#paperError").addClass("hide");
+        window.scrollTo(0, 0);
+
+
+        let paper = {
+            "edition":"2018"
+        };
+
+        paper.title = jQuery("#paperTitle").val();
+        paper.type = jQuery("#paperType").val();
+        paper.level = jQuery("#paperLevel").val();
+        paper.abstract = jQuery("#paperAbstract").val();
+        paper.senders = [];
+
+        for(let i=0; i<speakers.length; i++) {
+            let iSpeaker = speakers[i];
+            let sender = {
+                "fullname":jQuery("#senderName"+iSpeaker).val(),
+                "email":jQuery("#email"+iSpeaker).val(),
+                "twitter":jQuery("#twitter"+iSpeaker).val(),
+                "web":jQuery("#web"+iSpeaker).val(),
+                "biography":jQuery("#biography"+iSpeaker).val()
+            };
+            paper.senders.push(sender);
+        }
+
+        jQuery.ajax({
+                method: "POST",
+                url: "http://localhost:8085/public/api/paper",
+                data: JSON.stringify(paper),
+                dataType: "json",
+                contentType:"application/json",
+                method: "POST"
+            })
+            .done(function (response) {
+                console.log(response);
+                if(response.status) {
+                    while(speakers.length>1) {
+                        removeSpeaker(speakers.length-1);   
+                    }
+                    document.sendPaperForm.reset();
+                    jQuery("#paperSuccess").removeClass("hide");
+                } else {
+                    jQuery("#paperError").text(errorMessages[response.error]);
+                    jQuery("#paperError").removeClass("hide");
+                }
+            }).fail(function (jqXHR, textStatus) {
+                console.log(textStatus);
+                jQuery("#paperError").removeClass("hide");
+            });
+    }
+
+    const errorMessages = {
+        "error.paper.edition_mandatory":"Conference edition is mandatory",
+        "error.paper.title_mandatory":"Title field is mandatory",
+        "error.paper.level_mandatory": "Level field is mandatory",
+        "error.paper.type_mandatory":"Type field is mandatory",
+        "error.paper.abstract_mandatory":"Abstract field is mandatory",
+        "error.paper.senders_mandatory":"You must add at least one speaker",
+        "error.paper.sender.fullname_mandatory":"Speaker's full name field is mandatory",
+        "error.paper.sender.biography_mandatory":"Speaker's biography field is mandatory",
+        "error.paper.sender.email_mandatory":"Speaker's email field is mandatory"
+    }
+
+</script>
+
+</div>
