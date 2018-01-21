@@ -10,6 +10,10 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
         float: right;
         margin-bottom: 10px;
     }
+
+    select.form-control {
+        height: 41px;
+    }
 </style>
 
 <div class="content-heading">
@@ -31,7 +35,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 <div class="site-sub-content clearfix">
     <div class="container-fluid">
         <div class="row alternative-row">
-            <div class="col-lg-8 col-sm-8 col-xs-12 site-content-left">
+            <div class="col-lg-8 col-sm-8 col-xs-12 col-lg-offset-2 col-sm-offset-2">
                 <div class="category-post-list post-list single-list">
                     <article id="post-294" class="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
                         <div class="post-wrapper">
@@ -221,7 +225,9 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
         paper.level = jQuery("#paperLevel").val();
         paper.abstract = jQuery("#paperAbstract").val();
         var tagsStr = jQuery("#paperTags").val();
-        paper.tags = tagsStr.split(",");
+        if(tagsStr && tagsStr !== '') {
+            paper.tags = tagsStr.split(",");
+        }
 
         paper.preferenceDay = jQuery("#paperDate").val();
         paper.senders = [];
@@ -242,8 +248,8 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
             };
             paper.senders.push(sender);
         }
-        //const ajaxUrl = "https://jbcn-cfp-api.joseguitart.pro/public/api/paper";
-        const ajaxUrl = "http://localhost:8085/public/api/paper";
+        const ajaxUrl = "https://jbcn-cfp-api.joseguitart.pro/public/api/paper";
+        //const ajaxUrl = "http://localhost:8085/public/api/paper";
         jQuery.ajax({
                 method: "POST",
                 url: ajaxUrl,
@@ -255,10 +261,10 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
             .done(function (response) {
                 console.log(response);
                 if(response.status) {
-                    //while(speakers.length>1) {
-                    //    removeSpeaker(speakers.length-1);   
-                    //}
-                    //document.sendPaperForm.reset();
+                    while(speakers.length>1) {
+                        removeSpeaker(speakers.length-1);   
+                    }
+                    document.sendPaperForm.reset();
                     jQuery("#paperSuccess").removeClass("hide");
                 } else {
                     jQuery("#paperError").text(errorMessages[response.error]);
@@ -279,7 +285,12 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
         "error.paper.senders_mandatory":"You must add at least one speaker",
         "error.paper.sender.fullname_mandatory":"Speaker's full name field is mandatory",
         "error.paper.sender.biography_mandatory":"Speaker's biography field is mandatory",
-        "error.paper.sender.email_mandatory":"Speaker's email field is mandatory"
+        "error.paper.sender.email_mandatory":"Speaker's email field is mandatory",
+        "error.paper.sender.email_bad_format":"Please enter a speaker's valid email",
+        "error.paper.sender.picture_mandatory":"Speaker's picture field is mandatory",
+        "error.paper.sender.picture_bad_format":"Please enter a speaker's valid picture URL",
+        "error.paper.tags_mandatory":"Please enter at least one tag",
+        "error.paper.sender.web_bad_format":"Please enter a speaker's valid web URL"
     }
 
 </script>
