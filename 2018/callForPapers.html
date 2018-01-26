@@ -99,6 +99,11 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                         </select>
                                         <p>We will try to fit your need, but please consider that with 60 speakers is very difficult to make all them happy. So, only request a concrete if it's totally required.</p>
                                     </div>
+                                    <div class="form-group">
+                                        <label for="paperComments">Comments:</label>
+                                        <textarea for="paperComments" id="paperComments" class="form-control"></textarea>
+                                    </div>
+                                    
 
                                     <h3>Speakers
                                         <button class="btn btn-success" type="button" onclick="addSpeaker()">+</button>
@@ -228,6 +233,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
         if(tagsStr && tagsStr !== '') {
             paper.tags = tagsStr.split(",");
         }
+        paper.comments = jQuery("#paperComments").val();
 
         paper.preferenceDay = jQuery("#paperDate").val();
         paper.senders = [];
