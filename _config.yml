@@ -11,4 +11,4 @@ defaults:
 layouts_dir: 2018/_layouts
 includes_dir: 2018/_includes
 data_dir: 2018/_data
-exclude: ["README.*"]
+exclude: ["README.*","/tools/**"]
