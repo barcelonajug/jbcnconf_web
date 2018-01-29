@@ -29,16 +29,25 @@ Once Ruby is installed, install the jekyll gem with the following command.
 [IMPORTANT]
 ====
 The required `ffi` gem is not yet fully supported in Ruby 2.5.x.
-If you want to build the site with Ruby 2.5.x, install it with before `jekyll` with:
+If you want to build the site with Ruby 2.5.x, install it before `jekyll` with:
 
  gem install ffi --force -v 1.9.18
 ====
 
 == Testing the website
 
-Just fork the repo, open a shell to the root of it and run
+=== Testing it locally
+
+Just fork the repo, open a shell, place yourself in the root and run
 
  $ jekyll serve
 
 This will start a local embedded server on http://localhost:4000.
 The server will stay up and self-update automatically.
+
+=== Publishing the site on a fork
+
+To see the `master` branch version, enable GitHub pages in your fork and set it publish to the gh-pages branch.
+You'll see the rendered site in https://USERNAME.github.io/jbcnconf_web.
+
+If you want to render a specific branch; checkout the branch, run `jekyll build` and manually push the files in the `_site` directory to the `gh-pages` branch.
