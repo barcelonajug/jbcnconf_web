@@ -1,34 +1,22 @@
 {
   "items": [
     {
-      "title": "Hands on performance workshop",
-      "url": "https://www.meetup.com/es-ES/BarcelonaJUG/events/240023918/",
-      "image": "/assets/img/events/performance.png",
-      "date": "May 25, 2017"
+      "title": "Sail in the Cloud - An Introduction to Istio",
+      "url": "https://www.meetup.com/BarcelonaJUG/events/246880047/",
+      "image": "/assets/img/events/istio.jpg",
+      "date": "January 30, 2018 "
     },
     {
-      "title": "JSF with Primefaces, from ugly duckling to a beautiful swan",
-      "url": "https://www.meetup.com/BarcelonaJUG/events/238620028/",
-      "image": "/assets/img/events/primefaces.jpeg",
-      "date": "April 6, 2017"
-    },
-    {
-      "title": "Testing with Arquillian, Docker and Kubernetes",
-      "url": "https://www.meetup.com/BarcelonaJUG/events/238249460/",
-      "image": "/assets/img/events/testing-with-arquilian.jpg",
-      "date": "March 30, 2017"
-    },
-    {
-      "title": "The JVM as a platform for building smart contracts",
-      "url": "https://www.meetup.com/BarcelonaJUG/events/238293830/",
+      "title": "Gambling with Leopards (Hazelcast/Spark/Java8)",
+      "url": "https://www.meetup.com/BarcelonaJUG/events/246964162/",
       "image": "/assets/img/events/ben-evans.jpeg",
-      "date": "March 22, 2017"
+      "date": "January 24, 2018"
     },
     {
-      "title": "Hands-on session: TDD in Baby Steps",
-      "url": "https://www.meetup.com/BarcelonaJUG/events/238052019/",
-      "image": "/assets/img/speakers/sandro-mancuso.jpg",
-      "date": "March 08, 2017"
+      "title": "Lazy Java",
+      "url": "https://www.meetup.com/BarcelonaJUG/events/246321598/",
+      "image": "/assets/img/events/logo_duke_batman.jpg",
+      "date": "January 18, 2018"
     }
   ]
 }
