@@ -10,16 +10,33 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
         float: right;
         margin-bottom: 10px;
     }
-
     select.form-control {
         height: 41px;
+    }
+    input.form-control,
+    select.form-control,
+    textarea.form-control {
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        border-left-width: medium;
+        border-left-style: solid;
+        border-left-color: gray;
+    }
+    input:required, select:required, textarea:required {
+        border-left-color: salmon;
+    }
+    input.invalid, select.invalid, textarea.invalid {
+        border-color: orangered;
+    }
+    input.valid, select.valid, textarea.valid {
+        border-color: darkolivegreen;
     }
     .mandatory {
         text-align: right;
         font-style: italic;
         color: red;
     }
-
 </style>
 
 <div class="content-heading">
@@ -52,8 +69,6 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                             </div>
 
                             <div class="post-content">
-                                <div id="paperSuccess" class="alert alert-success hide" role="alert">Success!</div>
-                                <div id="paperError" class="alert alert-danger hide" role="alert">Error!</div>
                                 <p>Complete this form with your proposal to join as speaker to the next edition of the JBCNConf (11-13/6) before 1st of May.</p>
                                 <p>We accept 2 types:  Workshop and Talk.</p>
 
@@ -70,38 +85,40 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                 <p class="mandatory">* mandatory field</p>
 
                                 <!-- http://www.jbcnconf.com || http://www.barcelonajug.org  -->
+                                <div id="paperSuccess" class="alert alert-success hide" role="alert">Success!</div>
+                                <div id="paperError" class="alert alert-danger hide" role="alert"></div>
                                 <form name="sendPaperForm" id="sendPaperForm" class="form">
                                     <div class="form-group">
-                                        <label for="paperTitle">Title:</label>
-                                        <input type="text" class="form-control" id="paperTitle" placeholder="Title">
+                                        <label for="paperTitle">Title *:</label>
+                                        <input required type="text" class="form-control" id="paperTitle" placeholder="Title">
                                     </div>
                                     <div class="form-group">
-                                        <label for="paperType">Type:</label>
-                                        <select class="form-control" id="paperType">
+                                        <label for="paperType">Type *:</label>
+                                        <select required class="form-control" id="paperType">
                                             <option value="talk" selected>Talk</option>
                                             <option value="workshop">Workshop</option>
                                         </select>
                                     </div>
                                     <div class="form-group">
-                                        <label for="paperLevel">Level:</label>
-                                        <select class="form-control" id="paperLevel">
+                                        <label for="paperLevel" required>Level *:</label>
+                                        <select required class="form-control" id="paperLevel">
                                             <option value="beginner" selected>Beginner</option>
                                             <option value="middle">Middle</option>
                                             <option value="advanced">Advanced</option>
                                         </select>
                                     </div>
                                     <div class="form-group">
-                                        <label for="paperAbstract">Abstract:</label>
-                                        <textarea class="form-control" id="paperAbstract" rows="5"></textarea>
+                                        <label for="paperAbstract">Abstract *:</label>
+                                        <textarea required class="form-control" id="paperAbstract" rows="5"></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <label for="paperTitle">Tags (csv):</label>
-                                        <input type="text" class="form-control" id="paperTags" placeholder="Java, Functional Programming, Machine Learning, Cloud...">
+                                        <label for="paperTitle">Tags (at least 2 separated by comma) *:</label>
+                                        <input required type="text" class="form-control" id="paperTags" placeholder="Java, Functional Programming, Machine Learning, Cloud...">
                                     </div>
                                     <div class="form-group">
                                         <label for="paperDay">Do you MUST talk in a concrete day ? ( only for TALKS , Workshops are on Wednesday ):</label>
                                         <select class="form-control" id="paperDay">
-                                            <option value="" selected>No, I don't care.</option>
+                                            <option value="" selected>No, I don't care</option>
                                             <option value="2018/06/11">Monday 11th</option>
                                             <option value="2018/06/12">Tuesday 12th</option>
                                         </select>
@@ -114,33 +131,34 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 
 
                                     <h3>Speakers
-                                        <button class="btn btn-success" type="button" onclick="addSpeaker()">+</button>
+                                        <button class="btn-sm btn-success" type="button" onclick="addSpeaker()">+</button>
                                     </h3>
+                                    <div id="speakersMsg" class="alert alert-info hide">No more than 2 speakers can be set</div>
                                     <div class="panel panel-info" id="speakersSection">
                                         <div class="panel-body" id="speaker0">
                                             <div class="form-group">
-                                                <label for="senderName0">Full name:</label>
-                                                <input type="text" name="senderName0" id="senderName0">
+                                                <label for="senderName0">Full name: *</label>
+                                                <input required type="text" class="form-control" name="senderName0" id="senderName0">
                                             </div>
                                             <div class="form-group">
-                                                <label for="senderName0">Picture (URL):</label>
-                                                <input type="text" name="picture0" id="picture0">
+                                                <label for="senderName0">Picture (URL) *:</label>
+                                                <input required type="text" class="form-control" name="picture0" id="picture0">
                                             </div>
                                             <div class="form-group">
-                                                <label for="email0">e-mail:</label>
-                                                <input type="text" name="email0" id="email0">
+                                                <label for="email0">e-mail *:</label>
+                                                <input required type="text" class="form-control" name="email0" id="email0">
                                             </div>
                                             <div class="form-group">
                                                 <label for="twitter0">Twitter:</label>
-                                                <input type="text" name="twitter0" id="twitter0">
+                                                <input type="text" class="form-control" name="twitter0" id="twitter0">
                                             </div>
                                             <div class="form-group">
                                                 <label for="web0">Web:</label>
-                                                <input type="text" name="web0" id="web0">
+                                                <input type="text" class="form-control" name="web0" id="web0">
                                             </div>
                                             <div class="form-group">
-                                                <label for="biography0">Biography:</label>
-                                                <textarea class="form-control" name="biography0" id="biography0" rows="5"></textarea>
+                                                <label for="biography0">Biography *:</label>
+                                                <textarea required class="form-control" name="biography0" id="biography0" rows="5"></textarea>
                                             </div>
                                             <div class="form-group">
                                                 <label for="tshirtSize0">T-Shirt size:</label>
@@ -153,8 +171,14 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                                 </select>
                                             </div>
                                             <div class="form-group">
-                                                <label for="alergies0">Food alergies?:</label>
-                                                <input type="text" name="alergies0" id="alergies0">
+                                                <label for="alergies0">Food alergies *:</label>
+                                                <div style="margin-left:7px;">
+                                                    <input type="radio" id="alergiesYes0" name="alergiesCombo0" value="yes">
+                                                    <label for="alergiesYes0">Yes</label>
+                                                    <input type="radio" id="alergiesNo0" name="alergiesCombo0" value="no">
+                                                    <label for="alergiesNo0">No</label>
+                                                </div>
+                                                <input required type="text" class="form-control" name="alergies0" id="alergies0">
                                             </div>
                                             <div class="form-group">
                                                 <label for="speakersParty0">Are you going to attend to Speaker's dinner on Sunday 10th?</label>
@@ -163,7 +187,6 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                                     <option value="false">no</option>
                                                 </select>
                                             </div>
-
                                             <div class="form-group">
                                                 <label for="attendeesParty0">Are you going to attend to the attendees Party on Monday 11th?</label>
                                                 <select class="form-control" id="attendeesParty0">
@@ -171,7 +194,6 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                                     <option value="false">no</option>
                                                 </select>
                                             </div>
-
                                             <div class="form-group">
                                                 <label for="travelCost0">Do you need help to cover your travel costs?</label>
                                                 <p>We can not assure anything about covering your expenses, but if you need help, we will try to help anyone that requires it. We are organizing the JBCNConf for non-profit and because of that everybody must wait until the end of the conference to see how will be the balance of incomes and expenses in order to see if we can cover your costs. We hope that we will be able to cover some costs, but we can't confirm that yet. Also, we will to try to make your stay cheaper arranging deals with some hotels.</p>
@@ -180,8 +202,6 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                                     <option value="true">Yes, I can't come without some help</option>
                                                 </select>
                                             </div>
-
-
                                         </div>
                                     </div>
                             </div>
@@ -210,12 +230,16 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 <script type='text/javascript' src='{{ base }}/assets/js/tag-colors.js'></script>
 <script type="text/javascript">
     var speakers = [0];
-    var template = '<div class="panel-body" id="speaker::i::"><div class="form-group"><label for="senderName::i::">Full name:</label><input type="text" name="senderName::i::" id="senderName::i::"></div><div class="form-group"><label for="senderName::i::">Picture (URL):</label><input type="text" name="picture::i::" id="picture::i::"></div><div class="form-group"><label for="email::i::">e-mail:</label><input type="text" name="email::i::" id="email::i::"></div><div class="form-group"><label for="twitter::i::">Twitter:</label><input type="text" name="twitter::i::" id="twitter::i::"></div><div class="form-group"><label for="web::i::">Web:</label><input type="text" name="web::i::" id="web::i::"></div><div class="form-group"><label for="biography::i::">Biography:</label><textarea class="form-control" name="biography::i::" id="biography::i::" rows="5"></textarea></div><div class="form-group"><label for="tshirtSize::i::">T-Shirt size:</label><select class="form-control" id="tshirtSize::i::"><option value="S" selected>S</option><option value="M">M</option><option value="L">L</option><option value="XL">XL</option><option value="XXL">XXL</option></select></div><div class="form-group"><label for="alergies::i::">Food alergies?:</label><input type="text" name="alergies::i::" id="alergies::i::"></div><div class="form-group"><label for="speakersParty::i::">Are you going to attend to Speaker\'s dinner on Sunday 10th?</label><select class="form-control" id="speakersParty::i::"><option value="true" selected>yes</option><option value="false">no</option></select></div><div class="form-group"><label for="attendeesParty::i::">Are you going to attend to the attendees Party on Monday 11th?</label><select class="form-control" id="attendeesParty::i::"><option value="true" selected>yes</option><option value="false">no</option></select></div><div class="form-group"><p>We can not assure anything about covering your expenses, but if you need help, we will try to help anyone that requires it. We are organizing the JBCNConf for non-profit and because of that everybody must wait until the end of the conference to see how will be the balance of incomes and expenses in order to see if we can cover your costs. We hope that we will be able to cover some costs, but we can\'t confirm that yet. Also, we will to try to make your stay cheaper arranging deals with some hotels.</p><select class="form-control" id="travelCost::i::"><option value="false" selected>No</option><option value="true">Yes, I can\'t come without some help</option></select></div></div>';
+    var template = '<div class="panel-body" id="speaker::i::"><div class="form-group"><label for="senderName::i::">Full name *:</label><input required type="text" class="form-control" name="senderName::i::" id="senderName::i::"></div><div class="form-group"><label for="senderName::i::">Picture (URL) *:</label><input required type="text" class="form-control" name="picture::i::" id="picture::i::"></div><div class="form-group"><label for="email::i::">e-mail *:</label><input required type="text" class="form-control" name="email::i::" id="email::i::"></div><div class="form-group"><label for="twitter::i::">Twitter:</label><input type="text" class="form-control" name="twitter::i::" id="twitter::i::"></div><div class="form-group"><label for="web::i::">Web:</label><input type="text" class="form-control" name="web::i::" id="web::i::"></div><div class="form-group"><label for="biography::i::">Biography *:</label><textarea required class="form-control" name="biography::i::" id="biography::i::" rows="5"></textarea></div><div class="form-group"><label for="tshirtSize::i::">T-Shirt size:</label><select class="form-control" id="tshirtSize::i::"><option value="S" selected>S</option><option value="M">M</option><option value="L">L</option><option value="XL">XL</option><option value="XXL">XXL</option></select></div><div class="form-group"><label for="alergies::i::">Food alergies *:</label><div style="margin-left:7px;"><input type="radio" id="alergiesYes::i::" name="alergiesCombo::i::" value="yes"><label for="alergiesYes::i::">Yes</label><input type="radio" id="alergiesNo::i::" name="alergiesCombo::i::" value="no"><label for="alergiesNo::i::">No</label></div><input required type="text" class="form-control" name="alergies::i::" id="alergies::i::"></div><div class="form-group"><label for="speakersParty::i::">Are you going to attend to Speaker\'s dinner on Sunday 1::i::th?</label><select class="form-control" id="speakersParty::i::"><option value="true" selected>yes</option><option value="false">no</option></select></div><div class="form-group"><label for="attendeesParty::i::">Are you going to attend to the attendees Party on Monday 11th?</label><select class="form-control" id="attendeesParty::i::"><option value="true" selected>yes</option><option value="false">no</option></select></div><div class="form-group"><label for="travelCost::i::">Do you need help to cover your travel costs?</label><select class="form-control" id="travelCost::i::"><option value="false" selected>No</option><option value="true">Yes, I can\'t come without some help</option></select></div></div>';
 
     function addSpeaker() {
-        next = speakers[speakers.length - 1] + 1;
-        speakers.push(next);
-        jQuery("#speakersSection").append(template.replace(/::i::/g, next));
+        if (speakers.length < 2) {
+            next = speakers[speakers.length - 1] + 1;
+            speakers.push(next);
+            jQuery("#speakersSection").append(template.replace(/::i::/g, next));
+        } else {
+            jQuery("#speakersMsg").removeClass('hide');
+        }
     }
 
     function removeSpeaker(i) {
@@ -223,11 +247,73 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
         speakers.splice(speakers.indexOf(i), 1);
     }
 
+    function contains2Strings(text) {
+        let values = text.split(',');
+        return values.length > 1 && values[0].length > 0 && values[1].length > 1;
+    }
+
+    function updateScrollOffset (firstMissingY, req) {
+        if (firstMissingY == null) {
+            let parent = req.parent();
+            return parent.offset().top - parent.outerHeight();
+        } else
+            return firstMissingY;
+    }
+
+    function validateRequiredFields() {
+        var firstMissingY = null;
+        jQuery(':required').each(function(i, e) {
+            let req = jQuery(e);
+            if (e.id == 'paperTags' && !contains2Strings(req.val())) {
+                req.addClass('invalid');
+                firstMissingY = updateScrollOffset(firstMissingY, req);
+            } else if (e.id.startsWith('alergies')) {
+                let i = e.id.substring(e.id.length-1)
+                let combo = jQuery(':radio[name=alergiesCombo'+i+']:checked').val()
+                if (combo == 'yes') {
+                    if  (req.val() == null || req.val().length == 0) {
+                        req.removeClass('valid');
+                        req.addClass('invalid');
+                        firstMissingY = updateScrollOffset(firstMissingY, req);
+                    } else {
+                        req.removeClass('invalid');
+                        req.addClass('valid');                        
+                    }
+                } else if (combo == 'no') {
+                    // do nothing
+                    req.removeClass('invalid');
+                    req.addClass('valid');
+                } else {
+                    req.addClass('invalid');
+                    firstMissingY = updateScrollOffset(firstMissingY, req);
+                }
+            } else if (req.val() == null || req.val().length == 0) {
+                req.addClass('invalid');
+                firstMissingY = updateScrollOffset(firstMissingY, req);
+            } else {
+                req.removeClass('invalid');
+                req.addClass('valid');
+            }
+        });
+
+        return firstMissingY;
+    }
+
     function sendPaper() {
         jQuery("#paperSuccess").addClass("hide");
         jQuery("#paperError").addClass("hide");
-        window.scrollTo(0, 0);
 
+        var offset = validateRequiredFields();
+
+        if (offset != null) {
+            jQuery("HTML, BODY").animate({scrollTop: offset - 30}, 1000);
+            jQuery("#paperError").text('Some required fields are missing');
+            jQuery("#paperError").removeClass("hide")
+            return;
+        } else {
+            jQuery("HTML, BODY").animate({scrollTop: jQuery("#paperSuccess").offset - 30}, 1000);
+            jQuery("#paperError").addClass("hide")
+        }
 
         let paper = {
             "edition":"2018"
@@ -280,13 +366,16 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                     }
                     document.sendPaperForm.reset();
                     jQuery("#paperSuccess").removeClass("hide");
+                    // jQuery("HTML, BODY").animate({scrollTop: jQuery("#paperSuccess").offset().top - 100}, 1000);
                 } else {
                     jQuery("#paperError").text(errorMessages[response.error]);
                     jQuery("#paperError").removeClass("hide");
                 }
             }).fail(function (jqXHR, textStatus) {
                 console.log(textStatus);
+                jQuery("#paperError").text("Unexpected error");
                 jQuery("#paperError").removeClass("hide");
+                // jQuery("HTML, BODY").animate({scrollTop: jQuery("#paperError").offset().top - 100}, 1000);
             });
     }
 
