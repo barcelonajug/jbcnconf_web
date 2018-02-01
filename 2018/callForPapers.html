@@ -148,12 +148,12 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                         <textarea for="paperComments" id="paperComments" class="form-control"></textarea>
                                     </div>
 
-
                                     <h3>Speakers
-                                        <button class="btn-sm btn-success" type="button" onclick="addSpeaker()">+</button>
+                                        <button class="btn-sm btn-default" type="button" onclick="addSpeaker()" title="Add">+</button>
+                                        <button class="btn-sm btn-default" type="button" onclick="removeSpeaker(speakers.length-1)" title="Remove">-</button>
                                     </h3>
                                     <div id="speakersMsg" class="alert alert-info hide">No more than 2 speakers can be set</div>
-                                    <div class="panel panel-info" id="speakersSection">
+                                    <div class="panel panel-default" id="speakersSection">
                                         <div class="panel-body" id="speaker0">
                                             <div class="form-group">
                                                 <label for="senderName0">Full name: *</label>
@@ -263,8 +263,11 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
     }
 
     function removeSpeaker(i) {
-        jQuery("#speaker" + i).remove();
-        speakers.splice(speakers.indexOf(i), 1);
+        console.log (i);
+        if (speakers.length > 1) {
+            jQuery("#speaker" + i).remove();
+            speakers.splice(speakers.indexOf(i), 1);
+        }
     }
 
     function contains2Strings(text) {
