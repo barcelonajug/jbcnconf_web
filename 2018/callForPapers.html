@@ -108,7 +108,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                 <form name="sendPaperForm" id="sendPaperForm" class="form">
                                     <div class="form-group">
                                         <label for="paperTitle">Title *:</label>
-                                        <input required type="text" class="form-control" id="paperTitle" placeholder="Title">
+                                        <input required type="text" class="form-control" id="paperTitle">
                                     </div>
                                     <div class="form-group">
                                         <label for="paperType">Type *:</label>
@@ -169,7 +169,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                             </div>
                                             <div class="form-group">
                                                 <label for="twitter0">Twitter:</label>
-                                                <input type="text" class="form-control" name="twitter0" id="twitter0">
+                                                <input type="text" class="form-control" name="twitter0" id="twitter0" placeholder="@my_account">
                                             </div>
                                             <div class="form-group">
                                                 <label for="web0">Web:</label>
@@ -249,7 +249,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 <script type='text/javascript' src='{{ base }}/assets/js/tag-colors.js'></script>
 <script type="text/javascript">
     var speakers = [0];
-    var template = '<div class="panel-body" id="speaker::i::"><div class="form-group"><label for="senderName::i::">Full name *:</label><input required type="text" class="form-control" name="senderName::i::" id="senderName::i::"></div><div class="form-group"><label for="senderName::i::">Picture (URL) *:</label><input required type="text" class="form-control" name="picture::i::" id="picture::i::"></div><div class="form-group"><label for="email::i::">e-mail *:</label><input required type="text" class="form-control" name="email::i::" id="email::i::"></div><div class="form-group"><label for="twitter::i::">Twitter:</label><input type="text" class="form-control" name="twitter::i::" id="twitter::i::"></div><div class="form-group"><label for="web::i::">Web:</label><input type="text" class="form-control" name="web::i::" id="web::i::"></div><div class="form-group"><label for="biography::i::">Biography *:</label><textarea required class="form-control" name="biography::i::" id="biography::i::" rows="5"></textarea></div><div class="form-group"><label for="tshirtSize::i::">T-Shirt size:</label><select class="form-control" id="tshirtSize::i::"><option value="S" selected>S</option><option value="M">M</option><option value="L">L</option><option value="XL">XL</option><option value="XXL">XXL</option></select></div><div class="form-group"><label for="alergies::i::">Food alergies *:</label><div style="margin-left:7px;"><input type="radio" id="alergiesYes::i::" name="alergiesCombo::i::" value="yes"><label for="alergiesYes::i::">Yes</label><input type="radio" id="alergiesNo::i::" name="alergiesCombo::i::" value="no"><label for="alergiesNo::i::">No</label></div><input required type="text" class="form-control" name="alergies::i::" id="alergies::i::"></div><div class="form-group"><label for="speakersParty::i::">Are you going to attend to Speaker\'s dinner on Sunday 1::i::th?</label><select class="form-control" id="speakersParty::i::"><option value="true" selected>yes</option><option value="false">no</option></select></div><div class="form-group"><label for="attendeesParty::i::">Are you going to attend to the attendees Party on Monday 11th?</label><select class="form-control" id="attendeesParty::i::"><option value="true" selected>yes</option><option value="false">no</option></select></div><div class="form-group"><label for="travelCost::i::">Do you need help to cover your travel costs?</label><select class="form-control" id="travelCost::i::"><option value="false" selected>No</option><option value="true">Yes, I can\'t come without some help</option></select></div></div>';
+    var template = '<div class="panel-body" id="speaker::i::"><div class="form-group"><label for="senderName::i::">Full name *:</label><input required type="text" class="form-control" name="senderName::i::" id="senderName::i::"></div><div class="form-group"><label for="senderName::i::">Picture (URL) *:</label><input required type="text" class="form-control" name="picture::i::" id="picture::i::"></div><div class="form-group"><label for="email::i::">e-mail *:</label><input required type="text" class="form-control" name="email::i::" id="email::i::"></div><div class="form-group"><label for="twitter::i::">Twitter:</label><input type="text" class="form-control" name="twitter::i::" id="twitter::i::" placeholder="@my_account"></div><div class="form-group"><label for="web::i::">Web:</label><input type="text" class="form-control" name="web::i::" id="web::i::"></div><div class="form-group"><label for="biography::i::">Biography *:</label><textarea required class="form-control" name="biography::i::" id="biography::i::" rows="5"></textarea></div><div class="form-group"><label for="tshirtSize::i::">T-Shirt size:</label><select class="form-control" id="tshirtSize::i::"><option value="S" selected>S</option><option value="M">M</option><option value="L">L</option><option value="XL">XL</option><option value="XXL">XXL</option></select></div><div class="form-group"><label for="alergies::i::">Food alergies *:</label><div style="margin-left:7px;"><input type="radio" id="alergiesYes::i::" name="alergiesCombo::i::" value="yes"><label for="alergiesYes::i::">Yes</label><input type="radio" id="alergiesNo::i::" name="alergiesCombo::i::" value="no"><label for="alergiesNo::i::">No</label></div><input required type="text" class="form-control" name="alergies::i::" id="alergies::i::"></div><div class="form-group"><label for="speakersParty::i::">Are you going to attend to Speaker\'s dinner on Sunday 1::i::th?</label><select class="form-control" id="speakersParty::i::"><option value="true" selected>yes</option><option value="false">no</option></select></div><div class="form-group"><label for="attendeesParty::i::">Are you going to attend to the attendees Party on Monday 11th?</label><select class="form-control" id="attendeesParty::i::"><option value="true" selected>yes</option><option value="false">no</option></select></div><div class="form-group"><label for="travelCost::i::">Do you need help to cover your travel costs?</label><select class="form-control" id="travelCost::i::"><option value="false" selected>No</option><option value="true">Yes, I can\'t come without some help</option></select></div></div>';
 
     function addSpeaker() {
         if (speakers.length < 2) {
@@ -286,6 +286,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
         jQuery(':required').each(function(i, e) {
             let req = jQuery(e);
             if (e.id == 'paperTags' && !contains2Strings(req.val())) {
+                req.removeClass('valid');
                 req.addClass('invalid');
                 firstMissingY = updateScrollOffset(firstMissingY, req);
             } else if (e.id.startsWith('alergies')) {
@@ -305,10 +306,12 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                     req.removeClass('invalid');
                     req.addClass('valid');
                 } else {
+                    req.removeClass('valid');
                     req.addClass('invalid');
                     firstMissingY = updateScrollOffset(firstMissingY, req);
                 }
             } else if (req.val() == null || req.val().length == 0) {
+                req.removeClass('valid');
                 req.addClass('invalid');
                 firstMissingY = updateScrollOffset(firstMissingY, req);
             } else {
