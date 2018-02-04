@@ -14,13 +14,7 @@
     },
     {
       "label": "Travel",
-      "href": "/#Travel",
-      "items": [
-        {
-          "label": "To Barcelona",
-          "href": "/travel-to-java-barcelona.html"
-        }
-      ]
+      "href": "/travel-to-java-barcelona.html"
     },
     {
       "label": "Code of conduct",
