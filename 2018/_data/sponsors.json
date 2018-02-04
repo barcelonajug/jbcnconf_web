@@ -1,0 +1,26 @@
+{
+  "diamond": {
+    "name": "TBD",
+    "href": "",
+    "image": {
+      "src": "",
+      "alt": ""
+    }
+  },
+  "gold": [
+    
+  ],
+  "silver": [
+    
+  ],
+  "supporters": [
+    {
+      "name": "Barcelona JUG",
+      "href": "http://www.barcelonajug.org/",
+      "image": {
+        "src": "/assets/img/logos/logo_bicolor_blog_barcelonajug.png",
+        "alt": "Barcelona JUG"
+      }
+    }
+  ]
+}

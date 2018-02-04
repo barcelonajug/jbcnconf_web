@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "label": "Home",
+      "href": "/#JBCN"
+    },
+    {
+      "label": "Call for papers",
+      "href": "/callForPapers.html"
+    },
+    {
+      "label": "Sponsors",
+      "href": "/#Sponsors"
+    },
+    {
+      "label": "Travel",
+      "href": "/travel-to-java-barcelona.html"
+    },
+    {
+      "label": "Code of conduct",
+      "href": "/coc.html"
+    }
+  ]
+}
