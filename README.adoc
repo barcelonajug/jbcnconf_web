@@ -1,0 +1,53 @@
+= JBCNConf Website
+// GitHub customization
+ifdef::env-github[]
+:toc: preamble
+:badges:
+:tag: master
+:!toc-title:
+:tip-caption: :bulb:
+:note-caption: :paperclip:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+This repository holds the public website for the link:http://www.jbcnconf.com/[JBCNConf], the Java conference is organized by the Barcelona JUG every summer.
+
+== Building the website
+
+The site is build with the link:https://jekyllrb.com/[Jekyll] and published with GitHub pages.
+To run it you need to setup a basic Ruby (up to 2.4.x) environment.
+
+For Linux and MacOS, the recommended way to install Ruby is with link:https://rvm.io/[RVM].
+For Windows you can use link:https://rubyinstaller.org/[RubyInstaller] or the link:https://chocolatey.org/packages?q=ruby[chocolately package].
+
+Once Ruby is installed, install the jekyll gem with the following command.
+
+ gem install jekyll
+
+[IMPORTANT]
+====
+The required `ffi` gem is not yet fully supported in Ruby 2.5.x.
+If you want to build the site with Ruby 2.5.x, install it before `jekyll` with:
+
+ gem install ffi --force -v 1.9.18
+====
+
+== Testing the website
+
+=== Testing it locally
+
+Just fork the repo, open a shell, place yourself in the root and run
+
+ $ jekyll serve
+
+This will start a local embedded server on http://localhost:4000.
+The server will stay up and self-update automatically.
+
+=== Publishing the site on a fork
+
+To see the `master` branch version, enable GitHub pages in your fork and set it publish to the gh-pages branch.
+You'll see the rendered site in https://USERNAME.github.io/jbcnconf_web.
+
+If you want to render a specific branch; checkout the branch, run `jekyll build` and manually push the files in the `_site` directory to the `gh-pages` branch.

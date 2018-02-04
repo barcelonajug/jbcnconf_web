@@ -1,0 +1,143 @@
+---
+layout: default
+title: JBCNConf - About the Organizers from Barcelona JUG
+bodyClass: home page-template-default page page-id-7 eventstation-class  eventstation-shop-column-4 wpb-js-composer js-comp-ver-5.0.1 vc_responsive
+---
+{% include base.html %}
+{% include speaker-list.html %}
+
+
+<div class="content-heading">
+    <div class="container-fluid">
+        <div class="heading-navigation">
+            <i class="fa fa-address-book"></i>
+            <ul>
+                <li>Home</li>
+                <li>&#47;</li>
+                <li>Speaker</li>
+            </ul>
+        </div>
+
+        <div class="heading-title">
+        </div>
+    </div>
+</div>
+
+<div class="site-sub-content clearfix">
+    <div class="container-fluid">
+        <div class="row alternative-row">
+            <div class="col-lg-9 col-sm-9 col-xs-12 site-content-left">
+                <div class="category-post-list post-list single-list">
+                    <article id="speaker-page"
+                             class="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
+                        <div class="post-wrapper">
+
+                            <div class="post-header">
+                                <h2>
+                                </h2>
+
+                                <h1 class="name">
+
+                                </h1>
+                                <h3 class="description">
+                                </h3>
+
+                            </div>
+
+                            <div class="post-content">
+                                <p>
+                                    <img class="speaker-image size-full wp-image-237 alignright"
+                                         src=""
+                                         width="200"
+                                         height="300"
+                                         data-image-base="{{base}}/">
+                                <ul style="float:right" class="post-information">
+                                    <li class="linkedin" style="display:none">
+                                        <a target="_blank" href="#">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li class="twitter" style="display:none">
+                                        <a target="_blank" href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="homepage" style="display:none">
+                                        <a target="_blank" href="#">
+                                            <i class="fa fa-rss"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <span class="biography">
+                                        
+                                    </span>
+                                </p>
+
+
+
+                            </div>
+
+                        </div>
+                    </article>
+
+                    <script>
+
+                        (function () {
+
+                            jQuery(document).ready(function ($) {
+
+                                var updateSpeakerPage = function () {
+                                    var speaker = window.CURRENT_SPEAKER[0],
+                                        $container = $("#speaker-page"),
+                                        updateSocialLink = function (social) {
+                                            if (speaker[social]) {
+                                                $container.find("." + social).show();
+                                                $container.find("." + social + " a").attr("href", speaker[social]);
+                                            }
+
+                                        };
+
+                                    $container.find('.speaker-image').attr("src", $('.speaker-image').attr("data-image-base") + speaker.image);
+                                    $container.find(".name").html(speaker.name);
+                                    $container.find(".biography").html(speaker.biography);
+                                    $container.find(".description").html(speaker.description);
+
+
+                                    for (var index = 0; index < speaker.talks.length; index++) {
+
+                                        var title = ' <h2 class="talk-title"> ' + speaker.talks[index].title + '</h2>';
+                                        var abstract = '<p style="text-align: justify;" class="abstract"> ' + speaker.talks[index].abstract + ' </p>';
+                                        var video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + speaker.talks[index].video + '"' +
+                                            'frameborder="0" allowfullscreen></iframe>';
+
+                                        $container.find(".post-content").append(title);
+                                        $container.find(".post-content").append(abstract);
+                                        if (speaker.talks[index].video) {
+                                            $container.find(".post-content").append(video);
+                                        }
+                                    }
+
+                                    updateSocialLink("linkedin");
+                                    updateSocialLink("twitter");
+                                    updateSocialLink("homepage");
+
+                                };
+
+                                updateSpeakerPage();
+
+                            });
+
+                        }());
+                    </script>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-3 col-xs-12 site-content-right rightsidebar fixedrightSidebar">
+                {% include sponsors-sidebar.html %}
+            </div>
+
+        </div>
+    </div>
+
+</div>
+

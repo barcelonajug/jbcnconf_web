@@ -1,0 +1,109 @@
+---
+layout: default
+title: JBCNConf - About the Organizers from Barcelona JUG
+bodyClass: home page-template-default page page-id-7 eventstation-class  eventstation-shop-column-4 wpb-js-composer js-comp-ver-5.0.1 vc_responsive
+---
+{% include base.html %}
+
+
+<div class="content-heading">
+    <div class="container-fluid">
+        <div class="heading-navigation">
+            <i class="fa fa-address-book"></i>
+            <ul>
+                <li>Home</li>
+                <li>&#47;</li>
+                <li>About us</li>
+            </ul>
+        </div>
+
+        <div class="heading-title">
+        </div>
+    </div>
+</div>
+
+<div class="site-sub-content clearfix">
+    <div class="container-fluid">
+        <div class="row alternative-row">
+            <div class="col-lg-9 col-sm-9 col-xs-12 site-content-left">
+                <div class="category-post-list post-list single-list">
+                    <article id="post-294"
+                             class="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
+                        <div class="post-wrapper">
+                            <div class="post-header">
+                                <ul class="post-information">
+
+                                </ul>
+                                <h2></h2>
+                                <p>The Barcelona Java User Group is a non profit association with a great team and a broad experience in Java
+                                    technologies. Since 2012, we are organizing talks and meetups focused on <strong>Java</strong> topics, looking
+                                    forward to spin this technology from our hometown to the rest of the world.
+                                </p>
+
+                                <div class="eventstation-latest-posts-widget">
+                                    <ul>
+                                        {% for member in site.data.team.members %}
+                                        <li class="col-md-4">
+
+                                            <div class="image">
+                                                <img width="419" height="248"
+                                                     src="{{ base }}{{ member.image.url }}"
+                                                     class="attachment-eventstation-latest-posts-widget size-eventstation-latest-posts-widget wp-post-image"
+                                                     alt=""/>
+                                            </div>
+
+                                            <div class="desc" style="background:transparent">
+
+                                                <ul class="post-information">
+
+                                                    {% if member.linkedin %}
+                                                    <li class="linkedin">
+                                                        <a target="_blank" href="{{member.linkedin}}">
+                                                            <i class="fa fa-linkedin"></i>
+                                                        </a>
+                                                    </li>
+                                                    {% endif %}
+                                                    {% if member.twitter %}
+                                                    <li class="twitter">
+                                                        <a target="_blank" href="{{member.twitter}}">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    {% endif %}
+                                                </ul>
+
+                                                <h3>{{ member.name }} <br/> {{ member.position }}</h3>
+                                            </div>
+
+                                        </li>
+                                        {% endfor %}
+
+
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                            <div class="post-content">
+
+
+                                <img width="1274" height="630"
+                                     src="{{ base }}/assets/img/team/jug_team.jpg"
+                                     class="attachment-eventstation-blog-list size-eventstation-blog-list wp-post-image" alt=""/>
+
+
+                            </div>
+
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-3 col-xs-12 site-content-right rightsidebar fixedrightSidebar">
+                {% include recent-events.html %}
+            </div>
+
+        </div>
+    </div>
+
+</div>
+

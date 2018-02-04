@@ -1,0 +1,83 @@
+---
+layout: default
+title: JBCNConf - Schedule Java Barcelona Conference
+bodyClass: home page-template-default page page-id-7 eventstation-class  eventstation-shop-column-4 wpb-js-composer js-comp-ver-5.0.1 vc_responsive
+---
+{% include base.html %}
+
+
+<div class="content-heading">
+    <div class="container-fluid">
+        <div class="heading-navigation">
+            <i class="fa fa-address-book"></i>
+            <ul>
+                <li>Home</li>
+                <li>&#47;</li>
+                <li>Schedule</li>
+            </ul>
+        </div>
+
+        <div class="heading-title">
+        </div>
+    </div>
+</div>
+
+<div class="site-sub-content clearfix">
+    <div class="container-fluid">
+        <div class="row alternative-row">
+            <div class="col-lg-12 col-sm-12 col-xs-12">
+                <div class="category-post-list post-list single-list">
+                    <article id="post-294"
+                             class="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
+                        <div class="post-wrapper" id="schedule-calendar">
+
+                            <div class="post-header">
+                                <h2 style="display: none;" class="visible-monday visible-tuesday">
+                                    </h2>
+
+                                <h2 style="display: none" class="visible-wednesday"><br/>
+                                </h2>
+                            </div>
+
+                            <ul class="tabs">
+                                <li class="tab-link visible-monday" data-tab="visible-monday">Monday 11.06</li>
+                                <li class="tab-link visible-tuesday" data-tab="visible-tuesday">Tuesday 12.06</li>
+                                <li class="tab-link visible-wednesday" data-tab="visible-wednesday">Wednesday 13.06</li>
+                            </ul>
+
+                            {% assign scheduleLeftWidth = 'col-md-2 col-sm-1 col-xs-12' %}
+                            {% assign scheduleRightWidth = 'col-md-10 col-sm-11 col-xs-12' %}
+
+                            {% include schedule/talks-list.html %}
+
+
+                            <div id="visible-monday" class="tab-content">
+
+                                {% assign scheduleDay = 'MON' %}
+                                {% include schedule/schedule-day-one.html %}
+
+
+                            </div>
+                            <div id="visible-tuesday" class="tab-content">
+
+                                {% assign scheduleDay = 'TUE' %}
+                                {% include schedule/schedule-day-two.html %}
+
+
+                            </div>
+                            <div id="visible-wednesday" class="tab-content">
+
+                                {% assign scheduleDay = 'WED' %}
+                                {% include schedule/schedule-day-three.html %}
+
+
+                            </div>
+
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
