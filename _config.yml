@@ -6,8 +6,9 @@ defaults:
       layout: "default"
       #default values for meta tags. can be configured per page in each template
       title: "JBCNConf - The first Java and JVM conference in Spain"
-      description: "The first big Java and JVM conference in Spain. Barcelona will host this great event next 19th and 21st of June 2017. 3 days to share knowledge and experiences, to meet enthusiasts and geeks, and to learn about new technologies."
+      description: "The first big Java and JVM conference in Spain. Barcelona will host this great event next 11th to 13th of June 2018. 3 days to share knowledge and experiences, to meet enthusiasts and geeks, and to learn about new technologies."
       keywords: "java barcelona, jug barcelona, jbcnconf, java barcelona conference"
-layouts_dir: 2017/_layouts
-includes_dir: 2017/_includes
-data_dir: 2017/_data
+layouts_dir: 2018/_layouts
+includes_dir: 2018/_includes
+data_dir: 2018/_data
+exclude: ["README.*","/tools/**"]

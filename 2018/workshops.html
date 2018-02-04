@@ -1,0 +1,98 @@
+---
+layout: default
+title: JBCNConf - Workshops Java Barcelona Conference
+bodyClass: home page-template-default page page-id-7 eventstation-class  eventstation-shop-column-4 wpb-js-composer js-comp-ver-5.0.1 vc_responsive
+---
+{% include base.html %}
+
+
+<div class="content-heading">
+    <div class="container-fluid">
+        <div class="heading-navigation">
+            <i class="fa fa-address-book"></i>
+            <ul>
+                <li>Home</li>
+                <li>&#47;</li>
+                <li>Workshops</li>
+            </ul>
+        </div>
+
+        <div class="heading-title">
+        </div>
+    </div>
+</div>
+
+<div class="site-sub-content clearfix">
+    <div class="container-fluid">
+        <div class="row alternative-row">
+            <div class="col-lg-9 col-sm-9 col-xs-12 site-content-left">
+                <div class="category-post-list post-list single-list">
+                    <article id="post-294"
+                             class="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
+                        <div class="post-wrapper">
+                            <div class="post-header">
+                                <ul class="post-information">
+
+                                </ul>
+                                <h2></h2>
+                                <h2>Workshops</h2>
+                                <p>
+                                    Wednesday 13th of June 2018
+                                </p>
+
+                            </div>
+                            <div class="post-content">
+
+
+                                {% for talk in site.data.talks.items %}
+
+                                {% if talk.type contains "workshop" %}
+
+                                {% assign speakersList = '' %}
+                                {% for speakerRef in talk.speakers %}
+                                {% for speaker in site.data.speakers.items %}
+
+                                {% if speakerRef == speaker.ref %}
+                                {% capture speakerUrl %}{{ speaker.url }}{% endcapture %}
+                                {% capture speakersList %} {{speakersList}} {{ speaker.name }} {% endcapture %}
+                                {% endif %}
+
+
+                                {% endfor %}
+                                {% endfor %}
+
+
+                                <a href="{{base}}/{{speakerUrl}}">
+                                    <b>{{talk.title}}</b> by {{ speakersList }}
+                                </a>
+
+                                </br>
+                                Level: {{talk.level}}
+                                {% for tag in talk.tags %}
+                                <span class="label tag label-info" data-tag="{{tag}}">{{ tag }}</span>
+                                {% endfor %}
+
+                                </br>
+
+                                {% endif %}
+                                {% endfor %}
+
+
+                            </div>
+
+
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-3 col-xs-12 site-content-right rightsidebar fixedrightSidebar">
+                {% include recent-events.html %}
+            </div>
+
+        </div>
+    </div>
+
+    <script type='text/javascript'
+            src='{{ base }}/assets/js/tag-colors.js'></script>
+
+</div>

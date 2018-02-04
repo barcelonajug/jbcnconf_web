@@ -1,0 +1,434 @@
+---
+layout: default
+title: JBCNConf - Schedule Java Barcelona Conference
+bodyClass: home page-template-default page page-id-7 eventstation-class  eventstation-shop-column-4 wpb-js-composer js-comp-ver-5.0.1 vc_responsive
+---
+{% include base.html %}
+
+<style>
+    .remove-speaker-button {
+        float: right;
+        margin-bottom: 10px;
+    }
+    select.form-control {
+        height: 41px;
+    }
+    input.form-control,
+    select.form-control,
+    textarea.form-control {
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        border-left-width: medium;
+        border-left-style: solid;
+        border-left-color: gray;
+    }
+    input:required, select:required, textarea:required {
+        border-left-color: salmon;
+    }
+    input.invalid, select.invalid, textarea.invalid {
+        border-color: orangered;
+    }
+    input.valid, select.valid, textarea.valid {
+        border-color: darkolivegreen;
+    }
+    .mandatory {
+        text-align: right;
+        font-style: italic;
+        color: red;
+    }
+</style>
+
+<div class="content-heading">
+    <div class="container-fluid">
+        <div class="heading-navigation">
+            <i class="fa fa-address-book"></i>
+            <ul>
+                <li>Home</li>
+                <li>&#47;</li>
+                <li>Send you Paper</li>
+            </ul>
+        </div>
+
+        <div class="heading-title">
+        </div>
+    </div>
+</div>
+
+<div class="site-sub-content clearfix">
+    <div class="container-fluid">
+        <div class="row alternative-row">
+            <div class="col-lg-8 col-sm-8 col-xs-12 col-lg-offset-2 col-sm-offset-2">
+                <div class="category-post-list post-list single-list">
+                    <article id="post-294" class="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
+                        <div class="post-wrapper">
+                            <div class="post-header">
+                                <ul class="post-information"></ul>
+                                <h2></h2>
+                                <h2>Send your Paper</h2>
+                            </div>
+
+                            <div class="post-content">
+                                <p>Complete this form with your proposal to join as speaker to the next edition of the JBCNConf (11-13/6) before 1st of May.</p>
+                                <p>We accept 2 types:  Workshop and Talk.</p>
+                                <ul>
+                                    <li>Workshops will be 2 hours long on Wednesday. These should be in English.</li>
+                                    <li>Talks will be 50 minutes long on Monday and Tuesday and they must be in English.</li>
+                                </ul>
+                                <p>The proposal will be reviewed for the organizers and we will send you the response or comments.</p>
+                                <b>Subject of CFP has to be related to any of these topics:  </b>
+                                  <ul>
+                                    <li>#JVM langs (Java, Scala, Clojure, Groovy, Kotlin...)</li>
+                                    <li>#Functional Programming</li>
+                                    <li>#Microservices, #Docker, #Kubernetes, #Istio</li>
+                                    <li>#Testing, #DDD, #TDD</li>
+                                    <li>#Cloud, #AWS, #GCE, #Scalabilty</li>
+                                    <li>#Cryptocurrencies, #BlockChain</li>
+                                    <li>#Machine learning, #AI</li>
+                                    <li>#CI, #CD, #Integration</li>
+                                    <li>#IoT, #VR, #AR</li>
+                                    <li>#Mobile, #Android</li>
+                                  </ul>
+                                <p>Each speaker may send more than one CFP.</p>
+
+                                <b>Which elements on your paper can improve your rating:</b>
+                                <ul>
+                                  <li>Cover main stream topics (see above)</li>
+                                  <li>Focus on real life experiences rather than theoretical (<i>hello world</i>)</li>
+                                  <li>Show real failure experiences on using technologies or approaches and how you solved them</li>
+                                </ul>
+
+                                <p>If you have questions or comments, please contact with us: <a href="mailto:info@barcelonajug.org">info@barcelonajug.org</a></p>
+
+                                <p class="mandatory">* mandatory field</p>
+
+                                <!-- http://www.jbcnconf.com || http://www.barcelonajug.org  -->
+                                <div id="paperSuccess" class="alert alert-success hide" role="alert">
+                                    Your request has been received. Thank you for your proposal!
+                                    You will get a confirmation email in a few while
+                                </div>
+                                <div id="paperError" class="alert alert-danger hide" role="alert"></div>
+                                <form name="sendPaperForm" id="sendPaperForm" class="form">
+                                    <div class="form-group">
+                                        <label for="paperTitle">Title *:</label>
+                                        <input required type="text" class="form-control" id="paperTitle">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="paperType">Type *:</label>
+                                        <select required class="form-control" id="paperType">
+                                            <option value="talk" selected>Talk</option>
+                                            <option value="workshop">Workshop</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="paperLevel" required>Level *:</label>
+                                        <select required class="form-control" id="paperLevel">
+                                            <option value="beginner" selected>Beginner</option>
+                                            <option value="middle">Middle</option>
+                                            <option value="advanced">Advanced</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="paperAbstract">Abstract *:</label>
+                                        <textarea required class="form-control" id="paperAbstract" rows="5"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="paperTitle">Tags (at least 2 separated by comma) *:</label>
+                                        <input required type="text" class="form-control" id="paperTags" placeholder="Java, Functional Programming, Machine Learning, Cloud...">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="paperDay">Do you MUST talk in a concrete day ? ( only for TALKS , Workshops are on Wednesday ):</label>
+                                        <select class="form-control" id="paperDay">
+                                            <option value="" selected>No, I don't care</option>
+                                            <option value="2018/06/11">Monday 11th</option>
+                                            <option value="2018/06/12">Tuesday 12th</option>
+                                        </select>
+                                        <p>We will try to fit your need, but please consider that with 60 speakers is very difficult to make all them happy. So, only request a concrete if it's totally required.</p>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="paperComments">Comments:</label>
+                                        <textarea for="paperComments" id="paperComments" class="form-control"></textarea>
+                                    </div>
+
+                                    <h3>Speakers
+                                        <button class="btn-sm btn-default" type="button" onclick="addSpeaker()" title="Add">+</button>
+                                        <button class="btn-sm btn-default" type="button" onclick="removeSpeaker(speakers.length-1)" title="Remove">-</button>
+                                    </h3>
+                                    <div id="speakersMsg" class="alert alert-info hide">No more than 2 speakers can be set</div>
+                                    <div class="panel panel-default" id="speakersSection">
+                                        <div class="panel-body" id="speaker0">
+                                            <div class="form-group">
+                                                <label for="senderName0">Full name: *</label>
+                                                <input required type="text" class="form-control" name="senderName0" id="senderName0">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="senderName0">Picture (URL) *:</label>
+                                                <div>Please, ensure that the image is 512 x 512. This will help us a lot and avoid any resizing on our side.</div>
+                                                <input required type="text" class="form-control" name="picture0" id="picture0">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="email0">e-mail *:</label>
+                                                <input required type="text" class="form-control" name="email0" id="email0">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="twitter0">Twitter:</label>
+                                                <input type="text" class="form-control" name="twitter0" id="twitter0" placeholder="@my_account">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="web0">Web:</label>
+                                                <input type="text" class="form-control" name="web0" id="web0">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="biography0">Biography *:</label>
+                                                <textarea required class="form-control" name="biography0" id="biography0" rows="5"></textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="tshirtSize0">T-Shirt size:</label>
+                                                <select class="form-control" id="tshirtSize0">
+                                                    <option value="S" selected>S</option>
+                                                    <option value="M">M</option>
+                                                    <option value="L">L</option>
+                                                    <option value="XL">XL</option>
+                                                    <option value="XXL">XXL</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="alergies0">Food alergies *:</label>
+                                                <div style="margin-left:7px;">
+                                                    <input type="radio" id="alergiesYes0" name="alergiesCombo0" value="yes">
+                                                    <label for="alergiesYes0">Yes</label>
+                                                    <input type="radio" id="alergiesNo0" name="alergiesCombo0" value="no">
+                                                    <label for="alergiesNo0">No</label>
+                                                </div>
+                                                <input required type="text" class="form-control" name="alergies0" id="alergies0">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="speakersParty0">Are you going to attend to Speaker's dinner on Sunday 10th?</label>
+                                                <select class="form-control" id="speakersParty0">
+                                                    <option value="true" selected>yes</option>
+                                                    <option value="false">no</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="attendeesParty0">Are you going to attend to the attendees Party on Monday 11th?</label>
+                                                <select class="form-control" id="attendeesParty0">
+                                                    <option value="true" selected>yes</option>
+                                                    <option value="false">no</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="travelCost0">Do you need help to cover your travel costs?</label>
+                                                <p>We can not assure anything about covering your expenses, but if you need help, we will try to help anyone that requires it. We are organizing the JBCNConf for non-profit and because of that everybody must wait until the end of the conference to see how will be the balance of incomes and expenses in order to see if we can cover your costs. We hope that we will be able to cover some costs, but we can't confirm that yet. Also, we will to try to make your stay cheaper arranging deals with some hotels.</p>
+                                                <select class="form-control" id="travelCost0">
+                                                    <option value="false" selected>No</option>
+                                                    <option value="true">Yes, I can't come without some help</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+                </div>
+                <button class="btn btn-primary" type="button" onclick="sendPaper()">Send</button>
+                </form>
+
+
+            </div>
+
+        </div>
+        </article>
+    </div>
+</div>
+<!--
+<div class="col-lg-3 col-sm-3 col-xs-12 site-content-right rightsidebar fixedrightSidebar">
+    {% include recent-events.html %}
+</div>
+-->
+
+</div>
+</div>
+
+<script type='text/javascript' src='{{ base }}/assets/js/tag-colors.js'></script>
+<script type="text/javascript">
+    var speakers = [0];
+    var template = '<div class="panel-body" id="speaker::i::"><div class="form-group"><label for="senderName::i::">Full name *:</label><input required type="text" class="form-control" name="senderName::i::" id="senderName::i::"></div><div class="form-group"><label for="senderName::i::">Picture (URL) *:</label><input required type="text" class="form-control" name="picture::i::" id="picture::i::"></div><div class="form-group"><label for="email::i::">e-mail *:</label><input required type="text" class="form-control" name="email::i::" id="email::i::"></div><div class="form-group"><label for="twitter::i::">Twitter:</label><input type="text" class="form-control" name="twitter::i::" id="twitter::i::" placeholder="@my_account"></div><div class="form-group"><label for="web::i::">Web:</label><input type="text" class="form-control" name="web::i::" id="web::i::"></div><div class="form-group"><label for="biography::i::">Biography *:</label><textarea required class="form-control" name="biography::i::" id="biography::i::" rows="5"></textarea></div><div class="form-group"><label for="tshirtSize::i::">T-Shirt size:</label><select class="form-control" id="tshirtSize::i::"><option value="S" selected>S</option><option value="M">M</option><option value="L">L</option><option value="XL">XL</option><option value="XXL">XXL</option></select></div><div class="form-group"><label for="alergies::i::">Food alergies *:</label><div style="margin-left:7px;"><input type="radio" id="alergiesYes::i::" name="alergiesCombo::i::" value="yes"><label for="alergiesYes::i::">Yes</label><input type="radio" id="alergiesNo::i::" name="alergiesCombo::i::" value="no"><label for="alergiesNo::i::">No</label></div><input required type="text" class="form-control" name="alergies::i::" id="alergies::i::"></div><div class="form-group"><label for="speakersParty::i::">Are you going to attend to Speaker\'s dinner on Sunday 1::i::th?</label><select class="form-control" id="speakersParty::i::"><option value="true" selected>yes</option><option value="false">no</option></select></div><div class="form-group"><label for="attendeesParty::i::">Are you going to attend to the attendees Party on Monday 11th?</label><select class="form-control" id="attendeesParty::i::"><option value="true" selected>yes</option><option value="false">no</option></select></div><div class="form-group"><label for="travelCost::i::">Do you need help to cover your travel costs?</label><select class="form-control" id="travelCost::i::"><option value="false" selected>No</option><option value="true">Yes, I can\'t come without some help</option></select></div></div>';
+
+    function addSpeaker() {
+        if (speakers.length < 2) {
+            next = speakers[speakers.length - 1] + 1;
+            speakers.push(next);
+            jQuery("#speakersSection").append(template.replace(/::i::/g, next));
+        } else {
+            jQuery("#speakersMsg").removeClass('hide');
+        }
+    }
+
+    function removeSpeaker(i) {
+        if (speakers.length > 1) {
+            jQuery("#speaker" + i).remove();
+            speakers.splice(speakers.indexOf(i), 1);
+        }
+    }
+
+    function contains2Strings(text) {
+        let values = text.split(',');
+        return values.length > 1 && values[0].trim().length > 0 && values[1].trim().length > 1;
+    }
+
+    function updateScrollOffset (firstMissingY, req) {
+        if (firstMissingY == null) {
+            let parent = req.parent();
+            return parent.offset().top - parent.outerHeight();
+        } else
+            return firstMissingY;
+    }
+
+    function validateRequiredFields() {
+        var firstMissingY = null;
+        jQuery(':required').each(function(i, e) {
+            let req = jQuery(e);
+            if (e.id == 'paperTags' && !contains2Strings(req.val())) {
+                req.removeClass('valid');
+                req.addClass('invalid');
+                firstMissingY = updateScrollOffset(firstMissingY, req);
+            } else if (e.id.startsWith('alergies')) {
+                let i = e.id.substring(e.id.length-1)
+                let combo = jQuery(':radio[name=alergiesCombo'+i+']:checked').val()
+                if (combo == 'yes') {
+                    if  (req.val() == null || req.val().length == 0) {
+                        req.removeClass('valid');
+                        req.addClass('invalid');
+                        firstMissingY = updateScrollOffset(firstMissingY, req);
+                    } else {
+                        req.removeClass('invalid');
+                        req.addClass('valid');
+                    }
+                } else if (combo == 'no') {
+                    // do nothing
+                    req.removeClass('invalid');
+                    req.addClass('valid');
+                } else {
+                    req.removeClass('valid');
+                    req.addClass('invalid');
+                    firstMissingY = updateScrollOffset(firstMissingY, req);
+                }
+            } else if (req.val() == null || req.val().length == 0) {
+                req.removeClass('valid');
+                req.addClass('invalid');
+                firstMissingY = updateScrollOffset(firstMissingY, req);
+            } else {
+                req.removeClass('invalid');
+                req.addClass('valid');
+            }
+        });
+
+        return firstMissingY;
+    }
+
+    function sendPaper() {
+        jQuery("#paperSuccess").addClass("hide");
+        jQuery("#paperError").addClass("hide");
+
+        var offset = validateRequiredFields();
+
+        if (offset != null) {
+            jQuery("HTML, BODY").animate({scrollTop: offset - 30}, 1000);
+            jQuery("#paperError").text('Some required fields are missing');
+            jQuery("#paperError").removeClass("hide")
+            return;
+        } else {
+            jQuery("HTML, BODY").animate({scrollTop: jQuery("#paperSuccess").offset - 30}, 1000);
+            jQuery("#paperError").addClass("hide")
+        }
+
+        let paper = {
+            "edition":"2018"
+        };
+
+        paper.title = jQuery("#paperTitle").val();
+        paper.type = jQuery("#paperType").val();
+        paper.level = jQuery("#paperLevel").val();
+        paper.abstract = jQuery("#paperAbstract").val();
+        var tagsStr = jQuery("#paperTags").val();
+        if(tagsStr && tagsStr !== '') {
+            let values = tagsStr.split(",");
+            paper.tags = new Array();
+            for (var i = 0; i < values.length; i++) {
+                let value = values[i];
+                if (value != null && value.trim().length > 0) {
+                    paper.tags.push(value);
+                }
+            }
+        }
+        paper.comments = jQuery("#paperComments").val();
+
+        paper.preferenceDay = jQuery("#paperDate").val();
+        paper.senders = [];
+
+        for(let i=0; i<speakers.length; i++) {
+            let iSpeaker = speakers[i];
+            let sender = {
+                "fullName":jQuery("#senderName"+iSpeaker).val(),
+                "email":jQuery("#email"+iSpeaker).val(),
+                "twitter":jQuery("#twitter"+iSpeaker).val(),
+                "picture":jQuery("#picture"+iSpeaker).val(),
+                "web":jQuery("#web"+iSpeaker).val(),
+                "travelCost":(jQuery("#travelCost"+iSpeaker).val() === 'true'),
+                "attendeesParty":(jQuery("attendeesParty"+iSpeaker).val() === 'true'),
+                "speakersParty":(jQuery("#speakersParty"+iSpeaker).val() === 'true'),
+                "tshirtSize":jQuery("#tshirtSize"+iSpeaker).val(),
+                "biography":jQuery("#biography"+iSpeaker).val()
+            };
+            paper.senders.push(sender);
+        }
+        const ajaxUrl = "{{ site.data.configuration.cfpapi.url }}";
+        jQuery.ajax({
+                method: "POST",
+                url: ajaxUrl,
+                data: JSON.stringify(paper),
+                dataType: "json",
+                contentType:"application/json",
+                method: "POST"
+            })
+            .done(function (response) {
+                console.log(response);
+                if(response.status) {
+                    while(speakers.length>1) {
+                        removeSpeaker(speakers.length-1);
+                    }
+                    document.sendPaperForm.reset();
+                    jQuery("#paperSuccess").removeClass("hide");
+                    // jQuery("HTML, BODY").animate({scrollTop: jQuery("#paperSuccess").offset().top - 100}, 1000);
+                } else {
+                    jQuery("#paperError").text(errorMessages[response.error]);
+                    jQuery("#paperError").removeClass("hide");
+                }
+            }).fail(function (jqXHR, textStatus) {
+                console.log(textStatus);
+                jQuery("#paperError").text("Unexpected error");
+                jQuery("#paperError").removeClass("hide");
+                // jQuery("HTML, BODY").animate({scrollTop: jQuery("#paperError").offset().top - 100}, 1000);
+            });
+    }
+
+    const errorMessages = {
+        "error.paper.edition_mandatory":"Conference edition is mandatory",
+        "error.paper.title_mandatory":"Title field is mandatory",
+        "error.paper.level_mandatory": "Level field is mandatory",
+        "error.paper.type_mandatory":"Type field is mandatory",
+        "error.paper.abstract_mandatory":"Abstract field is mandatory",
+        "error.paper.senders_mandatory":"You must add at least one speaker",
+        "error.paper.sender.fullname_mandatory":"Speaker's full name field is mandatory",
+        "error.paper.sender.biography_mandatory":"Speaker's biography field is mandatory",
+        "error.paper.sender.email_mandatory":"Speaker's email field is mandatory",
+        "error.paper.sender.email_bad_format":"Please enter a speaker's valid email",
+        "error.paper.sender.picture_mandatory":"Speaker's picture field is mandatory",
+        "error.paper.sender.picture_bad_format":"Please enter a speaker's valid picture URL",
+        "error.paper.tags_mandatory":"Please enter at least one tag",
+        "error.paper.sender.web_bad_format":"Please enter a speaker's valid web URL"
+    }
+
+</script>
+
+</div>
