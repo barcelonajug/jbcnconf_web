@@ -272,7 +272,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 
     function contains2Strings(text) {
         let values = text.split(',');
-        return values.length > 1 && values[0].length > 0 && values[1].length > 1;
+        return values.length > 1 && values[0].trim().length > 0 && values[1].trim().length > 1;
     }
 
     function updateScrollOffset (firstMissingY, req) {
@@ -351,7 +351,14 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
         paper.abstract = jQuery("#paperAbstract").val();
         var tagsStr = jQuery("#paperTags").val();
         if(tagsStr && tagsStr !== '') {
-            paper.tags = tagsStr.split(",");
+            let values = tagsStr.split(",");
+            paper.tags = new Array();
+            for (var i = 0; i < values.length; i++) {
+                let value = values[i];
+                if (value != null && value.trim().length > 0) {
+                    paper.tags.push(value);
+                }
+            }
         }
         paper.comments = jQuery("#paperComments").val();
 
