@@ -69,3 +69,5 @@ This means, the site will be updated when:
 
 * changes are directly pushed into master.
 * a branch is merged into master.
+
+Once a changes are merged, you can check the TravisCI publishing job in https://travis-ci.org/barcelonajug/jbcnconf_web/.
