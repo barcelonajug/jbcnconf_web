@@ -22,16 +22,17 @@ To run it you need to setup a basic Ruby (up to 2.4.x) environment.
 For Linux and MacOS, the recommended way to install Ruby is with link:https://rvm.io/[RVM].
 For Windows you can use link:https://rubyinstaller.org/[RubyInstaller] or the link:https://chocolatey.org/packages?q=ruby[chocolately package].
 
-Once Ruby is installed, install the jekyll gem with the following command.
+Once Ruby is installed, install the required gems with the following command.
 
- gem install jekyll
+ bundler install
 
 [IMPORTANT]
 ====
 The required `ffi` gem is not yet fully supported in Ruby 2.5.x.
-If you want to build the site with Ruby 2.5.x, install it before `jekyll` with:
+If you want to build the site with Ruby 2.5.x, skip `bundler` and install the gems manually with:
 
  gem install ffi --force -v 1.9.18
+ gem install jekyll
 ====
 
 == Testing the website
@@ -45,9 +46,26 @@ Just fork the repo, open a shell, place yourself in the root and run
 This will start a local embedded server on http://localhost:4000.
 The server will stay up and self-update automatically.
 
-=== Publishing the site on a fork
+=== Testing on a GitHub cloned repo
 
-To see the `master` branch version, enable GitHub pages in your fork and set it publish to the gh-pages branch.
-You'll see the rendered site in https://USERNAME.github.io/jbcnconf_web.
+You can publish the site in your cloned repo to see the result of your changes.
 
-If you want to render a specific branch; checkout the branch, run `jekyll build` and manually push the files in the `_site` directory to the `gh-pages` branch.
+First, enable GitHub pages in your fork and set it to publish to the gh-pages branch.
+Then, build the site and commit the generated files under `_site` to the `gh-pages` branch.
+
+[NOTE]
+====
+Automatic publishing won't work in cloned repos due to the use of a special token in the TravisCI configuration.
+See https://github.com/jirutka/rake-jekyll#setup-for-github-pages-and-travis-ci for details.
+====
+
+== Publishing
+
+=== Publishing the site
+
+All changes to `master` are automatically published using a link:https://travis-ci.org/[TravisCI] build.
+
+This means, the site will be updated when:
+
+* changes are directly pushed into master.
+* a branch is merged into master.
