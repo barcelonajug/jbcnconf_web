@@ -8,10 +8,18 @@
     }
   },
   "gold": [
-    
+    {
+      "name": "Digital Origin",
+      "href": "https://www.digitalorigin.com/",
+      "image": {
+        "src": "/assets/img/sponsors/digital-origin.png",
+        "alt": "Digital Origin"
+      }
+    }
+
   ],
   "silver": [
-    
+
   ],
   "supporters": [
     {
