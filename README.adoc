@@ -40,6 +40,10 @@ If you want to build the site with Ruby 2.5.x, skip `bundler` and install the ge
 === Testing it locally
 
 Just fork the repo, open a shell, place yourself in the root and run
+ 
+ $ bundle exec jekyll serve
+
+of just
 
  $ jekyll serve
 
@@ -50,24 +54,4 @@ The server will stay up and self-update automatically.
 
 You can publish the site in your cloned repo to see the result of your changes.
 
-First, enable GitHub pages in your fork and set it to publish to the gh-pages branch.
-Then, build the site and commit the generated files under `_site` to the `gh-pages` branch.
-
-[NOTE]
-====
-Automatic publishing won't work in cloned repos due to the use of a special token in the TravisCI configuration.
-See https://github.com/jirutka/rake-jekyll#setup-for-github-pages-and-travis-ci for details.
-====
-
-== Publishing
-
-=== Publishing the site
-
-All changes to `master` are automatically published using a link:https://travis-ci.org/[TravisCI] build.
-
-This means, the site will be updated when:
-
-* changes are directly pushed into master.
-* a branch is merged into master.
-
-Once a changes are merged, you can check the TravisCI publishing job in https://travis-ci.org/barcelonajug/jbcnconf_web/.
+First, enable GitHub pages in your forked repository and set it to publish to the gh-pages branch.
