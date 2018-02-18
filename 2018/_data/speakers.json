@@ -1,4 +1,37 @@
 {
   "items": [
+    {
+      "enabled": "1",
+      "name": "Venkat Subramaniam",
+      "description": "Founder of Agile Developer, Inc.",
+      "biography": "Dr. Venkat Subramaniam is an award-winning author, founder of Agile Developer, Inc., creator of agilelearner.com, and an instructional professor at the University of Houston. He has trained and mentored thousands of software developers in the US, Canada, Europe, and Asia, and is a regularly-invited speaker at several international conferences. Venkat helps his clients effectively apply and succeed with sustainable agile practices on their software projects. Venkat is a (co)author of multiple technical books, including the 2007 Jolt Productivity award winning book Practices of an Agile Developer. You can find a list of his books at agiledeveloper.com. You can reach him by email at venkats@agiledeveloper.com or on twitter at @venkat_s.",
+      "image": "assets/img/speakers/venkat-subramaniam.jpg",
+      "ref": "venkat",
+      "url": "infoSpeaker.html?ref=venkat",
+      "twitter": "http://twitter.com/venkat_s",
+      "homepage": "http://agiledeveloper.com"
+    },
+    {
+      "enabled": "1",
+      "name": "Sandro Mancuso",
+      "description": "Founder of Codurance and London Software Craftmanship Community",
+      "biography": "Software craftsman, author, and founder of the London Software Craftsmanship Community (LSCC). Sandro has been coding since a very young age but only started his professional career in 1996. He has worked for startups, software houses, product companies, international consultancy companies, and investment banks. During his career Sandro had the opportunity to work in a good variety of projects, with different languages, technologies, and across many different industries. Sandro has a lot of experience in bringing the Software Craftsmanship ideology and Extreme Programming practices to organisations of all sizes. Sandro is internationally renowned by his work on evolving and spreading Software Craftsmanship and is frequently invited to speak in many conferences around the world. His professional aspiration is to raise the bar of the software industry by helping developers become better at and care more about their craft.",
+      "image": "assets/img/speakers/sandro-mancuso.jpg",
+      "ref": "sandro",
+      "url": "infoSpeaker.html?ref=sandro",
+      "twitter": "http://twitter.com/sandromancuso",
+      "homepage": "https://codurance.com/blog/author/sandro-mancuso/"
+    },
+    {
+      "enabled": "1",
+      "name": "Simon Maple",
+      "description": "Director of Developer Relations at ZeroTurnaround",
+      "biography": "Simon is the Director of Developer Relations at ZeroTurnaround, a Java Champion since 2014, JavaOne Rockstar speaker in 2014, Duke's Choice award winner in 2016, Virtual JUG founder and organiser, London Java Community co-leader and RebelLabs author. He is an experienced speaker, having presented at JavaOne, JavaZone, Jfokus, DevoxxUK, DevoxxFR, JavaZone, JMaghreb and many more including many JUG tours. His passion is around user groups and communities. When not traveling, Simon enjoys spending quality time with his family, cooking and eating great food.",
+      "image": "assets/img/speakers/simon-maple.jpg",
+      "ref": "simon-maple",
+      "url": "infoSpeaker.html?ref=simon-maple",
+      "twitter": "https://twitter.com/sjmaple",
+      "homepage": ""
+    }
   ]
 }
