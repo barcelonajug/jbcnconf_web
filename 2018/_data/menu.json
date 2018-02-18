@@ -1,6 +1,5 @@
 {
-  "items": [
-    {
+  "items": [{
       "label": "Home",
       "href": "/#JBCN"
     },
@@ -11,6 +10,10 @@
     {
       "label": "Sponsors",
       "href": "/#Sponsors"
+    },
+    {
+      "label": "Buy Ticket",
+      "href": "/#Tickets"
     },
     {
       "label": "Travel",

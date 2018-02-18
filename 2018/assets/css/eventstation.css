@@ -5746,7 +5746,7 @@ blockquote.right {
 
 .pricing-table.pricing-table-modern .pricing-table-header .pricing-table-header-left {
     width: 190px;
-    font-size: 45px;
+    font-size: 32px;
     color: #fefefe;
     text-align: center;
     font-weight: 600;
@@ -5808,6 +5808,7 @@ blockquote.right {
     font-size: 23px;
     font-weight: 600;
     margin-bottom: 6px;
+    text-decoration: underline;
 }
 
 .pricing-table.pricing-table-modern .pricing-table-body {
@@ -12111,6 +12112,7 @@ _::-ms-reveal, .speakers-widget .speaker-item-body .speaker-item-information li 
 
 .pricing-table-text, .pricing-table-packagename {
     text-shadow: 1px -1px black;
+    text-decoration: underline;
 }
 
 .btn-jbcn {
