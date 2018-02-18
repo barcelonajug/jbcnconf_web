@@ -21,6 +21,14 @@
         "src": "/assets/img/logos/logo_bicolor_blog_barcelonajug.png",
         "alt": "Barcelona JUG"
       }
+    },
+    {
+      "name": "Method & Tools",
+      "href": "http://www.methodsandtools.com/",
+      "image": {
+        "src": "/assets/img/sponsors/method_and_tools.jpg",
+        "alt": "Method & Tools"
+      }
     }
   ]
 }
