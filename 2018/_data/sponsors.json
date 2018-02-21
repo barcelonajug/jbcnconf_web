@@ -29,6 +29,14 @@
         "src": "/assets/img/sponsors/method_and_tools.jpg",
         "alt": "Method & Tools"
       }
+    },
+    {
+      "name": "GDG Barcelona",
+      "href": "https://www.meetup.com/GDG-Barcelona/",
+      "image": {
+        "src": "/assets/img/sponsors/gdg_barcelona.jpeg",
+        "alt": "GDG Barcelona"
+      }
     }
   ]
 }
