@@ -1,6 +1,5 @@
 {
-  "items": [
-    {
+  "items": [{
       "label": "Home",
       "href": "/#JBCN"
     },
@@ -9,8 +8,16 @@
       "href": "/callForPapers.html"
     },
     {
+      "label": "Speakers",
+      "href": "/#Speakers"
+    },
+    {
       "label": "Sponsors",
       "href": "/#Sponsors"
+    },
+    {
+      "label": "Buy Ticket",
+      "href": "/#Tickets"
     },
     {
       "label": "Travel",
@@ -19,6 +26,10 @@
     {
       "label": "Code of conduct",
       "href": "/coc.html"
+    },
+    {
+      "label": "Venue",
+      "href": "/java-barcelona-venue.html"
     }
   ]
 }
