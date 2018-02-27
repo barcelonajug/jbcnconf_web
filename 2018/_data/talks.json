@@ -1,12 +1,12 @@
 {
   "items": [
     {
-    "type": "talk",
-      "title": "Kotlin for Java Programmers",
-      "abstract": "Kotlin is that dark horse of JVM languages. It has gained prominence in the recent times for various good reasons. But, what does Kotlin really mean to Java programmers? In this presentation we will explore the language, learn about its key strengths and capabilities, take a peek under the hood to what it’s capabilities mean on the Java eco system, and how and where we can benefit from it.",
+    "type": "workshop",
+      "title": "Thinking in Functional Style ",
+      "abstract": "In this workshop the attendees will take six different problems, explore solution to them using the functional capabilities in the Java language. The presenter will, along the way, assist the participants, and also discuss the solutions. The objective of this workshop is to motivate developers to think more functionally, reduce code complexity, and to make better use of more recent features in the language. Attendees are expected to have Java 9 installed on their machine along with their favorite IDEs.",
       "tags": [
-        "Kotlin",
-        "Java"
+        "Java",
+        "Functional"
       ],
       "level": "Intermediate",
       "video": "",
@@ -16,12 +16,12 @@
       ]
     },
     {
-    "type": "workshop",
-      "title": "Thinking in Functional Style - Solving Commonly Recurring Code Problems using Java’s Functional Capabilities.",
-      "abstract": "In this workshop the attendees will take six different problems, explore solution to them using the functional capabilities in the Java language. The presenter will, along the way, assist the participants, and also discuss the solutions. The objective of this workshop is to motivate developers to think more functionally, reduce code complexity, and to make better use of more recent features in the language. Attendees are expected to have Java 9 installed on their machine along with their favorite IDEs.",
+    "type": "talk",
+      "title": "Kotlin for Java Programmers",
+      "abstract": "Kotlin is that dark horse of JVM languages. It has gained prominence in the recent times for various good reasons. But, what does Kotlin really mean to Java programmers? In this presentation we will explore the language, learn about its key strengths and capabilities, take a peek under the hood to what it’s capabilities mean on the Java eco system, and how and where we can benefit from it.",
       "tags": [
-        "Java",
-        "Functional"
+        "Kotlin",
+        "Java"
       ],
       "level": "Intermediate",
       "video": "",
