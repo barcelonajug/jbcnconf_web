@@ -30,5 +30,20 @@
         "venkat"
       ]
     },
+    {
+    "type": "talk",
+      "title": "Top 10 Vulnerabilities you wish your Java app didn't have!",
+      "abstract": "This session takes some of the most common vulnerabilities found in the Java eco-system, breaks them down and shows how simple code can exploit them. We'll look at examples in the wild that have been exposed, some more famously than others, before showing you how to guard against these important security issues.",
+      "tags": [
+        "Java",
+        "Security"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "simon-maple"
+      ]
+    }
   ]
 }
