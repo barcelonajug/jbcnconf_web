@@ -1,4 +1,49 @@
 {
   "items": [
+    {
+    "type": "workshop",
+      "title": "Thinking in Functional Style ",
+      "abstract": "In this workshop the attendees will take six different problems, explore solution to them using the functional capabilities in the Java language. The presenter will, along the way, assist the participants, and also discuss the solutions. The objective of this workshop is to motivate developers to think more functionally, reduce code complexity, and to make better use of more recent features in the language. Attendees are expected to have Java 9 installed on their machine along with their favorite IDEs.",
+      "tags": [
+        "Java",
+        "Functional"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "venkat"
+      ]
+    },
+    {
+    "type": "talk",
+      "title": "Kotlin for Java Programmers",
+      "abstract": "Kotlin is that dark horse of JVM languages. It has gained prominence in the recent times for various good reasons. But, what does Kotlin really mean to Java programmers? In this presentation we will explore the language, learn about its key strengths and capabilities, take a peek under the hood to what it’s capabilities mean on the Java eco system, and how and where we can benefit from it.",
+      "tags": [
+        "Kotlin",
+        "Java"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "venkat"
+      ]
+    },
+    {
+    "type": "talk",
+      "title": "Top 10 Vulnerabilities you wish your Java app didn't have!",
+      "abstract": "This session takes some of the most common vulnerabilities found in the Java eco-system, breaks them down and shows how simple code can exploit them. We'll look at examples in the wild that have been exposed, some more famously than others, before showing you how to guard against these important security issues.",
+      "tags": [
+        "Java",
+        "Security"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "simon-maple"
+      ]
+    }
   ]
 }

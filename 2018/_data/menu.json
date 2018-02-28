@@ -8,16 +8,30 @@
       "href": "/callForPapers.html"
     },
     {
-      "label": "Speakers",
-      "href": "/#Speakers"
+      "label": "Buy Ticket",
+      "href": "/#Tickets"
+    },
+    {
+      "label": "Talks",
+      "href": "/talks.html"
+    },
+    {
+      "label": "Workshops",
+      "href": "/workshops.html"
     },
     {
       "label": "Sponsors",
       "href": "/#Sponsors"
     },
     {
-      "label": "Buy Ticket",
-      "href": "/#Tickets"
+      "label": "Speakers",
+      "href": "/#Speakers",
+      "items": [
+        {
+          "label": "One Page List",
+          "href": "/speakers.html"
+        }
+      ]
     },
     {
       "label": "Travel",
