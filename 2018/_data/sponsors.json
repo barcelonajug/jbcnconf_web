@@ -16,9 +16,16 @@
         "alt": "Digital Origin"
       }
     }
-
   ],
   "silver": [
+    {
+      "name": "Jetbrains",
+      "href": "https://www.jetbrains.com/",
+      "image": {
+        "src": "/assets/img/sponsors/jetbrains.png",
+        "alt": "Jetbrains"
+      }
+    }
 
   ],
   "supporters": [
