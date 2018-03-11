@@ -15,6 +15,14 @@
         "src": "/assets/img/sponsors/digital-origin.png",
         "alt": "Digital Origin"
       }
+    },
+    {
+      "name": "RedHat",
+      "href": "https://www.redhat.com/",
+      "image": {
+        "src": "/assets/img/sponsors/redhat.png",
+        "alt": "RedHat"
+      }
     }
 
   ],
