@@ -23,6 +23,14 @@
         "src": "/assets/img/sponsors/ocadotechnology.png",
         "alt": "Ocado Technology"
       }
+    },
+    {
+      "name": "RedHat",
+      "href": "https://www.redhat.com/",
+      "image": {
+        "src": "/assets/img/sponsors/redhat.png",
+        "alt": "RedHat"
+      }
     }
 
   ],
