@@ -15,6 +15,14 @@
         "src": "/assets/img/sponsors/digital-origin.png",
         "alt": "Digital Origin"
       }
+    },
+    {
+      "name": "Ocado Technology",
+      "href": "http://www.ocadotechnology.com/",
+      "image": {
+        "src": "/assets/img/sponsors/ocadotechnology.png",
+        "alt": "Ocado Technology"
+      }
     }
 
   ],
