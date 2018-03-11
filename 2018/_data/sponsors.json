@@ -17,6 +17,14 @@
       }
     },
     {
+      "name": "eDreams Odigeo",
+      "href": "https://www.edreams.com/",
+      "image": {
+        "src": "/assets/img/sponsors/edreams.png",
+        "alt": "eDreams Odigeo"
+      }
+    },
+    {
       "name": "Ocado Technology",
       "href": "http://www.ocadotechnology.com/",
       "image": {
