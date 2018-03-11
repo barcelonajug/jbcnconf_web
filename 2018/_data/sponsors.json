@@ -17,6 +17,14 @@
       }
     },
     {
+      "name": "Ocado Technology",
+      "href": "http://www.ocadotechnology.com/",
+      "image": {
+        "src": "/assets/img/sponsors/ocadotechnology.png",
+        "alt": "Ocado Technology"
+      }
+    },
+    {
       "name": "RedHat",
       "href": "https://www.redhat.com/",
       "image": {
