@@ -17,6 +17,14 @@
       }
     },
     {
+      "name": "Dynatrace",
+      "href": "https://www.dynatrace.es/",
+      "image": {
+        "src": "/assets/img/sponsors/dynatrace.png",
+        "alt": "Dynatrace"
+      }
+    },
+    {
       "name": "RedHat",
       "href": "https://www.redhat.com/",
       "image": {
