@@ -17,11 +17,11 @@
       }
     },
     {
-      "name": "eDreams Odigeo",
-      "href": "https://www.edreams.com/",
+      "name": "RedHat",
+      "href": "https://www.redhat.com/",
       "image": {
-        "src": "/assets/img/sponsors/edreams.png",
-        "alt": "eDreams Odigeo"
+        "src": "/assets/img/sponsors/redhat.png",
+        "alt": "RedHat"
       }
     },
     {
@@ -33,14 +33,13 @@
       }
     },
     {
-      "name": "RedHat",
-      "href": "https://www.redhat.com/",
+      "name": "eDreams Odigeo",
+      "href": "https://www.edreams.com/",
       "image": {
-        "src": "/assets/img/sponsors/redhat.png",
-        "alt": "RedHat"
+        "src": "/assets/img/sponsors/edreams.png",
+        "alt": "eDreams Odigeo"
       }
     }
-
   ],
   "silver": [
 
