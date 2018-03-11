@@ -15,8 +15,31 @@
         "src": "/assets/img/sponsors/digital-origin.png",
         "alt": "Digital Origin"
       }
+    },
+    {
+      "name": "RedHat",
+      "href": "https://www.redhat.com/",
+      "image": {
+        "src": "/assets/img/sponsors/redhat.png",
+        "alt": "RedHat"
+      }
+    },
+    {
+      "name": "Ocado Technology",
+      "href": "http://www.ocadotechnology.com/",
+      "image": {
+        "src": "/assets/img/sponsors/ocadotechnology.png",
+        "alt": "Ocado Technology"
+      }
+    },
+    {
+      "name": "eDreams Odigeo",
+      "href": "https://www.edreams.com/",
+      "image": {
+        "src": "/assets/img/sponsors/edreams.png",
+        "alt": "eDreams Odigeo"
+      }
     }
-
   ],
   "silver": [
 
