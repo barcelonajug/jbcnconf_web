@@ -52,12 +52,13 @@
 <script type='text/javascript'
         src='{{ base }}/assets/js/schedule.js'></script>
 
-<!-- Twitter single-event website tag code, please keep this script as last -->
-<script type="text/javascript"
-        src="//platform.twitter.com/oct.js"></script>
-<script type="text/javascript">twttr.conversion.trackPid('nx4fy', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
-<noscript>
-    <img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=nx4fy&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
-    <img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=nx4fy&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
-</noscript>
-<!-- End Twitter single-event website tag code -->
+<!-- Twitter universal website tag code -->
+<script>
+    !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+    },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+            a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+    // Insert Twitter Pixel ID and Standard Event data below
+    twq('init','nz2id');
+    twq('track','PageView');
+</script>
+<!-- End Twitter universal website tag code -->

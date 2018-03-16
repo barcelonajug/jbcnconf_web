@@ -69,7 +69,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                     </li>
                                 </ul>
                                 <span class="biography">
-                                        
+
                                     </span>
                                 </p>
 
@@ -105,7 +105,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 
                                     for (var index = 0; index < speaker.talks.length; index++) {
 
-                                        var title = ' <h2 class="talk-title"> ' + speaker.talks[index].title + '</h2>';
+                                        var title = ' <h2 class="talk-title"> ' + speaker.talks[index].title + '</h2><i>(' + speaker.talks[index].type + ')<i> ' ;
                                         var abstract = '<p style="text-align: justify;" class="abstract"> ' + speaker.talks[index].abstract + ' </p>';
                                         var video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + speaker.talks[index].video + '"' +
                                             'frameborder="0" allowfullscreen></iframe>';
@@ -140,4 +140,3 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
     </div>
 
 </div>
-

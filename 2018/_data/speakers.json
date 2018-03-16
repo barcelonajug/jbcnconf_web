@@ -1,4 +1,158 @@
 {
-  "items": [
-  ]
+"items": [
+{
+"enabled": "1",
+"name": "Michel Schudel",
+"description": "Java developer Dutch Railways",
+"biography": "Michel Schudel has been a passionate Java developer since 1998, building various Java solutions for banks, insurance companies and telecom providers. Since then he has seen the good, the bad and the ugly in Java land. He loves agile development and coding with micro and meso frameworks like SpringBoot and SparkJava to get up-and-running as fast as possible. Futhermore, he likes to coach junior developers in Core Java. Michel is currently working for Dutch Railways in the Netherlands.",
+"image": "assets/img/speakers/michel-schudel.jpg",
+"ref": "TWljaGVsU2NodWRlbG1pY2hlbC5zY2h1ZGVsQGdtYWlsLmNvbQ==",
+"url": "infoSpeaker.html?ref=TWljaGVsU2NodWRlbG1pY2hlbC5zY2h1ZGVsQGdtYWlsLmNvbQ==",
+"twitter": "@michelschudel",
+"homepage": "http://coding.michelschudel.nl/"
+},
+{
+"enabled": "1",
+"name": "Mercedes Wyss",
+"description": "CTO at Produactivity",
+"biography": "She is a software engineer with more than six years of experience in backend, frontend, and Android development using Java and Kotlin. Currently, Mercedes is the CTO at Produactivity, a startup based in Guatemala.\n\nOutside of work, she was previously organizing meetings in Guatemala Java Users Group. Now she is focused on increasing women's participation in STEAM by running a JDuchess chapter in Guatemala and helping new communities to make their first steps. \n\nShe is a Developer Champion and an Auth0 Ambassador, has a Duke's Choice Award in Educational Outreach, and is the leader of a Google community, Devs+502.",
+"image": "assets/img/speakers/mercedes-wyss.jpg",
+"ref": "TWVyY2VkZXNXeXNzbWVyY2VkZXMud3lzc0Bwb3dlcnd0ZWNobm9sb2d5LmNvbQ==",
+"url": "infoSpeaker.html?ref=TWVyY2VkZXNXeXNzbWVyY2VkZXMud3lzc0Bwb3dlcnd0ZWNobm9sb2d5LmNvbQ==",
+"twitter": "@itrjwyss",
+"homepage": "https://medium.com/@itrjwyss"
+},
+{
+"enabled": "1",
+"name": "Jan Ouwens",
+"description": "Developer at Codestar",
+"biography": "Jan is a developer at Codestar in the Netherlands. He is a polyglot developer and has professionally written code in languages such as Delphi, Ruby, Java, and yes, even VBScript. For the past several years he has been enjoying Scala.\n\nHe is also the author of EqualsVerifier, a tool to make rigourously testing Java's equals and hashCode methods a one-liner.",
+"image": "assets/img/speakers/jan-ouwens.jpg",
+"ref": "SmFuT3V3ZW5zamFuLm91d2Vuc0BnbWFpbC5jb20=",
+"url": "infoSpeaker.html?ref=SmFuT3V3ZW5zamFuLm91d2Vuc0BnbWFpbC5jb20=",
+"twitter": "@jqno",
+"homepage": "http://jqno.nl"
+},
+{
+"enabled": "1",
+"name": "Christian Posta",
+"description": "Chief Architect of cloud applications at Red Hat",
+"biography": "Christian Posta (@christianposta) is a Chief Architect of cloud applications at Red Hat and well known in the community for being an author (Microservices for Java Developers, O'Reilly 2016), frequent blogger, speaker, open-source enthusiast and committer on various open-source projects. Christian has spent time at web-scale companies and now helps companies create and deploy large-scale, resilient, distributed architectures - many of what we now call Microservices. He enjoys mentoring, training and leading teams to be successful with distributed systems concepts, microservices, devops, and cloud-native application design.",
+"image": "assets/img/speakers/christian-posta.jpg",
+"ref": "Q2hyaXN0aWFuUG9zdGFjaHJpc3RpYW4ucG9zdGFAZ21haWwuY29t",
+"url": "infoSpeaker.html?ref=Q2hyaXN0aWFuUG9zdGFjaHJpc3RpYW4ucG9zdGFAZ21haWwuY29t",
+"twitter": "@christianposta",
+"homepage": "http://blog.christianposta.com"
+},
+{
+"enabled": "1",
+"name": "Bruno Bossola",
+"description": "Java Champion, Head of Software development at Tesco PLC ",
+"biography": "Bruno Bossola starts to learn computer science since medium schools, when thanks to a Commodore Vic20 he discovers the world of programming. He begins to work in C in 1988, then from 1996 in Java, using JDK 1.02.\n\nHe develops one of the first distributed objects application in Italy, continuing then in the following years building large scale application for the enterprise using RMI, CORBA and finally J2EE. In 1999 he coaches one of the first group that adopts XP method in Italy. In 2002 he has co-founder of Java User Group Torino, that quickly became one of the top 25 JUGS in the world.\n\nIn 2005 he is recognized as Java Champion, member of the international community that collects the more representative personalities of the Java world He has been promoting and teaching Java technologies as a speaker in Italy at developer conferences like Webbit, AgileDay, JavaConference, Javaday and in Europe at Javapolis (now Devoxx), Jazoon and Geecon",
+"image": "assets/img/speakers/bruno-bossola.jpg",
+"ref": "QnJ1bm9Cb3Nzb2xhYmJvc3NvbGFAZ21haWwuY29t",
+"url": "infoSpeaker.html?ref=QnJ1bm9Cb3Nzb2xhYmJvc3NvbGFAZ21haWwuY29t",
+"twitter": "@bbossola",
+"homepage": "https://bbossola.wordpress.com"
+},
+{
+"enabled": "1",
+"name": "Venkat Subramaniam",
+"description": "Founder of Agile Developer, Inc.",
+"biography": "Dr. Venkat Subramaniam is an award-winning author, founder of Agile Developer, Inc., creator of agilelearner.com, and an instructional professor at the University of Houston. He has trained and mentored thousands of software developers in the US, Canada, Europe, and Asia, and is a regularly-invited speaker at several international conferences. Venkat helps his clients effectively apply and succeed with sustainable agile practices on their software projects. Venkat is a (co)author of multiple technical books, including the 2007 Jolt Productivity award winning book Practices of an Agile Developer. You can find a list of his books at agiledeveloper.com. You can reach him by email at venkats@agiledeveloper.com or on twitter at @venkat_s.",
+"image": "assets/img/speakers/venkat-subramaniam.jpg",
+"ref": "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ==",
+"url": "infoSpeaker.html?ref=VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ==",
+"twitter": "@venkat_s",
+"homepage": "http://agiledeveloper.com"
+},
+{
+"enabled": "1",
+"name": "Simon Maple",
+"description": "Java Champion, Director of Developer Advocacy at Snyksec",
+"biography": "Simon is the Director of Developer Advocacy at Snyksec, a Java Champion since 2014, JavaOne Rockstar speaker in 2014, Duke's Choice award winner in 2016, Virtual JUG founder and organiser, London Java Community co-leader and RebelLabs author. He is an experienced speaker, having presented at JavaOne, JavaZone, Jfokus, DevoxxUK, DevoxxFR, JavaZone, JMaghreb and many more including many JUG tours. His passion is around user groups and communities. When not traveling, Simon enjoys spending quality time with his family, cooking and eating great food.",
+"image": "assets/img/speakers/simon-maple.jpg",
+"ref": "U2ltb25NYXBsZXNqbWFwbGVAZ21haWwuY29t",
+"url": "infoSpeaker.html?ref=U2ltb25NYXBsZXNqbWFwbGVAZ21haWwuY29t",
+"twitter": "@sjmaple",
+"homepage": null
+},
+{
+"enabled": "1",
+"name": "Laurent Doguin",
+"description": "Head of Developer relations at Clever Cloud",
+"biography": "Laurent is Head of Developer relations at Clever Cloud. He's also a nerdy metal head based in Paris and Devoxx Champion. He mostly wrotes code in Java and structured text in AsciiDoc, and often talks about data, reactive programming and other buzzwordy stuff. Laurent is also a former Developer Advocate for Couchbase and Nuxeo where he devoted his time and expertise to helping both communities grow bigger and stronger.",
+"image": "assets/img/speakers/laurent-doguin.jpg",
+"ref": "TGF1cmVudERvZ3VpbmxhdXJlbnQuZG9ndWluQGNsZXZlci1jbG91ZC5jb20=",
+"url": "infoSpeaker.html?ref=TGF1cmVudERvZ3VpbmxhdXJlbnQuZG9ndWluQGNsZXZlci1jbG91ZC5jb20=",
+"twitter": "@ldoguin",
+"homepage": "http://clever-cloud.com/"
+},
+{
+"enabled": "1",
+"name": "Marcus Fihlon",
+"description": "Software Engineer at CSS Insurance in Lucerne",
+"biography": "Marcus Fihlon is an Agile Coach and Software Engineer at CSS Insurance in Lucerne. He also lectures at TEKO Swiss Technical College in Olten and is a speaker at conferences and user groups all over the world, like JavaOne, JavaLand, geecon and more. He has been developing software for more than three decades and has worked with Java since the late 90s. Marcus is the grounding member and organizer of the monthly Hackergarten in Lucerne and is involved in several open source projects. Since 2017, he is member of the board of the Java User Group Switzerland and Kotlin Swiss User Group, where Marcus is responsible for organizing events and workshops in central Switzerland. Marcus is writing articles for technical magazines like JavaPro and Java aktuell and his first book will be published late summer this year.",
+"image": "assets/img/speakers/marcus-fihlon.jpg",
+"ref": "TWFyY3VzRmlobG9ubWFyY3VzQGZpaGxvbi5jaA==",
+"url": "infoSpeaker.html?ref=TWFyY3VzRmlobG9ubWFyY3VzQGZpaGxvbi5jaA==",
+"twitter": "@McPringle",
+"homepage": "https://www.fihlon.ch/"
+},
+{
+"enabled": "1",
+"name": "Bernd Ruecker",
+"description": "Developer advocate of Camunda",
+"biography": "Throughout my 15+ years in software development, I have helped automating highly scalable core workflows at global companies including T-Mobile, Lufthansa and Zalando. I have contributed to various open source workflow engines. I am co-founder and developer advocate of Camunda, an open source software company reinventing workflow automation. I co-authored \"Real-Life BPMN,\" a popular book about workflow modeling and automation, now in its fifth edition and available in English, German and Spanish. I regularly speak at conferences and write for various magazines. I am currently focused on new workflow automation paradigms that fit into modern architectures around distributed systems, microservices, domain-driven design, event-driven architecture and reactive systems. ",
+"image": "assets/img/speakers/bernd.jpg",
+"ref": "QmVybmRSdWVja2VyYmVybmQucnVlY2tlckBjYW11bmRhLmNvbQ==",
+"url": "infoSpeaker.html?ref=QmVybmRSdWVja2VyYmVybmQucnVlY2tlckBjYW11bmRhLmNvbQ==",
+"twitter": "@berndruecker",
+"homepage": "https://bernd-ruecker.com/"
+},
+{
+"enabled": "1",
+"name": "Mario Romano",
+"description": "Director of Engineering in Alfresco",
+"biography": "Mario is the Director of Engineering in Alfresco but he is still really much involved with the coding. Before Alfresco, Mario accumulated nearly 8 years of experience in developing software for large organisations, and in particular in developing microservices architecture. Mario is also the author of the Packt video course series about Angular 2, Spring 5 and Spring Boot 2 and committer for various open source projects. He's been coding since he was 10 years old and is currently based in London, but grew up in Naples the city where the pizza was invented.\n",
+"image": "assets/img/speakers/mario-romano.jpg",
+"ref": "TWFyaW9Sb21hbm9tYXJpby5yb21hbm84M0BnbWFpbC5jb20=",
+"url": "infoSpeaker.html?ref=TWFyaW9Sb21hbm9tYXJpby5yb21hbm84M0BnbWFpbC5jb20=",
+"twitter": "@MagemelloMario",
+"homepage": "http://magemello.github.io/"
+},
+{
+"enabled": "1",
+"name": "Brian Vermeer",
+"description": "Software Engineer at Blue4IT",
+"biography": "Brian is a Software Engineer at the dutch company Blue4IT. He works mainly consultancy based on al sorts of java based project all over the country. His passion is in Java, (Pure) Functional Programming and Cybersecurity. He is a regular speaker on Java related, he spoke on event like JFall, JBCNConf, Oracle Code, Devoxx, JavaZone, JFokus, JavaOne and others. Besides being an engineer he is a Reservist at the Royal Netherlands Air Force and a Taekwondo Teacher. ",
+"image": "assets/img/speakers/brian-vermeer.jpg",
+"ref": "QnJpYW5WZXJtZWVyYnJpYW5AYnJpYW52ZXJtZWVyLm5s",
+"url": "infoSpeaker.html?ref=QnJpYW5WZXJtZWVyYnJpYW5AYnJpYW52ZXJtZWVyLm5s",
+"twitter": "@BrianVerm",
+"homepage": "Http://www.brianvermeer.nl"
+},
+{
+"enabled": "1",
+"name": "Rustam Mehmandarov",
+"description": "Java Champion, Leader of JavaZone",
+"biography": "Passionate computer scientist. Leader of JavaZone; Norwegian JUG â€“ javaBin. One of the founders of Arctic IoT Challenge. Speaker. Java Champion.",
+"image": "assets/img/speakers/rustam-mehmandarov.jpg",
+"ref": "UnVzdGFtTWVobWFuZGFyb3ZtZWhtYW5kYXJvdkBnbWFpbC5jb20=",
+"url": "infoSpeaker.html?ref=UnVzdGFtTWVobWFuZGFyb3ZtZWhtYW5kYXJvdkBnbWFpbC5jb20=",
+"twitter": "@rmehmandarov",
+"homepage": "https://mehmandarov.com"
+},
+    {
+      "enabled": "1",
+      "name": "Sandro Mancuso",
+      "description": "Founder of Codurance and London Software Craftmanship Community",
+      "biography": "Software craftsman, author, and founder of the London Software Craftsmanship Community (LSCC). Sandro has been coding since a very young age but only started his professional career in 1996. He has worked for startups, software houses, product companies, international consultancy companies, and investment banks. During his career Sandro had the opportunity to work in a good variety of projects, with different languages, technologies, and across many different industries. Sandro has a lot of experience in bringing the Software Craftsmanship ideology and Extreme Programming practices to organisations of all sizes. Sandro is internationally renowned by his work on evolving and spreading Software Craftsmanship and is frequently invited to speak in many conferences around the world. His professional aspiration is to raise the bar of the software industry by helping developers become better at and care more about their craft.",
+      "image": "assets/img/speakers/sandro-mancuso.jpg",
+      "ref": "sandro",
+      "url": "infoSpeaker.html?ref=sandro",
+      "twitter": "http://twitter.com/sandromancuso",
+      "homepage": "https://codurance.com/blog/author/sandro-mancuso/"
+    }
+]
 }
