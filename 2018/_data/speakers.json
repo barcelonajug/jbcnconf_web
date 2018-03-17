@@ -153,6 +153,50 @@
       "url": "infoSpeaker.html?ref=sandro",
       "twitter": "http://twitter.com/sandromancuso",
       "homepage": "https://codurance.com/blog/author/sandro-mancuso/"
-    }
+    },
+    {
+    "enabled": "1",
+    "name": "Bruno Borges",
+    "description": "Azure Cloud Developer Advocate at Microsoft",
+    "biography": "From Brazil to the world! Bruno has over 17+ years of experience as an enterprise application developer, doing most of his code in Java, Javascript, and SQL. Starting in 2018 Bruno is now part of the great Azure Cloud Developer Advocacy team at Microsoft (https://aka.ms/advocates) with the mission to help MS engineers empower Java developers when using Microsoft technologies, by sharing knowledge and bringing home lots of developer experience feedback. Between 2012 and 2018 was Oracle's Principal Product Manager responsible of Developer Relations Strategy for Oracle Cloud, Java, governance of open source projects on GitHub, and all things related to application development with Oracle technologies. ",
+    "image": "assets/img/speakers/bruno-borges.jpg",
+    "ref": "QnJ1bm9Cb3JnZXNicnVuby5ib3JnZXNAZ21haWwuY29t",
+    "url": "infoSpeaker.html?ref=QnJ1bm9Cb3JnZXNicnVuby5ib3JnZXNAZ21haWwuY29t",
+    "twitter": "@brunoborges",
+    "homepage": "https://about.me/brunoborges"
+  },
+  {
+  "enabled": "1",
+  "name": "Kai Waehner",
+  "description": "Technology Evangelist at Confluent",
+  "biography": "Kai Waehner works as Technology Evangelist at Confluent. Kai's main area of expertise lies within the fields of Big Data Analytics, Machine Learning / Deep Learning, Messaging, Integration, Microservices, Stream Processing, Internet of Things and Blockchain. Contact and references: kontakt@kai-waehner.de / @KaiWaehner / www.kai-waehner.de",
+  "image": "assets/img/speakers/kai-waehner.jpg",
+  "ref": "S2FpV2FlaG5lcm1lZ2FjaHVja3lAZ21haWwuY29t",
+  "url": "infoSpeaker.html?ref=S2FpV2FlaG5lcm1lZ2FjaHVja3lAZ21haWwuY29t",
+  "twitter": "@KaiWaehner",
+  "homepage": "http://www.kai-waehner.de"
+  },
+  {
+  "enabled": "1",
+  "name": "Ola Petersson",
+  "description": "Java One Rockstar & Software Engineer",
+  "biography": "Ola Petersson is a Java One Rockstar, fullstack web developer and Software Engineer. As a consultant he has worked on building modern and reactive web applications in a lot of different domains but always with Java as the backbone. He also spends time speaking at conferences and is a co-host of JUG Gothenburg.",
+  "image": "assets/img/speakers/ola-petersson.png",
+  "ref": "T2xhUGV0ZXJzc29ubWFpbEBvbGFwZXRlcnNzb24uc2U=",
+  "url": "infoSpeaker.html?ref=T2xhUGV0ZXJzc29ubWFpbEBvbGFwZXRlcnNzb24uc2U=",
+  "twitter": "@gotoOla",
+  "homepage": "http://olapetersson.se/"
+  },
+  {
+  "enabled": "1",
+  "name": "Alex Soto",
+  "description": "Java Champion & Software engineer at Red Hat",
+  "biography": "Alex is a software engineer at Red Hat in Developers group. He is a passionate about Java world, software automation and he believes in the open source software model.\n\nAlex is the creator of NoSQLUnit project, member of JSR374 (Java API for JSON Processing) Expert Group, the co-author of Testing Java Microservices book for Manning and contributor of several open source projects such as Arquillian ecosystem or Asciidoctor. He is an international speaker presenting his talks at software conferences like Devoxx, JavaOne, JavaZone or JavaLand.",
+  "image": "assets/img/speakers/alex-soto.jpg",
+  "ref": "QWxleFNvdG9hc290b2J1QGdtYWlsLmNvbQ==",
+  "url": "infoSpeaker.html?ref=QWxleFNvdG9hc290b2J1QGdtYWlsLmNvbQ==",
+  "twitter": "@alexsotob",
+  "homepage": "http://www.lordofthejars.com/"
+  }
 ]
 }
