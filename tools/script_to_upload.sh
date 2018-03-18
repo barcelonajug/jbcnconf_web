@@ -1,28 +1,28 @@
 #!/bin/bash
 #
-# This bash script creates a build a list of commands on a 'commands.log' file with all the commands you can run to 
-# upload all the JBCNConf videos, tagged based on the 'talks' and 'speakers' information. 
+# This bash script creates a build a list of commands on a 'commands.log' file with all the commands you can run to
+# upload all the JBCNConf videos, tagged based on the 'talks' and 'speakers' information.
 #
 # It will retrieve its tags, content, and title for each talk and it will add a new hashtag name ('jbcn${YEAR}') and
 # create a proper title (ex: '${The title of the talk} - by {the author} at JBCNConf'${YEAR}') and content linking to
 # the website. Also all videos are saved in a playlist JBCNConf'${YEAR} and stored hidden, just to be reviewed
 #
-# Also the commands generated will save in an output file 'output.log' the final URL of each video once they are 
+# Also the commands generated will save in an output file 'output.log' the final URL of each video once they are
 # completely uploaded.
 #
 # Tools required:
 # -jq (https://stedolan.github.io/jq/)
-# -Youtube upload (https://github.com/tokland/youtube-upload) 
+# -Youtube upload (https://github.com/tokland/youtube-upload)
 #  + it's setup to be able to upload your videos to your account
 #
-# Your 'talks.json' have to have a filed named 'file' with the name of the filename of the recorded talk. 
+# Your 'talks.json' have to have a filed named 'file' with the name of the filename of the recorded talk.
 # Example:
 #  {
 #    "items": [
 #    {
 #      "type": "talk",
 #      "level": "Intermediate",
-#      "file": "Venkat Video OK.mp4",	
+#      "file": "Venkat Video OK.mp4",
 #      "video": "",
 #      ...
 #    },
@@ -31,16 +31,16 @@
 # }
 #
 # Youtube has some limitations (ex: video title size not greater than 100chars, strange chars, etc) and because of that I
-# decided to write this script to have the possibility to change the video title easily and re-run the command instead of 
-# running everything one time and see a lot of video uploads failing. 
+# decided to write this script to have the possibility to change the video title easily and re-run the command instead of
+# running everything one time and see a lot of video uploads failing.
 #
-YY=$(date +%y) 
-YYYY=$(date +%Y)
+YY=17
+YYYY=2017
 
 TALKS_FILE=../$YYYY/_data/talks.json
 AUTHORS_FILE=../$YYYY/_data/speakers.json
 
-VIDEOS_ROOT_PATH=/Volume/Where\ you\ have\ your/Videos\ recorded\ without\ final\ slash
+VIDEOS_ROOT_PATH=~/Desktop/tmp/BarcelonaJUG/JBCNConf/2017
 
 COMMANDS_FILE=commands.log
 OUTPUT_FILE=output.log
@@ -144,7 +144,7 @@ function retrieve_tags() {
 	# echo "index: $index - total: $total"
 	local result=''
 	for (( i=index; i<index+total; i++ ))
-	do  
+	do
    		# echo "${tags[$i]} -- $i - $index/$total"
    		result+=${tags[$i]},
 	done
@@ -170,7 +170,7 @@ function retrieve_speakers() {
 	local speakers=''
 	local links=''
 	for (( i=index; i<index+total; i++ ))
-	do  
+	do
    		# echo "${tags[$i]} -- $i - $index/$total"
    		speakers+=${authors[$i]}" and "
    		links+=${LINK}${ref_authors[$i]}" "
@@ -180,7 +180,7 @@ function retrieve_speakers() {
 
 	# echo "   >>> Result: ${speakers} ------ $speakers_l" >> $COMMANDS_FILE
 	# echo "   >>> Result: ${links} ------ $links_l" >> $COMMANDS_FILE
-	
+
 	speakers=$(remove_quotes ${speakers:0:$speakers_l})
 	links=$(remove_quotes ${links:0:$links_l})
 
@@ -196,14 +196,14 @@ function retrieve_title_by_at() {
 
 	local speakers=''
 	for (( i=index; i<index+total; i++ ))
-	do  
+	do
    		# echo "${tags[$i]} -- $i - $index/$total"
    		speakers+=${authors[$i]}" and "
 	done
 	let speakers_l=${#speakers}-4
 
 	# echo "   >>> Result: ${speakers} ------ " >> $COMMANDS_FILE
-	
+
 	speakers=$(remove_quotes ${speakers:0:$speakers_l})
 
 	# echo $speakers $SUFFIX2 >> $COMMANDS_FILE
@@ -211,7 +211,7 @@ function retrieve_title_by_at() {
 }
 
 function build_commands() {
-	local BY=" - by " 
+	local BY=" - by "
 
 	echo "----- Start -----" > $COMMANDS_FILE
 
@@ -255,7 +255,7 @@ function build_commands() {
 
 		# if test $N_TITLE -eq 5; then
 		# 	echo $N_TITLE
-		# 	exit 0 
+		# 	exit 0
 		# fi
 
 		echo .
