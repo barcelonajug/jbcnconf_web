@@ -67,9 +67,10 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                         </div>
                                         <div class="speaker-item-body" style="height:195px">
                                             <ul class="speaker-item-information">
-                                                {% if speaker.homepage %}
+                                                {% capture homepage %}{{speaker.homepage| strip}}{% endcapture %}
+                                                {% if homepage.size > 0 %}
                                                 <li class="">
-                                                    <a target="_blank" href="{{speaker.homepage}}">
+                                                    <a target="_blank" href="{{homepage}}">
                                                         <i class="fa fa-rss"></i>
                                                     </a>
                                                 </li>
