@@ -249,6 +249,19 @@
       ]
     },
     {
+      "title": "A Case for Outside-In Design",
+      "abstract": "For a few decades, one of the most common approaches to software design is to first focus on the domain model (application layer), then persistence (data layer) and finally the user interface (presentation layer). But what are the pros and cons of this approach? Are there other alternatives? Are they viable?\n\nIn this presentation Sandro will be talking about different design biases and the impact they have. He will then focus on Outside-In Design, explaining how our domain model can emerge and evolve when driven by the needs of external systems or users, avoiding speculation and wasted effort",
+      "type": "talk",
+      "tags": [
+        "design",
+        "craftsmanship"
+      ],
+      "level": "talk",
+      "speakers": [
+        "U2FuZHJvTWFuY3Vzb2luZm9AYmFyY2Vsb25hanVnLm9yZw=="
+      ]
+    },
+    {
       "title": "Demystifying modern significant Java language features",
       "abstract": "The presentation aims to reveal how the most significant Java 9 language features work under the hood. Each topic is covered by few code examples, bytecode instructions, JMH tests and x86 assembly generated code (only in few specific cases). We try to build a top down approach and to understand what is happening at each level inside the JVM, starting with source code, followed by javac and then JIT compilation process. Main topics: - Private interface methods - String in Java 9 (Compact strings and Indify String concatenation ) - Collection factory methods - StackWalker - Contended locks in Java 9 - Segmented Code Cache - Lambdas - Streams (e.g. ForkJoin, streams characteristics) Attendees will have a clear and comprehensive understanding about all of these internals, which might make a difference in writing better and more performant code.",
       "type": "talk",
@@ -262,6 +275,6 @@
       "speakers": [
         "SW9udXRCYWxvc2luaW9udXRiYWxvc2luQHlhaG9vLmNvbQ=="
       ]
-    },
+    }
   ]
 }
