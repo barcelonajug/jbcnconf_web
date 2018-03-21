@@ -34,13 +34,13 @@
 # decided to write this script to have the possibility to change the video title easily and re-run the command instead of
 # running everything one time and see a lot of video uploads failing.
 #
-YY=17
-YYYY=2017
+YY=$(date +%y)
+YYYY=$(date +%Y)
 
 TALKS_FILE=../$YYYY/_data/talks.json
 AUTHORS_FILE=../$YYYY/_data/speakers.json
 
-VIDEOS_ROOT_PATH=~/Desktop/tmp/BarcelonaJUG/JBCNConf/2017
+VIDEOS_ROOT_PATH=/Volume/Where\ you\ have\ your/Videos\ recorded\ without\ final\ slash
 
 COMMANDS_FILE=commands.log
 OUTPUT_FILE=output.log
