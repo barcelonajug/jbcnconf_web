@@ -197,6 +197,17 @@
   "url": "infoSpeaker.html?ref=QWxleFNvdG9hc290b2J1QGdtYWlsLmNvbQ==",
   "twitter": "@alexsotob",
   "homepage": "http://www.lordofthejars.com/"
+  },
+  {
+    "enabled": "1",
+    "name": "Andrzej Ludwikowski",
+    "description": "",
+    "biography": "Software Journeyman with over 8 years of experience in commercial software development. Conference speaker and open source contributor. Devotee of DDD, Event Sourcing and Polyglot Persistence. Continuously chasing the dream of a perfect software architecture, fulfilling all of the requirements and trends, even the strangest ones.",
+    "image": "assets/img/speakers/andrzej-ludwikowski.jpg",
+    "ref": "QW5kcnplakx1ZHdpa293c2tpYW5kcnplamx1ZHdpa293c2tpQGdtYWlsLmNvbQ==",
+    "url": "infoSpeaker.html?ref=QW5kcnplakx1ZHdpa293c2tpYW5kcnplamx1ZHdpa293c2tpQGdtYWlsLmNvbQ==",
+    "twitter": "@aludwikowski",
+    "homepage": "http://www.ludwikowski.info/"
   }
 ]
 }

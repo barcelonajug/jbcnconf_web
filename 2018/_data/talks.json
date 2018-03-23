@@ -248,6 +248,15 @@
 "speakers": [
 "QnJ1bm9Cb3JnZXNicnVuby5ib3JnZXNAZ21haWwuY29t"
 ]
-}
+},
+  {
+    "title": "Performance tests - it’s a trap.",
+    "abstract": "It doesn’t matter if you are from JVM, .Net, PHP or else-world. If you need to test the performance - it will be a challenging task, especially nowadays with microservices architectures, clusters and very complex systems. I would like to address the most common pitfalls in this area. Share my experience gained through demanding experiments and quite often frustrating failures. Although most of the examples come from the JVM world, the aim of this presentation is to show some universal problems, laws and best practices that rule this very specific kind of testing.\n",
+    "type": "talk",
+    "tags": ["testing",
+      "performance tests"],
+    "level": "beginner",
+    "speakers": ["QW5kcnplakx1ZHdpa293c2tpYW5kcnplamx1ZHdpa293c2tpQGdtYWlsLmNvbQ=="]
+  }
 ]
 }
