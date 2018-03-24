@@ -47,6 +47,14 @@
         "src": "/assets/img/sponsors/edreams.png",
         "alt": "eDreams Odigeo"
       }
+    },
+    {
+      "name": "Casumo",
+      "href": "http://www.casumocareers.com/",
+      "image": {
+        "src": "/assets/img/sponsors/casumo.png",
+        "alt": "Casumo"
+      }
     }
   ],
   "silver": [
