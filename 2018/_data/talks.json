@@ -248,6 +248,24 @@
 "speakers": [
 "QnJ1bm9Cb3JnZXNicnVuby5ib3JnZXNAZ21haWwuY29t"
 ]
+},
+{
+    "title": "Real Life Cloud Native Java in Kubernetes",
+    "abstract": "Distributed architectures push us to learn about new patterns, technologies and practices. In this workshop we will present a scenario about how a Global Marketing Company adopted a Cloud Native approach to achieve global scale using Spring Cloud, Activiti Cloud and Kubernetes. Attendees will be able to code along and create marketing campaigns using these technologies to consume, monitor & aggregate Social Media Trending Topics in real time. The main purpose of this workshop is to share with the audience the current advantages and pain points of using technologies such as Spring Cloud when you target Kubernetes as your main deployment platform.",
+    "type": "workshop",
+    "tags": [
+        "cloud native",
+        "spring cloud",
+        "activiti cloud",
+        "global scale",
+        "kubernetes",
+        "docker"
+    ],
+    "level": "middle",
+    "speakers": [
+        "TWF1cmljaW9TYWxhdGlub3NhbGFib3lAZ21haWwuY29t",
+        "TWFyaW9Sb21hbm9tYXJpby5yb21hbm84M0BnbWFpbC5jb20="
+    ]
 }
 ]
 }

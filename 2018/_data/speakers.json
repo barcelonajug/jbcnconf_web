@@ -197,6 +197,17 @@
   "url": "infoSpeaker.html?ref=QWxleFNvdG9hc290b2J1QGdtYWlsLmNvbQ==",
   "twitter": "@alexsotob",
   "homepage": "http://www.lordofthejars.com/"
+  },
+  {
+    "enabled": "1",
+    "name": "Mauricio Salatino",
+    "description": "",
+    "biography": "Mauricio Salatino (salaboy.com) is currently the Activiti Cloud OSS (activiti.org) Tech Leader working at Alfresco. Previously Mauricio worked for Red Hat / JBoss in the Drools & jBPM projects, where he author 4 books about these projects. With more than 10 years of experience in Java and in the Business Automation field Mauricio is pushing forward to modernise a very conservative industry by following the Open Source Way. ",
+    "image": "assets/img/speakers/mauricio-salatino.jpg",
+    "ref": "TWF1cmljaW9TYWxhdGlub3NhbGFib3lAZ21haWwuY29t",
+    "url": "infoSpeaker.html?ref=TWF1cmljaW9TYWxhdGlub3NhbGFib3lAZ21haWwuY29t",
+    "twitter": "https://twitter.com/@salaboy",
+    "homepage": "http://salaboy.com"
   }
 ]
 }
