@@ -87,6 +87,14 @@
         "src": "/assets/img/sponsors/gdg_barcelona.png",
         "alt": "GDG Barcelona"
       }
+    },
+    {
+      "name": "GDG Tarragona",
+      "href": "http://www.gdgtarragona.net",
+      "image": {
+        "src": "/assets/img/sponsors/gdg_tarragona.png",
+        "alt": "GDG Tarragona"
+      }
     }
   ]
 }
