@@ -33,16 +33,22 @@
 
 
             <div class="post-related-posts row">
+                {% assign nsponsor = 0 %}
                 {% for sponsor in site.data.sponsors.gold %}
-                <div class="item col-sm-4 col-xs-12" style="line-height: 200px;">
-                    <div class="image align-middle">
-                        <a href="{{ sponsor.href }}" target="_blank" title="{{ sponsor.name }}"
-                           style=" vertical-align:middle;">
-                            <img src="{{ base }}{{ sponsor.image.src }}" style="max-height:85%; max-width:85%"
-                                 class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
-                                 alt="{{ sponsor.image.alt }}"/></a>
-                    </div>
-                </div>
+                  {% assign mod = forloop.index0 | modulo:3 %}
+                  {% assign style = "line-height: 200px" %}
+                  {% if mod == 0 %}
+                    {% assign style = style | append: "; clear:both" %}
+                  {% endif %}
+                  <div class="item col-sm-4 col-xs-12" style="{{ style }}">
+                      <div class="image align-middle">
+                          <a href="{{ sponsor.href }}" target="_blank" title="{{ sponsor.name }}"
+                             style=" vertical-align:middle;">
+                              <img src="{{ base }}{{ sponsor.image.src }}" style="max-height:85%; max-width:85%"
+                                   class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
+                                   alt="{{ sponsor.image.alt }}"/></a>
+                      </div>
+                  </div>
                 {% endfor %}
             </div>
 
