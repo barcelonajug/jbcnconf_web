@@ -80,8 +80,18 @@
         "alt": "YourKit"
       }
     }
-  ],
-  "supporters": [{
+
+  },
+  {
+  "name": "YourKit",
+    "href": "http://www.yourkit.com/",
+    "image": {
+      "src": "/assets/img/sponsors/yourkit.png",
+      "alt": "YourKit"
+    }
+  }],
+  "supporters": [
+    {
       "name": "Barcelona JUG",
       "href": "http://www.barcelonajug.org/",
       "image": {
