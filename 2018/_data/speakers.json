@@ -78,6 +78,17 @@
     },
     {
       "enabled": "1",
+      "name": "Marcus Biel",
+      "description": "Software Craftsman, Clean Code Evangelist",
+      "biography": "Marcus Biel (@MarcusBiel) is a Software Craftsman, a Clean Code Evangelist and Java influencer. Since 2001, Marcus has worked as a developer and architect on many different Java related projects, mostly in the finance and telecommunications industries. Right now he is working on https://cleancodeacademy.com/, an online platform dedicated to teaching aspiring Java Craftsmen.",
+      "image": "assets/img/speakers/marcus-biel.jpg",
+      "ref": "TWFyY3VzQmllbG1hcmN1c0BjbGVhbmNvZGVhY2FkZW15LmNvbQ==",
+      "url": "infoSpeaker.html?ref=TWFyY3VzQmllbG1hcmN1c0BjbGVhbmNvZGVhY2FkZW15LmNvbQ==",
+      "twitter": "@MarcusBiel",
+      "homepage": "https://cleancodeacademy.com/"
+    },
+    {
+      "enabled": "1",
       "name": "Laurent Doguin",
       "description": "Head of Developer relations at Clever Cloud",
       "biography": "Laurent is Head of Developer relations at Clever Cloud. He's also a nerdy metal head based in Paris and Devoxx Champion. He mostly wrotes code in Java and structured text in AsciiDoc, and often talks about data, reactive programming and other buzzwordy stuff. Laurent is also a former Developer Advocate for Couchbase and Nuxeo where he devoted his time and expertise to helping both communities grow bigger and stronger.",
