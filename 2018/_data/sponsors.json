@@ -7,8 +7,7 @@
       "alt": ""
     }
   },
-  "gold": [
-    {
+  "gold": [{
       "name": "Digital Origin",
       "href": "https://www.digitalorigin.com/",
       "image": {
@@ -57,19 +56,23 @@
       }
     }
   ],
-  "silver": [
-    {
-      "name": "Jetbrains",
-      "href": "https://www.jetbrains.com/",
-      "image": {
-        "src": "/assets/img/sponsors/jetbrains.png",
-        "alt": "Jetbrains"
-      }
+  "silver": [{
+    "name": "Jetbrains",
+    "href": "https://www.jetbrains.com/",
+    "image": {
+      "src": "/assets/img/sponsors/jetbrains.png",
+      "alt": "Jetbrains"
     }
-
-  ],
-  "supporters": [
-    {
+  },
+  {
+    "name": "YourKit",
+    "href": "http://www.yourkit.com/",
+    "image": {
+      "src": "/assets/img/sponsors/yourkit.png",
+      "alt": "YourKit"
+    }
+  }],
+  "supporters": [{
       "name": "Barcelona JUG",
       "href": "http://www.barcelonajug.org/",
       "image": {
