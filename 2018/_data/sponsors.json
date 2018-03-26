@@ -54,25 +54,44 @@
         "src": "/assets/img/sponsors/casumo.png",
         "alt": "Casumo"
       }
+    },
+    {
+      "name": "mytaxi",
+      "href": "https://www.mytaxi.com",
+      "image": {
+        "src": "/assets/img/sponsors/mytaxi.png",
+        "alt": "mytaxi"
+      }
     }
   ],
   "silver": [{
-    "name": "Jetbrains",
-    "href": "https://www.jetbrains.com/",
-    "image": {
-      "src": "/assets/img/sponsors/jetbrains.png",
-      "alt": "Jetbrains"
+      "name": "Jetbrains",
+      "href": "https://www.jetbrains.com/",
+      "image": {
+        "src": "/assets/img/sponsors/jetbrains.png",
+        "alt": "Jetbrains"
+      }
+    },
+    {
+      "name": "YourKit",
+      "href": "http://www.yourkit.com/",
+      "image": {
+        "src": "/assets/img/sponsors/yourkit.png",
+        "alt": "YourKit"
+      }
     }
+
   },
   {
-    "name": "YourKit",
+  "name": "YourKit",
     "href": "http://www.yourkit.com/",
     "image": {
       "src": "/assets/img/sponsors/yourkit.png",
       "alt": "YourKit"
     }
   }],
-  "supporters": [{
+  "supporters": [
+    {
       "name": "Barcelona JUG",
       "href": "http://www.barcelonajug.org/",
       "image": {
@@ -94,6 +113,14 @@
       "image": {
         "src": "/assets/img/sponsors/gdg_barcelona.png",
         "alt": "GDG Barcelona"
+      }
+    },
+    {
+      "name": "GDG Tarragona",
+      "href": "http://www.gdgtarragona.net",
+      "image": {
+        "src": "/assets/img/sponsors/gdg_tarragona.png",
+        "alt": "GDG Tarragona"
       }
     }
   ]
