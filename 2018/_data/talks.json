@@ -218,6 +218,26 @@
       ]
     },
     {
+      "title": "A Craftsman’s Guide to Designing a Clean Architecture",
+      "abstract": "In 2018, it seems like Microservices are the de facto standard for a system architecture, but do they really live up to the hype?\n\nThe talk will show you an alternative approach, how we can tame complexity with the help of a clean, monolithic architecture that is modular to the core.\nBack in 1972, David Parnas coined the most important fundamental concept in object-oriented design: modularity. Java is deliberately built from the ground up on a modular basis: Methods, classes, packages. Additionally, the module system was introduced in Java 9. Modularity is based on three pillars: high cohesion, low coupling and strong encapsulation. We will look at these three basic concepts in detail – what are they, how are they related to one another and how can we apply them on all levels of our architecture?\nThe talk will show you how you can apply these basic concepts to develop a clean, monolithic architecture at scale, based on Java 9 modules and the hexagonal architecture pattern.\nFinally, we will critically discuss microservices. We'll look at what microservices are, as well as at their advantages and disadvantages. We'll examine the technical and organizational requirements necessary for implementing a microservice architecture. Additionally, we'll explore when we should and shouldn't make use of microservices. Finally, we'll learn how to achieve a clean microservice architecture.\n",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Java 9",
+        "Clean Code",
+        "Architecture",
+        "Modularity",
+        "Microservices",
+        "Hexagonal Architecture",
+        "Cohesion",
+        "Coupling"
+      ],
+      "level": "advanced",
+      "speakers": [
+        "TWFyY3VzQmllbG1hcmN1c0BjbGVhbmNvZGVhY2FkZW15LmNvbQ=="
+      ]
+    },
+    {
       "title": "Long Live and Prosper to Monolith",
       "abstract": "Nowadays everyone is talking about microservices and how cool they are. That's true, but not all business needs to move to microservices, you can still use monolith architecture and make it more fashion by applying some of the design/elements that you've learned from microservices architecture.\n\nCan you use circuit breaker pattern, service isolation, event-driven and non-blocking application, cloud-native approach or zero downtime deployment in monolith architecture? Is it worth? The answer is YES!!!.\n\nCome to this session to learn how to make your Java monolith applications attractive again by borrowing some of the principles of microservices architecture.",
       "type": "talk",
