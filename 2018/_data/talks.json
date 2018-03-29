@@ -304,6 +304,19 @@
       "performance tests"],
     "level": "beginner",
     "speakers": ["QW5kcnplakx1ZHdpa293c2tpYW5kcnplamx1ZHdpa293c2tpQGdtYWlsLmNvbQ=="]
+  },
+  {
+    "title": "Supercharging User Experience with Machine Learning on the JVM",
+    "abstract": "On the case study of a novel, web-based search tool, we present how applying modern deep learning techniques can have unprecedented positive impact on user experience of a product. As the main driver, we present a custom deep neural network that continuously adjusts search result ordering based on past user choices.\n\nFurthermore, we illustrate how accessible machine learning recently has become even to developers outside that field: Our search tool features full-fledged image recognition that runs locally—independent of external services—and is based completely on a ready-made pre-trained neural network provided by an open source framework. Similarly, speech-based input to the search bar is implemented relying solely on modern Web APIs.\n\nFinally, we build the bridge to the economic part of software development by demonstrating the integration of our search tool in to a content management system and show how those introduced improvements create real business value.",
+    "type": "talk",
+    "tags": ["Machine Learning",
+      "Search",
+      "Deep Learning",
+      "Content Management",
+      "Java"],
+    "level": "middle",
+    "speakers": ["Q2VkcmljUmVpY2hlbmJhY2hjZWRyaWMucmVpY2hlbmJhY2hAbWFnbm9saWEtY21zLmNvbQ==",
+      "SWxnw7xuSWxnw7xuaWxndW4uaWxndW5AbWFnbm9saWEtY21zLmNvbQ=="]
   }
   ]
 }

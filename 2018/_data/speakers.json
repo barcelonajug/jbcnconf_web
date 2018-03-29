@@ -228,6 +228,26 @@
       "url": "infoSpeaker.html?ref=QW5kcnplakx1ZHdpa293c2tpYW5kcnplamx1ZHdpa293c2tpQGdtYWlsLmNvbQ==",
       "twitter": "@aludwikowski",
       "homepage": "http://www.ludwikowski.info/"
+    },
+    {
+      "enabled": "1",
+      "name": "Cedric Reichenbach",
+      "description": "Software Engineer 2.0",
+      "biography": "Cedric Reichenbach is a software engineer working at Magnolia International in Basel. His main interests lay in software composition and user experience, along with a fascination for mathematics and machine learning. Cedric holds a Master's degree in Computer Science from the University of Bern.",
+      "image": "assets/img/speakers/cedric-reichenbach.jpg",
+      "ref": "Q2VkcmljUmVpY2hlbmJhY2hjZWRyaWMucmVpY2hlbmJhY2hAbWFnbm9saWEtY21zLmNvbQ==",
+      "url": "infoSpeaker.html?ref=Q2VkcmljUmVpY2hlbmJhY2hjZWRyaWMucmVpY2hlbmJhY2hAbWFnbm9saWEtY21zLmNvbQ==",
+      "twitter": "@Cedudidu"
+    },
+    {
+      "enabled": "1",
+      "name": "Ilgün Ilgün",
+      "description": "Senior Software Engineer",
+      "biography": "Ilgün is a Software Engineer who is working at Magnolia since 2015. Prior to Magnolia, he was working for Shazam Entertainment LTD where he was creating distributed software. Ilgün holds a Masters degree in Software Engineering.",
+      "image": "assets/img/speakers/ilgün-ilgün.jpg",
+      "ref": "SWxnw7xuSWxnw7xuaWxndW4uaWxndW5AbWFnbm9saWEtY21zLmNvbQ==",
+      "url": "infoSpeaker.html?ref=SWxnw7xuSWxnw7xuaWxndW4uaWxndW5AbWFnbm9saWEtY21zLmNvbQ==",
+      "twitter": "@ilgun_ilgun"
     }
   ]
 }
