@@ -112,6 +112,14 @@
         "src": "/assets/img/sponsors/gdg_tarragona.png",
         "alt": "GDG Tarragona"
       }
-    }
+    },
+    {
+      "name": "London Java Community",
+      "href": "https://www.meetup.com/Londonjavacommunity/",
+      "image": {
+        "src": "/assets/img/sponsors/london-java-community.png",
+        "alt": "London Java Community"
+      }
+    }    
   ]
 }
