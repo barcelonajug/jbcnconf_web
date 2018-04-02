@@ -62,6 +62,14 @@
         "src": "/assets/img/sponsors/mytaxi.png",
         "alt": "mytaxi"
       }
+    },
+    {
+      "name": "RedHat OpenShift",
+      "href": "https://www.openshift.com/",
+      "image": {
+        "src": "/assets/img/sponsors/openshift.png",
+        "alt": "openshift"
+      }
     }
   ],
   "silver": [{
