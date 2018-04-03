@@ -296,6 +296,28 @@
         "SW9udXRCYWxvc2luaW9udXRiYWxvc2luQHlhaG9vLmNvbQ=="
       ]
     },
+  {
+    "title": "Performance tests - it’s a trap.",
+    "abstract": "It doesn’t matter if you are from JVM, .Net, PHP or else-world. If you need to test the performance - it will be a challenging task, especially nowadays with microservices architectures, clusters and very complex systems. I would like to address the most common pitfalls in this area. Share my experience gained through demanding experiments and quite often frustrating failures. Although most of the examples come from the JVM world, the aim of this presentation is to show some universal problems, laws and best practices that rule this very specific kind of testing.\n",
+    "type": "talk",
+    "tags": ["testing",
+      "performance tests"],
+    "level": "beginner",
+    "speakers": ["QW5kcnplakx1ZHdpa293c2tpYW5kcnplamx1ZHdpa293c2tpQGdtYWlsLmNvbQ=="]
+  },
+  {
+    "title": "Supercharging User Experience with Machine Learning on the JVM",
+    "abstract": "On the case study of a novel, web-based search tool, we present how applying modern deep learning techniques can have unprecedented positive impact on user experience of a product. As the main driver, we present a custom deep neural network that continuously adjusts search result ordering based on past user choices.\n\nFurthermore, we illustrate how accessible machine learning recently has become even to developers outside that field: Our search tool features full-fledged image recognition that runs locally—independent of external services—and is based completely on a ready-made pre-trained neural network provided by an open source framework. Similarly, speech-based input to the search bar is implemented relying solely on modern Web APIs.\n\nFinally, we build the bridge to the economic part of software development by demonstrating the integration of our search tool in to a content management system and show how those introduced improvements create real business value.",
+    "type": "talk",
+    "tags": ["Machine Learning",
+      "Search",
+      "Deep Learning",
+      "Content Management",
+      "Java"],
+    "level": "middle",
+    "speakers": ["Q2VkcmljUmVpY2hlbmJhY2hjZWRyaWMucmVpY2hlbmJhY2hAbWFnbm9saWEtY21zLmNvbQ==",
+      "SWxnw7xuSWxnw7xuaWxndW4uaWxndW5AbWFnbm9saWEtY21zLmNvbQ=="]
+  },
     {
         "title": "Real Life Cloud Native Java in Kubernetes",
         "abstract": "Distributed architectures push us to learn about new patterns, technologies and practices. In this workshop we will present a scenario about how a Global Marketing Company adopted a Cloud Native approach to achieve global scale using Spring Cloud, Activiti Cloud and Kubernetes. Attendees will be able to code along and create marketing campaigns using these technologies to consume, monitor & aggregate Social Media Trending Topics in real time. The main purpose of this workshop is to share with the audience the current advantages and pain points of using technologies such as Spring Cloud when you target Kubernetes as your main deployment platform.",

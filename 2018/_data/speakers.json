@@ -220,6 +220,37 @@
     },
     {
       "enabled": "1",
+      "name": "Andrzej Ludwikowski",
+      "description": "Software Journeyman at SoftwareMill",
+      "biography": "Software Journeyman with over 8 years of experience in commercial software development. Conference speaker and open source contributor. Devotee of DDD, Event Sourcing and Polyglot Persistence. Continuously chasing the dream of a perfect software architecture, fulfilling all of the requirements and trends, even the strangest ones.",
+      "image": "assets/img/speakers/andrzej-ludwikowski.jpg",
+      "ref": "QW5kcnplakx1ZHdpa293c2tpYW5kcnplamx1ZHdpa293c2tpQGdtYWlsLmNvbQ==",
+      "url": "infoSpeaker.html?ref=QW5kcnplakx1ZHdpa293c2tpYW5kcnplamx1ZHdpa293c2tpQGdtYWlsLmNvbQ==",
+      "twitter": "@aludwikowski",
+      "homepage": "http://www.ludwikowski.info/"
+    },
+    {
+      "enabled": "1",
+      "name": "Cedric Reichenbach",
+      "description": "Software Engineer 2.0",
+      "biography": "Cedric Reichenbach is a software engineer working at Magnolia International in Basel. His main interests lay in software composition and user experience, along with a fascination for mathematics and machine learning. Cedric holds a Master's degree in Computer Science from the University of Bern.",
+      "image": "assets/img/speakers/cedric-reichenbach.jpg",
+      "ref": "Q2VkcmljUmVpY2hlbmJhY2hjZWRyaWMucmVpY2hlbmJhY2hAbWFnbm9saWEtY21zLmNvbQ==",
+      "url": "infoSpeaker.html?ref=Q2VkcmljUmVpY2hlbmJhY2hjZWRyaWMucmVpY2hlbmJhY2hAbWFnbm9saWEtY21zLmNvbQ==",
+      "twitter": "@Cedudidu"
+    },
+    {
+      "enabled": "1",
+      "name": "Ilgün Ilgün",
+      "description": "Senior Software Engineer",
+      "biography": "Ilgün is a Software Engineer who is working at Magnolia since 2015. Prior to Magnolia, he was working for Shazam Entertainment LTD where he was creating distributed software. Ilgün holds a Masters degree in Software Engineering.",
+      "image": "assets/img/speakers/ilgun-ilgun.jpg",
+      "ref": "SWxnw7xuSWxnw7xuaWxndW4uaWxndW5AbWFnbm9saWEtY21zLmNvbQ==",
+      "url": "infoSpeaker.html?ref=SWxnw7xuSWxnw7xuaWxndW4uaWxndW5AbWFnbm9saWEtY21zLmNvbQ==",
+      "twitter": "@ilgun_ilgun"
+    },
+    {
+      "enabled": "1",
       "name": "Mauricio Salatino",
       "description": "Tech Leader at Alfresco",
       "biography": "Mauricio Salatino (salaboy.com) is currently the Activiti Cloud OSS (activiti.org) Tech Leader working at Alfresco. Previously Mauricio worked for Red Hat / JBoss in the Drools & jBPM projects, where he author 4 books about these projects. With more than 10 years of experience in Java and in the Business Automation field Mauricio is pushing forward to modernise a very conservative industry by following the Open Source Way. ",
