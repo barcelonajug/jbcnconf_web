@@ -12138,6 +12138,14 @@ hr.sponsor-separator:after {
     background: white;
 }
 
+.sponsor-diamond h1 {
+
+    background: #ffb347; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ff0000, #ff4747); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ff0000, #ff4747); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 .sponsor-gold {
 
     background: #ffb347; /* fallback for old browsers */
@@ -12166,19 +12174,19 @@ hr.sponsor-separator:after {
  */
 
 .sponsor-diamond img {
-    width: 30%;
+    width: 50%;
     height: auto;
 }
 
 @media (max-width: 600px) {
     .sponsor-diamond img {
-        width: 90%;
+        width: 30%;
     }
 }
 
 
 @media (max-width: 900px) {
     .sponsor-diamond img {
-        width: 80%;
+        width: 40%;
     }
 }

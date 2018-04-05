@@ -1,10 +1,10 @@
 {
   "diamond": {
-    "name": "TBD",
-    "href": "",
+    "name": "Skyscanner",
+    "href": "https://www.skyscanner.com",
     "image": {
-      "src": "",
-      "alt": ""
+      "src": "/assets/img/sponsors/skyscanner.png",
+      "alt": "Skyscanner"
     }
   },
   "gold": [{
