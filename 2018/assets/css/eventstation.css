@@ -12140,9 +12140,10 @@ hr.sponsor-separator:after {
 
 .sponsor-diamond h1 {
 
-    background: #ffb347; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #ff0000, #ff4747); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #ff0000, #ff4747); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FF0000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FF0000, #DC143C); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FF0000, #DC143C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color : #FFF5EE;
 
 }
 
