@@ -64,6 +64,14 @@
       }
     },
     {
+      "name": "Altran",
+      "href": "https://www.altran.com/es",
+      "image": {
+        "src": "/assets/img/sponsors/altran-logo.jpg",
+        "alt": "Altran"
+      }
+    },
+    {
       "name": "RedHat OpenShift",
       "href": "https://www.openshift.com/",
       "image": {
@@ -128,6 +136,6 @@
         "src": "/assets/img/sponsors/london-java-community.png",
         "alt": "London Java Community"
       }
-    }    
+    }
   ]
 }
