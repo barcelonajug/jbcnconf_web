@@ -335,6 +335,21 @@
             "TWF1cmljaW9TYWxhdGlub3NhbGFib3lAZ21haWwuY29t",
             "TWFyaW9Sb21hbm9tYXJpby5yb21hbm84M0BnbWFpbC5jb20="
         ]
-    }        
+    },
+    {
+      "title": "GraphQL in Java World",
+      "abstract": "Join me in this workshop, while I take you into magical world of GraphQL, \"new\" way of building cool and responsive API's. I will show and explain to you what GraphQL is, how we can build GraphQL API in good old Java, when and why you should use GraphQL, and also when and where not to use GraphQL. Come seeking knowledge, and you will leave this workshop with new tricks in your bag and great knowledge of GraphQL.",
+      "type": "workshop",
+      "tags": [
+        "Java",
+        "GraphQL",
+        "API",
+        "Rest"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "vladimirdejanovic"
+      ]
+    }
   ]
 }
