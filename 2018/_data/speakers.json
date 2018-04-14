@@ -259,6 +259,49 @@
       "url": "infoSpeaker.html?ref=TWF1cmljaW9TYWxhdGlub3NhbGFib3lAZ21haWwuY29t",
       "twitter": "https://twitter.com/@salaboy",
       "homepage": "http://salaboy.com"
-    }  
+    },
+    {
+      "enabled": "1",
+      "name": "Vladimir Dejanovic",
+      "description": "Founder and leader of AmsterdamJUG",
+      "biography": "IT Consultant, Software Architect, Team Lead and Chapter Lead working in industry since 2006 developing high performance software in multiple programming languages and technologies from desktop to mobile and web with high load traffic. Enjoining developing software mostly in Java and JavaScript, however also wrote fair share of code in Scala, C++, C, PHP, Go, Objective-C, Python, R, Lisp and many others.",
+      "image": "assets/img/speakers/vladimir-dejanovic.png",
+      "ref": "vladimirdejanovic",
+      "url": "infoSpeaker.html?ref=vladimirdejanovic",
+      "twitter": "https://twitter.com/@VladimirD_42",
+      "homepage": "http://itshark.xyz/"
+    },
+    {
+      "enabled": "1",
+      "name": "Jordi Jose",
+      "description": "Full Professor of Physics at UPC",
+      "biography": "Jordi JOSE is a Full Professor of Physics at UPC, where he is\ncurrently the Astronomy & Astrophysics Group coordinator.\nHe has published about 150 papers in Stellar Astrophysics, Cosmochemistry\nand Nuclear physics (including articles in journals such as \"Nature\").\nHe has been Visiting Professor in many international institutions,\nincluding the Univ. of Chicago, ULB Brussels, Univ. of Pisa, TRIUMF Vancouver,\nor the Univ. of North Carolina at Chapel Hill.\nHe has been the Director of the Department of Physics at UPC\n(2012-2016), and the National Coordinator in the area\nof Astronomy and Astrophysics at ANEP (Ministry of Economy, Madrid; 2014-2017).\nHe has also written hundreds of popular science texts focused on the relation between\nscience and science fiction for different media (e.g., diario el País) and has\nwritten several books on this subject. He has also been frequent collaborator\nin Radio Euskadi, BTV and TVE.",
+      "image": "assets/img/speakers/jordi-jose.jpg",
+      "ref": "Sm9yZGlKb3Nlam9yZGkuam9zZUB1cGMuZWR1",
+      "url": "infoSpeaker.html?ref=Sm9yZGlKb3Nlam9yZGkuam9zZUB1cGMuZWR1",
+      "twitter": null,
+      "homepage": null
+    },
+    {    
+      "name": "Richard Warburton",
+      "description": "Java Champion, cofounder of Opsian.com",
+      "biography": "Richard is a Software Engineer, Teacher and Java Champion. He is the cofounder of Opsian.com and has a long-standing passion for improving Java performance. He’s worked as a developer in different areas including HFT, Static Analysis, Compilers and Network Protocols. He has written the book “Java 8 Lambdas” for O’Reilly and helps developers learn via http://iteratrlearning.com and http://www.pluralsight.com/author/richard-warburton. He is a regular speaker on the conference circuit and holds a PhD in Computer Science from The University of Warwick.",
+      "image": "assets/img/speakers/richard-warburton.jpg",
+      "ref": "UmljaGFyZFdhcmJ1cnRvbnJpY2hhcmQud2FyYnVydG9uK2piY25AZ21haWwuY29t",
+      "url": "infoSpeaker.html?ref=UmljaGFyZFdhcmJ1cnRvbnJpY2hhcmQud2FyYnVydG9uK2piY25AZ21haWwuY29t",
+      "twitter": "https://twitter.com/@richardwarburto",
+      "homepage": "http://insightfullogic.com"
+    },
+    {
+      "enabled": "1",
+      "name": "Sander Mak",
+      "description": "Java Champion, working at Luminis",
+      "biography": "Sander is a Fellow at Luminis in The Netherlands, where he crafts modular and scalable software, most often on the JVM, but with a touch of TypeScript when needed. He also is a Java Champion and author of the O'Reilly book 'Java 9 Modularity' (see javamodularity.com). As an avid conference speaker, Sander loves sharing knowledge, also through his blog at http://branchandbound.net and as Pluralsight instructor.",
+      "image": "assets/img/speakers/sander-mak.jpg",
+      "ref": "U2FuZGVyTWFrc2FuZGVyLm1ha0BsdW1pbmlzLmV1",
+      "url": "infoSpeaker.html?ref=U2FuZGVyTWFrc2FuZGVyLm1ha0BsdW1pbmlzLmV1",
+      "twitter": "https://twitter.com/@Sander_Mak",
+      "homepage": "https://javamodularity.com"
+    }
   ]
 }
