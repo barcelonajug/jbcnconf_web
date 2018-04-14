@@ -281,6 +281,17 @@
     "url": "infoSpeaker.html?ref=UmljaGFyZFdhcmJ1cnRvbnJpY2hhcmQud2FyYnVydG9uK2piY25AZ21haWwuY29t",
     "twitter": "https://twitter.com/@richardwarburto",
     "homepage": "http://insightfullogic.com"
+    },
+    {
+      "enabled": "1",
+      "name": "Sander Mak",
+      "description": "Java Champion, working at Luminis",
+      "biography": "Sander is a Fellow at Luminis in The Netherlands, where he crafts modular and scalable software, most often on the JVM, but with a touch of TypeScript when needed. He also is a Java Champion and author of the O'Reilly book 'Java 9 Modularity' (see javamodularity.com). As an avid conference speaker, Sander loves sharing knowledge, also through his blog at http://branchandbound.net and as Pluralsight instructor.",
+      "image": "assets/img/speakers/sander-mak.jpg",
+      "ref": "U2FuZGVyTWFrc2FuZGVyLm1ha0BsdW1pbmlzLmV1",
+      "url": "infoSpeaker.html?ref=U2FuZGVyTWFrc2FuZGVyLm1ha0BsdW1pbmlzLmV1",
+      "twitter": "https://twitter.com/@Sander_Mak",
+      "homepage": "https://javamodularity.com"
     }
   ]
 }
