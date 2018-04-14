@@ -350,6 +350,20 @@
       "speakers": [
         "vladimirdejanovic"
       ]
+    },
+    {
+      "title": "Modular Java Development in Action",
+      "abstract": "With Java 9 and later, modularity comes to your doorstep (whether you ordered it or not). This isn’t your average language feature: making the most out of it may involve rewiring your brain. In this session we explore the benefits of a modular codebase using Java  modules. Because who doesn’t like more reliable and secure applications, meanwhile killing the dreaded classpath?\n\nAfter reviewing the basic concepts of modules, we’ll explore other new features like services and linking that enhance your design and development skills. Want examples? We’ve got plenty in this practical and code-driven talk. Even if you intend to use Java without modules at first, this talk helps you prevent common issues. You’ll be ready for the modular future of Java before you know it.",
+      "type": "talk",
+      "tags": [
+      "modularity",
+      "java 9",
+      "java 10"
+      ],
+      "level": "middle",
+      "speakers": [
+      "U2FuZGVyTWFrc2FuZGVyLm1ha0BsdW1pbmlzLmV1"
+      ]
     }
   ]
 }
