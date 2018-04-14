@@ -272,6 +272,17 @@
       "homepage": "http://itshark.xyz/"
     },
     {
+    "enabled": "1",
+    "name": "Richard Warburton",
+    "description": "Java Champion, cofounder of Opsian.com",
+    "biography": "Richard is a Software Engineer, Teacher and Java Champion. He is the cofounder of Opsian.com and has a long-standing passion for improving Java performance. He’s worked as a developer in different areas including HFT, Static Analysis, Compilers and Network Protocols. He has written the book “Java 8 Lambdas” for O’Reilly and helps developers learn via http://iteratrlearning.com and http://www.pluralsight.com/author/richard-warburton. He is a regular speaker on the conference circuit and holds a PhD in Computer Science from The University of Warwick.",
+    "image": "assets/img/speakers/richard-warburton.jpg",
+    "ref": "UmljaGFyZFdhcmJ1cnRvbnJpY2hhcmQud2FyYnVydG9uK2piY25AZ21haWwuY29t",
+    "url": "infoSpeaker.html?ref=UmljaGFyZFdhcmJ1cnRvbnJpY2hhcmQud2FyYnVydG9uK2piY25AZ21haWwuY29t",
+    "twitter": "https://twitter.com/@richardwarburto",
+    "homepage": "http://insightfullogic.com"
+    },
+    {
       "enabled": "1",
       "name": "Sander Mak",
       "description": "Java Champion, working at Luminis",
@@ -281,6 +292,6 @@
       "url": "infoSpeaker.html?ref=U2FuZGVyTWFrc2FuZGVyLm1ha0BsdW1pbmlzLmV1",
       "twitter": "https://twitter.com/@Sander_Mak",
       "homepage": "https://javamodularity.com"
-      }
+    }
   ]
 }
