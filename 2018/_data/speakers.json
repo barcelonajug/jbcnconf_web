@@ -270,6 +270,17 @@
       "url": "infoSpeaker.html?ref=vladimirdejanovic",
       "twitter": "https://twitter.com/@VladimirD_42",
       "homepage": "http://itshark.xyz/"
+    },
+    {
+    "enabled": "1",
+    "name": "Jordi Jose",
+    "description": "Full Professor of Physics at UPC",
+    "biography": "Jordi JOSE is a Full Professor of Physics at UPC, where he is\ncurrently the Astronomy & Astrophysics Group coordinator.\nHe has published about 150 papers in Stellar Astrophysics, Cosmochemistry\nand Nuclear physics (including articles in journals such as \"Nature\").\nHe has been Visiting Professor in many international institutions,\nincluding the Univ. of Chicago, ULB Brussels, Univ. of Pisa, TRIUMF Vancouver,\nor the Univ. of North Carolina at Chapel Hill.\nHe has been the Director of the Department of Physics at UPC\n(2012-2016), and the National Coordinator in the area\nof Astronomy and Astrophysics at ANEP (Ministry of Economy, Madrid; 2014-2017).\nHe has also written hundreds of popular science texts focused on the relation between\nscience and science fiction for different media (e.g., diario el País) and has\nwritten several books on this subject. He has also been frequent collaborator\nin Radio Euskadi, BTV and TVE.",
+    "image": "assets/img/speakers/jordi-jose.jpg",
+    "ref": "Sm9yZGlKb3Nlam9yZGkuam9zZUB1cGMuZWR1",
+    "url": "infoSpeaker.html?ref=Sm9yZGlKb3Nlam9yZGkuam9zZUB1cGMuZWR1",
+    "twitter": null,
+    "homepage": null
     }
   ]
 }
