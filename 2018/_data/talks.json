@@ -352,18 +352,47 @@
       ]
     },
     {
-    "title": "Surfing through Spacetime - Science in the Movies",
-    "abstract": "Can a billion-tone spaceship change direction in space by simply turning a wheel? Can an astronaut survive a launch at 10g? Should we expect a space invasion from a planet located 90 billion light-years away? Can humans live on Mars?\nNever has a film director dared place a mobile phone in the court of Henry VIII. In sharp contrast, the ships of Star Wars roar in the vacuum of space, fire colorful laser beams, and remain in flames for hours after a fatal encounter, without awaking a single criticism. Our society is, more than ever, intertwined with technology, such that we daily rely on GPS devices, MP4 players, microwave ovens, and laptops. Indeed, science and technology are a critical component of our culture, and yet, we do not fully trust (and little understand about) science and technology.\nIn this talk we will explore science facts in science fiction. The audience will be kindly requested to fasten their seat belts for a fascinating trip to the mysteries and wonders of science at the crossroads with fiction.",
-    "type": "talk",
-    "tags": [
-    "fun",
-    "scify",
-    "startwars"
-    ],
-    "level": "talk",
-    "speakers": [
-    "Sm9yZGlKb3Nlam9yZGkuam9zZUB1cGMuZWR1"
-    ]
+      "title": "Surfing through Spacetime - Science in the Movies",
+      "abstract": "Can a billion-tone spaceship change direction in space by simply turning a wheel? Can an astronaut survive a launch at 10g? Should we expect a space invasion from a planet located 90 billion light-years away? Can humans live on Mars?\nNever has a film director dared place a mobile phone in the court of Henry VIII. In sharp contrast, the ships of Star Wars roar in the vacuum of space, fire colorful laser beams, and remain in flames for hours after a fatal encounter, without awaking a single criticism. Our society is, more than ever, intertwined with technology, such that we daily rely on GPS devices, MP4 players, microwave ovens, and laptops. Indeed, science and technology are a critical component of our culture, and yet, we do not fully trust (and little understand about) science and technology.\nIn this talk we will explore science facts in science fiction. The audience will be kindly requested to fasten their seat belts for a fascinating trip to the mysteries and wonders of science at the crossroads with fiction.",
+      "type": "talk",
+      "tags": [
+      "fun",
+      "scify",
+      "startwars"
+      ],
+      "level": "talk",
+      "speakers": [
+      "Sm9yZGlKb3Nlam9yZGkuam9zZUB1cGMuZWR1"
+      ]
+    },
+    {
+      "title": "Production Profiling: What, Why and How",
+      "abstract": "Everyone wants to understand what their application is really doing in production, but this information is normally invisible to developers. Profilers tell you what code your application is running but few developers profile and mostly on their development environments. Thankfully production profiling is now a practical reality that can help you solve and avoid performance problems.\n\nProfiling in development can be problematic because it’s rare that you have a realistic workload or performance test for your system. Even if you’ve got accurate perf tests maintaining these and validating that they represent production systems is hugely time consuming and hard. Not only that but often the hardware and operating system that you run in production are different from your development environment.\n\nThis pragmatic talk will help you understand the ins and outs of profiling in a production system. You’ll learn about different techniques and approaches that help you understand what’s really happening with your system. This helps you to solve new performance problems, regressions and undertake capacity planning exercises.",
+      "type": "talk",
+      "tags": [
+      "performance",
+      "profiling",
+      "java",
+      "jvm"
+      ],
+      "level": "middle",
+      "speakers": [
+      "UmljaGFyZFdhcmJ1cnRvbnJpY2hhcmQud2FyYnVydG9uK2piY25AZ21haWwuY29t"
+      ]
+    },
+    {
+      "title": "Modular Java Development in Action",
+      "abstract": "With Java 9 and later, modularity comes to your doorstep (whether you ordered it or not). This isn’t your average language feature: making the most out of it may involve rewiring your brain. In this session we explore the benefits of a modular codebase using Java  modules. Because who doesn’t like more reliable and secure applications, meanwhile killing the dreaded classpath?\n\nAfter reviewing the basic concepts of modules, we’ll explore other new features like services and linking that enhance your design and development skills. Want examples? We’ve got plenty in this practical and code-driven talk. Even if you intend to use Java without modules at first, this talk helps you prevent common issues. You’ll be ready for the modular future of Java before you know it.",
+      "type": "talk",
+      "tags": [
+      "modularity",
+      "java 9",
+      "java 10"
+      ],
+      "level": "middle",
+      "speakers": [
+      "U2FuZGVyTWFrc2FuZGVyLm1ha0BsdW1pbmlzLmV1"
+      ]
     }
   ]
 }
