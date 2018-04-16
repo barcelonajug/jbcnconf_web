@@ -78,6 +78,14 @@
         "src": "/assets/img/sponsors/openshift.png",
         "alt": "openshift"
       }
+    },
+    {
+      "name": "everis",
+      "href": "https://www.everis.com/spain/es/whatwedo/technology",
+      "image": {
+        "src": "/assets/img/sponsors/everis-logo.png",
+        "alt": "everis"
+      }
     }
   ],
   "silver": [{
