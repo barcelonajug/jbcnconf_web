@@ -393,6 +393,20 @@
       "speakers": [
       "U2FuZGVyTWFrc2FuZGVyLm1ha0BsdW1pbmlzLmV1"
       ]
+    },
+    {
+      "title": "Reactive Integrations - Caveats and bumps in the road explained",
+      "abstract": "Protecting Monoliths - Streaming and Backpressure to the rescue.\nWith the growing demand for fast data and streaming applications, enterprises are forced to evaluate\noptions to integrate these new Reactive applications into their existing legacy world. While a greenfield solutions as a complete replacement might be the easiest option it also is the most unrealistic one in many cases. But how do you make the monolith ready for tomorrows fast data requirements? What is back pressure and how do prevent my existing infrastructures from being overloaded? This session gives an overview of Streaming and frameworks and shows how to integrate into existing systems. After this talk, you will know the advantages and disadvantages of each approach and you are able to evaluate the right modernization approach for your applications.",
+      "type": "talk",
+      "tags": [
+      "Reactive",
+      "Microservices",
+      "Streams"
+      ],
+      "level": "middle",
+      "speakers": [
+      "TWFya3VzRWlzZWxlbUBsaWdodGJlbmQuY29t"
+      ]
     }
   ]
 }
