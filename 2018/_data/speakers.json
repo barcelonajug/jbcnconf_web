@@ -282,7 +282,7 @@
       "twitter": null,
       "homepage": null
     },
-    {    
+    {
       "name": "Richard Warburton",
       "description": "Java Champion, cofounder of Opsian.com",
       "biography": "Richard is a Software Engineer, Teacher and Java Champion. He is the cofounder of Opsian.com and has a long-standing passion for improving Java performance. He’s worked as a developer in different areas including HFT, Static Analysis, Compilers and Network Protocols. He has written the book “Java 8 Lambdas” for O’Reilly and helps developers learn via http://iteratrlearning.com and http://www.pluralsight.com/author/richard-warburton. He is a regular speaker on the conference circuit and holds a PhD in Computer Science from The University of Warwick.",
@@ -302,6 +302,17 @@
       "url": "infoSpeaker.html?ref=U2FuZGVyTWFrc2FuZGVyLm1ha0BsdW1pbmlzLmV1",
       "twitter": "https://twitter.com/@Sander_Mak",
       "homepage": "https://javamodularity.com"
+    },
+    {
+    "enabled": "1",
+    "name": "Markus Eisele",
+    "description": "Java Champion, Director of Developer Advocacy at Lightbend",
+    "biography": "Markus Eisele is a Java Champion, former Java EE Expert Group member,  founder of JavaLand, reputed speaker at Java conferences around the world, and a very well known figure in the Enterprise Java world. He is the Director of Developer Advocacy at Lightbend.\nYou’ve known and seen him at different conferences and Java User Groups meetups or read his blogs or are following his social media presence. While talking about middleware for many years you’ll continue to hear him talk about enterprise-grade Java going forward. Focussed on education about the latest trends in building enterprise systems in a reactive way with Java.\n",
+    "image": "assets/img/speakers/markus-eisele.jpg",
+    "ref": "TWFya3VzRWlzZWxlbUBsaWdodGJlbmQuY29t",
+    "url": "infoSpeaker.html?ref=TWFya3VzRWlzZWxlbUBsaWdodGJlbmQuY29t",
+    "twitter": "https://twitter.com/@myfear",
+    "homepage": "http://www.eisele.net"
     }
   ]
 }
