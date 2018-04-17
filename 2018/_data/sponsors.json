@@ -80,6 +80,14 @@
       }
     },
     {
+      "name": "GFT",
+      "href": "http://www.gft.com/es",
+      "image": {
+        "src": "/assets/img/sponsors/gft-logo.jpg",
+        "alt": "GFT"
+      }
+    },
+    {
       "name": "everis",
       "href": "https://www.everis.com/spain/es/whatwedo/technology",
       "image": {
