@@ -395,6 +395,36 @@
       ]
     },
     {
+      "title": "Reactive Integrations - Caveats and bumps in the road explained",
+      "abstract": "Protecting Monoliths - Streaming and Backpressure to the rescue.\nWith the growing demand for fast data and streaming applications, enterprises are forced to evaluate\noptions to integrate these new Reactive applications into their existing legacy world. While a greenfield solutions as a complete replacement might be the easiest option it also is the most unrealistic one in many cases. But how do you make the monolith ready for tomorrows fast data requirements? What is back pressure and how do prevent my existing infrastructures from being overloaded? This session gives an overview of Streaming and frameworks and shows how to integrate into existing systems. After this talk, you will know the advantages and disadvantages of each approach and you are able to evaluate the right modernization approach for your applications.",
+      "type": "talk",
+      "tags": [
+      "Reactive",
+      "Microservices",
+      "Streams"
+      ],
+      "level": "middle",
+      "speakers": [
+      "TWFya3VzRWlzZWxlbUBsaWdodGJlbmQuY29t"
+      ]
+    },
+    {
+      "title":"Stream Processing in Telco - lessons learned",
+      "type":"talk",
+      "abstract":"Two years ago we introduced stream processing engine Apache Flink in one of the largest polish mobile operators. We started with real time marketing and gradually moved to fraud detection and other areas. Today we have around 50 jobs, together they process at peak more than 150k events per second.\nIn the talk I'd like to share our experiences. Some of them are technical: what is our stack (Flink, Kafka and so on) and how do we use it, what are the challenges of processing tens of thousands of messages per second, how to deal with large state.\nSome are more organisational - how is it different to design, test and monitor stream processing jobs than to use batch jobs or 'normal' applications.\nI'd also like to talk a bit about open source project that we created during this journey - Nussknacker, which is a tool for designing streaming processes with GUI - it's used by analysts at our client.\n",
+      "tags":["stream processing","telco","kafka","flink"],
+      "level":"middle",
+      "speakers":["TWFjaWVrUHLDs2Nobmlha21hY2llay5wcm9jaG5pYWtAZ21haWwuY29t"]
+    },
+    {
+      "title":"Eventing with Apache Kafka - Having data is better than needing data",
+      "abstract":"When building our microservice platform we wondered how services should consume data without opening the gates of hell by doing endless chains of API calls. We realized one fact: Having data is better than needing data. Therefore we decided to allow services to keep data redundant. Letting 40 teams work as autonomous as possible we introduced “eventing” and Apache Kafka to reduce dependencies when answering requests. This talk shows the principles and basics about asynchronous communication with Apache Kafka along with code samples. We’ll show you how simple producers and consumers can be written, how domain events are passed around between services and the most common pitfalls to be avoided for developers. ",
+      "type":"talk",
+      "tags":["Java","Microservices","Architecture"],
+      "level":"beginner",
+      "speakers":["QW5zZ2FyQnJhdW5lcmFAanVnZG8uZGU=","U2ViYXN0aWFuR2F1ZGVyc2ViYXN0aWFuLmdhdWRlckByZXdlLWRpZ2l0YWwuY29t"]
+    },
+    {
       "title": "Let's build a blockchain in 50 minutes!",
       "abstract": "Blockchain technology is hot! But how does it actually work? I always found that the best way to get familiar with new technology is to build something with it. \n\nSo, let's build a blockchain, then!\n\nIn this live coding session, I will build a blockchain from scratch, using Java 8 with a little SpringBoot sprinkled over it. The talk will include all concepts of a blockchain, like transactions, blocks, immutability, proof-of-work, and consensus in the network. After this session you will have a better understanding of how blockchains work and how to implement them!",
       "type": "talk",
@@ -408,6 +438,5 @@
         "QW5kcnplakdyemVzaWthbmRyemVqLmdyemVzaWtAZ21haWwuY29t"
       ]
     }
-
   ]
 }

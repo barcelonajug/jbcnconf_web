@@ -152,6 +152,14 @@
         "src": "/assets/img/sponsors/london-java-community.png",
         "alt": "London Java Community"
       }
+    },
+    {
+      "name": "Tech & Ladies",
+      "href": "https://www.meetup.com/tech-ladies-Barcelona/",
+      "image": {
+        "src": "/assets/img/sponsors/technladies.jpg",
+        "alt": "Tech & Ladies Barcelona"
+      }
     }
   ]
 }
