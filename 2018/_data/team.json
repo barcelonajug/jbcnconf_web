@@ -70,6 +70,18 @@
         "url": "/assets/img/team/sergio-ferraz.jpg",
         "alt": "Sergio Ferraz"
       }
+    },
+    {
+      "name": "Tetiana Borys",
+      "position": "Software Engineer",
+      "role": "Barcelona JUG Conference contributor",
+      "bio": "I am a software developer specialized in Java. Passionate about innovations in coding, love working with open source technology.",
+      "linkedin": "https://www.linkedin.com/in/tetianaborys",
+      "twitter": "https://twitter.com/TetianaBorys",
+      "image": {
+        "url": "/assets/img/team/tetiana.jpg",
+        "alt": "Tetiana Borys"
+      }
     }
   ]
 }
