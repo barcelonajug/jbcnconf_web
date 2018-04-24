@@ -313,6 +313,101 @@
     "url": "infoSpeaker.html?ref=TWFya3VzRWlzZWxlbUBsaWdodGJlbmQuY29t",
     "twitter": "https://twitter.com/@myfear",
     "homepage": "http://www.eisele.net"
-    }
+    },
+    {
+      "enabled":"1",
+      "name":"Maciek Próchniak",
+      "description":"Leader of TouK Nussknacker",
+      "biography":"In the past algebraic topologist, for more than 10 years JVM developer (Java, Scala, …), currently architect/(lead) developer – but my roles vary from analysis to devops.\nMy main fields of interest are integration (Camel, OSGi), functional programming and stream processing systems (Akka, Kafka, Flink).\nI also like to give talks at conferences – Confitura, JEEConf, VoxxedDays, JBCNConf just to name a few.\nCurrently I’m leader of TouK Nussknacker – project which enables analysts to create streaming jobs with friendly UI.\n\n",
+      "image":"assets/img/speakers/maciek_prochniak.png",
+      "ref":"TWFjaWVrUHLDs2Nobmlha21hY2llay5wcm9jaG5pYWtAZ21haWwuY29t",
+      "url":"infoSpeaker.html?ref=TWFjaWVrUHLDs2Nobmlha21hY2llay5wcm9jaG5pYWtAZ21haWwuY29t",
+      "twitter":"@mpproch",
+      "homepage":"http://mproch.blogspot.com"
+    },
+    {
+      "enabled":"1",
+      "name":"Ansgar Brauner",
+      "description":"Software Architect at REWE Digital",
+      "biography":"Ansgar Brauner works at REWE Digital as Software Architect, taking care of the Domain Fulfillment. After working at Zalando he started at REWE Digital in 2014 to help one of Europe’s biggest food retailers building the leading food eCommerce platform in Europe. Beside enabling 15 teams to work autonomously he helps the product owners to not neglect the technical view. Ansgar leads the Java User Group Dortmund is a speaker at international software development conferences like JavaOne, Devnexus, JPrime and Javaland and likes playing around with Microcontrollers.",
+      "image":"assets/img/speakers/abrauner.jpg",
+      "ref":"QW5zZ2FyQnJhdW5lcmFAanVnZG8uZGU=",
+      "url":"infoSpeaker.html?ref=QW5zZ2FyQnJhdW5lcmFAanVnZG8uZGU=",
+      "twitter":"@a_brauner",
+      "homepage":"https://jugdo.de"
+    },
+    {
+      "enabled":"1",
+      "name":"Sebastian Gauder",
+      "description":"Software Architect at REWE Digital",
+      "biography":"Sebastian Gauder is working at REWE Digital as Software Architect, taking care of the Domain Site landing. He worked at Adobe before he started to help REWE Digitals to help one of Europe’s biggest food retailers building the leading food eCommerce platform in Germany. Beside enabling 7 teams to work autonomously he helps the product owners to not neglect the technical view. Sebastian spends his spare time playing inline hockey.",
+      "image":"assets/img/speakers/sgauder.png",
+      "ref":"U2ViYXN0aWFuR2F1ZGVyc2ViYXN0aWFuLmdhdWRlckByZXdlLWRpZ2l0YWwuY29t",
+      "url":"infoSpeaker.html?ref=U2ViYXN0aWFuR2F1ZGVyc2ViYXN0aWFuLmdhdWRlckByZXdlLWRpZ2l0YWwuY29t",
+      "twitter":"@rattakresch",
+      "homepage":""
+    },
+    {
+      "enabled": "1",
+      "name": "Daniel Lebrero",
+      "description": "Senior Platforms Engineer at Akvo",
+      "biography": "Daniel Lebrero is a technical architect with more than 15 years of software development experience. He has worked on monolithic websites, embedded applications, low latency systems, micro services, streaming applications and big data. He now creates open source software at Akvo.",
+      "image": "assets/img/speakers/daniel-lebrero.jpg",
+      "ref": "RGFuaWVsTGVicmVyb2RsZWJyZXJvQGdtYWlsLmNvbQ==",
+      "url": "infoSpeaker.html?ref=RGFuaWVsTGVicmVyb2RsZWJyZXJvQGdtYWlsLmNvbQ==",
+      "twitter": "@danlebrero",
+      "homepage": "http://danlebrero.com"
+  },
+  {
+      "enabled": "1",
+      "name": "Dr. Philipp Lengauer",
+      "description": "Software Engineer at Dynatrace",
+      "biography": "Philipp Lengauer has obtained his PhD in Engineering Sciences from the Johannes Kepler University in Linz, Austria. He has several years of experience in teaching programming in Java, compiler construction, and performance evaluation.",
+      "image": "assets/img/speakers/philipp-lengauer.png",
+      "ref": "RHIuUGhpbGlwcExlbmdhdWVycGhpbGlwcC5sZW5nYXVlckBkeW5hdHJhY2UuY29t",
+      "url": "infoSpeaker.html?ref=RHIuUGhpbGlwcExlbmdhdWVycGhpbGlwcC5sZW5nYXVlckBkeW5hdHJhY2UuY29t"
+  },
+  {
+    "enabled": "1",
+    "name": "Andrzej Czarny",
+    "description": "Software Engineer at Ocado Technology",
+    "biography": "His work is mostly focused on real time performance of warehouse control systems. He is involved in creating testing frameworks and Continuous Integrations for multiple teams. His main area of expertise is Java and concurrency.",
+    "image": "assets/img/speakers/andrzej-czarny.jpg",
+    "ref": "QW5kcnplakN6YXJueWFtY3phcm55QGdtYWlsLmNvbQ==",
+    "url": "infoSpeaker.html?ref=QW5kcnplakN6YXJueWFtY3phcm55QGdtYWlsLmNvbQ=="
+  },
+  {
+    "enabled": "1",
+    "name": "Burr Sutter",
+    "description": "Director of Developer Experience at Red Hat",
+    "biography": "A lifelong developer advocate, community organizer, and technology evangelist, Burr Sutter is a featured speaker at technology events around the globe—from Bangalore to Brussels and Berlin to Beijing (and most parts in between). A Java Champion since 2005 and former president of the Atlanta Java User Group, Burr founded the DevNexus conference (now the second largest Java event in the U.S.) with the aim of making access to the world’s leading developers affordable to the developer community. When not speaking abroad, Burr is also the passionate creator and orchestrator of highly-interactive live demo keynotes at Red Hat Summit, the company’s premier annual event.",
+    "image": "assets/img/speakers/burr-sutter.png",
+    "ref": "QnVyclN1dHRlcmJ1cnJzdXR0ZXJAZ21haWwuY29t",
+    "url": "infoSpeaker.html?ref=QnVyclN1dHRlcmJ1cnJzdXR0ZXJAZ21haWwuY29t",
+    "twitter": "@burrsutter",
+    "homepage": "https://burrsutter.com"
+  },
+  {
+    "enabled": "1",
+    "name": "Robert Davies",
+    "description": "Software Engineer at CloudBees",
+    "biography": "Rob Davies works for Cloud Bees and is passionate about improving developer experience through continuous improvement.\nRob has worked in technology and open source for a long time and created the ActiveMQ project, and worked on many open source projects, including Jenkins X",
+    "image": "assets/img/speakers/robert-davies.jpg",
+    "ref": "Um9iZXJ0RGF2aWVzcmRhdmllc0BjbG91ZGJlZXMuY29t",
+    "url": "infoSpeaker.html?ref=Um9iZXJ0RGF2aWVzcmRhdmllc0BjbG91ZGJlZXMuY29t",
+    "twitter": "@rajdavies",
+    "homepage": "http://www.rajdavies.today/"
+  },
+  {
+    "enabled": "1",
+    "name": "James Rawlings",
+    "description": "Software Engineer at CloudBees",
+    "biography": "James works on @jenkinsxio building the next generation CI/CD platform on Kubernetes. Automating the world one pipeline at a time.",
+    "image": "assets/img/speakers/james-rawlings.jpg",
+    "ref": "SnNtZXNSYXdsaW5nc2pyYXdsaW5nc0BjbG91ZGJlZXMuY29t",
+    "url": "infoSpeaker.html?ref=SnNtZXNSYXdsaW5nc2pyYXdsaW5nc0BjbG91ZGJlZXMuY29t",
+    "twitter": "@jdrawlings",
+    "homepage": "https://medium.com/@jdrawlings"
+  }
   ]
 }

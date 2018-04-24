@@ -407,6 +407,94 @@
       "speakers": [
       "TWFya3VzRWlzZWxlbUBsaWdodGJlbmQuY29t"
       ]
-    }
+    },
+    {
+      "title":"Stream Processing in Telco - lessons learned",
+      "type":"talk",
+      "abstract":"Two years ago we introduced stream processing engine Apache Flink in one of the largest polish mobile operators. We started with real time marketing and gradually moved to fraud detection and other areas. Today we have around 50 jobs, together they process at peak more than 150k events per second.\nIn the talk I'd like to share our experiences. Some of them are technical: what is our stack (Flink, Kafka and so on) and how do we use it, what are the challenges of processing tens of thousands of messages per second, how to deal with large state.\nSome are more organisational - how is it different to design, test and monitor stream processing jobs than to use batch jobs or 'normal' applications.\nI'd also like to talk a bit about open source project that we created during this journey - Nussknacker, which is a tool for designing streaming processes with GUI - it's used by analysts at our client.\n",
+      "tags":["stream processing","telco","kafka","flink"],
+      "level":"middle",
+      "speakers":["TWFjaWVrUHLDs2Nobmlha21hY2llay5wcm9jaG5pYWtAZ21haWwuY29t"]
+    },
+    {
+      "title":"Eventing with Apache Kafka - Having data is better than needing data",
+      "abstract":"When building our microservice platform we wondered how services should consume data without opening the gates of hell by doing endless chains of API calls. We realized one fact: Having data is better than needing data. Therefore we decided to allow services to keep data redundant. Letting 40 teams work as autonomous as possible we introduced “eventing” and Apache Kafka to reduce dependencies when answering requests. This talk shows the principles and basics about asynchronous communication with Apache Kafka along with code samples. We’ll show you how simple producers and consumers can be written, how domain events are passed around between services and the most common pitfalls to be avoided for developers. ",
+      "type":"talk",
+      "tags":["Java","Microservices","Architecture"],
+      "level":"beginner",
+      "speakers":["QW5zZ2FyQnJhdW5lcmFAanVnZG8uZGU=","U2ViYXN0aWFuR2F1ZGVyc2ViYXN0aWFuLmdhdWRlckByZXdlLWRpZ2l0YWwuY29t"]
+  },
+  {
+    "title": "REPL Driven Development: immediate feedback for your server side code",
+    "abstract": "Drinking too much coffee while maven builds and deploys your service? \nJealous of how your FrontEnd mate just press F5 to \"deploy\" his/her changes?\nMastered the red-green-refactor workflow and want to know what is the next step?\n\nOur Lisp grandfathers knew how invaluable was the immediate feedback that a Read-Eval-Print Loop (REPL) allowed during development and now Java 9 will have one.\n\nPerhaps you have read that a REPL is useful for \"playing around\" or for \"small code snippets\", but this is far from true. \n\nIn this presentation, you will learn how with a REPL you can have a better and more productive developer workflow by building a Tomcat service, one bit at a time, without having to build, compile, package or deploy it.\n\nDemo will be done with a Clojure REPL but no previous experience with Clojure is needed. \n",
+    "type": "talk",
+    "tags": [
+        "Clojure",
+        "REPL"
+    ],
+    "level": "advanced",
+    "speakers": [
+        "RGFuaWVsTGVicmVyb2RsZWJyZXJvQGdtYWlsLmNvbQ=="
+    ]
+  },
+  {
+    "title": "Efficiently Tracking Object Allocations in Production Environments",
+    "abstract": "Efficiently tracking an application’s object allocations is of interest for memory leak detection or memory usage optimization.\nOne common approach is to sample the heap by taking snapshots of the entire heap.\nThis usually introduces large pauses while taking the snapshot.\nAlso, we do not know where an object has been allocated in the code.\nAnother approach is to instrument all allocation sites and to record every single allocation by incrementing a counter.\nHowever, as today's JVMs allocate objects very quickly, incrementing a counter for every allocation adds a lot of overhead, making this approach unattractive in a production environment.\n\nOur approach reduces the amount of increments by instrumenting control flow paths instead of allocation sites and dynamically determining the hot path through a method.\nWe continuously reevaluate and reinstrument depending on changes in execution behavior in order to reduce the overhead as much as possible.\nOur ultimate goal is to reduce the amount of required counter increments to such a degree that using this approach becomes feasible in production environments.\nEvaluation of our implementation shows a reduction of required increments of up to nearly 30% compared to the state of the art.",
+    "type": "talk",
+    "tags": [
+        "Java",
+        "Monitoring",
+        "Memory"
+    ],
+    "level": "middle",
+    "speakers": [
+        "RHIuUGhpbGlwcExlbmdhdWVycGhpbGlwcC5sZW5nYXVlckBkeW5hdHJhY2UuY29t"
+    ]
+  },
+  {
+    "title": "A practical approach to Java Memory Model",
+    "abstract": "Java Memory Model is an interesting area of multi-thread programming. It describes how threads interact through memory and what behaviours are allowed in concurrent execution. Most of java developers are familiar with mutual exclusion and synchronized keyword but sometimes we forget that beside mutual exclusion we also have to care about memory visibility. The talk will introduce number of examples to help understand JMM. It will use OpenJDK Java Concurrency Stress tests framework (JCStress) to validate the results.",
+    "type": "talk",
+    "tags": [
+        "Java",
+        "Concurrency",
+        "Memory Model"
+    ],
+    "level": "middle",
+    "speakers": [
+        "QW5kcnplakN6YXJueWFtY3phcm55QGdtYWlsLmNvbQ=="
+    ]
+  },
+  {
+    "title": "Serverless Java with Kubernetes",
+    "abstract": "Serverless is a misnomer, your future cloud native applications will consist of both Microservices and Functions, wrapped as Linux containers and deployed via Kubernetes on your laptop, on your servers or in any cloud.  \nIn this session, we focus on the key tips, techniques and strategies you need as developers to build cloud native applications leveraging Kubernetes/OpenShift + Apache OpenWhisk, an open source Function-as-a-Service (FaaS) engine.  This will be a high energy and demonstration focused session packed with practical guidance to best leverage FaaS/Serverless in your current or next generation application.\n",
+    "type": "talk",
+    "tags": [
+        "Java",
+        "Serverless",
+        "FaaS",
+        "Cloud",
+        "Microservices"
+    ],
+    "level": "middle",
+    "speakers": [
+        "QnVyclN1dHRlcmJ1cnJzdXR0ZXJAZ21haWwuY29t"
+    ]
+  },
+  {
+    "title": "Building continuous delivery for Microservices with Jenkins X",
+    "abstract": "Jenkins X is a project which rethinks how developers should interact with CI/CD in the cloud with a focus on making development teams productive through automation, tooling and DevOps best practices. The workshop will walk through getting you running Jenkins X on a public cloud provider. We will then walk you through importing a new or one of your existing Microservice projects so that it can be built and deployed in Kubernetes with Jenkins X",
+    "type": "workshop",
+    "tags": [
+        "Cloud",
+        "Continuous Delivery",
+        "Microservice"
+    ],
+    "level": "middle",
+    "speakers": [
+        "Um9iZXJ0RGF2aWVzcmRhdmllc0BjbG91ZGJlZXMuY29t",
+        "SnNtZXNSYXdsaW5nc2pyYXdsaW5nc0BjbG91ZGJlZXMuY29t"
+    ]
+  }
   ]
 }
