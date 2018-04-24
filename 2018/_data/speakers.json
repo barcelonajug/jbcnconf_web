@@ -390,7 +390,7 @@
   {
     "enabled": "1",
     "name": "Robert Davies",
-    "description": "",
+    "description": "Software Engineer at CloudBees",
     "biography": "Rob Davies works for Cloud Bees and is passionate about improving developer experience through continuous improvement.\nRob has worked in technology and open source for a long time and created the ActiveMQ project, and worked on many open source projects, including Jenkins X",
     "image": "assets/img/speakers/robert-davies.jpg",
     "ref": "Um9iZXJ0RGF2aWVzcmRhdmllc0BjbG91ZGJlZXMuY29t",
@@ -401,7 +401,7 @@
   {
     "enabled": "1",
     "name": "James Rawlings",
-    "description": "",
+    "description": "Software Engineer at CloudBees",
     "biography": "James works on @jenkinsxio building the next generation CI/CD platform on Kubernetes. Automating the world one pipeline at a time.",
     "image": "assets/img/speakers/james-rawlings.jpg",
     "ref": "SnNtZXNSYXdsaW5nc2pyYXdsaW5nc0BjbG91ZGJlZXMuY29t",
