@@ -349,14 +349,76 @@
     },
     {
       "enabled": "1",
-      "name": "Andrzej Grzesik",
-      "description": "Java Champion, BigData Architect at Burberry",
-      "biography": "Andrzej Grzesik likes distributed systems in all shapes and form. Coding since the age of 8, loves simplicity and continuous delivery. While he has written in many languages, he favours the JVM. Since \"most software problems are people problems”, he stirs communities, organizes and speaks at conferences (proud to be a JavaONE Rockstar!). He is passionate about all things data, because science! In his spare time… cycling, photography and books. And he is a Java Champion!",
-      "image": "assets/img/speakers/andrzej-grzesik.jpeg",
-      "ref": "QW5kcnplakdyemVzaWthbmRyemVqLmdyemVzaWtAZ21haWwuY29t",
-      "url": "infoSpeaker.html?r ef=QW5kcnplakdyemVzaWthbmRyemVqLmdyemVzaWtAZ21haWwuY29t",
-      "twitter": "https://twitter.com/ags313",
-      "homepage": null
-    }
+      "name": "Daniel Lebrero",
+      "description": "Senior Platforms Engineer at Akvo",
+      "biography": "Daniel Lebrero is a technical architect with more than 15 years of software development experience. He has worked on monolithic websites, embedded applications, low latency systems, micro services, streaming applications and big data. He now creates open source software at Akvo.",
+      "image": "assets/img/speakers/daniel-lebrero.jpg",
+      "ref": "RGFuaWVsTGVicmVyb2RsZWJyZXJvQGdtYWlsLmNvbQ==",
+      "url": "infoSpeaker.html?ref=RGFuaWVsTGVicmVyb2RsZWJyZXJvQGdtYWlsLmNvbQ==",
+      "twitter": "@danlebrero",
+      "homepage": "http://danlebrero.com"
+  },
+  {
+      "enabled": "1",
+      "name": "Dr. Philipp Lengauer",
+      "description": "Software Engineer at Dynatrace",
+      "biography": "Philipp Lengauer has obtained his PhD in Engineering Sciences from the Johannes Kepler University in Linz, Austria. He has several years of experience in teaching programming in Java, compiler construction, and performance evaluation.",
+      "image": "assets/img/speakers/philipp-lengauer.png",
+      "ref": "RHIuUGhpbGlwcExlbmdhdWVycGhpbGlwcC5sZW5nYXVlckBkeW5hdHJhY2UuY29t",
+      "url": "infoSpeaker.html?ref=RHIuUGhpbGlwcExlbmdhdWVycGhpbGlwcC5sZW5nYXVlckBkeW5hdHJhY2UuY29t"
+  },
+  {
+    "enabled": "1",
+    "name": "Andrzej Czarny",
+    "description": "Software Engineer at Ocado Technology",
+    "biography": "His work is mostly focused on real time performance of warehouse control systems. He is involved in creating testing frameworks and Continuous Integrations for multiple teams. His main area of expertise is Java and concurrency.",
+    "image": "assets/img/speakers/andrzej-czarny.jpg",
+    "ref": "QW5kcnplakN6YXJueWFtY3phcm55QGdtYWlsLmNvbQ==",
+    "url": "infoSpeaker.html?ref=QW5kcnplakN6YXJueWFtY3phcm55QGdtYWlsLmNvbQ=="
+  },
+  {
+    "enabled": "1",
+    "name": "Burr Sutter",
+    "description": "Director of Developer Experience at Red Hat",
+    "biography": "A lifelong developer advocate, community organizer, and technology evangelist, Burr Sutter is a featured speaker at technology events around the globe—from Bangalore to Brussels and Berlin to Beijing (and most parts in between). A Java Champion since 2005 and former president of the Atlanta Java User Group, Burr founded the DevNexus conference (now the second largest Java event in the U.S.) with the aim of making access to the world’s leading developers affordable to the developer community. When not speaking abroad, Burr is also the passionate creator and orchestrator of highly-interactive live demo keynotes at Red Hat Summit, the company’s premier annual event.",
+    "image": "assets/img/speakers/burr-sutter.png",
+    "ref": "QnVyclN1dHRlcmJ1cnJzdXR0ZXJAZ21haWwuY29t",
+    "url": "infoSpeaker.html?ref=QnVyclN1dHRlcmJ1cnJzdXR0ZXJAZ21haWwuY29t",
+    "twitter": "@burrsutter",
+    "homepage": "https://burrsutter.com"
+  },
+  {
+    "enabled": "1",
+    "name": "Robert Davies",
+    "description": "Software Engineer at CloudBees",
+    "biography": "Rob Davies works for Cloud Bees and is passionate about improving developer experience through continuous improvement.\nRob has worked in technology and open source for a long time and created the ActiveMQ project, and worked on many open source projects, including Jenkins X",
+    "image": "assets/img/speakers/robert-davies.jpg",
+    "ref": "Um9iZXJ0RGF2aWVzcmRhdmllc0BjbG91ZGJlZXMuY29t",
+    "url": "infoSpeaker.html?ref=Um9iZXJ0RGF2aWVzcmRhdmllc0BjbG91ZGJlZXMuY29t",
+    "twitter": "@rajdavies",
+    "homepage": "http://www.rajdavies.today/"
+  },
+  {
+    "enabled": "1",
+    "name": "James Rawlings",
+    "description": "Software Engineer at CloudBees",
+    "biography": "James works on @jenkinsxio building the next generation CI/CD platform on Kubernetes. Automating the world one pipeline at a time.",
+    "image": "assets/img/speakers/james-rawlings.jpg",
+    "ref": "SnNtZXNSYXdsaW5nc2pyYXdsaW5nc0BjbG91ZGJlZXMuY29t",
+    "url": "infoSpeaker.html?ref=SnNtZXNSYXdsaW5nc2pyYXdsaW5nc0BjbG91ZGJlZXMuY29t",
+    "twitter": "@jdrawlings",
+    "homepage": "https://medium.com/@jdrawlings"
+  },
+  {
+    "enabled": "1",
+    "name": "Andrzej Grzesik",
+    "description": "Java Champion, BigData Architect at Burberry",
+    "biography": "Andrzej Grzesik likes distributed systems in all shapes and form. Coding since the age of 8, loves simplicity and continuous delivery. While he has written in many languages, he favours the JVM. Since \"most software problems are people problems”, he stirs communities, organizes and speaks at conferences (proud to be a JavaONE Rockstar!). He is passionate about all things data, because science! In his spare time… cycling, photography and books. And he is a Java Champion!",
+    "image": "assets/img/speakers/andrzej-grzesik.jpeg",
+    "ref": "QW5kcnplakdyemVzaWthbmRyemVqLmdyemVzaWtAZ21haWwuY29t",
+    "url": "infoSpeaker.html?r ef=QW5kcnplakdyemVzaWthbmRyemVqLmdyemVzaWtAZ21haWwuY29t",
+    "twitter": "https://twitter.com/ags313",
+    "homepage": null
+  }
   ]
 }
