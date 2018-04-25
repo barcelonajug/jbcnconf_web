@@ -408,6 +408,17 @@
     "url": "infoSpeaker.html?ref=SnNtZXNSYXdsaW5nc2pyYXdsaW5nc0BjbG91ZGJlZXMuY29t",
     "twitter": "@jdrawlings",
     "homepage": "https://medium.com/@jdrawlings"
+  },
+  {
+    "enabled":"1",
+    "name":"James Strachan",
+    "description":"Groovy programming language creator",
+    "biography":"James created the Groovy programming language and Apache Camel integration framework.\n\nThese days I work for CloudBees on Jenkins X: automated CI/CD for Kubernetes",
+    "image":"assets/img/speakers/james-strachan.jpg",
+    "ref":"SmFtZXNTdHJhY2hhbmpzdHJhY2hhbkBjbG91ZGJlZXMuY29t",
+    "url":"infoSpeaker.html?ref=SmFtZXNTdHJhY2hhbmpzdHJhY2hhbkBjbG91ZGJlZXMuY29t",
+    "twitter":"@jstrachan",
+    "homepage":"https://medium.com/@jstrachan"
   }
   ]
 }
