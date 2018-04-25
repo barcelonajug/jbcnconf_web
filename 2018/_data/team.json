@@ -70,6 +70,18 @@
         "url": "/assets/img/team/sergio-ferraz.jpg",
         "alt": "Sergio Ferraz"
       }
+    },
+    {
+      "name": "Christian Sisti",
+      "position": "Team Leader",
+      "role": "Assistant Organiser Barcelona JUG.",
+      "bio": "Team Leader specialised in Cross-Functional Mobile development",
+      "linkedin": "https://www.linkedin.com/in/christiansisti",
+      "twitter": "https://twitter.com/ciscox83",
+      "image": {
+        "url": "/assets/img/team/christian.jpg",
+        "alt": "Christian Sisti"
+      }
     }
   ]
 }
