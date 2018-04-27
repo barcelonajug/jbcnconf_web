@@ -503,6 +503,14 @@
     "tags":["Continuous Delivery","Kubernetes","Cloud Native Applications","MicroServices","awesomeness"],
     "level":"middle",
     "speakers":["SmFtZXNTdHJhY2hhbmpzdHJhY2hhbkBjbG91ZGJlZXMuY29t"]
+  },
+  {
+    "title":"From OO Java to FP Scala: epic wins and epic fails",
+    "abstract":"What happens when a company moves from Java to Scala? In this talk, we will discuss some of the lessons learned at Intent HQ during the long process of moving our development to this language. What were our motivations, what went well, what could have gone better and what was simply a disaster. In this talk we will learn from a first-hand experience some ideas that may be extrapolated to similar use cases from a honest and pragmatic point of view.",
+    "type":"talk",
+    "tags":["java","scala","functional programming","testing"],
+    "level":"beginner",
+    "speakers":["QWxiZXJ0UGFzdHJhbmFhbGJlcnQucGFzdHJhbmFAZ21haWwuY29t"]
   }
   ]
 }

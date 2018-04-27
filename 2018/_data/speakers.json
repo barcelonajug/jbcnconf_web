@@ -419,6 +419,17 @@
     "url":"infoSpeaker.html?ref=SmFtZXNTdHJhY2hhbmpzdHJhY2hhbkBjbG91ZGJlZXMuY29t",
     "twitter":"@jstrachan",
     "homepage":"https://medium.com/@jstrachan"
+  },
+  {
+    "enabled":"1",
+    "name":"Albert Pastrana",
+    "description":"Head of Engineering of Intent HQ",
+    "biography":"Currently Head of Engineering of Intent HQ. During my professional life I've worked in different sectors with many different technologies and languages (including Java, Scala, TypeScript, Ruby, PHP, Javascript...). That's why I like to think of me as a polyglot developer. My first JDK was a 1.1",
+    "image":"assets/img/speakers/albert_pastrana.jpg",
+    "ref":"QWxiZXJ0UGFzdHJhbmFhbGJlcnQucGFzdHJhbmFAZ21haWwuY29t",
+    "url":"infoSpeaker.html?ref=QWxiZXJ0UGFzdHJhbmFhbGJlcnQucGFzdHJhbmFAZ21haWwuY29t",
+    "twitter":"",
+    "homepage":"https://albertpastrana.com"
   }
   ]
 }
