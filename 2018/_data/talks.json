@@ -511,6 +511,20 @@
     "tags":["java","scala","functional programming","testing"],
     "level":"beginner",
     "speakers":["QWxiZXJ0UGFzdHJhbmFhbGJlcnQucGFzdHJhbmFAZ21haWwuY29t"]
+  },
+  {
+    "title": "Let's build a blockchain in 50 minutes!",
+    "abstract": "Blockchain technology is hot! But how does it actually work? I always found that the best way to get familiar with new technology is to build something with it. \n\nSo, let's build a blockchain, then!\n\nIn this live coding session, I will build a blockchain from scratch, using Java 8 with a little SpringBoot sprinkled over it. The talk will include all concepts of a blockchain, like transactions, blocks, immutability, proof-of-work, and consensus in the network. After this session you will have a better understanding of how blockchains work and how to implement them!",
+    "type": "talk",
+    "tags": [
+      "BlockChain",
+      "Java",
+      "Spring Boot"
+    ],
+    "level": "middle",
+    "speakers": [
+      "QW5kcnplakdyemVzaWthbmRyemVqLmdyemVzaWtAZ21haWwuY29t"
+    ]
   }
   ]
 }
