@@ -119,6 +119,14 @@
         "src": "/assets/img/sponsors/yourkit.png",
         "alt": "YourKit"
       }
+    },
+    {
+      "name": "Zopa",
+      "href": "https://www.zopa.com/about/careers",
+      "image": {
+        "src": "/assets/img/sponsors/zopa.png",
+        "alt": "Zopa"
+      }
     }
   ],
   "supporters": [{
