@@ -70,6 +70,18 @@
         "url": "/assets/img/team/sergio-ferraz.jpg",
         "alt": "Sergio Ferraz"
       }
+    },
+    {
+      "name": "Christian Sisti",
+      "position": "Team Leader",
+      "role": "Team Member Barcelona JUG.",
+      "bio": "Software Development Manager in love for clean code, agile best practices and table soccer",
+      "linkedin": "https://www.linkedin.com/in/christiansisti",
+      "twitter": "https://twitter.com/ciscox83",
+      "image": {
+        "url": "/assets/img/team/christian.jpg",
+        "alt": "Christian Sisti"
+      }
     }
   ]
 }
