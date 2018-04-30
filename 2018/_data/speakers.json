@@ -452,5 +452,16 @@
     "url": "infoSpeaker.html?ref=U2ltb25SaXR0ZXJzcml0dGVyQGF6dWwuY29t",
     "twitter": "speakjava",
     "homepage": ""
+  },
+  {
+    "enabled": "1",
+    "name": "Jeroen Resoort",
+    "description": "Java Consultant at JDriven",
+    "biography": "Jeroen is a Java Consultant at JDriven. He has over 10 years of experience writing enterprise applications. He is passionate about writing good code, learning new technologies and sharing his knowledge with others. ",
+    "image": "assets/img/speakers/jeroen-resoort.jpg",
+    "ref": "SmVyb2VuUmVzb29ydGplcm9lbi5yZXNvb3J0QGpkaXJ2ZW4uY29t",
+    "url": "infoSpeaker.html?ref=SmVyb2VuUmVzb29ydGplcm9lbi5yZXNvb3J0QGpkaXJ2ZW4uY29t",
+    "twitter": "@JeroenResoort",
+    "homepage": ""
   }
 ]}

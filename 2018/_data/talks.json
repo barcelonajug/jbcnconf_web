@@ -538,5 +538,14 @@
     "speakers": [
       "U2ltb25SaXR0ZXJzcml0dGVyQGF6dWwuY29t"
     ]
+  },
+  {
+    "title": "Getting started with Kafka Streams in 120 minutes",
+    "abstract": "In this workshop you will learn how to build scalable Kafka Streams applications with Spring \nBoot and Spring Kafka. You are introduced to the concepts of Kafka and streaming and get some hands on experience building an application using Kafka Streams components such as kStreams, kTables, filters, branches, and solving interesting challenges with complex joins and aggregates.\n",
+    "type": "workshop",
+    "tags": ["kafka",
+      "streaming"],
+    "level": "middle",
+    "speakers": ["SmVyb2VuUmVzb29ydGplcm9lbi5yZXNvb3J0QGpkaXJ2ZW4uY29t"]
   }
 ]}
