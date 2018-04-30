@@ -547,31 +547,18 @@
     "level": "middle",
     "speakers": ["SmVyb2VuUmVzb29ydGplcm9lbi5yZXNvb3J0QGpkaXJ2ZW4uY29t"]
   },
-    {
-      "abstract": "Cloud native applications are designed to anticipate failure, run and scale reliably even when the infrastructure it is running on is experiencing outages. To offer such capabilities, the cloud native platforms impose a set of contracts and constraints on the applications running on them. These contracts ensure that the applications conform to certain constraints and allow the platforms to automate the management of the containerized applications.\nDuring this talk we will take you on a journey exploring Kubernetes distributes primitives, the guiding container design principles, and the resulting patterns. Following these design guidelines will ensure that the applications you create are suitable for automation in cloud native platforms such as Kubernetes.\n\nThis talk is based on, and builds on top of a popular blog post I wrote for InfoQ:\nhttps://www.infoq.com/articles/kubernetes-effect",
-      "level": "middle",
-      "speakers": [
-        "QmlsZ2luSWJyeWFtYmlicnlhbUBnbWFpbC5jb20="
-      ],
-      "tags": [
-        "Kubernetes",
-        "Cloud Native",
-        "Design Patterns"
-      ],
-      "title": "The Kubernetes Effect",
-      "type": "talk"
-    },
-    {
-    "title": "JDK 9 and 10: Pitfalls For The Unwary",
-    "abstract": "The significant change in JDK 9 was the Java Platform Module System (also known as project Jigsaw).  With the encapsulation of internal APIs such as sun.misc.Unsafe migrating applications to  JDK 9 (or JDK 10) will potentially require more work than moving between releases previously.\n\nIn this session, we’ll look at all the areas of JDK 9 and 10 that may impact application migration.  This will cover all aspects: Java language syntax, class libraries and JVM options (a significant number of which have changed in these releases.  Unlike previous versions of Java, both JDK 9 and 10 have removed existing standard features, as well as adding new ones.  These changes will also be discussed regarding backward compatibility.\n\nWe’ll also look at the new release cadence for the JDK and explain the impact this will have on Java support and choices of which Java versions to use in production.",
-    "type": "talk",
-    "tags": [
-      "Java",
-      "JDK"
-    ],
+  {
+    "abstract": "Cloud native applications are designed to anticipate failure, run and scale reliably even when the infrastructure it is running on is experiencing outages. To offer such capabilities, the cloud native platforms impose a set of contracts and constraints on the applications running on them. These contracts ensure that the applications conform to certain constraints and allow the platforms to automate the management of the containerized applications.\nDuring this talk we will take you on a journey exploring Kubernetes distributes primitives, the guiding container design principles, and the resulting patterns. Following these design guidelines will ensure that the applications you create are suitable for automation in cloud native platforms such as Kubernetes.\n\nThis talk is based on, and builds on top of a popular blog post I wrote for InfoQ:\nhttps://www.infoq.com/articles/kubernetes-effect",
     "level": "middle",
     "speakers": [
-      "U2ltb25SaXR0ZXJzcml0dGVyQGF6dWwuY29t"
-    ]
+      "QmlsZ2luSWJyeWFtYmlicnlhbUBnbWFpbC5jb20="
+    ],
+    "tags": [
+      "Kubernetes",
+      "Cloud Native",
+      "Design Patterns"
+    ],
+    "title": "The Kubernetes Effect",
+    "type": "talk"
   }
 ]}
