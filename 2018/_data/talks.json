@@ -513,15 +513,14 @@
     "speakers":["QWxiZXJ0UGFzdHJhbmFhbGJlcnQucGFzdHJhbmFAZ21haWwuY29t"]
   },
   {
-    "title": "Let's build a blockchain in 50 minutes!",
-    "abstract": "Blockchain technology is hot! But how does it actually work? I always found that the best way to get familiar with new technology is to build something with it. \n\nSo, let's build a blockchain, then!\n\nIn this live coding session, I will build a blockchain from scratch, using Java 8 with a little SpringBoot sprinkled over it. The talk will include all concepts of a blockchain, like transactions, blocks, immutability, proof-of-work, and consensus in the network. After this session you will have a better understanding of how blockchains work and how to implement them!",
+    "title": "Blockchain: more than bitcoin!",
+    "abstract": "There is more to blockchain than Bitcoin, Ethereum and all the mining! Let's see how do these technologies can affect us, developers. This session starts with facts, establishing what blockchain, smart contracts and other concepts are. Armed with theory, we will showcase a 'smart contract' application, built in Java, with open source, then discuss applications, problems and consider implications of a contract being put \"out there\" (and what is \"there\") You will walk out understanding what a 'distributed ledger' is, knowing what to get from Github. And maybe an idea of an application, who knows?\n\nLet's now build those revolutions everybody is speaking about!",
     "type": "talk",
     "tags": [
-      "BlockChain",
-      "Java",
-      "Spring Boot"
+      "java",
+      "blockchain"
     ],
-    "level": "middle",
+    "level": "beginner",
     "speakers": [
       "QW5kcnplakdyemVzaWthbmRyemVqLmdyemVzaWtAZ21haWwuY29t"
     ]
