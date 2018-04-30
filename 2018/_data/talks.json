@@ -513,20 +513,55 @@
     "speakers":["QWxiZXJ0UGFzdHJhbmFhbGJlcnQucGFzdHJhbmFAZ21haWwuY29t"]
   },
   {
-    "title": "Let's build a blockchain in 50 minutes!",
-    "abstract": "Blockchain technology is hot! But how does it actually work? I always found that the best way to get familiar with new technology is to build something with it. \n\nSo, let's build a blockchain, then!\n\nIn this live coding session, I will build a blockchain from scratch, using Java 8 with a little SpringBoot sprinkled over it. The talk will include all concepts of a blockchain, like transactions, blocks, immutability, proof-of-work, and consensus in the network. After this session you will have a better understanding of how blockchains work and how to implement them!",
+    "title": "Blockchain: more than bitcoin!",
+    "abstract": "There is more to blockchain than Bitcoin, Ethereum and all the mining! Let's see how do these technologies can affect us, developers. This session starts with facts, establishing what blockchain, smart contracts and other concepts are. Armed with theory, we will showcase a 'smart contract' application, built in Java, with open source, then discuss applications, problems and consider implications of a contract being put \"out there\" (and what is \"there\") You will walk out understanding what a 'distributed ledger' is, knowing what to get from Github. And maybe an idea of an application, who knows?\n\nLet's now build those revolutions everybody is speaking about!",
     "type": "talk",
     "tags": [
-      "BlockChain",
-      "Java",
-      "Spring Boot"
+      "java",
+      "blockchain"
     ],
-    "level": "middle",
+    "level": "beginner",
     "speakers": [
       "QW5kcnplakdyemVzaWthbmRyemVqLmdyemVzaWtAZ21haWwuY29t"
     ]
   },
   {
+    "title": "JDK 9 and 10: Pitfalls For The Unwary",
+    "abstract": "The significant change in JDK 9 was the Java Platform Module System (also known as project Jigsaw).  With the encapsulation of internal APIs such as sun.misc.Unsafe migrating applications to  JDK 9 (or JDK 10) will potentially require more work than moving between releases previously.\n\nIn this session, we’ll look at all the areas of JDK 9 and 10 that may impact application migration.  This will cover all aspects: Java language syntax, class libraries and JVM options (a significant number of which have changed in these releases.  Unlike previous versions of Java, both JDK 9 and 10 have removed existing standard features, as well as adding new ones.  These changes will also be discussed regarding backward compatibility.\n\nWe’ll also look at the new release cadence for the JDK and explain the impact this will have on Java support and choices of which Java versions to use in production.",
+    "type": "talk",
+    "tags": [
+      "Java",
+      "JDK"
+    ],
+    "level": "middle",
+    "speakers": [
+      "U2ltb25SaXR0ZXJzcml0dGVyQGF6dWwuY29t"
+    ]
+  },
+  {
+    "title": "Getting started with Kafka Streams in 120 minutes",
+    "abstract": "In this workshop you will learn how to build scalable Kafka Streams applications with Spring \nBoot and Spring Kafka. You are introduced to the concepts of Kafka and streaming and get some hands on experience building an application using Kafka Streams components such as kStreams, kTables, filters, branches, and solving interesting challenges with complex joins and aggregates.\n",
+    "type": "workshop",
+    "tags": ["kafka",
+      "streaming"],
+    "level": "middle",
+    "speakers": ["SmVyb2VuUmVzb29ydGplcm9lbi5yZXNvb3J0QGpkaXJ2ZW4uY29t"]
+  },
+    {
+      "abstract": "Cloud native applications are designed to anticipate failure, run and scale reliably even when the infrastructure it is running on is experiencing outages. To offer such capabilities, the cloud native platforms impose a set of contracts and constraints on the applications running on them. These contracts ensure that the applications conform to certain constraints and allow the platforms to automate the management of the containerized applications.\nDuring this talk we will take you on a journey exploring Kubernetes distributes primitives, the guiding container design principles, and the resulting patterns. Following these design guidelines will ensure that the applications you create are suitable for automation in cloud native platforms such as Kubernetes.\n\nThis talk is based on, and builds on top of a popular blog post I wrote for InfoQ:\nhttps://www.infoq.com/articles/kubernetes-effect",
+      "level": "middle",
+      "speakers": [
+        "QmlsZ2luSWJyeWFtYmlicnlhbUBnbWFpbC5jb20="
+      ],
+      "tags": [
+        "Kubernetes",
+        "Cloud Native",
+        "Design Patterns"
+      ],
+      "title": "The Kubernetes Effect",
+      "type": "talk"
+    },
+    {
     "title": "JDK 9 and 10: Pitfalls For The Unwary",
     "abstract": "The significant change in JDK 9 was the Java Platform Module System (also known as project Jigsaw).  With the encapsulation of internal APIs such as sun.misc.Unsafe migrating applications to  JDK 9 (or JDK 10) will potentially require more work than moving between releases previously.\n\nIn this session, we’ll look at all the areas of JDK 9 and 10 that may impact application migration.  This will cover all aspects: Java language syntax, class libraries and JVM options (a significant number of which have changed in these releases.  Unlike previous versions of Java, both JDK 9 and 10 have removed existing standard features, as well as adding new ones.  These changes will also be discussed regarding backward compatibility.\n\nWe’ll also look at the new release cadence for the JDK and explain the impact this will have on Java support and choices of which Java versions to use in production.",
     "type": "talk",
