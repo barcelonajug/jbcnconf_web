@@ -525,6 +525,18 @@
     "speakers": [
       "QW5kcnplakdyemVzaWthbmRyemVqLmdyemVzaWtAZ21haWwuY29t"
     ]
+  },
+  {
+    "title": "JDK 9 and 10: Pitfalls For The Unwary",
+    "abstract": "The significant change in JDK 9 was the Java Platform Module System (also known as project Jigsaw).  With the encapsulation of internal APIs such as sun.misc.Unsafe migrating applications to  JDK 9 (or JDK 10) will potentially require more work than moving between releases previously.\n\nIn this session, we’ll look at all the areas of JDK 9 and 10 that may impact application migration.  This will cover all aspects: Java language syntax, class libraries and JVM options (a significant number of which have changed in these releases.  Unlike previous versions of Java, both JDK 9 and 10 have removed existing standard features, as well as adding new ones.  These changes will also be discussed regarding backward compatibility.\n\nWe’ll also look at the new release cadence for the JDK and explain the impact this will have on Java support and choices of which Java versions to use in production.",
+    "type": "talk",
+    "tags": [
+      "Java",
+      "JDK"
+    ],
+    "level": "middle",
+    "speakers": [
+      "U2ltb25SaXR0ZXJzcml0dGVyQGF6dWwuY29t"
+    ]
   }
-  ]
-}
+]}

@@ -441,6 +441,16 @@
     "url": "infoSpeaker.html?ref=QW5kcnplakdyemVzaWthbmRyemVqLmdyemVzaWtAZ21haWwuY29t",
     "twitter": "https://twitter.com/ags313",
     "homepage": null
+  },
+  {
+    "enabled": "1",
+    "name": "Simon Ritter",
+    "description": "Deputy CTO of Azul System",
+    "biography": "Simon Ritter is the Deputy CTO of Azul Systems.  Simon has been in the IT business since 1984 and holds a Bachelor of Science degree in Physics from Brunel University in the U.K. \n\nSimon joined Sun Microsystems in 1996 and started working with Java technology from JDK 1.0; he has spent time working in both Java development and consultancy.  Having moved to Oracle as part of the Sun acquisition, he managed the Java Evangelism team for the core Java platform, Java for client applications and embedded Java.  Now at Azul, he continues to help people understand Java as well as Azul’s JVM technologies and products.  Simon has twice been awarded Java Rockstar status at JavaOne and is a Java Champion.  He currently represents Azul on the JCP Executive Committee and on the Java SE Expert Group (JSR 379, 383 and 384).",
+    "image": "assets/img/speakers/simon-ritter.jpg",
+    "ref": "U2ltb25SaXR0ZXJzcml0dGVyQGF6dWwuY29t",
+    "url": "infoSpeaker.html?ref=U2ltb25SaXR0ZXJzcml0dGVyQGF6dWwuY29t",
+    "twitter": "speakjava",
+    "homepage": ""
   }
-  ]
-}
+]}
