@@ -1,5 +1,6 @@
 {
-  "items": [{
+  "items": [
+    {
       "enabled": "1",
       "name": "Michel Schudel",
       "description": "Java developer Dutch Railways",
@@ -475,5 +476,4 @@
       "twitter": "@bibryam",
       "url": "infoSpeaker.html?ref=QmlsZ2luSWJyeWFtYmlicnlhbUBnbWFpbC5jb20="
     }
-  }
 ]}
