@@ -538,6 +538,15 @@
       "U2ltb25SaXR0ZXJzcml0dGVyQGF6dWwuY29t"
     ]
   },
+  {
+    "title": "Getting started with Kafka Streams in 120 minutes",
+    "abstract": "In this workshop you will learn how to build scalable Kafka Streams applications with Spring \nBoot and Spring Kafka. You are introduced to the concepts of Kafka and streaming and get some hands on experience building an application using Kafka Streams components such as kStreams, kTables, filters, branches, and solving interesting challenges with complex joins and aggregates.\n",
+    "type": "workshop",
+    "tags": ["kafka",
+      "streaming"],
+    "level": "middle",
+    "speakers": ["SmVyb2VuUmVzb29ydGplcm9lbi5yZXNvb3J0QGpkaXJ2ZW4uY29t"]
+  },
     {
       "abstract": "Cloud native applications are designed to anticipate failure, run and scale reliably even when the infrastructure it is running on is experiencing outages. To offer such capabilities, the cloud native platforms impose a set of contracts and constraints on the applications running on them. These contracts ensure that the applications conform to certain constraints and allow the platforms to automate the management of the containerized applications.\nDuring this talk we will take you on a journey exploring Kubernetes distributes primitives, the guiding container design principles, and the resulting patterns. Following these design guidelines will ensure that the applications you create are suitable for automation in cloud native platforms such as Kubernetes.\n\nThis talk is based on, and builds on top of a popular blog post I wrote for InfoQ:\nhttps://www.infoq.com/articles/kubernetes-effect",
       "level": "middle",

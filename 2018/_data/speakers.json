@@ -453,6 +453,17 @@
     "twitter": "speakjava",
     "homepage": ""
   },
+  {
+    "enabled": "1",
+    "name": "Jeroen Resoort",
+    "description": "Java Consultant at JDriven",
+    "biography": "Jeroen is a Java Consultant at JDriven. He has over 10 years of experience writing enterprise applications. He is passionate about writing good code, learning new technologies and sharing his knowledge with others. ",
+    "image": "assets/img/speakers/jeroen-resoort.jpg",
+    "ref": "SmVyb2VuUmVzb29ydGplcm9lbi5yZXNvb3J0QGpkaXJ2ZW4uY29t",
+    "url": "infoSpeaker.html?ref=SmVyb2VuUmVzb29ydGplcm9lbi5yZXNvb3J0QGpkaXJ2ZW4uY29t",
+    "twitter": "@JeroenResoort",
+    "homepage": ""
+  },
     {
       "biography": "Bilgin Ibryam is a principal architect at Red Hat, committer and member of Apache Software Foundation. He is an open source evangelist, blogger, the author of Kubernetes Patterns and Camel Design Patterns books and occasional speaker. In his day-to-day job, Bilgin enjoys mentoring, coding and leading developers to be successful with building open source solutions. His current work focuses on distributed systems, integration, messaging, microservices, devops, and cloud-native applications in general.",
       "description": "Principal architect at Red Hat",
