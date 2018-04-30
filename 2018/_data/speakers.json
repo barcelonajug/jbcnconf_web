@@ -452,5 +452,16 @@
     "url": "infoSpeaker.html?ref=U2ltb25SaXR0ZXJzcml0dGVyQGF6dWwuY29t",
     "twitter": "speakjava",
     "homepage": ""
-  }
+  },
+    {
+      "biography": "Bilgin Ibryam is a principal architect at Red Hat, committer and member of Apache Software Foundation. He is an open source evangelist, blogger, the author of Kubernetes Patterns and Camel Design Patterns books and occasional speaker. In his day-to-day job, Bilgin enjoys mentoring, coding and leading developers to be successful with building open source solutions. His current work focuses on distributed systems, integration, messaging, microservices, devops, and cloud-native applications in general.",
+      "description": "Principal architect at Red Hat",
+      "enabled": "1",
+      "homepage": "http://www.ofbizian.com/",
+      "image": "assets/img/speakers/bilgin-ibryam.jpg",
+      "name": "Bilgin Ibryam",
+      "ref": "QmlsZ2luSWJyeWFtYmlicnlhbUBnbWFpbC5jb20=",
+      "twitter": "@bibryam",
+      "url": "infoSpeaker.html?ref=QmlsZ2luSWJyeWFtYmlicnlhbUBnbWFpbC5jb20="
+    }
 ]}
