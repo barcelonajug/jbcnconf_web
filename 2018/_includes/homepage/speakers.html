@@ -5,14 +5,26 @@
                 <div class="content-widget-title">
                     <div class="content-title-text"><i class="fa fa-users"></i>
                         <h3>speakers<span class="separator">
-											<span class="separator-line"></span>
-											<span class="separator-dot"></span>
-										</span></h3>
+											                 <span class="separator-line"></span>
+											                 <span class="separator-dot"></span>
+										                </span>
+                        </h3>
                         <p>{{ site.data.homepage.speakers_desc }}.</p>
+                        <div style="text-align:center;">
+                          <a href="{{ base }}/talks.html">
+                            <button class="btn btn-jbcn">Talks <br> {{ site.data.talks.items | where: "type","talk" | size }}</button>
+                          </a>
+                          <a href="{{ base }}/workshops.html">
+                            <button class="btn btn-jbcn">Workshops <br>  {{ site.data.talks.items | where:"type","workshop" | size }}</button>
+                          </a>
+                          <a href="{{ base }}/speakers.html">
+                            <button class="btn btn-jbcn">Speakers <br> {{ site.data.speakers.items | size }}</button>
+                          </a>
+                        </div>
+                      </div> <br>
                     </div>
                 </div>
                 <div class="vc_empty_space" style="height: 33px"><span class="vc_empty_space_inner"></span></div>
-
 
                 <div class="speakers-widget speakers-widget-344564632 animate anim-fadeInUp">
 
@@ -65,10 +77,10 @@
                        title="SEE ALL">
                         <button type="button" class="btn btn-jbcn">All Speakers</button>
                     </a>
-                </div>                
+                </div>
 
             </div>
-            
+
         </div>
     </div>
 </div>
