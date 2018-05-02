@@ -572,5 +572,18 @@
         "Grails"],
       "level": "beginner",
       "speakers": ["TWFyaW9HYXJjaWFtYXJpby5nYXJjaWFAa2FsZWlkb3MubmV0"]
+    },
+    {
+      "title": "Going Web Native",
+      "abstract": "In this talk, we'll take a look at the evolving Web platform and how it's becoming possible to build applications that rival native apps in usability and functionality, while still maintaining the best parts of Web – low friction and simple sharing. You'll get an introduction to Progressive Web Apps, Web Components, Web Assembly and why they might be the reason behind your next native app being a web app.",
+      "type": "talk",
+      "tags": ["Web",
+        "PWA",
+        "WebComponents",
+        "WebAssembly",
+        "Native",
+        "Web app"],
+      "level": "beginner",
+      "speakers": ["QU1haGR5QWJkZWxheml6YW1haGR5N0BnbWFpbC5jb20="]
     }
 ]}

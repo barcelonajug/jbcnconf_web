@@ -486,5 +486,16 @@
       "url": "infoSpeaker.html?ref=TWFyaW9HYXJjaWFtYXJpby5nYXJjaWFAa2FsZWlkb3MubmV0",
       "twitter": "@marioggar",
       "homepage": ""
+    },
+    {
+      "enabled": "1",
+      "name": "AMahdy Abdelaziz",
+      "description": "Developer at Vaadin",
+      "biography": "International technical speaker, Google developer expert (GDE), Oracle Developer Champion, trainer and developer advocate. Passionate about Web and Mobile apps development, including PWA, offline-first design, in-browser database, and cross platform tools. Also interested in Android internals such as building custom ROMs and customize AOSP for embedded devices. www.amahdy.net",
+      "image": "assets/img/speakers/amahdy-abdelaziz.jpg",
+      "ref": "QU1haGR5QWJkZWxheml6YW1haGR5N0BnbWFpbC5jb20=",
+      "url": "infoSpeaker.html?ref=QU1haGR5QWJkZWxheml6YW1haGR5N0BnbWFpbC5jb20=",
+      "twitter": "@amahdy7",
+      "homepage": "http://amahdy.net"
     }
 ]}
