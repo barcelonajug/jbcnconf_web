@@ -42,20 +42,28 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                     #Architecture #Scalability #IoT #Actors #Concurrency. <br/>
                                 </p>
 
+                                <div style="text-align:center;">
+                                  <a href="{{ base }}/talks.html">
+                                    <button class="btn btn-jbcn">Talks <br> {{ site.data.talks.items | where: "type","talk" | size }}</button>
+                                  </a>
+                                  <a href="{{ base }}/workshops.html">
+                                    <button class="btn btn-jbcn">Workshops <br>  {{ site.data.talks.items | where:"type","workshop" | size }}</button>
+                                  </a>
+                                  <a href="{{ base }}/speakers.html">
+                                    <button class="btn btn-jbcn">Speakers <br> {{ site.data.speakers.items | size }}</button>
+                                  </a>
+                                </div>
+                                </div> <br>
 
                                 <div class="speakers-widget animate anim-fadeInUp">
 
-
                                     {% for speaker in site.data.speakers.items %}
-
-                                    {% assign talkTitle = '' %}
-                                    {% for talk in site.data.talks.items %}
-                                    {% if speaker.ref == talk.speakers[0] or speaker.ref == talk.speakers[1] %}
-                                    {% capture talkTitle %}  {{ talk.title }}. {{ talkTitle }}{% endcapture %}
-                                    {% endif %}
+                                      {% assign talkTitle = '' %}
+                                      {% for talk in site.data.talks.items %}
+                                        {% if speaker.ref == talk.speakers[0] or speaker.ref == talk.speakers[1] %}
+                                          {% capture talkTitle %}{{ talk.title }}{% endcapture %}
+                                        {% endif %}
                                     {% endfor %}
-
-
 
                                     <div class="item col-md-4" style="height:550px;">
                                         <div class="speaker-item-header"
@@ -71,16 +79,25 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                         </div>
                                         <div class="speaker-item-body" style="height:195px">
                                             <ul class="speaker-item-information">
-                                                {% if speaker.homepage %}
+                                                {% capture homepage %}{{speaker.homepage| strip}}{% endcapture %}
+                                                {% if homepage.size > 0 %}
                                                 <li class="">
-                                                    <a target="_blank" href="{{speaker.homepage}}">
+                                                    <a target="_blank" href="{{homepage}}">
                                                         <i class="fa fa-rss"></i>
                                                     </a>
                                                 </li>
                                                 {% endif %}
                                                 {% if speaker.twitter %}
+                                                  {% assign twitter = '' %}
+                                                  {% capture twitter %}{{speaker.twitter| replace: "@", "" }}{% endcapture %}
+                                                  {% if twitter contains 'http' %}
+                                                  {% elsif twitter contains 'https' %}
+                                                  {% else %}
+                                                    {% capture twitter %}{{ twitter | prepend: "http://twitter.com/" }}{% endcapture %}
+                                                  {% endif %}
+
                                                 <li class="twitter">
-                                                    <a target="_blank" href="{{speaker.twitter}}">
+                                                    <a target="_blank" href="{{twitter}}">
                                                         <i class="fa fa-twitter"></i>
                                                     </a>
                                                 </li>
@@ -109,4 +126,3 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
     </div>
 
 </div>
-
