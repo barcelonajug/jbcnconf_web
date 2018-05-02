@@ -560,5 +560,17 @@
     ],
     "title": "The Kubernetes Effect",
     "type": "talk"
-  }
+  },
+    {
+      "title": "Groovy & GraphQL: The peace pipe between front and back devs?",
+      "abstract": "Nowadays front end applications are far more complex that we used to do. That creates new challenges between front and back developers that we rarely faced before and leading to new scenarios: How many times did you have to create and end point that you felt it was serving too much stuff? Have you ever force your frontend fellows to attack many end points just to paint a single page? Well, maybe there is a middle term. During this talk I’ll try to explain how Groovy technologies such as Grails or Ratpack can make use of GraphQL to mitigate these problems, making back end data access more effective from a backend point of view and a lot easier for front end developers.",
+      "type": "talk",
+      "tags": ["GraphQL",
+        "Groovy",
+        "Java",
+        "Ratpack",
+        "Grails"],
+      "level": "beginner",
+      "speakers": ["TWFyaW9HYXJjaWFtYXJpby5nYXJjaWFAa2FsZWlkb3MubmV0"]
+    }
 ]}

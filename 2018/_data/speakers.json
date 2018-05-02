@@ -475,5 +475,16 @@
       "ref": "QmlsZ2luSWJyeWFtYmlicnlhbUBnbWFpbC5jb20=",
       "twitter": "@bibryam",
       "url": "infoSpeaker.html?ref=QmlsZ2luSWJyeWFtYmlicnlhbUBnbWFpbC5jb20="
+    },
+    {
+      "enabled": "1",
+      "name": "Mario Garcia",
+      "description": "Senior Software Developer at Kaleidos.net",
+      "biography": "Senior Software Developer at Kaleidos.net. Passionate about programming languages (Groovy among all) and open source in general. I'm also an active member of the Madrid Groovy User Group.",
+      "image": "assets/img/speakers/mario-garcia.jpg",
+      "ref": "TWFyaW9HYXJjaWFtYXJpby5nYXJjaWFAa2FsZWlkb3MubmV0",
+      "url": "infoSpeaker.html?ref=TWFyaW9HYXJjaWFtYXJpby5nYXJjaWFAa2FsZWlkb3MubmV0",
+      "twitter": "@marioggar",
+      "homepage": ""
     }
 ]}
