@@ -4,10 +4,6 @@
       "href": "/#JBCN"
     },
     {
-      "label": "Call for papers",
-      "href": "/callForPapers.html"
-    },
-    {
       "label": "Buy Ticket",
       "href": "/#Tickets"
     },
@@ -35,17 +31,7 @@
     },
     {
       "label": "Travel",
-      "href": "/#Travel",
-      "items": [
-        {
-          "label": "Accomodation",
-          "href": "/accomodation.html"
-        },
-        {
-          "label": "To Barcelona",
-          "href": "/travel-to-java-barcelona.html"
-        }
-      ]
+      "href": "/travel-to-java-barcelona.html"
     },
     {
       "label": "Code of conduct",
