@@ -1,564 +1,290 @@
 {
   "items": [{
-      "title": "The next evolution of microservices patterns with Istio Mesh",
-      "abstract": "With microservices architectures, we're making more network calls and need to do more integration to get our system to work; this creates more ways for our applications to break and cause failures to propagate much faster. We need a way to call our microservices and be resilient to distributed systems failures â€” as a first-class implementation.\n\nPrevious generations of tools solving these problems were built at Twitter or Netflix but did so with application libraries. However, for each combination of platform/language/framework we use to build microservices we need to consistently solve for the following critical functions\n\n* routing / traffic shaping\n* adaptive/clientside loadbalancing\n* service discovery\n* circuit breaking\n* timeouts / retries \n* rate limiting\n* metrics/logging/tracing\n* fault injection\n\nDoing all of these things in application-layer libraries across all your languages and all your frameworks becomes incredibly complex and expensive to maintain. In this talk, I'll introduce you to Envoy Proxy and Istio.io Service Mesh, discuss how they solve these problems more elegantly by pushing these concerns down to the infrastructure layer, and show demos of how it all works. ",
-      "type": "talk",
-      "tags": [
-        "Service Mesh",
-        "Istio",
-        "Kuberentes",
-        "Microservices"
-      ],
-      "level": "middle",
-      "speakers": [
-        "Q2hyaXN0aWFuUG9zdGFjaHJpc3RpYW4ucG9zdGFAZ21haWwuY29t"
-      ]
-    },
-    {
-      "title": " Don't hack the platform? ",
-      "abstract": "\n\nDon't go to this talk! Your coworkers will not be happy when you come back to work tomorrow and start applying the things you'll learn here. You'll do a lot of damage.\n\nMutating immutable objects is never a good idea. You shouldn't be bypassing the constructor when you instantiate an object. You certainly don't need to add constants to your enums at runtime. And don't even think about including Java 8 code in your Java 7 codebase. Truly, nothing good will come from attending this talk.\n",
-      "type": "talk",
-      "tags": [
-        "java",
-        "reflection",
-        "hacking"
-      ],
-      "level": "middle",
-      "speakers": [
-        "SmFuT3V3ZW5zamFuLm91d2Vuc0BnbWFpbC5jb20="
-      ]
-    },
-    {
-      "title": "Kotlin EE: Boost your Productivity",
-      "abstract": "Kotlin is a language for the JVM, invented by JetBrains a few years ago. But what the hell is Kotlin EE? If you never heard of Kotlin EE, don't panic, it does not exist. But you can use it right away and boost your productivity!\n\nI invented the term Kotlin EE as a synonym for using the Kotlin language together with the Java EE API to create services of any size (microservices, nanoservices etc.) with just a few lines of code and the ability to focus on the business logic.\n\nKotlin and Java EE are a perfect couple for writing micro- or nanoservices. Kotlin is a very pragmatic language, builds on many concepts and techniques from Java, designed for developer productivity. Kotlin works great with all existing Java libraries and frameworks and runs with the same level of performance as Java.\n\nThe Java EE API allows us to code against a proven and stable API. Provided libraries like JAX-RS for writing RESTful APIs and Jackson for JSON (de)serializing decrease the need for additional third-party libraries which results in a short build time and a small artifact size. Benefit from a very fast build and test feedback and stay focused on your code.\n\nIn this talk, I try to prove my statements from above. Live on stage I write a service in Kotlin with a RESTful JSON API with only a few lines of code and run the service using a local Docker cloud where you can see how these can be scaled up and down to manage fluctuating loads. Coding, building, testing, deploying, scaling: fast and efficient!",
-      "type": "talk",
-      "tags": [
-        "Kotlin",
-        "Java EE",
-        "Jakarta EE",
-        "Docker",
-        "Container",
-        "Cloud"
-      ],
-      "level": "beginner",
-      "speakers": [
-        "TWFyY3VzRmlobG9ubWFyY3VzQGZpaGxvbi5jaA=="
-      ]
-    },
-    {
-      "title": " Minimum Cloud Skills or why shoving everything in containers is not enough",
-      "abstract": "What do you need to know to make a successful Cloud Deployment? Is shoving everything into containers enough? Or should you make other enlightened choices? I think it's the latest so let's see what knowledge is necessary on a code/architecture level.\n\nWe will assume that deploying in the Cloud means deploying software that is distributed and that may fail at any point. Based on these two assumptions we will go over three main points: Data, Failure and Automation.\n\nAt the end of this talk you will have a good idea of all the questions you will ask yourself when deploying software on the cloud and the different possible answers. Our goal is not to go in depth in all these concepts. It's to give you a broad overview so you know what to look for when a problem or question arise.",
-      "type": "talk",
-      "tags": [
-        "cloud",
-        "best practices",
-        "data",
-        "automation",
-        "failure"
-      ],
-      "level": "beginner",
-      "speakers": [
-        "TGF1cmVudERvZ3VpbmxhdXJlbnQuZG9ndWluQGNsZXZlci1jbG91ZC5jb20="
-      ]
-    },
-    {
-      "title": "Serverless in Deep",
-      "abstract": "Maybe You have been listening about Serverless. But, do you really know what is Serverless? If you don't have any knowledge, or want to delve into the subject, this is the talk for you. We will discuss what is Serverless, its principles, how it relates to FaaS (Functions as a Service), its benefits and drawbacks. But the most import its architecture in deep, the most relevant use cases or Design Patterns, which technologies and tools we have in the market for implement Serverless, and how they come to relate the Serverless with containers.\n",
-      "type": "talk",
-      "tags": [
-        "Serverless",
-        "Kubernets",
-        "Cloud",
-        "FaaS"
-      ],
-      "level": "beginner",
-      "speakers": [
-        "TWVyY2VkZXNXeXNzbWVyY2VkZXMud3lzc0Bwb3dlcnd0ZWNobm9sb2d5LmNvbQ=="
-      ]
-    },
-    {
-      "title": "Ten common mistake made in Functional Java",
-      "abstract": "In Java 8 functional style programming was introduced in Java. Java 9 extended this with some nice new features. For many people it is hard to grasp the idea of functional style programming after so many years of purely working in the imperative OOP style. The opportunities Java gives us out of the box are massive on the other hand with great power comes great responsibility.\n\nLet me point out common mistakes that are made when integrating functional style programming in your every day Java project and how to prevent this. This way you can make better, cleaner and more readable code. But even more important, you will be able to utilize the functional code constructions in Java 9 to it's full potential â€¦.. and maybe, you even start to like it.",
-      "type": "talk",
-      "tags": [
-        "Functional Programming",
-        "Java"
-      ],
-      "level": "middle",
-      "speakers": [
-        "QnJpYW5WZXJtZWVyYnJpYW5AYnJpYW52ZXJtZWVyLm5s"
-      ]
-    },
-    {
-      "title": "3 common pitfalls in microservice integration and how to avoid them",
-      "abstract": "Integrating microservices and taming distributed systems is hard. In this talk I will present three challenges we observed in real-life projects and discuss how to avoid them.\n\n1. Communication is complex. With everything being distributed failures are normal so you need sophisticated failure handling strategies (e.g. stateful retry).\n2. Asynchronicity requires you to handle timeouts. This is not only about milliseconds, systems get much more resilient when you can wait for minutes, hours or even longer.\n3. Distributed transactions cannot simply be delegated to protocols like XA. So you need to solve the requirement to retain consistency in case of failures.\n\nI will not only use slides but also demonstrate concrete source code examples available on GitHub.",
-      "type": "talk",
-      "tags": [
-        "Distributed Systems",
-        "Microservices",
-        "Integration",
-        "Consistency"
-      ],
-      "level": "beginner",
-      "speakers": [
-        "QmVybmRSdWVja2VyYmVybmQucnVlY2tlckBjYW11bmRhLmNvbQ=="
-      ]
-    },
-    {
-      "title": "Escaping Developer Nightmares",
-      "abstract": "Have you ever worked on a legacy project, like lots of source code, but no unit tests? Or no continuous delivery? Static code analysis completely missing, or even a simple code standard totally absent?\n\nProjects like these are still more often the case than we like to think. In fact, maybe you are a developer stuck in such a project, even though you have tried to raise these issues as problems? Were you told that is gold-plating, or simply too much work to fix?\n\nI would like to share my experiences from a couple of such projects, both from the perspective of a tech lead in a project like this, and as a software reviewer (i.e. doing software auditing). But most important: I would like to help you with some good arguments, to convince your project leader why these things matter.",
-      "type": "talk",
-      "tags": [
-        "java",
-        "continuous delivery",
-        "best practices"
-      ],
-      "level": "beginner",
-      "speakers": [
-        "UnVzdGFtTWVobWFuZGFyb3ZtZWhtYW5kYXJvdkBnbWFpbC5jb20="
-      ]
-    },
-    {
-      "title": "Let's build a blockchain in 50 minutes!",
-      "abstract": "Blockchain technology is hot! But how does it actually work? I always found that the best way to get familiar with new technology is to build something with it. \n\nSo, let's build a blockchain, then!\n\nIn this live coding session, I will build a blockchain from scratch, using Java 8 with a little SpringBoot sprinkled over it. The talk will include all concepts of a blockchain, like transactions, blocks, immutability, proof-of-work, and consensus in the network. After this session you will have a better understanding of how blockchains work and how to implement them!",
-      "type": "talk",
-      "tags": [
-        "BlockChain",
-        "Java",
-        "Spring Boot"
-      ],
-      "level": "middle",
-      "speakers": [
-        "TWljaGVsU2NodWRlbG1pY2hlbC5zY2h1ZGVsQGdtYWlsLmNvbQ=="
-      ]
-    },
-    {
-      "title": "Distributed System explained (with Java Microservices)",
-      "abstract": "Since I've been working on distributed systems I always wanted to go back in time and teach myself what I know now, in order to avoid the silly mistakes I did. Things like vector clocks, the CAP theorem, how replication really works and why it's needed! This is the speech I'd needed when I wrote my first distributed system, and it's something you need to know if you fancy working in this area. In this talk you will understand these concepts using simple Java microservices talking to each other, using the three different architectures proposed by the CAP theorem. After a quick introduction to the theory, we will start looking at the code and running demos. Services will fall, the network will be partitioned... what will the winner architecture be?",
-      "type": "talk",
-      "tags": [
-        "Java",
-        "Distributed Systems",
-        "CAP",
-        "code",
-        "demos"
-      ],
-      "level": "beginner",
-      "speakers": [
-        "QnJ1bm9Cb3Nzb2xhYmJvc3NvbGFAZ21haWwuY29t",
-        "TWFyaW9Sb21hbm9tYXJpby5yb21hbm84M0BnbWFpbC5jb20="
-      ]
-    },
-    {
-      "title": "Top 10 Vulnerabilities you wish your Java app didn't have!",
-      "abstract": "This session takes some of the most common vulnerabilities found in the Java eco-system, breaks them down and shows how simple code can exploit them. We'll look at examples in the wild that have been exposed, some more famously than others, before showing you how to guard against these important security issues.",
-      "type": "talk",
-      "tags": [
-        "java",
-        "security"
-      ],
-      "level": "middle",
-      "speakers": [
-        "U2ltb25NYXBsZXNqbWFwbGVAZ21haWwuY29t"
-      ]
-    },
-    {
-      "title": "Thinking in Functional Style 'Solving Commonly Recurring Code Problems using Java's Functional Capabilities.'",
-      "abstract": "In this workshop the attendees will take six different problems, explore solution to them using the functional capabilities in the Java language. The presenter will, along the way, assist the participants, and also discuss the solutions. The objective of this workshop is to motivate developers to think more functionally, reduce code complexity, and to make better use of more recent features in the language. Attendees are expected to have Java 9 installed on their machine along with their favorite IDEs.",
-      "type": "workshop",
-      "tags": [
-        "functional",
-        "java9"
-      ],
-      "level": "middle",
-      "speakers": [
-        "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ=="
-      ]
-    },
-    {
-      "title": "Kotlin for Java Programmers",
-      "abstract": "Kotlin is that dark horse of JVM languages. It has gained prominence in the recent times for various good reasons. But, what does Kotlin really mean to Java programmers? In this presentation we will explore the language, learn about its key strengths and capabilities, take a peek under the hood to what it's capabilities mean on the Java eco system, and how and where we can benefit from it.",
-      "type": "talk",
-      "tags": [
-        "Java",
-        "Kotlin"
-      ],
-      "level": "talk",
-      "speakers": [
-        "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ=="
-      ]
-    },
-    {
-      "title": "Begin Event Sourcing with Lagom",
-      "abstract": "Relational databases are great! They are well proven powerhouses in persisting state, but are they always the best solution to your problems?\n\nJoin me as we explore a more functional approach to how we deal with state in our systems. We'll start by covering the basis of EventSourcing and continue to take a hands-on look on the Lagom framework and Akka. You will hopefully leave with a stepping stone to start to implement EventSourced systems on the JVM",
-      "type": "talk",
-      "tags": [
-        "Java",
-        "Event Sourcing",
-        "Functional Programming",
-        "Akka",
-        "Lagom"
-      ],
-      "level": "middle",
-      "speakers": [
-        "T2xhUGV0ZXJzc29ubWFpbEBvbGFwZXRlcnNzb24uc2U="
-      ]
-    },
-    {
-      "title": "How to Leverage the Apache Kafka Ecosystem to Productionize Machine Learning",
-      "abstract": "This talk shows how to productionize Machine Learning models in mission-critical and scalable real time applications by leveraging Apache Kafka as streaming platform. The talk discusses the relation between Machine Learning frameworks such as TensorFlow, DeepLearning4J or H2O and the Apache Kafka ecosystem. A live demo shows how to build a mission-critical Machine Learning environment leveraging different Kafka components: Kafka messaging and Kafka Connect for data movement from and into different sources and sinks, Kafka Streams for model deployment and inference in real time, and KSQL for real time analytics of predictions, alerts and model accuracy.",
-      "type": "talk",
-      "tags": [
-        "Apache Kafka",
-        "Open Source"
-      ],
-      "level": "middle",
-      "speakers": [
-        "S2FpV2FlaG5lcm1lZ2FjaHVja3lAZ21haWwuY29t"
-      ]
-    },
-    {
-      "title": "A Craftsman’s Guide to Designing a Clean Architecture",
-      "abstract": "In 2018, it seems like Microservices are the de facto standard for a system architecture, but do they really live up to the hype?\n\nThe talk will show you an alternative approach, how we can tame complexity with the help of a clean, monolithic architecture that is modular to the core.\nBack in 1972, David Parnas coined the most important fundamental concept in object-oriented design: modularity. Java is deliberately built from the ground up on a modular basis: Methods, classes, packages. Additionally, the module system was introduced in Java 9. Modularity is based on three pillars: high cohesion, low coupling and strong encapsulation. We will look at these three basic concepts in detail – what are they, how are they related to one another and how can we apply them on all levels of our architecture?\nThe talk will show you how you can apply these basic concepts to develop a clean, monolithic architecture at scale, based on Java 9 modules and the hexagonal architecture pattern.\nFinally, we will critically discuss microservices. We'll look at what microservices are, as well as at their advantages and disadvantages. We'll examine the technical and organizational requirements necessary for implementing a microservice architecture. Additionally, we'll explore when we should and shouldn't make use of microservices. Finally, we'll learn how to achieve a clean microservice architecture.\n",
-      "type": "talk",
-      "tags": [
-        "Java",
-        "Java 9",
-        "Clean Code",
-        "Architecture",
-        "Modularity",
-        "Microservices",
-        "Hexagonal Architecture",
-        "Cohesion",
-        "Coupling"
-      ],
-      "level": "advanced",
-      "speakers": [
-        "TWFyY3VzQmllbG1hcmN1c0BjbGVhbmNvZGVhY2FkZW15LmNvbQ=="
-      ]
-    },
-    {
-      "title": "Long Live and Prosper to Monolith",
-      "abstract": "Nowadays everyone is talking about microservices and how cool they are. That's true, but not all business needs to move to microservices, you can still use monolith architecture and make it more fashion by applying some of the design/elements that you've learned from microservices architecture.\n\nCan you use circuit breaker pattern, service isolation, event-driven and non-blocking application, cloud-native approach or zero downtime deployment in monolith architecture? Is it worth? The answer is YES!!!.\n\nCome to this session to learn how to make your Java monolith applications attractive again by borrowing some of the principles of microservices architecture.",
-      "type": "talk",
-      "tags": [
-        "java",
-        "architecture",
-        "monolith",
-        "microservices"
-      ],
-      "level": "middle",
-      "speakers": [
-        "QWxleFNvdG9hc290b2J1QGdtYWlsLmNvbQ=="
-      ]
-    },
-    {
-      "title": "A Look Back at Enterprise Integration Patterns and Their Use into Today's Serverless Computing",
-      "abstract": "Functions, and the so called serverless computing have freed deveopers from worring about infrastructure, and even upper platform layers, as well some steps in the software development lifecycle. But once you have functions deployed, how do they interact with each other? How message navigates between them? Maybe, just maybe, it's time to look back again at EIPs - Enterprise Integration Patterns, and their use in this new way of deploying code to the Cloud. This talk will cover primarily the use of one of the key EIP frameworks - Apache Camel - and top patterns applicable to Serverless Computing using Functions services by Cloud vendors as part of the demonstrations.",
-      "type": "talk",
-      "tags": [
-        "java",
-        "serverless",
-        "functions",
-        "integration",
-        "cloud"
-      ],
-      "level": "beginner",
-      "speakers": [
-        "QnJ1bm9Cb3JnZXNicnVuby5ib3JnZXNAZ21haWwuY29t"
-      ]
-    },
-    {
-      "title": "A Case for Outside-In Design",
-      "abstract": "For a few decades, one of the most common approaches to software design is to first focus on the domain model (application layer), then persistence (data layer) and finally the user interface (presentation layer). But what are the pros and cons of this approach? Are there other alternatives? Are they viable?\n\nIn this presentation Sandro will be talking about different design biases and the impact they have. He will then focus on Outside-In Design, explaining how our domain model can emerge and evolve when driven by the needs of external systems or users, avoiding speculation and wasted effort",
-      "type": "talk",
-      "tags": [
-        "design",
-        "craftsmanship"
-      ],
-      "level": "middle",
-      "speakers": [
-        "U2FuZHJvTWFuY3Vzb2luZm9AYmFyY2Vsb25hanVnLm9yZw=="
-      ]
-    },
-    {
-      "title": "Demystifying modern significant Java language features",
-      "abstract": "The presentation aims to reveal how the most significant Java 9 language features work under the hood. Each topic is covered by few code examples, bytecode instructions, JMH tests and x86 assembly generated code (only in few specific cases). We try to build a top down approach and to understand what is happening at each level inside the JVM, starting with source code, followed by javac and then JIT compilation process. Main topics: - Private interface methods - String in Java 9 (Compact strings and Indify String concatenation ) - Collection factory methods - StackWalker - Contended locks in Java 9 - Segmented Code Cache - Lambdas - Streams (e.g. ForkJoin, streams characteristics) Attendees will have a clear and comprehensive understanding about all of these internals, which might make a difference in writing better and more performant code.",
-      "type": "talk",
-      "tags": [
-        "Java",
-        "Performance",
-        "JIT",
-        "assembly"
-      ],
-      "level": "advanced",
-      "speakers": [
-        "SW9udXRCYWxvc2luaW9udXRiYWxvc2luQHlhaG9vLmNvbQ=="
-      ]
-    },
-  {
+    "title": "The next evolution of microservices patterns with Istio Mesh",
+    "abstract": "With microservices architectures, we're making more network calls and need to do more integration to get our system to work; this creates more ways for our applications to break and cause failures to propagate much faster. We need a way to call our microservices and be resilient to distributed systems failures â€” as a first-class implementation.\n\nPrevious generations of tools solving these problems were built at Twitter or Netflix but did so with application libraries. However, for each combination of platform/language/framework we use to build microservices we need to consistently solve for the following critical functions\n\n* routing / traffic shaping\n* adaptive/clientside loadbalancing\n* service discovery\n* circuit breaking\n* timeouts / retries \n* rate limiting\n* metrics/logging/tracing\n* fault injection\n\nDoing all of these things in application-layer libraries across all your languages and all your frameworks becomes incredibly complex and expensive to maintain. In this talk, I'll introduce you to Envoy Proxy and Istio.io Service Mesh, discuss how they solve these problems more elegantly by pushing these concerns down to the infrastructure layer, and show demos of how it all works. ",
+    "type": "talk",
+    "tags": ["Service Mesh", "Istio", "Kuberentes", "Microservices"],
+    "level": "middle",
+    "speakers": ["5f729db9302ead529bf5818e137c0d3117f33fec"]
+  }, {
+    "title": " Don't hack the platform? ",
+    "abstract": "\n\nDon't go to this talk! Your coworkers will not be happy when you come back to work tomorrow and start applying the things you'll learn here. You'll do a lot of damage.\n\nMutating immutable objects is never a good idea. You shouldn't be bypassing the constructor when you instantiate an object. You certainly don't need to add constants to your enums at runtime. And don't even think about including Java 8 code in your Java 7 codebase. Truly, nothing good will come from attending this talk.\n",
+    "type": "talk",
+    "tags": ["java", "reflection", "hacking"],
+    "level": "middle",
+    "speakers": ["47d757a5e887ec7febc8afcada08f4ac8563d124"]
+  }, {
+    "title": "Kotlin EE: Boost your Productivity",
+    "abstract": "Kotlin is a language for the JVM, invented by JetBrains a few years ago. But what the hell is Kotlin EE? If you never heard of Kotlin EE, don't panic, it does not exist. But you can use it right away and boost your productivity!\n\nI invented the term Kotlin EE as a synonym for using the Kotlin language together with the Java EE API to create services of any size (microservices, nanoservices etc.) with just a few lines of code and the ability to focus on the business logic.\n\nKotlin and Java EE are a perfect couple for writing micro- or nanoservices. Kotlin is a very pragmatic language, builds on many concepts and techniques from Java, designed for developer productivity. Kotlin works great with all existing Java libraries and frameworks and runs with the same level of performance as Java.\n\nThe Java EE API allows us to code against a proven and stable API. Provided libraries like JAX-RS for writing RESTful APIs and Jackson for JSON (de)serializing decrease the need for additional third-party libraries which results in a short build time and a small artifact size. Benefit from a very fast build and test feedback and stay focused on your code.\n\nIn this talk, I try to prove my statements from above. Live on stage I write a service in Kotlin with a RESTful JSON API with only a few lines of code and run the service using a local Docker cloud where you can see how these can be scaled up and down to manage fluctuating loads. Coding, building, testing, deploying, scaling: fast and efficient!",
+    "type": "talk",
+    "tags": ["Kotlin", "Java EE", "Jakarta EE", "Docker", "Container", "Cloud"],
+    "level": "beginner",
+    "speakers": ["afe89ee8db6cb727232cc8e0a5ba2ffba2d39701"]
+  }, {
+    "title": " Minimum Cloud Skills or why shoving everything in containers is not enough",
+    "abstract": "What do you need to know to make a successful Cloud Deployment? Is shoving everything into containers enough? Or should you make other enlightened choices? I think it's the latest so let's see what knowledge is necessary on a code/architecture level.\n\nWe will assume that deploying in the Cloud means deploying software that is distributed and that may fail at any point. Based on these two assumptions we will go over three main points: Data, Failure and Automation.\n\nAt the end of this talk you will have a good idea of all the questions you will ask yourself when deploying software on the cloud and the different possible answers. Our goal is not to go in depth in all these concepts. It's to give you a broad overview so you know what to look for when a problem or question arise.",
+    "type": "talk",
+    "tags": ["cloud", "best practices", "data", "automation", "failure"],
+    "level": "beginner",
+    "speakers": ["165d72cee2fa148ae7fc78f01a4f40f17cdc9630"]
+  }, {
+    "title": "Serverless in Deep",
+    "abstract": "Maybe You have been listening about Serverless. But, do you really know what is Serverless? If you don't have any knowledge, or want to delve into the subject, this is the talk for you. We will discuss what is Serverless, its principles, how it relates to FaaS (Functions as a Service), its benefits and drawbacks. But the most import its architecture in deep, the most relevant use cases or Design Patterns, which technologies and tools we have in the market for implement Serverless, and how they come to relate the Serverless with containers.\n",
+    "type": "talk",
+    "tags": ["Serverless", "Kubernets", "Cloud", "FaaS"],
+    "level": "beginner",
+    "speakers": ["d43c4a28c6222750fcef9b5b50013ea8ed897d19"]
+  }, {
+    "title": "Ten common mistake made in Functional Java",
+    "abstract": "In Java 8 functional style programming was introduced in Java. Java 9 extended this with some nice new features. For many people it is hard to grasp the idea of functional style programming after so many years of purely working in the imperative OOP style. The opportunities Java gives us out of the box are massive on the other hand with great power comes great responsibility.\n\nLet me point out common mistakes that are made when integrating functional style programming in your every day Java project and how to prevent this. This way you can make better, cleaner and more readable code. But even more important, you will be able to utilize the functional code constructions in Java 9 to it's full potential â€¦.. and maybe, you even start to like it.",
+    "type": "talk",
+    "tags": ["Functional Programming", "Java"],
+    "level": "middle",
+    "speakers": ["4933804ca1248303098eaa459ba614f4bbbbada1"]
+  }, {
+    "title": "3 common pitfalls in microservice integration and how to avoid them",
+    "abstract": "Integrating microservices and taming distributed systems is hard. In this talk I will present three challenges we observed in real-life projects and discuss how to avoid them.\n\n1. Communication is complex. With everything being distributed failures are normal so you need sophisticated failure handling strategies (e.g. stateful retry).\n2. Asynchronicity requires you to handle timeouts. This is not only about milliseconds, systems get much more resilient when you can wait for minutes, hours or even longer.\n3. Distributed transactions cannot simply be delegated to protocols like XA. So you need to solve the requirement to retain consistency in case of failures.\n\nI will not only use slides but also demonstrate concrete source code examples available on GitHub.",
+    "type": "talk",
+    "tags": ["Distributed Systems", "Microservices", "Integration", "Consistency"],
+    "level": "beginner",
+    "speakers": ["460463ad31dc82e204da00797e04772b5e5b1389"]
+  }, {
+    "title": "Escaping Developer Nightmares",
+    "abstract": "Have you ever worked on a legacy project, like lots of source code, but no unit tests? Or no continuous delivery? Static code analysis completely missing, or even a simple code standard totally absent?\n\nProjects like these are still more often the case than we like to think. In fact, maybe you are a developer stuck in such a project, even though you have tried to raise these issues as problems? Were you told that is gold-plating, or simply too much work to fix?\n\nI would like to share my experiences from a couple of such projects, both from the perspective of a tech lead in a project like this, and as a software reviewer (i.e. doing software auditing). But most important: I would like to help you with some good arguments, to convince your project leader why these things matter.",
+    "type": "talk",
+    "tags": ["java", "continuous delivery", "best practices"],
+    "level": "beginner",
+    "speakers": ["72b36c4f06a1b0211e42921b9815136568fa1b73"]
+  }, {
+    "title": "Let's build a blockchain in 50 minutes!",
+    "abstract": "Blockchain technology is hot! But how does it actually work? I always found that the best way to get familiar with new technology is to build something with it. \n\nSo, let's build a blockchain, then!\n\nIn this live coding session, I will build a blockchain from scratch, using Java 8 with a little SpringBoot sprinkled over it. The talk will include all concepts of a blockchain, like transactions, blocks, immutability, proof-of-work, and consensus in the network. After this session you will have a better understanding of how blockchains work and how to implement them!",
+    "type": "talk",
+    "tags": ["BlockChain", "Java", "Spring Boot"],
+    "level": "middle",
+    "speakers": ["40afe10a3ea9ec161d15ade201a0101fa8f635f4"]
+  }, {
+    "title": "Distributed System explained (with Java Microservices)",
+    "abstract": "Since I've been working on distributed systems I always wanted to go back in time and teach myself what I know now, in order to avoid the silly mistakes I did. Things like vector clocks, the CAP theorem, how replication really works and why it's needed! This is the speech I'd needed when I wrote my first distributed system, and it's something you need to know if you fancy working in this area. In this talk you will understand these concepts using simple Java microservices talking to each other, using the three different architectures proposed by the CAP theorem. After a quick introduction to the theory, we will start looking at the code and running demos. Services will fall, the network will be partitioned... what will the winner architecture be?",
+    "type": "talk",
+    "tags": ["Java", "Distributed Systems", "CAP", "code", "demos"],
+    "level": "beginner",
+    "speakers": ["1927ff89448b3289f6615e39b9f364401bc39c91", "509caea6bed4e560bad33cbee5725c96517fb2ac"]
+  }, {
+    "title": "Top 10 Vulnerabilities you wish your Java app didn't have!",
+    "abstract": "This session takes some of the most common vulnerabilities found in the Java eco-system, breaks them down and shows how simple code can exploit them. We'll look at examples in the wild that have been exposed, some more famously than others, before showing you how to guard against these important security issues.",
+    "type": "talk",
+    "tags": ["java", "security"],
+    "level": "middle",
+    "speakers": ["61b4086693575ee221a3edadf84be18c649bded3"]
+  }, {
+    "title": "Thinking in Functional Style 'Solving Commonly Recurring Code Problems using Java's Functional Capabilities.'",
+    "abstract": "In this workshop the attendees will take six different problems, explore solution to them using the functional capabilities in the Java language. The presenter will, along the way, assist the participants, and also discuss the solutions. The objective of this workshop is to motivate developers to think more functionally, reduce code complexity, and to make better use of more recent features in the language. Attendees are expected to have Java 9 installed on their machine along with their favorite IDEs.",
+    "type": "workshop",
+    "tags": ["functional", "java9"],
+    "level": "middle",
+    "speakers": ["985c2e52639feb5646ce360dfde8e42b27a323e1"]
+  }, {
+    "title": "Kotlin for Java Programmers",
+    "abstract": "Kotlin is that dark horse of JVM languages. It has gained prominence in the recent times for various good reasons. But, what does Kotlin really mean to Java programmers? In this presentation we will explore the language, learn about its key strengths and capabilities, take a peek under the hood to what it's capabilities mean on the Java eco system, and how and where we can benefit from it.",
+    "type": "talk",
+    "tags": ["Java", "Kotlin"],
+    "level": "talk",
+    "speakers": ["985c2e52639feb5646ce360dfde8e42b27a323e1"]
+  }, {
+    "title": "Begin Event Sourcing with Lagom",
+    "abstract": "Relational databases are great! They are well proven powerhouses in persisting state, but are they always the best solution to your problems?\n\nJoin me as we explore a more functional approach to how we deal with state in our systems. We'll start by covering the basis of EventSourcing and continue to take a hands-on look on the Lagom framework and Akka. You will hopefully leave with a stepping stone to start to implement EventSourced systems on the JVM",
+    "type": "talk",
+    "tags": ["Java", "Event Sourcing", "Functional Programming", "Akka", "Lagom"],
+    "level": "middle",
+    "speakers": ["04f85b037c17c4ad2d4bd3f51d6748d2b0398583"]
+  }, {
+    "title": "How to Leverage the Apache Kafka Ecosystem to Productionize Machine Learning",
+    "abstract": "This talk shows how to productionize Machine Learning models in mission-critical and scalable real time applications by leveraging Apache Kafka as streaming platform. The talk discusses the relation between Machine Learning frameworks such as TensorFlow, DeepLearning4J or H2O and the Apache Kafka ecosystem. A live demo shows how to build a mission-critical Machine Learning environment leveraging different Kafka components: Kafka messaging and Kafka Connect for data movement from and into different sources and sinks, Kafka Streams for model deployment and inference in real time, and KSQL for real time analytics of predictions, alerts and model accuracy.",
+    "type": "talk",
+    "tags": ["Apache Kafka", "Open Source"],
+    "level": "middle",
+    "speakers": ["4933ebef38f82b62da601eb07e8362bb389cc560"]
+  }, {
+    "title": "A Craftsman’s Guide to Designing a Clean Architecture",
+    "abstract": "In 2018, it seems like Microservices are the de facto standard for a system architecture, but do they really live up to the hype?\n\nThe talk will show you an alternative approach, how we can tame complexity with the help of a clean, monolithic architecture that is modular to the core.\nBack in 1972, David Parnas coined the most important fundamental concept in object-oriented design: modularity. Java is deliberately built from the ground up on a modular basis: Methods, classes, packages. Additionally, the module system was introduced in Java 9. Modularity is based on three pillars: high cohesion, low coupling and strong encapsulation. We will look at these three basic concepts in detail – what are they, how are they related to one another and how can we apply them on all levels of our architecture?\nThe talk will show you how you can apply these basic concepts to develop a clean, monolithic architecture at scale, based on Java 9 modules and the hexagonal architecture pattern.\nFinally, we will critically discuss microservices. We'll look at what microservices are, as well as at their advantages and disadvantages. We'll examine the technical and organizational requirements necessary for implementing a microservice architecture. Additionally, we'll explore when we should and shouldn't make use of microservices. Finally, we'll learn how to achieve a clean microservice architecture.\n",
+    "type": "talk",
+    "tags": ["Java", "Java 9", "Clean Code", "Architecture", "Modularity", "Microservices", "Hexagonal Architecture", "Cohesion", "Coupling"],
+    "level": "advanced",
+    "speakers": ["1910f00e3b6a8220979782a1355b8570de1beca0"]
+  }, {
+    "title": "Long Live and Prosper to Monolith",
+    "abstract": "Nowadays everyone is talking about microservices and how cool they are. That's true, but not all business needs to move to microservices, you can still use monolith architecture and make it more fashion by applying some of the design/elements that you've learned from microservices architecture.\n\nCan you use circuit breaker pattern, service isolation, event-driven and non-blocking application, cloud-native approach or zero downtime deployment in monolith architecture? Is it worth? The answer is YES!!!.\n\nCome to this session to learn how to make your Java monolith applications attractive again by borrowing some of the principles of microservices architecture.",
+    "type": "talk",
+    "tags": ["java", "architecture", "monolith", "microservices"],
+    "level": "middle",
+    "speakers": ["1cf43210c8515585e52e4d2f6f2e5e0f582049d8"]
+  }, {
+    "title": "A Look Back at Enterprise Integration Patterns and Their Use into Today's Serverless Computing",
+    "abstract": "Functions, and the so called serverless computing have freed deveopers from worring about infrastructure, and even upper platform layers, as well some steps in the software development lifecycle. But once you have functions deployed, how do they interact with each other? How message navigates between them? Maybe, just maybe, it's time to look back again at EIPs - Enterprise Integration Patterns, and their use in this new way of deploying code to the Cloud. This talk will cover primarily the use of one of the key EIP frameworks - Apache Camel - and top patterns applicable to Serverless Computing using Functions services by Cloud vendors as part of the demonstrations.",
+    "type": "talk",
+    "tags": ["java", "serverless", "functions", "integration", "cloud"],
+    "level": "beginner",
+    "speakers": ["5f6a0d547cfd68ad9ade63ac7ab58f177405d199"]
+  }, {
+    "title": "A Case for Outside-In Design",
+    "abstract": "For a few decades, one of the most common approaches to software design is to first focus on the domain model (application layer), then persistence (data layer) and finally the user interface (presentation layer). But what are the pros and cons of this approach? Are there other alternatives? Are they viable?\n\nIn this presentation Sandro will be talking about different design biases and the impact they have. He will then focus on Outside-In Design, explaining how our domain model can emerge and evolve when driven by the needs of external systems or users, avoiding speculation and wasted effort",
+    "type": "talk",
+    "tags": ["design", "craftsmanship"],
+    "level": "middle",
+    "speakers": ["9500e8c6e42564845cecc5d9db253abfed770cdc"]
+  }, {
+    "title": "Demystifying modern significant Java language features",
+    "abstract": "The presentation aims to reveal how the most significant Java 9 language features work under the hood. Each topic is covered by few code examples, bytecode instructions, JMH tests and x86 assembly generated code (only in few specific cases). We try to build a top down approach and to understand what is happening at each level inside the JVM, starting with source code, followed by javac and then JIT compilation process. Main topics: - Private interface methods - String in Java 9 (Compact strings and Indify String concatenation ) - Collection factory methods - StackWalker - Contended locks in Java 9 - Segmented Code Cache - Lambdas - Streams (e.g. ForkJoin, streams characteristics) Attendees will have a clear and comprehensive understanding about all of these internals, which might make a difference in writing better and more performant code.",
+    "type": "talk",
+    "tags": ["Java", "Performance", "JIT", "assembly"],
+    "level": "advanced",
+    "speakers": ["f7d3fa7a7cbafe0fb831986a2e811f78e9f600ca"]
+  }, {
     "title": "Performance tests - it’s a trap.",
     "abstract": "It doesn’t matter if you are from JVM, .Net, PHP or else-world. If you need to test the performance - it will be a challenging task, especially nowadays with microservices architectures, clusters and very complex systems. I would like to address the most common pitfalls in this area. Share my experience gained through demanding experiments and quite often frustrating failures. Although most of the examples come from the JVM world, the aim of this presentation is to show some universal problems, laws and best practices that rule this very specific kind of testing.\n",
     "type": "talk",
-    "tags": ["testing",
-      "performance tests"],
+    "tags": ["testing", "performance tests"],
     "level": "beginner",
-    "speakers": ["QW5kcnplakx1ZHdpa293c2tpYW5kcnplamx1ZHdpa293c2tpQGdtYWlsLmNvbQ=="]
-  },
-  {
+    "speakers": ["4507152860a44facc6bf9ef8e4eaec619dc6fffe"]
+  }, {
     "title": "Supercharging User Experience with Machine Learning on the JVM",
     "abstract": "On the case study of a novel, web-based search tool, we present how applying modern deep learning techniques can have unprecedented positive impact on user experience of a product. As the main driver, we present a custom deep neural network that continuously adjusts search result ordering based on past user choices.\n\nFurthermore, we illustrate how accessible machine learning recently has become even to developers outside that field: Our search tool features full-fledged image recognition that runs locally—independent of external services—and is based completely on a ready-made pre-trained neural network provided by an open source framework. Similarly, speech-based input to the search bar is implemented relying solely on modern Web APIs.\n\nFinally, we build the bridge to the economic part of software development by demonstrating the integration of our search tool in to a content management system and show how those introduced improvements create real business value.",
     "type": "talk",
-    "tags": ["Machine Learning",
-      "Search",
-      "Deep Learning",
-      "Content Management",
-      "Java"],
+    "tags": ["Machine Learning", "Search", "Deep Learning", "Content Management", "Java"],
     "level": "middle",
-    "speakers": ["Q2VkcmljUmVpY2hlbmJhY2hjZWRyaWMucmVpY2hlbmJhY2hAbWFnbm9saWEtY21zLmNvbQ==",
-      "SWxnw7xuSWxnw7xuaWxndW4uaWxndW5AbWFnbm9saWEtY21zLmNvbQ=="]
-  },
-    {
-        "title": "Real Life Cloud Native Java in Kubernetes",
-        "abstract": "Distributed architectures push us to learn about new patterns, technologies and practices. In this workshop we will present a scenario about how a Global Marketing Company adopted a Cloud Native approach to achieve global scale using Spring Cloud, Activiti Cloud and Kubernetes. Attendees will be able to code along and create marketing campaigns using these technologies to consume, monitor & aggregate Social Media Trending Topics in real time. The main purpose of this workshop is to share with the audience the current advantages and pain points of using technologies such as Spring Cloud when you target Kubernetes as your main deployment platform.",
-        "type": "workshop",
-        "tags": [
-            "cloud native",
-            "spring cloud",
-            "activiti cloud",
-            "global scale",
-            "kubernetes",
-            "docker"
-        ],
-        "level": "middle",
-        "speakers": [
-            "TWF1cmljaW9TYWxhdGlub3NhbGFib3lAZ21haWwuY29t",
-            "TWFyaW9Sb21hbm9tYXJpby5yb21hbm84M0BnbWFpbC5jb20="
-        ]
-    },
-    {
-      "title": "GraphQL in Java World",
-      "abstract": "Join me in this workshop, while I take you into magical world of GraphQL, \"new\" way of building cool and responsive API's. I will show and explain to you what GraphQL is, how we can build GraphQL API in good old Java, when and why you should use GraphQL, and also when and where not to use GraphQL. Come seeking knowledge, and you will leave this workshop with new tricks in your bag and great knowledge of GraphQL.",
-      "type": "workshop",
-      "tags": [
-        "Java",
-        "GraphQL",
-        "API",
-        "Rest"
-      ],
-      "level": "beginner",
-      "speakers": [
-        "vladimirdejanovic"
-      ]
-    },
-    {
-      "title": "Surfing through Spacetime - Science in the Movies",
-      "abstract": "Can a billion-tone spaceship change direction in space by simply turning a wheel? Can an astronaut survive a launch at 10g? Should we expect a space invasion from a planet located 90 billion light-years away? Can humans live on Mars?\nNever has a film director dared place a mobile phone in the court of Henry VIII. In sharp contrast, the ships of Star Wars roar in the vacuum of space, fire colorful laser beams, and remain in flames for hours after a fatal encounter, without awaking a single criticism. Our society is, more than ever, intertwined with technology, such that we daily rely on GPS devices, MP4 players, microwave ovens, and laptops. Indeed, science and technology are a critical component of our culture, and yet, we do not fully trust (and little understand about) science and technology.\nIn this talk we will explore science facts in science fiction. The audience will be kindly requested to fasten their seat belts for a fascinating trip to the mysteries and wonders of science at the crossroads with fiction.",
-      "type": "talk",
-      "tags": [
-      "fun",
-      "scify",
-      "startwars"
-      ],
-      "level": "talk",
-      "speakers": [
-      "Sm9yZGlKb3Nlam9yZGkuam9zZUB1cGMuZWR1"
-      ]
-    },
-    {
-      "title": "Production Profiling: What, Why and How",
-      "abstract": "Everyone wants to understand what their application is really doing in production, but this information is normally invisible to developers. Profilers tell you what code your application is running but few developers profile and mostly on their development environments. Thankfully production profiling is now a practical reality that can help you solve and avoid performance problems.\n\nProfiling in development can be problematic because it’s rare that you have a realistic workload or performance test for your system. Even if you’ve got accurate perf tests maintaining these and validating that they represent production systems is hugely time consuming and hard. Not only that but often the hardware and operating system that you run in production are different from your development environment.\n\nThis pragmatic talk will help you understand the ins and outs of profiling in a production system. You’ll learn about different techniques and approaches that help you understand what’s really happening with your system. This helps you to solve new performance problems, regressions and undertake capacity planning exercises.",
-      "type": "talk",
-      "tags": [
-      "performance",
-      "profiling",
-      "java",
-      "jvm"
-      ],
-      "level": "middle",
-      "speakers": [
-      "UmljaGFyZFdhcmJ1cnRvbnJpY2hhcmQud2FyYnVydG9uK2piY25AZ21haWwuY29t"
-      ]
-    },
-    {
-      "title": "Modular Java Development in Action",
-      "abstract": "With Java 9 and later, modularity comes to your doorstep (whether you ordered it or not). This isn’t your average language feature: making the most out of it may involve rewiring your brain. In this session we explore the benefits of a modular codebase using Java  modules. Because who doesn’t like more reliable and secure applications, meanwhile killing the dreaded classpath?\n\nAfter reviewing the basic concepts of modules, we’ll explore other new features like services and linking that enhance your design and development skills. Want examples? We’ve got plenty in this practical and code-driven talk. Even if you intend to use Java without modules at first, this talk helps you prevent common issues. You’ll be ready for the modular future of Java before you know it.",
-      "type": "talk",
-      "tags": [
-      "modularity",
-      "java 9",
-      "java 10"
-      ],
-      "level": "middle",
-      "speakers": [
-      "U2FuZGVyTWFrc2FuZGVyLm1ha0BsdW1pbmlzLmV1"
-      ]
-    },
-    {
-      "title": "Reactive Integrations - Caveats and bumps in the road explained",
-      "abstract": "Protecting Monoliths - Streaming and Backpressure to the rescue.\nWith the growing demand for fast data and streaming applications, enterprises are forced to evaluate\noptions to integrate these new Reactive applications into their existing legacy world. While a greenfield solutions as a complete replacement might be the easiest option it also is the most unrealistic one in many cases. But how do you make the monolith ready for tomorrows fast data requirements? What is back pressure and how do prevent my existing infrastructures from being overloaded? This session gives an overview of Streaming and frameworks and shows how to integrate into existing systems. After this talk, you will know the advantages and disadvantages of each approach and you are able to evaluate the right modernization approach for your applications.",
-      "type": "talk",
-      "tags": [
-      "Reactive",
-      "Microservices",
-      "Streams"
-      ],
-      "level": "middle",
-      "speakers": [
-      "TWFya3VzRWlzZWxlbUBsaWdodGJlbmQuY29t"
-      ]
-    },
-    {
-      "title":"Stream Processing in Telco - lessons learned",
-      "type":"talk",
-      "abstract":"Two years ago we introduced stream processing engine Apache Flink in one of the largest polish mobile operators. We started with real time marketing and gradually moved to fraud detection and other areas. Today we have around 50 jobs, together they process at peak more than 150k events per second.\nIn the talk I'd like to share our experiences. Some of them are technical: what is our stack (Flink, Kafka and so on) and how do we use it, what are the challenges of processing tens of thousands of messages per second, how to deal with large state.\nSome are more organisational - how is it different to design, test and monitor stream processing jobs than to use batch jobs or 'normal' applications.\nI'd also like to talk a bit about open source project that we created during this journey - Nussknacker, which is a tool for designing streaming processes with GUI - it's used by analysts at our client.\n",
-      "tags":["stream processing","telco","kafka","flink"],
-      "level":"middle",
-      "speakers":["TWFjaWVrUHLDs2Nobmlha21hY2llay5wcm9jaG5pYWtAZ21haWwuY29t"]
-    },
-    {
-      "title":"Eventing with Apache Kafka - Having data is better than needing data",
-      "abstract":"When building our microservice platform we wondered how services should consume data without opening the gates of hell by doing endless chains of API calls. We realized one fact: Having data is better than needing data. Therefore we decided to allow services to keep data redundant. Letting 40 teams work as autonomous as possible we introduced “eventing” and Apache Kafka to reduce dependencies when answering requests. This talk shows the principles and basics about asynchronous communication with Apache Kafka along with code samples. We’ll show you how simple producers and consumers can be written, how domain events are passed around between services and the most common pitfalls to be avoided for developers. ",
-      "type":"talk",
-      "tags":["Java","Microservices","Architecture"],
-      "level":"beginner",
-      "speakers":["QW5zZ2FyQnJhdW5lcmFAanVnZG8uZGU=","U2ViYXN0aWFuR2F1ZGVyc2ViYXN0aWFuLmdhdWRlckByZXdlLWRpZ2l0YWwuY29t"]
-  },
-  {
+    "speakers": ["5121fb5b0ed3a7ec149444afecbb7039c5430657", "ed4ec8b9ede7633f956b1adbb74204321e72f647"]
+  }, {
+    "title": "Real Life Cloud Native Java in Kubernetes",
+    "abstract": "Distributed architectures push us to learn about new patterns, technologies and practices. In this workshop we will present a scenario about how a Global Marketing Company adopted a Cloud Native approach to achieve global scale using Spring Cloud, Activiti Cloud and Kubernetes. Attendees will be able to code along and create marketing campaigns using these technologies to consume, monitor & aggregate Social Media Trending Topics in real time. The main purpose of this workshop is to share with the audience the current advantages and pain points of using technologies such as Spring Cloud when you target Kubernetes as your main deployment platform.",
+    "type": "workshop",
+    "tags": ["cloud native", "spring cloud", "activiti cloud", "global scale", "kubernetes", "docker"],
+    "level": "middle",
+    "speakers": ["4b26a098aafaf6bc3d533389b61d3ef5ab01f5a3", "509caea6bed4e560bad33cbee5725c96517fb2ac"]
+  }, {
+    "title": "GraphQL in Java World",
+    "abstract": "Join me in this workshop, while I take you into magical world of GraphQL, \"new\" way of building cool and responsive API's. I will show and explain to you what GraphQL is, how we can build GraphQL API in good old Java, when and why you should use GraphQL, and also when and where not to use GraphQL. Come seeking knowledge, and you will leave this workshop with new tricks in your bag and great knowledge of GraphQL.",
+    "type": "workshop",
+    "tags": ["Java", "GraphQL", "API", "Rest"],
+    "level": "beginner",
+    "speakers": ["4867bf51dd11f58bc2b8458d8aa2164c5aea2e51"]
+  }, {
+    "title": "Surfing through Spacetime - Science in the Movies",
+    "abstract": "Can a billion-tone spaceship change direction in space by simply turning a wheel? Can an astronaut survive a launch at 10g? Should we expect a space invasion from a planet located 90 billion light-years away? Can humans live on Mars?\nNever has a film director dared place a mobile phone in the court of Henry VIII. In sharp contrast, the ships of Star Wars roar in the vacuum of space, fire colorful laser beams, and remain in flames for hours after a fatal encounter, without awaking a single criticism. Our society is, more than ever, intertwined with technology, such that we daily rely on GPS devices, MP4 players, microwave ovens, and laptops. Indeed, science and technology are a critical component of our culture, and yet, we do not fully trust (and little understand about) science and technology.\nIn this talk we will explore science facts in science fiction. The audience will be kindly requested to fasten their seat belts for a fascinating trip to the mysteries and wonders of science at the crossroads with fiction.",
+    "type": "talk",
+    "tags": ["fun", "scify", "startwars"],
+    "level": "talk",
+    "speakers": ["111c36b5e1d324ed5b6408805bb9173161a2ed01"]
+  }, {
+    "title": "Production Profiling: What, Why and How",
+    "abstract": "Everyone wants to understand what their application is really doing in production, but this information is normally invisible to developers. Profilers tell you what code your application is running but few developers profile and mostly on their development environments. Thankfully production profiling is now a practical reality that can help you solve and avoid performance problems.\n\nProfiling in development can be problematic because it’s rare that you have a realistic workload or performance test for your system. Even if you’ve got accurate perf tests maintaining these and validating that they represent production systems is hugely time consuming and hard. Not only that but often the hardware and operating system that you run in production are different from your development environment.\n\nThis pragmatic talk will help you understand the ins and outs of profiling in a production system. You’ll learn about different techniques and approaches that help you understand what’s really happening with your system. This helps you to solve new performance problems, regressions and undertake capacity planning exercises.",
+    "type": "talk",
+    "tags": ["performance", "profiling", "java", "jvm"],
+    "level": "middle",
+    "speakers": ["24c46a2ebd2d87719f7ac425c7ddcff26dc5a523"]
+  }, {
+    "title": "Modular Java Development in Action",
+    "abstract": "With Java 9 and later, modularity comes to your doorstep (whether you ordered it or not). This isn’t your average language feature: making the most out of it may involve rewiring your brain. In this session we explore the benefits of a modular codebase using Java  modules. Because who doesn’t like more reliable and secure applications, meanwhile killing the dreaded classpath?\n\nAfter reviewing the basic concepts of modules, we’ll explore other new features like services and linking that enhance your design and development skills. Want examples? We’ve got plenty in this practical and code-driven talk. Even if you intend to use Java without modules at first, this talk helps you prevent common issues. You’ll be ready for the modular future of Java before you know it.",
+    "type": "talk",
+    "tags": ["modularity", "java 9", "java 10"],
+    "level": "middle",
+    "speakers": ["f0ce8f83eb9b3e0828da8804c2453db4550636d3"]
+  }, {
+    "title": "Reactive Integrations - Caveats and bumps in the road explained",
+    "abstract": "Protecting Monoliths - Streaming and Backpressure to the rescue.\nWith the growing demand for fast data and streaming applications, enterprises are forced to evaluate\noptions to integrate these new Reactive applications into their existing legacy world. While a greenfield solutions as a complete replacement might be the easiest option it also is the most unrealistic one in many cases. But how do you make the monolith ready for tomorrows fast data requirements? What is back pressure and how do prevent my existing infrastructures from being overloaded? This session gives an overview of Streaming and frameworks and shows how to integrate into existing systems. After this talk, you will know the advantages and disadvantages of each approach and you are able to evaluate the right modernization approach for your applications.",
+    "type": "talk",
+    "tags": ["Reactive", "Microservices", "Streams"],
+    "level": "middle",
+    "speakers": ["515a84d61885567d6c29d53e0332f04a8d41ff16"]
+  }, {
+    "title": "Stream Processing in Telco - lessons learned",
+    "type": "talk",
+    "abstract": "Two years ago we introduced stream processing engine Apache Flink in one of the largest polish mobile operators. We started with real time marketing and gradually moved to fraud detection and other areas. Today we have around 50 jobs, together they process at peak more than 150k events per second.\nIn the talk I'd like to share our experiences. Some of them are technical: what is our stack (Flink, Kafka and so on) and how do we use it, what are the challenges of processing tens of thousands of messages per second, how to deal with large state.\nSome are more organisational - how is it different to design, test and monitor stream processing jobs than to use batch jobs or 'normal' applications.\nI'd also like to talk a bit about open source project that we created during this journey - Nussknacker, which is a tool for designing streaming processes with GUI - it's used by analysts at our client.\n",
+    "tags": ["stream processing", "telco", "kafka", "flink"],
+    "level": "middle",
+    "speakers": ["c0901d6818b53a9711f1aadda3d1ec435fcfe8a4"]
+  }, {
+    "title": "Eventing with Apache Kafka - Having data is better than needing data",
+    "abstract": "When building our microservice platform we wondered how services should consume data without opening the gates of hell by doing endless chains of API calls. We realized one fact: Having data is better than needing data. Therefore we decided to allow services to keep data redundant. Letting 40 teams work as autonomous as possible we introduced “eventing” and Apache Kafka to reduce dependencies when answering requests. This talk shows the principles and basics about asynchronous communication with Apache Kafka along with code samples. We’ll show you how simple producers and consumers can be written, how domain events are passed around between services and the most common pitfalls to be avoided for developers. ",
+    "type": "talk",
+    "tags": ["Java", "Microservices", "Architecture"],
+    "level": "beginner",
+    "speakers": ["bbcb9f599c088aa6d4751ef4f787cf579d0d73c5", "df00e3829c843914a1728023a8acecb5173daec1"]
+  }, {
     "title": "REPL Driven Development: immediate feedback for your server side code",
     "abstract": "Drinking too much coffee while maven builds and deploys your service? \nJealous of how your FrontEnd mate just press F5 to \"deploy\" his/her changes?\nMastered the red-green-refactor workflow and want to know what is the next step?\n\nOur Lisp grandfathers knew how invaluable was the immediate feedback that a Read-Eval-Print Loop (REPL) allowed during development and now Java 9 will have one.\n\nPerhaps you have read that a REPL is useful for \"playing around\" or for \"small code snippets\", but this is far from true. \n\nIn this presentation, you will learn how with a REPL you can have a better and more productive developer workflow by building a Tomcat service, one bit at a time, without having to build, compile, package or deploy it.\n\nDemo will be done with a Clojure REPL but no previous experience with Clojure is needed. \n",
     "type": "talk",
-    "tags": [
-        "Clojure",
-        "REPL"
-    ],
+    "tags": ["Clojure", "REPL"],
     "level": "advanced",
-    "speakers": [
-        "RGFuaWVsTGVicmVyb2RsZWJyZXJvQGdtYWlsLmNvbQ=="
-    ]
-  },
-  {
+    "speakers": ["cfbf46c1af274cdf8b0d4dd0b9e5c5c24fc9fff7"]
+  }, {
     "title": "Efficiently Tracking Object Allocations in Production Environments",
     "abstract": "Efficiently tracking an application’s object allocations is of interest for memory leak detection or memory usage optimization.\nOne common approach is to sample the heap by taking snapshots of the entire heap.\nThis usually introduces large pauses while taking the snapshot.\nAlso, we do not know where an object has been allocated in the code.\nAnother approach is to instrument all allocation sites and to record every single allocation by incrementing a counter.\nHowever, as today's JVMs allocate objects very quickly, incrementing a counter for every allocation adds a lot of overhead, making this approach unattractive in a production environment.\n\nOur approach reduces the amount of increments by instrumenting control flow paths instead of allocation sites and dynamically determining the hot path through a method.\nWe continuously reevaluate and reinstrument depending on changes in execution behavior in order to reduce the overhead as much as possible.\nOur ultimate goal is to reduce the amount of required counter increments to such a degree that using this approach becomes feasible in production environments.\nEvaluation of our implementation shows a reduction of required increments of up to nearly 30% compared to the state of the art.",
     "type": "talk",
-    "tags": [
-        "Java",
-        "Monitoring",
-        "Memory"
-    ],
+    "tags": ["Java", "Monitoring", "Memory"],
     "level": "middle",
-    "speakers": [
-        "RHIuUGhpbGlwcExlbmdhdWVycGhpbGlwcC5sZW5nYXVlckBkeW5hdHJhY2UuY29t"
-    ]
-  },
-  {
+    "speakers": ["bf5855fee3cc658277321f134d959606405d5216"]
+  }, {
     "title": "A practical approach to Java Memory Model",
     "abstract": "Java Memory Model is an interesting area of multi-thread programming. It describes how threads interact through memory and what behaviours are allowed in concurrent execution. Most of java developers are familiar with mutual exclusion and synchronized keyword but sometimes we forget that beside mutual exclusion we also have to care about memory visibility. The talk will introduce number of examples to help understand JMM. It will use OpenJDK Java Concurrency Stress tests framework (JCStress) to validate the results.",
     "type": "talk",
-    "tags": [
-        "Java",
-        "Concurrency",
-        "Memory Model"
-    ],
+    "tags": ["Java", "Concurrency", "Memory Model"],
     "level": "middle",
-    "speakers": [
-        "QW5kcnplakN6YXJueWFtY3phcm55QGdtYWlsLmNvbQ=="
-    ]
-  },
-  {
+    "speakers": ["98a502ab445de407f49ab371e334802ae96b0bbd"]
+  }, {
     "title": "Serverless Java with Kubernetes",
     "abstract": "Serverless is a misnomer, your future cloud native applications will consist of both Microservices and Functions, wrapped as Linux containers and deployed via Kubernetes on your laptop, on your servers or in any cloud.  \nIn this session, we focus on the key tips, techniques and strategies you need as developers to build cloud native applications leveraging Kubernetes/OpenShift + Apache OpenWhisk, an open source Function-as-a-Service (FaaS) engine.  This will be a high energy and demonstration focused session packed with practical guidance to best leverage FaaS/Serverless in your current or next generation application.\n",
     "type": "talk",
-    "tags": [
-        "Java",
-        "Serverless",
-        "FaaS",
-        "Cloud",
-        "Microservices"
-    ],
+    "tags": ["Java", "Serverless", "FaaS", "Cloud", "Microservices"],
     "level": "middle",
-    "speakers": [
-        "QnVyclN1dHRlcmJ1cnJzdXR0ZXJAZ21haWwuY29t"
-    ]
-  },
-  {
+    "speakers": ["c6679205cdde34006f51f850b5bf4d5453281e44"]
+  }, {
     "title": "Building continuous delivery for Microservices with Jenkins X",
     "abstract": "Jenkins X is a project which rethinks how developers should interact with CI/CD in the cloud with a focus on making development teams productive through automation, tooling and DevOps best practices. The workshop will walk through getting you running Jenkins X on a public cloud provider. We will then walk you through importing a new or one of your existing Microservice projects so that it can be built and deployed in Kubernetes with Jenkins X",
     "type": "workshop",
-    "tags": [
-        "Cloud",
-        "Continuous Delivery",
-        "Microservice"
-    ],
+    "tags": ["Cloud", "Continuous Delivery", "Microservice"],
     "level": "middle",
-    "speakers": [
-        "Um9iZXJ0RGF2aWVzcmRhdmllc0BjbG91ZGJlZXMuY29t",
-        "SnNtZXNSYXdsaW5nc2pyYXdsaW5nc0BjbG91ZGJlZXMuY29t"
-    ]
-  },
-  {
-    "title":"Jenkins X: Continuous Delivery for Kubernetes",
-    "abstract":"The last 5 years has seen a huge change in how we build, package, run and manage software with the rise of Kubernetes, Cloud Native, Microservices and Continuous Delivery. As a result we all need to get better at delivering business value to our customers faster and continuously with a cloud native strategy - but how?\n\nThis talk will introduce you to a new open source project, Jenkins X which is an open source CI / CD platform for Kubernetes based on Jenkins.\n\nAfter a couple of slides we'll spend most of talk demonstrating how to get stuff done with Jenkins X:\n\neasily setup your own Jenkins based CI / CD system on your cloud of choice\nquickly get started developing new microservices with automated CI / CD\nimport existing projects with automated CI / CD\nuse Pull Requests to trigger CI, Preview Environments, human approval then a full CD release\nuse automated provisioning to testing, staging, ephemeral and production environments via helm charts and GitOps\nAfter this talk you should be able to develop at full speed with CI / CD in a cloud native way in any language on any cloud or kubernetes cluster! Lets all go faster!",
-    "type":"talk",
-    "tags":["Continuous Delivery","Kubernetes","Cloud Native Applications","MicroServices","awesomeness"],
-    "level":"middle",
-    "speakers":["SmFtZXNTdHJhY2hhbmpzdHJhY2hhbkBjbG91ZGJlZXMuY29t"]
-  },
-  {
-    "title":"From OO Java to FP Scala: epic wins and epic fails",
-    "abstract":"What happens when a company moves from Java to Scala? In this talk, we will discuss some of the lessons learned at Intent HQ during the long process of moving our development to this language. What were our motivations, what went well, what could have gone better and what was simply a disaster. In this talk we will learn from a first-hand experience some ideas that may be extrapolated to similar use cases from a honest and pragmatic point of view.",
-    "type":"talk",
-    "tags":["java","scala","functional programming","testing"],
-    "level":"beginner",
-    "speakers":["QWxiZXJ0UGFzdHJhbmFhbGJlcnQucGFzdHJhbmFAZ21haWwuY29t"]
-  },
-  {
+    "speakers": ["e9cc90b3642e8fc113ebdec6df979fcf2efc3d86", "c3dd64ce24fb4a93985599208f6c8c3c3ea7bfa4"]
+  }, {
+    "title": "Jenkins X: Continuous Delivery for Kubernetes",
+    "abstract": "The last 5 years has seen a huge change in how we build, package, run and manage software with the rise of Kubernetes, Cloud Native, Microservices and Continuous Delivery. As a result we all need to get better at delivering business value to our customers faster and continuously with a cloud native strategy - but how?\n\nThis talk will introduce you to a new open source project, Jenkins X which is an open source CI / CD platform for Kubernetes based on Jenkins.\n\nAfter a couple of slides we'll spend most of talk demonstrating how to get stuff done with Jenkins X:\n\neasily setup your own Jenkins based CI / CD system on your cloud of choice\nquickly get started developing new microservices with automated CI / CD\nimport existing projects with automated CI / CD\nuse Pull Requests to trigger CI, Preview Environments, human approval then a full CD release\nuse automated provisioning to testing, staging, ephemeral and production environments via helm charts and GitOps\nAfter this talk you should be able to develop at full speed with CI / CD in a cloud native way in any language on any cloud or kubernetes cluster! Lets all go faster!",
+    "type": "talk",
+    "tags": ["Continuous Delivery", "Kubernetes", "Cloud Native Applications", "MicroServices", "awesomeness"],
+    "level": "middle",
+    "speakers": ["de45667d57247c8f033a1ad12fbd05756c9e252a"]
+  }, {
+    "title": "From OO Java to FP Scala: epic wins and epic fails",
+    "abstract": "What happens when a company moves from Java to Scala? In this talk, we will discuss some of the lessons learned at Intent HQ during the long process of moving our development to this language. What were our motivations, what went well, what could have gone better and what was simply a disaster. In this talk we will learn from a first-hand experience some ideas that may be extrapolated to similar use cases from a honest and pragmatic point of view.",
+    "type": "talk",
+    "tags": ["java", "scala", "functional programming", "testing"],
+    "level": "beginner",
+    "speakers": ["b3bc34ce223407aa8d1e7fab238c77da4a3127a3"]
+  }, {
     "title": "Blockchain: more than bitcoin!",
     "abstract": "There is more to blockchain than Bitcoin, Ethereum and all the mining! Let's see how do these technologies can affect us, developers. This session starts with facts, establishing what blockchain, smart contracts and other concepts are. Armed with theory, we will showcase a 'smart contract' application, built in Java, with open source, then discuss applications, problems and consider implications of a contract being put \"out there\" (and what is \"there\") You will walk out understanding what a 'distributed ledger' is, knowing what to get from Github. And maybe an idea of an application, who knows?\n\nLet's now build those revolutions everybody is speaking about!",
     "type": "talk",
-    "tags": [
-      "java",
-      "blockchain"
-    ],
+    "tags": ["java", "blockchain"],
     "level": "beginner",
-    "speakers": [
-      "QW5kcnplakdyemVzaWthbmRyemVqLmdyemVzaWtAZ21haWwuY29t"
-    ]
-  },
-  {
+    "speakers": ["222e9ee3f64709eb49f3299baaa4f39693e5fb82"]
+  }, {
     "title": "JDK 9 and 10: Pitfalls For The Unwary",
     "abstract": "The significant change in JDK 9 was the Java Platform Module System (also known as project Jigsaw).  With the encapsulation of internal APIs such as sun.misc.Unsafe migrating applications to  JDK 9 (or JDK 10) will potentially require more work than moving between releases previously.\n\nIn this session, we’ll look at all the areas of JDK 9 and 10 that may impact application migration.  This will cover all aspects: Java language syntax, class libraries and JVM options (a significant number of which have changed in these releases.  Unlike previous versions of Java, both JDK 9 and 10 have removed existing standard features, as well as adding new ones.  These changes will also be discussed regarding backward compatibility.\n\nWe’ll also look at the new release cadence for the JDK and explain the impact this will have on Java support and choices of which Java versions to use in production.",
     "type": "talk",
-    "tags": [
-      "Java",
-      "JDK"
-    ],
+    "tags": ["Java", "JDK"],
     "level": "middle",
-    "speakers": [
-      "U2ltb25SaXR0ZXJzcml0dGVyQGF6dWwuY29t"
-    ]
-  },
-  {
+    "speakers": ["a1eda7b31c4fa43f4097d55e9687a876dc194f4b"]
+  }, {
     "title": "Getting started with Kafka Streams in 120 minutes",
     "abstract": "In this workshop you will learn how to build scalable Kafka Streams applications with Spring \nBoot and Spring Kafka. You are introduced to the concepts of Kafka and streaming and get some hands on experience building an application using Kafka Streams components such as kStreams, kTables, filters, branches, and solving interesting challenges with complex joins and aggregates.\n",
     "type": "workshop",
-    "tags": ["kafka",
-      "streaming"],
+    "tags": ["kafka", "streaming"],
     "level": "middle",
-    "speakers": ["SmVyb2VuUmVzb29ydGplcm9lbi5yZXNvb3J0QGpkaXJ2ZW4uY29t"]
-  },
-  {
+    "speakers": ["f5b47d930e33101904ffc56e3189521d4342b3ee"]
+  }, {
     "abstract": "Cloud native applications are designed to anticipate failure, run and scale reliably even when the infrastructure it is running on is experiencing outages. To offer such capabilities, the cloud native platforms impose a set of contracts and constraints on the applications running on them. These contracts ensure that the applications conform to certain constraints and allow the platforms to automate the management of the containerized applications.\nDuring this talk we will take you on a journey exploring Kubernetes distributes primitives, the guiding container design principles, and the resulting patterns. Following these design guidelines will ensure that the applications you create are suitable for automation in cloud native platforms such as Kubernetes.\n\nThis talk is based on, and builds on top of a popular blog post I wrote for InfoQ:\nhttps://www.infoq.com/articles/kubernetes-effect",
     "level": "middle",
-    "speakers": [
-      "QmlsZ2luSWJyeWFtYmlicnlhbUBnbWFpbC5jb20="
-    ],
-    "tags": [
-      "Kubernetes",
-      "Cloud Native",
-      "Design Patterns"
-    ],
+    "speakers": ["e2358d2bc233ee776238e6df5a99ebc1112bdf76"],
+    "tags": ["Kubernetes", "Cloud Native", "Design Patterns"],
     "title": "The Kubernetes Effect",
     "type": "talk"
-  }
-]}
+  }]
+}
