@@ -486,5 +486,16 @@
     "url": "infoSpeaker.html?ref=d7dd1e2cddb70f05ead609e37df9dbad160e8893",
     "twitter": "@raquelpau",
     "homepage": ""
+  },
+  {
+    "enabled":"1",
+    "name":"Josef Raska",
+    "description":"Senior Android Developer at Ocado Technology Barcelona",
+    "biography":"Josef works as Android Developer in Ocado Technology Barcelona and is close friend with Android for 7 years.\nHe focuses on mobile architecture, spreads the beauty of reactive programming as he got seduced by it some years ago and never wants to go back. He loves Firebase with other tooling around mobile development and keeps an eye on apps performance.\nCode is his way of speaking and when he doesn't talk or read some, you can find him traveling, hiking, drinking beer or doing all together.",
+    "image":"assets/img/speakers/josef_raska.jpg",
+    "ref":"1fb9cc741e1f562c74484fb0d5980ac5813501a2",
+    "url":"infoSpeaker.html?ref=1fb9cc741e1f562c74484fb0d5980ac5813501a2",
+    "twitter":"",
+    "homepage":"https://github.com/jraska/RxJava-Codelab"
   }
 ]}
