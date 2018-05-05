@@ -87,7 +87,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                                     </a>
                                                 </li>
                                                 {% endif %}
-                                                {% if speaker.twitter %}
+                                                {% if speaker.twitter and speaker.twitter.size > 0 %}
                                                   {% assign twitter = '' %}
                                                   {% capture twitter %}{{speaker.twitter| replace: "@", "" }}{% endcapture %}
                                                   {% if twitter contains 'http' %}
