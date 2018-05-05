@@ -562,6 +562,61 @@
     "type": "talk"
   },
   {
+    "title":"RxJava Code Lab",
+    "abstract":"Reactive programming is mentioned everywhere these days. It solves many common issues of imperative programming in an elegant way. Dozens of libraries are springing up, giving developers access to powerful tools that make their everyday development life easier. However, it can take time to learn how to wield these tools effectively as they are often difficult to understand and if used improperly they can sometimes do more harm than good.\n\nThis code lab will first go with you through RxJava basics, in order to demonstrate the main concepts and common use-cases of the ReactiveX framework, as well as reactive programming in general. It should make RxJava and reactive programming much clearer to you and give you lots of ideas of when and where you might want to use it. Once you have seen what it can do, you won't want to go back to how you were programming before!",
+    "type":"workshop",
+    "tags":["Reactive Programming","Rx","Java","Mobile"],
+    "level":"beginner",
+    "speakers":["1fb9cc741e1f562c74484fb0d5980ac5813501a2"]
+  },
+  {
+      "title": "Docker In Anger for Java Developers",
+      "abstract": "Java 10 is just around the corner and it comes with a lot of very needed features to run JVM applications in Docker. The goal of this workshop is to move beyond slide-sized examples of Dockerfiles and to show how to deploy a working Java application using Docker with the proper tuning and limits. \n\nIn this session, Anton will build a Docker image with a Java application based on the Netty framework. This application will have a very small size following the Docker best practices and take advantage of the Java Platform Module System (JPMS) introduced in the JDK 9 version. \n\nThe Docker image will be deployed in Kubernetes and scaled to demonstrate how powerful is nowadays the JVM in conjunction with Docker and Kubernetes. Then we will expose application and JVM metrics and they will be consumed by Prometheus, a system that records time-series data (telemetry) for monitoring and alerting, and we’ll use Graphana to query and render metrics from the application pods. \n\nAlong the way, we’ll discover the most common mistakes working with Docker and the JVM and how to avoid them.",
+      "type": "workshop",
+      "tags": [
+          "Java",
+          "Docker",
+          "Kubernetes",
+          "Cloud",
+          "Scale"
+      ],
+      "level": "talk",
+      "speakers": [
+          "ef9952db4071b89e490eac6ffd546d3000a1b4ce"
+      ]
+  },
+  {
+      "title": "Fast prototyping of Enterprise Cross-Platform Mobile Applications with Java",
+      "abstract": "Did you know that you can use Java to build cross-platform mobile applications for iOS and Android? And did you know that you can really create enterprise applications in a breeze with Gluon Mobile and Gluon CloudLink? This session talks about the process of fast prototyping and development of Java applications on mobile, using existing Java skills, IDEs and Gluon open source and commercial tools such as Scene Builder, Gluon Mobile and Gluon CloudLink.\n\nThe talk will present a real use case of an industrial project in Spain where a mobile app, used to monitor and control the boiler room of a residential building, has been developed with a simple but compelling UI, native services integration, and seamless connection using remote and serverless functions with the cloud and enterprise back end. The app includes improved security and common mobile features such as push notifications, authentication, data synchronization, or persistence, among others.",
+      "type": "talk",
+      "tags": [
+          "Java",
+          "Mobile",
+          "Cloud",
+          "functions",
+          "serverless",
+          "fast prototyping"
+      ],
+      "level": "beginner",
+      "speakers": [
+          "e5a304daa5607a97ddf4a2ae2417bbeb93efa371"
+      ]
+  },
+  {
+      "title": "Revisiting Effective Java in 2018",
+      "abstract": "Joshua Bloch just gifted us with the 3rd edition of \"Effective Java\", but almost 10 years have been past since the last edition. Now we have a whole generation of Java developers that could benefit from this knowledge - but lost the past wave. It's about time to revisit all of this wonderful content, and upgrade your skills to the latest versions of the Java platform. Join us on this deep dive session to check what is the updated Effective Java, and even add some more tips not included in the book!",
+      "type": "talk",
+      "tags": [
+          "Java",
+          "Effective",
+          "Best Practices"
+      ],
+      "level": "middle",
+      "speakers": [
+          "685b66117e9c79a1e0aa54ca3f490d0e71fbc09d"
+      ]
+  },
+  {
     "title": "Real Impact Testing Analysis for JVM Developers",
     "abstract": "Test Impact Analysis (TIA) is a modern way of speeding up the test automation phase of a build. It works by analyzing the call-graph of the source code to work out which tests should be run after a change to production code. Microsoft has done some extensive work on this approach, but it’s also possible for development teams to implement something useful quite cheaply. Tools for TIA are especially useful for mono-repos: a common practice in big companies (e.g Google or Microsoft) that consist of storing all the private project dependencies as part of the same Git repository. In this session, we will learn how to build an open source tool such as junit4git (https://github.com/rpau/junit4git) using JUnit extensions that ignore those tests that are not related with your last changes in your Git repository.",
     "type": "talk",
@@ -573,16 +628,6 @@
     "level": "middle",
     "speakers": [
       "d7dd1e2cddb70f05ead609e37df9dbad160e8893"
-    ]
-  },
-  {
-    "title":"RxJava Code Lab",
-    "abstract":"Reactive programming is mentioned everywhere these days. It solves many common issues of imperative programming in an elegant way. Dozens of libraries are springing up, giving developers access to powerful tools that make their everyday development life easier. However, it can take time to learn how to wield these tools effectively as they are often difficult to understand and if used improperly they can sometimes do more harm than good.\n\nThis code lab will first go with you through RxJava basics, in order to demonstrate the main concepts and common use-cases of the ReactiveX framework, as well as reactive programming in general. It should make RxJava and reactive programming much clearer to you and give you lots of ideas of when and where you might want to use it. Once you have seen what it can do, you won't want to go back to how you were programming before!",
-    "type":"workshop",
-    "tags":["Reactive Programming","Rx","Java","Mobile"],
-    "level":"beginner",
-    "speakers":[
-      "1fb9cc741e1f562c74484fb0d5980ac5813501a2"
     ]
   }
 ]}
