@@ -561,12 +561,28 @@
     "title": "The Kubernetes Effect",
     "type": "talk"
   },
-    {
-      "title":"RxJava Code Lab",
-      "abstract":"Reactive programming is mentioned everywhere these days. It solves many common issues of imperative programming in an elegant way. Dozens of libraries are springing up, giving developers access to powerful tools that make their everyday development life easier. However, it can take time to learn how to wield these tools effectively as they are often difficult to understand and if used improperly they can sometimes do more harm than good.\n\nThis code lab will first go with you through RxJava basics, in order to demonstrate the main concepts and common use-cases of the ReactiveX framework, as well as reactive programming in general. It should make RxJava and reactive programming much clearer to you and give you lots of ideas of when and where you might want to use it. Once you have seen what it can do, you won't want to go back to how you were programming before!",
-      "type":"workshop",
-      "tags":["Reactive Programming","Rx","Java","Mobile"],
-      "level":"beginner",
-      "speakers":["1fb9cc741e1f562c74484fb0d5980ac5813501a2"]
-    }
+  {
+    "title": "Real Impact Testing Analysis for JVM Developers",
+    "abstract": "Test Impact Analysis (TIA) is a modern way of speeding up the test automation phase of a build. It works by analyzing the call-graph of the source code to work out which tests should be run after a change to production code. Microsoft has done some extensive work on this approach, but it’s also possible for development teams to implement something useful quite cheaply. Tools for TIA are especially useful for mono-repos: a common practice in big companies (e.g Google or Microsoft) that consist of storing all the private project dependencies as part of the same Git repository. In this session, we will learn how to build an open source tool such as junit4git (https://github.com/rpau/junit4git) using JUnit extensions that ignore those tests that are not related with your last changes in your Git repository.",
+    "type": "talk",
+    "tags": [
+      "java",
+      "testing",
+      "impact"
+    ],
+    "level": "middle",
+    "speakers": [
+      "d7dd1e2cddb70f05ead609e37df9dbad160e8893"
+    ]
+  },
+  {
+    "title":"RxJava Code Lab",
+    "abstract":"Reactive programming is mentioned everywhere these days. It solves many common issues of imperative programming in an elegant way. Dozens of libraries are springing up, giving developers access to powerful tools that make their everyday development life easier. However, it can take time to learn how to wield these tools effectively as they are often difficult to understand and if used improperly they can sometimes do more harm than good.\n\nThis code lab will first go with you through RxJava basics, in order to demonstrate the main concepts and common use-cases of the ReactiveX framework, as well as reactive programming in general. It should make RxJava and reactive programming much clearer to you and give you lots of ideas of when and where you might want to use it. Once you have seen what it can do, you won't want to go back to how you were programming before!",
+    "type":"workshop",
+    "tags":["Reactive Programming","Rx","Java","Mobile"],
+    "level":"beginner",
+    "speakers":[
+      "1fb9cc741e1f562c74484fb0d5980ac5813501a2"
+    ]
+  }
 ]}
