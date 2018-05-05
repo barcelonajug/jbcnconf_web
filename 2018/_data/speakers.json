@@ -465,58 +465,91 @@
     "twitter": "@JeroenResoort",
     "homepage": ""
   },
-    {
-      "biography": "Bilgin Ibryam is a principal architect at Red Hat, committer and member of Apache Software Foundation. He is an open source evangelist, blogger, the author of Kubernetes Patterns and Camel Design Patterns books and occasional speaker. In his day-to-day job, Bilgin enjoys mentoring, coding and leading developers to be successful with building open source solutions. His current work focuses on distributed systems, integration, messaging, microservices, devops, and cloud-native applications in general.",
-      "description": "Principal architect at Red Hat",
+  {
+    "biography": "Bilgin Ibryam is a principal architect at Red Hat, committer and member of Apache Software Foundation. He is an open source evangelist, blogger, the author of Kubernetes Patterns and Camel Design Patterns books and occasional speaker. In his day-to-day job, Bilgin enjoys mentoring, coding and leading developers to be successful with building open source solutions. His current work focuses on distributed systems, integration, messaging, microservices, devops, and cloud-native applications in general.",
+    "description": "Principal architect at Red Hat",
+    "enabled": "1",
+    "homepage": "http://www.ofbizian.com/",
+    "image": "assets/img/speakers/bilgin-ibryam.jpg",
+    "name": "Bilgin Ibryam",
+    "ref": "QmlsZ2luSWJyeWFtYmlicnlhbUBnbWFpbC5jb20=",
+    "twitter": "@bibryam",
+    "url": "infoSpeaker.html?ref=QmlsZ2luSWJyeWFtYmlicnlhbUBnbWFpbC5jb20="
+  },
+  {
+    "enabled":"1",
+    "name":"Josef Raska",
+    "description":"Senior Android Developer at Ocado Technology Barcelona",
+    "biography":"Josef works as Android Developer in Ocado Technology Barcelona and is close friend with Android for 7 years.\nHe focuses on mobile architecture, spreads the beauty of reactive programming as he got seduced by it some years ago and never wants to go back. He loves Firebase with other tooling around mobile development and keeps an eye on apps performance.\nCode is his way of speaking and when he doesn't talk or read some, you can find him traveling, hiking, drinking beer or doing all together.",
+    "image":"assets/img/speakers/josef_raska.jpg",
+    "ref":"1fb9cc741e1f562c74484fb0d5980ac5813501a2",
+    "url":"infoSpeaker.html?ref=1fb9cc741e1f562c74484fb0d5980ac5813501a2",
+    "twitter":"",
+    "homepage":"https://github.com/jraska/RxJava-Codelab"
+  },
+  {
       "enabled": "1",
-      "homepage": "http://www.ofbizian.com/",
-      "image": "assets/img/speakers/bilgin-ibryam.jpg",
-      "name": "Bilgin Ibryam",
-      "ref": "QmlsZ2luSWJyeWFtYmlicnlhbUBnbWFpbC5jb20=",
-      "twitter": "@bibryam",
-      "url": "infoSpeaker.html?ref=QmlsZ2luSWJyeWFtYmlicnlhbUBnbWFpbC5jb20="
-    },
-    {
-      "enabled":"1",
-      "name":"Josef Raska",
-      "description":"Senior Android Developer at Ocado Technology Barcelona",
-      "biography":"Josef works as Android Developer in Ocado Technology Barcelona and is close friend with Android for 7 years.\nHe focuses on mobile architecture, spreads the beauty of reactive programming as he got seduced by it some years ago and never wants to go back. He loves Firebase with other tooling around mobile development and keeps an eye on apps performance.\nCode is his way of speaking and when he doesn't talk or read some, you can find him traveling, hiking, drinking beer or doing all together.",
-      "image":"assets/img/speakers/josef_raska.jpg",
-      "ref":"1fb9cc741e1f562c74484fb0d5980ac5813501a2",
-      "url":"infoSpeaker.html?ref=1fb9cc741e1f562c74484fb0d5980ac5813501a2",
-      "twitter":"",
-      "homepage":"https://github.com/jraska/RxJava-Codelab"
-    },
-    {
-        "enabled": "1",
-        "name": "Edson Yanaga",
-        "description": "Director of Developer Experience at Red Hat",
-        "biography": "Edson Yanaga, Red Hat's Director of Developer Experience, is a Java Champion and a Microsoft MVP. He is also a published author and a frequent speaker at international conferences, discussing Java, Microservices, Cloud Computing, DevOps, and Software Craftsmanship. ",
-        "image": "assets/img/speakers/edson-yanaga.png",
-        "ref": "685b66117e9c79a1e0aa54ca3f490d0e71fbc09d",
-        "url": "infoSpeaker.html?ref=685b66117e9c79a1e0aa54ca3f490d0e71fbc09d",
-        "twitter": "@yanaga",
-        "homepage": "https://yanaga.io"
-    },
-    {
-        "enabled": "1",
-        "name": "Anton Maria Rodriguez Yuste",
-        "description": "Technical Director at Optare",
-        "biography": "Antón is a Software Engineer who specializes in JVM development, performance tuning, and distributed systems, mainly in the telecom sector. In his current role as Technical Director at Optare, he helps to define the technological strategy in conjunction with the development team of each project: pipeline, tools, and key development procedures.\n\nHe also co-organizes the Vigo and Coruña Java User Groups (VigoJUG & CoruñaJUG) and sometimes he speaks at international conferences as Geecon (Krakow), SpringIO (Barcelona), TADSummit (Istanbul), Librecon (Santiago de Compostela), etc. \n",
-        "image": "assets/img/speakers/anton-yuste.png",
-        "ref": "ef9952db4071b89e490eac6ffd546d3000a1b4ce",
-        "url": "infoSpeaker.html?ref=ef9952db4071b89e490eac6ffd546d3000a1b4ce",
-        "twitter": "@antonmry",
-        "homepage": "http://www.galiglobal.com"
-    },
-    {
-        "enabled": "1",
-        "name": "José Pereda",
-        "description": "Software Engineer at Gluon Software",
-        "biography": "José Pereda, PhD in Structural Engineering, works as a software engineer at Gluon Software. Java Champion and Oracle Developer Champion, JavaOne RockStar and NetBeans Dream Team member. Being on Java since 1999, he is a JavaFX advocate, developing Java applications for mobile and embedded platforms connected to the cloud and enterprise systems, while he also works on open source projects (JFXtras, FXyz3D, https://github.com/jperedadnr), co-authoring JavaFX books (JavaFX 8 Introduction by Example, JavaFX 9 by Example), blogging (http://jperedadnr.blogspot.com.es/), tweeting (@JPeredaDnr) or speaking at JUGs and conferences (JavaOne, Devoxx, JAX, Jfokus, JavaLand, JCrete, JBCNConf,…). José lives with his wife and kids in Valladolid, Spain.",
-        "image": "assets/img/speakers/jose-pereda.jpeg",
-        "ref": "e5a304daa5607a97ddf4a2ae2417bbeb93efa371",
-        "url": "infoSpeaker.html?ref=e5a304daa5607a97ddf4a2ae2417bbeb93efa371",
-        "twitter": "@JPeredaDnr"
-    }
+      "name": "Edson Yanaga",
+      "description": "Director of Developer Experience at Red Hat",
+      "biography": "Edson Yanaga, Red Hat's Director of Developer Experience, is a Java Champion and a Microsoft MVP. He is also a published author and a frequent speaker at international conferences, discussing Java, Microservices, Cloud Computing, DevOps, and Software Craftsmanship. ",
+      "image": "assets/img/speakers/edson-yanaga.png",
+      "ref": "685b66117e9c79a1e0aa54ca3f490d0e71fbc09d",
+      "url": "infoSpeaker.html?ref=685b66117e9c79a1e0aa54ca3f490d0e71fbc09d",
+      "twitter": "@yanaga",
+      "homepage": "https://yanaga.io"
+  },
+  {
+      "enabled": "1",
+      "name": "Anton Maria Rodriguez Yuste",
+      "description": "Technical Director at Optare",
+      "biography": "Antón is a Software Engineer who specializes in JVM development, performance tuning, and distributed systems, mainly in the telecom sector. In his current role as Technical Director at Optare, he helps to define the technological strategy in conjunction with the development team of each project: pipeline, tools, and key development procedures.\n\nHe also co-organizes the Vigo and Coruña Java User Groups (VigoJUG & CoruñaJUG) and sometimes he speaks at international conferences as Geecon (Krakow), SpringIO (Barcelona), TADSummit (Istanbul), Librecon (Santiago de Compostela), etc. \n",
+      "image": "assets/img/speakers/anton-yuste.png",
+      "ref": "ef9952db4071b89e490eac6ffd546d3000a1b4ce",
+      "url": "infoSpeaker.html?ref=ef9952db4071b89e490eac6ffd546d3000a1b4ce",
+      "twitter": "@antonmry",
+      "homepage": "http://www.galiglobal.com"
+  },
+  {
+      "enabled": "1",
+      "name": "José Pereda",
+      "description": "Software Engineer at Gluon Software",
+      "biography": "José Pereda, PhD in Structural Engineering, works as a software engineer at Gluon Software. Java Champion and Oracle Developer Champion, JavaOne RockStar and NetBeans Dream Team member. Being on Java since 1999, he is a JavaFX advocate, developing Java applications for mobile and embedded platforms connected to the cloud and enterprise systems, while he also works on open source projects (JFXtras, FXyz3D, https://github.com/jperedadnr), co-authoring JavaFX books (JavaFX 8 Introduction by Example, JavaFX 9 by Example), blogging (http://jperedadnr.blogspot.com.es/), tweeting (@JPeredaDnr) or speaking at JUGs and conferences (JavaOne, Devoxx, JAX, Jfokus, JavaLand, JCrete, JBCNConf,…). José lives with his wife and kids in Valladolid, Spain.",
+      "image": "assets/img/speakers/jose-pereda.jpeg",
+      "ref": "e5a304daa5607a97ddf4a2ae2417bbeb93efa371",
+      "url": "infoSpeaker.html?ref=e5a304daa5607a97ddf4a2ae2417bbeb93efa371",
+      "twitter": "@JPeredaDnr"
+  },
+  {
+    "biography": "Bilgin Ibryam is a principal architect at Red Hat, committer and member of Apache Software Foundation. He is an open source evangelist, blogger, the author of Kubernetes Patterns and Camel Design Patterns books and occasional speaker. In his day-to-day job, Bilgin enjoys mentoring, coding and leading developers to be successful with building open source solutions. His current work focuses on distributed systems, integration, messaging, microservices, devops, and cloud-native applications in general.",
+    "description": "Principal architect at Red Hat",
+    "enabled": "1",
+    "homepage": "http://www.ofbizian.com/",
+    "image": "assets/img/speakers/bilgin-ibryam.jpg",
+    "name": "Bilgin Ibryam",
+    "ref": "QmlsZ2luSWJyeWFtYmlicnlhbUBnbWFpbC5jb20=",
+    "twitter": "@bibryam",
+    "url": "infoSpeaker.html?ref=QmlsZ2luSWJyeWFtYmlicnlhbUBnbWFpbC5jb20="
+  },
+  {
+    "enabled": "1",
+    "name": "Raquel Pau",
+    "description": "Software engineer at Schibsted",
+    "biography": "I have almost 10 years of experience programming in Java. I have also a long experience in big data and recommendation systems. Currently, I am software engineer at Schibsted and the project leader of Walkmod, an open source tool to apply Java code conventions.",
+    "image": "assets/img/speakers/raquel-pau.jpeg",
+    "ref": "d7dd1e2cddb70f05ead609e37df9dbad160e8893",
+    "url": "infoSpeaker.html?ref=d7dd1e2cddb70f05ead609e37df9dbad160e8893",
+    "twitter": "@raquelpau",
+    "homepage": ""
+  },
+  {
+    "enabled":"1",
+    "name":"Josef Raska",
+    "description":"Senior Android Developer at Ocado Technology Barcelona",
+    "biography":"Josef works as Android Developer in Ocado Technology Barcelona and is close friend with Android for 7 years.\nHe focuses on mobile architecture, spreads the beauty of reactive programming as he got seduced by it some years ago and never wants to go back. He loves Firebase with other tooling around mobile development and keeps an eye on apps performance.\nCode is his way of speaking and when he doesn't talk or read some, you can find him traveling, hiking, drinking beer or doing all together.",
+    "image":"assets/img/speakers/josef_raska.jpg",
+    "ref":"1fb9cc741e1f562c74484fb0d5980ac5813501a2",
+    "url":"infoSpeaker.html?ref=1fb9cc741e1f562c74484fb0d5980ac5813501a2",
+    "twitter":"",
+    "homepage":"https://github.com/jraska/RxJava-Codelab"
+  }
 ]}
