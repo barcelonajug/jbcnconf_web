@@ -655,25 +655,81 @@
     "level": "beginner",
     "speakers": ["QU1haGR5QWJkZWxheml6YW1haGR5N0BnbWFpbC5jb20="]
   },
-    {
-      "title": "When Old Meets New: Turning Maven into a High Scalable, Resource Efficient, Cloud Ready Microservice",
-      "abstract": "Embracing Microservice Architecture in a new project is something that most of developers want! But how about the old and gold projects that are not designed and planned for it? What about refactoring a real legacy piece of software that is stable and used by almost all Java developers out there? Maven is the defacto standard tool for project management and comprehension for almost every Java project. Even alternative tools use Maven’s repository format and even export/integrate with its reach project object model (POM). Maven is mostly well know to be executed in command line, integrated in most Java IDEs or even through most CI/CD tools like Jenkins. But we wanted more, we wanted to turn Maven into a truly scalable microservice, taking advantage of Kubernetes container orchestration… we would like to be able to build any Java project in a efficient and resource efficient. And we did it! We’ll present this Microservice tool that you can use local or remote via REST interface and we’ll also explore the challenges that we faced to turn monolithic maven to a powerful microservice. Come to this talk to see how we transformed Maven builds in a Cloud Ready Microservice. Some covered topics are: -What are the architectural patterns in order to move an old monolithic legacy codebase to the microservices world; -What are the trade-offs with this refactoring; -How we automatically turn any Maven build into incremental ones; -How to create RESTful Web APIs to expose legacy codebase; -How everything fits together on Drools and jBPM ecosystem.",
-      "type": "talk",
-      "tags": [
-        "Java",
-        "Maven",
-        "Microservices",
-        "Rest",
-        "Scalable",
-        "CI",
-        "CD",
-        "Integration",
-        "Cloud",
-        "Hacking"
-      ],
-      "level": "advanced",
-      "speakers": [
-        "d0ad39041e641ff2cfc220a0f7ae315f826f59b8"
-      ]
-    }
+  {
+    "title": "When Old Meets New: Turning Maven into a High Scalable, Resource Efficient, Cloud Ready Microservice",
+    "abstract": "Embracing Microservice Architecture in a new project is something that most of developers want! But how about the old and gold projects that are not designed and planned for it? What about refactoring a real legacy piece of software that is stable and used by almost all Java developers out there? Maven is the defacto standard tool for project management and comprehension for almost every Java project. Even alternative tools use Maven’s repository format and even export/integrate with its reach project object model (POM). Maven is mostly well know to be executed in command line, integrated in most Java IDEs or even through most CI/CD tools like Jenkins. But we wanted more, we wanted to turn Maven into a truly scalable microservice, taking advantage of Kubernetes container orchestration… we would like to be able to build any Java project in a efficient and resource efficient. And we did it! We’ll present this Microservice tool that you can use local or remote via REST interface and we’ll also explore the challenges that we faced to turn monolithic maven to a powerful microservice. Come to this talk to see how we transformed Maven builds in a Cloud Ready Microservice. Some covered topics are: -What are the architectural patterns in order to move an old monolithic legacy codebase to the microservices world; -What are the trade-offs with this refactoring; -How we automatically turn any Maven build into incremental ones; -How to create RESTful Web APIs to expose legacy codebase; -How everything fits together on Drools and jBPM ecosystem.",
+    "type": "talk",
+    "tags": [
+      "Java",
+      "Maven",
+      "Microservices",
+      "Rest",
+      "Scalable",
+      "CI",
+      "CD",
+      "Integration",
+      "Cloud",
+      "Hacking"
+    ],
+    "level": "advanced",
+    "speakers": [
+      "d0ad39041e641ff2cfc220a0f7ae315f826f59b8"
+    ]
+  },
+  {
+  "title": "Lightweight Enterprise Java with MicroProfile",
+  "abstract": "I laugh at people that tell me that Java is slow, heavyweight and cumbersome. Maybe it was true when we had EJB2. I will prove to you that we can develop Enterprise Applications with just a few lines of code that can run on a Raspberry PI. If it runs on a PI, I think we can safely say it would run anywhere! To be able to do it, I’m going to use a new platform called Microprofile. Microprofile optimizes Enterprise Java for a Microservices Architecture and delivers application portability across multiple runtimes. You can use a subset of the Java EE specifications to develop Microprofile applications, with JAX-RS, CDI, and JSON-P. Join me for this live coding session and help me spread the word that Java is actually great for the Enterprise.",
+  "type": "talk",
+  "tags": [
+  "java",
+  "microservices",
+  "microprofile"
+  ],
+  "level": "beginner",
+  "speakers": [
+  "1d2bc689a08a82df0bd09571219c937e658c5407"
+  ]
+  },
+  {
+  "title": "Apache Kafka from the trenches",
+  "abstract": "If you’re a regular conference visitor, you’ll probably have attended at least one talk about Apache Kafka. Mostly you get all the good stuff about the product itself, the high level architecture and maybe some examples of a message driven “Hello World”. But what does it really take to start using Kafka in your Java application? What do the API’s look like? What will it take for you to be able to send or consume a message? In this session I’ll try to show as much of the reality of integrating with Kafka as possible in the form of some live coding. I’ll start from scratch and show you everything you have to do to make it work, both in Spring and in standard Java.",
+  "type": "talk",
+  "tags": [
+  "Kafka",
+  "Eventing",
+  "Decoupling"
+  ],
+  "level": "middle",
+  "speakers": [
+  "f9735e896fb3811ae30aeec2330214dcf6f7ff40"
+  ]
+  },
+  {
+  "title": "The Dark Side of Java 8 - Lessons Learned",
+  "abstract": "Java 8 was one of the most important Java releases ever... but still wasn't free of bugs, or just places where things could've been done better. \n\nIn this session, we'll go through a quick post-mortem session and explore what went wrong with the Stream API, Lambda Expressions, and much more, along with ways how we can address those problems.",
+  "type": "talk",
+  "tags": [
+  "Java 8",
+  "Functional Programming"
+  ],
+  "level": "middle",
+  "speakers": [
+  "dcf4d5f83bc2dab51fb90922055352668da14a18"
+  ]
+  },
+  {
+  "title": "7 Deadlier Sins of Craftsmanship",
+  "abstract": "We are all human and we all have our sins. In our professional lives as well. Unfortunately we do not realize many of them, and even the smallest ones, can have a negative impact on what is happening in our everyday work and our teams. Committed, over and over again, they affect everything that is important in our projects both from business and technical perspective. These small bugs in our behaviour can lead to worse requirements understanding, bad decision making and decrease technical quality. \nDuring the presentation, I would like to share my observations and thoughts, which sins to avoid and what to pay attention to, not to land in the coder's hell.\n",
+  "type": "talk",
+  "tags": [
+  "Software Craftsmanship",
+  "Culture",
+  "Cognitive Biases",
+  "Improvement"
+  ],
+  "level": "beginner",
+  "speakers": [
+  "1c9e35308c401793ad51011657e043b382416bef"
+  ]
+  }
 ]}

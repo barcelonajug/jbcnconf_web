@@ -136,6 +136,14 @@
         "src": "/assets/img/sponsors/zopa.png",
         "alt": "Zopa"
       }
+    },
+    {
+      "name": "Marfeel",
+      "href": "https://www.marfeel.com",
+      "image": {
+        "src": "/assets/img/sponsors/marfeel.png",
+        "alt": "Marfeel"
+      }
     }
   ],
   "supporters": [{
@@ -184,6 +192,14 @@
       "image": {
         "src": "/assets/img/sponsors/technladies.jpg",
         "alt": "Tech & Ladies Barcelona"
+      }
+    },
+    {
+      "name": "SmartCatalonia",
+      "href": "http://www.smartcatalonia.gencat.cat/",
+      "image": {
+        "src": "/assets/img/sponsors/smart-catalonia.jpg",
+        "alt": "SmartCatalonia"
       }
     }
   ]
