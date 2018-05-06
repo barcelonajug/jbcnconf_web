@@ -562,5 +562,59 @@
     "url": "infoSpeaker.html?ref=QU1haGR5QWJkZWxheml6YW1haGR5N0BnbWFpbC5jb20=",
     "twitter": "@amahdy7",
     "homepage": "http://amahdy.net"
+  },
+  {
+    "enabled": "1",
+    "name": "Massimiliano Dessì",
+    "description": "RedHatter, GDG Sardegna, JUG Sardegna, Spring AOP Author",
+    "biography": "Massimiliano Dessì has more than 18 years of experience in programming. Manager of Google Developers Group Sardegna, co-founder of Java User Group Sardegna. Author of Spring 2.5 AOP. He works as a Senior Software Engineer for Red Hat in the Business Systems and Intelligence Group (aka KIE - Knowledge Is Everything), he lives in Cagliari, Sardinia, Italy, Europe.",
+    "image": "assets/img/speakers/massimiliano-dessi.jpg",
+    "ref": "d0ad39041e641ff2cfc220a0f7ae315f826f59b8",
+    "url": "infoSpeaker.html?ref=d0ad39041e641ff2cfc220a0f7ae315f826f59b8",
+    "twitter": "https://twitter.com/desmax74"
+  },
+  {
+  "enabled": "1",
+  "name": "Roberto Cortez",
+  "description": "Java Developer at Tomitribe",
+  "biography": "Roberto Cortez is a professional Java Developer working in the software development industry, with more than 9 years of experience in business areas like Finance, Insurance and Government. His first contact with Java was in 1998 and he never looked back. Mostly working with Java EE technologies, he is involved with the community to help other individuals to spread the knowledge or just to hang out and share experiences. Working as a Freelancer gave him the freedom to travel around the world and speak at conferences like JavaOne, Devoxx FR, JFokus, GeeCon, Java2Days and others. He is also the leader of the Coimbra JUG and a regular blogger about Java related technologies. Currently he is working with Tomitribe. Now, by being part of the tribe, he is very excited to be working on the server where everything happens, instead of just developing applications that runs on the container. When he is not working he spend most of his time hanging with frinds, playing computer games and spending time with his family.",
+  "image": "assets/img/speakers/roberto-cortez.jpg",
+  "ref": "1d2bc689a08a82df0bd09571219c937e658c5407",
+  "url": "infoSpeaker.html?ref=1d2bc689a08a82df0bd09571219c937e658c5407",
+  "twitter": "@radcortez",
+  "homepage": "https://radcortez.com"
+  },
+  {
+  "enabled": "1",
+  "name": "Jaap Coomans",
+  "description": "Java Developer and Architect for JStack",
+  "biography": "Jaap is a Java developer and architect for jstack with more than 10 years of experience in Java development in various environments. He's passionate about Java and Open Source technology and likes to combine architectural work with hands-on development. He loves sharing knowledge and experience with colleagues and like-minded people. Outside IT he loves playing board-games with friends and colleagues.",
+  "image": "assets/img/speakers/jaap-coomans.jpg",
+  "ref": "f9735e896fb3811ae30aeec2330214dcf6f7ff40",
+  "url": "infoSpeaker.html?ref=f9735e896fb3811ae30aeec2330214dcf6f7ff40",
+  "twitter": "@JaapCoomans",
+  "homepage": "https://www.jstack.eu"
+  },
+  {
+  "enabled": "1",
+  "name": "Grzegorz Piwowarek",
+  "description": "Polyglot system engineer at Casumo",
+  "biography": "Grzegorz Piwowarek is a hungry-for-knowledge polyglot system engineer at Casumo, a trainer at Bottega IT Minds, a blogger at 4comprehension.com, and an OS contributor.\n\nHe was professionally involved in projects involving systems integration, image recognition, and recently in highly scalable distributed solutions.\n\nBesides coding, he is a professional yo-yo player and a guitarist in a progressive metal band - Visions of Tondal.\n",
+  "image": "assets/img/speakers/grzegorz-piwowarek.jpg",
+  "ref": "dcf4d5f83bc2dab51fb90922055352668da14a18",
+  "url": "infoSpeaker.html?ref=dcf4d5f83bc2dab51fb90922055352668da14a18",
+  "twitter": "@pivovarit",
+  "homepage": "http://4comprehension.com"
+  },
+  {
+  "enabled": "1",
+  "name": "Tomasz Dubikowski",
+  "description": "Software Development Manager at Ocado Technology",
+  "biography": "Tomek is a Software Development Manager at Ocado Technology. He has 6 years experience working as a Software Engineer, Scrum Master and Agile Trainer.\nAs an engineer, he is passionate about craftsmanship, propagating clean code, automated tests, behaviour driven development and domain driven design. As a leader, he helps to build an organisational culture based upon autonomy, collaboration and trust so that developers are equipped with both the hard and soft skills necessary to build truly awesome products.\nTomek loves to change the reality around him. He his highly pragmatic, challenges orthodoxy at all levels and believes that there is always room for improvement. He is always eager to discuss and share his ideas.\n",
+  "image": "assets/img/speakers/tomasz-dubikowsky.png",
+  "ref": "1c9e35308c401793ad51011657e043b382416bef",
+  "url": "infoSpeaker.html?ref=1c9e35308c401793ad51011657e043b382416bef",
+  "twitter": "@tdubikowski",
+  "homepage": ""
   }
 ]}
