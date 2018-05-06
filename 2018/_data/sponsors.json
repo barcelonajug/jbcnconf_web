@@ -136,6 +136,14 @@
         "src": "/assets/img/sponsors/zopa.png",
         "alt": "Zopa"
       }
+    },
+    {
+      "name": "Marfeel",
+      "href": "https://www.marfeel.com",
+      "image": {
+        "src": "/assets/img/sponsors/marfeel.png",
+        "alt": "Marfeel"
+      }
     }
   ],
   "supporters": [{
