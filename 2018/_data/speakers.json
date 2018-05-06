@@ -564,6 +564,16 @@
     "homepage": "http://amahdy.net"
   },
   {
+    "enabled": "1",
+    "name": "Massimiliano Dessì",
+    "description": "RedHatter, GDG Sardegna, JUG Sardegna, Spring AOP Author",
+    "biography": "Massimiliano Dessì has more than 18 years of experience in programming. Manager of Google Developers Group Sardegna, co-founder of Java User Group Sardegna. Author of Spring 2.5 AOP. He works as a Senior Software Engineer for Red Hat in the Business Systems and Intelligence Group (aka KIE - Knowledge Is Everything), he lives in Cagliari, Sardinia, Italy, Europe.",
+    "image": "assets/img/speakers/massimiliano-dessi.jpg",
+    "ref": "d0ad39041e641ff2cfc220a0f7ae315f826f59b8",
+    "url": "infoSpeaker.html?ref=d0ad39041e641ff2cfc220a0f7ae315f826f59b8",
+    "twitter": "https://twitter.com/desmax74"
+  },
+  {
   "enabled": "1",
   "name": "Roberto Cortez",
   "description": "Java Developer at Tomitribe",
