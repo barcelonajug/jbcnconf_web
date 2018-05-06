@@ -595,5 +595,16 @@
   "url": "infoSpeaker.html?ref=dcf4d5f83bc2dab51fb90922055352668da14a18",
   "twitter": "@pivovarit",
   "homepage": "http://4comprehension.com"
+  },
+  {
+  "enabled": "1",
+  "name": "Tomasz Dubikowski",
+  "description": "Software Development Manager at Ocado Technology",
+  "biography": "Tomek is a Software Development Manager at Ocado Technology. He has 6 years experience working as a Software Engineer, Scrum Master and Agile Trainer.\nAs an engineer, he is passionate about craftsmanship, propagating clean code, automated tests, behaviour driven development and domain driven design. As a leader, he helps to build an organisational culture based upon autonomy, collaboration and trust so that developers are equipped with both the hard and soft skills necessary to build truly awesome products.\nTomek loves to change the reality around him. He his highly pragmatic, challenges orthodoxy at all levels and believes that there is always room for improvement. He is always eager to discuss and share his ideas.\n",
+  "image": "assets/img/speakers/tomasz-dubikowsky.png",
+  "ref": "1c9e35308c401793ad51011657e043b382416bef",
+  "url": "infoSpeaker.html?ref=1c9e35308c401793ad51011657e043b382416bef",
+  "twitter": "@tdubikowski",
+  "homepage": ""
   }
 ]}
