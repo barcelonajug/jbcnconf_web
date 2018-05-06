@@ -562,5 +562,16 @@
     "url": "infoSpeaker.html?ref=QU1haGR5QWJkZWxheml6YW1haGR5N0BnbWFpbC5jb20=",
     "twitter": "@amahdy7",
     "homepage": "http://amahdy.net"
+  },
+  {
+  "enabled": "1",
+  "name": "Roberto Cortez",
+  "description": "Java Developer at Tomitribe",
+  "biography": "Roberto Cortez is a professional Java Developer working in the software development industry, with more than 9 years of experience in business areas like Finance, Insurance and Government. His first contact with Java was in 1998 and he never looked back. Mostly working with Java EE technologies, he is involved with the community to help other individuals to spread the knowledge or just to hang out and share experiences. Working as a Freelancer gave him the freedom to travel around the world and speak at conferences like JavaOne, Devoxx FR, JFokus, GeeCon, Java2Days and others. He is also the leader of the Coimbra JUG and a regular blogger about Java related technologies. Currently he is working with Tomitribe. Now, by being part of the tribe, he is very excited to be working on the server where everything happens, instead of just developing applications that runs on the container. When he is not working he spend most of his time hanging with frinds, playing computer games and spending time with his family.",
+  "image": "assets/img/speakers/roberto-cortez.jpg",
+  "ref": "1d2bc689a08a82df0bd09571219c937e658c5407",
+  "url": "infoSpeaker.html?ref=1d2bc689a08a82df0bd09571219c937e658c5407",
+  "twitter": "@radcortez",
+  "homepage": "https://radcortez.com"
   }
 ]}
