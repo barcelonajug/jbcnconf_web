@@ -584,5 +584,16 @@
   "url": "infoSpeaker.html?ref=f9735e896fb3811ae30aeec2330214dcf6f7ff40",
   "twitter": "@JaapCoomans",
   "homepage": "https://www.jstack.eu"
+  },
+  {
+  "enabled": "1",
+  "name": "Grzegorz Piwowarek",
+  "description": "Polyglot system engineer at Casumo",
+  "biography": "Grzegorz Piwowarek is a hungry-for-knowledge polyglot system engineer at Casumo, a trainer at Bottega IT Minds, a blogger at 4comprehension.com, and an OS contributor.\n\nHe was professionally involved in projects involving systems integration, image recognition, and recently in highly scalable distributed solutions.\n\nBesides coding, he is a professional yo-yo player and a guitarist in a progressive metal band - Visions of Tondal.\n",
+  "image": "assets/img/speakers/grzegorz-piwowarek.jpg",
+  "ref": "dcf4d5f83bc2dab51fb90922055352668da14a18",
+  "url": "infoSpeaker.html?ref=dcf4d5f83bc2dab51fb90922055352668da14a18",
+  "twitter": "@pivovarit",
+  "homepage": "http://4comprehension.com"
   }
 ]}

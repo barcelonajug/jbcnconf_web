@@ -682,5 +682,18 @@
   "speakers": [
   "f9735e896fb3811ae30aeec2330214dcf6f7ff40"
   ]
+  },
+  {
+  "title": "The Dark Side of Java 8 - Lessons Learned",
+  "abstract": "Java 8 was one of the most important Java releases ever... but still wasn't free of bugs, or just places where things could've been done better. \n\nIn this session, we'll go through a quick post-mortem session and explore what went wrong with the Stream API, Lambda Expressions, and much more, along with ways how we can address those problems.",
+  "type": "talk",
+  "tags": [
+  "Java 8",
+  "Functional Programming"
+  ],
+  "level": "middle",
+  "speakers": [
+  "dcf4d5f83bc2dab51fb90922055352668da14a18"
+  ]
   }
 ]}
