@@ -668,5 +668,19 @@
   "speakers": [
   "1d2bc689a08a82df0bd09571219c937e658c5407"
   ]
+  },
+  {
+  "title": "Apache Kafka from the trenches",
+  "abstract": "If you’re a regular conference visitor, you’ll probably have attended at least one talk about Apache Kafka. Mostly you get all the good stuff about the product itself, the high level architecture and maybe some examples of a message driven “Hello World”. But what does it really take to start using Kafka in your Java application? What do the API’s look like? What will it take for you to be able to send or consume a message? In this session I’ll try to show as much of the reality of integrating with Kafka as possible in the form of some live coding. I’ll start from scratch and show you everything you have to do to make it work, both in Spring and in standard Java.",
+  "type": "talk",
+  "tags": [
+  "Kafka",
+  "Eventing",
+  "Decoupling"
+  ],
+  "level": "middle",
+  "speakers": [
+  "f9735e896fb3811ae30aeec2330214dcf6f7ff40"
+  ]
   }
 ]}
