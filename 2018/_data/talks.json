@@ -654,5 +654,26 @@
       "Web app"],
     "level": "beginner",
     "speakers": ["QU1haGR5QWJkZWxheml6YW1haGR5N0BnbWFpbC5jb20="]
-  }
+  },
+    {
+      "title": "When Old Meets New: Turning Maven into a High Scalable, Resource Efficient, Cloud Ready Microservice",
+      "abstract": "Embracing Microservice Architecture in a new project is something that most of developers want! But how about the old and gold projects that are not designed and planned for it? What about refactoring a real legacy piece of software that is stable and used by almost all Java developers out there? Maven is the defacto standard tool for project management and comprehension for almost every Java project. Even alternative tools use Maven’s repository format and even export/integrate with its reach project object model (POM). Maven is mostly well know to be executed in command line, integrated in most Java IDEs or even through most CI/CD tools like Jenkins. But we wanted more, we wanted to turn Maven into a truly scalable microservice, taking advantage of Kubernetes container orchestration… we would like to be able to build any Java project in a efficient and resource efficient. And we did it! We’ll present this Microservice tool that you can use local or remote via REST interface and we’ll also explore the challenges that we faced to turn monolithic maven to a powerful microservice. Come to this talk to see how we transformed Maven builds in a Cloud Ready Microservice. Some covered topics are: -What are the architectural patterns in order to move an old monolithic legacy codebase to the microservices world; -What are the trade-offs with this refactoring; -How we automatically turn any Maven build into incremental ones; -How to create RESTful Web APIs to expose legacy codebase; -How everything fits together on Drools and jBPM ecosystem.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Maven",
+        "Microservices",
+        "Rest",
+        "Scalable",
+        "CI",
+        "CD",
+        "Integration",
+        "Cloud",
+        "Hacking"
+      ],
+      "level": "advanced",
+      "speakers": [
+        "d0ad39041e641ff2cfc220a0f7ae315f826f59b8"
+      ]
+    }
 ]}
