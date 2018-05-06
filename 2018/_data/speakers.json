@@ -605,5 +605,25 @@
   "url": "infoSpeaker.html?ref=1c9e35308c401793ad51011657e043b382416bef",
   "twitter": "@tdubikowski",
   "homepage": ""
+  },
+  {
+    "enabled": "1",
+    "name": "Jorge Morales",
+    "description": "OpenShift Field Product Manager",
+    "biography": "Jorge is OpenShift Field Product Manager for EMEA and Developer advocate. He has huge experience on DevOps and he's a fanatical Java developer. He helps developers understand the benefits of a Platform-as-a-Service and customers while also helps customers to improve the product based on their experience. He's old enough to have other hobbies than his family for his occasional spare time.",
+    "image": "assets/img/speakers/jorge-morales.jpg",
+    "ref": "b33fa71d4efd0c60b13345115cb00f92c352394c",
+    "url": "infoSpeaker.html?ref=b33fa71d4efd0c60b13345115cb00f92c352394c",
+    "twitter": "https://twitter.com/jorgemoralespou"
+  },
+  {
+    "enabled": "1",
+    "name": "Grant Shipley",
+    "description": "Director at Red Hat",
+    "biography": "Grant Shipley is a Director at Red Hat focused on containers, Kubernetes, and OpenShift. He is the author of several books including \"OpenShift for Developers\" and \"Learning OpenShift\". Prior to that, Grant was a Manager of Software Development with responsibilities over the www.redhat.com website and supporting infrastructure. Grant has over 20 years of software development experience focusing on Java and PHP. In his free time, he contributes to several open source projects as well as developing mobile applications. Grant has been using Linux on a daily basis since 1994 and is active in the FOSS community.",
+    "image": "assets/img/speakers/grant-shipley.jpg",
+    "ref": "ff55294f8464ef742da59a126c35e25670d377dc",
+    "url": "infoSpeaker.html?ref=ff55294f8464ef742da59a126c35e25670d377dc",
+    "twitter": "https://twitter.com/gshipley"
   }
 ]}
