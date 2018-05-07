@@ -625,5 +625,16 @@
     "ref": "ff55294f8464ef742da59a126c35e25670d377dc",
     "url": "infoSpeaker.html?ref=ff55294f8464ef742da59a126c35e25670d377dc",
     "twitter": "https://twitter.com/gshipley"
+  },
+  {
+    "enabled": "1",
+    "name": "Galo Navarro",
+    "description": "Software Engineer at Schibsted",
+    "biography": "Software engineer with a background in systems engineering, distributed systems and data plumbing, mostly on the JVM. I'm currently working on developer tools and infrastructure at Schibsted. Prior to that I built distributed virtual networks at Midokura, data infrastructure for telcos at Zhilabs, and backend systems for high volume internet sites (Last.fm, Tuenti.)",
+    "image": "assets/img/speakers/galo-navarro.jpg",
+    "ref": "c45f58eb5100118866ec4bf9cf18ca42cff28e21",
+    "url": "infoSpeaker.html?ref=c45f58eb5100118866ec4bf9cf18ca42cff28e21",
+    "twitter": "@srvaroa",
+    "homepage": "https://srvaroa.github.io/"
   }
 ]}
