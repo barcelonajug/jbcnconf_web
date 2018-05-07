@@ -563,7 +563,7 @@
   },
   {
     "title":"RxJava Code Lab",
-    "abstract":"Reactive programming is mentioned everywhere these days. It solves many common issues of imperative programming in an elegant way. Dozens of libraries are springing up, giving developers access to powerful tools that make their everyday development life easier. However, it can take time to learn how to wield these tools effectively as they are often difficult to understand and if used improperly they can sometimes do more harm than good.\n\nThis code lab will first go with you through RxJava basics, in order to demonstrate the main concepts and common use-cases of the ReactiveX framework, as well as reactive programming in general. It should make RxJava and reactive programming much clearer to you and give you lots of ideas of when and where you might want to use it. Once you have seen what it can do, you won't want to go back to how you were programming before!",
+    "abstract":"Reactive programming is mentioned everywhere these days. It solves many common issues of imperative programming in an elegant way. Dozens of libraries are springing up, giving developers access to powerful tools that make their everyday development life easier. However, it can take time to learn how to wield these tools effectively as they are often difficult to understand and if used improperly they can sometimes do more harm than good.\n\nThis code lab will first go with you through RxJava basics, in order to demonstrate the main concepts and common use-cases of the ReactiveX framework, as well as reactive programming in general. It should make RxJava and reactive programming much clearer to you and give you lots of ideas of when and where you might want to use it. Once you have seen what it can do, you won't want to go back to how you were programming before!<br/><br/><span style=\"text-decoration: underline;\">Requirements for the workshop</span>: <a href=\"https://github.com/jraska/RxJava-Codelab\" style=\"text-decoration: underline; color: blue;\" target=\"_blank\">Follow this link</a>",
     "type":"workshop",
     "tags":["Reactive Programming","Rx","Java","Mobile"],
     "level":"beginner",
@@ -731,5 +731,22 @@
   "speakers": [
   "1c9e35308c401793ad51011657e043b382416bef"
   ]
+  },
+  {
+    "title": "Cirque du application development - containers, Kubernetes, and OpenShift",
+    "abstract": "This workshop prepares web and application developers to build applications using Containers, Kubernetes, and OpenShift. We’ll start with a short introduction to containers and Kubernetes, which are the foundation of OpenShift.\n\nUsing hands-on exercises, we will walk you through tasty menu of applications and uses cases for OpenShift. How about showing you how easy it can be to deploy your pre-built containers? Maybe showing how health checks so OpenShift can heal your application. Let’s dig in to build containers by just giving a git repository. Want to see easy application scaling - no problem! Wish you could do A/B deployment - your wish is our command. Finally we will show you a complete microservice application with DB and polyglot backed services.\n\nYou bring your curiosity and willingness to code and we will teach all you need to go home and start building pure awesomeness on OpenShift.",
+    "type": "workshop",
+    "tags": [
+      "java",
+      "kubernetes",
+      "cloud",
+      "paas",
+      "containers"
+    ],
+    "level": "beginner",
+    "speakers": [
+      "b33fa71d4efd0c60b13345115cb00f92c352394c",
+      "ff55294f8464ef742da59a126c35e25670d377dc"
+    ]
   }
 ]}

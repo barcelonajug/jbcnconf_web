@@ -14,7 +14,7 @@
     {
       "enabled": "1",
       "name": "Mercedes Wyss",
-      "description": "CTO at Produactivity",
+      "description": "Java Champion, CTO at Produactivity",
       "biography": "She is a software engineer with more than six years of experience in backend, frontend, and Android development using Java and Kotlin. Currently, Mercedes is the CTO at Produactivity, a startup based in Guatemala.\n\nOutside of work, she was previously organizing meetings in Guatemala Java Users Group. Now she is focused on increasing women's participation in STEAM by running a JDuchess chapter in Guatemala and helping new communities to make their first steps. \n\nShe is a Developer Champion and an Auth0 Ambassador, has a Duke's Choice Award in Educational Outreach, and is the leader of a Google community, Devs+502.",
       "image": "assets/img/speakers/mercedes-wyss.jpg",
       "ref": "TWVyY2VkZXNXeXNzbWVyY2VkZXMud3lzc0Bwb3dlcnd0ZWNobm9sb2d5LmNvbQ==",
@@ -58,7 +58,7 @@
     {
       "enabled": "1",
       "name": "Venkat Subramaniam",
-      "description": "Founder of Agile Developer, Inc.",
+      "description": "Java Champion, Founder of Agile Developer, Inc.",
       "biography": "Dr. Venkat Subramaniam is an award-winning author, founder of Agile Developer, Inc., creator of agilelearner.com, and an instructional professor at the University of Houston. He has trained and mentored thousands of software developers in the US, Canada, Europe, and Asia, and is a regularly-invited speaker at several international conferences. Venkat helps his clients effectively apply and succeed with sustainable agile practices on their software projects. Venkat is a (co)author of multiple technical books, including the 2007 Jolt Productivity award winning book Practices of an Agile Developer. You can find a list of his books at agiledeveloper.com. You can reach him by email at venkats@agiledeveloper.com or on twitter at @venkat_s.",
       "image": "assets/img/speakers/venkat-subramaniam.jpg",
       "ref": "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ==",
@@ -380,7 +380,7 @@
   {
     "enabled": "1",
     "name": "Burr Sutter",
-    "description": "Director of Developer Experience at Red Hat",
+    "description": "Java Champion, Director of Developer Experience at Red Hat",
     "biography": "A lifelong developer advocate, community organizer, and technology evangelist, Burr Sutter is a featured speaker at technology events around the globe—from Bangalore to Brussels and Berlin to Beijing (and most parts in between). A Java Champion since 2005 and former president of the Atlanta Java User Group, Burr founded the DevNexus conference (now the second largest Java event in the U.S.) with the aim of making access to the world’s leading developers affordable to the developer community. When not speaking abroad, Burr is also the passionate creator and orchestrator of highly-interactive live demo keynotes at Red Hat Summit, the company’s premier annual event.",
     "image": "assets/img/speakers/burr-sutter.png",
     "ref": "QnVyclN1dHRlcmJ1cnJzdXR0ZXJAZ21haWwuY29t",
@@ -413,7 +413,7 @@
   {
     "enabled":"1",
     "name":"James Strachan",
-    "description":"Groovy programming language creator",
+    "description":"Java Champion, Groovy programming language creator",
     "biography":"James created the Groovy programming language and Apache Camel integration framework.\n\nThese days I work for CloudBees on Jenkins X: automated CI/CD for Kubernetes",
     "image":"assets/img/speakers/james-strachan.jpg",
     "ref":"SmFtZXNTdHJhY2hhbmpzdHJhY2hhbkBjbG91ZGJlZXMuY29t",
@@ -446,7 +446,7 @@
   {
     "enabled": "1",
     "name": "Simon Ritter",
-    "description": "Deputy CTO of Azul System",
+    "description": "Java Champion, Deputy CTO of Azul System",
     "biography": "Simon Ritter is the Deputy CTO of Azul Systems.  Simon has been in the IT business since 1984 and holds a Bachelor of Science degree in Physics from Brunel University in the U.K. \n\nSimon joined Sun Microsystems in 1996 and started working with Java technology from JDK 1.0; he has spent time working in both Java development and consultancy.  Having moved to Oracle as part of the Sun acquisition, he managed the Java Evangelism team for the core Java platform, Java for client applications and embedded Java.  Now at Azul, he continues to help people understand Java as well as Azul’s JVM technologies and products.  Simon has twice been awarded Java Rockstar status at JavaOne and is a Java Champion.  He currently represents Azul on the JCP Executive Committee and on the Java SE Expert Group (JSR 379, 383 and 384).",
     "image": "assets/img/speakers/simon-ritter.jpg",
     "ref": "U2ltb25SaXR0ZXJzcml0dGVyQGF6dWwuY29t",
@@ -485,12 +485,12 @@
     "ref":"1fb9cc741e1f562c74484fb0d5980ac5813501a2",
     "url":"infoSpeaker.html?ref=1fb9cc741e1f562c74484fb0d5980ac5813501a2",
     "twitter":"",
-    "homepage":"https://github.com/jraska/RxJava-Codelab"
+    "homepage":""
   },
   {
       "enabled": "1",
       "name": "Edson Yanaga",
-      "description": "Director of Developer Experience at Red Hat",
+      "description": "Java Champion, Director of Developer Experience at Red Hat",
       "biography": "Edson Yanaga, Red Hat's Director of Developer Experience, is a Java Champion and a Microsoft MVP. He is also a published author and a frequent speaker at international conferences, discussing Java, Microservices, Cloud Computing, DevOps, and Software Craftsmanship. ",
       "image": "assets/img/speakers/edson-yanaga.png",
       "ref": "685b66117e9c79a1e0aa54ca3f490d0e71fbc09d",
@@ -512,7 +512,7 @@
   {
       "enabled": "1",
       "name": "José Pereda",
-      "description": "Software Engineer at Gluon Software",
+      "description": "Java Champion, Software Engineer at Gluon Software",
       "biography": "José Pereda, PhD in Structural Engineering, works as a software engineer at Gluon Software. Java Champion and Oracle Developer Champion, JavaOne RockStar and NetBeans Dream Team member. Being on Java since 1999, he is a JavaFX advocate, developing Java applications for mobile and embedded platforms connected to the cloud and enterprise systems, while he also works on open source projects (JFXtras, FXyz3D, https://github.com/jperedadnr), co-authoring JavaFX books (JavaFX 8 Introduction by Example, JavaFX 9 by Example), blogging (http://jperedadnr.blogspot.com.es/), tweeting (@JPeredaDnr) or speaking at JUGs and conferences (JavaOne, Devoxx, JAX, Jfokus, JavaLand, JCrete, JBCNConf,…). José lives with his wife and kids in Valladolid, Spain.",
       "image": "assets/img/speakers/jose-pereda.jpeg",
       "ref": "e5a304daa5607a97ddf4a2ae2417bbeb93efa371",
@@ -605,5 +605,25 @@
   "url": "infoSpeaker.html?ref=1c9e35308c401793ad51011657e043b382416bef",
   "twitter": "@tdubikowski",
   "homepage": ""
+  },
+  {
+    "enabled": "1",
+    "name": "Jorge Morales",
+    "description": "OpenShift Field Product Manager",
+    "biography": "Jorge is OpenShift Field Product Manager for EMEA and Developer advocate. He has huge experience on DevOps and he's a fanatical Java developer. He helps developers understand the benefits of a Platform-as-a-Service and customers while also helps customers to improve the product based on their experience. He's old enough to have other hobbies than his family for his occasional spare time.",
+    "image": "assets/img/speakers/jorge-morales.jpg",
+    "ref": "b33fa71d4efd0c60b13345115cb00f92c352394c",
+    "url": "infoSpeaker.html?ref=b33fa71d4efd0c60b13345115cb00f92c352394c",
+    "twitter": "https://twitter.com/jorgemoralespou"
+  },
+  {
+    "enabled": "1",
+    "name": "Grant Shipley",
+    "description": "Director at Red Hat",
+    "biography": "Grant Shipley is a Director at Red Hat focused on containers, Kubernetes, and OpenShift. He is the author of several books including \"OpenShift for Developers\" and \"Learning OpenShift\". Prior to that, Grant was a Manager of Software Development with responsibilities over the www.redhat.com website and supporting infrastructure. Grant has over 20 years of software development experience focusing on Java and PHP. In his free time, he contributes to several open source projects as well as developing mobile applications. Grant has been using Linux on a daily basis since 1994 and is active in the FOSS community.",
+    "image": "assets/img/speakers/grant-shipley.jpg",
+    "ref": "ff55294f8464ef742da59a126c35e25670d377dc",
+    "url": "infoSpeaker.html?ref=ff55294f8464ef742da59a126c35e25670d377dc",
+    "twitter": "https://twitter.com/gshipley"
   }
 ]}
