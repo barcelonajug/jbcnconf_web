@@ -750,6 +750,21 @@
     ]
   },
   {
+    "title": "The JVM concurrency toolbox: a treasure trove for the curious engineer",
+    "abstract": "The JVM offers rich concurrency support, from language primitives to high level APIs in the standard library, which are fundamental in every programmer's tool belt. Those layers of abstraction spare us from complexity, but also hide significant implications for application code, and make a treasure trove of techniques that any curious engineer could benefit from.\n\nThis talk is adequate for developers with basic working knowledge of Java concurrency. You will take a peek inside the layers closest to your code (from java.util.concurrent APIs down to the JVM), gaining a better understanding of what goes on behind the scenes when you use java threads, synchronization, or the concurrent apis. You will explore ways to apply this knowledge in practice and discover cases where concurrency sometimes matters even if you're not writing concurrent code.",
+    "type": "talk",
+    "tags": [
+      "jvm",
+      "java",
+      "concurrency",
+      "scala"
+    ],
+    "level": "middle",
+    "speakers": [
+      "c45f58eb5100118866ec4bf9cf18ca42cff28e21"
+    ]
+  },
+  {
     "title": "Clean Architecture the right way! Or almost…",
     "abstract": "In this talk we will analyze some implementations of Clean Architecture that are common in the Android community, and we’ll see how they fit into the original proposal from Robert C. Martin.\n\nWe will focus on those parts that usually don’t follow the theory, discussing on what we could improve if we had followed the original proposal. Finally, we will observe how this rules applied along with Kotlin provide other benefits besides maintainability, scalability or readability of code.\n\nEverything based on the real experience of building an app used by millions. ",
     "type": "talk",
