@@ -748,5 +748,19 @@
       "b33fa71d4efd0c60b13345115cb00f92c352394c",
       "ff55294f8464ef742da59a126c35e25670d377dc"
     ]
+  },
+  {
+    "title": "Clean Architecture the right way! Or almost…",
+    "abstract": "In this talk we will analyze some implementations of Clean Architecture that are common in the Android community, and we’ll see how they fit into the original proposal from Robert C. Martin.\n\nWe will focus on those parts that usually don’t follow the theory, discussing on what we could improve if we had followed the original proposal. Finally, we will observe how this rules applied along with Kotlin provide other benefits besides maintainability, scalability or readability of code.\n\nEverything based on the real experience of building an app used by millions. ",
+    "type": "talk",
+    "tags": [
+      "Clean Architecture",
+      "Android",
+      "Kotlin"
+    ],
+    "level": "advanced",
+    "speakers": [
+      "4e685685878fa58b6313ce1646240bbfcc87801c"
+    ]
   }
 ]}
