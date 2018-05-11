@@ -636,5 +636,16 @@
     "url": "infoSpeaker.html?ref=c45f58eb5100118866ec4bf9cf18ca42cff28e21",
     "twitter": "@srvaroa",
     "homepage": "https://srvaroa.github.io/"
+  },
+  {
+    "enabled": "1",
+    "name": "Rubén Serrano Núñez",
+    "description": "Senior Android Engineer at Wallapop",
+    "biography": "Rubén is a vocational developer, currently working as a Senior Android Engineer at Wallapop, and he is also one of the organizers of the GDG Barcelona. He formerly worked as Lead Android Developer at Redbooth, and as an assistant professor at the Autonomous University of Barcelona. When he is not coding for food, he is learning what being a father really means.",
+    "image": "assets/img/speakers/ruben-serrano.png",
+    "ref": "4e685685878fa58b6313ce1646240bbfcc87801c",
+    "url": "infoSpeaker.html?ref=4e685685878fa58b6313ce1646240bbfcc87801c",
+    "twitter": "@Akelael",
+    "homepage": ""
   }
 ]}
