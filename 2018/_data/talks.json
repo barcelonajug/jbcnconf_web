@@ -777,5 +777,19 @@
     "speakers": [
       "4e685685878fa58b6313ce1646240bbfcc87801c"
     ]
+  },
+  {
+    "title": "Fantastic Bytecodes and How To Interpret Them",
+    "abstract": "In this talk we'll discuss the basic architecture of the JVM and the bytecode set of the interpreter. We'll show the families of bytecodes and how they operate. We'll discuss what's needed to implement a simple cutdown JVM and show an open-source teaching JVM (Ocelot) in practice.",
+    "type": "talk",
+    "tags": [
+      "Java",
+      "Bytecode",
+      "JVM Internals"
+    ],
+    "level": "middle",
+    "speakers": [
+      "a71020196a6877a18aa38df8e51e12fc6807d6c7"
+    ]
   }
 ]}
