@@ -104,6 +104,14 @@
       }
     },
     {
+      "name": "Liferay",
+      "href": "http://www.liferay.com/",
+      "image": {
+        "src": "/assets/img/sponsors/liferay.png",
+        "alt": "Liferay"
+      }
+    },
+    {
       "name": "Oracle Netsuite",
       "href": "http://www.netsuite.com/",
       "image": {
