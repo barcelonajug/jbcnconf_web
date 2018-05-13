@@ -42,6 +42,18 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                     #Architecture #Scalability #IoT #Actors #Concurrency. <br/>
                                 </p>
 
+                                <div style="text-align:center;">
+                                  <a href="{{ base }}/talks.html">
+                                    <button class="btn btn-jbcn">Talks <br> {{ site.data.talks.items | where: "type","talk" | size }}</button>
+                                  </a>
+                                  <a href="{{ base }}/workshops.html">
+                                    <button class="btn btn-jbcn">Workshops <br>  {{ site.data.talks.items | where:"type","workshop" | size }}</button>
+                                  </a>
+                                  <a href="{{ base }}/speakers.html">
+                                    <button class="btn btn-jbcn">Speakers <br> {{ site.data.speakers.items | size }}</button>
+                                  </a>
+                                </div>
+                                </div> <br>
 
                                 <div class="speakers-widget animate anim-fadeInUp">
 
@@ -75,7 +87,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                                     </a>
                                                 </li>
                                                 {% endif %}
-                                                {% if speaker.twitter %}
+                                                {% if speaker.twitter and speaker.twitter.size > 0 %}
                                                   {% assign twitter = '' %}
                                                   {% capture twitter %}{{speaker.twitter| replace: "@", "" }}{% endcapture %}
                                                   {% if twitter contains 'http' %}
