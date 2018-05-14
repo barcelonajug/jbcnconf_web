@@ -118,6 +118,14 @@
         "src": "/assets/img/sponsors/oracle-netsuite.jpg",
         "alt": "Oracle Netsuite"
       }
+    },
+    {
+      "name": "We Are Adaptive",
+      "href": "http://www.weareadaptive.com/",
+      "image": {
+        "src": "/assets/img/sponsors/adaptive-logo.png",
+        "alt": "We Are Adaptive"
+      }
     }
 
   ],
