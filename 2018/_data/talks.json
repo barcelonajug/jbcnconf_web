@@ -219,7 +219,7 @@
     },
     {
       "title": "A Craftsman’s Guide to Designing a Clean Architecture",
-      "abstract": "In 2018, it seems like Microservices are the de facto standard for a system architecture, but do they really live up to the hype?\n\nThe talk will show you an alternative approach, how we can tame complexity with the help of a clean, monolithic architecture that is modular to the core.\nBack in 1972, David Parnas coined the most important fundamental concept in object-oriented design: modularity. Java is deliberately built from the ground up on a modular basis: Methods, classes, packages. Additionally, the module system was introduced in Java 9. Modularity is based on three pillars: high cohesion, low coupling and strong encapsulation. We will look at these three basic concepts in detail – what are they, how are they related to one another and how can we apply them on all levels of our architecture?\nThe talk will show you how you can apply these basic concepts to develop a clean, monolithic architecture at scale, based on Java 9 modules and the hexagonal architecture pattern.\nFinally, we will critically discuss microservices. We'll look at what microservices are, as well as at their advantages and disadvantages. We'll examine the technical and organizational requirements necessary for implementing a microservice architecture. Additionally, we'll explore when we should and shouldn't make use of microservices. Finally, we'll learn how to achieve a clean microservice architecture.\n",
+      "abstract": "In 2018, it seems like Microservices are the de facto standard for a system architecture, but do they really live up to the hype?\n\nThe talk will show you an alternative approach - how we can tame complexity with the help of a clean, monolithic architecture that is modular to the core. Java has been deliberately built from the ground up on a modular basis: Methods, classes, packages. Additionally, the module system was introduced in Java 9. Modularity is based on the fundamental concepts of high cohesion and low coupling. We will look at these concepts, as well as some further measures, in detail. We'll check out what they are, how they are related to one another, and what the best practices are for applying them on all levels of the architecture.\nThe talk will show you how you can apply these basic concepts to develop a clean, monolithic architecture, based on Java 9 modules and the hexagonal architecture pattern",
       "type": "talk",
       "tags": [
         "Java",
@@ -807,5 +807,19 @@
         "6216c13c3648212feee1ca1e6936e24361b014f8",
         "6008fec2ba23040fbac705898aff6a1af5b1be16"
       ]
-    }
+    },
+  {
+    "title": "Fantastic Bytecodes and How To Interpret Them",
+    "abstract": "In this talk we'll discuss the basic architecture of the JVM and the bytecode set of the interpreter. We'll show the families of bytecodes and how they operate. We'll discuss what's needed to implement a simple cutdown JVM and show an open-source teaching JVM (Ocelot) in practice.",
+    "type": "talk",
+    "tags": [
+      "Java",
+      "Bytecode",
+      "JVM Internals"
+    ],
+    "level": "middle",
+    "speakers": [
+      "a71020196a6877a18aa38df8e51e12fc6807d6c7"
+    ]
+  }
 ]}

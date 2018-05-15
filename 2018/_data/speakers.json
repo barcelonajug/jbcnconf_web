@@ -680,5 +680,16 @@
       "url": "infoSpeaker.html?ref=6008fec2ba23040fbac705898aff6a1af5b1be16",
       "twitter": "@_hgranlund",
       "homepage": ""
-    }
+    },
+  {
+    "enabled": "1",
+    "name": "Ben Evans",
+    "description": "Java Champion, author, speaker, consultant",
+    "biography": "Ben Evans is an author, speaker, consultant and educator. He is co-founder of jClarity, a performance tools startup. He helps to organize the London Java Community and served on the Java Community Process Executive Committee, helping define new Java standards. He is a Java Champion, 3-time JavaOne Rockstar Speaker and the Java Track Lead at InfoQ.\n\nBen is author of “The Well-Grounded Java Developer”, “Java: The Legend”, the new edition of “Java in a Nutshell” and \"Optimizing Java\". Ben is a regular speaker and educator on topics such as the Java platform, systems architecture, security, performance and concurrency at companies and conferences all over the world.",
+    "image": "assets/img/speakers/ben-evans.jpg",
+    "ref": "a71020196a6877a18aa38df8e51e12fc6807d6c7",
+    "url": "infoSpeaker.html?ref=a71020196a6877a18aa38df8e51e12fc6807d6c7",
+    "twitter": "@kittylyst",
+    "homepage": ""
+  }
 ]}
