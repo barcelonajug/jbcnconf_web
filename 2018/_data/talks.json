@@ -821,5 +821,39 @@
     "speakers": [
       "a71020196a6877a18aa38df8e51e12fc6807d6c7"
     ]
+  },
+  {
+      "title": "From Legacy to Cloud",
+      "abstract": "Everybody is enthusiastic about the \"cloud\", but how do I can transfer my old rusty application to this shiny new world?\n\nThis presentation describes the migration process of a ten-year-old web application to a Kubernetes based platform. The app is written in Java with Wicket 1.4 as the Web framework of choice, running on a plain Jetty 6 servlet engine with Mysql 5.0 as backend. Step by step we will migrate this application to Docker containers, eventually running on a self-provisioned Kubernetes cluster in the cloud.\n\nWe will hit some stumbling blocks, but still, we will see how this migration could be performed relatively effortless.\n\nIn the end, we have learned, that \"containerisation\" does not only make sense for green-field projects but also for older applications to pimp up their legacy.",
+      "type": "talk",
+      "tags": [
+          "Cloud",
+          "Kubernetes",
+          "Docker",
+          "Migration"
+      ],
+      "level": "beginner",
+      "speakers": [
+          "ab961367d4eccd998be5e65c43aec1ef0ca91e56"
+      ]
+  },
+  {
+      "title": "Let's do reactive web applications with Spring 5, Web Flux and Kafka",
+      "abstract": "With IoT starting to be a \"real thing\", user experience getting its rightful centric place and data loads increasing daily, new (or not so new) architectural patterns and techniques are raising interest. Here is where reactive programing sits now. Async and non-blocking approaches help scalability at the same time they leverage stream processing to implement pseudo-real time with low server overhead. Furthermore, well known frameworks add support for this \"raising patterns\" to ease their adoption. Here is where Spring WebFlux and Spring Cloud Stream Reactive come into the party.\n\nWe are going to show how easy is to build a web application that offers pseudo real-team updates using these technologies. \n\nMain topics to cover:\n- Spring 5 WebFlux, Async API and Netty\n- Spring Cloud Stream Reactive with Kafka binders\n- Kafka Streams API with Spring.\n\nWe will use a sample JS web frontend and a Kubernates deployment to add some salt and pepper to the receipt.",
+      "type": "workshop",
+      "tags": [
+          "Java",
+          "Reactive",
+          "Spring",
+          "Scalability",
+          "Kubernates",
+          "Kafka",
+          "Streams"
+      ],
+      "level": "middle",
+      "speakers": [
+          "675c0972b5f59c5f97c123154394ff80bcdd8155",
+          "259baea1670f31b1a7f52f274e2c610f52f43033"
+      ]
   }
 ]}

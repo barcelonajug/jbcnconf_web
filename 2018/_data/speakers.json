@@ -691,5 +691,37 @@
     "url": "infoSpeaker.html?ref=a71020196a6877a18aa38df8e51e12fc6807d6c7",
     "twitter": "@kittylyst",
     "homepage": ""
+  },
+  {
+      "enabled": "1",
+      "name": "Roland Huss",
+      "description": "Principal Software Engineer at Red Hat",
+      "biography": "Roland Huss is a Principal Software Engineer at Red Hat and tech-lead for Red Hat Fuse Ignite, an open source hybrid integration platform running on OpenShift. He has been developing mostly in Java for over twenty years now but never forgot his roots as a system administrator.\n\nRoland is an active open source contributor, developer of the JMX-HTTP bridge Jolokia and the popular fabric8 Maven plugins for Docker, Kubernetes and OpenShift. He is also co-author of a \"Kubernetes Patterns\" book. And he loves chilli pepper.",
+      "image": "assets/img/speakers/roland-huss.jpg",
+      "ref": "ab961367d4eccd998be5e65c43aec1ef0ca91e56",
+      "url": "infoSpeaker.html?ref=ab961367d4eccd998be5e65c43aec1ef0ca91e56",
+      "twitter": "@ro14nd",
+      "homepage": "https://ro14nd.de"
+  },
+  {
+      "enabled": "1",
+      "name": "Carlos Rubio",
+      "description": "Lead Architect at GFT",
+      "biography": "Carlos Rubio is a Lead Architect at GFT for Web and Mobile practices. He has over 16 years expertise on Enterprise Web solutions.  From the CGI to the Servlet and form the Enterprise Application Clusters to the Cloud his passion is to leverage new technologies to improve the solutions his team build. Adoption the innovation and helping others doing so is part of his daily work. During these year he has obtained several professional certifications including Oracle Master Certification level, but you probably do not care about that :-)",
+      "image": "assets/img/speakers/carlos-rubio.jpg",
+      "ref": "675c0972b5f59c5f97c123154394ff80bcdd8155",
+      "url": "infoSpeaker.html?ref=675c0972b5f59c5f97c123154394ff80bcdd8155",
+      "twitter": "@_carlos_rubio"
+  },
+  {
+      "enabled": "1",
+      "name": "Marcelo Colomer",
+      "description": "Software Developer at GFT",
+      "biography": "Valencian, father of two children, who has been working for 10 years in GFT, primary doing backends for web projects with the Java and Spring ecosystem. Currently focused on microservices architectures, cloud environments and nowadays with the serverless trend. Docker and NodeJS fan, sometimes he cross the barrier to the front-end world and plays with the UI frameworks like Angular, Ionic, React or InfernoJS",
+      "image": "assets/img/speakers/marcelo-colomer.jpg",
+      "ref": "259baea1670f31b1a7f52f274e2c610f52f43033",
+      "url": "infoSpeaker.html?ref=259baea1670f31b1a7f52f274e2c610f52f43033",
+      "twitter": "@mcolomer",
+      "homepage": ""
   }
 ]}
