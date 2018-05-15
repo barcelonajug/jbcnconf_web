@@ -691,5 +691,27 @@
     "url": "infoSpeaker.html?ref=a71020196a6877a18aa38df8e51e12fc6807d6c7",
     "twitter": "@kittylyst",
     "homepage": ""
-  }
+  },
+    {
+      "enabled": "1",
+      "name": "David Delabassee",
+      "description": "Software Evangelist at Oracle",
+      "biography": "David Delabassée is a Software Evangelist working for Oracle where he is focusing on Server-side Java… from Java EE/EE4J to Serverless and Java running in the Cloud. David is a seasoned speaker and regular presenter at JavaOne and other conferences on technical and software engineering topics. Prior to Oracle, he spent a decade at Sun Microsystems focusing on Java end-to-end. In his various roles, he has been involved in numerous Java projects since the early days of this technology.\n \nDavid lives in Belgium where, in his spare time, he tinkers with technologies such as home automation, electronics, pinballs, etc. But more importantly, he enjoys playing video games with his daughter!\n",
+      "image": "assets/img/speakers/david-delabassee.jpg",
+      "ref": "a744f52d967ebb543100a1215f9fe38080a664f0",
+      "url": "infoSpeaker.html?ref=a744f52d967ebb543100a1215f9fe38080a664f0",
+      "twitter": "https://twitter.com/delabassee",
+      "homepage": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Albert Pastrana",
+      "description": "Experienced IT Leader",
+      "biography": "Currently Head of Engineering of Intent HQ. During my professional life I've worked in different sectors with many different technologies and languages (including Java, Scala, TypeScript, Ruby, PHP, Javascript...). That's why I like to think of me as a polyglot developer. My first JDK was a 1.1",
+      "image": "assets/img/speakers/albert-pastrana.jpg",
+      "ref": "b3bc34ce223407aa8d1e7fab238c77da4a3127a3",
+      "url": "infoSpeaker.html?ref=b3bc34ce223407aa8d1e7fab238c77da4a3127a3",
+      "twitter": "",
+      "homepage": "https://albertpastrana.com"
+    }
 ]}

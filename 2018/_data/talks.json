@@ -821,5 +821,25 @@
     "speakers": [
       "a71020196a6877a18aa38df8e51e12fc6807d6c7"
     ]
-  }
+  },
+    {
+      "title": "Java EE 8 finally final! And now Jakarta EE?",
+      "abstract": "It is an exciting time for enterprise Java! First, Java EE 8 was recently finalized. But more importantly, Oracle surprised the industry by transitioning the development of the Enterprise platform to the Eclipse Foundation under the EE4J umbrella.\n\nThis session will first introduce you to some of the new capabilities introduced in Java EE 8 and how they align with Jakarta EE.  We will also discuss what EE4J and Jakarta EE mean for the platform going forward and why this is important for the whole ecosystem!\n\nAttend this session to understand what Java EE is today and what Jakarta EE will be tomorrow!\n",
+      "type": "talk",
+      "tags": ["javaee",
+        "jakarta"],
+      "level": "middle",
+      "speakers": ["a744f52d967ebb543100a1215f9fe38080a664f0"]
+    },
+    {
+      "title": "Functional DB access in Scala with Doobie",
+      "abstract": "Accessing a database is something many applications need and most of developers have do to during their career. During the past 20 years, (relational) database access in the JVM world hasn't changed that much. Luckily for us, despite some of the limitations the JDBC spec has, there are now some libraries that give us the ability to access the database in a complete different way.\n\nThis workshop will be an introduction to accessing a database using a functional paradigm using Doobie, a \"pure functional JDBC layer for Scala\". It will cover the following:\n- Introduction, concepts\n- Basic queries (select, insert, update)\n- NULL handling\n- Auto-mapping to case classes\n- Joins\n- Transactions",
+      "type": "workshop",
+      "tags": ["Scala",
+        "Functional Programming",
+        "Testing",
+        "Databases"],
+      "level": "beginner",
+      "speakers": ["5e33bcfcec8a5f49984b8ba6f22794fcfeaa4568"]
+    }
 ]}
