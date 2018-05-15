@@ -648,6 +648,39 @@
     "twitter": "@Akelael",
     "homepage": ""
   },
+    {
+      "enabled": "1",
+      "name": "Konrad Kamiński",
+      "description": "Software engineer at Allegro",
+      "biography": "I'm a software engineer at Allegro, a major Polish e-commerce company. I have 20 years of experience in the IT industry in various roles (mostly as developer and technical leader) in software companies. I spent the last 17 years of my career with Java-related technologies. For the past 18 months I've used Kotlin as my primary programming language (with delight). I blog a bit, give talks and contribute to open source. ",
+      "image": "assets/img/speakers/konrad-kaminski.png",
+      "ref": "beff468d22deac694476d7587dd84d6148af61cc",
+      "url": "infoSpeaker.html?ref=beff468d22deac694476d7587dd84d6148af61cc",
+      "twitter": "",
+      "homepage": "https://allegro.tech/authors/konrad.kaminski/"
+    },
+    {
+      "enabled": "1",
+      "name": "Teodor Ande Elstad",
+      "description": "Senior developer at Computas AS",
+      "biography": "Teodor is a senior developer at Computas AS and loves to talk to people about programming. He’s passionate about programming as an creative process, and he strongly belive that fun fosters innovation. When he’s not coding for hire, he enjoys playing with strange and extinct programming languages.",
+      "image": "assets/img/speakers/teodor-elstad.jpg",
+      "ref": "6216c13c3648212feee1ca1e6936e24361b014f8",
+      "url": "infoSpeaker.html?ref=6216c13c3648212feee1ca1e6936e24361b014f8",
+      "twitter": "@_teodoran",
+      "homepage": "https://teodoran.github.io/"
+    },
+    {
+      "enabled": "1",
+      "name": "Simen Haugerud Granlund",
+      "description": "Senior developer at Computas AS",
+      "biography": "Simen works as a senior developer at Computas AS. He's an avid chess player, and has extensive experience developing automated decision systems for the Norwegian immigration department. At home he's concerned with making sure he has the best ramen and the most automated apartment in Norway.",
+      "image": "assets/img/speakers/simen-granlund.jpg",
+      "ref": "6008fec2ba23040fbac705898aff6a1af5b1be16",
+      "url": "infoSpeaker.html?ref=6008fec2ba23040fbac705898aff6a1af5b1be16",
+      "twitter": "@_hgranlund",
+      "homepage": ""
+    },
   {
     "enabled": "1",
     "name": "Ben Evans",
