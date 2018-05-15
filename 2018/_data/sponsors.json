@@ -126,8 +126,15 @@
         "src": "/assets/img/sponsors/adaptive-logo.png",
         "alt": "We Are Adaptive"
       }
+    },
+    {
+      "name": "New Relic",
+      "href": "http://www.newlreic.com/",
+      "image": {
+        "src": "/assets/img/sponsors/newrelic-logo.png",
+        "alt": "New Relic"
+      }
     }
-
   ],
   "silver": [{
       "name": "Jetbrains",
