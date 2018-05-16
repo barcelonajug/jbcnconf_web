@@ -855,5 +855,14 @@
           "675c0972b5f59c5f97c123154394ff80bcdd8155",
           "259baea1670f31b1a7f52f274e2c610f52f43033"
       ]
-  }
-]}
+  },
+    {
+      "title":"Android CI with Docker",
+      "abstract":"CI is an eternal topic in software engineering, it is still evolving for Android, far behind the progress for backend.  \nWith an introduction to Docker, this workshop will guide you through all facts about using Docker for Android CI - benefits, limitations, pitfalls, tweaks, and performance.  \nFollow me, you can build your own Acme CI at zero cost.  \nLast but not least, there are some other tips about how Docker could help your mobile engineering.",
+      "type":"workshop",
+      "tags":["Java","Android","Docker","Continuous Integration","Build"],
+      "level":"middle",
+      "speakers":["cc1c3f223e8ee77c2f47bc4de7b30e9c378aceb0","63c6dde41b2aab6997cd9494336b6911c6195c68"]
+    }
+
+  ]}
