@@ -822,6 +822,26 @@
       "a71020196a6877a18aa38df8e51e12fc6807d6c7"
     ]
   },
+    {
+      "title": "Java EE 8 finally final! And now Jakarta EE?",
+      "abstract": "It is an exciting time for enterprise Java! First, Java EE 8 was recently finalized. But more importantly, Oracle surprised the industry by transitioning the development of the Enterprise platform to the Eclipse Foundation under the EE4J umbrella.\n\nThis session will first introduce you to some of the new capabilities introduced in Java EE 8 and how they align with Jakarta EE.  We will also discuss what EE4J and Jakarta EE mean for the platform going forward and why this is important for the whole ecosystem!\n\nAttend this session to understand what Java EE is today and what Jakarta EE will be tomorrow!\n",
+      "type": "talk",
+      "tags": ["javaee",
+        "jakarta"],
+      "level": "middle",
+      "speakers": ["a744f52d967ebb543100a1215f9fe38080a664f0"]
+    },
+    {
+      "title": "Functional DB access in Scala with Doobie",
+      "abstract": "Accessing a database is something many applications need and most of developers have do to during their career. During the past 20 years, (relational) database access in the JVM world hasn't changed that much. Luckily for us, despite some of the limitations the JDBC spec has, there are now some libraries that give us the ability to access the database in a complete different way.\n\nThis workshop will be an introduction to accessing a database using a functional paradigm using Doobie, a \"pure functional JDBC layer for Scala\". It will cover the following:\n- Introduction, concepts\n- Basic queries (select, insert, update)\n- NULL handling\n- Auto-mapping to case classes\n- Joins\n- Transactions",
+      "type": "workshop",
+      "tags": ["Scala",
+        "Functional Programming",
+        "Testing",
+        "Databases"],
+      "level": "beginner",
+      "speakers": ["QWxiZXJ0UGFzdHJhbmFhbGJlcnQucGFzdHJhbmFAZ21haWwuY29t"]
+    },
   {
       "title": "From Legacy to Cloud",
       "abstract": "Everybody is enthusiastic about the \"cloud\", but how do I can transfer my old rusty application to this shiny new world?\n\nThis presentation describes the migration process of a ten-year-old web application to a Kubernetes based platform. The app is written in Java with Wicket 1.4 as the Web framework of choice, running on a plain Jetty 6 servlet engine with Mysql 5.0 as backend. Step by step we will migrate this application to Docker containers, eventually running on a self-provisioned Kubernetes cluster in the cloud.\n\nWe will hit some stumbling blocks, but still, we will see how this migration could be performed relatively effortless.\n\nIn the end, we have learned, that \"containerisation\" does not only make sense for green-field projects but also for older applications to pimp up their legacy.",
@@ -855,5 +875,14 @@
           "675c0972b5f59c5f97c123154394ff80bcdd8155",
           "259baea1670f31b1a7f52f274e2c610f52f43033"
       ]
-  }
-]}
+  },
+    {
+      "title":"Android CI with Docker",
+      "abstract":"CI is an eternal topic in software engineering, it is still evolving for Android, far behind the progress for backend.  \nWith an introduction to Docker, this workshop will guide you through all facts about using Docker for Android CI - benefits, limitations, pitfalls, tweaks, and performance.  \nFollow me, you can build your own Acme CI at zero cost.  \nLast but not least, there are some other tips about how Docker could help your mobile engineering.",
+      "type":"workshop",
+      "tags":["Java","Android","Docker","Continuous Integration","Build"],
+      "level":"middle",
+      "speakers":["cc1c3f223e8ee77c2f47bc4de7b30e9c378aceb0","63c6dde41b2aab6997cd9494336b6911c6195c68"]
+    }
+
+  ]}

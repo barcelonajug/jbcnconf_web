@@ -692,6 +692,17 @@
     "twitter": "@kittylyst",
     "homepage": ""
   },
+    {
+      "enabled": "1",
+      "name": "David Delabassee",
+      "description": "Software Evangelist at Oracle",
+      "biography": "David Delabassée is a Software Evangelist working for Oracle where he is focusing on Server-side Java… from Java EE/EE4J to Serverless and Java running in the Cloud. David is a seasoned speaker and regular presenter at JavaOne and other conferences on technical and software engineering topics. Prior to Oracle, he spent a decade at Sun Microsystems focusing on Java end-to-end. In his various roles, he has been involved in numerous Java projects since the early days of this technology.\n \nDavid lives in Belgium where, in his spare time, he tinkers with technologies such as home automation, electronics, pinballs, etc. But more importantly, he enjoys playing video games with his daughter!\n",
+      "image": "assets/img/speakers/david-delabassee.jpg",
+      "ref": "a744f52d967ebb543100a1215f9fe38080a664f0",
+      "url": "infoSpeaker.html?ref=a744f52d967ebb543100a1215f9fe38080a664f0",
+      "twitter": "https://twitter.com/delabassee",
+      "homepage": ""
+    },
   {
       "enabled": "1",
       "name": "Roland Huss",
@@ -723,5 +734,27 @@
       "url": "infoSpeaker.html?ref=259baea1670f31b1a7f52f274e2c610f52f43033",
       "twitter": "@mcolomer",
       "homepage": ""
+  },
+  {
+    "enabled":"1",
+    "name":"Jing Li",
+    "description":"Full-stack Software Engineer at MyTaxi",
+    "biography":"Engineer at heart & Top GitHub developer\n\nFull-stack (language-agnostic) software engineer in quality with a strong sense of curiosity.",
+    "image":"assets/img/speakers/jung_lee.jpeg",
+    "ref":"cc1c3f223e8ee77c2f47bc4de7b30e9c378aceb0",
+    "url":"infoSpeaker.html?ref=cc1c3f223e8ee77c2f47bc4de7b30e9c378aceb0",
+    "twitter":"@thyrlian",
+    "homepage":""
+  },
+  {
+    "enabled":"1",
+    "name":"Nicolás González Avalis",
+    "description":"Engineering Lead at MyTaxi",
+    "biography":"Geek. Father. Geek. Engineering Lead.",
+    "image":"assets/img/speakers/nicolas_avalis.jpeg",
+    "ref":"63c6dde41b2aab6997cd9494336b6911c6195c68",
+    "url":"infoSpeaker.html?ref=63c6dde41b2aab6997cd9494336b6911c6195c68",
+    "twitter":"@ngonzalezavalis",
+    "homepage":""
   }
 ]}
