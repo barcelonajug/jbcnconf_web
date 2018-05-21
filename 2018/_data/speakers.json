@@ -767,5 +767,49 @@
     "url": "infoSpeaker.html?ref=af372ba246acd002092dc3287e2323c4736d744e",
     "twitter": "@astefanut",
     "homepage": "https://github.com/astefanutti"
+  },
+  {
+  "enabled": "1",
+  "name": "Claus Ibsen",
+  "description": "Senior Principal Software Engineer at Red Hat",
+  "biography": "Claus Ibsen is a senior principal software engineer at Red Hat, working primarily as the project lead on Apache Camel. Claus has been a full-time developer on Apache Camel for the past 9 years. He is the author of the \"Camel in Action\" books (1st and 2nd edition). Claus is very active in the open source communities, where he helps others, blogs, records videos, writes, and tweets as well.",
+  "image": "assets/img/speakers/claus-ibsen.jpg",
+  "ref": "862790959f2faa83c9d58166b2c2b68652ce6bf9",
+  "url": "infoSpeaker.html?ref=862790959f2faa83c9d58166b2c2b68652ce6bf9",
+  "twitter": "@davsclaus",
+  "homepage": "http://www.davsclaus.com/"
+  },
+  {
+  "enabled": "1",
+  "name": "Nicola Ferraro",
+  "description": "Senior software engineer at Red Hat",
+  "biography": "Senior software engineer at Red Hat, writing open source software for fun. Contribute mainly on Apache Camel and the development tools of Fabric8 for building applications on Kubernetes and Openshift.\n\nHe's passionate about Apache Spark and wrote some libraries for it.\n\nSpark-HBase-Connector: to let Spark interact with Apache HBase with ease.\nSpash: a Bash-like console to interact with a Big Data cluster.\nWorked at Engineering Ingegneria Informatica S.p.A. (Italy) before joining Red Hat. Last experience at Engineering was about leading a team of 20 developers to create a new MDM (Meter-Data-Management) system based on Apache Spark, HBase, Kafka and Hadoop.\n\n",
+  "image": "assets/img/speakers/nicola-ferraro.jpg",
+  "ref": "75723c4f2c8f7c6cb8c41fc9ca8bc9f4c926ca4e",
+  "url": "infoSpeaker.html?ref=75723c4f2c8f7c6cb8c41fc9ca8bc9f4c926ca4e",
+  "twitter": "@ni_ferraro",
+  "homepage": null
+  },
+  {
+  "enabled": "1",
+  "name": "Ray Tsang",
+  "description": "Developer Advocate at Google",
+  "biography": "Ray had extensive hands on cross-industry enterprise systems integration delivery and management experiences since 2002. Ray has built mobile applications & micropayment systems as an independent contractor. During his time in Taiwan, Ray has built IT systems for Taiwanese government for a large scale search engine, electronic customs record management, and more. At Accenture, Ray was a team lead for a SOA deployment at a utilities company, building out common frameworks for messaging and service tracing. Moreover, Ray was an architect leading teams to implement online booking channels for a global hospitality company. During Ray's time at Red Hat, he was specialized in Java middleware, and contributing to open source projects such as Infinispan. Aside from technology, Ray enjoys traveling and adventures. Ray is currently a Developer Advocate at Google. Follow Ray on Twitter @saturnism \n JavaOne Rockstar",
+  "image": "assets/img/speakers/ray-tsang.jpg",
+  "ref": "95465cac53a18f211964d0fe9a544ecd9c815521",
+  "url": "infoSpeaker.html?ref=95465cac53a18f211964d0fe9a544ecd9c815521",
+  "twitter": "https://twitter.com/saturnism",
+  "homepage": null
+  },
+  {
+  "enabled": "1",
+  "name": "Mala Gupta",
+  "description": "Founder and lead mentor at eJavaGuru.com",
+  "biography": "Mala is passionate about making people employable by bridging the gap between their existing and required skills. In her quest to fulfill this mission, she has authored books with Manning Publications to help IT professionals and students succeed in software technology industry.\n\nMala has a Master's degree in Computer Applications along with various other certifications from Oracle. She has over 18 years of experience in software development as a programmer, architect, trainer and mentor. She is an active speaker on at various industry conferences and academic forums sharing thought leadership on technology trends specially around Java.\n\nShe has worked with international training and software product development organizations on various Java projects. She is experienced in mentoring teams on technical and software development processes. She is the founder and lead mentor at eJavaGuru.com. \n\nMala is a firm believer in creativity as an essential life skill. To popularize the importance of creativity, innovation and design in life, she has also co-founded KaagZevar.com - a platform for nurturing these values. ",
+  "image": "assets/img/speakers/mala-gupta.png",
+  "ref": "388f6f9ee4eb169ce6d936f7ce3952f6aadd211f",
+  "url": "infoSpeaker.html?ref=388f6f9ee4eb169ce6d936f7ce3952f6aadd211f",
+  "twitter": "@eMalaGupta",
+  "homepage": "http://www.eJavaGuru.com, http://www.manning.com/gupta3"
   }
 ]}
