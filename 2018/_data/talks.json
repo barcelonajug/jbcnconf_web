@@ -897,6 +897,66 @@
       "speakers": [
         "af372ba246acd002092dc3287e2323c4736d744e"
       ]
+    },
+    {
+    "title": "Integrating cloud services with Apache Camel",
+    "abstract": "Apache Camel is a powerful integration library, with a comprehensive set of connectors and data formats to tackle any integration problem.\n\nIn this workshop you will learn by hands-on building a small set of cloud native services using Camel as integration layer on top of Spring-Boot.\n\nYou will hear about the fundamental concepts around Camel and integration, such as Enterprise Integration Patterns (best practices), Camel components for connecting to more than 200 different systems, routing, transformation, data mapping and RESTful APIs.",
+    "type": "workshop",
+    "tags": [
+    "cloud",
+    "camel",
+    "springboot"
+    ],
+    "level": "talk",
+    "speakers": [
+    "862790959f2faa83c9d58166b2c2b68652ce6bf9",
+    "75723c4f2c8f7c6cb8c41fc9ca8bc9f4c926ca4e"
+    ]
+    },
+    {
+    "title": "Google Cloud Native with Spring Boot\t(Workshop)",
+    "abstract": "Spring Framework and Spring Boot made a huge stride to make it easier than ever to develop the next generation of cloud native applications. More importantly, a number of Spring projects provides cloud-vendor agnostic abstractions to developers, so that with a simple configuration switch, you are able to move your local application to run in an on-prem datacenter, or in the cloud with managed services.\n\nGoogle and Pivotal partnered to develop Spring Cloud adapters for Google Cloud Platform. With Spring Cloud GCP, you can quickly develop cloud native applications & harness the power of Google infrastructure, including easy connection to GCP's managed databases, using Pub/Sub to send and receive messages, and other tools for tracing and monitoring your services.\n\nIn this session, we'll show how to build cloud native applications with Spring on Google Cloud Platform.",
+    "type": "workshop",
+    "tags": [
+    ""
+    ],
+    "level": "talk",
+    "speakers": [
+    "95465cac53a18f211964d0fe9a544ecd9c815521"
+    ]
+    },
+    {
+    "title": "Docker Tips and Tricks for Java Developers",
+    "abstract": "Everyone is talking about containers—but be aware! It takes discipline to use container technology. It may not be as secure nor as optimal as you thought it would be. Although it’s relatively easy to create a new immutable container image to run everywhere, you may have fallen into many of the caveats. Is it running as the root user? Why are the images taking so much space? Why did your containers run out of space in the first place!? Most importantly, your container images may not be as immutable nor repeatable as you thought, and your Java process might be overutilizing assigned resources! Attend this session to learn how to best address these issues when building your Java container images.",
+    "type": "talk",
+    "tags": [
+    ""
+    ],
+    "level": "talk",
+    "speakers": [
+    "95465cac53a18f211964d0fe9a544ecd9c815521"
+    ]
+    },
+    {
+    "title": "Java 9, 10, 11 - What the future holds",
+    "abstract": "Java 9, 10, 11 - What the future holds\n\nWith accelerated release cadence of Java every Spring and Fall, it will not just flaunt its top rank on TIOBE index 2018 but will also hold it for coming years.\n\nThe session introduces latest developments in the Java - project Valhalla, Panama, Amber, and Loom - expected to bring new features in Java. It will tie in evolution from Project Lambda (Java 8) and Project Jigsaw (Java 9) \n\nAudience will understand how these features will help their applications to be leaner and faster.",
+    "type": "talk",
+    "tags": [
+    "Java",
+    "Java9",
+    "Java10",
+    "Java11",
+    "JVM",
+    "FutureOfJava",
+    "Amber",
+    "Valhalla",
+    "Panama",
+    "Loom"
+    ],
+    "level": "middle",
+    "speakers": [
+    "388f6f9ee4eb169ce6d936f7ce3952f6aadd211f"
+    ]
     }
 
   ]}
