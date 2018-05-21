@@ -883,6 +883,20 @@
       "tags":["Java","Android","Docker","Continuous Integration","Build"],
       "level":"middle",
       "speakers":["cc1c3f223e8ee77c2f47bc4de7b30e9c378aceb0","63c6dde41b2aab6997cd9494336b6911c6195c68"]
+    },
+    {
+      "title": "JVM in container die hard",
+      "abstract": "'Process received KILL signal', 'OOMKilled status', ... it's easy to fail running Java in production with Docker containers or Kubernetes. Whether you use Spring Boot, Tomcat, Vert.x, all these frameworks and servers use APIs from the JVM that are not aware of resources limits enforced by their containers. Even the JVM tuning does not take these contraints into account, like for garbage collector. Using a very simple Spring Boot application, we'll see how to tune the JVM (memory, CPU set, ...), using the latest OpenJDK enhancements, and successfully run it within Docker containers or Kubernetes.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Docker",
+        "JVM"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "af372ba246acd002092dc3287e2323c4736d744e"
+      ]
     }
 
   ]}

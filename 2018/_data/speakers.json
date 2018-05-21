@@ -756,5 +756,16 @@
     "url":"infoSpeaker.html?ref=63c6dde41b2aab6997cd9494336b6911c6195c68",
     "twitter":"@ngonzalezavalis",
     "homepage":""
+  },
+  {
+    "enabled": "1",
+    "name": "Antonin Stefanutti",
+    "description": "Software engineer at Red Hat",
+    "biography": "Antonin Stefanutti is an open source software engineer working at Red Hat with the JBoss Fuse team. He contributes to projets like Apache Camel, Fabric8 and HawtIO and makes sure these work great in the cloud using Kubernetes and OpenShift.",
+    "image": "assets/img/speakers/antonin-stefanutti.png",
+    "ref": "af372ba246acd002092dc3287e2323c4736d744e",
+    "url": "infoSpeaker.html?ref=af372ba246acd002092dc3287e2323c4736d744e",
+    "twitter": "@astefanut",
+    "homepage": "https://github.com/astefanutti"
   }
 ]}
