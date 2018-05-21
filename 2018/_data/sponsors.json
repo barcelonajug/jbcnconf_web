@@ -167,6 +167,14 @@
         "src": "/assets/img/sponsors/marfeel.png",
         "alt": "Marfeel"
       }
+    },
+    {
+      "name": "Blueliv",
+      "href": "https://www.blueliv.com",
+      "image": {
+        "src": "/assets/img/sponsors/blueliv.jpg",
+        "alt": "Blueliv"
+      }
     }
   ],
   "supporters": [{
