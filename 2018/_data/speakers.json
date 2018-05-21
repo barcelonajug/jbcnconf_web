@@ -810,6 +810,39 @@
   "ref": "388f6f9ee4eb169ce6d936f7ce3952f6aadd211f",
   "url": "infoSpeaker.html?ref=388f6f9ee4eb169ce6d936f7ce3952f6aadd211f",
   "twitter": "@eMalaGupta",
-  "homepage": "http://www.eJavaGuru.com, http://www.manning.com/gupta3"
-  }
+  "homepage": "http://www.eJavaGuru.com"
+  },
+  {
+      "enabled": "1",
+      "name": "Victor Kropp",
+      "description": "Software Engineer at JetBrains",
+      "biography": "Victor Kropp is a Software Engineer at JetBrains, where he has contributed to many projects including ReSharper, dotCover, Hub and Toolbox App. His interests include modern programming languages, practices and tools, and cross-platform development. In his free time, he runs marathons and long distance triathlons or travels with his family.",
+      "image": "assets/img/speakers/victor-kropp.jpg",
+      "ref": "4b8deafb473f992c2cf9bd9055544607a1c3fb7f",
+      "url": "infoSpeaker.html?ref=4b8deafb473f992c2cf9bd9055544607a1c3fb7f",
+      "twitter": "@kropp",
+      "homepage": "https://victor.kropp.name/"
+  },
+  {
+    "enabled": "1",
+    "name": "Mandi Walls",
+    "description": "Technical Community Manager, EMEA at Chef",
+    "biography": "Mandi Walls is Technical Community Manager, EMEA at Chef. For Chef, she helps technology organizations increase their effectiveness using configuration management and modern IT practices. She is a regular speaker at technical conferences, and is the author of the whitepaper “Building a DevOps Culture” published by O’Reilly. She is interested in the emergence of new tools and workflows to make the task of operating large complex computing systems more approachable.\n",
+    "image": "assets/img/speakers/mandi-walls.jpg",
+    "ref": "24b140b99b4e30e8d36bb642bec4ce154d12027f",
+    "url": "infoSpeaker.html?ref=24b140b99b4e30e8d36bb642bec4ce154d12027f",
+    "twitter": "@lnxchk",
+    "homepage": "https://chef.io"
+  },
+  {
+      "enabled": "1",
+      "name": "Wlodek Krakowski",
+      "description": "IT Team Leader at Ocado",
+      "biography": "Włodek Krakowski is a team leader and technical trainer. Also a developer if the time allows. His main interest is taking care of delivering valued software from different perspectives. These are how people take care of quality of code, how people work together towards providing business value, how people help to grow each other and how people are managed. Currently he works for Ocado as IT Team Leader in Kraków, Poland and also delivers technical trainings at www.refactoring.pl.",
+      "image": "assets/img/speakers/wlodek.jpg",
+      "ref": "34e64a4d88094a0c4231d49cc0305d61d7b854ee",
+      "url": "infoSpeaker.html?ref=34e64a4d88094a0c4231d49cc0305d61d7b854ee",
+      "twitter": "@wlodekkr",
+      "homepage": "http://www.refactoring.pl"
+  }  
 ]}
