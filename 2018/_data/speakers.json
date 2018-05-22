@@ -14,7 +14,7 @@
     {
       "enabled": "1",
       "name": "Mercedes Wyss",
-      "description": "Java Champion, CTO at Produactivity",
+      "description": "Developer Champion, CTO at Produactivity",
       "biography": "She is a software engineer with more than six years of experience in backend, frontend, and Android development using Java and Kotlin. Currently, Mercedes is the CTO at Produactivity, a startup based in Guatemala.\n\nOutside of work, she was previously organizing meetings in Guatemala Java Users Group. Now she is focused on increasing women's participation in STEAM by running a JDuchess chapter in Guatemala and helping new communities to make their first steps. \n\nShe is a Developer Champion and an Auth0 Ambassador, has a Duke's Choice Award in Educational Outreach, and is the leader of a Google community, Devs+502.",
       "image": "assets/img/speakers/mercedes-wyss.jpg",
       "ref": "TWVyY2VkZXNXeXNzbWVyY2VkZXMud3lzc0Bwb3dlcnd0ZWNobm9sb2d5LmNvbQ==",
@@ -844,5 +844,16 @@
       "url": "infoSpeaker.html?ref=34e64a4d88094a0c4231d49cc0305d61d7b854ee",
       "twitter": "@wlodekkr",
       "homepage": "http://www.refactoring.pl"
-  }  
+  },
+    {
+      "enabled": "1",
+      "name": "Jarek Ratajski",
+      "description": "Software Developer at Engenius",
+      "biography": "I love programming since my first line of code I did on the C64 in Basic. Somewhere in 90ties I've switched from C++ to java and spent then 18 Years developing JavaEE software working for various companies and projects.  Now I work for Engenius in Switzerland being Java developer at banks during the days and Scala/ScalaJS open sources hacker at nights.",
+      "image": "assets/img/speakers/jarek-ratajski.jpg",
+      "ref": "eedfd3d651b222b6d6438ecd3432da6c84727956",
+      "url": "infoSpeaker.html?ref=eedfd3d651b222b6d6438ecd3432da6c84727956",
+      "twitter": "@jarek000000",
+      "homepage": null
+    }
 ]}

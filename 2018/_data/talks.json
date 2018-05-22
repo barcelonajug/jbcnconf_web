@@ -998,5 +998,35 @@
       "speakers": [
           "34e64a4d88094a0c4231d49cc0305d61d7b854ee"
       ]
+    },
+    {
+      "title": "Walking in CODE",
+      "abstract": "Have you ever tried to visualize a system you are working on? There are lots of tools that can help, they create nice diagrams (UML) or charts. They work, but after a while are boring. Because they are flat!\nThanks to the new toys such as Oculus Rift or HTC Vive you can see the things from a new perspective. You can actually immerse yourself in code. Imagine: you can walk around the classes\nand touch methods with your hands. That is crazy experience... a toy - but maybe a revolution and new way of looking at dashboards, diagrams ..and maybe your future IDE.\nI will show you my experiments and how to quickly build similar ones with webvr and aframe framework.",
+      "type": "talk",
+      "tags": [
+        "VR",
+        "Oculus Rift",
+        "HTC Vive"
+      ],
+      "level": "talk",
+      "speakers": [
+        "eedfd3d651b222b6d6438ecd3432da6c84727956"
+      ]
+    },
+    {
+      "title": "Staying pure with Kotlin and Spring 5 ",
+      "abstract": "Functional programming with immutables, monads and high order functions is not something  common to the java world. Frameworks such as Spring seem to  make this purity... impossible, especially with mutable beans, runtime context  and aspects. \n\nHowever, new version of Spring  is a game changer here. With Spring Web Flux and projectreactor we can actually create programs, webservers using almost only pure functional programming. \nUse of Kotlin and libraries such as VAVR makes such approach a viable alternative to the 'old style' in some projects.\n\nWe will build a simple game application  with a fully functional approach. ",
+      "type": "workshop",
+      "tags": [
+        "Kotlin",
+        "Java",
+        "Functional Programming",
+        "Spring WebFlux",
+        "Spring"
+      ],
+      "level": "middle",
+      "speakers": [
+        "eedfd3d651b222b6d6438ecd3432da6c84727956"
+      ]
     }
   ]}
