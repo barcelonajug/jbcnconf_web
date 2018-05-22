@@ -844,5 +844,16 @@
       "url": "infoSpeaker.html?ref=34e64a4d88094a0c4231d49cc0305d61d7b854ee",
       "twitter": "@wlodekkr",
       "homepage": "http://www.refactoring.pl"
-  }  
+  },
+    {
+      "enabled": "1",
+      "name": "Jarek Ratajski",
+      "description": "Software Developer at Engenius",
+      "biography": "I love programming since my first line of code I did on the C64 in Basic. Somewhere in 90ties I've switched from C++ to java and spent then 18 Years developing JavaEE software working for various companies and projects.  Now I work for Engenius in Switzerland being Java developer at banks during the days and Scala/ScalaJS open sources hacker at nights.",
+      "image": "assets/img/speakers/jarek-ratajski.jpg",
+      "ref": "eedfd3d651b222b6d6438ecd3432da6c84727956",
+      "url": "infoSpeaker.html?ref=eedfd3d651b222b6d6438ecd3432da6c84727956",
+      "twitter": "@jarek000000",
+      "homepage": null
+    }
 ]}
