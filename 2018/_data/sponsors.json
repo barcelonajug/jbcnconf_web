@@ -175,6 +175,14 @@
         "src": "/assets/img/sponsors/blueliv.jpg",
         "alt": "Blueliv"
       }
+    },
+    {
+      "name": "Netcentric",
+      "href": "https://www.netcentric.biz/careers.html",
+      "image": {
+        "src": "/assets/img/sponsors/netcentric-logo.jpg",
+        "alt": "Netcentric"
+      }
     }
   ],
   "supporters": [{
