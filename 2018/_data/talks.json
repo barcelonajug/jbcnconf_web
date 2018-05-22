@@ -957,6 +957,46 @@
     "speakers": [
     "388f6f9ee4eb169ce6d936f7ce3952f6aadd211f"
     ]
+    },
+    {
+      "title": "Build, Deploy, and Run Applications with Modern Automation",
+      "abstract": "Chef Software has been providing automation solutions for organizations of all sizes for a decade. In that time, our focus has expanded to include not just DevOps and infrastructure automation for the cloud, but also compliance and application automation as customer needs have evolved. This talk will cover some popular solutions, and how the goals of IT automation have changed in recent years to encompass not just what Operations teams normally work on, but also impact application dev teams, product and marketing, and even security.",
+      "type": "talk",
+      "tags": [
+          "Cloud",
+          "Docker",
+          "AWS"
+      ],
+      "level": "middle",
+      "speakers": [
+          "24b140b99b4e30e8d36bb642bec4ce154d12027f"
+      ]
+    },
+    {
+      "title": "Going beyond JVM with Kotlin",
+      "abstract": "Kotlin is an alternative programming language for JVM. But it is not limited to a single platform. Instead, the team is working hard to bring it everywhere. It is already possible to run Kotlin on Android and compile it to JavaScript to write homogeneous web applications. And there is Kotlin/Native project actively in development, which will bring Kotlin to desktop and iOS. In this session, we'll see how Kotlin can help us share code between platforms and what are the best practices in doing this.",
+      "type": "talk",
+      "tags": [
+          "kotlin",
+          "multiplatform"
+      ],
+      "level": "middle",
+      "speakers": [
+          "4b8deafb473f992c2cf9bd9055544607a1c3fb7f"
+      ]
+    },
+    {
+      "title": "Refactoring out of God Object class antipattern",
+      "abstract": "Very often we have to deal with anti pattern called God Object class (often) surrounded by a few small classes that contain just a set of data (like content of a row from database). In such a case everyone knows : if something is broken it must be fixed within this class, if additional functionality is needed - it must be added into this class… Ughhhh….\n\nIn this workshop I would like to go though one or two examples of refactoring into design patterns Interpreter as a good introduction to refactoring capabilities of IntelliJ IDE and State design pattern if the time allows.\n",
+      "type": "workshop",
+      "tags": [
+          "Java",
+          "Refactoring",
+          "Design"
+      ],
+      "level": "middle",
+      "speakers": [
+          "34e64a4d88094a0c4231d49cc0305d61d7b854ee"
+      ]
     }
-
   ]}
