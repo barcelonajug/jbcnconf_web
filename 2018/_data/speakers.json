@@ -855,5 +855,25 @@
       "url": "infoSpeaker.html?ref=eedfd3d651b222b6d6438ecd3432da6c84727956",
       "twitter": "@jarek000000",
       "homepage": null
+    },
+    {
+      "enabled": "1",
+      "name": "David Gómez García",
+      "description": "Developer Advocate at Liferay",
+      "biography": "Developer Advocate at Liferay\n\nWith more than 15 years of experience in software development, has been part, lead, and developed projects for Banking, Insurance, Defense and Sea & ground transportation business. Aside of software development he is also dedicated to training, being a SringSource Certified Instructor and also delivers the JavaSpecialists Master courses in Spain. In fact, he has delivered more than 50 training courses all over spain from 2009 to the date.\n",
+      "image": "assets/img/speakers/david-gomez.png",
+      "ref": "bed448adfd919b5b2e3f97102d656f1cd9afabfa",
+      "url": "infoSpeaker.html?ref=bed448adfd919b5b2e3f97102d656f1cd9afabfa",
+      "twitter": "@dgomezg"
+    },
+    {
+      "enabled": "1",
+      "name": "Pablo Pérez García",
+      "description": "Global Lead Information Architect in Customer Context and Analytics at ING Group",
+      "biography": "David joined ING 4 years ago to take the role of Enterprise Architect after having more than 10 years of experience as an engineer in different companies and start-ups in different countries. 3 years ago he took the role of Global Lead Information Architect in Customer Context and Analytics within ING Group",
+      "image": "assets/img/speakers/david-vaquero.jpeg",
+      "ref": "c4ad5c2a04c432ed7489bc775d226e539c938665",
+      "url": "infoSpeaker.html?ref=c4ad5c2a04c432ed7489bc775d226e539c938665",
+      "twitter": "@davidvaquero"
     }
 ]}
