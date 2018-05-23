@@ -1028,5 +1028,38 @@
       "speakers": [
         "eedfd3d651b222b6d6438ecd3432da6c84727956"
       ]
+    },
+    {
+      "title": "Microservices Data Patterns: CQRS & Event Sourcing",
+      "abstract": "\"One size does not fit all.\" And this is still specially true for your distributed data! Different types of data require different approaches of how you distribute & manipulate your data.\n\nUpdate frequency? Staleness? Push or pull? Legacy or new? Cache or direct read? Event Sourcing? Business or low-level events? Check this session to see how different technologies such as Data Virtualization, Change Data Capture, In-memory Data Grids, Reactive Programming and much more can be applied to solve a plethora of different data scenarios with different requirements.",
+      "type": "talk",
+      "tags": [
+          "Microservices",
+          "CQRS",
+          "Event Sourcing"
+      ],
+      "level": "middle",
+      "speakers": [
+          "685b66117e9c79a1e0aa54ca3f490d0e71fbc09d"
+      ]
+    },
+    {
+      "title": "How we improved by 800% real time message processing with Kafka, Akka & Akka streams",
+      "abstract": "Real time message processing is getting more and more important nowadays with the increase of events and data received by systems with a large amount of users. \n\nIn systems with a large amount of users the performance is critical, as the business opportunities, and sometimes the usefulness of the data depends on the fact that the events that occur in the environment of the system can be processed shortly, or the user is expecting an actual output soon after doing something (for example receiving the 2-factor authorization code on the mobile phone immediately after entering the right password on the login form)\n\nIn this talk we will show how we moved our messaging systems from RabbitMQ to Kafka and how we improved the processing performance by 800% by using Akka, akka streams. \n\nThis wasn’t an straight forward process, we started small, from the specific needs of a Kafka Consumer implemented directly in Java using the raw client and then we evolved, exploring a bunch of different paths and architectural options to make this consumer part of a toolkit which could be used ‘as is’ by other teams with similar needs.\n\nThe end of this journey ends with the satisfaction of see that the constraints in terms of performance and latency were improving by 800% the results that we had before.\n\nJoin us to know how we travelled this path.\n",
+      "type": "talk",
+      "tags": [
+          "java",
+          "reactive",
+          "akka",
+          "streams",
+          "Kafka",
+          "MessageProcessing",
+          "Real Time"
+      ],
+      "level": "middle",
+      "speakers": [
+          "c4ad5c2a04c432ed7489bc775d226e539c938665",
+          "bed448adfd919b5b2e3f97102d656f1cd9afabfa"
+      ]
     }
   ]}
