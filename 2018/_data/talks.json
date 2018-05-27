@@ -987,7 +987,7 @@
     },
     {
       "title": "Refactoring out of God Object class antipattern",
-      "abstract": "Very often we have to deal with anti pattern called God Object class (often) surrounded by a few small classes that contain just a set of data (like content of a row from database). In such a case everyone knows : if something is broken it must be fixed within this class, if additional functionality is needed - it must be added into this class… Ughhhh….\n\nIn this workshop I would like to go though one or two examples of refactoring into design patterns Interpreter as a good introduction to refactoring capabilities of IntelliJ IDE and State design pattern if the time allows.\n",
+      "abstract": "Very often we have to deal with anti pattern called God Object class (often) surrounded by a few small classes that contain just a set of data (like content of a row from database). In such a case everyone knows : if something is broken it must be fixed within this class, if additional functionality is needed - it must be added into this class… Ughhhh….<br> In this workshop I would like to go though one or two examples of refactoring into design patterns Interpreter as a good introduction to refactoring capabilities of IntelliJ IDE and State design pattern if the time allows. <br><h3>Here are the sources to get and install before the workshop:</h3> <a href=\"https://github.com/wlodekkr/refactoring-jbcnconf\">https://github.com/wlodekkr/refactoring-jbcnconf</a> <br> You will need java 8, IntelliJ IDE (you can use the Community Edition if you do not have the licence) and maven.",
       "type": "workshop",
       "tags": [
           "Java",
