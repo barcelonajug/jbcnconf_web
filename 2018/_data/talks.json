@@ -41,6 +41,7 @@
         "Cloud"
       ],
       "level": "beginner",
+      "scheduleId": "#MON-TC6-SE4",
       "speakers": [
         "TWFyY3VzRmlobG9ubWFyY3VzQGZpaGxvbi5jaA=="
       ]
@@ -57,6 +58,7 @@
         "failure"
       ],
       "level": "beginner",
+      "scheduleId": "#MON-TC4-SE3",
       "speakers": [
         "TGF1cmVudERvZ3VpbmxhdXJlbnQuZG9ndWluQGNsZXZlci1jbG91ZC5jb20="
       ]
@@ -72,6 +74,7 @@
         "FaaS"
       ],
       "level": "beginner",
+      "scheduleId": "#MON-TC4-SE2",
       "speakers": [
         "TWVyY2VkZXNXeXNzbWVyY2VkZXMud3lzc0Bwb3dlcnd0ZWNobm9sb2d5LmNvbQ=="
       ]
@@ -85,6 +88,7 @@
         "Java"
       ],
       "level": "middle",
+      "scheduleId": "#MON-TC5-SE6",
       "speakers": [
         "QnJpYW5WZXJtZWVyYnJpYW5AYnJpYW52ZXJtZWVyLm5s"
       ]
@@ -144,6 +148,7 @@
         "demos"
       ],
       "level": "beginner",
+      "scheduleId": "#MON-TC5-SE3",
       "speakers": [
         "QnJ1bm9Cb3Nzb2xhYmJvc3NvbGFAZ21haWwuY29t",
         "TWFyaW9Sb21hbm9tYXJpby5yb21hbm84M0BnbWFpbC5jb20="
@@ -158,6 +163,7 @@
         "security"
       ],
       "level": "middle",
+      "scheduleId": "#MON-TC1-SE6",
       "speakers": [
         "U2ltb25NYXBsZXNqbWFwbGVAZ21haWwuY29t"
       ]
@@ -213,6 +219,7 @@
         "Open Source"
       ],
       "level": "middle",
+      "scheduleId": "#MON-TC4-SE4",
       "speakers": [
         "S2FpV2FlaG5lcm1lZ2FjaHVja3lAZ21haWwuY29t"
       ]
@@ -233,6 +240,7 @@
         "Coupling"
       ],
       "level": "advanced",
+      "scheduleId": "#MON-TC2-SE2",
       "speakers": [
         "TWFyY3VzQmllbG1hcmN1c0BjbGVhbmNvZGVhY2FkZW15LmNvbQ=="
       ]
@@ -248,6 +256,7 @@
         "microservices"
       ],
       "level": "middle",
+      "scheduleId": "#MON-TC2-SE4",
       "speakers": [
         "QWxleFNvdG9hc290b2J1QGdtYWlsLmNvbQ=="
       ]
@@ -264,6 +273,7 @@
         "cloud"
       ],
       "level": "beginner",
+      "scheduleId": "#MON-TC1-SE2",
       "speakers": [
         "QnJ1bm9Cb3JnZXNicnVuby5ib3JnZXNAZ21haWwuY29t"
       ]
@@ -303,6 +313,7 @@
     "tags": ["testing",
       "performance tests"],
     "level": "beginner",
+    "scheduleId": "#MON-TC5-SE5",
     "speakers": ["QW5kcnplakx1ZHdpa293c2tpYW5kcnplamx1ZHdpa293c2tpQGdtYWlsLmNvbQ=="]
   },
   {
@@ -361,6 +372,7 @@
       "startwars"
       ],
       "level": "talk",
+      "scheduleId": "#MON-TC1-SE1",
       "speakers": [
       "Sm9yZGlKb3Nlam9yZGkuam9zZUB1cGMuZWR1"
       ]
@@ -376,6 +388,7 @@
       "jvm"
       ],
       "level": "middle",
+      "scheduleId": "#MON-TC2-SE3",
       "speakers": [
       "UmljaGFyZFdhcmJ1cnRvbnJpY2hhcmQud2FyYnVydG9uK2piY25AZ21haWwuY29t"
       ]
@@ -404,6 +417,7 @@
       "Streams"
       ],
       "level": "middle",
+      "scheduleId": "#MON-TC1-SE4",
       "speakers": [
       "TWFya3VzRWlzZWxlbUBsaWdodGJlbmQuY29t"
       ]
@@ -414,6 +428,7 @@
       "abstract":"Two years ago we introduced stream processing engine Apache Flink in one of the largest polish mobile operators. We started with real time marketing and gradually moved to fraud detection and other areas. Today we have around 50 jobs, together they process at peak more than 150k events per second.\nIn the talk I'd like to share our experiences. Some of them are technical: what is our stack (Flink, Kafka and so on) and how do we use it, what are the challenges of processing tens of thousands of messages per second, how to deal with large state.\nSome are more organisational - how is it different to design, test and monitor stream processing jobs than to use batch jobs or 'normal' applications.\nI'd also like to talk a bit about open source project that we created during this journey - Nussknacker, which is a tool for designing streaming processes with GUI - it's used by analysts at our client.\n",
       "tags":["stream processing","telco","kafka","flink"],
       "level":"middle",
+      "scheduleId": "#MON-TC4-SE5",
       "speakers":["TWFjaWVrUHLDs2Nobmlha21hY2llay5wcm9jaG5pYWtAZ21haWwuY29t"]
     },
     {
@@ -477,6 +492,7 @@
         "Microservices"
     ],
     "level": "middle",
+    "scheduleId": "#MON-TC1-SE5",
     "speakers": [
         "QnVyclN1dHRlcmJ1cnJzdXR0ZXJAZ21haWwuY29t"
     ]
@@ -510,6 +526,7 @@
     "type":"talk",
     "tags":["java","scala","functional programming","testing"],
     "level":"beginner",
+    "scheduleId": "#MON-TC6-SE3",
     "speakers":["QWxiZXJ0UGFzdHJhbmFhbGJlcnQucGFzdHJhbmFAZ21haWwuY29t"]
   },
   {
@@ -521,6 +538,7 @@
       "blockchain"
     ],
     "level": "beginner",
+    "scheduleId": "#MON-TC6-SE5",
     "speakers": [
       "QW5kcnplakdyemVzaWthbmRyemVqLmdyemVzaWtAZ21haWwuY29t"
     ]
@@ -550,6 +568,7 @@
   {
     "abstract": "Cloud native applications are designed to anticipate failure, run and scale reliably even when the infrastructure it is running on is experiencing outages. To offer such capabilities, the cloud native platforms impose a set of contracts and constraints on the applications running on them. These contracts ensure that the applications conform to certain constraints and allow the platforms to automate the management of the containerized applications.\nDuring this talk we will take you on a journey exploring Kubernetes distributes primitives, the guiding container design principles, and the resulting patterns. Following these design guidelines will ensure that the applications you create are suitable for automation in cloud native platforms such as Kubernetes.\n\nThis talk is based on, and builds on top of a popular blog post I wrote for InfoQ:\nhttps://www.infoq.com/articles/kubernetes-effect",
     "level": "middle",
+    "scheduleId": "#MON-TC3-SE6",
     "speakers": [
       "QmlsZ2luSWJyeWFtYmlicnlhbUBnbWFpbC5jb20="
     ],
@@ -598,6 +617,7 @@
           "fast prototyping"
       ],
       "level": "beginner",
+      "scheduleId": "#MON-TC3-SE4",
       "speakers": [
           "e5a304daa5607a97ddf4a2ae2417bbeb93efa371"
       ]
@@ -653,6 +673,7 @@
       "Native",
       "Web app"],
     "level": "beginner",
+    "scheduleId": "#MON-TC3-SE2",
     "speakers": ["QU1haGR5QWJkZWxheml6YW1haGR5N0BnbWFpbC5jb20="]
   },
   {
@@ -686,6 +707,7 @@
   "microprofile"
   ],
   "level": "beginner",
+  "scheduleId": "#MON-TC3-SE3",
   "speakers": [
   "1d2bc689a08a82df0bd09571219c937e658c5407"
   ]
@@ -700,6 +722,7 @@
   "Decoupling"
   ],
   "level": "middle",
+  "scheduleId": "#MON-TC3-SE5",
   "speakers": [
   "f9735e896fb3811ae30aeec2330214dcf6f7ff40"
   ]
@@ -760,6 +783,7 @@
       "scala"
     ],
     "level": "middle",
+    "scheduleId": "#MON-TC5-SE4",
     "speakers": [
       "c45f58eb5100118866ec4bf9cf18ca42cff28e21"
     ]
@@ -774,6 +798,7 @@
       "Kotlin"
     ],
     "level": "advanced",
+    "scheduleId": "#MON-TC6-SE6",
     "speakers": [
       "4e685685878fa58b6313ce1646240bbfcc87801c"
     ]
@@ -818,6 +843,7 @@
       "JVM Internals"
     ],
     "level": "middle",
+    "scheduleId": "#MON-TC2-SE5",
     "speakers": [
       "a71020196a6877a18aa38df8e51e12fc6807d6c7"
     ]
@@ -829,6 +855,7 @@
       "tags": ["javaee",
         "jakarta"],
       "level": "middle",
+      "scheduleId": "#MON-TC5-SE2",
       "speakers": ["a744f52d967ebb543100a1215f9fe38080a664f0"]
     },
     {
@@ -933,6 +960,7 @@
     ""
     ],
     "level": "talk",
+    "scheduleId": "#MON-TC1-SE3",
     "speakers": [
     "95465cac53a18f211964d0fe9a544ecd9c815521"
     ]
@@ -954,6 +982,7 @@
     "Loom"
     ],
     "level": "middle",
+    "scheduleId": "#MON-TC2-SE6",
     "speakers": [
     "388f6f9ee4eb169ce6d936f7ce3952f6aadd211f"
     ]
@@ -968,6 +997,7 @@
           "AWS"
       ],
       "level": "middle",
+      "scheduleId": "#MON-TC4-SE6",
       "speakers": [
           "24b140b99b4e30e8d36bb642bec4ce154d12027f"
       ]
@@ -981,6 +1011,7 @@
           "multiplatform"
       ],
       "level": "middle",
+      "scheduleId": "#MON-TC6-SE2",
       "speakers": [
           "4b8deafb473f992c2cf9bd9055544607a1c3fb7f"
       ]
