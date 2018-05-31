@@ -12,7 +12,8 @@
       "level": "middle",
       "speakers": [
         "Q2hyaXN0aWFuUG9zdGFjaHJpc3RpYW4ucG9zdGFAZ21haWwuY29t"
-      ]
+      ],
+      "scheduleId":"#TUE-TC2-SE5"
     },
     {
       "title": " Don't hack the platform? ",
@@ -26,7 +27,8 @@
       "level": "middle",
       "speakers": [
         "SmFuT3V3ZW5zamFuLm91d2Vuc0BnbWFpbC5jb20="
-      ]
+      ],
+      "scheduleId":"#TUE-TC4-SE3"
     },
     {
       "title": "Kotlin EE: Boost your Productivity",
@@ -106,7 +108,8 @@
       "level": "beginner",
       "speakers": [
         "QmVybmRSdWVja2VyYmVybmQucnVlY2tlckBjYW11bmRhLmNvbQ=="
-      ]
+      ],
+      "scheduleId":"#TUE-TC6-SE4"
     },
     {
       "title": "Escaping Developer Nightmares",
@@ -120,7 +123,8 @@
       "level": "beginner",
       "speakers": [
         "UnVzdGFtTWVobWFuZGFyb3ZtZWhtYW5kYXJvdkBnbWFpbC5jb20="
-      ]
+      ],
+      "scheduleId":"#TUE-TC2-SE1"
     },
     {
       "title": "Let's build a blockchain in 50 minutes!",
@@ -134,7 +138,8 @@
       "level": "middle",
       "speakers": [
         "TWljaGVsU2NodWRlbG1pY2hlbC5zY2h1ZGVsQGdtYWlsLmNvbQ=="
-      ]
+      ],
+      "scheduleId":"#TUE-TC4-SE1"
     },
     {
       "title": "Distributed System explained (with Java Microservices)",
@@ -193,7 +198,8 @@
       "level": "talk",
       "speakers": [
         "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ=="
-      ]
+      ],
+      "scheduleId":"#MON-TC1-SE4"
     },
     {
       "title": "Begin Event Sourcing with Lagom",
@@ -209,7 +215,8 @@
       "level": "middle",
       "speakers": [
         "T2xhUGV0ZXJzc29ubWFpbEBvbGFwZXRlcnNzb24uc2U="
-      ]
+      ],
+      "scheduleId":"#TUE-TC5-SE2"
     },
     {
       "title": "How to Leverage the Apache Kafka Ecosystem to Productionize Machine Learning",
@@ -290,7 +297,8 @@
       "level": "middle",
       "speakers": [
         "U2FuZHJvTWFuY3Vzb2luZm9AYmFyY2Vsb25hanVnLm9yZw=="
-      ]
+      ],
+      "scheduleId":"#TUE-TC1-SE1"
     },
     {
       "title": "Demystifying modern significant Java language features",
@@ -305,7 +313,8 @@
       "level": "advanced",
       "speakers": [
         "SW9udXRCYWxvc2luaW9udXRiYWxvc2luQHlhaG9vLmNvbQ=="
-      ]
+      ],
+      "scheduleId":"#TUE-TC5-SE3"
     },
   {
     "title": "Performance tests - it’s a trap.",
@@ -328,7 +337,8 @@
       "Java"],
     "level": "middle",
     "speakers": ["Q2VkcmljUmVpY2hlbmJhY2hjZWRyaWMucmVpY2hlbmJhY2hAbWFnbm9saWEtY21zLmNvbQ==",
-      "SWxnw7xuSWxnw7xuaWxndW4uaWxndW5AbWFnbm9saWEtY21zLmNvbQ=="]
+      "SWxnw7xuSWxnw7xuaWxndW4uaWxndW5AbWFnbm9saWEtY21zLmNvbQ=="],
+      "scheduleId":"#TUE-TC3-SE1"
   },
     {
         "title": "Real Life Cloud Native Java in Kubernetes",
@@ -408,7 +418,8 @@
       "level": "middle",
       "speakers": [
       "U2FuZGVyTWFrc2FuZGVyLm1ha0BsdW1pbmlzLmV1"
-      ]
+      ],
+      "scheduleId":"#TUE-TC1-SE2"
     },
     {
       "title": "Reactive Integrations - Caveats and bumps in the road explained",
@@ -440,7 +451,8 @@
       "type":"talk",
       "tags":["Java","Microservices","Architecture"],
       "level":"beginner",
-      "speakers":["QW5zZ2FyQnJhdW5lcmFAanVnZG8uZGU=","U2ViYXN0aWFuR2F1ZGVyc2ViYXN0aWFuLmdhdWRlckByZXdlLWRpZ2l0YWwuY29t"]
+      "speakers":["QW5zZ2FyQnJhdW5lcmFAanVnZG8uZGU=","U2ViYXN0aWFuR2F1ZGVyc2ViYXN0aWFuLmdhdWRlckByZXdlLWRpZ2l0YWwuY29t"],
+      "scheduleId":"#TUE-TC3-SE4"
   },
   {
     "title": "REPL Driven Development: immediate feedback for your server side code",
@@ -453,7 +465,8 @@
     "level": "advanced",
     "speakers": [
         "RGFuaWVsTGVicmVyb2RsZWJyZXJvQGdtYWlsLmNvbQ=="
-    ]
+    ],
+    "scheduleId":"#TUE-TC4-SE4"
   },
   {
     "title": "Efficiently Tracking Object Allocations in Production Environments",
@@ -467,7 +480,8 @@
     "level": "middle",
     "speakers": [
         "RHIuUGhpbGlwcExlbmdhdWVycGhpbGlwcC5sZW5nYXVlckBkeW5hdHJhY2UuY29t"
-    ]
+    ],
+    "scheduleId":"#TUE-TC4-SE2"
   },
   {
     "title": "A practical approach to Java Memory Model",
@@ -481,7 +495,8 @@
     "level": "middle",
     "speakers": [
         "QW5kcnplakN6YXJueWFtY3phcm55QGdtYWlsLmNvbQ=="
-    ]
+    ],
+    "scheduleId":"#TUE-TC4-SE5"
   },
   {
     "title": "Serverless Java with Kubernetes",
@@ -522,7 +537,8 @@
     "type":"talk",
     "tags":["Continuous Delivery","Kubernetes","Cloud Native Applications","MicroServices","awesomeness"],
     "level":"middle",
-    "speakers":["SmFtZXNTdHJhY2hhbmpzdHJhY2hhbkBjbG91ZGJlZXMuY29t"]
+    "speakers":["SmFtZXNTdHJhY2hhbmpzdHJhY2hhbkBjbG91ZGJlZXMuY29t"],
+    "scheduleId":"#TUE-TC1-SE3"
   },
   {
     "title":"From OO Java to FP Scala: epic wins and epic fails",
@@ -628,7 +644,8 @@
       "level": "middle",
       "speakers": [
           "685b66117e9c79a1e0aa54ca3f490d0e71fbc09d"
-      ]
+      ],
+      "scheduleId":"#TUE-TC2-SE3"
   },
   {
     "title": "Real Impact Testing Analysis for JVM Developers",
@@ -642,7 +659,8 @@
     "level": "middle",
     "speakers": [
       "d7dd1e2cddb70f05ead609e37df9dbad160e8893"
-    ]
+    ],
+    "scheduleId":"#TUE-TC6-SE5"
   },
   {
     "title": "Groovy & GraphQL: The peace pipe between front and back devs?",
@@ -654,7 +672,8 @@
       "Ratpack",
       "Grails"],
     "level": "beginner",
-    "speakers": ["TWFyaW9HYXJjaWFtYXJpby5nYXJjaWFAa2FsZWlkb3MubmV0"]
+    "speakers": ["TWFyaW9HYXJjaWFtYXJpby5nYXJjaWFAa2FsZWlkb3MubmV0"],
+    "scheduleId":"#TUE-TC6-SE3"
   },
   {
     "title": "Going Web Native",
@@ -689,7 +708,8 @@
     "level": "advanced",
     "speakers": [
       "d0ad39041e641ff2cfc220a0f7ae315f826f59b8"
-    ]
+    ],
+    "id":"#TUE-TC3-SE2"
   },
   {
   "title": "Lightweight Enterprise Java with MicroProfile",
@@ -732,7 +752,8 @@
   "level": "middle",
   "speakers": [
   "dcf4d5f83bc2dab51fb90922055352668da14a18"
-  ]
+  ],
+  "scheduleId":"#TUE-TC5-SE4"
   },
   {
   "title": "7 Deadlier Sins of Craftsmanship",
@@ -747,7 +768,8 @@
   "level": "beginner",
   "speakers": [
   "1c9e35308c401793ad51011657e043b382416bef"
-  ]
+  ],
+  "scheduleId":"#TUE-TC6-SE2"
   },
   {
     "title": "Cirque du application development - containers, Kubernetes, and OpenShift",
@@ -811,7 +833,8 @@
       "level": "middle",
       "speakers": [
         "beff468d22deac694476d7587dd84d6148af61cc"
-      ]
+      ],
+      "scheduleId":"#TUE-TC5-SE1"
     },
     {
       "title": "Make your own chess engine and change the world!",
@@ -879,7 +902,8 @@
       "level": "beginner",
       "speakers": [
           "ab961367d4eccd998be5e65c43aec1ef0ca91e56"
-      ]
+      ],
+      "scheduleId":"#TUE-TC2-SE4"
   },
   {
       "title": "Let's do reactive web applications with Spring 5, Web Flux and Kafka",
@@ -922,7 +946,8 @@
       "level": "beginner",
       "speakers": [
         "af372ba246acd002092dc3287e2323c4736d744e"
-      ]
+      ],
+      "scheduleId":"#TUE-TC3-SE3"
     },
     {
     "title": "Integrating cloud services with Apache Camel",
@@ -1044,7 +1069,8 @@
       "level": "talk",
       "speakers": [
         "eedfd3d651b222b6d6438ecd3432da6c84727956"
-      ]
+      ],
+      "scheduleId":"#TUE-TC3-SE5"
     },
     {
       "title": "Staying pure with Kotlin and Spring 5 ",
@@ -1075,7 +1101,8 @@
       "level": "middle",
       "speakers": [
           "685b66117e9c79a1e0aa54ca3f490d0e71fbc09d"
-      ]
+      ],
+      "scheduleId":"#TUE-TC6-SE1"
     },
     {
       "title": "How we improved by 800% real time message processing with Kafka, Akka & Akka streams",
@@ -1094,7 +1121,8 @@
       "speakers": [
           "c4ad5c2a04c432ed7489bc775d226e539c938665",
           "bed448adfd919b5b2e3f97102d656f1cd9afabfa"
-      ]
+      ],
+      "scheduleId":"#TUE-TC5-SE5"
     },
     {
       "abstract": "Many JVM languages promote \"less boilerplate code\" as one of their selling points. Even updates to Java in recent years have removed unnecessary syntax. While this is clearly meant to be a Good Thing, many of us - particularly if we've been writing Java for a long time - think \"so what?\". Our IDEs can generate code, and our brains get used to ignoring the stuff that doesn't matter. \n\nIs the removal of extraneous code from the syntax of a language necessary, or just a gimmick? How does it impact our ability to write and read code? \n\nIn this talk, Trisha will explore common coding scenarios using Java and Kotlin. We'll see what's important for developers to write (and, more importantly, read) and what can be removed. We'll also see how Java has evolved to improve our productivity as producers and consumers of code, and why understanding new languages and staying up to date with the features of Java can ultimately make your life easier.",
@@ -1107,7 +1135,8 @@
         "Kotlin"
       ],
       "title": "Is boilerplate code really so bad?",
-      "type": "talk"
+      "type": "talk",
+      "scheduleId":"#TUE-TC2-SE2"
     },
     {
       "abstract": "Technology has changed the world, it's a fact. But how has technology improved the world? An overview of the positive impact of IT on the non-profit sector and on people's lives, from a solidarity perspective. We'll also talk about why we can all make a difference in the lives of others with our knowledge and skills, as members of the IT industry. \n",
@@ -1122,6 +1151,7 @@
         "buildingTheFuture"
       ],
       "title": "Technology is creating a better world",
-      "type": "talk"
+      "type": "talk",
+      "scheduleId":"#TUE-TC1-SE6"
     }
   ]}
