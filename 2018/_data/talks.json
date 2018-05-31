@@ -176,6 +176,7 @@
         "functional",
         "java9"
       ],
+      "scheduleId": "#WED-TC1-SE1",
       "level": "middle",
       "speakers": [
         "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ=="
@@ -341,6 +342,7 @@
             "kubernetes",
             "docker"
         ],
+        "scheduleId": "#WED-TC2-SE1",
         "level": "middle",
         "speakers": [
             "TWF1cmljaW9TYWxhdGlub3NhbGFib3lAZ21haWwuY29t",
@@ -357,6 +359,7 @@
         "API",
         "Rest"
       ],
+      "scheduleId": "#WED-TC2-SE3",
       "level": "beginner",
       "speakers": [
         "vladimirdejanovic"
@@ -506,6 +509,7 @@
         "Continuous Delivery",
         "Microservice"
     ],
+    "scheduleId": "#WED-TC4-SE2",
     "level": "middle",
     "speakers": [
         "Um9iZXJ0RGF2aWVzcmRhdmllc0BjbG91ZGJlZXMuY29t",
@@ -563,6 +567,7 @@
     "tags": ["kafka",
       "streaming"],
     "level": "middle",
+    "scheduleId": "#WED-TC3-SE1",
     "speakers": ["SmVyb2VuUmVzb29ydGplcm9lbi5yZXNvb3J0QGpkaXJ2ZW4uY29t"]
   },
   {
@@ -584,6 +589,7 @@
     "title":"RxJava Code Lab",
     "abstract":"Reactive programming is mentioned everywhere these days. It solves many common issues of imperative programming in an elegant way. Dozens of libraries are springing up, giving developers access to powerful tools that make their everyday development life easier. However, it can take time to learn how to wield these tools effectively as they are often difficult to understand and if used improperly they can sometimes do more harm than good.\n\nThis code lab will first go with you through RxJava basics, in order to demonstrate the main concepts and common use-cases of the ReactiveX framework, as well as reactive programming in general. It should make RxJava and reactive programming much clearer to you and give you lots of ideas of when and where you might want to use it. Once you have seen what it can do, you won't want to go back to how you were programming before!<br/><br/><span style=\"text-decoration: underline;\">Requirements for the workshop</span>: <a href=\"https://github.com/jraska/RxJava-Codelab\" style=\"text-decoration: underline; color: blue;\" target=\"_blank\">Follow this link</a>",
     "type":"workshop",
+    "scheduleId": "#WED-TC2-SE2",
     "tags":["Reactive Programming","Rx","Java","Mobile"],
     "level":"beginner",
     "speakers":["1fb9cc741e1f562c74484fb0d5980ac5813501a2"]
@@ -599,6 +605,7 @@
           "Cloud",
           "Scale"
       ],
+      "scheduleId": "#WED-TC4-SE1",
       "level": "talk",
       "speakers": [
           "ef9952db4071b89e490eac6ffd546d3000a1b4ce"
@@ -766,6 +773,7 @@
       "paas",
       "containers"
     ],
+    "scheduleId": "#WED-TC4-SE4",
     "level": "beginner",
     "speakers": [
       "b33fa71d4efd0c60b13345115cb00f92c352394c",
@@ -827,6 +835,7 @@
         "Artificial Intelligence",
         "Programming"
       ],
+      "scheduleId": "#WED-TC1-SE4",
       "level": "beginner",
       "speakers": [
         "6216c13c3648212feee1ca1e6936e24361b014f8",
@@ -866,6 +875,7 @@
         "Functional Programming",
         "Testing",
         "Databases"],
+      "scheduleId": "#WED-TC1-SE2",
       "level": "beginner",
       "speakers": ["QWxiZXJ0UGFzdHJhbmFhbGJlcnQucGFzdHJhbmFAZ21haWwuY29t"]
     },
@@ -897,6 +907,7 @@
           "Kafka",
           "Streams"
       ],
+      "scheduleId": "#WED-TC3-SE4",
       "level": "middle",
       "speakers": [
           "675c0972b5f59c5f97c123154394ff80bcdd8155",
@@ -909,6 +920,7 @@
       "type":"workshop",
       "tags":["Java","Android","Docker","Continuous Integration","Build"],
       "level":"middle",
+      "scheduleId": "#WED-TC2-SE4",
       "speakers":["cc1c3f223e8ee77c2f47bc4de7b30e9c378aceb0","63c6dde41b2aab6997cd9494336b6911c6195c68"]
     },
     {
@@ -934,6 +946,7 @@
     "camel",
     "springboot"
     ],
+      "scheduleId": "#WED-TC4-SE3",
     "level": "talk",
     "speakers": [
     "862790959f2faa83c9d58166b2c2b68652ce6bf9",
@@ -947,6 +960,7 @@
     "tags": [
     ""
     ],
+      "scheduleId": "#WED-TC3-SE3",
     "level": "talk",
     "speakers": [
     "95465cac53a18f211964d0fe9a544ecd9c815521"
@@ -1025,6 +1039,7 @@
           "Refactoring",
           "Design"
       ],
+      "scheduleId": "#WED-TC1-SE3",
       "level": "middle",
       "speakers": [
           "34e64a4d88094a0c4231d49cc0305d61d7b854ee"
@@ -1055,6 +1070,7 @@
         "Spring WebFlux",
         "Spring"
       ],
+      "scheduleId": "#WED-TC3-SE2",
       "level": "middle",
       "speakers": [
         "eedfd3d651b222b6d6438ecd3432da6c84727956"
