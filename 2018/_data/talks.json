@@ -548,19 +548,6 @@
     ]
   },
   {
-    "title": "JDK 9 and 10: Pitfalls For The Unwary",
-    "abstract": "The significant change in JDK 9 was the Java Platform Module System (also known as project Jigsaw).  With the encapsulation of internal APIs such as sun.misc.Unsafe migrating applications to  JDK 9 (or JDK 10) will potentially require more work than moving between releases previously.\n\nIn this session, we’ll look at all the areas of JDK 9 and 10 that may impact application migration.  This will cover all aspects: Java language syntax, class libraries and JVM options (a significant number of which have changed in these releases.  Unlike previous versions of Java, both JDK 9 and 10 have removed existing standard features, as well as adding new ones.  These changes will also be discussed regarding backward compatibility.\n\nWe’ll also look at the new release cadence for the JDK and explain the impact this will have on Java support and choices of which Java versions to use in production.",
-    "type": "talk",
-    "tags": [
-      "Java",
-      "JDK"
-    ],
-    "level": "middle",
-    "speakers": [
-      "U2ltb25SaXR0ZXJzcml0dGVyQGF6dWwuY29t"
-    ]
-  },
-  {
     "title": "Getting started with Kafka Streams in 120 minutes",
     "abstract": "In this workshop you will learn how to build scalable Kafka Streams applications with Spring \nBoot and Spring Kafka. You are introduced to the concepts of Kafka and streaming and get some hands on experience building an application using Kafka Streams components such as kStreams, kTables, filters, branches, and solving interesting challenges with complex joins and aggregates.\n",
     "type": "workshop",
@@ -1108,5 +1095,33 @@
           "c4ad5c2a04c432ed7489bc775d226e539c938665",
           "bed448adfd919b5b2e3f97102d656f1cd9afabfa"
       ]
+    },
+    {
+      "abstract": "Many JVM languages promote \"less boilerplate code\" as one of their selling points. Even updates to Java in recent years have removed unnecessary syntax. While this is clearly meant to be a Good Thing, many of us - particularly if we've been writing Java for a long time - think \"so what?\". Our IDEs can generate code, and our brains get used to ignoring the stuff that doesn't matter. \n\nIs the removal of extraneous code from the syntax of a language necessary, or just a gimmick? How does it impact our ability to write and read code? \n\nIn this talk, Trisha will explore common coding scenarios using Java and Kotlin. We'll see what's important for developers to write (and, more importantly, read) and what can be removed. We'll also see how Java has evolved to improve our productivity as producers and consumers of code, and why understanding new languages and staying up to date with the features of Java can ultimately make your life easier.",
+      "level": "middle",
+      "speakers": [
+        "5778ef29f1bfba305f2684b45f585d6655728e10"
+      ],
+      "tags": [
+        "Java",
+        "Kotlin"
+      ],
+      "title": "Is boilerplate code really so bad?",
+      "type": "talk"
+    },
+    {
+      "abstract": "Technology has changed the world, it's a fact. But how has technology improved the world? An overview of the positive impact of IT on the non-profit sector and on people's lives, from a solidarity perspective. We'll also talk about why we can all make a difference in the lives of others with our knowledge and skills, as members of the IT industry. \n",
+      "level": "beginner",
+      "speakers": [
+        "6ed31539ca6f9a3b6aac9dc1ac460e3a9d10cc72"
+      ],
+      "tags": [
+        "NGOs",
+        "help",
+        "technology",
+        "buildingTheFuture"
+      ],
+      "title": "Technology is creating a better world",
+      "type": "talk"
     }
   ]}
