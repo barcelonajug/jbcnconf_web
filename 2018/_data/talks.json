@@ -188,8 +188,8 @@
       ]
     },
     {
-      "title": "Kotlin for Java Programmers",
-      "abstract": "Kotlin is that dark horse of JVM languages. It has gained prominence in the recent times for various good reasons. But, what does Kotlin really mean to Java programmers? In this presentation we will explore the language, learn about its key strengths and capabilities, take a peek under the hood to what it's capabilities mean on the Java eco system, and how and where we can benefit from it.",
+      "title": "Kotlin for Java Programmers (Part 1)",
+      "abstract": "Kotlin is that dark horse of JVM languages. It has gained prominence in the recent times for various good reasons. But, what does Kotlin really mean to Java programmers? In this presentation we will explore the language, learn about its key strengths and capabilities, take a peek under the hood to what it's capabilities mean on the Java eco system, and how and where we can benefit from it. (This presentation will be divided in two sessions)",
       "type": "talk",
       "tags": [
         "Java",
@@ -199,8 +199,22 @@
       "speakers": [
         "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ=="
       ],
-      "scheduleId":"#MON-TC1-SE4"
+      "scheduleId":"#TUE-TC1-SE4"
     },
+    {
+      "title": "Kotlin for Java Programmers (Part 2)",
+      "abstract": "Second Part of the session",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Kotlin"
+      ],
+      "level": "talk",
+      "speakers": [
+        "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ=="
+      ],
+      "scheduleId":"#TUE-TC1-SE5"
+    },    
     {
       "title": "Begin Event Sourcing with Lagom",
       "abstract": "Relational databases are great! They are well proven powerhouses in persisting state, but are they always the best solution to your problems?\n\nJoin me as we explore a more functional approach to how we deal with state in our systems. We'll start by covering the basis of EventSourcing and continue to take a hands-on look on the Lagom framework and Akka. You will hopefully leave with a stepping stone to start to implement EventSourced systems on the JVM",
@@ -709,7 +723,7 @@
     "speakers": [
       "d0ad39041e641ff2cfc220a0f7ae315f826f59b8"
     ],
-    "id":"#TUE-TC3-SE2"
+    "scheduleId":"#TUE-TC3-SE2"
   },
   {
   "title": "Lightweight Enterprise Java with MicroProfile",
