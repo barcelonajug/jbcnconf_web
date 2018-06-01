@@ -445,17 +445,6 @@
   },
   {
     "enabled": "1",
-    "name": "Simon Ritter",
-    "description": "Java Champion, Deputy CTO of Azul System",
-    "biography": "Simon Ritter is the Deputy CTO of Azul Systems.  Simon has been in the IT business since 1984 and holds a Bachelor of Science degree in Physics from Brunel University in the U.K. \n\nSimon joined Sun Microsystems in 1996 and started working with Java technology from JDK 1.0; he has spent time working in both Java development and consultancy.  Having moved to Oracle as part of the Sun acquisition, he managed the Java Evangelism team for the core Java platform, Java for client applications and embedded Java.  Now at Azul, he continues to help people understand Java as well as Azul’s JVM technologies and products.  Simon has twice been awarded Java Rockstar status at JavaOne and is a Java Champion.  He currently represents Azul on the JCP Executive Committee and on the Java SE Expert Group (JSR 379, 383 and 384).",
-    "image": "assets/img/speakers/simon-ritter.jpg",
-    "ref": "U2ltb25SaXR0ZXJzcml0dGVyQGF6dWwuY29t",
-    "url": "infoSpeaker.html?ref=U2ltb25SaXR0ZXJzcml0dGVyQGF6dWwuY29t",
-    "twitter": "speakjava",
-    "homepage": ""
-  },
-  {
-    "enabled": "1",
     "name": "Jeroen Resoort",
     "description": "Java Consultant at JDriven",
     "biography": "Jeroen is a Java Consultant at JDriven. He has over 10 years of experience writing enterprise applications. He is passionate about writing good code, learning new technologies and sharing his knowledge with others. ",
@@ -793,7 +782,7 @@
   {
   "enabled": "1",
   "name": "Ray Tsang",
-  "description": "Developer Advocate at Google",
+  "description": "Java Champion, Developer Advocate at Google",
   "biography": "Ray had extensive hands on cross-industry enterprise systems integration delivery and management experiences since 2002. Ray has built mobile applications & micropayment systems as an independent contractor. During his time in Taiwan, Ray has built IT systems for Taiwanese government for a large scale search engine, electronic customs record management, and more. At Accenture, Ray was a team lead for a SOA deployment at a utilities company, building out common frameworks for messaging and service tracing. Moreover, Ray was an architect leading teams to implement online booking channels for a global hospitality company. During Ray's time at Red Hat, he was specialized in Java middleware, and contributing to open source projects such as Infinispan. Aside from technology, Ray enjoys traveling and adventures. Ray is currently a Developer Advocate at Google. Follow Ray on Twitter @saturnism \n JavaOne Rockstar",
   "image": "assets/img/speakers/ray-tsang.jpg",
   "ref": "95465cac53a18f211964d0fe9a544ecd9c815521",
@@ -875,5 +864,27 @@
       "ref": "c4ad5c2a04c432ed7489bc775d226e539c938665",
       "url": "infoSpeaker.html?ref=c4ad5c2a04c432ed7489bc775d226e539c938665",
       "twitter": "@davidvaquero"
+    },
+    {
+      "biography": "Trisha has developed Java applications for a range of industries, including finance, manufacturing, software and non-profit, for companies of all sizes. She has expertise in Java high performance systems, is passionate about enabling developer productivity, and dabbles with Open Source development. Trisha is a leader of the Sevilla Java User Group, a MongoDB Master and a Java Champion. She believes we shouldn't all have to make the same mistakes again and again. She\u2019s a Developer Advocate for JetBrains so she can share all the cool stuff she's discovered so far. Blog: http://www.trishagee.com",
+      "description": " Java Champion, Developer Advocate for JetBrains",
+      "enabled": "1",
+      "homepage": "http://www.trishagee.com",
+      "image": "assets/img/speakers/trisha-gee.jpeg",
+      "name": "Trisha Gee",
+      "ref": "5778ef29f1bfba305f2684b45f585d6655728e10",
+      "twitter": "@trisha_gee",
+      "url": "infoSpeaker.html?ref=5778ef29f1bfba305f2684b45f585d6655728e10"
+    },
+    {
+      "biography": "Patricia S\u00e1nchez Delicado is the director of the Teaming Foundation, a crowdfunding platform that has raised over 10 million euros through micro-donations of 1\u20ac per month.  She has spent more than 10 years in start-ups where technology was at the service of the Third Sector, mainly as Product Owner.  She is also a product consultant for different companies, especially for e-commerce projects. \n\n",
+      "description": "Director of the Teaming Foundation",
+      "enabled": "1",
+      "homepage": "https://www.teaming.net/",
+      "image": "assets/img/speakers/patricia-sanchez.jpg",
+      "name": "Patricia S\u00e1nchez Delicado",
+      "ref": "6ed31539ca6f9a3b6aac9dc1ac460e3a9d10cc72",
+      "twitter": "",
+      "url": "infoSpeaker.html?ref=6ed31539ca6f9a3b6aac9dc1ac460e3a9d10cc72"
     }
 ]}
