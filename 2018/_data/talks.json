@@ -214,7 +214,7 @@
         "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ=="
       ],
       "scheduleId":"#TUE-TC1-SE5"
-    },    
+    },
     {
       "title": "Begin Event Sourcing with Lagom",
       "abstract": "Relational databases are great! They are well proven powerhouses in persisting state, but are they always the best solution to your problems?\n\nJoin me as we explore a more functional approach to how we deal with state in our systems. We'll start by covering the basis of EventSourcing and continue to take a hands-on look on the Lagom framework and Akka. You will hopefully leave with a stepping stone to start to implement EventSourced systems on the JVM",
@@ -315,8 +315,8 @@
       "scheduleId":"#TUE-TC1-SE1"
     },
     {
-      "title": "Demystifying modern significant Java language features",
-      "abstract": "The presentation aims to reveal how the most significant Java 9 language features work under the hood. Each topic is covered by few code examples, bytecode instructions, JMH tests and x86 assembly generated code (only in few specific cases). We try to build a top down approach and to understand what is happening at each level inside the JVM, starting with source code, followed by javac and then JIT compilation process. Main topics: - Private interface methods - String in Java 9 (Compact strings and Indify String concatenation ) - Collection factory methods - StackWalker - Contended locks in Java 9 - Segmented Code Cache - Lambdas - Streams (e.g. ForkJoin, streams characteristics) Attendees will have a clear and comprehensive understanding about all of these internals, which might make a difference in writing better and more performant code.",
+      "title": "Demystifying the most significant Java 9 language features",
+      "abstract": "The presentation aims to reveal how the most significant Java 9 language features work under the hood. Each topic is covered by few code examples, bytecode instructions, JMH tests and x86 assembly generated code (only in few specific cases). We try to build a top down approach and to understand what is happening at each level inside the JVM, starting with source code, followed by javac and then JIT compilation process. Main topics:<br/>- Private interface methods<br/>- String in Java 9 (Compact strings and Indify String concatenation)<br/>- Collection factory methods<br/>- StackWalker<br/>- Contended locks in Java 9<br/>- onSpinWait<br/>- Segmented Code Cache - <i>optional</i><br/>Attendees will have a clear and comprehensive understanding about all of these internals, which might make a difference in writing better and more performant code.",
       "type": "talk",
       "tags": [
         "Java",
