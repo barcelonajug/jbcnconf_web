@@ -214,7 +214,7 @@
         "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ=="
       ],
       "scheduleId":"#TUE-TC1-SE5"
-    },    
+    },
     {
       "title": "Begin Event Sourcing with Lagom",
       "abstract": "Relational databases are great! They are well proven powerhouses in persisting state, but are they always the best solution to your problems?\n\nJoin me as we explore a more functional approach to how we deal with state in our systems. We'll start by covering the basis of EventSourcing and continue to take a hands-on look on the Lagom framework and Akka. You will hopefully leave with a stepping stone to start to implement EventSourced systems on the JVM",
@@ -315,8 +315,8 @@
       "scheduleId":"#TUE-TC1-SE1"
     },
     {
-      "title": "Demystifying modern significant Java language features",
-      "abstract": "The presentation aims to reveal how the most significant Java 9 language features work under the hood. Each topic is covered by few code examples, bytecode instructions, JMH tests and x86 assembly generated code (only in few specific cases). We try to build a top down approach and to understand what is happening at each level inside the JVM, starting with source code, followed by javac and then JIT compilation process. Main topics: - Private interface methods - String in Java 9 (Compact strings and Indify String concatenation ) - Collection factory methods - StackWalker - Contended locks in Java 9 - Segmented Code Cache - Lambdas - Streams (e.g. ForkJoin, streams characteristics) Attendees will have a clear and comprehensive understanding about all of these internals, which might make a difference in writing better and more performant code.",
+      "title": "Demystifying the most significant Java 9 language features",
+      "abstract": "The presentation aims to reveal how the most significant Java 9 language features work under the hood. Each topic is covered by few code examples, bytecode instructions, JMH tests and x86 assembly generated code (only in few specific cases). We try to build a top down approach and to understand what is happening at each level inside the JVM, starting with source code, followed by javac and then JIT compilation process. Main topics:<br/>- Private interface methods<br/>- String in Java 9 (Compact strings and Indify String concatenation)<br/>- Collection factory methods<br/>- StackWalker<br/>- Contended locks in Java 9<br/>- onSpinWait<br/>- Segmented Code Cache - <i>optional</i><br/>Attendees will have a clear and comprehensive understanding about all of these internals, which might make a difference in writing better and more performant code.",
       "type": "talk",
       "tags": [
         "Java",
@@ -366,7 +366,7 @@
             "kubernetes",
             "docker"
         ],
-        "scheduleId": "#WED-TC2-SE1",
+        "scheduleId": "#WED-TC2-SE2",
         "level": "middle",
         "speakers": [
             "TWF1cmljaW9TYWxhdGlub3NhbGFib3lAZ21haWwuY29t",
@@ -538,7 +538,7 @@
         "Continuous Delivery",
         "Microservice"
     ],
-    "scheduleId": "#WED-TC4-SE2",
+    "scheduleId": "#WED-TC2-SE1",
     "level": "middle",
     "speakers": [
         "Um9iZXJ0RGF2aWVzcmRhdmllc0BjbG91ZGJlZXMuY29t",
@@ -606,8 +606,8 @@
     "title":"RxJava Code Lab",
     "abstract":"Reactive programming is mentioned everywhere these days. It solves many common issues of imperative programming in an elegant way. Dozens of libraries are springing up, giving developers access to powerful tools that make their everyday development life easier. However, it can take time to learn how to wield these tools effectively as they are often difficult to understand and if used improperly they can sometimes do more harm than good.\n\nThis code lab will first go with you through RxJava basics, in order to demonstrate the main concepts and common use-cases of the ReactiveX framework, as well as reactive programming in general. It should make RxJava and reactive programming much clearer to you and give you lots of ideas of when and where you might want to use it. Once you have seen what it can do, you won't want to go back to how you were programming before!<br/><br/><span style=\"text-decoration: underline;\">Requirements for the workshop</span>: <a href=\"https://github.com/jraska/RxJava-Codelab\" style=\"text-decoration: underline; color: blue;\" target=\"_blank\">Follow this link</a>",
     "type":"workshop",
-    "scheduleId": "#WED-TC2-SE2",
     "tags":["Reactive Programming","Rx","Java","Mobile"],
+    "scheduleId": "#WED-TC4-SE2",
     "level":"beginner",
     "speakers":["1fb9cc741e1f562c74484fb0d5980ac5813501a2"]
   },
