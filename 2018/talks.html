@@ -47,8 +47,9 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                 {% for talk in site.data.talks.items %}
                                 {% if talk.type contains "talk" %}
 
+                                <a href="{{base}}/infoTalk.html?id={{talk.id}}">
                                 <b>{{talk.title}}</b> by
-
+                                </a>
                                 {% for speakerRef in talk.speakers %}
                                 {% for speaker in site.data.speakers.items %}
 
