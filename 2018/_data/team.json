@@ -94,6 +94,18 @@
         "url": "/assets/img/team/tetiana.jpg",
         "alt": "Tetiana Borys"
       }
+    },
+    {
+      "name": "Anna Kurman",
+      "position": "Senior Software Sorceress",
+      "role": "Team Member Barcelona JUG Conference",
+      "bio": "A sorceress with black cat, a volleyball passionist and the sun lover",
+      "linkedin": "https://www.linkedin.com/in/anna-kurman-98894415/",
+      "twitter": "https://twitter.com/freyliis",
+      "image": {
+        "url": "/assets/img/team/anna-kurman.jpg",
+        "alt": "Anna Kurman"
+      }
     }
   ]
 }
