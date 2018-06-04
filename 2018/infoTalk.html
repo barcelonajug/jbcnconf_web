@@ -16,7 +16,6 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
         currentTalkId = {{ talkCursor.id }}
         if({{ talkCursor.id }} == talkId){
             talk = {{ talkCursor | jsonify }};
-            console.log(" >>>>>>>>>>>>>> FOUND: " + talk);
         }
         {% endfor %}
 
@@ -40,7 +39,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
             <ul>
                 <li>Home</li>
                 <li>&#47;</li>
-                <li>Talk</li>
+                <li id="session-type"></li>
             </ul>
         </div>
 
@@ -150,10 +149,16 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
 
                     <script>
                         (function () {
-                            console.log("-----------------");
-                            console.log(window.SPEAKERS);
-
                             jQuery(document).ready(function ($) {
+
+                                console.log($('#session-type'));
+                                if (window.TALK.type == 'talk') {
+                                    $('#session-type').append('Talk');
+                                    console.log('Talk');
+                                } else {
+                                    $('#session-type').append('Workshop');
+                                    console.log('WS');
+                                }
 
                                 var updateSpeakerPage = function () {
                                     for (var i = 0; i < window.SPEAKERS.length; i++) {
