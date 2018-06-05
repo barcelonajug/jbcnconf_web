@@ -737,13 +737,13 @@
   },
   {
     "enabled":"1",
-    "name":"Nicolás González Avalis",
-    "description":"Engineering Lead at MyTaxi",
-    "biography":"Geek. Father. Geek. Engineering Lead.",
-    "image":"assets/img/speakers/nicolas_avalis.jpeg",
+    "name":"Miguel Angel Gómez",
+    "description":"Android Developer at mytaxi",
+    "biography":"Mobile/Android developer,  Tech Passionate and travel adventurer",
+    "image":"assets/img/speakers/miguel-angel-gomez.jpg",
     "ref":"63c6dde41b2aab6997cd9494336b6911c6195c68",
     "url":"infoSpeaker.html?ref=63c6dde41b2aab6997cd9494336b6911c6195c68",
-    "twitter":"@ngonzalezavalis",
+    "twitter":"@zoidtrox",
     "homepage":""
   },
   {
