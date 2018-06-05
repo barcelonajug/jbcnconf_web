@@ -73,7 +73,7 @@
     },
     {
       "name": "Christian Sisti",
-      "position": "Software Development Manager",
+      "position": "Team Leader",
       "role": "Team Member Barcelona JUG.",
       "bio": "Software Development Manager in love for clean code, agile best practices and table soccer",
       "linkedin": "https://www.linkedin.com/in/christiansisti",
@@ -81,6 +81,30 @@
       "image": {
         "url": "/assets/img/team/christian.jpg",
         "alt": "Christian Sisti"
+      }
+    },
+    {
+      "name": "Tetiana Borys",
+      "position": "Software Engineer",
+      "role": "Barcelona JUG Conference contributor",
+      "bio": "I am a software developer specialized in Java. Passionate about innovations in coding, love working with open source technology.",
+      "linkedin": "https://www.linkedin.com/in/tetianaborys",
+      "twitter": "https://twitter.com/TetianaBorys",
+      "image": {
+        "url": "/assets/img/team/tetiana.jpg",
+        "alt": "Tetiana Borys"
+      }
+    },
+    {
+      "name": "Anna Kurman",
+      "position": "Software Sorceress",
+      "role": "Team Member Barcelona JUG Conference",
+      "bio": "A sorceress with black cat, a volleyball passionist and the sun lover",
+      "linkedin": "https://www.linkedin.com/in/anna-kurman-98894415/",
+      "twitter": "https://twitter.com/freyliis",
+      "image": {
+        "url": "/assets/img/team/anna-kurman.jpg",
+        "alt": "Anna Kurman"
       }
     }
   ]
