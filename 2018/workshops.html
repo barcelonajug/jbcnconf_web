@@ -43,28 +43,21 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                             </div>
                             <div class="post-content">
 
-
                                 {% for talk in site.data.talks.items %}
 
                                 {% if talk.type contains "workshop" %}
 
-                                {% assign speakersList = '' %}
+                                <a href="{{base}}/infoTalk.html?id={{talk.id}}">
+                                    <b>{{talk.title}}</b> by
+                                </a>
                                 {% for speakerRef in talk.speakers %}
                                 {% for speaker in site.data.speakers.items %}
 
                                 {% if speakerRef == speaker.ref %}
-                                {% capture speakerUrl %}{{ speaker.url }}{% endcapture %}
-                                {% capture speakersList %} {{speakersList}} {{ speaker.name }} {% endcapture %}
+                                <a href="{{base}}/{{speaker.url}}" style="text-decoration: underline;">{{ speaker.name }}</a>
                                 {% endif %}
-
-
                                 {% endfor %}
                                 {% endfor %}
-
-
-                                <a href="{{base}}/{{speakerUrl}}">
-                                    <b>{{talk.title}}</b> by {{ speakersList }}
-                                </a>
 
                                 </br>
                                 Level: {{talk.level}}
@@ -77,10 +70,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                 {% endif %}
                                 {% endfor %}
 
-
                             </div>
-
-
                         </div>
                     </article>
                 </div>
