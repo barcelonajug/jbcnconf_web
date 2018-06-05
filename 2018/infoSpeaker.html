@@ -91,8 +91,15 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                         $container = $("#speaker-page"),
                                         updateSocialLink = function (social) {
                                             if (speaker[social]) {
-                                                $container.find("." + social).show();
-                                                $container.find("." + social + " a").attr("href", speaker[social]);
+                                              var link = speaker[social]
+                                              if (social === 'twitter') {
+                                                link = link.replace('\@','')
+                                                if (!link.startsWith('http://') && !link.startsWith('https://')) {
+                                                  link = 'http://twitter.com/' + link
+                                                }
+                                              }
+                                              $container.find("." + social).show();
+                                              $container.find("." + social + " a").attr("href", link);
                                             }
 
                                         };

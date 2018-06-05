@@ -19,7 +19,9 @@
             <div class="sponsor-diamond">
                 <h1>Beam</h1>
                 <a href="{{ site.data.sponsors.diamond.href }}" target="_blank" title="{{ site.data.sponsors.diamond.name }}">
-                    <img src="{{base}}{{ site.data.sponsors.diamond.image.src }}" alt="{{ site.data.sponsors.diamond.image.alt }}"/>
+                    <img src="{{base}}{{ site.data.sponsors.diamond.image.src }}" style="max-height:100%; max-width:100%"
+                         class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
+                         alt="{{ site.data.sponsors.diamond.image.alt }}"/>
                 </a>
             </div>
         </div>
@@ -34,15 +36,20 @@
 
             <div class="post-related-posts row">
                 {% for sponsor in site.data.sponsors.gold %}
-                <div class="item col-sm-4 col-xs-12" style="line-height: 200px;">
-                    <div class="image align-middle">
-                        <a href="{{ sponsor.href }}" target="_blank" title="{{ sponsor.name }}"
-                           style=" display:table-cell;    vertical-align:middle;">
-                            <img src="{{ base }}{{ sponsor.image.src }}" style="max-height:85%; max-width:85%"
-                                 class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
-                                 alt="{{ sponsor.image.alt }}"/></a>
-                    </div>
-                </div>
+                  {% assign mod = forloop.index0 | modulo:3 %}
+                  {% assign style = "line-height: 200px" %}
+                  {% if mod == 0 %}
+                    {% assign style = style | append: "; clear:both" %}
+                  {% endif %}
+                  <div class="item col-sm-4 col-xs-12" style="{{ style }}">
+                      <div class="image align-middle">
+                          <a href="{{ sponsor.href }}" target="_blank" title="{{ sponsor.name }}"
+                             style=" vertical-align:middle;">
+                              <img src="{{ base }}{{ sponsor.image.src }}" style="max-height:85%; max-width:85%"
+                                   class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
+                                   alt="{{ sponsor.image.alt }}"/></a>
+                      </div>
+                  </div>
                 {% endfor %}
             </div>
 
@@ -56,7 +63,7 @@
                 <div class="item col-sm-3 col-xs-6" style="line-height: 150px;">
                     <div class="image align-middle">
                         <a href="{{ sponsor.href }}" target="_blank" title="{{ sponsor.name }}"
-                           style=" display:table-cell;    vertical-align:middle;">
+                           style=" vertical-align:middle;">
                             <img src="{{ base }}{{ sponsor.image.src }}" style="max-height:70%; max-width:70%"
                                  class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
                                  alt="{{ sponsor.image.alt }}"/></a>
@@ -74,7 +81,7 @@
                 <div class="item col-sm-2 col-xs-6" style="line-height: 100px;">
                     <div class="image align-middle">
                         <a href="{{ sponsor.href }}" target="_blank" title="{{ sponsor.name }}"
-                           style=" display:table-cell;    vertical-align:middle;">
+                           style="vertical-align:middle;">
                             <img src="{{ base }}{{ sponsor.image.src }}" style="max-height:70%; max-width:70%"
                                  class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
                                  alt="{{ sponsor.image.alt }}"/></a>
