@@ -738,13 +738,13 @@
   {
     "enabled":"1",
     "name":"Jing Li",
-    "description":"Full-stack Software Engineer at mytaxi",
-    "biography":"Engineer at heart & Top GitHub developer\n\nFull-stack (language-agnostic) software engineer in quality with a strong sense of curiosity.",
+    "description":"Head of Quality Engineering",
+    "biography":"Jing Li is a language-agnostic software engineer with a focus on tools, quality and CI. He dedicated himself to mobile industry throughout the past decade, can't stop playing with gadgets. As an active GitHub user having various open source projects alongside heaps of stargazers, he is passionate about crafting tools.",
     "image":"assets/img/speakers/jung_lee.jpeg",
     "ref":"cc1c3f223e8ee77c2f47bc4de7b30e9c378aceb0",
     "url":"infoSpeaker.html?ref=cc1c3f223e8ee77c2f47bc4de7b30e9c378aceb0",
     "twitter":"@thyrlian",
-    "homepage":""
+    "homepage":"http://basgeekball.com/"
   },
   {
     "enabled":"1",
