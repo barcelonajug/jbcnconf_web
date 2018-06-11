@@ -489,17 +489,6 @@
   },
   {
       "enabled": "1",
-      "name": "Edson Yanaga",
-      "description": "Java Champion, Director of Developer Experience at Red Hat",
-      "biography": "Edson Yanaga, Red Hat's Director of Developer Experience, is a Java Champion and a Microsoft MVP. He is also a published author and a frequent speaker at international conferences, discussing Java, Microservices, Cloud Computing, DevOps, and Software Craftsmanship. ",
-      "image": "assets/img/speakers/edson-yanaga.png",
-      "ref": "685b66117e9c79a1e0aa54ca3f490d0e71fbc09d",
-      "url": "infoSpeaker.html?ref=685b66117e9c79a1e0aa54ca3f490d0e71fbc09d",
-      "twitter": "@yanaga",
-      "homepage": "https://yanaga.io"
-  },
-  {
-      "enabled": "1",
       "name": "Anton Maria Rodriguez Yuste",
       "description": "Technical Director at Optare",
       "biography": "Antón is a Software Engineer who specializes in JVM development, performance tuning, and distributed systems, mainly in the telecom sector. In his current role as Technical Director at Optare, he helps to define the technological strategy in conjunction with the development team of each project: pipeline, tools, and key development procedures.\n\nHe also co-organizes the Vigo and Coruña Java User Groups (VigoJUG & CoruñaJUG) and sometimes he speaks at international conferences as Geecon (Krakow), SpringIO (Barcelona), TADSummit (Istanbul), Librecon (Santiago de Compostela), etc. \n",
