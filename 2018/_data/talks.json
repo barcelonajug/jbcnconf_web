@@ -693,17 +693,17 @@
   },
   {
     "id": 45,
-      "title": "Revisiting Effective Java in 2018",
-      "abstract": "Joshua Bloch just gifted us with the 3rd edition of \"Effective Java\", but almost 10 years have been past since the last edition. Now we have a whole generation of Java developers that could benefit from this knowledge - but lost the past wave. It's about time to revisit all of this wonderful content, and upgrade your skills to the latest versions of the Java platform. Join us on this deep dive session to check what is the updated Effective Java, and even add some more tips not included in the book!",
+      "title": "How not suck at Microservices",
+      "abstract": "You’ve been hearing about Microservices for months, and probably have taken a look about 12-factor and cloud-native apps too. But there’s a myriad of different Java frameworks and tools that you can use to craft your software and join the pieces together into a Microservices Architecture. You want to use the best platform to deploy all of them.\nJoin this session to see how you can combine a lot of different technologies and tools in a live demo that will open your eyes for the huge possibilities that Microservices can enable you to achieve. We’ll have it all: containers, Docker, Java EE, Vert.x, Wildfly Swarm, Spring Boot, OpenShift, Jenkins, Kubernetes and perhaps much more.",
       "type": "talk",
       "tags": [
-          "Java",
-          "Effective",
-          "Best Practices"
+          "Microservices",
+          "Docker",
+          "Vertx"
       ],
       "level": "middle",
       "speakers": [
-          "685b66117e9c79a1e0aa54ca3f490d0e71fbc09d"
+          "f0742fdf56814ea4b3c887ee628a8dfd"
       ],
       "scheduleId":"#TUE-TC2-SE3"
   },
@@ -1183,17 +1183,17 @@
     },
     {
       "id": 75,
-      "title": "Microservices Data Patterns: CQRS & Event Sourcing",
-      "abstract": "\"One size does not fit all.\" And this is still specially true for your distributed data! Different types of data require different approaches of how you distribute & manipulate your data.\n\nUpdate frequency? Staleness? Push or pull? Legacy or new? Cache or direct read? Event Sourcing? Business or low-level events? Check this session to see how different technologies such as Data Virtualization, Change Data Capture, In-memory Data Grids, Reactive Programming and much more can be applied to solve a plethora of different data scenarios with different requirements.",
+      "title": "8 Steps to Become Awesome with Kubernetes",
+      "abstract": "Everybody seems to be rocking with Kubernetes and OpenShift! Even your favorite repos at GitHub are running on top of it. Do you want to be left out of this wagon?\nDon't be the last developer to board this bullet train. Come and learn a LOT on this session about Kubernetes. We have 8 simple and practical steps that will take you from novice to journeyman. Setup? Check. Deployment? Check. Developer tooling? Check. Other cloud-native features? Check. Get immersed in the Kubernetes universe now. Or later regret for not coming and learning these simple steps.",
       "type": "talk",
       "tags": [
           "Microservices",
-          "CQRS",
-          "Event Sourcing"
+          "Kubernetes",
+          "OpenShift"
       ],
       "level": "middle",
       "speakers": [
-          "685b66117e9c79a1e0aa54ca3f490d0e71fbc09d"
+          "QnVyclN1dHRlcmJ1cnJzdXR0ZXJAZ21haWwuY29t"
       ],
       "scheduleId":"#TUE-TC6-SE1"
     },
