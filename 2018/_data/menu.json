@@ -12,6 +12,10 @@
       "href": "/schedule.html#monday"
     },
     {
+      "label": "Votes",
+      "href": "/votes.html"
+    },    
+    {
       "label": "Talks",
       "href": "/talks.html"
     },
