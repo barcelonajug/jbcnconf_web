@@ -12,16 +12,32 @@
       "href": "/schedule.html#monday"
     },
     {
-      "label": "Votes",
-      "href": "/votes.html"
-    },    
-    {
       "label": "Talks",
-      "href": "/talks.html"
+      "href": "/talks.html",
+      "items": [
+        {
+          "label": "List",
+          "href": "/talks.html"
+        },        
+        {
+          "label": "Feedback",
+          "href": "/feedback-talks.html"
+        }
+      ]      
     },
     {
       "label": "Workshops",
-      "href": "/workshops.html"
+      "href": "/workshops.html",
+      "items": [
+        {
+          "label": "List",
+          "href": "/workshops.html"
+        },        
+        {
+          "label": "Feedback",
+          "href": "/feedback-workshops.html"
+        }
+      ]
     },
     {
       "label": "Sponsors",
