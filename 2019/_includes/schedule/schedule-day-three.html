@@ -1,0 +1,79 @@
+<div class="row schedule-row schedule-header">
+    <div class="{{scheduleLeftWidth}}">
+    </div>
+
+    {% include schedule/schedule-header-hotel.html %}
+
+</div>
+
+<div class="row schedule-row">
+    <div class="{{scheduleLeftWidth}}">
+        09:00 - 10:55
+    </div>
+
+    {% assign rowHour = 'SE1' %}
+    {% include schedule/schedule-multitrack-workshop-row.html %}
+
+</div>
+
+<div class="row schedule-row  schedule-break">
+    <div class="{{scheduleLeftWidth}}">
+        11:00 - 11:30
+    </div>
+
+    {% assign breakContent = 'Coffee Break' %}
+    {% include schedule/schedule-break-single-track.html %}
+
+</div>
+
+<div class="row schedule-row">
+    <div class="{{scheduleLeftWidth}}">
+        11:35 - 13:30
+    </div>
+
+    {% assign rowHour = 'SE2' %}
+    {% include schedule/schedule-multitrack-workshop-row.html %}
+
+</div>
+
+<div class="row schedule-row  schedule-break">
+    <div class="{{scheduleLeftWidth}}">
+        13:45 - 14:40
+    </div>
+
+    {% assign breakContent = 'Lunch' %}
+    {% include schedule/schedule-break-single-track.html %}
+
+</div>
+
+<div class="row schedule-row">
+    <div class="{{scheduleLeftWidth}}">
+        14:45 - 16:40
+    </div>
+
+    {% assign rowHour = 'SE3' %}
+    {% include schedule/schedule-multitrack-workshop-row.html %}
+
+</div>
+
+<div class="row schedule-row  schedule-break">
+    <div class="{{scheduleLeftWidth}}">
+        16:45 - 17:15
+    </div>
+
+    {% assign breakContent = 'Coffee Break' %}
+    {% include schedule/schedule-break-single-track.html %}
+
+</div>
+
+<div class="row schedule-row">
+    <div class="{{scheduleLeftWidth}}">
+        17:20 - 19:15
+    </div>
+
+    {% assign rowHour = 'SE4' %}
+    {% include schedule/schedule-multitrack-workshop-row.html %}
+
+</div>
+
+
