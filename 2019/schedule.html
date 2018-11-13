@@ -40,9 +40,9 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                             </div>
 
                             <ul class="tabs">
-                                <li class="tab-link visible-monday" data-tab="visible-monday">Monday 27.06</li>
-                                <li class="tab-link visible-tuesday" data-tab="visible-tuesday">Tuesday 28.06</li>
-                                <li class="tab-link visible-wednesday" data-tab="visible-wednesday">Wednesday 29.06</li>
+                                <li class="tab-link visible-monday" data-tab="visible-monday">{{site.data.homepage.schedule_first_day}}</li>
+                                <li class="tab-link visible-tuesday" data-tab="visible-tuesday">{{site.data.homepage.schedule_second_day}}</li>
+                                <li class="tab-link visible-wednesday" data-tab="visible-wednesday">{{site.data.homepage.schedule_last_day}}</li>
                             </ul>
 
                             {% assign scheduleLeftWidth = 'col-md-2 col-sm-1 col-xs-12' %}

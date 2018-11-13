@@ -69,12 +69,12 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                             </div>
 
                             <div class="post-content">
-                                <p>Complete this form with your proposal to join as speaker to the next edition of the JBCNConf (27-29 of May).</p>
-                                <p>Call for paper will be closed the <b>1st of April</b> or as soon as the schedule is completed.</p>
+                                <p>Complete this form with your proposal to join as speaker to the next edition of the JBCNConf ({{site.data.homepage.from-to}}).</p>
+                                <p>Call for paper will be closed the <b>{{site.data.homepage.cfp_closing}}</b> or as soon as the schedule is completed.</p>
                                 <p>We accept 2 types:  Workshop and Talk.</p>
                                 <ul>
-                                    <li>Workshops will be 2 hours long on Wednesday. These should be in English.</li>
-                                    <li>Talks will be 50 minutes long on Monday and Tuesday and they must be in English.</li>
+                                    <li>Workshops will be 2 hours long on {{site.data.homepage.workshop_day_cfp}}. These should be in English.</li>
+                                    <li>Talks will be 50 minutes long on {{site.data.homepage.talks_days_cfp}} and they must be in English.</li>
                                 </ul>
                                 <p>The proposal will be reviewed for the organizers and we will try to send you a reply with our feedback.</p>
                                 <b>Subject of CFP has to be related to any of these topics:  </b>
@@ -142,8 +142,8 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                         <label for="paperDay">Do you MUST talk in a concrete day ? ( only for TALKS , Workshops are on Wednesday ):</label>
                                         <select class="form-control" id="paperDay">
                                             <option value="" selected>No, I don't care</option>
-                                            <option value="2018/06/11">Monday 27th</option>
-                                            <option value="2018/06/12">Tuesday 28th</option>
+                                            <option value="{{site.data.homepage.first_day_talks_send_to_cfp}}">{{site.data.homepage.first_day_talks}}</option>
+                                            <option value="{{site.data.homepage.second_day_talks_send_to_cfp}}">{{site.data.homepage.second_day_talks}}</option>
                                         </select>
                                         <p>We will try to fit your need, but please consider that with 60 speakers is very difficult to make all them happy. <br/>So, only request a concrete day if it's totally required.</p>
                                     </div>
@@ -196,14 +196,14 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                                 </select>
                                             </div>
                                             <div class="form-group">
-                                                <label for="speakersParty0">Are you going to attend to Speaker's dinner (Sunday 26th)?</label>
+                                                <label for="speakersParty0">Are you going to attend to Speaker's dinner ({{site.data.homepage.speakers_event_day}})?</label>
                                                 <select class="form-control" id="speakersParty0">
                                                     <option value="false" selected>no</option>
                                                     <option value="true">yes</option>
                                                 </select>
                                             </div>
                                             <div class="form-group">
-                                                <label for="attendeesParty0">Are you going to attend to the attendees Party (Monday 27th)?</label>
+                                                <label for="attendeesParty0">Are you going to attend to the attendees Party ({{site.data.homepage.attendees_party_day}})?</label>
                                                 <select class="form-control" id="attendeesParty0">
                                                     <option value="false" selected>no</option>
                                                     <option value="true">yes</option>
@@ -241,7 +241,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 <script type='text/javascript' src='{{ base }}/assets/js/tag-colors.js'></script>
 <script type="text/javascript">
     var speakers = [0];
-    var template = '<div class="panel-body" id="speaker::i::"><div class="form-group"><label for="senderName::i::">Full name *:</label><input required type="text" class="form-control" name="senderName::i::" id="senderName::i::"></div><div class="form-group"><label for="senderName::i::">Picture (URL) *:</label><input required type="text" class="form-control" name="picture::i::" id="picture::i::"></div><div class="form-group"><label for="email::i::">e-mail *:</label><input required type="text" class="form-control" name="email::i::" id="email::i::"></div><div class="form-group"><label for="twitter::i::">Twitter:</label><input type="text" class="form-control" name="twitter::i::" id="twitter::i::" placeholder="@my_account"></div><div class="form-group"><label for="web::i::">Web:</label><input type="text" class="form-control" name="web::i::" id="web::i::"></div><div class="form-group"><label for="biography::i::">Biography *:</label><textarea required class="form-control" name="biography::i::" id="biography::i::" rows="5"></textarea></div><div class="form-group"><label for="tshirtSize::i::">T-Shirt size:</label><select class="form-control" id="tshirtSize::i::"><option value="S" selected>S</option><option value="M">M</option><option value="L">L</option><option value="XL">XL</option><option value="XXL">XXL</option></select></div><div class="form-group"><label for="alergies::i::">Food allergies *:</label><div style="margin-left:7px;"><input type="radio" id="alergiesYes::i::" name="alergiesCombo::i::" value="yes"><label for="alergiesYes::i::">Yes</label><input type="radio" id="alergiesNo::i::" name="alergiesCombo::i::" value="no"><label for="alergiesNo::i::">No</label></div><input required type="text" class="form-control" name="alergies::i::" id="alergies::i::"></div><div class="form-group"><label for="speakersParty::i::">Are you going to attend to Speaker\'s dinner on Sunday 1::i::th?</label><select class="form-control" id="speakersParty::i::"><option value="true" selected>yes</option><option value="false">no</option></select></div><div class="form-group"><label for="attendeesParty::i::">Are you going to attend to the attendees Party on Monday 11th?</label><select class="form-control" id="attendeesParty::i::"><option value="true" selected>yes</option><option value="false">no</option></select></div><div class="form-group"><label for="travelCost::i::">Do you need help to cover your travel costs?</label><select class="form-control" id="travelCost::i::"><option value="false" selected>No</option><option value="true">Yes, I can\'t come without some help</option></select></div></div>';
+    var template = '<div class="panel-body" id="speaker::i::"><div class="form-group"><label for="senderName::i::">Full name *:</label><input required type="text" class="form-control" name="senderName::i::" id="senderName::i::"></div><div class="form-group"><label for="senderName::i::">Picture (URL) *:</label><input required type="text" class="form-control" name="picture::i::" id="picture::i::"></div><div class="form-group"><label for="email::i::">e-mail *:</label><input required type="text" class="form-control" name="email::i::" id="email::i::"></div><div class="form-group"><label for="twitter::i::">Twitter:</label><input type="text" class="form-control" name="twitter::i::" id="twitter::i::" placeholder="@my_account"></div><div class="form-group"><label for="web::i::">Web:</label><input type="text" class="form-control" name="web::i::" id="web::i::"></div><div class="form-group"><label for="biography::i::">Biography *:</label><textarea required class="form-control" name="biography::i::" id="biography::i::" rows="5"></textarea></div><div class="form-group"><label for="tshirtSize::i::">T-Shirt size:</label><select class="form-control" id="tshirtSize::i::"><option value="S" selected>S</option><option value="M">M</option><option value="L">L</option><option value="XL">XL</option><option value="XXL">XXL</option></select></div><div class="form-group"><label for="alergies::i::">Food allergies *:</label><div style="margin-left:7px;"><input type="radio" id="alergiesYes::i::" name="alergiesCombo::i::" value="yes"><label for="alergiesYes::i::">Yes</label><input type="radio" id="alergiesNo::i::" name="alergiesCombo::i::" value="no"><label for="alergiesNo::i::">No</label></div><input required type="text" class="form-control" name="alergies::i::" id="alergies::i::"></div><div class="form-group"><label for="speakersParty::i::">Are you going to attend to Speaker\'s dinner on Sunday 1::i::th?</label><select class="form-control" id="speakersParty::i::"><option value="true" selected>yes</option><option value="false">no</option></select></div><div class="form-group"><label for="attendeesParty::i::">Are you going to attend to the attendees Party on {{site.data.homepage.attendees_party_day}}?</label><select class="form-control" id="attendeesParty::i::"><option value="true" selected>yes</option><option value="false">no</option></select></div><div class="form-group"><label for="travelCost::i::">Do you need help to cover your travel costs?</label><select class="form-control" id="travelCost::i::"><option value="false" selected>No</option><option value="true">Yes, I can\'t come without some help</option></select></div></div>';
 
     function addSpeaker() {
         if (speakers.length < 2) {
@@ -332,7 +332,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
         }
 
         let paper = {
-            "edition":"2018"
+            "edition":"{{ site.data.homepage.year }}"
         };
 
         paper.title = jQuery("#paperTitle").val();
