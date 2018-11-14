@@ -40,46 +40,48 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                     forward to spin this technology from our hometown to the rest of the world.
                                 </p>
 
-                                <div class="eventstation-latest-posts-widget">
-                                    <ul>
+                                <div class="eventstation-latest-posts-widget row">
                                         {% for member in site.data.team.members %}
-                                        <li class="col-md-4">
+                                            {% assign mod = forloop.index0 | modulo:3 %}
+                                            {% assign style = "" %}
+                                            {% if mod == 0 and forloop.index0 != 0 %}
+                                                {% assign style = style | append: "; clear:both" %}
+                                            {% endif %}
 
-                                            <div class="image">
-                                                <img width="419" height="248"
-                                                     src="{{ base }}{{ member.image.url }}"
-                                                     class="attachment-eventstation-latest-posts-widget size-eventstation-latest-posts-widget wp-post-image"
-                                                     alt=""/>
-                                            </div>
+                                            <article class="col-md-4" style="{{ style }}">
 
-                                            <div class="desc" style="background:transparent">
+                                                <div class="image">
+                                                    <img width="419" height="248"
+                                                         src="{{ base }}{{ member.image.url }}"
+                                                         class="attachment-eventstation-latest-posts-widget size-eventstation-latest-posts-widget wp-post-image"
+                                                         alt=""/>
+                                                </div>
 
-                                                <ul class="post-information">
+                                                <div class="desc" style="background:transparent">
 
-                                                    {% if member.linkedin %}
-                                                    <li class="linkedin">
-                                                        <a target="_blank" href="{{member.linkedin}}">
-                                                            <i class="fa fa-linkedin"></i>
-                                                        </a>
-                                                    </li>
-                                                    {% endif %}
-                                                    {% if member.twitter %}
-                                                    <li class="twitter">
-                                                        <a target="_blank" href="{{member.twitter}}">
-                                                            <i class="fa fa-twitter"></i>
-                                                        </a>
-                                                    </li>
-                                                    {% endif %}
-                                                </ul>
+                                                    <ul class="post-information">
 
-                                                <h3>{{ member.name }} <br/> {{ member.position }}</h3>
-                                            </div>
+                                                        {% if member.linkedin %}
+                                                        <li class="linkedin">
+                                                            <a target="_blank" href="{{member.linkedin}}">
+                                                                <i class="fa fa-linkedin"></i>
+                                                            </a>
+                                                        </li>
+                                                        {% endif %}
+                                                        {% if member.twitter %}
+                                                        <li class="twitter">
+                                                            <a target="_blank" href="{{member.twitter}}">
+                                                                <i class="fa fa-twitter"></i>
+                                                            </a>
+                                                        </li>
+                                                        {% endif %}
+                                                    </ul>
 
-                                        </li>
+                                                    <h3>{{ member.name }} <br/> {{ member.position }}</h3>
+                                                </div>
+
+                                            </article>
                                         {% endfor %}
-
-
-                                    </ul>
                                 </div>
 
                             </div>
