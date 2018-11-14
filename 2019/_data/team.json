@@ -25,6 +25,18 @@
       }
     },
     {
+      "name": "Adela Tort",
+      "position": "Senior Java Developer",
+      "role": "Coordinator at Barcelona JUG.",
+      "twitter": "http://www.twitter.com/AdelaTort",
+      "linkedin": "https://www.linkedin.com/in/adelatort",
+      "bio": "Entusiasta por la tecnología, probando y aprendiendo siempre las últimas novedades. Me gusta intentar estar al día y ser capaz de diseñar y desarrollar aplicaciones aprovechando las últimas tecnologías del mercado.",
+      "image": {
+        "url": "/assets/img/team/adela.jpg",
+        "alt": "Adela Tort, Java Lover"
+      }
+    },
+    {
       "name": "José Guitart Ruíz",
       "position": "Java Engineer",
       "role": "Team Member Barcelona JUG.",
@@ -45,6 +57,30 @@
       "image": {
         "url": "/assets/img/team/sergio-ferraz.jpg",
         "alt": "Sergio Ferraz"
+      }
+    },
+    {
+      "name": "Tetiana Borys",
+      "position": "Software Engineer",
+      "role": "Barcelona JUG Conference contributor",
+      "bio": "I am a software developer specialized in Java. Passionate about innovations in coding, love working with open source technology.",
+      "linkedin": "https://www.linkedin.com/in/tetianaborys",
+      "twitter": "https://twitter.com/TetianaBorys",
+      "image": {
+        "url": "/assets/img/team/tetiana.jpg",
+        "alt": "Tetiana Borys"
+      }
+    },
+    {
+      "name": "Anna Kurman",
+      "position": "Software Sorceress",
+      "role": "Team Member Barcelona JUG Conference",
+      "bio": "A sorceress with black cat, a volleyball passionist and the sun lover",
+      "linkedin": "https://www.linkedin.com/in/anna-kurman-98894415/",
+      "twitter": "https://twitter.com/freyliis",
+      "image": {
+        "url": "/assets/img/team/anna-kurman.jpg",
+        "alt": "Anna Kurman"
       }
     },
     {
