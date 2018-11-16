@@ -1,0 +1,221 @@
+---
+layout: default
+title: JBCNConf - About the Organizers from Barcelona JUG
+bodyClass: home page-template-default page page-id-7 eventstation-class eventstation-shop-column-4 wpb-js-composer js-comp-ver-5.0.1 vc_responsive
+---
+{% include base.html %}
+
+<script>
+    (function(global){
+        var talk, currentTalkId;
+        var speakers = [];
+
+        var talkId = new URL(window.location).searchParams.get("id");
+
+        {% for talkCursor in site.data.talks.items %}
+                if({{ talkCursor.id }} == talkId){
+                    talk = {{ talkCursor | jsonify }};
+                }
+        {% endfor %}
+
+        {% for speaker in site.data.speakers.items %}
+                for (var i = 0; i < talk.speakers.length; i++) {
+                    if (talk.speakers[i] == "{{ speaker.ref }}") {
+                        speakers.push({{ speaker | jsonify }});
+                    }
+                }
+        {% endfor %}
+
+        global.TALK = talk;
+        global.SPEAKERS = speakers;
+    }(window));
+</script>
+
+<div class="content-heading">
+    <div class="container-fluid">
+        <div class="heading-navigation">
+            <i class="fa fa-address-book"></i>
+            <ul>
+                <li>Home</li>
+                <li>&#47;</li>
+                <li id="session-type"></li>
+            </ul>
+        </div>
+
+        <div class="heading-title">
+        </div>
+    </div>
+</div>
+
+<div class="site-sub-content clearfix">
+    <div class="container-fluid">
+        <div class="row alternative-row">
+            <div class="col-lg-9 col-sm-9 col-xs-12 site-content-left">
+                <div class="category-post-list post-list single-list">
+
+                    <article cass="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
+                        <div class="post-wrapper">
+                            <div class="post-header">
+                                <h2></h2>
+                                <h1 class="name"></h1>
+                                <h3 class="description"></h3>
+                            </div>
+                            <div id="post-content">
+                            </div>
+                        </div>
+                    </article>
+
+                    <article id="speaker-page-0"
+                             class="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
+                        <div class="post-wrapper">
+
+                            <div class="post-header">
+                                <h2></h2>
+                                <h1 class="name"></h1>
+                                <h3 class="description"></h3>
+                            </div>
+
+                            <div>
+                                <p>
+                                    <img class="speaker-image size-full wp-image-237 alignright"
+                                         src=""
+                                         width="200"
+                                         height="300"
+                                         data-image-base="{{base}}/">
+                                    <ul style="float:right; list-style:none" class="post-information">
+                                        <li class="linkedin" style="display:none">
+                                            <a target="_blank" href="#">
+                                                <i class="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li class="twitter" style="display:none">
+                                            <a target="_blank" href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="homepage" style="display:none">
+                                            <a target="_blank" href="#">
+                                                <i class="fa fa-rss"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <span class="biography">
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- fix layout issue with speakers with only 1 social link -->
+                    <div>&nbsp;</div>
+
+                    <article id="speaker-page-1"
+                             class="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
+                        <div class="post-wrapper">
+
+                            <div class="post-header">
+                                <h1 class="name"></h1>
+                                <h3 class="description"></h3>
+                            </div>
+
+                            <div>
+                                <p>
+                                    <img class="speaker-image size-full wp-image-237 alignright"
+                                         src=""
+                                         width="200"
+                                         height="300"
+                                         data-image-base="{{base}}/">
+                                    <ul style="float:right; list-style:none" class="post-information">
+                                        <li class="linkedin" style="display:none">
+                                            <a target="_blank" href="#">
+                                                <i class="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li class="twitter" style="display:none">
+                                            <a target="_blank" href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="homepage" style="display:none">
+                                            <a target="_blank" href="#">
+                                                <i class="fa fa-rss"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <span class="biography">
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <script>
+                        (function () {
+                            jQuery(document).ready(function ($) {
+
+                                console.log($('#session-type'));
+                                if (window.TALK.type == 'talk') {
+                                    $('#session-type').append('Talk');
+                                    console.log('Talk');
+                                } else {
+                                    $('#session-type').append('Workshop');
+                                    console.log('WS');
+                                }
+
+                                var updateSpeakerPage = function () {
+                                    for (var i = 0; i < window.SPEAKERS.length; i++) {
+                                        var speaker = window.SPEAKERS[i],
+                                            $container = $("#speaker-page-"+i),
+                                            updateSocialLink = function (social) {
+                                                if (speaker[social]) {
+                                                  var link = speaker[social]
+                                                  if (social === 'twitter') {
+                                                    link = link.replace('\@','')
+                                                    if (!link.startsWith('http://') && !link.startsWith('https://')) {
+                                                      link = 'http://twitter.com/' + link
+                                                    }
+                                                  }
+                                                  $container.find("." + social).show();
+                                                  $container.find("." + social + " a").attr("href", link);
+                                                }
+
+                                            };
+
+                                        $container.find('.speaker-image').attr("src", $('.speaker-image').attr("data-image-base") + speaker.image);
+                                        $container.find(".name").html(speaker.name);
+                                        $container.find(".biography").html(speaker.biography);
+                                        $container.find(".description").html(speaker.description);
+
+                                        updateSocialLink("linkedin");
+                                        updateSocialLink("twitter");
+                                        updateSocialLink("homepage");
+                                    }
+
+                                    var talk = window.TALK;
+                                    var title = '<h1 class="talk-title"> ' + talk.title + '</h1><i>(' + talk.type + ')<i>';
+                                    $('#post-content').append(title);
+                                    var abstract = '<p style="text-align: justify;" class="abstract"> ' + talk.abstract + ' </p>';
+                                    $('#post-content').append(abstract);
+
+                                    if (talk.video) {
+                                        var video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + talk.video + '"' +
+                                            'frameborder="0" autoplay encrypted-media allowfullscreen></iframe>';
+                                        $('#post-content').append(video);
+                                    }
+                                };
+                                updateSpeakerPage();
+                            });
+
+                        }());
+                    </script>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-3 col-xs-12 site-content-right rightsidebar fixedrightSidebar">
+                {% include sponsors-sidebar.html %}
+            </div>
+
+        </div>
+    </div>
+
+</div>
