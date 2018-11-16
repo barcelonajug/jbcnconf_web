@@ -67,9 +67,14 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                 <h2></h2>
                                 <h2>Send your Paper</h2>
                             </div>
-
+                            <!-- http://www.jbcnconf.com || http://www.barcelonajug.org  -->
+                            <div id="paperSuccess" class="alert alert-success hide" role="alert">
+                                Your request has been received. Thank you for your proposal!
+                                You will get a confirmation email in a few while
+                            </div>
+                            <div id="paperError" class="alert alert-danger hide" role="alert"></div>
                             <div class="post-content">
-                                <p>Complete this form with your proposal to join as speaker to the next edition of the JBCNConf ({{site.data.homepage.from-to}}).</p>
+                                <p>Complete <a href="#eachSpeaker"><b>this form</b></a> with your proposal to join as speaker to the next edition of the JBCNConf ({{site.data.homepage.from-to}}).</p>
                                 <p>Call for paper will be closed the  <span class="label tag label-info"><b>{{site.data.homepage.cfp_closing}}</b></span> or as soon as the schedule is completed.</p>
                                 We accept 2 types:  Workshop and Talk. <BR>
                                 <ul>
@@ -97,7 +102,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                         </ul></TD>
                                     </TR>
                                 </TABLE>
-                                Each speaker may send more than one CFP.<br>
+                                <span id="eachSpeaker">Each speaker may send more than one CFP.<br></span>
 
                                 <b>Which elements on your paper can improve your rating:</b>
                                 <ul>
@@ -110,12 +115,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 
                                 <p class="mandatory">* mandatory field</p>
 
-                                <!-- http://www.jbcnconf.com || http://www.barcelonajug.org  -->
-                                <div id="paperSuccess" class="alert alert-success hide" role="alert">
-                                    Your request has been received. Thank you for your proposal!
-                                    You will get a confirmation email in a few while
-                                </div>
-                                <div id="paperError" class="alert alert-danger hide" role="alert"></div>
+
                                 <form name="sendPaperForm" id="sendPaperForm" class="form">
                                     <div class="form-group">
                                         <label for="paperTitle">Title *:</label>
@@ -379,6 +379,8 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
             paper.senders.push(sender);
         }
         const ajaxUrl = "{{ site.data.configuration.cfpapi.url }}";
+
+
         jQuery.ajax({
                 method: "POST",
                 url: ajaxUrl,
