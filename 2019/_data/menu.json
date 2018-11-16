@@ -8,6 +8,10 @@
       "href": "/callForPapers.html"
     },
     {
+      "label": "Tickets",
+      "href":"/#Tickets"
+    },
+    {
       "label": "Talks",
       "href": "/talks.html"
     },
