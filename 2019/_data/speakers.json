@@ -1,3 +1,59 @@
 {
-  "items": []
+  "items": [
+    {
+      "name": "Venkat Subramaniam",
+      "description": "Java Champion, Founder of Agile Developer, Inc.",
+      "biography": "Dr. Venkat Subramaniam is an award-winning author, founder of Agile Developer, Inc., creator of agilelearner.com, and an instructional professor at the University of Houston. He has trained and mentored thousands of software developers in the US, Canada, Europe, and Asia, and is a regularly-invited speaker at several international conferences. Venkat helps his clients effectively apply and succeed with sustainable agile practices on their software projects. Venkat is a (co)author of multiple technical books, including the 2007 Jolt Productivity award winning book Practices of an Agile Developer. You can find a list of his books at agiledeveloper.com. You can reach him by email at venkats@agiledeveloper.com or on twitter at @venkat_s.",
+      "enabled": "1",
+      "homepage": "http://agiledeveloper.com",
+      "image": "assets/img/speakers/venkat-subramaniam.jpg",
+      "ref": "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ",
+      "url": "infoSpeaker.html?ref=VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ",
+      "twitter": "@venkat_s",
+    },
+    {
+      "biography": "Josh (@starbuxman) is the Spring Developer Advocate at Pivotal. Josh is a Java Champion, author of 6 books (including O'Reilly's Cloud Native Java: Designing Resilient Systems with Spring Boot, Spring Cloud, and Cloud Foundry and the upcoming Reactive Spring) and numerous best-selling video trainings (including Building Microservices with Spring Boot Livelessons with Spring Boot co-founder Phil Webb), and an open-source contributor (Spring Boot, Spring Integration, Spring Cloud, Activiti and Vaadin)",
+      "description": "Spring Developer Advocate at Pivotal and Java Champion",
+      "enabled": "1",
+      "homepage": "http://Start.Spring.IO",
+      "image": "assets/img/speakers/josh-1.jpg",
+      "name": "Josh Long",
+      "ref": "3803f8e428feb905178afd9025cfc53fb47a8abc",
+      "twitter": "@starbuxman",
+      "url": "infoSpeaker.html?ref=3803f8e428feb905178afd9025cfc53fb47a8abc"
+    },
+    {
+      "biography": "Włodek Krakowski is a team leader and independent technical trainer. Also a developer if the time allows. His main interest is taking care of delivering valued software from different perspectives. These are how people take care of quality of code, how people work together towards providing business value, how people help to grow each other and how people are managed. Currently he works for Ocado as IT Team Leader in Kraków, Poland and also delivers technical / refactoring trainings at www.refactoring.pl.",
+      "description": "Team leader at Ocado",
+      "enabled": "1",
+      "homepage": "http://www.refactoring.pl",
+      "image": "assets/img/speakers/wlodek.jpg",
+      "name": "Wlodek Krakowski",
+      "ref": "34e64a4d88094a0c4231d49cc0305d61d7b854ee",
+      "twitter": "@wlodekkr",
+      "url": "infoSpeaker.html?ref=34e64a4d88094a0c4231d49cc0305d61d7b854ee"
+    },
+    {
+      "biography": "Grzegorz Piwowarek is a hungry-for-knowledge lead system engineer at Casumo, a trainer at Bottega IT Minds, a blogger at 4comprehension.com, and an OS contributor.\n\nHe was professionally involved in projects involving systems integration, image recognition, and recently highly scalable distributed solutions - improving everything that he sees.\n",
+      "description": "Lead system engineer at Casumo",
+      "enabled": "1",
+      "homepage": "https://4comprehension.com",
+      "image": "assets/img/speakers/grzegorz-piwowarek.jpg",
+      "name": "Grzegorz Piwowarek",
+      "ref": "dcf4d5f83bc2dab51fb90922055352668da14a18",
+      "twitter": "@pivovarit",
+      "url": "infoSpeaker.html?ref=dcf4d5f83bc2dab51fb90922055352668da14a18"
+    },
+    {
+      "biography": "Mario is a principal software engineer at Red Hat working as project lead of Drools, the JBoss rule engine. He has a huge experience as Java developer having been involved in (and often leading) many enterprise level projects in several industries ranging from media companies to the financial sector. Among his interests there are also functional programming and Domain Specific Languages. By leveraging these 2 passions he created the open source library lambdaj with the purposes of providing an internal Java DSL for manipulating collections and allowing a bit of functional programming in Java. He is also a Java Champion and the co-author of \"Java 8 in Action\" published by Manning.\n",
+      "description": "Principal software engineer at Red Hat",
+      "enabled": "1",
+      "homepage": "",
+      "image": "assets/img/speakers/mario-fusco.png",
+      "name": "Mario Fusco",
+      "ref": "16fd0826550372e61a8c17d3acdf30d0871de728",
+      "twitter": "@mariofusco",
+      "url": "infoSpeaker.html?ref=16fd0826550372e61a8c17d3acdf30d0871de728"
+    }
+  ]
 }
