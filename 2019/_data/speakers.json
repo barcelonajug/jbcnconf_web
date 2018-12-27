@@ -24,7 +24,7 @@
     },
     {
       "biography": "Martin is a Java Champion with over 2 decades of experience building complex and high-performance computing systems. He is most recently known for his work on Aeron and SBE. Previously at LMAX he was a co-founder and CTO when he created the Disruptor. Prior to LMAX Martin worked for Betfair, content companies with the world largest product catalogues, and was a lead on some of the most significant C++ and Java systems of the 1990s.",
-      "description": "Java Champion & high-performance & low-latency computing specialist",
+      "description": "Java Champion, high-performance & low-latency computing specialist",
       "enabled": "1",
       "homepage": "",
       "image": "assets/img/speakers/martin-thompson.png",
