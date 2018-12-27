@@ -13,17 +13,15 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
         var talkId = new URL(window.location).searchParams.get("id");
 
         {% for talkCursor in site.data.talks.items %}
-                if("{{ talkCursor.id }}".toLowerCase() === talkId.toLowerCase()){
-                    talk = {{ talkCursor | jsonify }};
-                }
+            if("{{ talkCursor.id }}".toLowerCase() === talkId.toLowerCase()){
+                talk = {{ talkCursor | jsonify }};
+            }
         {% endfor %}
 
         {% for speaker in site.data.speakers.items %}
-                for (var i = 0; i < talk.speakers.length; i++) {
-                    if (talk.speakers[i] == "{{ speaker.ref }}") {
-                        speakers.push({{ speaker | jsonify }});
-                    }
-                }
+            if (talk.speakers[0] === "{{ speaker.ref }}" || talk.speakers[1] === "{{ speaker.ref }}") {
+                speakers.push({{ speaker | jsonify }});
+            }
         {% endfor %}
 
         global.TALK = talk;
