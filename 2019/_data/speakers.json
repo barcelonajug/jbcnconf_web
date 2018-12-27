@@ -23,6 +23,17 @@
       "url": "infoSpeaker.html?ref=3803f8e428feb905178afd9025cfc53fb47a8abc"
     },
     {
+      "biography": "Martin is a Java Champion with over 2 decades of experience building complex and high-performance computing systems. He is most recently known for his work on Aeron and SBE. Previously at LMAX he was a co-founder and CTO when he created the Disruptor. Prior to LMAX Martin worked for Betfair, content companies with the world largest product catalogues, and was a lead on some of the most significant C++ and Java systems of the 1990s.",
+      "description": "Java Champion, high-performance & low-latency computing specialist",
+      "enabled": "1",
+      "homepage": "",
+      "image": "assets/img/speakers/martin-thompson.png",
+      "name": "Martin Thompson",
+      "ref": "8f62b44cd97764484d759b364f5bf32e558a5edd",
+      "twitter": "@mjpt777",
+      "url": "infoSpeaker.html?ref=8f62b44cd97764484d759b364f5bf32e558a5edd"
+    },
+    {
       "biography": "Włodek Krakowski is a team leader and independent technical trainer. Also a developer if the time allows. His main interest is taking care of delivering valued software from different perspectives. These are how people take care of quality of code, how people work together towards providing business value, how people help to grow each other and how people are managed. Currently he works for Ocado as IT Team Leader in Kraków, Poland and also delivers technical / refactoring trainings at www.refactoring.pl.",
       "description": "Team leader at Ocado",
       "enabled": "1",

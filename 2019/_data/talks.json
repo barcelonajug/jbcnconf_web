@@ -15,7 +15,7 @@
       ],
       "title": "OOP v̶s̶ and FP ",
       "type": "talk",
-      "id": 12345
+      "id": "12345"
     },
     {
       "abstract": "Poker Hands are are put into sequential order and the player who holds the highest one wins. Let’s make fun of it then and perform some refactorings of code that identifies what poker figure given player holds. We will transform a set of nested if-else statements into a nice chain of responsibility classes (Straight Flush, Four of a Kind, Full House, ...) . This way the chain of classes put into sequential order will figure out the score given player holds. Proxy design patterns will come into the picture as well.\n\nAll I can promise during this refactoring workshop is definitely no bluffing - just pure focus on code transformations. BTW : Did you know that real poker players are bluffing very rarely…? \n\nPrerequisite : become acquainted with poker rules if you haven’t played it so far, as business perspective and understanding existing code is the initial step for any refactoring. And don’t forget to install IntelliJ IDE  - our master refactoring tool!\n",
@@ -30,7 +30,7 @@
       ],
       "title": "Poker Hands - Refactoring into Chain of Responsibility",
       "type": "workshop",
-      "id": 123456
+      "id": "123456"
     },
     {
       "abstract": "Microservices and big-data increasingly confront us with the limitations of traditional input/output. In traditional IO, work that is IO-bound dominates threads. This wouldn't be such a big deal if we could add more threads cheaply, but threads are expensive on the JVM, and most other platforms. Even if threads were cheap and infinitely scalable, we'd still be confronted with the faulty nature of networks. Things break, and they often do so in subtle, but non-exceptional ways. Traditional approaches to integration bury the faulty nature of networks behind overly simplifying abstractions. We need something better.\n\nSpring Framework 5 is here ! It introduces the Spring developer to a growing world of support for reactive programming across the Spring portfolio, starting with a new Netty-based web runtime, component model and module called Spring WebFlux, and then continuing to Spring Data Kay, Spring Security 5.0, Spring Boot 2.0 and Spring Cloud Finchley. Sure, it sounds like a lot, but don't worry! Join me, your guide, Spring developer advocate Josh Long, and we'll explore the wacky, wonderful world of Reactive Spring together.\n\n",
@@ -49,7 +49,7 @@
       ],
       "title": "Reactive Spring",
       "type": "talk",
-      "id": 1234567
+      "id": "1234567"
     },
     {
       "abstract": "As high-level programming languages users, we love bold promises of getting all our problems solved just by adding a few annotations. \n\nThose few annotations come often bundled with other magical techniques like classpath scanning or dynamic proxies… and creep into our domain models contributing to long-term maintainability issues... and/or consultancy and premium enterprise support costs.\n\nIn this session, we’ll have a look at the cons of adopting invasive frameworks and how we can minimize the problems they cause.",
@@ -64,6 +64,21 @@
       ],
       "title": "Fantastic Frameworks and How to Avoid Them",
       "type": "talk",
-      "id": 12345678
+      "id": "12345678"
+    },
+    {
+      "abstract": "Distributed and concurrent systems can be considered a social group that collaborate to achieve collective goals. In order to collaborate a system of rules must be applied that affords good hygiene, fault tolerance, and effective communication to coordinate, share knowledge, and provide feedback in a polite trusted manner. These rules form a number of protocols which enable the group to act as a system which is greater than the sum of the individual components.\n\nIn this talk we will explore the history of protocols and their application when building distributed systems.",
+      "level": "middle",
+      "speakers": [
+        "8f62b44cd97764484d759b364f5bf32e558a5edd"
+      ],
+      "tags": [
+        "Design",
+        "Distributed Systems",
+        "Concurrency"
+      ],
+      "title": "Interaction Protocols: It's all about good manners",
+      "type": "talk",
+      "id": "1545923827582"
     }
   ]}
