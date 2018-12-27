@@ -1,2 +1,22 @@
 {
+  "gold": [
+    {
+      "name": "clever cloud",
+      "href": "https://clever-cloud.com",
+      "image": {
+        "src": "/assets/img/sponsors/clever-cloud.png",
+        "alt": "clever cloud"
+      }
+    }
+  ],
+  "supporters": [
+    {
+      "name": "Barcelona JUG",
+      "href": "https://www.barcelonajug.org/",
+      "image": {
+        "src": "/assets/img/logos/logo_bicolor_blog_barcelonajug.png",
+        "alt": "Barcelona Java Users Group"
+      }
+    }
+  ]
 }
