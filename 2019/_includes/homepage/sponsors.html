@@ -13,46 +13,99 @@
     <div class="wpb_column vc_column_container vc_col-sm-12">
 
         {% if site.data.sponsors.diamond %}
-        <div class="vc_column-inner" style="text-align: center;">
+            <div class="vc_column-inner" style="text-align: center;">
 
-            <div class="sponsor-diamond">
-                <h1>Cosmos</h1>
-                <a href="{{ site.data.sponsors.diamond.href }}" target="_blank" title="{{ site.data.sponsors.diamond.name }}">
-                    <img src="{{base}}{{ site.data.sponsors.diamond.image.src }}" style="max-height:100%; max-width:100%"
-                         class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
-                         alt="{{ site.data.sponsors.diamond.image.alt }}"/>
-                </a>
+                <div class="sponsor-diamond">
+                    <h1>Cosmos</h1>
+                    <a href="{{ site.data.sponsors.diamond.href }}" target="_blank" title="{{ site.data.sponsors.diamond.name }}">
+                        <img src="{{base}}{{ site.data.sponsors.diamond.image.src }}" style="max-height:100%; max-width:100%"
+                             class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
+                             alt="{{ site.data.sponsors.diamond.image.alt }}"/>
+                    </a>
+                </div>
             </div>
-        </div>
         {% endif %}
 
-        <div class="vc_column-inner" style="text-align: center;">
+        {% if site.data.sponsors.galaxy-premium %}
+            <div class="vc_column-inner" style="text-align: center;">
+                    <hr class="sponsor-separator-gold sponsor-separator"/>
+                    <h1 class="sponsor-gold">Galaxy - Premium</h1>
 
-            {% if site.data.sponsors.gold %}
-                <hr class="sponsor-separator-gold sponsor-separator"/>
-                <h1 class="sponsor-gold">Galaxy</h1>
+                    <div class="post-related-posts row">
+                        {% for sponsor in site.data.sponsors.galaxy-premium %}
+                            {% assign mod = forloop.index0 | modulo:3 %}
+                            {% assign style = "line-height: 200px" %}
+                            {% if mod == 0 %}
+                                {% assign style = style | append: "; clear:both" %}
+                            {% endif %}
+                            <div class="item col-sm-6 col-xs-9" style="{{ style }}">
+                                <div class="image align-middle">
+                                    <a href="{{ sponsor.href }}" target="_blank" title="{{ sponsor.name }}"
+                                       style=" vertical-align:middle;">
+                                        <img src="{{ base }}{{ sponsor.image.src }}" style="max-height:85%; max-width:85%"
+                                             class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
+                                             alt="{{ sponsor.image.alt }}"/></a>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+            </div>
+        {% endif %}
 
-                <div class="post-related-posts row">
-                    {% for sponsor in site.data.sponsors.gold %}
-                      {% assign mod = forloop.index0 | modulo:3 %}
-                      {% assign style = "line-height: 200px" %}
-                      {% if mod == 0 %}
-                        {% assign style = style | append: "; clear:both" %}
-                      {% endif %}
-                      <div class="item col-sm-4 col-xs-12" style="{{ style }}">
-                          <div class="image align-middle">
-                              <a href="{{ sponsor.href }}" target="_blank" title="{{ sponsor.name }}"
-                                 style=" vertical-align:middle;">
-                                  <img src="{{ base }}{{ sponsor.image.src }}" style="max-height:85%; max-width:85%"
-                                       class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
-                                       alt="{{ sponsor.image.alt }}"/></a>
-                          </div>
-                      </div>
-                    {% endfor %}
-                </div>
-            {% endif %}
+        {% if site.data.sponsors.galaxy-regular %}
+            <div class="vc_column-inner" style="text-align: center;">
+                    <hr class="sponsor-separator-gold sponsor-separator"/>
+                    <h1 class="sponsor-gold">Galaxy - Regular</h1>
 
-            {% if site.data.sponsors.silver %}
+                    <div class="post-related-posts row">
+                        {% for sponsor in site.data.sponsors.galaxy-regular %}
+                            {% assign mod = forloop.index0 | modulo:3 %}
+                            {% assign style = "line-height: 200px" %}
+                            {% if mod == 0 %}
+                                {% assign style = style | append: "; clear:both" %}
+                            {% endif %}
+                            <div class="item col-sm-5 col-xs-8" style="{{ style }}">
+                                <div class="image align-middle">
+                                    <a href="{{ sponsor.href }}" target="_blank" title="{{ sponsor.name }}"
+                                       style=" vertical-align:middle;">
+                                        <img src="{{ base }}{{ sponsor.image.src }}" style="max-height:85%; max-width:85%"
+                                             class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
+                                             alt="{{ sponsor.image.alt }}"/></a>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+            </div>
+        {% endif %}
+
+        {% if site.data.sponsors.galaxy-basic %}
+            <div class="vc_column-inner" style="text-align: center;">
+                    <hr class="sponsor-separator-gold sponsor-separator"/>
+                    <h1 class="sponsor-gold">Galaxy - Basic</h1>
+
+                    <div class="post-related-posts row">
+                        {% for sponsor in site.data.sponsors.galaxy-basic %}
+                            {% assign mod = forloop.index0 | modulo:3 %}
+                            {% assign style = "line-height: 200px" %}
+                            {% if mod == 0 %}
+                                {% assign style = style | append: "; clear:both" %}
+                            {% endif %}
+                            <div class="item col-sm-4 col-xs-7" style="{{ style }}">
+                                  <div class="image align-middle">
+                                      <a href="{{ sponsor.href }}" target="_blank" title="{{ sponsor.name }}"
+                                         style=" vertical-align:middle;">
+                                          <img src="{{ base }}{{ sponsor.image.src }}" style="max-height:85%; max-width:85%"
+                                               class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
+                                               alt="{{ sponsor.image.alt }}"/></a>
+                                  </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+            </div>
+        {% endif %}
+
+        {% if site.data.sponsors.silver %}
+            <div class="vc_column-inner" style="text-align: center;">
                 <hr class="sponsor-separator"/>
 
                 <h1 class="sponsor-silver">Star</h1>
@@ -71,9 +124,11 @@
                     </div>
                     {% endfor %}
                 </div>
-            {% endif %}
+            </div>
+        {% endif %}
 
-            {% if site.data.sponsors.supporters %}
+        {% if site.data.sponsors.supporters %}
+            <div class="vc_column-inner" style="text-align: center;">
                 <hr class="sponsor-separator"/>
 
                 <h1 class="sponsor-supporter">Supporters</h1>
@@ -91,11 +146,11 @@
                     </div>
                     {% endfor %}
                 </div>
-            {% endif %}
+            </div>
+        {% endif %}
 
-            <hr class="sponsor-separator"/>
-
-        </div>
+        <hr class="sponsor-separator"/>
 
     </div>
+
 </div>
