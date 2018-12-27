@@ -65,5 +65,20 @@
       "title": "Fantastic Frameworks and How to Avoid Them",
       "type": "talk",
       "id": 12345678
+    },
+    {
+      "abstract": "Distributed and concurrent systems can be considered a social group that collaborate to achieve collective goals. In order to collaborate a system of rules must be applied that affords good hygiene, fault tolerance, and effective communication to coordinate, share knowledge, and provide feedback in a polite trusted manner. These rules form a number of protocols which enable the group to act as a system which is greater than the sum of the individual components.\n\nIn this talk we will explore the history of protocols and their application when building distributed systems.",
+      "id": 1545923827582,
+      "level": "middle",
+      "speakers": [
+        "8f62b44cd97764484d759b364f5bf32e558a5edd"
+      ],
+      "tags": [
+        "Design",
+        "Distributed Systems",
+        "Concurrency"
+      ],
+      "title": "Interaction Protocols: It's all about good manners",
+      "type": "talk"
     }
   ]}
