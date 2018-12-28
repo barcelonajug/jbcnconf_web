@@ -9,8 +9,7 @@
       "image": "assets/img/speakers/venkat-subramaniam.jpg",
       "ref": "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ",
       "url": "infoSpeaker.html?ref=VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ",
-      "twitter": "@venkat_s",
-      "linkedin": null
+      "twitter": "@venkat_s"
     },
     {
       "biography": "Josh (@starbuxman) is the Spring Developer Advocate at Pivotal. Josh is a Java Champion, author of 6 books (including O'Reilly's Cloud Native Java: Designing Resilient Systems with Spring Boot, Spring Cloud, and Cloud Foundry and the upcoming Reactive Spring) and numerous best-selling video trainings (including Building Microservices with Spring Boot Livelessons with Spring Boot co-founder Phil Webb), and an open-source contributor (Spring Boot, Spring Integration, Spring Cloud, Activiti and Vaadin)",
@@ -21,8 +20,7 @@
       "name": "Josh Long",
       "ref": "3803f8e428feb905178afd9025cfc53fb47a8abc",
       "twitter": "@starbuxman",
-      "url": "infoSpeaker.html?ref=3803f8e428feb905178afd9025cfc53fb47a8abc",
-      "linkedin": null
+      "url": "infoSpeaker.html?ref=3803f8e428feb905178afd9025cfc53fb47a8abc"
     },
     {
       "biography": "Martin is a Java Champion with over 2 decades of experience building complex and high-performance computing systems. He is most recently known for his work on Aeron and SBE. Previously at LMAX he was a co-founder and CTO when he created the Disruptor. Prior to LMAX Martin worked for Betfair, content companies with the world largest product catalogues, and was a lead on some of the most significant C++ and Java systems of the 1990s.",
@@ -33,8 +31,7 @@
       "name": "Martin Thompson",
       "ref": "8f62b44cd97764484d759b364f5bf32e558a5edd",
       "twitter": "@mjpt777",
-      "url": "infoSpeaker.html?ref=8f62b44cd97764484d759b364f5bf32e558a5edd",
-      "linkedin": null
+      "url": "infoSpeaker.html?ref=8f62b44cd97764484d759b364f5bf32e558a5edd"
     },
     {
       "biography": "Włodek Krakowski is a team leader and independent technical trainer. Also a developer if the time allows. His main interest is taking care of delivering valued software from different perspectives. These are how people take care of quality of code, how people work together towards providing business value, how people help to grow each other and how people are managed. Currently he works for Ocado as IT Team Leader in Kraków, Poland and also delivers technical / refactoring trainings at www.refactoring.pl.",
@@ -57,8 +54,7 @@
       "name": "Grzegorz Piwowarek",
       "ref": "dcf4d5f83bc2dab51fb90922055352668da14a18",
       "twitter": "@pivovarit",
-      "url": "infoSpeaker.html?ref=dcf4d5f83bc2dab51fb90922055352668da14a18",
-      "linkedin": null
+      "url": "infoSpeaker.html?ref=dcf4d5f83bc2dab51fb90922055352668da14a18"
     },
     {
       "biography": "Mario is a principal software engineer at Red Hat working as project lead of Drools, the JBoss rule engine. He has a huge experience as Java developer having been involved in (and often leading) many enterprise level projects in several industries ranging from media companies to the financial sector. Among his interests there are also functional programming and Domain Specific Languages. By leveraging these 2 passions he created the open source library lambdaj with the purposes of providing an internal Java DSL for manipulating collections and allowing a bit of functional programming in Java. He is also a Java Champion and the co-author of \"Java 8 in Action\" published by Manning.\n",
@@ -69,8 +65,7 @@
       "name": "Mario Fusco",
       "ref": "16fd0826550372e61a8c17d3acdf30d0871de728",
       "twitter": "@mariofusco",
-      "url": "infoSpeaker.html?ref=16fd0826550372e61a8c17d3acdf30d0871de728",
-      "linkedin": null
+      "url": "infoSpeaker.html?ref=16fd0826550372e61a8c17d3acdf30d0871de728"
     }
   ]
 }
