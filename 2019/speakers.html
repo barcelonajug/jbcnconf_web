@@ -72,14 +72,16 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                         </div>
                                         <div class="speaker-item-body" style="height:195px">
                                             <ul class="speaker-item-information">
+ 
                                                 {% capture homepage %}{{speaker.homepage| strip}}{% endcapture %}
                                                 {% if homepage.size > 0 %}
-                                                <li class="">
+                                                  <li>
                                                     <a target="_blank" href="{{homepage}}">
-                                                        <i class="fa fa-rss"></i>
+                                                      <i class="fa fa-rss"></i>
                                                     </a>
-                                                </li>
+                                                  </li>
                                                 {% endif %}
+ 
                                                 {% if speaker.twitter and speaker.twitter.size > 0 %}
                                                   {% assign twitter = '' %}
                                                   {% capture twitter %}{{speaker.twitter| replace: "@", "" }}{% endcapture %}
@@ -88,13 +90,22 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                                   {% else %}
                                                     {% capture twitter %}{{ twitter | prepend: "http://twitter.com/" }}{% endcapture %}
                                                   {% endif %}
-
-                                                <li class="twitter">
+                                                  <li>
                                                     <a target="_blank" href="{{twitter}}">
                                                         <i class="fa fa-twitter"></i>
                                                     </a>
-                                                </li>
+                                                  </li>
                                                 {% endif %}
+
+                                                {% capture linkedin %}{{speaker.linkedin| strip}}{% endcapture %}
+                                                {% if linkedin.size > 0 %}
+                                                  <li>
+                                                    <a target="_blank" href="{{linkedin}}">
+                                                      <i class="fa fa-linkedin"></i>
+                                                    </a>
+                                                  </li>
+                                                {% endif %}
+
                                             </ul>
                                             <div class="name-job">
                                                 <a href="{{ base }}/{{ speaker.url }}">
