@@ -9,7 +9,7 @@
       "image": "assets/img/speakers/venkat-subramaniam.jpg",
       "ref": "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ",
       "url": "infoSpeaker.html?ref=VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ",
-      "twitter": "@venkat_s",
+      "twitter": "@venkat_s"
     },
     {
       "biography": "Josh (@starbuxman) is the Spring Developer Advocate at Pivotal. Josh is a Java Champion, author of 6 books (including O'Reilly's Cloud Native Java: Designing Resilient Systems with Spring Boot, Spring Cloud, and Cloud Foundry and the upcoming Reactive Spring) and numerous best-selling video trainings (including Building Microservices with Spring Boot Livelessons with Spring Boot co-founder Phil Webb), and an open-source contributor (Spring Boot, Spring Integration, Spring Cloud, Activiti and Vaadin)",
@@ -42,7 +42,8 @@
       "name": "Wlodek Krakowski",
       "ref": "34e64a4d88094a0c4231d49cc0305d61d7b854ee",
       "twitter": "@wlodekkr",
-      "url": "infoSpeaker.html?ref=34e64a4d88094a0c4231d49cc0305d61d7b854ee"
+      "url": "infoSpeaker.html?ref=34e64a4d88094a0c4231d49cc0305d61d7b854ee",
+      "linkedin": "https://www.linkedin.com/in/wlodek-krakowski/"
     },
     {
       "biography": "Grzegorz Piwowarek is a hungry-for-knowledge lead system engineer at Casumo, a trainer at Bottega IT Minds, a blogger at 4comprehension.com, and an OS contributor.\n\nHe was professionally involved in projects involving systems integration, image recognition, and recently highly scalable distributed solutions - improving everything that he sees.\n",

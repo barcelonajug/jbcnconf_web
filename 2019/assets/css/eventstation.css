@@ -55,7 +55,7 @@ body {
 }
 
 a, a:visited {
-    color: #6a6a6a;
+    color: #1A9ADA;
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
     -o-transition: 0.2s;
@@ -66,7 +66,7 @@ a, a:visited {
 
 a:hover, a:focus {
     text-decoration: none;
-    color: #1A9ADA;
+    color: #56c6e6;
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
     -o-transition: 0.2s;
@@ -5885,7 +5885,7 @@ blockquote.right {
 }
 
 .pricing-table.pricing-table-modern .pricing-table-bottom {
-    background: #E9E9E9;
+    background: #0064c4;
     padding: 17px 17px;
     text-align: center;
 }
