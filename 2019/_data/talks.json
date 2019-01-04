@@ -1,11 +1,10 @@
 {
   "items": [
     {
+      "id": "5c19647038da16778cb20fc5",
+      "title": "OOP v̶s̶ and FP ",
       "abstract": "Object Oriented Programming dominated the software development landscape in the last decade of XX century and in the first of XXI. In more recent years, even as a consequence of the advent of multicore CPUs, Functional Programming and its principles started attracting more interest, becoming at least equally relevant in our industry. The biggest mistake made by programmers nowadays is considering OOP and FP as two mutually exclusive paradigms. This misconception is also the product of a misunderstanding about what OOP actually means and its founding principles. The biggest pros of OOP are polymorphism and encapsulation while FP strengths are immutabilty and its declarative style, but these features are orthogonal and there's no reason why they cannot coexist in the same program. The final purpose of this talk is twofold: debunking the misconceptions on OOP and showing that OOP and FP are actually complementary techniques that can happily coexist in the same codebase. It is the duty of experienced developers to fill their toolbox with both OOP and FP tools and to know from time to time how to choose and employ the tool that is the best fit for the problem at hand.",
-      "level": "middle",
-      "speakers": [
-        "16fd0826550372e61a8c17d3acdf30d0871de728"
-      ],
+      "type": "talk",
       "tags": [
         "Java",
         "Functional Programming",
@@ -13,31 +12,31 @@
         "Design pattern",
         "Best practices"
       ],
-      "title": "OOP v̶s̶ and FP ",
-      "type": "talk",
-      "id": "12345"
-    },
-    {
-      "abstract": "Poker Hands are are put into sequential order and the player who holds the highest one wins. Let’s make fun of it then and perform some refactorings of code that identifies what poker figure given player holds. We will transform a set of nested if-else statements into a nice chain of responsibility classes (Straight Flush, Four of a Kind, Full House, ...) . This way the chain of classes put into sequential order will figure out the score given player holds. Proxy design patterns will come into the picture as well.\n\nAll I can promise during this refactoring workshop is definitely no bluffing - just pure focus on code transformations. BTW : Did you know that real poker players are bluffing very rarely…? \n\nPrerequisite : become acquainted with poker rules if you haven’t played it so far, as business perspective and understanding existing code is the initial step for any refactoring. And don’t forget to install IntelliJ IDE  - our master refactoring tool!\n",
       "level": "middle",
       "speakers": [
-        "34e64a4d88094a0c4231d49cc0305d61d7b854ee"
-      ],
+        "16fd0826550372e61a8c17d3acdf30d0871de728"
+      ]
+    },
+    {
+      "id": "5c19651d38da16778cb20fc6",
+      "title": "Poker Hands - Refactoring into Chain of Responsibility",
+      "abstract": "Poker Hands are are put into sequential order and the player who holds the highest one wins. Let’s make fun of it then and perform some refactorings of code that identifies what poker figure given player holds. We will transform a set of nested if-else statements into a nice chain of responsibility classes (Straight Flush, Four of a Kind, Full House, ...) . This way the chain of classes put into sequential order will figure out the score given player holds. Proxy design patterns will come into the picture as well.\n\nAll I can promise during this refactoring workshop is definitely no bluffing - just pure focus on code transformations. BTW : Did you know that real poker players are bluffing very rarely…? \n\nPrerequisite : become acquainted with poker rules if you haven’t played it so far, as business perspective and understanding existing code is the initial step for any refactoring. And don’t forget to install IntelliJ IDE - our master refactoring tool!",
+      "type": "workshop",
       "tags": [
         "Refactoring",
         "Design Patterns",
         "Java"
       ],
-      "title": "Poker Hands - Refactoring into Chain of Responsibility",
-      "type": "workshop",
-      "id": "123456"
-    },
-    {
-      "abstract": "Microservices and big-data increasingly confront us with the limitations of traditional input/output. In traditional IO, work that is IO-bound dominates threads. This wouldn't be such a big deal if we could add more threads cheaply, but threads are expensive on the JVM, and most other platforms. Even if threads were cheap and infinitely scalable, we'd still be confronted with the faulty nature of networks. Things break, and they often do so in subtle, but non-exceptional ways. Traditional approaches to integration bury the faulty nature of networks behind overly simplifying abstractions. We need something better.\n\nSpring Framework 5 is here ! It introduces the Spring developer to a growing world of support for reactive programming across the Spring portfolio, starting with a new Netty-based web runtime, component model and module called Spring WebFlux, and then continuing to Spring Data Kay, Spring Security 5.0, Spring Boot 2.0 and Spring Cloud Finchley. Sure, it sounds like a lot, but don't worry! Join me, your guide, Spring developer advocate Josh Long, and we'll explore the wacky, wonderful world of Reactive Spring together.\n\n",
       "level": "middle",
       "speakers": [
-        "3803f8e428feb905178afd9025cfc53fb47a8abc"
-      ],
+        "34e64a4d88094a0c4231d49cc0305d61d7b854ee"
+      ]
+    },
+    {
+      "id": "5c196dd738da165f64820b29",
+      "title": "Reactive Spring",
+      "abstract": "Microservices and big-data increasingly confront us with the limitations of traditional input/output. In traditional IO, work that is IO-bound dominates threads. This wouldn't be such a big deal if we could add more threads cheaply, but threads are expensive on the JVM, and most other platforms. Even if threads were cheap and infinitely scalable, we'd still be confronted with the faulty nature of networks. Things break, and they often do so in subtle, but non-exceptional ways. Traditional approaches to integration bury the faulty nature of networks behind overly simplifying abstractions. We need something better.\n\nSpring Framework 5 is here ! It introduces the Spring developer to a growing world of support for reactive programming across the Spring portfolio, starting with a new Netty-based web runtime, component model and module called Spring WebFlux, and then continuing to Spring Data Kay, Spring Security 5.0, Spring Boot 2.0 and Spring Cloud Finchley. Sure, it sounds like a lot, but don't worry! Join me, your guide, Spring developer advocate Josh Long, and we'll explore the wacky, wonderful world of Reactive Spring together.\n\n",
+      "type": "talk",
       "tags": [
         "java",
         "reactive",
@@ -47,38 +46,70 @@
         "postgresql",
         "rsocket"
       ],
-      "title": "Reactive Spring",
-      "type": "talk",
-      "id": "1234567"
-    },
-    {
-      "abstract": "As high-level programming languages users, we love bold promises of getting all our problems solved just by adding a few annotations. \n\nThose few annotations come often bundled with other magical techniques like classpath scanning or dynamic proxies… and creep into our domain models contributing to long-term maintainability issues... and/or consultancy and premium enterprise support costs.\n\nIn this session, we’ll have a look at the cons of adopting invasive frameworks and how we can minimize the problems they cause.",
       "level": "middle",
       "speakers": [
-        "dcf4d5f83bc2dab51fb90922055352668da14a18"
+        "3803f8e428feb905178afd9025cfc53fb47a8abc"
+      ]
+    },
+    {
+      "id": "5c196e0238da165f64820b2a",
+      "title": "The Istio Workshop",
+      "abstract": "The first generation of microservices was primarily shaped by Netflix OSS and leveraged by numerous Spring Cloud annotations all throughout your business logic. The next generation of microservices will leverage sidecars and a service mesh. In this session, we will give you a taste of Envoy and Istio, two open source projects that will change the way you write distributed Java applications on Kubernetes. Check out how we use Envoy and Istio to deal with traffic shaping, network fault-injection, A/B testing, dark launches, mirroring, and much more.",
+      "type": "workshop",
+      "tags": [
+        "microservices",
+        "java",
+        "cloud native",
+        "service mesh"
       ],
+      "level": "middle",
+      "speakers": [
+        "c5224c12852709f7ae60fa80d93f46fd2d64a5c4"
+      ]
+    },
+    {
+      "id": "5c196e1138da165f64820b2b",
+      "title": "Fantastic Frameworks and How to Avoid Them",
+      "abstract": "As high-level programming languages users, we love bold promises of getting all our problems solved just by adding a few annotations. \n\nThose few annotations come often bundled with other magical techniques like classpath scanning or dynamic proxies… and creep into our domain models contributing to long-term maintainability issues... and/or consultancy and premium enterprise support costs.\n\nIn this session, we’ll have a look at the cons of adopting invasive frameworks and how we can minimize the problems they cause.",
+      "type": "talk",
       "tags": [
         "Java",
         "Architecture",
         "Methodology"
       ],
-      "title": "Fantastic Frameworks and How to Avoid Them",
-      "type": "talk",
-      "id": "12345678"
-    },
-    {
-      "abstract": "Distributed and concurrent systems can be considered a social group that collaborate to achieve collective goals. In order to collaborate a system of rules must be applied that affords good hygiene, fault tolerance, and effective communication to coordinate, share knowledge, and provide feedback in a polite trusted manner. These rules form a number of protocols which enable the group to act as a system which is greater than the sum of the individual components.\n\nIn this talk we will explore the history of protocols and their application when building distributed systems.",
       "level": "middle",
       "speakers": [
-        "8f62b44cd97764484d759b364f5bf32e558a5edd"
+        "dcf4d5f83bc2dab51fb90922055352668da14a18"
+      ]
+    },
+    {
+      "id": "5c1bbfa338da160e621b7a80",
+      "title": "Micro Frontend: the microservice puzzle extended to frontend",
+      "abstract": "Microservices are at the top of the hype right now and perhaps you’ve already fallen for them and are replacing your good old monolith for new shiny microservices on the back-end.\n\nBut have you ever considered doing the same on the front-end? Even hype-r (or crazy-er, we’ll let you judge), have you tried mixing different JavaScript frameworks (let’s say AngularJS, Angular and React for example) in a Single Page Application?\n\nThat’s what Micro Frontend is and that’s what we’ve done at Saagie. In this talk I’d like to give you feedback on the different architectures we’ve tried, their pros and cons and help you find which one would be the best for you, just in case you’d like to opt for the dark and crazy side of front-end.",
+      "type": "talk",
+      "tags": [
+        "micro-services",
+        "front-end"
       ],
+      "level": "beginner",
+      "speakers": [
+        "df5c3701545056ca5229efe9b77ad91acf69ea02"
+      ]
+    },
+    {
+      "id": "5c24ec6b38da163bd315a05f",
+      "title": "Interaction Protocols: It's all about good manners",
+      "abstract": "Distributed and concurrent systems can be considered a social group that collaborate to achieve collective goals. In order to collaborate a system of rules must be applied that affords good hygiene, fault tolerance, and effective communication to coordinate, share knowledge, and provide feedback in a polite trusted manner. These rules form a number of protocols which enable the group to act as a system which is greater than the sum of the individual components.\n\nIn this talk we will explore the history of protocols and their application when building distributed systems.",
+      "type": "talk",
       "tags": [
         "Design",
         "Distributed Systems",
         "Concurrency"
       ],
-      "title": "Interaction Protocols: It's all about good manners",
-      "type": "talk",
-      "id": "1545923827582"
+      "level": "middle",
+      "speakers": [
+        "8f62b44cd97764484d759b364f5bf32e558a5edd"
+      ]
     }
-  ]}
+  ]
+}

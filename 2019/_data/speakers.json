@@ -66,6 +66,28 @@
       "ref": "16fd0826550372e61a8c17d3acdf30d0871de728",
       "twitter": "@mariofusco",
       "url": "infoSpeaker.html?ref=16fd0826550372e61a8c17d3acdf30d0871de728"
+    },
+    {
+      "enabled": "1",
+      "name": "Audrey Neveu",
+      "description": "Fullstack developer at Saagie, Devoxx4Kids hacktivist",
+      "biography": "Audrey is a full-stack passion driven developer working for Saagie. Heavily involved in the French wide Java Community, she’s part of Devoxx4Kids, a not-for-profit global initiative to get children coding, Devoxx France and Les Cast Codeurs, a french podcast on Java, but not only. ",
+      "image": "assets/img/speakers/audrey-neveu.jpeg",
+      "ref": "df5c3701545056ca5229efe9b77ad91acf69ea02",
+      "url": "infoSpeaker.html?ref=df5c3701545056ca5229efe9b77ad91acf69ea02",
+      "homepage": "",
+      "twitter": "@Audrey_Neveu"
+    },
+    {
+      "enabled": "1",
+      "name": "Rafael Benevides",
+      "description": "Director of Developer Experience at Red Hat",
+      "biography": "Rafael Benevides is Director of Developer Experience at Red Hat. With many years of experience in several fields of the IT industry, he helps developers and companies all over the world to be more effective in software development. Rafael considers himself a problem solver who has a big love for sharing. He is a member of Apache DeltaSpike PMC - a Duke’s Choice Award winner project, and a speaker in conferences like JavaOne, Devoxx, TDC, DevNexus and many others.",
+      "image": "assets/img/speakers/rafaelbenevides.png",
+      "ref": "c5224c12852709f7ae60fa80d93f46fd2d64a5c4",
+      "url": "infoSpeaker.html?ref=c5224c12852709f7ae60fa80d93f46fd2d64a5c4",
+      "homepage": "",
+      "twitter": "@rafabene"
     }
   ]
 }
