@@ -83,6 +83,36 @@
       ]
     },
     {
+      "id": "5c196e2c38da165f64820b2c",
+      "title": "Bulletproof Java Enterprise Applications for The Hard Production Life",
+      "abstract": "It’s one thing to develop Java Enterprise applications, to execute, and validate them in test environments. Running the application in production, however, is a whole other story. Production life is harsh, unforgivable and the ultimate verification whether your application is able to add value to its users. Besides knowing the Java Enterprise APIs, developers therefore also need to know how to meet production requirements.\n\nThis session shows which non-functional requirements we enterprise developers need to be aware of to build stable and resilient applications. We will see different resiliency approaches, such as circuit breakers, bulkheads, or backpressure, in action. We will implement these concepts using the Java Enterprise API, MicroProfile, and certain Java EE extensions. Furthermore, we will see, how especially service meshes enable us to add resiliency to multiple microservices in a transparent, redundancy-free fashion.\n\nAdding telemetry to our applications is crucial to gather insights about the application under production load. We will see how to enhance our microservices with concerns such as monitoring, tracing, or logging in a minimalistic way.\n\nAll of the time will be spent live-demoing Java Enterprise applications that are deployed to an Istio cluster.",
+      "type": "talk",
+      "tags": [
+        "Enterprise Java",
+        "Production Environments",
+        "Cloud Native Java"
+      ],
+      "level": "middle",
+      "speakers": [
+        "1799a6d25dbe9b65e5a25078815b20fc9af956f4"
+      ]
+    },
+    {
+      "id": "5c196e3638da165f64820b2d",
+      "title": "Kotlin & Implications in an IoT project ",
+      "abstract": "Develop IoT solutions with Kotlin is possible thanks to the incorporation to Kotlin as a first class programming language to Android and the becoming of Android Things, an optimized version of Android for embedded devices. This talk is looking for explore the aspects around IoT projects, Hardware, Security, Server Side, Data Analysis from the hand of Android Things and Kotlin.\n\nThe Internet of Things is a technology that has been echoing for some time. Arriving to generate interesting and attractive solutions. It usually happens that those who develop this type of solutions know about the Hardware, or they only have knowledge of the Software side. This talk seeks to explore all those aspects around IoT in the hand of a real project for monitoring fishbowls (something that you can implement at home). \n\nIn the hardware side, we will use sensors and different technologies for handle the information obtained from these (Raspberry PI, Arduino, etc). Since we want to show how to use Kotlin for develop IoT solutions, we will use Android Things with Kotlin and Raspberry PI. \n\nThe server side, using Serverless or IoT cloud solutions, options to analyze our information. Finally, is important take some considerations over the security aspects in IoT projects, although there are not yet 100% solid solutions, there are already efforts to solve this.",
+      "type": "workshop",
+      "tags": [
+        "JVM langs (Kotlin)",
+        "IoT",
+        "Android"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "d43c4a28c6222750fcef9b5b50013ea8ed897d19"
+      ]
+    },
+    {
       "id": "5c1bbfa338da160e621b7a80",
       "title": "Micro Frontend: the microservice puzzle extended to frontend",
       "abstract": "Microservices are at the top of the hype right now and perhaps you’ve already fallen for them and are replacing your good old monolith for new shiny microservices on the back-end.\n\nBut have you ever considered doing the same on the front-end? Even hype-r (or crazy-er, we’ll let you judge), have you tried mixing different JavaScript frameworks (let’s say AngularJS, Angular and React for example) in a Single Page Application?\n\nThat’s what Micro Frontend is and that’s what we’ve done at Saagie. In this talk I’d like to give you feedback on the different architectures we’ve tried, their pros and cons and help you find which one would be the best for you, just in case you’d like to opt for the dark and crazy side of front-end.",
