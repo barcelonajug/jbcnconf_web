@@ -101,7 +101,7 @@
       "id": "5c196e3638da165f64820b2d",
       "title": "Kotlin & Implications in an IoT project ",
       "abstract": "Develop IoT solutions with Kotlin is possible thanks to the incorporation to Kotlin as a first class programming language to Android and the becoming of Android Things, an optimized version of Android for embedded devices. This talk is looking for explore the aspects around IoT projects, Hardware, Security, Server Side, Data Analysis from the hand of Android Things and Kotlin.\n\nThe Internet of Things is a technology that has been echoing for some time. Arriving to generate interesting and attractive solutions. It usually happens that those who develop this type of solutions know about the Hardware, or they only have knowledge of the Software side. This talk seeks to explore all those aspects around IoT in the hand of a real project for monitoring fishbowls (something that you can implement at home). \n\nIn the hardware side, we will use sensors and different technologies for handle the information obtained from these (Raspberry PI, Arduino, etc). Since we want to show how to use Kotlin for develop IoT solutions, we will use Android Things with Kotlin and Raspberry PI. \n\nThe server side, using Serverless or IoT cloud solutions, options to analyze our information. Finally, is important take some considerations over the security aspects in IoT projects, although there are not yet 100% solid solutions, there are already efforts to solve this.",
-      "type": "workshop",
+      "type": "talk",
       "tags": [
         "JVM langs (Kotlin)",
         "IoT",
