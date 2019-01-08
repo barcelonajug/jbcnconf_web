@@ -88,6 +88,28 @@
       "url": "infoSpeaker.html?ref=c5224c12852709f7ae60fa80d93f46fd2d64a5c4",
       "homepage": "",
       "twitter": "@rafabene"
+    },
+    {
+      "enabled": "1",
+      "name": "Mercedes Wyss",
+      "description": "Developer Champion at Oracle",
+      "biography": "Mercedes Wyss is a software engineer with more than seven years of experience in the backend, frontend and Android development using Java and Kotlin. Currently, she is a CTO at Produactivity, a startup based in Guatemala. \n\nShe was previously organizing meetings in Guatemala Java Users Group from 2012 to 2016. Now she has two years an a half focusing on increasing women’s participation in STEAM by running a JDuchess Chapter in Guatemala and is theleader of a Google community (Devs+502). \n\nShe is an Oracle Groundbreaker Ambassador and an Auth0 Ambassador, she also has a Duke’s Choice Award in Educational Outreach.",
+      "image": "assets/img/speakers/mercedes-wyss.png",
+      "ref": "d43c4a28c6222750fcef9b5b50013ea8ed897d19",
+      "url": "infoSpeaker.html?ref=d43c4a28c6222750fcef9b5b50013ea8ed897d19",
+      "homepage": "https://medium.com/@itrjwyss",
+      "twitter": "@itrjwyss"
+    },
+    {
+      "enabled": "1",
+      "name": "Sebastian Daschner",
+      "description": "Lead Java Developer Advocate at IBM",
+      "biography": "Sebastian Daschner is a Java Developer Advocate at IBM, a consultant, author, and trainer. He is the author of the book ‘Architecting Modern Java EE Applications’. Sebastian is participating in the JCP, helping forming the future standards of Java EE, serving in the JAX-RS, JSON-P and Config Expert Groups and collaborating on various open source projects. For his contributions in the Java community and ecosystem he was recognized as a Java Champion,Oracle Developer Champion and double 2016 JavaOne Rockstar. Besides Java, Sebastian is also a heavy user of cloud native technologies. He evangelizes computer science practices on https://blog.sebastian-daschner.com, his newsletter, andon Twitter via @DaschnerS. When not working with Java, he also loves to travel the world — either by plane or motorbike.",
+      "image": "assets/img/speakers/sebastian-daschner.jpg",
+      "ref": "1799a6d25dbe9b65e5a25078815b20fc9af956f4",
+      "url": "infoSpeaker.html?ref=1799a6d25dbe9b65e5a25078815b20fc9af956f4",
+      "homepage": "https://blog.sebastian-daschner.com",
+      "twitter": "@DaschnerS"
     }
   ]
 }
