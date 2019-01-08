@@ -1,4 +1,12 @@
 {
+ "diamond": {
+      "name": "Red Hat",
+      "href": "https://developers.redhat.com",
+      "image": {
+        "src": "/assets/img/sponsors/redhat_rgb.png",
+        "alt": "Red Hat"
+      }     
+ },
   "galaxy-basic": [
     {
       "name": "clever cloud",
