@@ -5,8 +5,18 @@
       "image": {
         "src": "/assets/img/sponsors/redhat_rgb.png",
         "alt": "Red Hat"
-      }     
+      }
  },
+  "galaxy-premium": [
+    {
+      "name": "Codurance",
+      "href": "https://codurance.es",
+      "image": {
+        "src": "/assets/img/sponsors/codurance.png",
+        "alt": "Codurance"
+      }
+    }
+  ],
   "galaxy-basic": [
     {
       "name": "clever cloud",
