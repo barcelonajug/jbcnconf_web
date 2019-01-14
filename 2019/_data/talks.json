@@ -140,6 +140,22 @@
       "speakers": [
         "8f62b44cd97764484d759b364f5bf32e558a5edd"
       ]
+    },
+    {
+      "id": "5c36675b38da16698cf41ade",
+      "title": "Nowadays Architecture Trends, from Monolith to Microservices and Serverless\t",
+      "abstract": "In this session, attendees will learn about a real-world evolution to a Distributed Architecture without being involved of a complete Microservices Madness; we will be covering tips and tricks of an experience of a evolution of a huge EAR Core Banking Application and how we evolve to a modern distributed Architecture until the evolution of use 3rd party services and Serverless; tips, tricks, pros, cons and the reasons for being involved on move forward and present sample code as FaaS and explain the pitfalls of Serverless and the security concerns on this evolution. We will be using snippets code based on JAVA, JWT, JWS, Auth0, Spring Boot and Webflux on Oracle Cloud and Spring Cloud Functions on Amazon Lambdas.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Cloud",
+        "Serverless",
+        "Microservices"
+      ],
+      "level": "middle",
+      "speakers": [
+        "4f72f63b37fb9bb3781b7e7b1e3246b1364c02a2"
+      ]
     }
   ]
 }
