@@ -142,6 +142,20 @@
       ]
     },
     {
+      "abstract": "Some say they can read people and tell by their expressions or body language what kind of personality they have. But what if it is possible to read people from the code they write? It would perhaps be possible to tell who to avoid because they are a little bit aggressive and who to approach because they like to help out other people. In this talk we will explore what research is conducted on the relation between personality traits and programming semantics.",
+      "id": "5c36672c38da16698cf41add",
+      "level": "beginner",
+      "speakers": [
+        "f99b4c8793cc70d6cfcb9b1c78e7c99a76b10d2e"
+      ],
+      "tags": [
+        "#cleancode",
+        "#design"
+      ],
+      "title": "Me, My Code and I",
+      "type": "talk"
+    },
+    {
       "id": "5c36675b38da16698cf41ade",
       "title": "Nowadays Architecture Trends, from Monolith to Microservices and Serverless\t",
       "abstract": "In this session, attendees will learn about a real-world evolution to a Distributed Architecture without being involved of a complete Microservices Madness; we will be covering tips and tricks of an experience of a evolution of a huge EAR Core Banking Application and how we evolve to a modern distributed Architecture until the evolution of use 3rd party services and Serverless; tips, tricks, pros, cons and the reasons for being involved on move forward and present sample code as FaaS and explain the pitfalls of Serverless and the security concerns on this evolution. We will be using snippets code based on JAVA, JWT, JWS, Auth0, Spring Boot and Webflux on Oracle Cloud and Spring Cloud Functions on Amazon Lambdas.",

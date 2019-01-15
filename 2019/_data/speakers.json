@@ -57,6 +57,17 @@
       "url": "infoSpeaker.html?ref=dcf4d5f83bc2dab51fb90922055352668da14a18"
     },
     {
+      "biography": "Rosanne is a Software Engineer currently working at Blue4IT. She came the long way around in the IT field with her bachelors degree in Psychology. She works for top companies in the Netherlands always questioning the way things were done. She also likes puzzles, meditating and yoga. ",
+      "description": "Software Engineer at Blue4IT",
+      "enabled": "1",
+      "homepage": "",
+      "image": "assets/img/speakers/rosanne-joosten.png",
+      "name": "Rosanne Joosten",
+      "ref": "f99b4c8793cc70d6cfcb9b1c78e7c99a76b10d2e",
+      "twitter": "@JoostenRosanne",
+      "url": "infoSpeaker.html?ref=f99b4c8793cc70d6cfcb9b1c78e7c99a76b10d2e"
+    },
+    {
       "biography": "Mario is a principal software engineer at Red Hat working as project lead of Drools, the JBoss rule engine. He has a huge experience as Java developer having been involved in (and often leading) many enterprise level projects in several industries ranging from media companies to the financial sector. Among his interests there are also functional programming and Domain Specific Languages. By leveraging these 2 passions he created the open source library lambdaj with the purposes of providing an internal Java DSL for manipulating collections and allowing a bit of functional programming in Java. He is also a Java Champion and the co-author of \"Java 8 in Action\" published by Manning.\n",
       "description": "Principal software engineer at Red Hat",
       "enabled": "1",
