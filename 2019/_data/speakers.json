@@ -121,6 +121,17 @@
       "url": "infoSpeaker.html?ref=4f72f63b37fb9bb3781b7e7b1e3246b1364c02a2",
       "homepage": "https://lasalazarr.github.io/blog/",
       "twitter": "@betoSalazar"
+    },
+    {
+      "enabled": "1",
+      "name": "Christian Posta",
+      "description": "Field CTO @soloio_inc, Speaker, Author of \"Istio in Action\" & \"Microservices for Java Developers\"",
+      "biography": "Christian (@christianposta) is Field CTO of cloud application development. He's a global speaker, author, mentor, architect, and contributor to open-source projects. His latest book, Istio in Action, is due out Summer 2019. ",
+      "image": "assets/img/speakers/christian-posta.jpg",
+      "ref": "5f729db9302ead529bf5818e137c0d3117f33fec",
+      "url": "infoSpeaker.html?ref=5f729db9302ead529bf5818e137c0d3117f33fec",
+      "homepage": "http://blog.christianposta.com",
+      "twitter": "@christianposta"
     }
   ]
 }
