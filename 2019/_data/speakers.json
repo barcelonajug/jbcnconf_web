@@ -103,13 +103,24 @@
     {
       "enabled": "1",
       "name": "Sebastian Daschner",
-      "description": "Lead Java Developer Advocate at IBM",
+      "description": "Java Champion, Lead Java Developer Advocate at IBM",
       "biography": "Sebastian Daschner is a Java Developer Advocate at IBM, a consultant, author, and trainer. He is the author of the book ‘Architecting Modern Java EE Applications’. Sebastian is participating in the JCP, helping forming the future standards of Java EE, serving in the JAX-RS, JSON-P and Config Expert Groups and collaborating on various open source projects. For his contributions in the Java community and ecosystem he was recognized as a Java Champion,Oracle Developer Champion and double 2016 JavaOne Rockstar. Besides Java, Sebastian is also a heavy user of cloud native technologies. He evangelizes computer science practices on https://blog.sebastian-daschner.com, his newsletter, andon Twitter via @DaschnerS. When not working with Java, he also loves to travel the world — either by plane or motorbike.",
       "image": "assets/img/speakers/sebastian-daschner.jpg",
       "ref": "1799a6d25dbe9b65e5a25078815b20fc9af956f4",
       "url": "infoSpeaker.html?ref=1799a6d25dbe9b65e5a25078815b20fc9af956f4",
       "homepage": "https://blog.sebastian-daschner.com",
       "twitter": "@DaschnerS"
+    },
+    {
+      "enabled": "1",
+      "name": "Alberto Salazar",
+      "description": "Entrepreneur, Java Champion and founder of the Ecuador Java User Group",
+      "biography": "Alberto Salazar is an entrepreneur, passionate Consultant, Java Champion, Oracle Groundbreaker Ambassador, JUG Leader, Auth0 Ambassador, founder of the Ecuador Java User Group, Java Community Process Associate Member and Java evangelist/trainer. He is the co-author of the book 'Software Architecture with Spring 5.0'. Alberto has been working for 2 decades creating large scalable and high transaction load systems from military software to banking solutions. He is also a frequent speaker at Java conferences such as Oracle Code One, Voxxed Days, Oracle Code, Red Hat Summit, JavaOne,  Oracle Developer Tour Latam, OTN Tours, and local JUG meetings.",
+      "image": "assets/img/speakers/alberto-salazar.jpg",
+      "ref": "4f72f63b37fb9bb3781b7e7b1e3246b1364c02a2",
+      "url": "infoSpeaker.html?ref=4f72f63b37fb9bb3781b7e7b1e3246b1364c02a2",
+      "homepage": "https://lasalazarr.github.io/blog/",
+      "twitter": "@betoSalazar"
     }
   ]
 }
