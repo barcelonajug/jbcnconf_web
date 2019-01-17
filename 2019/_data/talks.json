@@ -170,6 +170,28 @@
       "speakers": [
         "4f72f63b37fb9bb3781b7e7b1e3246b1364c02a2"
       ]
+    },
+    {
+      "id": "5c3e5dbb38da16698cf41b28",
+      "title": "Incremental adoption of microservices with an application gateway",
+      "abstract": "An application gateway is a piece of infrastructure that helps existing applications incrementally adopt new architectures like microservices and serverless. It is not as single purposed as an API gateway, and not as complicated as a full service mesh and provides immediate value. In this talk we’ll explore this emerging pattern.\n\nIn this talk, we'll explore how to leverage an application gateway to get value out of your existing architecture while moving to microservices and serverless. This application gateway uses technologies like Envoy Proxy, GraphQL, and HTTP/2 to help solve some of these problems",
+      "type": "talk",
+      "tags": [
+        "service mesh",
+        "microservices",
+        "cloud",
+        "containers",
+        "envoy proxy",
+        "grpc",
+        "istio",
+        "serverless",
+        "functions",
+        "FaaS"
+      ],
+      "level": "middle",
+      "speakers": [
+        "5f729db9302ead529bf5818e137c0d3117f33fec"
+      ]
     }
   ]
 }
