@@ -1,6 +1,5 @@
 {
-  "items": [
-    {
+  "items": [{
       "name": "Venkat Subramaniam",
       "description": "Java Champion, Founder of Agile Developer, Inc.",
       "biography": "Dr. Venkat Subramaniam is an award-winning author, founder of Agile Developer, Inc., creator of agilelearner.com, and an instructional professor at the University of Houston. He has trained and mentored thousands of software developers in the US, Canada, Europe, and Asia, and is a regularly-invited speaker at several international conferences. Venkat helps his clients effectively apply and succeed with sustainable agile practices on their software projects. Venkat is a (co)author of multiple technical books, including the 2007 Jolt Productivity award winning book Practices of an Agile Developer. You can find a list of his books at agiledeveloper.com. You can reach him by email at venkats@agiledeveloper.com or on twitter at @venkat_s.",
@@ -143,6 +142,17 @@
       "url": "infoSpeaker.html?ref=5f729db9302ead529bf5818e137c0d3117f33fec",
       "homepage": "http://blog.christianposta.com",
       "twitter": "@christianposta"
+    },
+    {
+      "enabled": "1",
+      "name": "Mario V Gray",
+      "description": "",
+      "biography": "Mario Gray is a Principal Technologist at Pivotal with over 20 years of experience in software development and software architecture. He is co-author of Apress's Pro Spring Integration. He’s helped organizations large and small build service-based architectures in a number of different runtimes and platforms over the decades, but adopting Spring in 2004, and using it whenever possible since, was a no-brainer that culminated in joining the Spring team in 2017. As a Spring Developer Advocate, Mario loves to engage and inspire developers and businesses in the Pivotal ecosystem",
+      "image": "assets/img/speakers/mario_v_gray.jpeg",
+      "ref": "2e93061543cde6bde464afd77e37198f67675a4f",
+      "url": "infoSpeaker.html?ref=2e93061543cde6bde464afd77e37198f67675a4f",
+      "homepage": "http://www.sudoinit5.com",
+      "twitter": "@mariogray"
     }
   ]
 }
