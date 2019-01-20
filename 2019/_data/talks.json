@@ -192,6 +192,21 @@
       "speakers": [
         "5f729db9302ead529bf5818e137c0d3117f33fec"
       ]
+    },
+    {
+      "id": "5c3b3e4538da16698cf41b0a",
+      "title": "Live Refactoring Session: Getting rid of dirty code",
+      "abstract": "In this live hacking, we will look at three typical starting situations for refactoring dirty code. In the first example, we will wade through rotten code: an untested, miserably long, unmaintainable method without any test coverage. In the second code example, it gets a little better. The method is still too long and barely maintainable, but it has some rudimentary test coverage. In the third code example, we look at a method that is fully covered by tests and is free of simple warnings, yet that has deeper structural problems that cannot be solved quickly. In this live coding you get practical advice on how to master a refactoring step by step - even in difficult situations.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "refactoring",
+        "live coding"
+      ],
+      "level": "middle",
+      "speakers": [
+        "1910f00e3b6a8220979782a1355b8570de1beca0"
+      ]
     }
   ]
 }
