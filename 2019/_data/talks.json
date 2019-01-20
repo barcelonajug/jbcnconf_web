@@ -207,6 +207,23 @@
       "speakers": [
         "1910f00e3b6a8220979782a1355b8570de1beca0"
       ]
+    },
+    {
+      "id": "5c44693a9034ae38180b14b2",
+      "title": "IoT powered by Microprofile – Microservices in practice",
+      "abstract": "We are going to show you what happens when the management lets enterprise Java developers and architects decide how we can control the IoT devices in our new office. While it's easy to figure out why Microprofile is cool, it's harder to see how to get in into your project.\n\nBy the end of this talk, you will be introduced into the patterns and software in the enterprise world of Java explaining how to build a build a secure, stable, modular, and integrated system on an example of a completely over-engineered IoT solution to control the lights and plant's well-being in the new office.\n\nFear not if your system is more complex than controlling light bulbs and plants! This talk will show you how easily you can design a good production-ready Java full-stack system based on the Enterprise stack with Microprofile combined with good continuous deployment infrastructure patterns.\n\nThere be code, demos, and (buzzword) dragons.\n",
+      "type": "talk",
+      "tags": [
+        "MicroProfile",
+        "Java",
+        "Enterprise Java",
+        "Microservices"
+      ],
+      "level": "talk",
+      "speakers": [
+        "e4dbc8f86240f1f78408c1e967137aa5d8824024",
+        "ce11badd5e660b5bf2b2025e167a91c302c937d5"
+      ]
     }
   ]
 }
