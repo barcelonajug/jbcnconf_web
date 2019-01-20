@@ -143,6 +143,39 @@
       "url": "infoSpeaker.html?ref=5f729db9302ead529bf5818e137c0d3117f33fec",
       "homepage": "http://blog.christianposta.com",
       "twitter": "@christianposta"
+    },
+    {
+      "enabled": "1",
+      "name": "Marcus Biel",
+      "description": "Director of Developer Experience EMEA for RedHat",
+      "biography": "Marcus is a Clean Code evangelist who has authored a series of video tutorials that focus on teaching others how to create the cleanest and most well-structured code possible. As a conference speaker, he shares his ideas on Java Clean Code development. Marcus is also an author, technical book reviewer and JCP member. In 2017, Marcus was named TOP 13 Java influencer worldwide by jaxenter.com. On his website Clean Code Academy, he offers comprehensive online training for Java Clean Coding.",
+      "image": "assets/img/speakers/marcus-biel.jpg",
+      "ref": "1910f00e3b6a8220979782a1355b8570de1beca0",
+      "url": "infoSpeaker.html?ref=1910f00e3b6a8220979782a1355b8570de1beca0",
+      "homepage": "https://marcus-biel.com",
+      "twitter": "@MarcusBiel"
+    },
+    {
+      "enabled": "1",
+      "name": "Rustam Mehmandarov",
+      "description": "Java Champion and Leader of JavaZone",
+      "biography": "Passionate computer scientist. Leader of JavaZone. Board member and ex-chairman of Norwegian JUG – javaBin. Course instructor. Speaker. Java Champion.",
+      "image": "assets/img/speakers/rustam-mehmandarov.jpg",
+      "ref": "ce11badd5e660b5bf2b2025e167a91c302c937d5",
+      "url": "infoSpeaker.html?ref=ce11badd5e660b5bf2b2025e167a91c302c937d5",
+      "homepage": "",
+      "twitter": "@rmehmandarov"
+    },
+    {
+      "enabled": "1",
+      "name": "Mads Opheim",
+      "description": "Tech Leas at Computas",
+      "biography": "Tech lead who wants to make people awesome in a safe environment. Test-driven development, Domain-driven design and Modern agile are favourite techniques. Working as tech lead in Computas, currently on a project for the Norwegian Courts.",
+      "image": "assets/img/speakers/mads-opheim.jpg",
+      "ref": "e4dbc8f86240f1f78408c1e967137aa5d8824024",
+      "url": "infoSpeaker.html?ref=e4dbc8f86240f1f78408c1e967137aa5d8824024",
+      "homepage": "https://github.com/madsop/talks",
+      "twitter": "@madsopheim"
     }
   ]
 }
