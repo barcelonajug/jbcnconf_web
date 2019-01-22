@@ -102,7 +102,7 @@
     {
       "enabled": "1",
       "name": "Mercedes Wyss",
-      "description": "Developer Champion at Oracle",
+      "description": "CTO at Produactivity, Oracle Groundbreaker, Auth0 Ambassador",
       "biography": "Mercedes Wyss is a software engineer with more than seven years of experience in the backend, frontend and Android development using Java and Kotlin. Currently, she is a CTO at Produactivity, a startup based in Guatemala. \n\nShe was previously organizing meetings in Guatemala Java Users Group from 2012 to 2016. Now she has two years an a half focusing on increasing women’s participation in STEAM by running a JDuchess Chapter in Guatemala and is theleader of a Google community (Devs+502). \n\nShe is an Oracle Groundbreaker Ambassador and an Auth0 Ambassador, she also has a Duke’s Choice Award in Educational Outreach.",
       "image": "assets/img/speakers/mercedes-wyss.png",
       "ref": "d43c4a28c6222750fcef9b5b50013ea8ed897d19",
@@ -153,6 +153,49 @@
       "url": "infoSpeaker.html?ref=2e93061543cde6bde464afd77e37198f67675a4f",
       "homepage": "http://www.sudoinit5.com",
       "twitter": "@mariogray"
+    },{
+      "enabled":"1",
+      "name": "Marcus Biel",
+      "description": "Director of Developer Experience EMEA for RedHat",
+      "biography": "Marcus is a Clean Code evangelist who has authored a series of video tutorials that focus on teaching others how to create the cleanest and most well-structured code possible. As a conference speaker, he shares his ideas on Java Clean Code development. Marcus is also an author, technical book reviewer and JCP member. In 2017, Marcus was named TOP 13 Java influencer worldwide by jaxenter.com. On his website Clean Code Academy, he offers comprehensive online training for Java Clean Coding.",
+      "image": "assets/img/speakers/marcus-biel.jpg",
+      "ref": "1910f00e3b6a8220979782a1355b8570de1beca0",
+      "url": "infoSpeaker.html?ref=1910f00e3b6a8220979782a1355b8570de1beca0",
+      "homepage": "https://marcus-biel.com",
+      "twitter": "@MarcusBiel"
+    },
+    {
+      "enabled": "1",
+      "name": "Rustam Mehmandarov",
+      "description": "Java Champion and Leader of JavaZone",
+      "biography": "Passionate computer scientist. Leader of JavaZone. Board member and ex-chairman of Norwegian JUG – javaBin. Course instructor. Speaker. Java Champion.",
+      "image": "assets/img/speakers/rustam-mehmandarov.jpg",
+      "ref": "ce11badd5e660b5bf2b2025e167a91c302c937d5",
+      "url": "infoSpeaker.html?ref=ce11badd5e660b5bf2b2025e167a91c302c937d5",
+      "homepage": "",
+      "twitter": "@rmehmandarov"
+    },
+    {
+      "enabled": "1",
+      "name": "Mads Opheim",
+      "description": "Tech Leas at Computas",
+      "biography": "Tech lead who wants to make people awesome in a safe environment. Test-driven development, Domain-driven design and Modern agile are favourite techniques. Working as tech lead in Computas, currently on a project for the Norwegian Courts.",
+      "image": "assets/img/speakers/mads-opheim.jpg",
+      "ref": "e4dbc8f86240f1f78408c1e967137aa5d8824024",
+      "url": "infoSpeaker.html?ref=e4dbc8f86240f1f78408c1e967137aa5d8824024",
+      "homepage": "https://github.com/madsop/talks",
+      "twitter": "@madsopheim"
+    },
+    {
+      "enabled": "1",
+      "name": "Victor Rentea",
+      "description": "Independent Trainer & Coach, Lead Architect at IBM Romania",
+      "biography": "Victor is one of the top Technical Trainers in Romania. He trained and coached more than 1000 developers of 30+ companies over the 6 years of his training activity. At IBM, even though they call him a Lead Architect, he writes code each day: he’s maniac about Clean Code, so expect seeing some hard-core refactoring. Victor is a key community member: organized the largest 3 Bucharest Java User Group meetups in history. In 2018 he founded the **Bucharest Software Craftsmanship Community** in which he runs open sessions about clean code, refactoring, pair programming and TDD. He posts daily on LinkedIN and Twitter thoughts about culture, technical excellence and Software Craftsmanship. Victor is now regularly invited to speak at major international conferences (30+ talks until now, #2 best at Devoxx Belgium 2018). His live-coding sessions are insane, lightning-fast but well crafted, full of enthusiasm, deep insights and take-away tips. Things that he learned the hard way during his 14 years of experience. You can find out more about him on http://victorrentea.ro",
+      "image": "assets/img/speakers/victor-rentea.jpg",
+      "ref": "d27efdbbf9293c1d2cbcb35559c2558a0707a484",
+      "url": "infoSpeaker.html?ref=d27efdbbf9293c1d2cbcb35559c2558a0707a484",
+      "homepage": "http://victorrentea.ro",
+      "twitter": "@victorrentea"
     }
   ]
 }
