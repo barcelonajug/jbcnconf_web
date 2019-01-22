@@ -176,6 +176,17 @@
       "url": "infoSpeaker.html?ref=e4dbc8f86240f1f78408c1e967137aa5d8824024",
       "homepage": "https://github.com/madsop/talks",
       "twitter": "@madsopheim"
+    },
+    {
+      "enabled": "1",
+      "name": "Victor Rentea",
+      "description": "Independent Trainer & Coach, Lead Architect at IBM Romania",
+      "biography": "Victor is one of the top Technical Trainers in Romania. He trained and coached more than 1000 developers of 30+ companies over the 6 years of his training activity. At IBM, even though they call him a Lead Architect, he writes code each day: he’s maniac about Clean Code, so expect seeing some hard-core refactoring. Victor is a key community member: organized the largest 3 Bucharest Java User Group meetups in history. In 2018 he founded the **Bucharest Software Craftsmanship Community** in which he runs open sessions about clean code, refactoring, pair programming and TDD. He posts daily on LinkedIN and Twitter thoughts about culture, technical excellence and Software Craftsmanship. Victor is now regularly invited to speak at major international conferences (30+ talks until now, #2 best at Devoxx Belgium 2018). His live-coding sessions are insane, lightning-fast but well crafted, full of enthusiasm, deep insights and take-away tips. Things that he learned the hard way during his 14 years of experience. You can find out more about him on http://victorrentea.ro",
+      "image": "assets/img/speakers/victor-rentea.jpg",
+      "ref": "d27efdbbf9293c1d2cbcb35559c2558a0707a484",
+      "url": "infoSpeaker.html?ref=d27efdbbf9293c1d2cbcb35559c2558a0707a484",
+      "homepage": "http://victorrentea.ro",
+      "twitter": "@victorrentea"
     }
   ]
 }
