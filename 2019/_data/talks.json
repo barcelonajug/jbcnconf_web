@@ -192,6 +192,23 @@
       "speakers": [
         "5f729db9302ead529bf5818e137c0d3117f33fec"
       ]
+    },
+    {
+      "id": "5c3666d138da16698cf41adc",
+      "title": "Bootiful Reactive Testing & CDC with Spring Boot",
+      "abstract": "Join us for an exploration of testing a reactive Spring Boot 2.x application. Test driven development gives us the confidence necessary to improve our code faster, safely. But how do you test components and services, as well as integrations across distributed systems, while maintaining fast feedback loops, and how do you do all of this within the context of reactive Java? In this talk, we'll look at how to test imperative components, reactive data flows, and mocks. We’ll examine how to take advantage of test slices, and how to test web applications. We'll look at how to ensure that API producers and consumers work well together using consumer driven contract testing without sacrificing the testing pyramid for end-to-end integration tests. And we’ll do it all within the context of functional/reactive programming.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "reactive",
+        "testing",
+        "tdd",
+        "cloud"
+      ],
+      "level": "middle",
+      "speakers": [
+        "2e93061543cde6bde464afd77e37198f67675a4f"
+      ]
     }
   ]
 }

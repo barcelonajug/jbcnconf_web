@@ -146,7 +146,7 @@
     {
       "enabled": "1",
       "name": "Mario V Gray",
-      "description": "",
+      "description": "Principal Technologist at Pivotal. Co-author of Apress's Pro Spring Integration",
       "biography": "Mario Gray is a Principal Technologist at Pivotal with over 20 years of experience in software development and software architecture. He is co-author of Apress's Pro Spring Integration. He’s helped organizations large and small build service-based architectures in a number of different runtimes and platforms over the decades, but adopting Spring in 2004, and using it whenever possible since, was a no-brainer that culminated in joining the Spring team in 2017. As a Spring Developer Advocate, Mario loves to engage and inspire developers and businesses in the Pivotal ecosystem",
       "image": "assets/img/speakers/mario_v_gray.jpeg",
       "ref": "2e93061543cde6bde464afd77e37198f67675a4f",
