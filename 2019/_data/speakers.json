@@ -187,6 +187,17 @@
       "url": "infoSpeaker.html?ref=d27efdbbf9293c1d2cbcb35559c2558a0707a484",
       "homepage": "http://victorrentea.ro",
       "twitter": "@victorrentea"
+    },
+    {
+      "enabled": "1",
+      "name": "Nate Schutta",
+      "description": "Developer Advocate at Pivotal",
+      "biography": "Nathaniel T. Schutta is a software architect focused on cloud computing and building usable applications. A proponent of polyglot programming, Nate has written multiple books and appeared in various videos. Nate is a seasoned speaker regularly presenting at conferences worldwide, No Fluff Just Stuff symposia, meetups, universities, and user groups. In addition to his day job, Nate is an adjunct professor at the University of Minnesota where he teaches students to embrace dynamic languages. Driven to rid the world of bad presentations, Nate coauthored the book Presentation Patterns with Neal Ford and Matthew McCullough. Nate recently published Thinking Architecturally available as a free download from Pivotal.",
+      "image": "assets/img/speakers/nate-schutta.jpg",
+      "ref": "ab822b577be6a2418593327d0530f2e48da634a4",
+      "url": "infoSpeaker.html?ref=ab822b577be6a2418593327d0530f2e48da634a4",
+      "homepage": "http://www.ntschutta.io",
+      "twitter": "@ntschutta"
     }
   ]
 }
