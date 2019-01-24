@@ -259,6 +259,20 @@
       "speakers": [
         "ab822b577be6a2418593327d0530f2e48da634a4"
       ]
+    },
+    {
+      "id": "5c48ec849034ae38180b14de",
+      "title": " Type Inference: Friend or Foe",
+      "abstract": "Java 10 has local variable type inference, but type inference is not really new in Java. Is type inference good or it is it bad. Are there challenges to use them? When is a good time to use type inference? What are some of the limitations to using it. This presentation includes the details of Java 10 type inference, but certainly will not limit to it. We will step back and discuss type inference from the programmer point of view and work thought the benefits and caveats. At the end of this presentation you will be able to decide when to use it and where to avoid it.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "type inference"
+      ],
+      "level": "middle",
+      "speakers": [
+        "d2c05e60af702984122c68c8a46fc574fba6f726"
+      ]
     }
   ]
 }
