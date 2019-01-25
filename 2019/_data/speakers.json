@@ -198,6 +198,28 @@
       "url": "infoSpeaker.html?ref=ab822b577be6a2418593327d0530f2e48da634a4",
       "homepage": "http://www.ntschutta.io",
       "twitter": "@ntschutta"
+    },
+    {
+      "enabled": "1",
+      "name": "Mario V Gray",
+      "description": "Principal Technologist at Pivotal. Co-author of Apress's Pro Spring Integration",
+      "biography": "Mario Gray is a Principal Technologist at Pivotal with over 20 years of experience in software development and software architecture. He is co-author of Apress's Pro Spring Integration. He’s helped organizations large and small build service-based architectures in a number of different runtimes and platforms over the decades, but adopting Spring in 2004, and using it whenever possible since, was a no-brainer that culminated in joining the Spring team in 2017. As a Spring Developer Advocate, Mario loves to engage and inspire developers and businesses in the Pivotal ecosystem",
+      "image": "assets/img/speakers/mario_v_gray.jpeg",
+      "ref": "2e93061543cde6bde464afd77e37198f67675a4f",
+      "url": "infoSpeaker.html?ref=2e93061543cde6bde464afd77e37198f67675a4f",
+      "homepage": "http://www.sudoinit5.com",
+      "twitter": "@mariogray"
+    },
+    {
+      "enabled": "1",
+      "name": "Michel Schudel",
+      "description": "",
+      "biography": "Michel Schudel has been a passionate Java developer since 1998, building various Java solutions for banks, insurance companies and telecom providers. Since then he has seen the good, the bad and the ugly in Java land. He loves agile development and coding with frameworks like SpringBoot to get up-and-running as fast as possible. Futhermore, he likes to coach junior developers in Core Java. Michel is currently working for Dutch Railways in the Netherlands.",
+      "image": "assets/img/speakers/michel-schudel.jpg",
+      "ref": "40afe10a3ea9ec161d15ade201a0101fa8f635f4",
+      "url": "infoSpeaker.html?ref=40afe10a3ea9ec161d15ade201a0101fa8f635f4",
+      "homepage": "http://coding.michelschudel.nl",
+      "twitter": "@MichelSchudel"
     }
   ]
 }

@@ -273,6 +273,37 @@
       "speakers": [
         "d2c05e60af702984122c68c8a46fc574fba6f726"
       ]
+    },
+    {
+      "id": "5c3666d138da16698cf41adc",
+      "title": "Bootiful Reactive Testing & CDC with Spring Boot",
+      "abstract": "Join us for an exploration of testing a reactive Spring Boot 2.x application. Test driven development gives us the confidence necessary to improve our code faster, safely. But how do you test components and services, as well as integrations across distributed systems, while maintaining fast feedback loops, and how do you do all of this within the context of reactive Java? In this talk, we'll look at how to test imperative components, reactive data flows, and mocks. We’ll examine how to take advantage of test slices, and how to test web applications. We'll look at how to ensure that API producers and consumers work well together using consumer driven contract testing without sacrificing the testing pyramid for end-to-end integration tests. And we’ll do it all within the context of functional/reactive programming.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "reactive",
+        "testing",
+        "tdd",
+        "cloud"
+      ],
+      "level": "middle",
+      "speakers": [
+        "2e93061543cde6bde464afd77e37198f67675a4f"
+      ]
+    },
+    {
+      "id": "5c48ed639034ae38180b14e1",
+      "title": "Java n + 1: What's in store for Java 12 and beyond",
+      "abstract": "The semi-annual Java release cycle means that we get new Java features quicker. Let's get you up to speed on the latest features! Java 12 is released on March 12, 2019. \n\nJava 12 adds some nice languages features and API changes like switch expressions, string literals, and a new garbage collector algorithm. \n\nIn this talk, you will get a quick recap of features that were introduced after Java 8,  see a demo of the new features in Java 12,  and examine what is in the pipeline for future Java releases. Furthermore, we will look at the changed Java ecosystem and support model, and explore alternative Java implementations like Amazon's Corretto.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "JDK12"
+      ],
+      "level": "middle",
+      "speakers": [
+        "40afe10a3ea9ec161d15ade201a0101fa8f635f4"
+      ]
     }
   ]
 }
