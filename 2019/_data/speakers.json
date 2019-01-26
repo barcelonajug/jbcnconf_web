@@ -198,6 +198,18 @@
       "url": "infoSpeaker.html?ref=ab822b577be6a2418593327d0530f2e48da634a4",
       "homepage": "http://www.ntschutta.io",
       "twitter": "@ntschutta"
+    },
+    {
+      "biography": "Arun Gupta is a Principal Technologist at Amazon Web Services. He is responsible for the Cloud Native Computing Foundation (CNCF) strategy within AWS, and participates at CNCF Board and technical meetings actively. He works with different teams at Amazon to help define their open source strategy. He has built and led developer communities for several years. He has extensive speaking experience in 45+ countries on myriad topics. Gupta also founded the Devoxx4Kids chapter in the US and continues to promote technology education among children. A prolific writer, author of several books, an avid runner, a globe trotter, a Docker Captain, a Java Champion, a JUG leader, he is easily accessible at @arungupta on twitter.",
+      "description": "Principal Technologist at Amazon Web Services",
+      "enabled": "1",
+      "homepage": "",
+      "image": "assets/img/speakers/arun-gupta.png",
+      "linkedin": "",
+      "name": "Arun Gupta",
+      "ref": "de5b08c6aec163137cfb4a1ee530799b48812be8",
+      "twitter": "@arungupta",
+      "url": "infoSpeaker.html?ref=de5b08c6aec163137cfb4a1ee530799b48812be8"
     }
   ]
 }
