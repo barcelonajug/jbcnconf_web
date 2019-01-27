@@ -304,6 +304,20 @@
       "speakers": [
         "40afe10a3ea9ec161d15ade201a0101fa8f635f4"
       ]
+    }, {
+      "abstract": "Amazon Corretto is a no-cost, multiplatform, production-ready distribution of the OpenJDK. Corretto comes with long-term support that will include performance enhancements and security fixes. Amazon runs Corretto internally on thousands of production services and Corretto is certified as compatible with the Java SE standard. With Corretto, you can develop and run Java applications on popular operating systems, including Amazon Linux 2, Windows, and macOS. This talk will explain on why Amazon Corretto was created. Upstream compatibility to OpenJDK is a core tenet of Corretto. Attendees will learn how an upstream OpenJDK build is published as Corretto. You’ll learn how to get started with Corretto and collaborate in open source.",
+      "id": "5c3e5e8838da16698cf41b2a",
+      "level": "beginner",
+      "speakers": [
+        "de5b08c6aec163137cfb4a1ee530799b48812be8"
+      ],
+      "tags": [
+        "java",
+        "open source"
+      ],
+      "title": "Amazon Corretto",
+      "type": "talk"
+
     }
   ]
 }
