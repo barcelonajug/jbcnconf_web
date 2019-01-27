@@ -210,6 +210,17 @@
       "ref": "de5b08c6aec163137cfb4a1ee530799b48812be8",
       "twitter": "@arungupta",
       "url": "infoSpeaker.html?ref=de5b08c6aec163137cfb4a1ee530799b48812be8"
+    },
+    {
+      "enabled": "1",
+      "name": "Billy Korando",
+      "description": "Developer Advocate with @IBM, International speaker",
+      "biography": "Billy is a developer advocate with IBM and has over a decade of experience. Billy is passionate about finding ways to reduce mental capacity waste from tedious work; such as project initiation, deployment, testing and validation, and so on through automation and good management practices. Outside of work Billy enjoy traveling, playing kickball, and having his heartbroken by cheering on the Kansas City Chiefs.\n",
+      "image": "assets/img/speakers/billy-korando.jpg",
+      "ref": "459fc7466dfa9163817d35cc884ca96e154c2420",
+      "url": "infoSpeaker.html?ref=459fc7466dfa9163817d35cc884ca96e154c2420",
+      "homepage": "https://billykorando.com",
+      "twitter": "@BillyKorando"
     }
   ]
 }

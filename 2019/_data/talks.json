@@ -287,6 +287,21 @@
       ],
       "title": "Amazon Corretto",
       "type": "talk"
+    },
+    {
+      "id": "5c36683738da16698cf41adf",
+      "title": "Extending Spring Boot for Enterprise",
+      "abstract": "Spring Boot has been an incredibly successful at reducing the time and complexity of spinning up new projects. However enterprise demands often cause Spring Boot projects to become bloated, out of date, and have inconsistent implementations, leading to them being difficult to maintain both for the teams responsible for a project and from an enterprise level of ensuring projects properly implement features like security, logging, database connectivity, and other common concerns.  \n\nIn this presentation we will look at some of the underlying philosophies of Spring Boot and see at how to apply them to the enterprise. Specific topics include creating customs starter libraries, BOMs, and easing project initialization steps all with the goal of reducing developer toil and frustration while ensuring consistent behavior across large enterprises but not blocking experimentation. If your organization has been struggling with bloated poms, projects full of dead code, and long pipelines from project conception to deployment to production this is a presentation you will definitely want to check out.  \n",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Cloud Native",
+        "Spring Boot"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "459fc7466dfa9163817d35cc884ca96e154c2420"
+      ]
     }
   ]
 }
