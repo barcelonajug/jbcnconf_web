@@ -317,6 +317,20 @@
       "speakers": [
         "1cf43210c8515585e52e4d2f6f2e5e0f582049d8"
       ]
+    },
+    {
+      "id": "5c48ed809034ae38180b14e2",
+      "title": "Continuous deployment to Kubernetes with the Google Container Tools",
+      "abstract": "Kubernetes has become the orchestrator of choice to deploy applications. But what about Java developer's day to day job of developing those applications? Developing with containers is not always easy nor enjoyable.\n\nGoogle has launched a set of Open-Source projects that focus on Developer Experience in a world of containers.\n\nWhether you'd like to continuously deploy to Kubernetes with Skaffold, safely build images on a cluster with Kaniko or build images much faster with Jib, come learn how to setup a great CI/CD.",
+      "type": "talk",
+      "tags": [
+        "kubernetes",
+        "containers"
+      ],
+      "level": "middle",
+      "speakers": [
+        "b728a02f2048c81298ca0a5a9bee9e82d7318f18"
+      ]
     }
   ]
 }
