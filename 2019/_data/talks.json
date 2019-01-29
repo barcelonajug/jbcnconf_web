@@ -302,6 +302,21 @@
       "speakers": [
         "459fc7466dfa9163817d35cc884ca96e154c2420"
       ]
+    },
+    {
+      "id": "5c48ec969034ae38180b14df",
+      "title": "Zero Downtime Migrations in Istio era",
+      "abstract": "You joined the DevOps movement and want to release software even faster and safer. You started reading about Advanced deployment techniques like Blue-Green Deployment, Canary Releases or Dark Shadow Technique. But how do you implement them without disrupting your users in production? With Zero Downtime! This is easy with your code, but what about ephemeral and persistent states? Most of the examples out there does not tackle this scenario (which is the most common in real systems). Come to this session and you’ll learn in a practical way how you can achieve zero downtime deployments applying advanced deployment techniques for maintaining the ephemeral and persistent state with Istio",
+      "type": "talk",
+      "tags": [
+        "devops",
+        "istio",
+        "microservices"
+      ],
+      "level": "middle",
+      "speakers": [
+        "1cf43210c8515585e52e4d2f6f2e5e0f582049d8"
+      ]
     }
   ]
 }
