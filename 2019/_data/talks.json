@@ -317,6 +317,51 @@
       "speakers": [
         "1cf43210c8515585e52e4d2f6f2e5e0f582049d8"
       ]
+    },
+    {
+      "id": "5c48ed809034ae38180b14e2",
+      "title": "Continuous deployment to Kubernetes with the Google Container Tools",
+      "abstract": "Kubernetes has become the orchestrator of choice to deploy applications. But what about Java developer's day to day job of developing those applications? Developing with containers is not always easy nor enjoyable.\n\nGoogle has launched a set of Open-Source projects that focus on Developer Experience in a world of containers.\n\nWhether you'd like to continuously deploy to Kubernetes with Skaffold, safely build images on a cluster with Kaniko or build images much faster with Jib, come learn how to setup a great CI/CD.",
+      "type": "talk",
+      "tags": [
+        "kubernetes",
+        "containers"
+      ],
+      "level": "middle",
+      "speakers": [
+        "b728a02f2048c81298ca0a5a9bee9e82d7318f18"
+      ]
+    },
+    {
+      "id": "5c48ec449034ae38180b14dd",
+      "title": "My Kotlin is better than your Java!",
+      "abstract": "TLDR: The big discussion:  Kotlin or Java, to migrate or not to migrate and why...\n\nThe world of languages on the JVM has seen alternatives to Java come and go. Kotlin is probably the most popular one at this moment. Although Java is still one of the most commonly used programming languages, Kotlin seems to keep growing very fast. Where Java is known for its verbosity, Kotlin aims at making programming easier. On the other hand, Kotlin is a mix of paradigms and forces you to learn yet another language. Moreover, with all the new features that are rapidly introduced in Java, is Kotlin actually needed? So what are the aspects where they differ from each other? In which situations should we choose the one or the other?  Should we migrate to Kotlin or is Java good enough? As Kotlin claims full interoperability with Java, should we even choose?\nIn this talk we will fire up the battle between Kotlin and Java. In this battle one of us will root for Java while the other cheers for Kotlin. Who wins? That is totally up to you. The audience will be judge and jury. So...bring it on.\n",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Kotlin"
+      ],
+      "level": "middle",
+      "speakers": [
+        "5d1b321ccc69de748beba885f56dec92485f328a",
+        "4933804ca1248303098eaa459ba614f4bbbbada1"
+      ]
+    },
+    {
+      "id": "5c3b3b1938da16698cf41b09",
+      "title": "Full Stack Reactive with React and Spring WebFlux",
+      "abstract": "You have streaming data and want to expose it as reactive streams with Spring Boot. Great! Spring WebFlux makes that pretty easy. But what about the UI? Can you stream that data to the UI and have it be reactive and constantly updating too? This session explores techniques for making your app fully reactive with Spring WebFlux and React. Mostly live coding, with plenty of time for Q & A in the midst of it all.",
+      "type": "workshop",
+      "tags": [
+        "React",
+        "Spring WebFlux",
+        "RSocket"
+      ],
+      "level": "middle",
+      "speakers": [
+        "3b8f95a333469c079f0264b8b903184fe5082c05",
+        "18ed589b0e9e8d867c82d384babe9c3dd94073f2"
+      ]
     }
   ]
 }
