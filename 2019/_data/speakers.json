@@ -244,6 +244,28 @@
       "homepage": "",
       "twitter": "dgageot",
       "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Paulien van Alst",
+      "description": "Engineer at OpenValue",
+      "biography": "Paulien is a passionate software engineer in love with readable, reliable and testable code, independent on the language or technology used. At OpenValue she works on helping companies setting up better software. Lately, she is giving Kotlin workshops and presentations about migrating from Java to Kotlin. In her free time, she likes to sport, cycling and swimming in particular. ",
+      "image": "assets/img/speakers/paulien-vanalst.jpg",
+      "ref": "5d1b321ccc69de748beba885f56dec92485f328a",
+      "url": "infoSpeaker.html?ref=5d1b321ccc69de748beba885f56dec92485f328a",
+      "homepage": "",
+      "twitter": "@PaulienVanAlst"
+    },
+    {
+      "enabled": "1",
+      "name": "Brian Vermeer",
+      "description": "Developer Advocate at Snyk",
+      "biography": "Developer Advocate for Snyk and Software Engineer with over 10 years of hands-on experience in creating and maintaining software. He is passionate about Java, (Pure) Functional Programming and Cybersecurity. Brian is an Oracle Groundbreaker Ambassador and regular international speaker on mostly Java related conferences like JavaOne, Oracle Code One, Devoxx BE, Devoxx UK, Jfokus, JavaZone and many more. Besides all that Brian is a military reserve for the Royal Netherlands Air Force and a Taekwondo Master / Teacher.",
+      "image": "assets/img/speakers/brian-vermeer.jpg",
+      "ref": "4933804ca1248303098eaa459ba614f4bbbbada1",
+      "url": "infoSpeaker.html?ref=4933804ca1248303098eaa459ba614f4bbbbada1",
+      "homepage": "http://www.brianvermeer.nl",
+      "twitter": "@BrianVerm"
     }
   ]
 }
