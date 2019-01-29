@@ -232,6 +232,18 @@
       "url": "infoSpeaker.html?ref=1cf43210c8515585e52e4d2f6f2e5e0f582049d8",
       "homepage": "http://www.lordofthejars.com",
       "twitter": "@alexsotob"
+    },
+    {
+      "enabled": "1",
+      "name": "David Gageot",
+      "description": "Developer Advocate at Google Cloud",
+      "biography": "David is a Developer Advocate at Google Cloud.\nHe's working on Containers Tools, especially on developer experience.\n\nPreviously, he helped open the R&D office of Docker in Paris\nto work on Docker for Mac and Docker for Windows.",
+      "image": "assets/img/speakers/david-gageot.jpg",
+      "ref": "b728a02f2048c81298ca0a5a9bee9e82d7318f18",
+      "url": "infoSpeaker.html?ref=b728a02f2048c81298ca0a5a9bee9e82d7318f18",
+      "homepage": "",
+      "twitter": "dgageot",
+      "linkedin": ""
     }
   ]
 }
