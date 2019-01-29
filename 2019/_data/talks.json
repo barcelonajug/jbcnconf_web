@@ -346,6 +346,22 @@
         "5d1b321ccc69de748beba885f56dec92485f328a",
         "4933804ca1248303098eaa459ba614f4bbbbada1"
       ]
+    },
+    {
+      "id": "5c3b3b1938da16698cf41b09",
+      "title": "Full Stack Reactive with React and Spring WebFlux",
+      "abstract": "You have streaming data and want to expose it as reactive streams with Spring Boot. Great! Spring WebFlux makes that pretty easy. But what about the UI? Can you stream that data to the UI and have it be reactive and constantly updating too? This session explores techniques for making your app fully reactive with Spring WebFlux and React. Mostly live coding, with plenty of time for Q & A in the midst of it all.",
+      "type": "workshop",
+      "tags": [
+        "React",
+        "Spring WebFlux",
+        "RSocket"
+      ],
+      "level": "middle",
+      "speakers": [
+        "3b8f95a333469c079f0264b8b903184fe5082c05",
+        "18ed589b0e9e8d867c82d384babe9c3dd94073f2"
+      ]
     }
   ]
 }
