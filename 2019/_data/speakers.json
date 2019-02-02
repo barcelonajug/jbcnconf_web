@@ -298,6 +298,18 @@
       "url": "infoSpeaker.html?ref=40afe10a3ea9ec161d15ade201a0101fa8f635f4",
       "homepage": "http://coding.michelschudel.nl",
       "twitter": "@MichelSchudel"
+  },
+  {
+    "enabled": "1",
+    "name": "Belinda Waldock",
+    "description": "Business Coach, Trainer, Speaker and Author",
+    "biography": "Belinda is a business coach, trainer, speaker and author. She supports organisations and teams to adopt an agile way of working to enhance their wellbeing, productivity and growth.\n\nBelinda’s book, Being Agile in Business is a popular non-technical introduction to agile thinking, approaches and culture.\n\nHer business, ‘being agile’ works with teams across a variety of areas to adopt agile thinking and practices, helping them to grow and sustain an agile culture in their organisations.",
+    "image": "assets/img/speakers/belinda-waldock.jpg",
+    "ref": "8ba341ede35371519196bc6a3c2cd11e4789c34a",
+    "url": "infoSpeaker.html?ref=8ba341ede35371519196bc6a3c2cd11e4789c34a",
+    "homepage": "http://www.beingagile.co.uk",
+    "twitter": "@belindawaldock",
+    "linkedin": "http://uk.linkedin.com/in/belindawaldock"
   }
   ]
 }
