@@ -392,6 +392,22 @@
       "speakers": [
       "40afe10a3ea9ec161d15ade201a0101fa8f635f4"
       ]
+  },
+  {
+    "id": "5c48ed3b9034ae38180b14e0",
+    "title": "Retrospective Sailing Workshop",
+    "abstract": "Hands on workshop for teams to help implement and improve Retrospectives within teams. Agile retrospectives are a great practice for helping teams to reflect on what’s going well and what could be better, and identify opportunities for improvement and change.  Retrospectives within teams helps to encourage self organisation, management and improvement. Introduction to Retrospectives: Formats for running Retrospectives, Practical exercises – Retrospective Sailing Game, Facilitating a Retrospective, Outcomes and Measures using Retrospectives. Retrospective Sailing is an agile reflection game demonstrated in this hands-on workshop. You can play as an individual in any role, as part of a development team, or with clients and customers to help understand how your journey is going. It will give you a new, fun way to run a retrospective to help to gain your bearings, identify what’s putting the wind in your sails, the anchors holding you back, and discover hidden treasure. Then you’ll plot your course and map a way forward that raises those anchors and catches the tide and a fair wind. You will be introduced to the game and try it out. There will be case examples and tips for facilitating the game too. Join us for some constructive fun, practical outcomes, and a useful tool to take back to the office. Helping teams embed continuous reflection and improvement into their work. Retrospective Sailing helps teams to reflect and map their way forward easily, in a fun, tactile and visual way. Review what's going well, what could go better, and ensure you are responding regularly to the changing horizon.",
+    "type": "workshop",
+    "tags": [
+      "Agile",
+      "Retrospectives",
+      "Teams",
+      "improvement"
+    ],
+    "level": "beginner",
+    "speakers": [
+      "8ba341ede35371519196bc6a3c2cd11e4789c34a"
+    ]
   }
   ]
 }
