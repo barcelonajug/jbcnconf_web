@@ -408,6 +408,21 @@
     "speakers": [
       "8ba341ede35371519196bc6a3c2cd11e4789c34a"
     ]
+  },
+  {
+    "id": "5c5225df9034ae38180b151e",
+    "title": "Serverless Java Challenges and Triumphs",
+    "abstract": "Serverless Functions are hot, developer and corporate interest are exploding! But let’s face it, although Java is one of the most popular programming languages in the world it isn’t the most popular language for writing functions—at least not yet. According to James Governor, “When Web Companies Grow Up They Turn into Java shops” so as functions become mainstream will Java become the dominant language for authoring functions? Can it be?\n\nIn this hands-on session, we will examine the challenges of using Java for Serverless functions and the latest features provided by the Java platform that address them. We will also dig into the open source Fn project’s unparalleled Java support (including Kotlin and Graal) which makes it possible to build, test, and scale out Java-based functions applications.",
+    "type": "talk",
+    "tags": [
+      "Serverless",
+      "FaaS",
+      "Docker"
+    ],
+    "level": "middle",
+    "speakers": [
+      "a744f52d967ebb543100a1215f9fe38080a664f0"
+    ]
   }
   ]
 }
