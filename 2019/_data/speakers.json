@@ -310,6 +310,18 @@
     "homepage": "http://www.beingagile.co.uk",
     "twitter": "@belindawaldock",
     "linkedin": "http://uk.linkedin.com/in/belindawaldock"
+  },
+  {
+    "enabled": "1",
+    "name": "David Delabassee",
+    "description": "Developer Advocate - FnProject & Severless Team at Oracle",
+    "biography": "David works in the Serverless Developer Relations Team at Oracle where he is spending most of his time on the open source Fn Project. Prior to that, he was involved in Java EE 8 and its transition to the Eclipse Foundation as part of the Jakarta EE initiative. Over the years, David has championed Java extensively throughout the world, by presenting at conferences and user groups, large and small.He blogs at https://delabassee.com and has authored many technical articles for various publications.\n\nDavid lives in Belgium. In his spare time, he enjoys playing video games with his daughter and tinkeringwith technologies such as domotics, electronics, and pinballs.\n\nYou can follow David on Twitter: @delabassee.",
+    "image": "assets/img/speakers/david-delabassee.jpg",
+    "ref": "a744f52d967ebb543100a1215f9fe38080a664f0",
+    "url": "infoSpeaker.html?ref=a744f52d967ebb543100a1215f9fe38080a664f0",
+    "homepage": "https://delabassee.com",
+    "twitter": "@delabassee",
+    "linkedin": "https://www.linkedin.com/in/daviddelabassee"
   }
   ]
 }
