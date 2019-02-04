@@ -322,6 +322,18 @@
     "homepage": "https://delabassee.com",
     "twitter": "@delabassee",
     "linkedin": "https://www.linkedin.com/in/daviddelabassee"
+  },
+  {
+    "enabled": "1",
+    "name": "Julien Viet",
+    "description": "Vert.x project lead, Red Hat Principal Software Engineer",
+    "biography": "Julien Viet is the Vert.x project lead and works at Red Hat. Julien has been developing open source software since 2002. Julien holds an engineering degree from Institut National des Télécommunications.",
+    "image": "assets/img/speakers/julien-viet.jpg",
+    "ref": "0ad9d5343d1ee682de4fd65c3df75aac55029fac",
+    "url": "infoSpeaker.html?ref=0ad9d5343d1ee682de4fd65c3df75aac55029fac",
+    "homepage": "http://www.julienviet.com",
+    "twitter": "@julienviet",
+    "linkedin": "https://fr.linkedin.com/in/julienviet"
   }
   ]
 }
