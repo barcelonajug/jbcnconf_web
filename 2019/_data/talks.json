@@ -423,6 +423,21 @@
     "speakers": [
       "a744f52d967ebb543100a1215f9fe38080a664f0"
     ]
+  },
+  {
+    "id": "5c5225d49034ae38180b151d",
+    "title": "Real-world HTTP performance benchmarking, lessons learned",
+    "abstract": "The TechEmpower Framework Benchmark is a public comparison of more than 200 web frameworks in different languages. The competition is fierce and everyone wants to be ranked in the top!\n\n    Eclipse Vert.x is a popular reactive stack for the JVM, designed for highly scalable applications and has taken part in this competition for several years.\n\n    Performance benchmarks are often used for comparing HTTP server or web frameworks and often used by people to choose between implementations. We will look at what these benchmarks means and what they actually measure.\n\n    The presentation will explain the secret sauce powering Vert.x performance that has a direct impact on this benchmark, from Java just-in-time compiler to networking optimizations.",
+    "type": "talk",
+    "tags": [
+      "performance",
+      "HTTP",
+      "vert.x"
+    ],
+    "level": "middle",
+    "speakers": [
+      "0ad9d5343d1ee682de4fd65c3df75aac55029fac"
+    ]
   }
   ]
 }
