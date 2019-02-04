@@ -17,6 +17,16 @@
       }
     }
   ],
+  "galaxy-regular" : [
+    {
+      "name": "Best Secret",
+      "href": "https://jobs.bestsecret.com/en/it.html",
+      "image": {
+        "src": "/assets/img/sponsors/best-secret.png",
+        "alt": "Best Secret"
+      }
+    }
+  ],
   "galaxy-basic": [
     {
       "name": "clever cloud",
