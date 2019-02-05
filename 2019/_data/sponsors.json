@@ -25,6 +25,14 @@
         "src": "/assets/img/sponsors/best-secret.png",
         "alt": "Best Secret"
       }
+    },
+    {
+      "name": "N26",
+      "href": "https://n26.com/en/careers",
+      "image": {
+        "src": "/assets/img/sponsors/N26_Logo_Black_RGB_S.png",
+        "alt": "N26"
+      }
     }
   ],
   "galaxy-basic": [
