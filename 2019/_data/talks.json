@@ -438,6 +438,23 @@
     "speakers": [
       "0ad9d5343d1ee682de4fd65c3df75aac55029fac"
     ]
+  },
+  {
+    "id": "5c5b57ec38da160d5d9c8e12",
+    "title": "IoT Sensor Analytics with Apache Kafka, KSQL and TensorFlow",
+    "abstract": "Large numbers of IoT devices lead to big data and the need for further processing and analysis. Apache Kafka is a highly scalable open source streaming platform to ingest, store, process and forward high volumes of data from thousands of IoT devices. KSQL is an open-source streaming SQL engine on top of Apache Kafka to make stream processing available to everyone.\n\nThis talk shows how to leverage Kafka and KSQL in an IoT sensor analytics scenario for predictive maintenance. A live demo shows how to embed and deploy Machine Learning models - built with frameworks like TensorFlow, DeepLearning4J or H2O - into mission-critical and scalable real time applications.\n",
+    "type": "talk",
+    "tags": [
+      "java",
+      "machine learning",
+      "kafka",
+      "ksql",
+      "IoT"
+    ],
+    "level": "middle",
+    "speakers": [
+      "4933ebef38f82b62da601eb07e8362bb389cc560"
+    ]
   }
   ]
 }
