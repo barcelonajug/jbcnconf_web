@@ -334,6 +334,17 @@
     "homepage": "http://www.julienviet.com",
     "twitter": "@julienviet",
     "linkedin": "https://fr.linkedin.com/in/julienviet"
+  },
+  {
+    "enabled": "1",
+    "name": "Kai Waehner",
+    "description": "Technology Evangelist for Confluent",
+    "biography": "Kai Waehner works as Technology Evangelist at Confluent. Kai’s main area of expertise lies within the fields of Big Data Analytics, Machine Learning / Deep Learning, Cloud / Hybrid Architectures, Messaging, Integration, Microservices, Stream Processing, Internet of Things and Blockchain. He is regular speaker at international conferences such as JavaOne, O’Reilly Software Architecture or ApacheCon, writes articles for professional journals, and shares his experiences with new technologies on his blog (www.kai-waehner.de/blog). Contact and references: kontakt@kai-waehner.de / @KaiWaehner / www.kai-waehner.de",
+    "image": "assets/img/speakers/kai-waehner.jpg",
+    "ref": "4933ebef38f82b62da601eb07e8362bb389cc560",
+    "url": "infoSpeaker.html?ref=4933ebef38f82b62da601eb07e8362bb389cc560",
+    "homepage": "http://www.kai-waehner.de",
+    "twitter": "@KaiWaehner"
   }
   ]
 }
