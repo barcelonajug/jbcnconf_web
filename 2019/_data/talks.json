@@ -473,36 +473,6 @@
       ]
   },
   {
-    "id": "5c5225df9034ae38180b151e",
-    "title": "Serverless Java Challenges and Triumphs",
-    "abstract": "Serverless Functions are hot, developer and corporate interest are exploding! But let’s face it, although Java is one of the most popular programming languages in the world it isn’t the most popular language for writing functions—at least not yet. According to James Governor, “When Web Companies Grow Up They Turn into Java shops” so as functions become mainstream will Java become the dominant language for authoring functions? Can it be?\n\nIn this hands-on session, we will examine the challenges of using Java for Serverless functions and the latest features provided by the Java platform that address them. We will also dig into the open source Fn project’s unparalleled Java support (including Kotlin and Graal) which makes it possible to build, test, and scale out Java-based functions applications.",
-    "type": "talk",
-    "tags": [
-      "Serverless",
-      "FaaS",
-      "Docker"
-    ],
-    "level": "middle",
-    "speakers": [
-      "a744f52d967ebb543100a1215f9fe38080a664f0"
-    ]
-  },
-  {
-    "id": "5c5225d49034ae38180b151d",
-    "title": "Real-world HTTP performance benchmarking, lessons learned",
-    "abstract": "The TechEmpower Framework Benchmark is a public comparison of more than 200 web frameworks in different languages. The competition is fierce and everyone wants to be ranked in the top!\n\n    Eclipse Vert.x is a popular reactive stack for the JVM, designed for highly scalable applications and has taken part in this competition for several years.\n\n    Performance benchmarks are often used for comparing HTTP server or web frameworks and often used by people to choose between implementations. We will look at what these benchmarks means and what they actually measure.\n\n    The presentation will explain the secret sauce powering Vert.x performance that has a direct impact on this benchmark, from Java just-in-time compiler to networking optimizations.",
-    "type": "talk",
-    "tags": [
-      "performance",
-      "HTTP",
-      "vert.x"
-    ],
-    "level": "middle",
-    "speakers": [
-      "0ad9d5343d1ee682de4fd65c3df75aac55029fac"
-    ]
-  },
-  {
     "id": "5c5225f49034ae38180b151f",
     "title": "Machine Learning: From buzzword to reality with Java",
     "abstract": "Commercially, machine learning and artificial intelligence are a popular trend, but as a Java developer (not a data scientist) how do we incorporate these techniques intelligently into our applications? \n\nMachine learning (ML) techniques can support the development of intelligent applications for facial or speech recognition, pattern matching, fraud detection, driverless cars and many more. However, how can you decipher whether these methods are just popular buzzwords or a profitable venture for your companies applications? This session will cover my journey as a Java developer learning how to use ML techniques intuitively and produce my own intelligent application. We will explore how to prototype your own ML algorithm implementations and then how this can be transformed into a cloud native application and deployed with Kubernetes. The session will delve into designing and implementing microservice architectures and present how to leverage their advantages.\n\nThe session will provide knowledge of:\nMachine learning from the viewpoint of a developer.\nMicroservice architecture design.\nDeploying your own intelligent application.\n\nThis presentation should be attended by developers who want to start making the transition to using ML techniques intuitively in their applications. \n",
