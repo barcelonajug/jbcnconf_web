@@ -471,6 +471,37 @@
       "speakers": [
         "1d54c30358e79434b07f96ddcb7dc19325134eeb"
       ]
-    }
+  },
+  {
+    "id": "5c5225f49034ae38180b151f",
+    "title": "Machine Learning: From buzzword to reality with Java",
+    "abstract": "Commercially, machine learning and artificial intelligence are a popular trend, but as a Java developer (not a data scientist) how do we incorporate these techniques intelligently into our applications? \n\nMachine learning (ML) techniques can support the development of intelligent applications for facial or speech recognition, pattern matching, fraud detection, driverless cars and many more. However, how can you decipher whether these methods are just popular buzzwords or a profitable venture for your companies applications? This session will cover my journey as a Java developer learning how to use ML techniques intuitively and produce my own intelligent application. We will explore how to prototype your own ML algorithm implementations and then how this can be transformed into a cloud native application and deployed with Kubernetes. The session will delve into designing and implementing microservice architectures and present how to leverage their advantages.\n\nThe session will provide knowledge of:\nMachine learning from the viewpoint of a developer.\nMicroservice architecture design.\nDeploying your own intelligent application.\n\nThis presentation should be attended by developers who want to start making the transition to using ML techniques intuitively in their applications. \n",
+    "type": "talk",
+    "tags": [
+      "Machine Learning",
+      "Microservices",
+      "Kubernetes"
+    ],
+    "level": "middle",
+    "speakers": [
+      "d89cefec93be3aba5a4a16347d38216b67606322"
+    ]
+  },
+  {
+    "id": "5c5b575a38da160d5d9c8e0f",
+    "title": "Introduction to Micronaut: Lightweight Microservices with Ahead of Time Compilation",
+    "abstract": "In this session, the creator of Micronaut and Grails introduces the newly released Micronaut framework and demonstrates how Micronaut’s unique compile-time approach enables the development of ultra-lightweight Microservices for Java. Compelling aspects of the Micronaut framework include: subsecond startup time, small processes that can run in as little as 10 MB of JVM heap, no runtime reflection, Dependency Injection and AOP, and Cloud Native. Graeme will also demonstrate how you can take your Microservices to the next level by using Micronaut's Ahead of Time Compilation (AOT) support and Oracle's GraalVM to achieve instant startup and ultra-low memory footprint.",
+    "type": "talk",
+    "tags": [
+      "Java",
+      "Microservices",
+      "Micronaut",
+      "Cloud Native"
+    ],
+    "level": "beginner",
+    "speakers": [
+      "6c31223d3be1de9ea66a96974ec4f524cd6a786f"
+    ]
+  }
   ]
 }
