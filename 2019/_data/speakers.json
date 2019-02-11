@@ -345,6 +345,17 @@
     "url": "infoSpeaker.html?ref=4933ebef38f82b62da601eb07e8362bb389cc560",
     "homepage": "http://www.kai-waehner.de",
     "twitter": "@KaiWaehner"
+  },{
+    "enabled": "1",
+    "name": "Valeriane Venance",
+    "description": "Developer Advocate @clever_cloud and freelance web developer",
+    "biography": "Developer Advocate @clever_cloud, Freelance web developer, backpack travelling and electronic music addict",
+    "image": "assets/img/speakers/valeriane-venance.jpg",
+    "ref": "1d54c30358e79434b07f96ddcb7dc19325134eeb",
+    "url": "infoSpeaker.html?ref=1d54c30358e79434b07f96ddcb7dc19325134eeb",
+    "homepage": "",
+    "twitter": "@valeriane_IT",
+    "linkedin": "https://www.linkedin.com/in/valeriane-v-03a4b7139/"
   }
   ]
 }
