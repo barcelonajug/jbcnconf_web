@@ -362,99 +362,115 @@
         "3b8f95a333469c079f0264b8b903184fe5082c05",
         "18ed589b0e9e8d867c82d384babe9c3dd94073f2"
       ]
-    },{
+    },
+    {
       "id": "5c3666d138da16698cf41adc",
       "title": "Bootiful Reactive Testing & CDC with Spring Boot",
       "abstract": "Join us for an exploration of testing a reactive Spring Boot 2.x application. Test driven development gives us the confidence necessary to improve our code faster, safely. But how do you test components and services, as well as integrations across distributed systems, while maintaining fast feedback loops, and how do you do all of this within the context of reactive Java? In this talk, we'll look at how to test imperative components, reactive data flows, and mocks. We’ll examine how to take advantage of test slices, and how to test web applications. We'll look at how to ensure that API producers and consumers work well together using consumer driven contract testing without sacrificing the testing pyramid for end-to-end integration tests. And we’ll do it all within the context of functional/reactive programming.",
       "type": "talk",
       "tags": [
-      "Java",
-      "reactive",
-      "testing",
-      "tdd",
-      "cloud"
+        "Java",
+        "reactive",
+        "testing",
+        "tdd",
+        "cloud"
       ],
       "level": "middle",
       "speakers": [
-      "2e93061543cde6bde464afd77e37198f67675a4f"
+        "2e93061543cde6bde464afd77e37198f67675a4f"
       ]
-  },
-  {
+    },
+    {
       "id": "5c48ed639034ae38180b14e1",
       "title": "Java n + 1: What's in store for Java 12 and beyond",
       "abstract": "The semi-annual Java release cycle means that we get new Java features quicker. Let's get you up to speed on the latest features! Java 12 is released on March 12, 2019. \n\nJava 12 adds some nice languages features and API changes like switch expressions, string literals, and a new garbage collector algorithm. \n\nIn this talk, you will get a quick recap of features that were introduced after Java 8,  see a demo of the new features in Java 12,  and examine what is in the pipeline for future Java releases. Furthermore, we will look at the changed Java ecosystem and support model, and explore alternative Java implementations like Amazon's Corretto.",
       "type": "talk",
       "tags": [
-      "Java",
-      "JDK12"
+        "Java",
+        "JDK12"
       ],
       "level": "middle",
       "speakers": [
-      "40afe10a3ea9ec161d15ade201a0101fa8f635f4"
+        "40afe10a3ea9ec161d15ade201a0101fa8f635f4"
       ]
-  },
-  {
-    "id": "5c48ed3b9034ae38180b14e0",
-    "title": "Retrospective Sailing Workshop",
-    "abstract": "Hands on workshop for teams to help implement and improve Retrospectives within teams. Agile retrospectives are a great practice for helping teams to reflect on what’s going well and what could be better, and identify opportunities for improvement and change.  Retrospectives within teams helps to encourage self organisation, management and improvement. Introduction to Retrospectives: Formats for running Retrospectives, Practical exercises – Retrospective Sailing Game, Facilitating a Retrospective, Outcomes and Measures using Retrospectives. Retrospective Sailing is an agile reflection game demonstrated in this hands-on workshop. You can play as an individual in any role, as part of a development team, or with clients and customers to help understand how your journey is going. It will give you a new, fun way to run a retrospective to help to gain your bearings, identify what’s putting the wind in your sails, the anchors holding you back, and discover hidden treasure. Then you’ll plot your course and map a way forward that raises those anchors and catches the tide and a fair wind. You will be introduced to the game and try it out. There will be case examples and tips for facilitating the game too. Join us for some constructive fun, practical outcomes, and a useful tool to take back to the office. Helping teams embed continuous reflection and improvement into their work. Retrospective Sailing helps teams to reflect and map their way forward easily, in a fun, tactile and visual way. Review what's going well, what could go better, and ensure you are responding regularly to the changing horizon.",
-    "type": "workshop",
-    "tags": [
-      "Agile",
-      "Retrospectives",
-      "Teams",
-      "improvement"
-    ],
-    "level": "beginner",
-    "speakers": [
-      "8ba341ede35371519196bc6a3c2cd11e4789c34a"
-    ]
-  },
-  {
-    "id": "5c5225df9034ae38180b151e",
-    "title": "Serverless Java Challenges and Triumphs",
-    "abstract": "Serverless Functions are hot, developer and corporate interest are exploding! But let’s face it, although Java is one of the most popular programming languages in the world it isn’t the most popular language for writing functions—at least not yet. According to James Governor, “When Web Companies Grow Up They Turn into Java shops” so as functions become mainstream will Java become the dominant language for authoring functions? Can it be?\n\nIn this hands-on session, we will examine the challenges of using Java for Serverless functions and the latest features provided by the Java platform that address them. We will also dig into the open source Fn project’s unparalleled Java support (including Kotlin and Graal) which makes it possible to build, test, and scale out Java-based functions applications.",
-    "type": "talk",
-    "tags": [
-      "Serverless",
-      "FaaS",
-      "Docker"
-    ],
-    "level": "middle",
-    "speakers": [
-      "a744f52d967ebb543100a1215f9fe38080a664f0"
-    ]
-  },
-  {
-    "id": "5c5225d49034ae38180b151d",
-    "title": "Real-world HTTP performance benchmarking, lessons learned",
-    "abstract": "The TechEmpower Framework Benchmark is a public comparison of more than 200 web frameworks in different languages. The competition is fierce and everyone wants to be ranked in the top!\n\n    Eclipse Vert.x is a popular reactive stack for the JVM, designed for highly scalable applications and has taken part in this competition for several years.\n\n    Performance benchmarks are often used for comparing HTTP server or web frameworks and often used by people to choose between implementations. We will look at what these benchmarks means and what they actually measure.\n\n    The presentation will explain the secret sauce powering Vert.x performance that has a direct impact on this benchmark, from Java just-in-time compiler to networking optimizations.",
-    "type": "talk",
-    "tags": [
-      "performance",
-      "HTTP",
-      "vert.x"
-    ],
-    "level": "middle",
-    "speakers": [
-      "0ad9d5343d1ee682de4fd65c3df75aac55029fac"
-    ]
-  },
-  {
-    "id": "5c5b57ec38da160d5d9c8e12",
-    "title": "IoT Sensor Analytics with Apache Kafka, KSQL and TensorFlow",
-    "abstract": "Large numbers of IoT devices lead to big data and the need for further processing and analysis. Apache Kafka is a highly scalable open source streaming platform to ingest, store, process and forward high volumes of data from thousands of IoT devices. KSQL is an open-source streaming SQL engine on top of Apache Kafka to make stream processing available to everyone.\n\nThis talk shows how to leverage Kafka and KSQL in an IoT sensor analytics scenario for predictive maintenance. A live demo shows how to embed and deploy Machine Learning models - built with frameworks like TensorFlow, DeepLearning4J or H2O - into mission-critical and scalable real time applications.\n",
-    "type": "talk",
-    "tags": [
-      "java",
-      "machine learning",
-      "kafka",
-      "ksql",
-      "IoT"
-    ],
-    "level": "middle",
-    "speakers": [
-      "4933ebef38f82b62da601eb07e8362bb389cc560"
-    ]
-  }
+    },
+    {
+      "id": "5c48ed3b9034ae38180b14e0",
+      "title": "Retrospective Sailing Workshop",
+      "abstract": "Hands on workshop for teams to help implement and improve Retrospectives within teams. Agile retrospectives are a great practice for helping teams to reflect on what’s going well and what could be better, and identify opportunities for improvement and change.  Retrospectives within teams helps to encourage self organisation, management and improvement. Introduction to Retrospectives: Formats for running Retrospectives, Practical exercises – Retrospective Sailing Game, Facilitating a Retrospective, Outcomes and Measures using Retrospectives. Retrospective Sailing is an agile reflection game demonstrated in this hands-on workshop. You can play as an individual in any role, as part of a development team, or with clients and customers to help understand how your journey is going. It will give you a new, fun way to run a retrospective to help to gain your bearings, identify what’s putting the wind in your sails, the anchors holding you back, and discover hidden treasure. Then you’ll plot your course and map a way forward that raises those anchors and catches the tide and a fair wind. You will be introduced to the game and try it out. There will be case examples and tips for facilitating the game too. Join us for some constructive fun, practical outcomes, and a useful tool to take back to the office. Helping teams embed continuous reflection and improvement into their work. Retrospective Sailing helps teams to reflect and map their way forward easily, in a fun, tactile and visual way. Review what's going well, what could go better, and ensure you are responding regularly to the changing horizon.",
+      "type": "workshop",
+      "tags": [
+        "Agile",
+        "Retrospectives",
+        "Teams",
+        "improvement"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "8ba341ede35371519196bc6a3c2cd11e4789c34a"
+      ]
+    },
+    {
+      "id": "5c5225df9034ae38180b151e",
+      "title": "Serverless Java Challenges and Triumphs",
+      "abstract": "Serverless Functions are hot, developer and corporate interest are exploding! But let’s face it, although Java is one of the most popular programming languages in the world it isn’t the most popular language for writing functions—at least not yet. According to James Governor, “When Web Companies Grow Up They Turn into Java shops” so as functions become mainstream will Java become the dominant language for authoring functions? Can it be?\n\nIn this hands-on session, we will examine the challenges of using Java for Serverless functions and the latest features provided by the Java platform that address them. We will also dig into the open source Fn project’s unparalleled Java support (including Kotlin and Graal) which makes it possible to build, test, and scale out Java-based functions applications.",
+      "type": "talk",
+      "tags": [
+        "Serverless",
+        "FaaS",
+        "Docker"
+      ],
+      "level": "middle",
+      "speakers": [
+        "a744f52d967ebb543100a1215f9fe38080a664f0"
+      ]
+    },
+    {
+      "id": "5c5225d49034ae38180b151d",
+      "title": "Real-world HTTP performance benchmarking, lessons learned",
+      "abstract": "The TechEmpower Framework Benchmark is a public comparison of more than 200 web frameworks in different languages. The competition is fierce and everyone wants to be ranked in the top!\n\n    Eclipse Vert.x is a popular reactive stack for the JVM, designed for highly scalable applications and has taken part in this competition for several years.\n\n    Performance benchmarks are often used for comparing HTTP server or web frameworks and often used by people to choose between implementations. We will look at what these benchmarks means and what they actually measure.\n\n    The presentation will explain the secret sauce powering Vert.x performance that has a direct impact on this benchmark, from Java just-in-time compiler to networking optimizations.",
+      "type": "talk",
+      "tags": [
+        "performance",
+        "HTTP",
+        "vert.x"
+      ],
+      "level": "middle",
+      "speakers": [
+        "0ad9d5343d1ee682de4fd65c3df75aac55029fac"
+      ]
+    },
+    {
+      "id": "5c5b57ec38da160d5d9c8e12",
+      "title": "IoT Sensor Analytics with Apache Kafka, KSQL and TensorFlow",
+      "abstract": "Large numbers of IoT devices lead to big data and the need for further processing and analysis. Apache Kafka is a highly scalable open source streaming platform to ingest, store, process and forward high volumes of data from thousands of IoT devices. KSQL is an open-source streaming SQL engine on top of Apache Kafka to make stream processing available to everyone.\n\nThis talk shows how to leverage Kafka and KSQL in an IoT sensor analytics scenario for predictive maintenance. A live demo shows how to embed and deploy Machine Learning models - built with frameworks like TensorFlow, DeepLearning4J or H2O - into mission-critical and scalable real time applications.\n",
+      "type": "talk",
+      "tags": [
+        "java",
+        "machine learning",
+        "kafka",
+        "ksql",
+        "IoT"
+      ],
+      "level": "middle",
+      "speakers": [
+        "4933ebef38f82b62da601eb07e8362bb389cc560"
+      ]
+    },
+    {
+      "id": "5c52261c9034ae38180b1520",
+      "title": "Authentication/Authorization Starters Battle",
+      "abstract": "When you start a brand new app or service, you need to think about how you will manage authentication and permissions. But if you are like everyone else, you genuinely do not want to actually think about this. If someone else could do that for you, life would be great. And this has actually happened, you have the choice between several boilerplate projects or authentication/authorization libraries. In fact, you have a lot of options. Which one to choose? Let's put them to the test!\n\nIt's time for battle! In this talk we will implement some of the most common starters to showcase different types of authentication and permission management. At the end of this talk, you will have a good overview of the common existing solutions and their benefits.\n",
+      "type": "talk",
+      "tags": [
+        "authorization",
+        "authentication",
+        "security"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "1d54c30358e79434b07f96ddcb7dc19325134eeb"
+      ]
+    }
   ]
 }
