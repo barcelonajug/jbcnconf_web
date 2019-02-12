@@ -337,27 +337,6 @@
   },
   {
     "enabled": "1",
-    "name": "Rebecca Simmonds",
-    "description": "Senior Software Engineer at Red Hat",
-    "biography": "Rebecca Simmonds is a senior software engineer at Red Hat. Here she is part of an emerging technology group, which comprises of both data scientists and developers. She completed a PhD at Newcastle University, in which she developed a platform for scalable, geospatial and temporal analysis of the Twitter data. After this she moved to a small startup company as a Java developer creating solutions to improve performance for a CV analyser. She has a keen interest in architecture design and data analysis, which she is furthering at Red Hat with Openshift and ML research.\n",
-    "image": "assets/img/speakers/rebecca-simmonds.jpg",
-    "ref": "d89cefec93be3aba5a4a16347d38216b67606322",
-    "url": "infoSpeaker.html?ref=d89cefec93be3aba5a4a16347d38216b67606322",
-    "twitter": "@becky_simmonds"
-  },
-  {
-    "enabled": "1",
-    "name": "Graeme Rocher",
-    "description": "co-founder of the Grails and Micronaut frameworks",
-    "biography": "Graeme Rocher, co-founder of the Grails and Micronaut frameworks and co-author of The Definitive Guide to Grails, serves as Technical Lead for the OCI Grails & Micronaut team. Graeme has worked in the software development field for more than 20 years and has expertise in Grails, Groovy, Web Development, Dynamic Languages, and the JVM.",
-    "image": "assets/img/speakers/graeme.rocher.jpg",
-    "ref": "6c31223d3be1de9ea66a96974ec4f524cd6a786f",
-    "url": "infoSpeaker.html?ref=6c31223d3be1de9ea66a96974ec4f524cd6a786f",
-    "homepage": "http://micronaut.io",
-    "twitter": "@graemerocher"
-  },
-  {
-    "enabled": "1",
     "name": "Kai Waehner",
     "description": "Technology Evangelist for Confluent",
     "biography": "Kai Waehner works as Technology Evangelist at Confluent. Kai’s main area of expertise lies within the fields of Big Data Analytics, Machine Learning / Deep Learning, Cloud / Hybrid Architectures, Messaging, Integration, Microservices, Stream Processing, Internet of Things and Blockchain. He is regular speaker at international conferences such as JavaOne, O’Reilly Software Architecture or ApacheCon, writes articles for professional journals, and shares his experiences with new technologies on his blog (www.kai-waehner.de/blog). Contact and references: kontakt@kai-waehner.de / @KaiWaehner / www.kai-waehner.de",
