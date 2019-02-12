@@ -471,6 +471,20 @@
       "speakers": [
         "1d54c30358e79434b07f96ddcb7dc19325134eeb"
       ]
+    },
+    {
+      "id": "5c5b5b5138da160d5d9c8e14",
+      "title": "Uncovering Project Amber",
+      "abstract": "Stay ahead of the curve. Find out how Project Amber is transforming Java’s basic language constructs and introducing newer features, to enhance developer productivity and coding experience.\n\nIn this session, you'll cover code examples of type inference with local variables and lambda parameters using ‘var’ (Java 10 and 11). You’ll discover how the switch expressions (Java 12) make your code readable and concise, taking off the ambiguity with switch constructs. If you think using String concatenation is cumbersome, especially with regex, JSON, XML or SQL queries, don’t miss Raw String Literals (Java 13). That’s not all. Project Amber also includes Enhanced Enums, Data Classes, Lambda Leftovers, Pattern Matching, and Concise Method Bodies.\n\nHow do these additions or modification impact you to read or write code? Should you really bother about all these changes? Yes,  together, these changes will transform how you write your everyday code. The audience will takeaway why, how and where to use these language features to improve everyday coding experience. \n",
+      "type": "talk",
+      "tags": [
+        "#Java",
+        "#ProjectAmber"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "388f6f9ee4eb169ce6d936f7ce3952f6aadd211f"
+      ]
     }
   ]
 }
