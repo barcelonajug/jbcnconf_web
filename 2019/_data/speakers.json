@@ -356,6 +356,18 @@
     "homepage": "",
     "twitter": "@valeriane_IT",
     "linkedin": "https://www.linkedin.com/in/valeriane-v-03a4b7139/"
+  },
+  {
+    "enabled": "1",
+    "name": "Mala Gupta",
+    "description": "Developer Advocate JetBrains, Java Champion, director WomenWhoCode, Leader DelhiJUG",
+    "biography": "Mala Gupta is Developer Advocate at JetBrains. She is also founder and lead mentor at eJavaGuru.com, Java Champion at Oracle, book author with Manning and Packt Publications. An international speaker at industry conferences, she has an experience of 18 years in software industry.\n\nShe has been actively supporting Java certification as a path to career advancement. Since 2006, she has been coaching students and professionals to succeed on these certifications. A sought after speaker and coach, Mala Gupta's Java books with Manning Publications, USA, are top-rated for Java Certification around the globe.\n\nShe co-leads Delhi Java User Group . A strong supporter of Women in Technology, she drives initiatives of Women Who Code - Delhi chapter to augment participation of women in tech. Mala has also co-founded KaagZevar.com - a platform for nurturing creativity as an essential life skill.",
+    "image": "assets/img/speakers/mala-gupta.png",
+    "ref": "388f6f9ee4eb169ce6d936f7ce3952f6aadd211f",
+    "url": "infoSpeaker.html?ref=388f6f9ee4eb169ce6d936f7ce3952f6aadd211f",
+    "homepage": "",
+    "twitter": "@eMalaGupta",
+    "linkedin": "https://www.linkedin.com/in/malagupta/"
   }
   ]
 }
