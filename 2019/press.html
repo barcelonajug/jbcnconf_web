@@ -35,8 +35,17 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 
                                 </ul>
                                 <br/>
-                                <h2>Impactos en Prensa</h2>
-
+                                <h2>Press impacts</h2>
+                                <div class="post-content">
+                                    {% for pressitem in site.data.press.items %}
+                                        {{pressitem.name}}<br>
+                                    <ul>
+                                       {% for mediaurl in pressitem.url %}
+                                        <li><a href="{{mediaurl}}">{{mediaurl}}</a></li>
+                                       {% endfor %}
+                                    </ul>
+                                    {% endfor %}
+                                </div>
                             </div>
                         </div>
                     </article>

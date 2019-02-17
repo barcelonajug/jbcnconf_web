@@ -15,6 +15,14 @@
         "src": "/assets/img/sponsors/codurance.png",
         "alt": "Codurance"
       }
+    },
+    {
+      "name": "Casumo",
+      "href": "https://casumocareers.com",
+      "image": {
+        "src": "/assets/img/sponsors/casumo.png",
+        "alt": "Casumo"
+      }
     }
   ],
   "galaxy-regular" : [
@@ -32,6 +40,14 @@
       "image": {
         "src": "/assets/img/sponsors/N26_Logo_Black_RGB_S.png",
         "alt": "N26"
+      }
+    },
+    {
+      "name": "Netcentric",
+      "href": "https://www.netcentric.biz/careers.html",
+      "image": {
+        "src": "/assets/img/sponsors/netcentric.jpg",
+        "alt": "netcentric"
       }
     }
   ],
@@ -61,6 +77,61 @@
         "src": "/assets/img/sponsors/ctecno.png",
         "alt": "Cercle Tecnològic de Catalunya (CTecno)"
       }
+    },
+    {
+      "name": "ACEC",
+      "href": "http://www.asocat.org",
+      "image": {
+        "src": "/assets/img/sponsors/acec.jpg",
+        "alt": "Associacio Catalana Empreses Consultores"
+      }
+    },
+    {
+      "name": "Smart Catalonia",
+      "href": "http://www.smartcatalonia.cat",
+      "image": {
+        "src": "/assets/img/sponsors/smart-catalonia.jpg",
+        "alt": "Smart Catalonia - Generalitat de Catalunya"
+      }
+    },
+    {
+      "name": "Barcelona Activa",
+      "href": "http://www.barcelonaactiva.cat",
+      "image": {
+        "src": "/assets/img/sponsors/barcelona-activa.png",
+        "alt": "Barcelona Activa"
+      }
     }
+  ],
+  "mediapartners" : [
+    {
+      "name": "tecnonews",
+      "href": "http://www.tecnonews.info/",
+      "image": {
+        "src": "/assets/img/sponsors/tecnonews.png",
+        "alt": "Tecnonews"
+      }
+    },    {
+      "name": "transformacion-digital",
+      "href": "https://www.revistatransformaciondigital.com/",
+      "image": {
+        "src": "/assets/img/sponsors/transformacion-digital.png",
+        "alt": "Revista Transformacion Digital"
+      }
+    },    {
+      "name": "tyn",
+      "href": "http://www.tynmagazine.com/",
+      "image": {
+        "src": "/assets/img/sponsors/tyn.png",
+        "alt": "TyN Magazine"
+      }
+    },    {
+      "name": "wwwhatsnew",
+      "href": "https://wwwhatsnew.com/",
+      "image": {
+        "src": "/assets/img/sponsors/wwwhatsnew.png",
+        "alt": "WWWhatsnew"
+      }
+    },
   ]
 }
