@@ -516,6 +516,26 @@
       "speakers": [
         "d89cefec93be3aba5a4a16347d38216b67606322"
       ]
+    },
+    {
+      "id": "5c5b576538da160d5d9c8e10",
+      "title": "Learn Micronaut: a reactive microservices framework for the JVM",
+      "abstract": "Micronaut is a modern, JVM-based, full stack microservices framework designed for building modular, easily testable Microservice applications in Java, Kotlin or Groovy. Micronaut is developed by the creators of Grails and takes inspiration from lessons learnt over the years building real-world applications from monoliths to microservices using Spring, Spring Boot and Grails.<br><br>This instructor-led workshop covers building a couple of microservices using Java, Gradle, JPA with H2 and MongoDB and Consul. It also covers the basic features of Micronaut, such as:<br>- Dependency Injection and Inversion of Control (IoC).<br>- Configuration system.<br>- HTTP services.<br>- Cloud and serverless deployments.<br>- Management & Monitoring.<br>",
+      "type": "workshop",
+      "tags": [
+        "Java",
+        "Microservices",
+        "Groovy",
+        "Kotlin",
+        "Micronaut",
+        "Spring",
+        "Gradle",
+        "Consul"
+      ],
+      "level": "advanced",
+      "speakers": [
+        "417a471e81a8522f2868a154c587bfd4484f1310"
+      ]
     }
   ]
 }
