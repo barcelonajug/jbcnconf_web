@@ -17,13 +17,18 @@
 
                 <div class="sponsor-diamond">
                     <h1>Cosmos</h1>
+                    <br>
+                    <br>
                     <a href="{{ site.data.sponsors.diamond.href }}" target="_blank" title="{{ site.data.sponsors.diamond.name }}">
                         <img src="{{base}}{{ site.data.sponsors.diamond.image.src }}" style="max-height:100%; max-width:100%"
                              class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
                              alt="{{ site.data.sponsors.diamond.image.alt }}"/>
                     </a>
+                    <br>
+                    <br>
                 </div>
             </div>
+
         {% endif %}
 
         {% if site.data.sponsors.galaxy-premium %}
@@ -81,7 +86,7 @@
         {% if site.data.sponsors.galaxy-basic %}
             <div class="vc_column-inner" style="text-align: center;">
                     <hr class="sponsor-separator-gold sponsor-separator"/>
-                    <h1 class="sponsor-gold">Galaxy - Basic</h1>
+                    <h1 class="sponsor-bronze">Galaxy - Basic</h1>
 
                     <div class="post-related-posts row">
                         {% for sponsor in site.data.sponsors.galaxy-basic %}
