@@ -368,6 +368,7 @@
     "homepage": "",
     "twitter": "@eMalaGupta",
     "linkedin": "https://www.linkedin.com/in/malagupta/"
+<<<<<<< HEAD
   },
   {
     "enabled": "1",
@@ -389,6 +390,8 @@
     "ref": "d89cefec93be3aba5a4a16347d38216b67606322",
     "url": "infoSpeaker.html?ref=d89cefec93be3aba5a4a16347d38216b67606322",
     "twitter": "@becky_simmonds"
+=======
+>>>>>>> gh-pages
   }
   ]
 }
