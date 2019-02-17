@@ -370,11 +370,24 @@ a:focus {
 	font-weight: bold;
 	margin: 20px;
 }
+#sponsors .mediapartners {
+	background-color: #444;
+	color: #FFF;
+	height: 50px;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 20px;
+}
 #sponsors .separator.bronze {
 
 	background-color: #CD7F32;
 }
 #sponsors .separator.supporters {
+	background-color: #444;
+}
+#sponsors .separator.mediapartners {
 	background-color: #444;
 }
 #sponsors .silver p{
