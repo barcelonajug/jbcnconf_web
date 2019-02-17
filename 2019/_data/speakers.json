@@ -401,6 +401,30 @@
     "homepage": "http://alvarosanchez.github.io/",
     "twitter": "@alvaro_sanchez",
     "linkedin": "https://www.linkedin.com/in/mariscal/"
+  },
+  {
+    "enabled": "1",
+    "name": "Vaughn Vernon",
+    "description": "Consultant and Trainer at Kalele, author of Domain-Driven Design Distilled, and Founder and Lead Architect/Developer of vlingo/platform",
+    "biography": "Vaughn Vernon is a software developer and architect with more than 30 years of experience in a broad range of business domains. Vaughn is a leading expert in Domain-Driven Design, and a champion of simplicity and reactive systems. He consults and teaches around Domain-Driven Design and reactive software development, helping teams and organizations realize the potential of business driven and reactive systems as they transition from technology driven legacy web implementation approaches. As he does so, he puts strong emphasis on embracing simplicity whenever possible. Vaughn is the author of three books: Implementing Domain-Driven Design, Reactive Messaging Patterns with the Actor Model, and Domain-Driven Design Distilled, all published by Addison-Wesley.",
+    "image": "assets/img/speakers/vaughn-vernon.jpg",
+    "ref": "c9f19a5a2dbbfed36664ef31c4ee86c0dfbbe388",
+    "url": "infoSpeaker.html?ref=c9f19a5a2dbbfed36664ef31c4ee86c0dfbbe388",
+    "homepage": "https://kalele.io",
+    "twitter": "@VaughnVernon",
+    "linkedin": "https://www.linkedin.com/in/vaughnvernon/"
+  },
+  {
+    "enabled": "1",
+    "name": "Kevin Mas Ruiz",
+    "description": "Software consultant at Thoughtworks Barcelona. Contributor in vlingo.io and main contributor in tarantx",
+    "biography": "Domain Driven Developer, from the beginning of it's existence interested in delivering value and understanding real problems. Contributor in vlingo.io and main contributor in tarantx. \nCurrently working as a software consultant at Thoughtworks Barcelona.",
+    "image": "assets/img/speakers/kevin-mas-ruiz.png",
+    "ref": "ea8cef2c8d8bc8f303ad8e7436c5be94f6dafcd2",
+    "url": "infoSpeaker.html?ref=ea8cef2c8d8bc8f303ad8e7436c5be94f6dafcd2",
+    "homepage": "https://kmruiz.github.io/about/",
+    "twitter": "@skmruiz",
+    "linkedin": "https://www.linkedin.com/in/kevinmasruiz"
   }
   ]
 }

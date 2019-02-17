@@ -536,6 +536,28 @@
       "speakers": [
         "417a471e81a8522f2868a154c587bfd4484f1310"
       ]
+    },
+    {
+      "id": "5c69474938da1663aa5fc661",
+      "title": "Reactive Domain-Driven Design. Solving complexity by design.",
+      "abstract": "In new fields, such as IoT, software complexity comes at you rapidly, and with time complexity can dominate systems and the teams that work on them. Previously unforeseen customers, functionality, and other demands, such as short timelines, and your desire to deliver everything to everyone, can break you and your code. When that happens business opportunity is lost, along with your confidence and reputation. Learn how you can rethink software design and implementation with the actor model. Use actors—small, independent computing components—in a business-driven fashion to focus on delivering new functionality in a business-driven way.",
+      "type": "talk",
+      "tags": [
+        "IoT",
+        "Kotlin",
+        "DDD",
+        "Microservices",
+        "Cloud",
+        "GCE",
+        "Kubernetes",
+        "Actor Model",
+        "Reactive Software Design"
+      ],
+      "level": "middle",
+      "speakers": [
+        "ea8cef2c8d8bc8f303ad8e7436c5be94f6dafcd2",
+        "c9f19a5a2dbbfed36664ef31c4ee86c0dfbbe388"
+      ]
     }
   ]
 }
