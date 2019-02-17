@@ -389,6 +389,18 @@
     "ref": "d89cefec93be3aba5a4a16347d38216b67606322",
     "url": "infoSpeaker.html?ref=d89cefec93be3aba5a4a16347d38216b67606322",
     "twitter": "@becky_simmonds"
+  },
+  {
+    "enabled": "1",
+    "name": "Álvaro Sánchez-Mariscal",
+    "description": "Senior Software Engineer at Object Computing (OCI)",
+    "biography": "Álvaro is a passionate developer and agile enthusiast with over 18 years of experience. He now works as a Senior Software Engineer at Object Computing (OCI), the company leading Groovy, Grails and Micronaut open-source development.\nBefore working at OCI, he spent some years working in different industries like gambling games (Odobo) and fintech (4Finance). Prior to that, he created his own company, Salenda, in 2005, a software factory and Atlassian Solution Partner headquartered in Madrid, Spain. As of today, he is still the company owner. Previously, he worked at companies like IBM BCS, BEA Systems or Sun Microsystems.\nÁlvaro is a speaker at conferences like Devoxx BE, GeeCON, JavaLand, JavaZone, Codemotion and Commit Conf. In his spare time, as well as coding and experimenting with new technologies, he likes to spend time with his wife and son, support CD Leganes football team, and play paddle tennis.",
+    "image": "assets/img/speakers/alvaro-sanchez-mariscal.jpg",
+    "ref": "417a471e81a8522f2868a154c587bfd4484f1310",
+    "url": "infoSpeaker.html?ref=417a471e81a8522f2868a154c587bfd4484f1310",
+    "homepage": "http://alvarosanchez.github.io/",
+    "twitter": "@alvaro_sanchez",
+    "linkedin": "https://www.linkedin.com/in/mariscal/"
   }
   ]
 }
