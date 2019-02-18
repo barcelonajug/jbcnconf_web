@@ -425,6 +425,17 @@
     "homepage": "https://kmruiz.github.io/about/",
     "twitter": "@skmruiz",
     "linkedin": "https://www.linkedin.com/in/kevinmasruiz"
+  },
+  {
+    "enabled": "1",
+    "name": "Erik-Berndt Scheper",
+    "description": "Java architect at Ordina JTech",
+    "biography": "With more than 15 years of enterprise Java experience, I am familiar with all the usual technologies in the Java EE software development world. My expertise includes Angular, JSF, JAX-RS, JPA, Hibernate, EJB 3.x and several Spring frameworks.  Since the advent of functional languages on the JVM, I have started working on Big and Fast Data technologies using with Python, Java and Scala. Outside work I am actively contributing to the Java Meetup in Groningen (NL), where we've hosted evening sessions about Angular, Ionic, Kotlin, with more to come.",
+    "image": "assets/img/speakers/erik-berndt-scheper.jpg",
+    "ref": "ea89fe753dbd87eb417cd4bc34f5df5216b48d70",
+    "url": "infoSpeaker.html?ref=ea89fe753dbd87eb417cd4bc34f5df5216b48d70",
+    "homepage": "https://ordina-jtech.github.io/",
+    "twitter": "@fbascheper"
   }
   ]
 }
