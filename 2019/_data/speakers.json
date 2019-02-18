@@ -436,6 +436,18 @@
     "url": "infoSpeaker.html?ref=ea89fe753dbd87eb417cd4bc34f5df5216b48d70",
     "homepage": "https://ordina-jtech.github.io/",
     "twitter": "@fbascheper"
+  },
+  {
+    "enabled": "1",
+    "name": "Ricardo Ferreira",
+    "description": "Developer Advocate at Confluent",
+    "biography": "Ricardo is a Developer Advocate at Confluent, the company founded by the creators of Apache Kafka. He has +21 years of experience working with Software Engineering, where he specialized in different types of Distributed Systems architectures such as Integration, SOA, NoSQL, Messaging, In-Memory Caching, and Cloud Computing.\n\nPrior to Confluent, he worked for other vendors such as Oracle, Red Hat and IONA Technologies, as well as several consulting firms. While not working and like any good Brazilian — he loves doing Churrasco’s (i.e.: Brazilian Barbecue) with his friends & family, where he gets the chance to talk about anything that is not geek related.",
+    "image": "assets/img/speakers/ricardo-ferreira.jpg",
+    "ref": "1126c74440db86e536e583215673f4a4931b1049",
+    "url": "infoSpeaker.html?ref=1126c74440db86e536e583215673f4a4931b1049",
+    "homepage": "https://riferrei.net/",
+    "twitter": "@riferrei",
+    "linkedin": "https://www.linkedin.com/in/riferrei"
   }
   ]
 }
