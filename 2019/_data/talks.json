@@ -574,6 +574,21 @@
       "speakers": [
         "ea89fe753dbd87eb417cd4bc34f5df5216b48d70"
       ]
+    },
+    {
+      "id": "5c5b57e038da160d5d9c8e11",
+      "title": "Tips and Tricks about Apache Kafka in the Cloud for Java Developers",
+      "abstract": "Who are you? You are a talented developer who has been using Apache Kafka in your projects on-premises for a long time, as well as writing Java code to write and read data to and from topics. However, your manager asked you to design an architecture in which both Apache Kafka and your code will run in the cloud, and just like that, you find yourself worried about being able to deliver this project.\n\nThis talk will demonstrate that there is nothing to be worried about, though you may need to learn a few tips and tricks along the way to ensure the success of your projects. We’ll use live demos to show which changes your architecture and code should undergo, as well as discuss the kinds of problems that often arise in cloud deployments",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Cloud",
+        "Design Patterns"
+      ],
+      "level": "middle",
+      "speakers": [
+        "1126c74440db86e536e583215673f4a4931b1049"
+      ]
     }
   ]
 }
