@@ -558,6 +558,22 @@
         "ea8cef2c8d8bc8f303ad8e7436c5be94f6dafcd2",
         "c9f19a5a2dbbfed36664ef31c4ee86c0dfbbe388"
       ]
+    },
+    {
+      "id": "5c5b580038da160d5d9c8e13",
+      "title": "Bust the burglars: Machine Learning with TensorFlow and Apache Kafka",
+      "abstract": "The integration of event streams is becoming increasingly complex in the world of sensors, media streams and the Internet of Things. In this session I will discuss how Apache Kafka and TensorFlow can be used to process real time video events and send alerts when a potential burglary is detected. \n\nSpecifically, I'll discuss how Kafka Connect and Kafka Streams can be used to read images from a media stream and how this can be integrated with TensorFlow to analyse the resulting event streams.\n\nAlthough the use case presented is based on home security, the same technology used to analyse event streams can be applied to other use cases, as I will demonstrate during this session.",
+      "type": "talk",
+      "tags": [
+        "Kafka Streams",
+        "Kafka Connect",
+        "Machine Learning",
+        "TensorFlow"
+      ],
+      "level": "middle",
+      "speakers": [
+        "ea89fe753dbd87eb417cd4bc34f5df5216b48d70"
+      ]
     }
   ]
 }
