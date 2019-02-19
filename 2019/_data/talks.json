@@ -485,6 +485,110 @@
       "speakers": [
         "388f6f9ee4eb169ce6d936f7ce3952f6aadd211f"
       ]
+    },
+    {
+      "id": "5c5b575a38da160d5d9c8e0f",
+      "title": "Introduction to Micronaut: Lightweight Microservices with Ahead of Time Compilation",
+      "abstract": "In this session, the creator of Micronaut and Grails introduces the newly released Micronaut framework and demonstrates how Micronaut’s unique compile-time approach enables the development of ultra-lightweight Microservices for Java. Compelling aspects of the Micronaut framework include: subsecond startup time, small processes that can run in as little as 10 MB of JVM heap, no runtime reflection, Dependency Injection and AOP, and Cloud Native. Graeme will also demonstrate how you can take your Microservices to the next level by using Micronaut's Ahead of Time Compilation (AOT) support and Oracle's GraalVM to achieve instant startup and ultra-low memory footprint.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Microservices",
+        "Micronaut",
+        "Cloud Native"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "6c31223d3be1de9ea66a96974ec4f524cd6a786f"
+      ]
+    },
+    {
+      "id": "5c5225f49034ae38180b151f",
+      "title": "Machine Learning: From buzzword to reality with Java",
+      "abstract": "Commercially, machine learning and artificial intelligence are a popular trend, but as a Java developer (not a data scientist) how do we incorporate these techniques intelligently into our applications? \n\nMachine learning (ML) techniques can support the development of intelligent applications for facial or speech recognition, pattern matching, fraud detection, driverless cars and many more. However, how can you decipher whether these methods are just popular buzzwords or a profitable venture for your companies applications? This session will cover my journey as a Java developer learning how to use ML techniques intuitively and produce my own intelligent application. We will explore how to prototype your own ML algorithm implementations and then how this can be transformed into a cloud native application and deployed with Kubernetes. The session will delve into designing and implementing microservice architectures and present how to leverage their advantages.\n\nThe session will provide knowledge of:\nMachine learning from the viewpoint of a developer.\nMicroservice architecture design.\nDeploying your own intelligent application.\n\nThis presentation should be attended by developers who want to start making the transition to using ML techniques intuitively in their applications. \n",
+      "type": "talk",
+      "tags": [
+        "Machine Learning",
+        "Microservices",
+        "Kubernetes"
+      ],
+      "level": "middle",
+      "speakers": [
+        "d89cefec93be3aba5a4a16347d38216b67606322"
+      ]
+    },
+    {
+      "id": "5c5b576538da160d5d9c8e10",
+      "title": "Learn Micronaut: a reactive microservices framework for the JVM",
+      "abstract": "Micronaut is a modern, JVM-based, full stack microservices framework designed for building modular, easily testable Microservice applications in Java, Kotlin or Groovy. Micronaut is developed by the creators of Grails and takes inspiration from lessons learnt over the years building real-world applications from monoliths to microservices using Spring, Spring Boot and Grails.<br><br>This instructor-led workshop covers building a couple of microservices using Java, Gradle, JPA with H2 and MongoDB and Consul. It also covers the basic features of Micronaut, such as:<br>- Dependency Injection and Inversion of Control (IoC).<br>- Configuration system.<br>- HTTP services.<br>- Cloud and serverless deployments.<br>- Management & Monitoring.<br>",
+      "type": "workshop",
+      "tags": [
+        "Java",
+        "Microservices",
+        "Groovy",
+        "Kotlin",
+        "Micronaut",
+        "Spring",
+        "Gradle",
+        "Consul"
+      ],
+      "level": "advanced",
+      "speakers": [
+        "417a471e81a8522f2868a154c587bfd4484f1310"
+      ]
+    },
+    {
+      "id": "5c69474938da1663aa5fc661",
+      "title": "Reactive Domain-Driven Design. Solving complexity by design.",
+      "abstract": "In new fields, such as IoT, software complexity comes at you rapidly, and with time complexity can dominate systems and the teams that work on them. Previously unforeseen customers, functionality, and other demands, such as short timelines, and your desire to deliver everything to everyone, can break you and your code. When that happens business opportunity is lost, along with your confidence and reputation. Learn how you can rethink software design and implementation with the actor model. Use actors—small, independent computing components—in a business-driven fashion to focus on delivering new functionality in a business-driven way.",
+      "type": "talk",
+      "tags": [
+        "IoT",
+        "Kotlin",
+        "DDD",
+        "Microservices",
+        "Cloud",
+        "GCE",
+        "Kubernetes",
+        "Actor Model",
+        "Reactive Software Design"
+      ],
+      "level": "middle",
+      "speakers": [
+        "ea8cef2c8d8bc8f303ad8e7436c5be94f6dafcd2",
+        "c9f19a5a2dbbfed36664ef31c4ee86c0dfbbe388"
+      ]
+    },
+    {
+      "id": "5c5b580038da160d5d9c8e13",
+      "title": "Bust the burglars: Machine Learning with TensorFlow and Apache Kafka",
+      "abstract": "The integration of event streams is becoming increasingly complex in the world of sensors, media streams and the Internet of Things. In this session I will discuss how Apache Kafka and TensorFlow can be used to process real time video events and send alerts when a potential burglary is detected. \n\nSpecifically, I'll discuss how Kafka Connect and Kafka Streams can be used to read images from a media stream and how this can be integrated with TensorFlow to analyse the resulting event streams.\n\nAlthough the use case presented is based on home security, the same technology used to analyse event streams can be applied to other use cases, as I will demonstrate during this session.",
+      "type": "talk",
+      "tags": [
+        "Kafka Streams",
+        "Kafka Connect",
+        "Machine Learning",
+        "TensorFlow"
+      ],
+      "level": "middle",
+      "speakers": [
+        "ea89fe753dbd87eb417cd4bc34f5df5216b48d70"
+      ]
+    },
+    {
+      "id": "5c5b57e038da160d5d9c8e11",
+      "title": "Tips and Tricks about Apache Kafka in the Cloud for Java Developers",
+      "abstract": "Who are you? You are a talented developer who has been using Apache Kafka in your projects on-premises for a long time, as well as writing Java code to write and read data to and from topics. However, your manager asked you to design an architecture in which both Apache Kafka and your code will run in the cloud, and just like that, you find yourself worried about being able to deliver this project.\n\nThis talk will demonstrate that there is nothing to be worried about, though you may need to learn a few tips and tricks along the way to ensure the success of your projects. We’ll use live demos to show which changes your architecture and code should undergo, as well as discuss the kinds of problems that often arise in cloud deployments",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Cloud",
+        "Design Patterns"
+      ],
+      "level": "middle",
+      "speakers": [
+        "1126c74440db86e536e583215673f4a4931b1049"
+      ]
     }
   ]
 }

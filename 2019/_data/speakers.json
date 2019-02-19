@@ -368,6 +368,86 @@
     "homepage": "",
     "twitter": "@eMalaGupta",
     "linkedin": "https://www.linkedin.com/in/malagupta/"
+  },
+  {
+    "enabled": "1",
+    "name": "Graeme Rocher",
+    "description": "co-founder of the Grails and Micronaut frameworks",
+    "biography": "Graeme Rocher, co-founder of the Grails and Micronaut frameworks and co-author of The Definitive Guide to Grails, serves as Technical Lead for the OCI Grails & Micronaut team. Graeme has worked in the software development field for more than 20 years and has expertise in Grails, Groovy, Web Development, Dynamic Languages, and the JVM.",
+    "image": "assets/img/speakers/graeme.rocher.jpg",
+    "ref": "6c31223d3be1de9ea66a96974ec4f524cd6a786f",
+    "url": "infoSpeaker.html?ref=6c31223d3be1de9ea66a96974ec4f524cd6a786f",
+    "homepage": "http://micronaut.io",
+    "twitter": "@graemerocher"
+  },
+  {
+    "enabled": "1",
+    "name": "Rebecca Simmonds",
+    "description": "Senior Software Engineer at Red Hat",
+    "biography": "Rebecca Simmonds is a senior software engineer at Red Hat. Here she is part of an emerging technology group, which comprises of both data scientists and developers. She completed a PhD at Newcastle University, in which she developed a platform for scalable, geospatial and temporal analysis of the Twitter data. After this she moved to a small startup company as a Java developer creating solutions to improve performance for a CV analyser. She has a keen interest in architecture design and data analysis, which she is furthering at Red Hat with Openshift and ML research.\n",
+    "image": "assets/img/speakers/rebecca-simmonds.jpg",
+    "ref": "d89cefec93be3aba5a4a16347d38216b67606322",
+    "url": "infoSpeaker.html?ref=d89cefec93be3aba5a4a16347d38216b67606322",
+    "twitter": "@becky_simmonds"
+  },
+  {
+    "enabled": "1",
+    "name": "Álvaro Sánchez-Mariscal",
+    "description": "Senior Software Engineer at Object Computing (OCI)",
+    "biography": "Álvaro is a passionate developer and agile enthusiast with over 18 years of experience. He now works as a Senior Software Engineer at Object Computing (OCI), the company leading Groovy, Grails and Micronaut open-source development.\nBefore working at OCI, he spent some years working in different industries like gambling games (Odobo) and fintech (4Finance). Prior to that, he created his own company, Salenda, in 2005, a software factory and Atlassian Solution Partner headquartered in Madrid, Spain. As of today, he is still the company owner. Previously, he worked at companies like IBM BCS, BEA Systems or Sun Microsystems.\nÁlvaro is a speaker at conferences like Devoxx BE, GeeCON, JavaLand, JavaZone, Codemotion and Commit Conf. In his spare time, as well as coding and experimenting with new technologies, he likes to spend time with his wife and son, support CD Leganes football team, and play paddle tennis.",
+    "image": "assets/img/speakers/alvaro-sanchez-mariscal.jpg",
+    "ref": "417a471e81a8522f2868a154c587bfd4484f1310",
+    "url": "infoSpeaker.html?ref=417a471e81a8522f2868a154c587bfd4484f1310",
+    "homepage": "http://alvarosanchez.github.io/",
+    "twitter": "@alvaro_sanchez",
+    "linkedin": "https://www.linkedin.com/in/mariscal/"
+  },
+  {
+    "enabled": "1",
+    "name": "Vaughn Vernon",
+    "description": "Consultant and Trainer at Kalele, author of Domain-Driven Design Distilled, and Founder and Lead Architect/Developer of vlingo/platform",
+    "biography": "Vaughn Vernon is a software developer and architect with more than 30 years of experience in a broad range of business domains. Vaughn is a leading expert in Domain-Driven Design, and a champion of simplicity and reactive systems. He consults and teaches around Domain-Driven Design and reactive software development, helping teams and organizations realize the potential of business driven and reactive systems as they transition from technology driven legacy web implementation approaches. As he does so, he puts strong emphasis on embracing simplicity whenever possible. Vaughn is the author of three books: Implementing Domain-Driven Design, Reactive Messaging Patterns with the Actor Model, and Domain-Driven Design Distilled, all published by Addison-Wesley.",
+    "image": "assets/img/speakers/vaughn-vernon.jpg",
+    "ref": "c9f19a5a2dbbfed36664ef31c4ee86c0dfbbe388",
+    "url": "infoSpeaker.html?ref=c9f19a5a2dbbfed36664ef31c4ee86c0dfbbe388",
+    "homepage": "https://kalele.io",
+    "twitter": "@VaughnVernon",
+    "linkedin": "https://www.linkedin.com/in/vaughnvernon/"
+  },
+  {
+    "enabled": "1",
+    "name": "Kevin Mas Ruiz",
+    "description": "Software consultant at Thoughtworks Barcelona. Contributor in vlingo.io and main contributor in tarantx",
+    "biography": "Domain Driven Developer, from the beginning of it's existence interested in delivering value and understanding real problems. Contributor in vlingo.io and main contributor in tarantx. \nCurrently working as a software consultant at Thoughtworks Barcelona.",
+    "image": "assets/img/speakers/kevin-mas-ruiz.png",
+    "ref": "ea8cef2c8d8bc8f303ad8e7436c5be94f6dafcd2",
+    "url": "infoSpeaker.html?ref=ea8cef2c8d8bc8f303ad8e7436c5be94f6dafcd2",
+    "homepage": "https://kmruiz.github.io/about/",
+    "twitter": "@skmruiz",
+    "linkedin": "https://www.linkedin.com/in/kevinmasruiz"
+  },
+  {
+    "enabled": "1",
+    "name": "Erik-Berndt Scheper",
+    "description": "Java architect at Ordina JTech",
+    "biography": "With more than 15 years of enterprise Java experience, I am familiar with all the usual technologies in the Java EE software development world. My expertise includes Angular, JSF, JAX-RS, JPA, Hibernate, EJB 3.x and several Spring frameworks.  Since the advent of functional languages on the JVM, I have started working on Big and Fast Data technologies using with Python, Java and Scala. Outside work I am actively contributing to the Java Meetup in Groningen (NL), where we've hosted evening sessions about Angular, Ionic, Kotlin, with more to come.",
+    "image": "assets/img/speakers/erik-berndt-scheper.jpg",
+    "ref": "ea89fe753dbd87eb417cd4bc34f5df5216b48d70",
+    "url": "infoSpeaker.html?ref=ea89fe753dbd87eb417cd4bc34f5df5216b48d70",
+    "homepage": "https://ordina-jtech.github.io/",
+    "twitter": "@fbascheper"
+  },
+  {
+    "enabled": "1",
+    "name": "Ricardo Ferreira",
+    "description": "Developer Advocate at Confluent",
+    "biography": "Ricardo is a Developer Advocate at Confluent, the company founded by the creators of Apache Kafka. He has +21 years of experience working with Software Engineering, where he specialized in different types of Distributed Systems architectures such as Integration, SOA, NoSQL, Messaging, In-Memory Caching, and Cloud Computing.\n\nPrior to Confluent, he worked for other vendors such as Oracle, Red Hat and IONA Technologies, as well as several consulting firms. While not working and like any good Brazilian — he loves doing Churrasco’s (i.e.: Brazilian Barbecue) with his friends & family, where he gets the chance to talk about anything that is not geek related.",
+    "image": "assets/img/speakers/ricardo-ferreira.jpg",
+    "ref": "1126c74440db86e536e583215673f4a4931b1049",
+    "url": "infoSpeaker.html?ref=1126c74440db86e536e583215673f4a4931b1049",
+    "homepage": "https://riferrei.net/",
+    "twitter": "@riferrei",
+    "linkedin": "https://www.linkedin.com/in/riferrei"
   }
   ]
 }

@@ -1,0 +1,193 @@
+{
+  "items" : [
+    {
+      "name" : "PR News Wire",
+      "title" : "",
+      "url" : [
+        "https://www.prnewswire.com/news-releases/barcelona-acogera-la-5o-edicion-de-jbcnconf-el-mayor-congreso-de-programacion-informatica-de-espana-812368860.html\n"
+      ],
+      "logo" : ""
+    },
+    {
+      "name" : "Europa Press",
+      "title" : "",
+      "url" : [
+        "https://www.europapress.es/catalunya/barcelona-economias-00982/noticia-barcelona-acogera-jbcnconf-mayor-congreso-programacion-informatica-espana-20190212111900.html",
+        "https://www.europapress.es/comunicados/sociedad-00909/",
+        "https://www.europapress.es/comunicados/internacional-00907/noticia-comunicado-barcelona-acogera-edicion-jbcnconf-mayor-congreso-programacion-informatica-espana-20190212091627.html"
+      ],
+      "logo" : ""
+    },
+    {
+      "name" : "Silicon",
+      "title" : "",
+      "url" : [
+          "https://www.silicon.es/la-quinta-edicion-de-jbcnconf-se-celebrara-entre-el-27-y-el-29-de-mayo-2390755?inf_by=5c62ad36671db8831b8b5012"
+      ],
+      "logo" : ""
+    },
+    {
+      "name" : "La Vanguardia",
+      "title" : "",
+      "url" : [
+          "https://www.lavanguardia.com/vida/20190212/46401908007/comunicado-barcelona-acogera-la-5-edicion-de-jbcnconf-el-mayor-congreso-de-programacion-informatica-de-espana.html",
+        "https://www.lavanguardia.com/vida/20190210/46334436279/barcelona-reunira-a-700-programadores-java-en-el-mayor-evento-del-sector.html",
+        "https://www.lavanguardia.com/local/barcelona/20190212/46404001971/barcelona-acogera-el-jbcnconf-el-mayor-congreso-de-programacion-informatica-de-espana.html"
+
+      ],
+      "logo" : ""
+    },
+    {
+      "name" : "Finanzas",
+      "title" : "",
+      "url" : [
+        "http://www.finanzas.com/noticias/economia/20190210/barcelona-reunira-programadores-java-3992142_age.html"
+      ],
+      "logo" : ""
+    },
+    {
+      "name" : "COPE",
+      "title" : "",
+      "url" : [
+        "https://www.cope.es/actualidad/economia/noticias/barcelona-reunira-700-programadores-java-mayor-evento-del-sector-20190210_349976"
+      ],
+      "logo" : ""
+    },
+    {
+      "name" : "CCIB",
+      "title" : "",
+      "url" : [
+        "https://ccib.es/barcelona-reunira-a-700-programadores-java-en-el-mayor-evento-del-sector/"
+      ],
+      "logo" : ""
+    },
+    {
+      "name" : "El Diario Vasco",
+      "title" : "",
+      "url" : [
+        "https://www.diariovasco.com/agencias/201902/10/barcelona-reunira-programadores-java-1348876.html"
+      ],
+      "logo" : ""
+    },
+    {
+      "name" : "Hoy",
+      "title" : "",
+      "url" : [
+        "https://www.hoy.es/agencias/201902/10/barcelona-reunira-programadores-java-1348876.html"
+      ],
+      "logo" : ""
+    },
+    {
+      "name" : "La Rioja",
+      "title" : "",
+      "url" : [
+        "https://www.larioja.com/agencias/201902/10/barcelona-reunira-programadores-java-1348876.html"
+      ],
+      "logo" : ""
+    },
+    {
+      "name" :"El Comercio",
+      "title" : "",
+      "url" : [
+      "https://www.elcomercio.es/agencias/201902/10/barcelona-reunira-programadores-java-1348876.html"
+      ],
+      "logo" : ""
+    },
+    {
+      "name" : "El Obrero",
+      "title" : "",
+      "url" : [
+        "https://elobrero.es/economia/item/24544-barcelona-reunir%C3%A1-a-700-programadores-java-en-el-mayor-evento-del-sector.html"
+      ],
+      "logo" : ""
+    },
+    {
+      "name" : "Hedge Accordingly",
+      "title" : "",
+      "url" : [
+        "https://hedgeaccordingly.com/barcelona-acogera-la-5o-edicion-de-jbcnconf-el-mayor-congreso-de-programacion-informatica-de-espana/"
+      ],
+      "logo" : ""
+    },
+    {
+      "name" : "Metrópoli Abierta",
+      "title" : "",
+      "url" : [
+        "https://www.metropoliabierta.com/economia/empresas/programadores-java-bcn-evento_14118_102.html"
+      ],
+      "logo" : ""
+    },
+    {
+      "name" : " Asturias Mundial",
+      "title" : "",
+      "url" : [
+        "http://www.asturiasmundial.com/noticia/105753/barcelona-acogera-5-edicion-jbcnconf-mayor-congreso-programacion-informatica-espana/"
+      ],
+      "logo" : ""
+    },
+    {
+      "name" : " República",
+      "title" : "",
+      "url" : [
+        "https://www.republica.com/2019/02/10/barcelona-acogera-el-mayor-congreso-dedicado-a-la-programacion-java-en-espana/"
+      ],
+      "logo" : ""
+    },
+    {
+      "name" : "Endavant!",
+      "title" : "",
+      "url" : [
+        "https://endavant.info/economia/item/1730-barcelona-reunir%C3%A1-a-700-programadores-java-en-el-mayor-evento-del-sector.html"
+      ],
+      "logo" : ""
+    },
+    {
+      "name" : " Al Dia",
+      "title" : "",
+      "url" : [
+        "https://www.aldia.cat/catalunya/noticia-barcelona-acollira-jbcnconf-congres-programacio-informatica-mes-gran-despanya-20190212122417.html"
+      ],
+      "logo" : ""
+    },
+    {
+      "name" : " Invertia",
+      "title" : "",
+      "url" : [
+        "https://www.invertia.com/es/noticias/actualidad/20190212/comunicado-barcelona-acogera-la-5-edicion-de-jbcnconf-el-mayor-congreso-de-programacion-informatica-de-espana-241383"
+      ],
+      "logo" : ""
+    },
+    {
+      "name" : " Hardwaresfera",
+      "title" : "",
+      "url" : [
+        "https://hardwaresfera.com/noticias/notas-de-prensa/barcelona-acogera-la-5o-edicion-de-jbcnconf-el-mayor-congreso-de-programacion-informatica-de-espana/"
+      ],
+      "logo" : ""
+    },
+    {
+      "name" : " Razzle Tazzle",
+      "title" : "",
+      "url" : [
+        "http://razzletazzle.com/showbiz-rightnow/barcelona-acogera-la-5o-edicion-de-jbcnconf-el-mayor-congreso-de-programacion-informatica-de-espana/2019/02/12/"
+      ],
+      "logo" : ""
+    },
+    {
+      "name" : "Growth Capitalist",
+      "title" : "",
+      "url" : [
+        "https://www.growthcapitalist.com/2019/02/barcelona-acogera-la-5o-edicion-de-jbcnconf-el-mayor-congreso-de-programacion-informatica-de-espana/"
+      ],
+      "logo" : ""
+    },
+    {
+      "name" : "News Locker",
+      "title" : "",
+      "url" : [
+        "http://www.newslocker.com/en-uk/profession/biotechnology/barcelona-acoger-la-5-edicin-de-jbcnconf-el-mayor-congreso-de-programacin-informtica-de-espaa/"
+      ],
+      "logo" : ""
+    }
+  ]
+}

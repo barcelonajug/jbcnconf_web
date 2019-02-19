@@ -17,13 +17,18 @@
 
                 <div class="sponsor-diamond">
                     <h1>Cosmos</h1>
+                    <br>
+                    <br>
                     <a href="{{ site.data.sponsors.diamond.href }}" target="_blank" title="{{ site.data.sponsors.diamond.name }}">
                         <img src="{{base}}{{ site.data.sponsors.diamond.image.src }}" style="max-height:100%; max-width:100%"
                              class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
                              alt="{{ site.data.sponsors.diamond.image.alt }}"/>
                     </a>
+                    <br>
+                    <br>
                 </div>
             </div>
+
         {% endif %}
 
         {% if site.data.sponsors.galaxy-premium %}
@@ -81,7 +86,7 @@
         {% if site.data.sponsors.galaxy-basic %}
             <div class="vc_column-inner" style="text-align: center;">
                     <hr class="sponsor-separator-gold sponsor-separator"/>
-                    <h1 class="sponsor-gold">Galaxy - Basic</h1>
+                    <h1 class="sponsor-bronze">Galaxy - Basic</h1>
 
                     <div class="post-related-posts row">
                         {% for sponsor in site.data.sponsors.galaxy-basic %}
@@ -149,6 +154,27 @@
             </div>
         {% endif %}
 
+        {% if site.data.sponsors.mediapartners %}
+        <div class="vc_column-inner" style="text-align: center;">
+            <hr class="sponsor-separator"/>
+
+            <h1 class="sponsor-mediapartner">Media Partners</h1>
+            <div class="post-related-posts row">
+
+                {% for sponsor in site.data.sponsors.mediapartners %}
+                <div class="item col-sm-2 col-xs-6" style="line-height: 100px;">
+                    <div class="image align-middle">
+                        <a href="{{ sponsor.href }}" target="_blank" title="{{ sponsor.name }}"
+                           style="vertical-align:middle;">
+                            <img src="{{ base }}{{ sponsor.image.src }}" style="max-height:70%; max-width:70%"
+                                 class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
+                                 alt="{{ sponsor.image.alt }}"/></a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
         <hr class="sponsor-separator"/>
 
     </div>
