@@ -104,7 +104,7 @@
     },
     {
       "name": "Barcelona Activa",
-      "href": "http://www.barcelonaactiva.cat",
+      "href": "http://www.barcelonactiva.cat",
       "image": {
         "src": "/assets/img/sponsors/barcelona-activa.png",
         "alt": "Barcelona Activa"
@@ -140,6 +140,6 @@
         "src": "/assets/img/sponsors/wwwhatsnew.png",
         "alt": "WWWhatsnew"
       }
-    },
+    }
   ]
 }
