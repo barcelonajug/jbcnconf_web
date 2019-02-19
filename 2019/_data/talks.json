@@ -589,6 +589,22 @@
       "speakers": [
         "1126c74440db86e536e583215673f4a4931b1049"
       ]
+    },
+    {
+      "id": "5c64984138da16483151bb38",
+      "title": "Extending Kubernetes with Spring Cloud",
+      "abstract": "Can Kubernetes be extended? Why would you ever need to extend Kubernetes?  \n\nIn this session we will answer these two questions and discuss why it’s important to learn what can be done to extend Kubernetes and how some projects are already doing so. We will show how Spring Cloud (and Spring Cloud Kubernetes) components can help to provide a more native Kubernetes experience for our applications. \n\nWe will also explain the main extension points for Kubernetes from a Java Developer’s perspective. To demonstrate this, we will live code some extensions and deploy services to a real cluster and discuss the common challenges and pitfalls that you will face and need to overcome. We will use the Spring Cloud Gateway project to create a router that can understand domain specific extensions.\n\nAs a Java Developer, this session should provide you with  a deeper understanding of why you should master the concept of extending Kubernetes while building cloud native applications. \n",
+      "type": "talk",
+      "tags": [
+        "spring cloud",
+        "Kubernetes",
+        "java",
+        "open source"
+      ],
+      "level": "advanced",
+      "speakers": [
+        "4b26a098aafaf6bc3d533389b61d3ef5ab01f5a3"
+      ]
     }
   ]
 }

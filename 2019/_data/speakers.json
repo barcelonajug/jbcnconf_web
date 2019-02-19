@@ -448,6 +448,18 @@
     "homepage": "https://riferrei.net/",
     "twitter": "@riferrei",
     "linkedin": "https://www.linkedin.com/in/riferrei"
+  },
+  {
+    "enabled": "1",
+    "name": "Mauricio Salatino",
+    "description": "Principal Software Engineer at Alfresco",
+    "biography": "Open Source, Java, Spring Cloud and Business Automation enthusiast and promoter. Writer of 4 books about BPM & Rule Engines, now Activiti Cloud Tech Lead / Principal Software Engineer @ Alfresco",
+    "image": "assets/img/speakers/mauricio-salatino.jpg",
+    "ref": "4b26a098aafaf6bc3d533389b61d3ef5ab01f5a3",
+    "url": "infoSpeaker.html?ref=4b26a098aafaf6bc3d533389b61d3ef5ab01f5a3",
+    "homepage": "http://salaboy.com",
+    "twitter": "@salaboy",
+    "linkedin": "http://linkedin.com/in/salaboy"
   }
   ]
 }
