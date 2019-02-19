@@ -59,6 +59,14 @@
         "src": "/assets/img/sponsors/clever-cloud.png",
         "alt": "clever cloud"
       }
+    },
+    {
+      "name": "Apiumhub",
+      "href": "https://apiumhub.com/",
+      "image": {
+        "src": "/assets/img/sponsors/apiumhub.png",
+        "alt": "Apiumhub"
+      }
     }
   ],
   "supporters": [
