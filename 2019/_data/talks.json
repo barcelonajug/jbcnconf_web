@@ -605,6 +605,21 @@
       "speakers": [
         "4b26a098aafaf6bc3d533389b61d3ef5ab01f5a3"
       ]
+    },
+    {
+      "id": "5c64983638da16483151bb37",
+      "title": "Implementing a Simple JVM in Java and Rust ",
+      "abstract": "The JVM is a truly remarkable piece of software, but it is still just a computer program, not magic!\n\nIn this talk, I will explain how we might start to implement a JVM from scratch, using the Java programming language. Fundamental concepts such as the bytecode interpreter, classfile parsing and memory management will be explained, using an open-source implementation as reference. We will build up a working interpreter capable of executing simple methods, and then discuss the limitations of the simple JVM.\n\nThe second half of the talk will be to show how the Rust programming language provides a good alternative implementation language for our simple JVM. We will showcase some basic Rust language features and show how they can be used to provide a version of our JVM that is much cleaner and easier to understand, even if you've never seen Rust code before!",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "JVM Internals",
+        "Rust"
+      ],
+      "level": "advanced",
+      "speakers": [
+        "a71020196a6877a18aa38df8e51e12fc6807d6c7"
+      ]
     }
   ]
 }
