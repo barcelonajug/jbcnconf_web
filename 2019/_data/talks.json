@@ -605,6 +605,38 @@
       "speakers": [
         "4b26a098aafaf6bc3d533389b61d3ef5ab01f5a3"
       ]
-    }
+    },
+    {
+      "id": "5c64984b38da16483151bb39",
+      "title": "Ready to hire a bot as a developer?",
+      "abstract": "Not everything during the development process requires creativity or it is fun. Many times, we need to review code, fix coding style issues, upgrade libraries, or simply update our manifest files. At schibsted, we decided to measure, automate and promote them.\n\nDuring this session, we will explore how could we take benefits of an event-driven architecture (based in open source technologies) to make the developer process fun again and we explore how to integrate in our GitHub projects a new developer that helps us with these tasks.",
+      "type": "talk",
+      "tags": [
+        "event-driven",
+        "productivity",
+        "java"
+      ],
+      "level": "middle",
+      "speakers": [
+        "a925c7b2692519ec35f1a5c0765d0c07249bf530"
+      ]
+    },
+    {
+      "id": "5c6498b438da16483151bb3a",
+      "title": "Kubernetes the AWSome Way!",
+      "abstract": "Amazon Elastic Container Service for Kubernetes (Amazon EKS) makes it easy to deploy, manage, and scale containerized applications using Kubernetes on AWS. \n\nIn this hands-on workshop, we cover how to set up Amazon EKS to run common production applications and implement operational best practices, including:\n\nBuilding a code deployment pipeline\nPerforming code updates and rollbacks with health checks\nApplication Logging, Monitoring, and Tracing\nTraffic Routing with Service Mesh\nMetrics-based Auto Scaling\n\nCome prepared to build with a laptop and active AWS Account. Basic AWS and Linux Knowledge is recommended.",
+      "type": "workshop",
+      "tags": [
+        "#Kubernetes",
+        "#MIcroservices",
+        "#Istio",
+        "#AWS"
+      ],
+      "level": "advanced",
+      "speakers": [
+        "20576670e696ba8ea562ba8275e300953e41675e",
+        "71af056fedc23b5b4210ca138eb31f0852041361"
+      ]
+    }    
   ]
 }
