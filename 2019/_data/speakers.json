@@ -460,6 +460,40 @@
     "homepage": "http://salaboy.com",
     "twitter": "@salaboy",
     "linkedin": "http://linkedin.com/in/salaboy"
+  },
+  {
+    "enabled": "1",
+    "name": "Raquel Pau Fernandez",
+    "description": "Senior software engineer at Schibsted and Walkmod author",
+    "biography": "She is a senior software engineer at Schibsted and the author of an open source tool called walkmod to autofix Java coding style issues. She has been speaker of several editions of Devoxx UK and JBCNConf during the last years.",
+    "image": "assets/img/speakers/raquel-pau.jpeg",
+    "ref": "a925c7b2692519ec35f1a5c0765d0c07249bf530",
+    "url": "infoSpeaker.html?ref=a925c7b2692519ec35f1a5c0765d0c07249bf530",
+    "homepage": "",
+    "twitter": "@raquelpau",
+    "linkedin": ""
+  },
+  {
+    "enabled": "1",
+    "name": "Shawn O'Connor",
+    "description": "Solution Architect at Amazon Web Services",
+    "biography": "Shawn is a Solution Architect with Amazon Web Services based in San Francisco, California. He works with large enterprise customers helping modernize their operations and migrate to cloud-native technologies such as Kubernetes.",
+    "image": "assets/img/speakers/shawn-o-connor.jpeg",
+    "ref": "20576670e696ba8ea562ba8275e300953e41675e",
+    "url": "infoSpeaker.html?ref=20576670e696ba8ea562ba8275e300953e41675e",
+    "homepage": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/oak2278/"
+  },
+  {
+    "enabled": "1",
+    "name": "Changsu Lee",
+    "description": "Solutions Architect at Amazon Web Services",
+    "biography": "Changsu Lee, one of contributors for eksworkshop.com, joined AWS as a Solutions Architect in July 2016. He works with various startups to help them increase speed and agility while ensuring they’re aware of the best practices to reduce architectural risk. As he has an area of depth in Container, he globally delivered container sessions and workshop in public. Prior to joining AWS, Changsu was an IBM Lab Services consultant for 6 years, led variety of benchmark and PoC based on OpenStack, delivered availability and performance optimization assessment services to lots of Financial and Enterprise customers (Samsung, LGE, SK, Hyundai, CJ..)",
+    "image": "assets/img/speakers/changsu-lee.png",
+    "ref": "71af056fedc23b5b4210ca138eb31f0852041361",
+    "url": "infoSpeaker.html?ref=71af056fedc23b5b4210ca138eb31f0852041361",
+    "linkedin": "https://www.linkedin.com/in/changsu-lee-909539105/"
   }
   ]
 }
