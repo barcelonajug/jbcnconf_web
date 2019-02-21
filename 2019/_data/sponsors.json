@@ -61,6 +61,14 @@
       }
     },
     {
+      "name": "Barcelona Digital Talent",
+      "href": "https://barcelonadigitaltalent.com/",
+      "image": {
+        "src": "/assets/img/sponsors/barcelona-digital-talent.png",
+        "alt": "Barcelona Digital Talent"
+      }
+    },
+    {
       "name": "Apiumhub",
       "href": "https://apiumhub.com/",
       "image": {
