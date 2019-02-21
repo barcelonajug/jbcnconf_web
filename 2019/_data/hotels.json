@@ -1,4 +1,19 @@
 {
   "items": [
+    {
+      "title": "Hotel Diagonal Zero",
+      "url": "https://www.hoteldiagonalzero.com/en/",
+      "image": "/assets/img/hotels/diagonalzeropiscina.jpg",
+      "date": "From 125€",
+      "info": "Send an email to <a href=\"mailto:clara@barcelonajug.org?Subject=Offer Diagonal Zero\" target=\"_top\">clara@barcelonajug.org</a> with subject \"Offer Diagonal Zero\" informing you're interested in this offer.<BR>Limited number of room available in the offer."
+    },
+    {
+      "title": "Train - AVE (High Speed) - Long Distance",
+      "url": "https://www.renfe.com",
+      "image": "/assets/img/hotels/renfe-ave.png",
+      "date": "30%",
+      "info": "Send an email to <a href=\"mailto:clara@barcelonajug.org?Subject=Discount Renfe\" target=\"_top\">clara@barcelonajug.org</a> with subject \"Discount Renfe\" and inform your reservation id to get the discount code."
+    }
+
   ]
 }
