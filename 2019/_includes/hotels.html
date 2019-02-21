@@ -1,7 +1,7 @@
 <div class="theiaStickySidebar">
     <div id="eventstation_latest_latest_posts_widget-3"
          class="general-sidebar-wrap widget-box animate anim-fadeIn widget_eventstation_latest_latest_posts_widget">
-        <div class="widget-title"><h4>Hotels</h4></div>
+        <div class="widget-title"><h4>Offers</h4></div>
         <div class="widget-content">
             <div class="eventstation-latest-posts-widget">
                 <ul>
@@ -20,11 +20,10 @@
                             <ul class="post-information">
                                 <li class="date"><i class="fa fa-calendar-check-o"></i> <span>{{ event.date }}</span></li>
                             </ul>
-                            <h3><a href="{{ event.url }}"
-                                   title="{{ event.title }}">{{ event.title }}</a></h3>
-                            <a target="_blank" href="{{ event.url }}"
-                               title="{{ event.title }}" class="more">Read More <i
-                                    class="fa fa-angle-right"></i></a>
+                            <h3><a target="_blank" href="{{ event.url }}" title="{{ event.title }}">{{ event.title }}</a></h3>
+
+                            {{event.info}}
+
                         </div>
                     </li>
                     {% endfor %}
