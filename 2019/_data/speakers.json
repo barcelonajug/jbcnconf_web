@@ -494,6 +494,18 @@
     "ref": "71af056fedc23b5b4210ca138eb31f0852041361",
     "url": "infoSpeaker.html?ref=71af056fedc23b5b4210ca138eb31f0852041361",
     "linkedin": "https://www.linkedin.com/in/changsu-lee-909539105/"
+  },
+  {
+    "enabled": "1",
+    "name": "Ben Evans",
+    "description": "Java Champion, author, speaker, consultant",
+    "biography": "Ben Evans is an author, entrepreneur, consultant and educator. He co-founded jClarity, a Java / JVM performance company, and was previously Chief Architect for Listed Derivatives at Deutsche Bank. Ben was the performance testing engineer for Google’s IPO, consulting CTO to several startups and built award-winning websites for some of Hollywood's biggest films of the 90s.\n\nHe represented the user community as a voting member on Java’s governing body - the JCP Executive Committee for 6 years. He is a Java Champion & 3-time JavaOne Rock Star Speaker. Ben is author of 5 books - “The Well-Grounded Java Developer”, the new editions of “Java in a Nutshell”, “Java: The Legend” and “Optimizing Java”. He is the track lead for Java / JVM at InfoQ, writes regularly for industry publications and is a frequent speaker at technical conferences worldwide.\n",
+    "image": "assets/img/speakers/ben-evans.jpg",
+    "ref": "a71020196a6877a18aa38df8e51e12fc6807d6c7",
+    "url": "infoSpeaker.html?ref=a71020196a6877a18aa38df8e51e12fc6807d6c7",
+    "homepage": "",
+    "twitter": "@kittylyst",
+    "linkedin": ""
   }
   ]
 }
