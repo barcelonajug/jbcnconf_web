@@ -22,8 +22,7 @@
                             </ul>
                             <h3><a target="_blank" href="{{ event.url }}" title="{{ event.title }}">{{ event.title }}</a></h3>
 
-                            {{event.info}}
-
+                            <a target="_blank" href="{{ event.aboutURL }}" title="{{ event.aboutText }}" class="more">{{ event.aboutText }}</a></h3>
                         </div>
                     </li>
                     {% endfor %}
