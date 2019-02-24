@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "5c19647038da16778cb20fc5",
-      "title": "OOP v̶s̶ and FP ",
+      "title": "From object oriented to functional and back: the pursuit of pragmatic programming ",
       "abstract": "Object Oriented Programming dominated the software development landscape in the last decade of XX century and in the first of XXI. In more recent years, even as a consequence of the advent of multicore CPUs, Functional Programming and its principles started attracting more interest, becoming at least equally relevant in our industry. The biggest mistake made by programmers nowadays is considering OOP and FP as two mutually exclusive paradigms. This misconception is also the product of a misunderstanding about what OOP actually means and its founding principles. The biggest pros of OOP are polymorphism and encapsulation while FP strengths are immutabilty and its declarative style, but these features are orthogonal and there's no reason why they cannot coexist in the same program. The final purpose of this talk is twofold: debunking the misconceptions on OOP and showing that OOP and FP are actually complementary techniques that can happily coexist in the same codebase. It is the duty of experienced developers to fill their toolbox with both OOP and FP tools and to know from time to time how to choose and employ the tool that is the best fit for the problem at hand.",
       "type": "talk",
       "tags": [
@@ -651,6 +651,35 @@
       "level": "advanced",
       "speakers": [
         "a71020196a6877a18aa38df8e51e12fc6807d6c7"
+      ]
+    },
+    {
+      "id": "5c728b1c38da16567538857a",
+      "title": "FP vs OOP: Choose Two",
+      "abstract": "This talk is about the fictitious divisions we invent, and how they harm the progress of our industry.  In particular, we'll look at the supposed tension between Functional Programming and Object-Oriented Programming, and hopefully see that the tension is all in our heads.\n",
+      "type": "talk",
+      "tags": [
+        "keynote",
+        "functional",
+        "paradigm"
+      ],
+      "level": "middle",
+      "speakers": [
+        "da0ad51569e9380e792e4cc5673578a58850fe60"
+      ]
+    },
+    {
+      "id": "5c728afd38da165675388579",
+      "title": "Java Futures, 2019 Edition ",
+      "abstract": "Since last year, we've seen two more major versions of the JDK!  What's changed in the last year, and what's coming down the road? Join Java Language Architect Brian Goetz in a whirlwind tour of just some of the features coming to Java next. ",
+      "type": "talk",
+      "tags": [
+        "java",
+        "jdk"
+      ],
+      "level": "middle",
+      "speakers": [
+        "da0ad51569e9380e792e4cc5673578a58850fe60"
       ]
     }
   ]

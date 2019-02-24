@@ -506,6 +506,16 @@
     "homepage": "",
     "twitter": "@kittylyst",
     "linkedin": ""
-  }
+  },
+    {
+      "enabled": "1",
+      "name": "Brian goetz",
+      "description": "Architect for the Java Language",
+      "biography": "Brian Goetz has been a professional software developer for 20 years. He is the author of over 75 articles on software development, and his book, Java Concurrency In Practice, was published in May 2006 by Addison-Wesley. He serves on the JCP Expert Groups for JSRs 166 (concurrency utilities), 107 (caching), and 305 (annotations for safety analysis). He is a frequent presenter at JavaOne, OOPSLA, JavaPolis, SDWest, and the No Fluff Just Stuff Software Symposium Tour. Brian is a Sr. Staff Engineer at Sun Microsystems.",
+      "image": "assets/img/speakers/brian-goetz.jpg",
+      "ref": "da0ad51569e9380e792e4cc5673578a58850fe60",
+      "url": "infoSpeaker.html?ref=da0ad51569e9380e792e4cc5673578a58850fe60",
+      "twitter": "@briangoetz"
+    }
   ]
 }
