@@ -1,19 +1,28 @@
 {
   "items": [
     {
-      "title": "Hotel Diagonal Zero",
+      "title": "Hotel Diagonal Zero<BR>Limited number of rooms available in this offer",
       "url": "https://www.hoteldiagonalzero.com/en/",
       "image": "/assets/img/hotels/diagonalzeropiscina.jpg",
       "date": "From 125€",
-      "info": "Send an email to <a href=\"mailto:clara@barcelonajug.org?Subject=Offer Diagonal Zero\" target=\"_top\">clara@barcelonajug.org</a> with subject \"Offer Diagonal Zero\" informing you're interested in this offer.<BR>Limited number of room available in the offer."
+      "aboutText": "CONTACT US",
+      "aboutURL": "mailto:clara@barcelonajug.org?Subject=Offer Diagonal Zero"      
+    },
+    {
+      "title": "Attica 21 Barcelona Mar<br>Promo Code: ATTICA21HOTELS",
+      "url": "https://www.attica21hotels.com/hotel-attica21-barcelona-mar/",
+      "image": "/assets/img/hotels/attica21mar.jpg",
+      "date": "16% DISCOUNT",
+      "aboutText": "READ MORE",
+      "aboutURL": "https://www.attica21hotels.com/hotel-attica21-barcelona-mar/"
     },
     {
       "title": "Train - AVE (High Speed) - Long Distance",
       "url": "https://www.renfe.com",
       "image": "/assets/img/hotels/renfe-ave.png",
       "date": "30%",
-      "info": "Send an email to <a href=\"mailto:clara@barcelonajug.org?Subject=Discount Renfe\" target=\"_top\">clara@barcelonajug.org</a> with subject \"Discount Renfe\" and inform your reservation id to get the discount code."
+      "aboutText": "CONTACT US",
+      "aboutURL": "mailto:clara@barcelonajug.org?Subject=Discount Renfe"
     }
-
   ]
 }
