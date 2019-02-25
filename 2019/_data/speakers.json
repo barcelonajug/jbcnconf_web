@@ -475,6 +475,18 @@
   },
   {
     "enabled": "1",
+    "name": "Antonio López Zapata",
+    "company": "Schibsted Media Group",
+    "description": "Technical Product Owner at Schibsted",
+    "biography": "Software Engineer with 10 years of experience in web development, now trying the product path at Schibsted in Barcelona. Book worm, cinephile, and comedy lover.",
+    "image": "assets/img/speakers/antoni-lopez-zapata.jpg",
+    "ref": "efc78140677c0c1d0940f83acd9ea58165a82701",
+    "url": "infoSpeaker.html?ref=efc78140677c0c1d0940f83acd9ea58165a82701",
+    "twitter": "@picahielos",
+    "linkedin": "https://www.linkedin.com/in/tonilz/"
+  },
+  {
+    "enabled": "1",
     "name": "Shawn O'Connor",
     "description": "Solution Architect at Amazon Web Services",
     "biography": "Shawn is a Solution Architect with Amazon Web Services based in San Francisco, California. He works with large enterprise customers helping modernize their operations and migrate to cloud-native technologies such as Kubernetes.",
