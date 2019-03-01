@@ -682,6 +682,23 @@
       "speakers": [
         "da0ad51569e9380e792e4cc5673578a58850fe60"
       ]
+    },
+    {
+      "id": "5c770fff38da167fbce02cea",
+      "title": "OpenShift for Developers in Action",
+      "abstract": "Are you an application developer? Have you heard about Docker, Kubernetes and OpenShift? Do you want to be proficient on this technology? Do you want to understand the platform as a developer and what capabilities are provided to you? In this workshop you will learn how to deploy and manage applications using Docker, Kubernetes and the open source OpenShift projects to truly simplify your development flow. We will create a complex application, microservices oriented, in different languages, and in the process we will explore different capabilities provided by the OpenShift platform.",
+      "type": "workshop",
+      "tags": [
+        "containers",
+        "openshift",
+        "kubernetes",
+        "developer"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "f35d1872137ef145c138baa293c92834f88a8560",
+        "ff55294f8464ef742da59a126c35e25670d377dc"
+      ]
     }
   ]
 }

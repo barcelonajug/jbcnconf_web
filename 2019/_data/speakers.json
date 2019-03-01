@@ -511,7 +511,7 @@
     "enabled": "1",
     "name": "Ben Evans",
     "description": "Java Champion, author, speaker, consultant",
-    "biography": "Ben Evans is an author, entrepreneur, consultant and educator. He co-founded jClarity, a Java / JVM performance company, and was previously Chief Architect for Listed Derivatives at Deutsche Bank. Ben was the performance testing engineer for Google’s IPO, consulting CTO to several startups and built award-winning websites for some of Hollywood's biggest films of the 90s.\n\nHe represented the user community as a voting member on Java’s governing body - the JCP Executive Committee for 6 years. He is a Java Champion & 3-time JavaOne Rock Star Speaker. Ben is author of 5 books - “The Well-Grounded Java Developer”, the new editions of “Java in a Nutshell”, “Java: The Legend” and “Optimizing Java”. He is the track lead for Java / JVM at InfoQ, writes regularly for industry publications and is a frequent speaker at technical conferences worldwide.\n",
+    "biography": "Ben Evans is an author, entrepreneur, consultant and educator. He co-founded jClarity, a Java / JVM performance company, and was previously Chief Architect for Listed Derivatives at Deutsche Bank. Ben was the performance testing engineer for Google’s IPO, consulting CTO to several startups and built award-winning websites for some of Hollywood's biggest films of the 90s.\n\nHe represented the user community as a voting member on Java’s governing body - the JCP Executive Committee for 6 years. He is a Java Champion & 3-time JavaOne Rock Star Speaker. Ben is author of 5 books - “The Well-Grounded Java Developer”, the new editions of “Java in a Nutshell”, “Java: The Legend” and “Optimizing Java”. He is the track lead for Java / JVM at InfoQ, writes regularly for industry publications and is a frequent speaker at technical conferences worldwide.",
     "image": "assets/img/speakers/ben-evans.jpg",
     "ref": "a71020196a6877a18aa38df8e51e12fc6807d6c7",
     "url": "infoSpeaker.html?ref=a71020196a6877a18aa38df8e51e12fc6807d6c7",
@@ -528,6 +528,32 @@
       "ref": "da0ad51569e9380e792e4cc5673578a58850fe60",
       "url": "infoSpeaker.html?ref=da0ad51569e9380e792e4cc5673578a58850fe60",
       "twitter": "@briangoetz"
+    },
+    {
+      "enabled": "1",
+      "name": "Marek Jelen",
+      "company": "Red Hat",
+      "description": "Developer Advocate at Red Hat",
+      "biography": "Marek currently works as a Developer Advocate at Red Hat, where his task is to introduce Containers, Kubernetes, OpenShift and other cool technologies to engineers, architects, etc. Before joining Red Hat Marek worked as a Ruby, PHP and Java engineer and consultant. He is one of the founders of the Brno Ruby User Group (BRUG) and is a long-time advocate of FOSS.",
+      "image": "assets/img/speakers/marek-jelen.jpg",
+      "ref": "f35d1872137ef145c138baa293c92834f88a8560",
+      "url": "infoSpeaker.html?ref=f35d1872137ef145c138baa293c92834f88a8560",
+      "homepage": "",
+      "twitter": "@marek_jelen",
+      "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Grant Shipley",
+      "company": "Red Hat",
+      "description": "Director at Red Hat, book author",
+      "biography": "Grant Shipley is a Director at Red Hat focused on containers, Kubernetes, and OpenShift. He is the author of several books including \"OpenShift for Developers\" and \"Learning OpenShift\". Prior to that, Grant was a Manager of Software Development with responsibilities over the www.redhat.com website and supporting infrastructure. Grant has over 20 years of software development experience focusing on Java and PHP. In his free time, he contributes to several open source projects as well as developing mobile applications. Grant has been using Linux on a daily basis since 1994 and is active in the FOSS community.",
+      "image": "assets/img/speakers/grant-shipley.jpg",
+      "ref": "ff55294f8464ef742da59a126c35e25670d377dc",
+      "url": "infoSpeaker.html?ref=ff55294f8464ef742da59a126c35e25670d377dc",
+      "homepage": "",
+      "twitter": "@gshipley",
+      "linkedin": ""
     }
   ]
 }
