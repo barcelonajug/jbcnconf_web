@@ -554,6 +554,19 @@
       "homepage": "",
       "twitter": "@gshipley",
       "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Heather VanCura",
+      "company": "Oracle",
+      "description": "Director and Chairperson of the JCP Program",
+      "biography": "Heather VanCura is the Director and Chairperson of the JCP Program. In her role she is responsible for the chairing the Executive Committee,and providing overall leadership of the community. Heather oversees the JCP.org web site, JSR management, community building, events, marketing, communications, and growth of the membership. She is also a contributor and leader of the community driven Adopt-a-JSR programs. In 2014, Heather became Spec Lead for the ongoing JCP.Next efforts through JSR 364 and JSR 387. Heather is passionate about Java and developer communities. She enjoys trying new sports and fitness activities in her free time.",
+      "image": "assets/img/speakers/heather-vancura.jpg",
+      "ref": "415f956d463d815e32e0fd2c3bca6422b9babe4e",
+      "url": "infoSpeaker.html?ref=415f956d463d815e32e0fd2c3bca6422b9babe4e",
+      "homepage": "https://jcp.org",
+      "twitter": "@heathrvc",
+      "linkedin": "https://www.linkedin.com/in/heather-vancura-400395"
     }
   ]
 }

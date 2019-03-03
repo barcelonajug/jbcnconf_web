@@ -699,6 +699,23 @@
         "f35d1872137ef145c138baa293c92834f88a8560",
         "ff55294f8464ef742da59a126c35e25670d377dc"
       ]
+    },
+    {
+      "id": "5c64982e38da16483151bb36",
+      "title": "How to Participate in the Future of Java",
+      "abstract": "This session will explore how Java development has been brought into the open and many of the shifts in the Java community over the past year, Several Java developer efforts have brought open source development processes and new levels of transparency and participation into their communities. Learn about the latest Java innovations to the Java SE Platform - Java SE 10, 11, 12 and beyond. Since the initiation of efforts to expand the developer participation in the Java community, Java standards development is more open that it ever has been.\n\nLearn how to take part in the Java developer community and the upcoming changes to Java - you can participate as an individual, corporation, or nonprofit such as a Java user group (JUG). This session answers questions about why and how to participate in the evolution of the Java platform. You will also learn about the global Adoption programs and how you can participate in contributing to the future of Java\n\n",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "community",
+        "openjdk",
+        "jvm",
+        "javase"
+      ],
+      "level": "middle",
+      "speakers": [
+        "415f956d463d815e32e0fd2c3bca6422b9babe4e"
+      ]
     }
   ]
 }
