@@ -731,6 +731,22 @@
       "speakers": [
         "c93a48ea7c1d8a91f60be490b32b9357f77d8212"
       ]
+    },
+    {
+      "id": "5c7e19e738da16574c349f02",
+      "title": "Distributed Tracing in the Wild",
+      "abstract": "You’ve probably heard about distributed tracing, that it solves all diagnosis problems or perhaps it can wash your car.\n\nThis session is not about buzz; it is about real world sites.. how real people understand production requests as they traverse their microservice architectures.",
+      "type": "talk",
+      "tags": [
+        "observability",
+        "tracing",
+        "distributedtracing",
+        "zipkin"
+      ],
+      "level": "middle",
+      "speakers": [
+        "893a2efbfaeeb5ce34ced62745778f7a8b02c1b8"
+      ]
     }
   ]
 }
