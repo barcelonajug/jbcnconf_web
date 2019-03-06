@@ -580,6 +580,19 @@
       "homepage": "",
       "twitter": "@ammbra1508",
       "linkedin": "https://www.linkedin.com/in/ana-maria-mihalceanu-458189a3/"
+    },
+    {
+      "enabled": "1",
+      "name": "Adrian Cole",
+      "company": "Pivotal",
+      "description": "Zipkin Lead",
+      "biography": "Adrian works at Pivotal, on the Spring Cloud team. He spends most on Zipkin, usually in Java. He also runs a distributed tracing working group for implementors.",
+      "image": "assets/img/speakers/adrian-cole.jpeg",
+      "ref": "893a2efbfaeeb5ce34ced62745778f7a8b02c1b8",
+      "url": "infoSpeaker.html?ref=893a2efbfaeeb5ce34ced62745778f7a8b02c1b8",
+      "homepage": "",
+      "twitter": "@adrianfcole",
+      "linkedin": ""
     }
   ]
 }
