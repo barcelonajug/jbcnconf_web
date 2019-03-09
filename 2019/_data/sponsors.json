@@ -75,6 +75,14 @@
         "src": "/assets/img/sponsors/apiumhub.png",
         "alt": "Apiumhub"
       }
+    },
+    {
+      "name": "Liferay",
+      "href": "http://liferay.com",
+      "image": {
+        "src": "/assets/img/sponsors/liferay_logo.png",
+        "alt": "Liferay"
+      }
     }
   ],
   "supporters": [
