@@ -23,6 +23,14 @@
         "src": "/assets/img/sponsors/casumo.png",
         "alt": "Casumo"
       }
+    },
+    {
+      "name": "Mango",
+      "href": "http://www.tech.mango",
+      "image": {
+        "src": "/assets/img/sponsors/mango.png",
+        "alt": "Mango"
+      }
     }
   ],
   "galaxy-regular" : [
