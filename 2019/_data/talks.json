@@ -747,6 +747,15 @@
       "speakers": [
         "893a2efbfaeeb5ce34ced62745778f7a8b02c1b8"
       ]
+    },
+    {
+      "id": "5c770f8438da167fbce02ce9",
+      "title": "Flow in Software Design, Practices, and Processes",
+      "abstract": "\"Flow\" is Lean terminology but also a psychological state. Flow allows us to achieve value and happiness through our work. How we, design/deploy software and use development practices/processes has a major impact on \"flow\" in both meaning of this word. I will describe some properties in software design and process that are essential to maintaining flow, if you don't have them in your current work then you must strive towards them.",
+      "type": "talk",
+      "tags": ["XP", "DevOps", "Software Design", "Architecture", "Agile", "Lean"],
+      "level": "middle",
+      "speakers": ["a9fa078a7b8408c731c79c0060b9956373bfb5f6"]
     }
   ]
 }
