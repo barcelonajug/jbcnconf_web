@@ -593,6 +593,19 @@
       "homepage": "",
       "twitter": "@adrianfcole",
       "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Mashooq Badar",
+      "company": "Codurance",
+      "description": "Co-Founder of Codurance, founding member of London Software Craftsmanship Community",
+      "biography": "Co-Founder of Codurance, a pragmatic software craftsman, and founding member of London Software Craftsmanship Community",
+      "image": "assets/img/speakers/mash_badar.jpg",
+      "ref": "a9fa078a7b8408c731c79c0060b9956373bfb5f6",
+      "url": "infoSpeaker.html?ref=a9fa078a7b8408c731c79c0060b9956373bfb5f6",
+      "homepage": "https://codurance.com/publications/author/mashooq-badar/",
+      "twitter": "@mashooq",
+      "linkedin": "https://www.linkedin.com/in/mashooq"
     }
   ]
 }
