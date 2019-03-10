@@ -65,6 +65,14 @@
         "src": "/assets/img/sponsors/my_taxi.png",
         "alt": "mytaxi"
       }
+    },
+    {
+      "name": "Adaptive",
+      "href": "http://www.weareadaptive.com",
+      "image": {
+        "src": "/assets/img/sponsors/adaptive-logo.png",
+        "alt": "Adaptive"
+      }
     }
   ],
   "galaxy-basic": [
