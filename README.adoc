@@ -35,6 +35,27 @@ If you want to build the site with Ruby 2.5.x, skip `bundler` and install the ge
  gem install jekyll
 ====
 
+=== Generated pages
+
+Some pages use https://asciidoctor.org/[Asciidoctor] to generate the HTML.
+`adoc` sources can be found under `tools` directory.
+
+To convert them:
+
+. Install Asciidoctor Ruby gem `gem install asciidoctor`
+. Render each file with the `--no-header-footer` option (`-s` in short) specifying the source and target path.
+
+Here is the list of the current generated files and their commands:
+
+ $ asciidoctor tools/diversity.adoc -s -o 2019/_includes/diversity/diversity-terms.html
+
+[IMPORTANT]
+====
+Note that a real line break required two line-breaks, single ones are ignored.
+Files are not converted automatically.
+If changes in the sources are made, remember converting them and adding the generated html in the commit.
+====
+
 == Testing the website
 
 === Testing it locally

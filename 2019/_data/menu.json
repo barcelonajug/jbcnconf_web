@@ -46,8 +46,18 @@
       ]
     },
     {
-      "label": "Code of conduct",
-      "href": "/coc.html"
+      "label": "Diversity",
+      "href": "/#",
+      "items": [
+        {
+          "label": "Diversity sponsorship",
+          "href": "/diversity.html"
+        },
+        {
+          "label": "Code of conduct",
+          "href": "/coc.html"
+        }
+      ]
     },
     {
       "label": "Venue",

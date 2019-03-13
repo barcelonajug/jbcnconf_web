@@ -1,0 +1,37 @@
+= Diversity terms
+:icons: font
+
+// cambio "scholarship" por "plan"
+JBCNConf, its volunteers, and staff consider that understanding, respecting, valuing and promoting differences is an essential part of our core values.
+Since we believe that everyone is unique, in our events we actively encourage collaborative environments where individuals can confidently share their different ideas.
+We are also committed to embrace the rich diversity of our society and the world around us.
+People who are diverse in nationality, age, race, ethnic origin, spiritual beliefs and practices, gender, gender identity, sexual orientation, work and life status are critical for constant improvement and innovation in our profession.
+
+That why at JBCNConf we are offering diversity a plan.
+
+// borro marginalized
+If you belong to a traditionally underrepresented group in the tech community, now is your chance.
+We definitely want you to come and join us at the conference.
+
+== Eligibility
+
+// aclarados que dias són
+We strongly encourage applications from women, people with disabilities, people of color, economically disadvantaged people, LGBTQ or any other underrepresented group.
+In addition, the applicants must be 18 years of age or older and must be available to attend the main days of the event (26th and 27th).
+There are a limited amount of sponsorships and will be awarded based on a combination of need and impact.
+
+// winner (si hay winners are losers) -> awarded
+Awarded will be notified via email.
+They will receive a free ticket to the conference, which includes admission to all talks and catering during the two days of the conference.
+The deadline for applications is March 30th, 11:59PM CET.
+Please, send us a message at icon:envelope[] info@barcelonajug.org introducing yourself and telling us about your expectations for the event.
+
+All applications' information will be kept confidential.
+
+== Terms and Conditions
+
+All awarded attendees will have to:
+
+* Follow the conference code of conduct.
+* Find additional funding for transportation and accommodation since these costs are not included.
+* Inform if they are not able to attend the event. Tickets are not transferable.
