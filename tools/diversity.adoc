@@ -1,7 +1,6 @@
 = Diversity terms
 :icons: font
 
-// cambio "scholarship" por "plan"
 JBCNConf, its volunteers, and staff consider that understanding, respecting, valuing and promoting differences is an essential part of our core values.
 Since we believe that everyone is unique, in our events we actively encourage collaborative environments where individuals can confidently share their different ideas.
 We are also committed to embrace the rich diversity of our society and the world around us.
@@ -9,22 +8,21 @@ People who are diverse in nationality, age, race, ethnic origin, spiritual belie
 
 That why at JBCNConf we are offering diversity a plan.
 
-// borro marginalized
 If you belong to a traditionally underrepresented group in the tech community, now is your chance.
 We definitely want you to come and join us at the conference.
 
 == Eligibility
 
-// aclarados que dias són
 We strongly encourage applications from women, people with disabilities, people of color, economically disadvantaged people, LGBTQ or any other underrepresented group.
 In addition, the applicants must be 18 years of age or older and must be available to attend the main days of the event (26th and 27th).
-There are a limited amount of sponsorships and will be awarded based on a combination of need and impact.
+There are a *limited amount of sponsorships* and will be awarded based on a combination of need and impact.
 
-// winner (si hay winners are losers) -> awarded
-Awarded will be notified via email.
-They will receive a free ticket to the conference, which includes admission to all talks and catering during the two days of the conference.
-The deadline for applications is March 30th, 11:59PM CET.
-Please, send us a message at icon:envelope[] info@barcelonajug.org introducing yourself and telling us about your expectations for the event.
+Selected people will be notified via email.
+They will receive a free ticket to the conference, which *includes admission to all talks during the 27th and 28th, and catering during the two days of the conference*.
+Workshops (on the 29th) cannot be included due to limited capacity.
+
+To apply, send us a message at icon:envelope[] info@barcelonajug.org introducing yourself and telling us about your expectations for the event.
+The *deadline for applications is April 30th, 11:59PM CET or until we have delivered the total number of tickets*.
 
 All applications' information will be kept confidential.
 
@@ -32,6 +30,6 @@ All applications' information will be kept confidential.
 
 All awarded attendees will have to:
 
-* Follow the conference code of conduct.
+* Follow the conference link:coc.html[Code of conduct].
 * Find additional funding for transportation and accommodation since these costs are not included.
-* Inform if they are not able to attend the event. Tickets are not transferable.
+* Inform if they are not able to attend the event days 27th and 28th. Tickets are not transferable.
