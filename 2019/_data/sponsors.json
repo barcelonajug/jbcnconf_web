@@ -141,6 +141,70 @@
         "src": "/assets/img/sponsors/barcelona-activa.png",
         "alt": "Barcelona Activa"
       }
+    },
+    {
+      "name": "London Java Community",
+      "href": "https://www.meetup.com/Londonjavacommunity/",
+      "image": {
+        "src": "/assets/img/sponsors/ljc.png",
+        "alt": "London Java Community"
+      }
+    },
+    {
+      "name": "Sevilla JUG",
+      "href": "https://www.meetup.com/SVQJUG",
+      "image": {
+        "src": "/assets/img/sponsors/sevilla-jug.png",
+        "alt": "Sevilla Java User Group"
+      }
+    },
+    {
+      "name": "Málaga JUG",
+      "href": "https://www.meetup.com/MalagaJUG",
+      "image": {
+        "src": "/assets/img/sponsors/malaga-jug.png",
+        "alt": "Málaga Java User Group"
+      }
+    },
+    {
+      "name": "Vigo JUG",
+      "href": "https://www.vigojug.org/",
+      "image": {
+        "src": "/assets/img/sponsors/vigo-jug.png",
+        "alt": "Vigo Java User Group"
+      }
+    },
+    {
+      "name": "Coruña JUG",
+      "href": "https://www.meetup.com/CorunaJUG/",
+      "image": {
+        "src": "/assets/img/sponsors/coruna-jug.png",
+        "alt": "Coruña Java User Group"
+      }
+    },
+    {
+      "name": "NLJUG",
+      "href": "https://nljug.org/",
+      "image": {
+        "src": "/assets/img/sponsors/nl_jug.png",
+        "alt": "Nederlandse Java User Group"
+      }
+    },
+    {
+      "name": "TEQnation",
+      "href": "https://www.teqnation.com/",
+      "image": {
+        "src": "/assets/img/sponsors/teqnation.png",
+        "alt": "TEQnation"
+      }
+    },    
+    {
+      "name": "Madrid JUG",
+      "href": "https://www.meetup.com/MadridJUG",
+      "image": {
+        "src": "/assets/img/sponsors/madrid-jug.jpg",
+        "alt": "Madrid Java User Group"
+      }
     }
   ],
   "mediapartners" : [
