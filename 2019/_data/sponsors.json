@@ -143,11 +143,19 @@
       }
     },
     {
-      "name": "Madrid JUG",
-      "href": "https://www.meetup.com/MadridJUG",
+      "name": "London Java Community",
+      "href": "https://www.meetup.com/Londonjavacommunity/",
       "image": {
-        "src": "/assets/img/sponsors/madrid-jug.jpg",
-        "alt": "Madrid Java User Group"
+        "src": "/assets/img/sponsors/ljc.png",
+        "alt": "London Java Community"
+      }
+    },
+    {
+      "name": "Sevilla JUG",
+      "href": "https://www.meetup.com/SVQJUG",
+      "image": {
+        "src": "/assets/img/sponsors/sevilla-jug.png",
+        "alt": "Sevilla Java User Group"
       }
     },
     {
@@ -175,11 +183,11 @@
       }
     },
     {
-      "name": "Sevilla JUG",
-      "href": "https://www.meetup.com/SVQJUG",
+      "name": "NLJUG",
+      "href": "https://nljug.org/",
       "image": {
-        "src": "/assets/img/sponsors/sevilla-jug.png",
-        "alt": "Sevilla Java User Group"
+        "src": "/assets/img/sponsors/nl_jug.png",
+        "alt": "Nederlandse Java User Group"
       }
     },
     {
@@ -189,21 +197,13 @@
         "src": "/assets/img/sponsors/teqnation.png",
         "alt": "TEQnation"
       }
-    },
+    },    
     {
-      "name": "NLJUG",
-      "href": "https://nljug.org/",
+      "name": "Madrid JUG",
+      "href": "https://www.meetup.com/MadridJUG",
       "image": {
-        "src": "/assets/img/sponsors/nl_jug.png",
-        "alt": "Nederlandse Java User Group"
-      }
-    },
-    {
-      "name": "London Java Community",
-      "href": "https://www.meetup.com/Londonjavacommunity/",
-      "image": {
-        "src": "/assets/img/sponsors/ljc.png",
-        "alt": "London Java Community"
+        "src": "/assets/img/sponsors/madrid-jug.jpg",
+        "alt": "Madrid Java User Group"
       }
     }
   ],
