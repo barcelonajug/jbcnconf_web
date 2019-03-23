@@ -181,6 +181,30 @@
         "src": "/assets/img/sponsors/sevilla-jug.png",
         "alt": "Sevilla Java User Group"
       }
+    },
+    {
+      "name": "TEQnation",
+      "href": "https://www.teqnation.com/",
+      "image": {
+        "src": "/assets/img/sponsors/teqnation.png",
+        "alt": "TEQnation"
+      }
+    },
+    {
+      "name": "NLJUG",
+      "href": "https://nljug.org/",
+      "image": {
+        "src": "/assets/img/sponsors/nl_jug.png",
+        "alt": "Nederlandse Java User Group"
+      }
+    },
+    {
+      "name": "London Java Community",
+      "href": "https://www.meetup.com/Londonjavacommunity/",
+      "image": {
+        "src": "/assets/img/sponsors/ljc.png",
+        "alt": "London Java Community"
+      }
     }
   ],
   "mediapartners" : [
