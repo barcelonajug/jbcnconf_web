@@ -619,6 +619,18 @@
       "homepage": "https://alvarogarcia7.github.io",
       "twitter": "@alvarobiz",
       "linkedin": "https://www.linkedin.com/in/alvarogarcia7"
+    },
+    {
+      "enabled": "1",
+      "name": "João Alves",
+      "company": "mytaxi",
+      "description": "Backend tech-lead at mytaxi",
+      "biography": "Throughout my 5+ years in software development, I have helped to create and resilient distributed systems at startups as well as global companies including Schibsted. I'm currently working as a Backend tech-lead for mytaxi, shaping the e-hailing and mobility markets in Europe. My main interests are distributed systems, microservices, event-driven architectures, reactive systems and type-safe programming languages.",
+      "image": "assets/img/speakers/joao-alves.jpeg",
+      "ref": "3b41d2043c201d402e1a97965b11f7e304a381e6",
+      "url": "infoSpeaker.html?ref=3b41d2043c201d402e1a97965b11f7e304a381e6",
+      "homepage": "http://blog.joaoqalves.net/",
+      "twitter": "@joaoqalves"
     }
   ]
 }
