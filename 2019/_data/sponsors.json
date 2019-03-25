@@ -229,12 +229,29 @@
         "src": "/assets/img/sponsors/tyn.png",
         "alt": "TyN Magazine"
       }
-    },    {
+    },
+    {
       "name": "wwwhatsnew",
       "href": "https://wwwhatsnew.com/",
       "image": {
         "src": "/assets/img/sponsors/wwwhatsnew.png",
         "alt": "WWWhatsnew"
+      }
+    },
+    {
+      "name": "MCPRO",
+      "href": "https://www.muycomputerpro.com/",
+      "image": {
+        "src": "/assets/img/sponsors/MCPRO_LOGO_COLOR_2018.png",
+        "alt": "MuyComputerPro"
+      }
+    },
+    {
+      "name": "cybersecuritynews",
+      "href": "https://cybersecuritynews.es/",
+      "image": {
+        "src": "/assets/img/sponsors/Cyber_Security_News_Gris.png",
+        "alt": "Cyber Security News"
       }
     }
   ]
