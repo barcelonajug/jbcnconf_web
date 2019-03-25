@@ -775,6 +775,23 @@
       "speakers": [
         "fe5af6cd06dbc35f328b74b9c870d914fcbb6a9c"
       ]
+    },
+    {
+      "id": "5c94098138da165dcdf15fff",
+      "title": "Let it fail: resilience patterns for microservices",
+      "abstract": "It's 2019. Teams are independent and we don't have a monolith anymore. We were told that with microservices we could keep our core functionality working while less important parts of the system are slow or even down. The problem is: designing distributed systems is not an easy task. The network is unreliable, services fail and there are lots of moving parts. At mytaxi, being able to resist partial failure is an essential requirement. We need to ensure that our customers have a smooth user experience, getting a taxi home or running into the airport, even when things go wrong in our system.<BR><BR>mytaxi's platform depends on ~250 services that might fail at any time. This talk is focused on how we achieve fault-tolerance and what we learned during this journey. I will discuss resilience techniques that we use and how they can be useful to your business as well. Idempotence, retries, health checks, rate limiting, bulkhead and circuit breaking concepts, together with some real-world examples are on the agenda.",
+      "type": "talk",
+      "tags": [
+        "Microservices",
+        "Integration",
+        "Cloud",
+        "Resilience",
+        "Failure"
+      ],
+      "level": "middle",
+      "speakers": [
+        "3b41d2043c201d402e1a97965b11f7e304a381e6"
+      ]
     }
   ]
 }
