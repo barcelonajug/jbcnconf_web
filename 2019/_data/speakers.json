@@ -606,6 +606,19 @@
       "homepage": "https://codurance.com/publications/author/mashooq-badar/",
       "twitter": "@mashooq",
       "linkedin": "https://www.linkedin.com/in/mashooq"
+    },
+    {
+      "enabled": "1",
+      "name": "Alvaro García",
+      "company": "ApiumHub",
+      "description": "Barcelona Software Craftsmanship meetup co-organizer",
+      "biography": "Alvaro is a software developer who firmly believes in the eXtreme Programming methodology. He's embarked on a lifelong learning process and is now in a symbiotic exchange process with the Barcelona Software Craftsmanship meetup, where he is a co-organizer.\n\n\nHe enjoys reading and reviewing technology books, providing feedback to the author whenever possible, to create the best experience for the final reader.\n\nAlvaro has been working in the IT industry for product companies, consulting firms and as a freelancer since 2005.",
+      "image": "assets/img/speakers/alvaro-garcia.jpg",
+      "ref": "fe5af6cd06dbc35f328b74b9c870d914fcbb6a9c",
+      "url": "infoSpeaker.html?ref=fe5af6cd06dbc35f328b74b9c870d914fcbb6a9c",
+      "homepage": "https://alvarogarcia7.github.io",
+      "twitter": "@alvarobiz",
+      "linkedin": "https://www.linkedin.com/in/alvarogarcia7"
     }
   ]
 }
