@@ -756,6 +756,25 @@
       "tags": ["XP", "DevOps", "Software Design", "Architecture", "Agile", "Lean"],
       "level": "middle",
       "speakers": ["a9fa078a7b8408c731c79c0060b9956373bfb5f6"]
+    },
+    {
+      "id": "5c9409c138da165dcdf16001",
+      "title": "Best practices in a modern (microservices) environment ",
+      "abstract": "After having seen \"the latest fad\" for decades, we realize that there is no silver bullet. In this talk, we revisit the basics, influenced by Extreme Programming Practices, Principles, and Values.\n\nThis is a talk to reflect on why we do the things that we do, to bring a purpose to our practices, and to review what has been working over the last 20 years, even if this is not so well-known yet.",
+      "type": "talk",
+      "tags": [
+        "Best practices",
+        "Microservices",
+        "Practices",
+        "Principles",
+        "Values",
+        "Extreme Programming",
+        "XP"
+      ],
+      "level": "middle",
+      "speakers": [
+        "fe5af6cd06dbc35f328b74b9c870d914fcbb6a9c"
+      ]
     }
   ]
 }
