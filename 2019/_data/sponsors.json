@@ -31,6 +31,14 @@
         "src": "/assets/img/sponsors/mango.png",
         "alt": "Mango"
       }
+    },
+    {
+      "name": "Glovo",
+      "href": "http://www.glovoapp.com/es",
+      "image": {
+        "src": "/assets/img/sponsors/glovo.png",
+        "alt": "Glovo"
+      }
     }
   ],
   "galaxy-regular" : [
