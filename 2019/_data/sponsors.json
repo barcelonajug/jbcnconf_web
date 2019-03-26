@@ -99,6 +99,14 @@
         "src": "/assets/img/sponsors/liferay_logo.png",
         "alt": "Liferay"
       }
+    },
+    {
+      "name": "Sopra Steria",
+      "href": "https://www.soprasteria.es/trabaja-con-nosotros",
+      "image": {
+        "src": "/assets/img/sponsors/soprasteria.png",
+        "alt": "Sopra Steria"
+      }
     }
   ],
   "supporters": [
