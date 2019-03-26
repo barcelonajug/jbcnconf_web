@@ -631,6 +631,19 @@
       "url": "infoSpeaker.html?ref=3b41d2043c201d402e1a97965b11f7e304a381e6",
       "homepage": "http://blog.joaoqalves.net/",
       "twitter": "@joaoqalves"
+    },
+    {
+      "enabled": "1",
+      "name": "Patrick Kua",
+      "company": "N26",
+      "description": "Chief Scientist at N26",
+      "biography": "Patrick Kua is Chief Scientist (former CTO) of the mobile bank N26 (Berlin, Germany), where he is building the engineering group that will change modern retail banking for people like you and me. Formerly a Principal Technical Consultant at ThoughtWorks, he is the author of three books, The Retrospective Handbook, Talking with Tech Leads and most recently, Building Evolutionary Architectures. Patrick is a frequent conference speaker, blogger and is passionate about bringing a balanced focus between people, organisations and technology. You can find him blogging at http://www.thekua.com/atwork and on twitter as @patkua",
+      "image": "assets/img/speakers/PatKua512x512.jpg",
+      "ref": "2cd0f524bac371cd77aab99978e3e2e8ec0a4529",
+      "url": "infoSpeaker.html?ref=2cd0f524bac371cd77aab99978e3e2e8ec0a4529",
+      "homepage": "https://www.thekua.com/atwork",
+      "twitter": "@patkua",
+      "linkedin": "https://www.linkedin.com/in/patkua/"
     }
   ]
 }
