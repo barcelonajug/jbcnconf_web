@@ -31,7 +31,7 @@
         "src": "/assets/img/sponsors/mango.png",
         "alt": "Mango"
       }
-    }
+    }   
   ],
   "galaxy-regular" : [
     {
@@ -100,6 +100,16 @@
         "alt": "Liferay"
       }
     }
+  ],
+  "silver" : [
+    {
+      "name": "Marfeel",
+      "href": "http://marfeel.com",
+      "image": {
+        "src": "/assets/img/sponsors/marfeel.png",
+        "alt": "Marfeel"
+      }
+    }   
   ],
   "supporters": [
     {
