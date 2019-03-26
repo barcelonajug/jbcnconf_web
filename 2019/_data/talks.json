@@ -792,6 +792,22 @@
       "speakers": [
         "3b41d2043c201d402e1a97965b11f7e304a381e6"
       ]
+    },
+    {
+      "id": "5c9408bb38da165dcdf15ffb",
+      "title": "Winning the language war - How N26 decided to adopt Kotlin",
+      "abstract": "Adopting a new programming language is a big deal. It divides opinions at a company, department, and team level. Developers love arguing about their preferred programming language of choice. Debates and discussion often focus on what one language offers over another. No one ever talks about how to navigate this debate.\n\nIn this talk, I want to share how N26, the mobile bank the world loves to use, successfully overcame this debate by sharing the process of how we adopted Kotlin. I’ll share our failed attempts in other languages, why we decided to explore (yet another!) language, the process we went through and the heated discussions we had. I’ll highlight concrete experiments we conducted to collect data and share insights into our process of adopting a new programming language. I’ll also share some lessons learned about how it all went after a year of adopting Kotlin.\n\nThis talk will be highly elegant for those of you interested in Kotlin (or another language), considering how to adopt a new programming language, or how to influence others to adopt a new programming language. ",
+      "type": "talk",
+      "tags": [
+        "kotlin",
+        "java",
+        "programming language",
+        "adopt"
+      ],
+      "level": "middle",
+      "speakers": [
+        "2cd0f524bac371cd77aab99978e3e2e8ec0a4529"
+      ]
     }
   ]
 }
