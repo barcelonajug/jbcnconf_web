@@ -117,6 +117,16 @@
       }
     }
   ],
+  "silver": [
+    {
+      "name": "Marfeel",
+      "href": "http://marfeel.com",
+      "image": {
+        "src": "/assets/img/sponsors/marfeel.png",
+        "alt": "Marfeel"
+      }
+    }
+  ],
   "supporters": [
     {
       "name": "Barcelona JUG",
