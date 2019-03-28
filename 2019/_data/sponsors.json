@@ -93,6 +93,14 @@
       }
     },
     {
+      "name": "Barcelona Digital Talent",
+      "href": "https://barcelonadigitaltalent.com/",
+      "image": {
+        "src": "/assets/img/sponsors/barcelona-digital-talent.png",
+        "alt": "Barcelona Digital Talent"
+      }
+    },
+    {
       "name": "Apiumhub",
       "href": "https://apiumhub.com/",
       "image": {
@@ -106,6 +114,24 @@
       "image": {
         "src": "/assets/img/sponsors/liferay_logo.png",
         "alt": "Liferay"
+      }
+    },
+    {
+      "name": "Sopra Steria",
+      "href": "https://www.soprasteria.es/trabaja-con-nosotros",
+      "image": {
+        "src": "/assets/img/sponsors/soprasteria.png",
+        "alt": "Sopra Steria"
+      }
+    }
+  ],
+  "silver": [
+    {
+      "name": "Marfeel",
+      "href": "http://marfeel.com",
+      "image": {
+        "src": "/assets/img/sponsors/marfeel.png",
+        "alt": "Marfeel"
       }
     }
   ],
