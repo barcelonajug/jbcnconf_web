@@ -89,6 +89,14 @@
         "src": "/assets/img/sponsors/adaptive-logo.png",
         "alt": "Adaptive"
       }
+    },
+    {
+      "name": "Adevinta",
+      "href": "https://www.adevinta.com/career/",
+      "image": {
+        "src": "/assets/img/sponsors/adevinta.png",
+        "alt": "Adevinta"
+      }
     }
   ],
   "galaxy-basic": [
