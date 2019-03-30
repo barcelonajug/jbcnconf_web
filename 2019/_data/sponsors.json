@@ -39,6 +39,14 @@
         "src": "/assets/img/sponsors/glovo.png",
         "alt": "Glovo"
       }
+    },
+    {
+      "name": "Oracle Netsuite",
+      "href": "http://grow-with-us.netsuite.com/barcelona",
+      "image": {
+        "src": "/assets/img/sponsors/oracle-netsuite.jpg",
+        "alt": "Oracle Netsuite"
+      }
     }
   ],
   "galaxy-regular" : [
