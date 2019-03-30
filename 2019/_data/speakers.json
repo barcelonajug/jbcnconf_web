@@ -644,6 +644,17 @@
       "homepage": "https://www.thekua.com/atwork",
       "twitter": "@patkua",
       "linkedin": "https://www.linkedin.com/in/patkua/"
+    },
+    {
+      "enabled": "1",
+      "name": "Burr Sutter",
+      "company": "Red Hat",
+      "description": " Director, Developer Experience at Red Hat , Java Champion",
+      "biography": "A lifelong developer advocate, community organizer, and technology evangelist, Burr Sutter is a featured speaker at technology events around the globe—from Bangalore to Brussels and Berlin to Beijing (and most parts in between). A Java Champion since 2005 and former president of the Atlanta Java User Group, Burr founded the DevNexus conference (now the second largest Java event in the U.S.) with the aim of making access to the world’s leading developers affordable to the developer community. When not speaking abroad, Burr is also the passionate creator and orchestrator of highly-interactive live demo keynotes at Red Hat Summit, the company’s premier annual event.",
+      "image": "assets/img/speakers/burr-sutter.png",
+      "ref": "27509a8795aeb61050e21551db71e2386721a968",
+      "url": "infoSpeaker.html?ref=27509a8795aeb61050e21551db71e2386721a968",
+      "twitter": "@burrsutter"
     }
   ]
 }

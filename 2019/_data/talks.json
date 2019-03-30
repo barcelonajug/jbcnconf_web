@@ -808,6 +808,22 @@
       "speakers": [
         "2cd0f524bac371cd77aab99978e3e2e8ec0a4529"
       ]
+    },
+    {
+      "id": "5c940a6338da165dcdf16004",
+      "title": "Supersonic, Subatomic Java",
+      "abstract": "Java was born in the mid-90s, the era of TLC and Boyz II Men, long before the rise of Linux server virtualization and the Linux container.\nWe took great pride in running Java applications for weeks if not months without restarts and Java assumed the whole computer belonged to itself, that it could consume all available memory and CPU.  In this presentation, we will demonstrate the problems associated using Java for \"microservices\", and how the open source ecosystem is working to insure the future of Java by being cloud first, container native, serverless focused and Kubernetes optimized.  This is where GraalVM meets Quarkus, bringing server-side and enterprise-capable Java to enable you to build truly cloud native apps.",
+      "type": "talk",
+      "tags": [
+        "microservices",
+        " keynote",
+        " kubernetes",
+        " cloud"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "27509a8795aeb61050e21551db71e2386721a968"
+      ]
     }
   ]
 }
