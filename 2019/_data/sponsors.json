@@ -97,6 +97,14 @@
         "src": "/assets/img/sponsors/adevinta.png",
         "alt": "Adevinta"
       }
+    },
+    {
+      "name": "New Relic",
+      "href": "http://www.newrelic.com/",
+      "image": {
+        "src": "/assets/img/sponsors/newrelic.png",
+        "alt": "New Relic"
+      }
     }
   ],
   "galaxy-basic": [
@@ -247,7 +255,7 @@
         "src": "/assets/img/sponsors/teqnation.png",
         "alt": "TEQnation"
       }
-    },    
+    },
     {
       "name": "Madrid JUG",
       "href": "https://www.meetup.com/MadridJUG",
