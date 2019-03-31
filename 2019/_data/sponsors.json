@@ -97,6 +97,14 @@
         "src": "/assets/img/sponsors/adevinta.png",
         "alt": "Adevinta"
       }
+    },
+    {
+      "name": "Scopely",
+      "href": "https://scopely.com/games/",
+      "image": {
+        "src": "/assets/img/sponsors/scopely.png",
+        "alt": "Scopely"
+      }
     }
   ],
   "galaxy-basic": [
@@ -247,7 +255,7 @@
         "src": "/assets/img/sponsors/teqnation.png",
         "alt": "TEQnation"
       }
-    },    
+    },
     {
       "name": "Madrid JUG",
       "href": "https://www.meetup.com/MadridJUG",
