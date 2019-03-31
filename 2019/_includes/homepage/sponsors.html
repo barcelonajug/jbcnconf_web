@@ -38,7 +38,7 @@
 
                     <div class="post-related-posts row">
                         {% for sponsor in site.data.sponsors.galaxy-premium %}
-                            {% assign mod = forloop.index0 | modulo:3 %}
+                            {% assign mod = forloop.index0 | modulo:2 %}
                             {% assign style = "line-height: 200px" %}
                             {% if mod == 0 %}
                                 {% assign style = style | append: "; clear:both" %}
@@ -144,8 +144,8 @@
                     {% assign style = "line-height: 100px" %}
                     {% if mod == 0 %}
                         {% assign style = style | append: "; clear:both" %}
-                    {% endif %}                    
-                        <div class="item col-sm-2 col-xs-6" style="{{ style }}">                    
+                    {% endif %}
+                        <div class="item col-sm-2 col-xs-6" style="{{ style }}">
                             <div class="image align-middle">
                                 <a href="{{ sponsor.href }}" target="_blank" title="{{ sponsor.name }}"
                                 style="vertical-align:middle;">
