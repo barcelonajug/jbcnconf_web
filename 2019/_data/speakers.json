@@ -655,6 +655,18 @@
       "ref": "27509a8795aeb61050e21551db71e2386721a968",
       "url": "infoSpeaker.html?ref=27509a8795aeb61050e21551db71e2386721a968",
       "twitter": "@burrsutter"
+    },
+    {
+      "enabled": "1",
+      "name": "Bruno Bonanno",
+      "company": "Adaptive",
+      "description": "Senior Scala Developer at Adaptive Financial Consulting",
+      "biography": "Bruno is a software engineer with 17+ years working in the IT industry.\nHe also spent 5 years teaching at his alma mater before moving to London’s consulting arena, where it helped companies such as Morgan Stanley, Sky, HMRC, Barclays (and more) to deliver better and more robust software.\nCurrently he works with Adaptive Financial Consulting to develop a next generation cryptocurrencies trading platform.",
+      "image": "assets/img/speakers/bruno-bonanno.jpg",
+      "ref": "b7717dd697709e684522aa7aad3e6f97534b030f",
+      "url": "infoSpeaker.html?ref=b7717dd697709e684522aa7aad3e6f97534b030f",
+      "twitter": "@bbonanno",
+      "linkedin": "https://www.linkedin.com/in/bbonanno/"
     }
   ]
 }
