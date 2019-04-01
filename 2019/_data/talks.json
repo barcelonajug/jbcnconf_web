@@ -842,6 +842,20 @@
       "speakers": [
         "b7717dd697709e684522aa7aad3e6f97534b030f"
       ]
+    },
+    {
+      "id": "5c940a1438da165dcdf16003",
+      "title": "Subatomic Reactive Systems with Quarkus",
+      "abstract": "Quarkus provides a supersonic development experience and a subatomic execution environment thanks to its integration with GraalVM.  But, that's not all. Quarkus also unifies the imperative and reactive paradigm. Let's dig into this.\n\nThis talk is about the reactive side of Quarkus and how you can use it to implement reactive and data streaming applications. From WebSockets to Kafka integration and reactive streams, this talk shows all you need to know to build a reactive system with Quarkus.\n\n",
+      "type": "talk",
+      "tags": [
+        "quarkus",
+        "reactive"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "dc47e12a60c10690bfbad90e0de30b0201d32a87"
+      ]
     }
   ]
 }
