@@ -824,6 +824,24 @@
       "speakers": [
         "27509a8795aeb61050e21551db71e2386721a968"
       ]
+    },
+    {
+      "id": "5c9409a238da165dcdf16000",
+      "title": "Cryptocurrency algo-trading testing in Scala",
+      "abstract": "We've came up with a combination of tools and practices that made writing our tests for an order management system that trades cryptocurrencies in several exchanges quite easy, fast and maintainable over time.\nIn this talk we would walk through an introduction to this tools and techniques, how are they combined together to form a DSL and we'll end up looking at some working examples of the tests written.\n",
+      "type": "talk",
+      "tags": [
+        "scala",
+        "tdd",
+        "testing",
+        "cryptocurrencies",
+        "cleancode",
+        "Functional Programming"
+      ],
+      "level": "middle",
+      "speakers": [
+        "b7717dd697709e684522aa7aad3e6f97534b030f"
+      ]
     }
   ]
 }
