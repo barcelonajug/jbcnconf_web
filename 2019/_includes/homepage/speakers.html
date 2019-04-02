@@ -33,7 +33,7 @@
 
                     {% assign talkTitle = '' %}
                     {% for talk in site.data.talks.items %}
-                    {% if speaker.ref == talk.speakers[0] or speaker.ref == talk.speakers[1] %}
+                    {% if speaker.ref == talk.speakers[0] or speaker.ref == talk.speakers[1] or speaker.ref == talk.speakers[2] %}
                     {% capture talkTitle %}  {{ talk.title }}. {{ talkTitle }}{% endcapture %}
                     {% endif %}
                     {% endfor %}
