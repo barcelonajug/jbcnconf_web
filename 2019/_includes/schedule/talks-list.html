@@ -8,7 +8,7 @@
             var talk = {{ talk | jsonify }}
             talk.allSpeakers = [];
         {% for speaker in site.data.speakers.items %}
-            {% if speaker.ref == talk.speakers[0] or speaker.ref == talk.speakers[1] %}
+            {% if speaker.ref == talk.speakers[0] or speaker.ref == talk.speakers[1] or speaker.ref == talk.speakers[2] %}
 
             talk.allSpeakers.push({{ speaker | jsonify }})
 
