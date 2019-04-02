@@ -856,6 +856,24 @@
       "speakers": [
         "dc47e12a60c10690bfbad90e0de30b0201d32a87"
       ]
+    },
+    {
+      "id": "5c9409fa38da165dcdf16002",
+      "title": "How to split your software into microservices",
+      "abstract": "Microservices seem to be very hot. You see and hear all these presentations about which framework to use and what tool is best. But how do you divide up your problem? In this hands-on session, we'll have a look at some of the ways in which you can split up your problem. After a short presentation we'll analyse the Set card game and try to divide it up into microservices that we'll then program in whatever tool or framework strikes your fancy. We'll do this in short iterative sessions that are interleaved with a bit of discussion about who does what.",
+      "type": "workshop",
+      "tags": [
+        "Java",
+        "Microservices",
+        "DDD",
+        "Eventstorming"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "5b656cdacb65daac27580c4c468fc31aa3ae6464",
+        "466fc88529d33847e0ed302da0b2f091c6ce1e0d",
+        "d32872131f45452e2aa9dab8edf5ea71ff1a870f"
+      ]
     }
   ]
 }

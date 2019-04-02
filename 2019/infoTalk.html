@@ -19,7 +19,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
         {% endfor %}
 
         {% for speaker in site.data.speakers.items %}
-            if (talk.speakers[0] === "{{ speaker.ref }}" || talk.speakers[1] === "{{ speaker.ref }}") {
+            if (talk.speakers[0] === "{{ speaker.ref }}" || talk.speakers[1] === "{{ speaker.ref }}" || talk.speakers[2] === "{{ speaker.ref }}") {
                 speakers.push({{ speaker | jsonify }});
             }
         {% endfor %}
@@ -108,6 +108,48 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
                     <div>&nbsp;</div>
 
                     <article id="speaker-page-1"
+                             class="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
+                        <div class="post-wrapper">
+
+                            <div class="post-header">
+                                <h1 class="name"></h1>
+                                <h3 class="description"></h3>
+                            </div>
+
+                            <div>
+                                <p>
+                                    <img class="speaker-image size-full wp-image-237 alignright"
+                                         src=""
+                                         width="200"
+                                         height="300"
+                                         data-image-base="{{base}}/">
+                                    <ul style="float:right; list-style:none" class="post-information">
+                                        <li class="linkedin" style="display:none">
+                                            <a target="_blank" href="#">
+                                                <i class="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li class="twitter" style="display:none">
+                                            <a target="_blank" href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="homepage" style="display:none">
+                                            <a target="_blank" href="#">
+                                                <i class="fa fa-rss"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <span class="biography">
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div>&nbsp;</div>
+
+                    <article id="speaker-page-2"
                              class="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
                         <div class="post-wrapper">
 

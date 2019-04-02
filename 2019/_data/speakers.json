@@ -680,7 +680,39 @@
       "homepage": "https://quarkus.io",
       "twitter": "@clementplop",
       "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Linda van der Pal",
+      "company": "Trailblazers",
+      "description": "Developer at Trailblazers, the founder of Duchess and Java Champion",
+      "biography": "Linda is a developer at Trailblazers, the founder of Duchess, Java Champion and co-organizer of the Dutch Devoxx4kids events. You can often find her at conferences either as a speaker or organizing something that she thinks might increase the diversity. She has been a Java developer for several companies since 2002. Besides her passion for Java, she is also an agile enthousiast.",
+      "image": "assets/img/speakers/linda-van-der-pal.jpg",
+      "ref": "5b656cdacb65daac27580c4c468fc31aa3ae6464",
+      "url": "infoSpeaker.html?ref=5b656cdacb65daac27580c4c468fc31aa3ae6464",
+      "twitter": "@DuchessFounder"
+    },
+    {
+      "enabled": "1",
+      "name": "Régina ten Bruggencate",
+      "company": "Trailblazers",
+      "description": "Senior Java developer at Trailblazers and Java Champion",
+      "biography": "Regina is a senior Java developer for Trailblazers and a Java Champion, with 10 plus years of Java experience mainly on enterprise applications. Regina is the current president of JDuchess, and as such has the responsibility for the site and community. Duchess is a global organization for women in Java technology, currently with 350 members in over 50 countries. Duchess provides a platform through which women who work with Java can connect with each other and get involved in the greater Java community. It aims to make women’s role and the individual women’s contributions visible in the Java community and to teach the benefits of diversity in any team environment – whether corporate or open-source. Regina has been a speaker at JavaOne, jFokus and Devoxx.",
+      "image": "assets/img/speakers/regina-ten-bruggencate.jpg",
+      "ref": "d32872131f45452e2aa9dab8edf5ea71ff1a870f",
+      "url": "infoSpeaker.html?ref=d32872131f45452e2aa9dab8edf5ea71ff1a870f",
+      "twitter": "@reginatb38"
+    },
+    {
+      "enabled": "1",
+      "name": "Joanne Boerstoel",
+      "company": "Trailblazers",
+      "description": "Senior Scrum Master / Agile Coach at Trailblazers",
+      "biography": "As a Scrum Master for the past 12 years Joanne has helped many teams in different settings to become self-organizing and organizations to have an Agile mindset. Being 'born agile' for her this is the natural way to do things. However, she learned that this is not the case everywhere and for everybody so along the way she picked up a toolbox with different methods, team coaching skills and agile games to help people along. She loves brainstorming with other people and experimenting to keep on trying to find  different, better ways to reach our goals. She likes bridging gaps wherever they are, between Business and IT, IT and customer, management and team.\n\nJoanne is now a senior Scrum Master / Agile Coach at Trailblazers. Although educated as a geologist she is happily working in IT since 1996 and for the past 12 years is passionate about Scrum and Agile.",
+      "image": "assets/img/speakers/joanne-boerstoel.png",
+      "ref": "466fc88529d33847e0ed302da0b2f091c6ce1e0d",
+      "url": "infoSpeaker.html?ref=466fc88529d33847e0ed302da0b2f091c6ce1e0d",
+      "linkedin": "https://www.linkedin.com/in/joanneboerstoel"
     }
-
   ]
 }
