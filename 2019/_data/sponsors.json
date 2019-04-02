@@ -105,6 +105,14 @@
         "src": "/assets/img/sponsors/newrelic.png",
         "alt": "New Relic"
       }
+    },
+    {
+      "name": "Scopely",
+      "href": "https://scopely.com",
+      "image": {
+        "src": "/assets/img/sponsors/scopely.png",
+        "alt": "Scopely"
+      }
     }
   ],
   "galaxy-basic": [
