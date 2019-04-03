@@ -31,6 +31,14 @@
       "date": "127 €/single<BR>143€/double",
       "aboutText": "READ MORE",
       "aboutURL": "https://www.hotelfrontmaritim.com/"
-    }        
+    },
+    {
+      "title": "Hotel Barcelona Condal Mar Melia<br>Click \"read more\" below to access offer",
+      "url": "https://events.melia.com/events/tryp-barcelona-condal-mar/JBCNCONF-2019.html",
+      "image": "/assets/img/hotels/CondalMar-Melia.jpg",
+      "date": "132 €/single<BR>145.20 €/double",
+      "aboutText": "READ MORE",
+      "aboutURL": "https://events.melia.com/events/tryp-barcelona-condal-mar/JBCNCONF-2019.html"
+    } 
   ]
 }
