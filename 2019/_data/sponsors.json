@@ -271,6 +271,22 @@
         "src": "/assets/img/sponsors/madrid-jug.jpg",
         "alt": "Madrid Java User Group"
       }
+    },
+    {
+      "name": "Google Developer Group Barcelona",
+      "href": "https://twitter.com/GDGBarcelona",
+      "image": {
+        "src": "/assets/img/sponsors/gdg_barcelona.png",
+        "alt": "Google Developer Group Barcelona"
+      }
+    },
+    {
+      "name": "Women Techmakers Barcelona",
+      "href": "https://www.meetup.com/wtmbcn/",
+      "image": {
+        "src": "/assets/img/sponsors/wtc.png",
+        "alt": "Women Techmakers Barcelona"
+      }
     }
   ],
   "mediapartners" : [
