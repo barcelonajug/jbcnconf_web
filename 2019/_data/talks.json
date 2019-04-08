@@ -874,6 +874,40 @@
         "466fc88529d33847e0ed302da0b2f091c6ce1e0d",
         "d32872131f45452e2aa9dab8edf5ea71ff1a870f"
       ]
+    },
+    {
+      "id": "5caa579738da161235721c42",
+      "title": "Real-time stock management, Kappa Architecture",
+      "abstract": "Every day increases the pressure of the business analyst to consume the relevant information in near real time to support real time decision, the data are produced in a distributed and decentralized along the company's facilities around the world and from different data sources.<br><br>In this session will talk about a real business case and how we approach this problem with a Kappa architecture.",
+      "type": "talk",
+      "tags": [
+        "Active-Active Topologies",
+        "MOM",
+        "Coherence Datagrid",
+        "Java Data Services",
+        "ESB",
+        "API Management"
+      ],
+      "level": "advanced",
+      "speakers": [
+        "105687f25615197c08e426d7035ba0fc5847b6ca",
+        "5d23dd362b4bb5d1fd74cdcecdcd9278ed5b98e5"
+      ]
+    },
+    {
+      "id": "5caa633138da161235721c47",
+      "title": "Do not put all eggs in one container",
+      "abstract": "Microservice architecture and containerization have become the standards of modern application development. The challenges that developers face today are different from the problems that we used to solve earlier. Creators of the Java runtime respond to this with the appropriate functionality in the JDK. For example, an inexpensive cloud instance can be quite powerful. And it runs a bunch of containers. Then JVMs running in different containers compete for instance resources. Starting from Java 10, virtual machines know how to live in peace, this work has continued in Java 11. On the other hand, you now need to choose which base image to use. This includes the choice of operating system and Java runtime. OS images vary greatly in size and have their own characteristics, which must be taken into account. Java runtime is also for every taste now. And even within the OpenJDK framework, assemblies from different companies are available with different functionality and size. And you can create a custom runtime image. We will consider the practical application of Java 11 functionality in a container environment typical for popular fram",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Docker",
+        "Spring"
+      ],
+      "level": "middle",
+      "speakers": [
+        "6bcc1166f20d349b0a52352c5f7c2d00434a09c3"
+      ]
     }
   ]
 }
