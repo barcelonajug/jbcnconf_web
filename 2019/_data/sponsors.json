@@ -113,6 +113,14 @@
         "src": "/assets/img/sponsors/scopely.png",
         "alt": "Scopely"
       }
+    },
+    {
+      "name": "Dynatrace",
+      "href": "https://www.dynatrace.com/company/careers/barcelona/",
+      "image": {
+        "src": "/assets/img/sponsors/dynatrace.png",
+        "alt": "Dynatrace"
+      }
     }
   ],
   "galaxy-basic": [
