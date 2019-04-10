@@ -746,6 +746,32 @@
       "url": "infoSpeaker.html?ref=6bcc1166f20d349b0a52352c5f7c2d00434a09c3",
       "twitter": "@dchuyko",
       "linkedin": "https://linkedin.com/in/dchuyko/"
+    },
+    {
+      "enabled": "1",
+      "name": "Lior Yaffe",
+      "company": "Jelurida",
+      "description": "Blockchain Developer and co-founder of Jelurida",
+      "biography": "As a 3 years old kid, Lior used to multiply double digits numbers in his head in a split second.\nAt 13, he got his first computer and developed programs for fast prime calculations, finding Pythagorean triples and calculating polynomial approximations.\nLior has a B.A. in computer science from the Technion in Haifa. He eats and drinks programming and technology and has worked in various companies from startups to large corporations, specializing in software development of enterprise applications. He is a true believer in blockchain technology and its potential to change the world.",
+      "image": "assets/img/speakers/LiorYaffe.jpg",
+      "ref": "042bcb6c3a9fc6a76d300d96eb954ed04ec9847e",
+      "url": "infoSpeaker.html?ref=042bcb6c3a9fc6a76d300d96eb954ed04ec9847e",
+      "homepage": "",
+      "twitter": "@lioryaffe",
+      "linkedin": "https://www.linkedin.com/in/lior-yaffe-61106b1/"
+    },
+    {
+      "enabled": "1",
+      "name": "Alberto Fernandez",
+      "company": "Jelurida",
+      "description": "Software engineer",
+      "biography": "Alberto Fernandez is a software engineer currently filling the gap between business and the technology.\nHe has been actively working as a blockchain consultant, DApp developer, fintech specialist, middleware expert, and is the founder of Sistek, a management consulting firm.\nAlberto has over ten years of IT experience as a tech instructor and consultant, and first started to work with blockchain related technologies in 2014.",
+      "image": "assets/img/speakers/alberto-fernandez.jpeg",
+      "ref": "6db51a7a47f433795f5024926d64e6cff36ea6d1",
+      "url": "infoSpeaker.html?ref=6db51a7a47f433795f5024926d64e6cff36ea6d1",
+      "homepage": "",
+      "twitter": "@albefero",
+      "linkedin": "https://www.linkedin.com/in/alberto-fernandez-sistek/"
     }
   ]
 }
