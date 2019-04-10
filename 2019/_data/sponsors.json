@@ -121,6 +121,14 @@
         "src": "/assets/img/sponsors/dynatrace.png",
         "alt": "Dynatrace"
       }
+    },
+    {
+      "name": "Jelurida",
+      "href": "https://ardordocs.jelurida.com/Getting_started",
+      "image": {
+        "src": "/assets/img/sponsors/jelurida.png",
+        "alt": "Jelurida"
+      }
     }
   ],
   "galaxy-basic": [
