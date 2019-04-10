@@ -908,6 +908,40 @@
       "speakers": [
         "6bcc1166f20d349b0a52352c5f7c2d00434a09c3"
       ]
+    },
+    {
+      "id": "5c9408e638da165dcdf15ffc",
+      "title": "Introduction to Java based blockchain smart contracts framework",
+      "abstract": "Most existing blockchain smart contract frameworks use their own DSL and proprietary tools making them much less accessible for developers.\n\nIn this lecture we will present a blockchain contracts framework developed in pure Java and deployed into standard Java JRE.\n\nThe talk will cover topics like:\n\n-Existing challenges to blockchain contracts design\n-Stateful vs. stateless contracts\n-Metering contract execution\n-Smart contracts security concerns\n\nIntroduction to the Ignis lightweight contracts framework:\n- Making contracts stateless\n- Custom class loaders for securely storing and loading blockchain contracts\n- Utilizing the Java security model for sandbox execution\n- Verification of deployed contracts against the contract original source code \n- Using dynamic proxies to inject runtime parameters into a contract instances\n\nThe Ignis lightweight contracts framework is part of the Java open source blockchain project called Ardor Platform, you can take a look at their sources here:\nhttps://bitbucket.org/Jelurida/ardor/src\n",
+      "type": "talk",
+      "tags": [
+        "smart contracts",
+        "blockchain",
+        "ignis",
+        "ardor"
+      ],
+      "level": "middle",
+      "speakers": [
+        "042bcb6c3a9fc6a76d300d96eb954ed04ec9847e"
+      ]
+    },
+    {
+      "id": "5c94091838da165dcdf15ffd",
+      "title": "Blockchain Contract Development Workshop for Java Programmers",
+      "abstract": "In this workshop you'll learn key concepts in blockchain contracts development. Participants will get a chance to develop, test, deploy and debug contracts on a real blockchain testnet\n\nAt the end of the workshop attendees will understand how a blockchain works, understand the purpose of transactions and blocks and the role of contracts in the blockchain world.\n\nContracts are developed by implementing predefined interfaces. The contract code is deployed to the blockchain as a cloud data transaction, which stores the code itself, and a contract reference transaction which associates a specific account with an existing deployed contract and configures the contract setup parameters for this specific account.\n\nUnlike many other contract development frameworks, lightweight contracts are not executed by every node on the blockchain, instead node operators have to configure their node to run contracts by registering the contract runner addon. The contract runner monitors every new block for trigger transactions. When found it triggers the respective contract after loading it from the blockchain. The contract runner also supports contracts which execute on every block and provides APIs for triggering contracts directly or using a transaction voucher.\n\nWith this approach, the “contract” code itself is a simple Java class uploaded to the blockchain and therefore digitally signed and time stamped. However, the execution of the “contract” is only performed by nodes who selected to run the ‘ContractRunner’ addon.\n\nThe input to the contract is typically a transaction with an attached message, which identifies the contract to execute, and supplies optional parameters. The output of the contract are one or more transactions submitted to the network to update the blockchain state. The transactions submitted by the contract are normal transactions which have to comply with all the existing protocol rules.\nIn other words, the lightweight contract, is Java code which implements a certain interface, stored on the blockchain. The contract code is executed by anyone who wants to run it, not by every node, and is triggered by a blockchain transaction (or by each new block). The result of the calculation made by the contract is submitted as one or more normal transactions of any type supported by Ardor.",
+      "type": "workshop",
+      "tags": [
+        "smart contracts",
+        "java",
+        "blockchain",
+        "ardor",
+        "ignis"
+      ],
+      "level": "middle",
+      "speakers": [
+        "042bcb6c3a9fc6a76d300d96eb954ed04ec9847e",
+        "6db51a7a47f433795f5024926d64e6cff36ea6d1"
+      ]
     }
   ]
 }
