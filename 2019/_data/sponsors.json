@@ -163,6 +163,14 @@
         "src": "/assets/img/sponsors/soprasteria.png",
         "alt": "Sopra Steria"
       }
+    },
+    {
+      "name": "Wallapop",
+      "href": "https://www.linkedin.com/company/wallapop/jobs/",
+      "image": {
+        "src": "/assets/img/sponsors/wallapop.png",
+        "alt": "Wallapop"
+      }
     }
   ],
   "silver": [
