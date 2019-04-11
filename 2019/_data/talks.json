@@ -957,6 +957,23 @@
       "speakers": [
         "05e624ae77d36bb40a42224637b81a487050eb3e"
       ]
+    },
+    {
+      "id": "5caa65b338da161235721c4a",
+      "title": "Introduce girls to programming and reduce the gender gap",
+      "abstract": "Science, Technology, Engineering and Mathematics (STEM) is what our society needs to focus on if it wants to be competitive in the future. But in order to succeed with that, it also needs to let kids discover the best career for them without influences from gender stereotypes. In tech we will be missing out almost 50% of our potential unless we start encouraging girls to choose a tech career. \nWe will share why and how we organize an event we call Hackdays4Girls and what will enable you to awake your daughters (and sons) enthusiasm for tech & coding. You will learn what to take care of if you want to encourage also other girls from within your JUG, company or your child's school. We will take a look at block-programming with Scratch, as well as microcontrollers such as the BBC Micro:bit.\n",
+      "type": "talk",
+      "tags": [
+        "Girls",
+        "Programming",
+        "Learning",
+        "Java User Group"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "27a9df1b0b29d676d6c2cd7c00880eb81d60b1d1",
+        "36bd706bf1436fb7ecef25ec7e00051bdcce12d3"
+      ]
     }
   ]
 }
