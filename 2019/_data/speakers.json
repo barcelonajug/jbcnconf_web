@@ -772,6 +772,18 @@
       "homepage": "",
       "twitter": "@albefero",
       "linkedin": "https://www.linkedin.com/in/alberto-fernandez-sistek/"
+    },
+    {
+      "enabled": "1",
+      "name": "Elder Moraes",
+      "company": "Oracle",
+      "description": "Java & Cloud Advocate, Book Author, Board Member at SouJava",
+      "biography": "Elder helps server side developers to work on great projects by building and delivering secure, available and fast applications. With many years of Java Enterprise development experience, he is an active participant of the Jakarta EE discussions. He is also the author of “JavaEE 8 Cookbook“, where he provides deep knowledge about Java EE 8 API’s and how to use them to solve real enterprise problems. Host of the “JavaEE 8 – the Next Frontier” videocast, Elder is passionate about Java, cloud and systems architecture. As a cloud evangelist, he inspires crowds to adopt Enterprise Java by sharing experiences and best practices through online content and at international events like JavaOne, Code One, Oracle Code, TDC, QCon and Campus Party.",
+      "image": "assets/img/speakers/elder-moraes.png",
+      "ref": "05e624ae77d36bb40a42224637b81a487050eb3e",
+      "url": "infoSpeaker.html?ref=05e624ae77d36bb40a42224637b81a487050eb3e",
+      "homepage": "http://eldermoraes.com",
+      "twitter": "@elderjava"
     }
   ]
 }

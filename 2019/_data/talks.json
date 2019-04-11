@@ -942,6 +942,21 @@
         "042bcb6c3a9fc6a76d300d96eb954ed04ec9847e",
         "6db51a7a47f433795f5024926d64e6cff36ea6d1"
       ]
+    },
+    {
+      "id": "5caa659838da161235721c49",
+      "title": "The quest to the Language Graal: One VM to rule them all",
+      "abstract": "Dear Frodo... it's not easy to work in projects using multiple languages that doesn't integrate natively. It's like a quest to Mordor: a lot of risks, traps and epic battles against Bugs Hordes (aka Orcs).\n\nIn this situation, every programmer would like to have a friend like Sam. Somebody who give interoperability between Elves, Dwarves, Java, Python, Scala, Node.js... and even helps you on creating a new language!\n\nThat friend exists. It's not Sam. Smeagol would call it \"Precious\", but it's name is Graal VM. This session will show you how it will change the way you think and build software.",
+      "type": "talk",
+      "tags": [
+        "java",
+        "jvm",
+        "performance"
+      ],
+      "level": "middle",
+      "speakers": [
+        "05e624ae77d36bb40a42224637b81a487050eb3e"
+      ]
     }
   ]
 }
