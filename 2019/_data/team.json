@@ -70,6 +70,18 @@
         "url": "/assets/img/team/abel.jpg",
         "alt": "Abel Salgado"
       }
+    },
+    {
+      "name": "Alejandro Martínez",
+      "position": "Java DeveLOVER",
+      "role": "Team Member Barcelona JUG.",
+      "bio": "I'm a lead developer focused in projects developed with Java technologies with experience in team leadership & software project management with strong analytical and design skills with more than 15 years of experience.",
+      "linkedin": "https://www.linkedin.com/in/alejandrobcn/",
+      "twitter": "https://twitter.com/alex81sp",
+      "image": {
+        "url": "/assets/img/team/alejandro.jpg",
+        "alt": "Alejandro Martinez, Java Lover"
+      }
     }
   ]
 }
