@@ -784,6 +784,30 @@
       "url": "infoSpeaker.html?ref=05e624ae77d36bb40a42224637b81a487050eb3e",
       "homepage": "http://eldermoraes.com",
       "twitter": "@elderjava"
+    },
+    {
+      "enabled": "1",
+      "name": "Laura Luiz",
+      "company": "commercetools",
+      "description": "Software Engineer at commercetools",
+      "biography": "Laura Luiz is a Software Engineer at commercetools, where she designs and builds open-source libraries and applications. After working at Fundació i2CAT in Barcelona, she moved to Berlin in 2012 to help commercetools in developing a modern commerce platform, focusing on SDK and frameworks running on the JVM. In the last year she has been designing and developing Sunrise, a reference frontend implementation running on Vue.js and communicating via GraphQL to the platform, while leading and mentoring a small team. When she is not coding, she can be found playing video games, very likely a good old classic.",
+      "image": "assets/img/speakers/laura-luiz.jpg",
+      "ref": "36bd706bf1436fb7ecef25ec7e00051bdcce12d3",
+      "url": "infoSpeaker.html?ref=36bd706bf1436fb7ecef25ec7e00051bdcce12d3",
+      "homepage": "https://commercetools.com/",
+      "twitter": "@LauraLuizEs"
+    },
+    {
+      "enabled": "1",
+      "name": "Ansgar Schulze Everding",
+      "company": "REWE Digital",
+      "description": "Software Architect at REWE Digital",
+      "biography": "Ansgar Schulze Everding works at REWE Digital as Software Architect, taking care of the Domain Fulfillment. He started at REWE Digital in 2014 to help one of Europe’s biggest food retailers building the leading food eCommerce platform in Europe. Beside enabling 15 teams to work autonomously he helps the product owners to not neglect the technical view. Ansgar leads the Java User Group Dortmund and speaks at international software conferences like JavaOne, Devnexus, JPrime, JBCNConf and Javaland.",
+      "image": "assets/img/speakers/abrauner.jpg",
+      "ref": "27a9df1b0b29d676d6c2cd7c00880eb81d60b1d1",
+      "url": "infoSpeaker.html?ref=27a9df1b0b29d676d6c2cd7c00880eb81d60b1d1",
+      "homepage": "https://www.jugdo.de",
+      "twitter": "@a_brauner"
     }
   ]
 }
