@@ -808,6 +808,17 @@
       "url": "infoSpeaker.html?ref=27a9df1b0b29d676d6c2cd7c00880eb81d60b1d1",
       "homepage": "https://www.jugdo.de",
       "twitter": "@a_brauner"
+    },
+    {
+      "enabled": "1",
+      "name": "Mario Torre",
+      "company": "Red Hat",
+      "description": "Associate Manager in the OpenJDK group at Red Hat",
+      "biography": "Mario Torre is Associate Manager in the OpenJDK group at Red Hat where he leads the JDK Mission Control team. Mario was appointed Java Champion in 2014 for his contributions to the OpenJDK project and its community, having been part of it since its early inception. He is Committer on a multitude of OpenJDK projects, including JDK Mission Control and he is reviewer for the JDK7u project. Mario is also part of the Adoption Group at OpenJDK, a group that serves with the aim of lowering the barriers to contributions to OpenJDK. Mario is a strong advocate of Free and Open Source Software, he often speaks at international conferences and is the main organiser of the FOSDEM Java DevRoom since 2012.",
+      "image": "assets/img/speakers/mario-torre.png",
+      "ref": "55fa365305bcd20ac6221f7f3123d50516ee9b35",
+      "url": "infoSpeaker.html?ref=55fa365305bcd20ac6221f7f3123d50516ee9b35",
+      "twitter": "@neugens"
     }
   ]
 }
