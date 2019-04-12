@@ -974,6 +974,22 @@
         "27a9df1b0b29d676d6c2cd7c00880eb81d60b1d1",
         "36bd706bf1436fb7ecef25ec7e00051bdcce12d3"
       ]
+    },
+    {
+      "id": "5caa632138da161235721c46",
+      "title": "OpenJDK: The future of Java",
+      "abstract": "OpenJDK is a healthy and prosperous project that is, since at least Java 7, the reference implementation for the Java Platform.\nThere is a large and substantial participation from the Community contributing features, ideas and governance: from satellite members like AdoptOpenJDK that provide invaluable testing infrastructure at an extremely low entry barrier, to companies like Red Hat, Azul, Google and SAP, IBM and others that contribute various fixes and features.  Some of those contributions have long reaching goals such as continued long-term maintenance, enhancements on language features like Project Valhalla and the value types support, and more.  Others have significant immediate effects on the runtime, like Shenandoah and Epsilon GC, the PPC64/S390 ports and the Native Memory Tracker.  In this presentation we will delve into the various features that are added by the Community of developers working on the Java platform, and we will introduce some ideas that while not yet part of any core project are being researched with the help of the OpenJDK Community, like Check Point Restore support. Finally we will discuss the Governance and the process to become an active contributor to move Java forward and share its future.",
+      "type": "talk",
+      "tags": [
+        "JVM langs",
+        "Cloud",
+        "design",
+        "Microservices"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "55fa365305bcd20ac6221f7f3123d50516ee9b35"
+      ]
     }
   ]
 }
