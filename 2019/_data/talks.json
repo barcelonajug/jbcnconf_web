@@ -990,6 +990,21 @@
       "speakers": [
         "55fa365305bcd20ac6221f7f3123d50516ee9b35"
       ]
+    },
+    {
+      "id": "5caa61e838da161235721c44",
+      "title": "Hands-on-lab: Hands-on With Serverless Java",
+      "abstract": "Serverless computing is a powerful build and execution modern cloud model, but it is a bit of a misleading name. There are certainly servers, but as an application developer you rely on the cloud provider to manage that infrastructure for you. You may have also heard of this model as \"functions as a service\".\n \n In this session, we will start with a short introduction to Serverless, what it means to Java developers, and why it's important to understand this technology. Pratik will also give us a survey of Serverless options on the Java ecosystem to give you an idea of what is currently available.\n \n And of course, we'll dive in with some coding! We'll write a serverless Java application and do a local and cloud deployment.",
+      "type": "workshop",
+      "tags": [
+        "Java",
+        "Serverless",
+        "Cloud"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "5c8cf21786cae4a337b4c305fe244359243ded67"
+      ]
     }
   ]
 }
