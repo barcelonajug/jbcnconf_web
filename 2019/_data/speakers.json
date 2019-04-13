@@ -819,6 +819,19 @@
       "ref": "55fa365305bcd20ac6221f7f3123d50516ee9b35",
       "url": "infoSpeaker.html?ref=55fa365305bcd20ac6221f7f3123d50516ee9b35",
       "twitter": "@neugens"
+    },
+    {
+      "enabled": "1",
+      "name": "Pratik Patel",
+      "company": "IBM",
+      "description": "Developer advocate at IBM",
+      "biography": "Pratik Patel is a developer advocate at IBM. He wrote the first book on 'enterprise Java' in 1996, \"Java Database Programming with JDBC.\" He has also spoken at various conferences and participates in several local tech groups and startup groups. He hacks Java, iOS, Android, HTML5, CSS3, JavaScript, Clojure, Rails, and ..... well everything except Perl.",
+      "image": "assets/img/speakers/pratik-patel.png",
+      "ref": "5c8cf21786cae4a337b4c305fe244359243ded67",
+      "url": "infoSpeaker.html?ref=5c8cf21786cae4a337b4c305fe244359243ded67",
+      "homepage": "http://mypatelspace.com",
+      "twitter": "@prpatel",
+      "linkedin": "https://www.linkedin.com/in/prpatel/"
     }
   ]
 }
