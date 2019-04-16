@@ -189,6 +189,22 @@
         "src": "/assets/img/sponsors/marfeel.png",
         "alt": "Marfeel"
       }
+    },
+    {
+      "name": "altran",
+      "href": "https://www.altran.com",
+      "image": {
+        "src": "/assets/img/sponsors/altran-logo.jpg",
+        "alt": "altran"
+      }
+    },
+    {
+      "name": "JetBrains",
+      "href": "https://www.jetbrains.com",
+      "image": {
+        "src": "/assets/img/sponsors/jetbrains.png",
+        "alt": "JetBrains"
+      }
     }
   ],
   "supporters": [
