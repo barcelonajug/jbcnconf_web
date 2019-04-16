@@ -199,6 +199,14 @@
       }
     },
     {
+      "name": "ABA English",
+      "href": "https://www.abaenglish.com/",
+      "image": {
+        "src": "/assets/img/sponsors/aba_english.png",
+        "alt": "ABA English"
+      }
+    },
+    {
       "name": "JetBrains",
       "href": "https://www.jetbrains.com",
       "image": {
