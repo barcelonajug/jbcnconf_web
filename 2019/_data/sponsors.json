@@ -129,6 +129,14 @@
         "src": "/assets/img/sponsors/jelurida.png",
         "alt": "Jelurida"
       }
+    },
+    {
+      "name": "Accenture Technology",
+      "href": "https://www.accenture.com/es-es/Careers/experienced-hires",
+      "image": {
+        "src": "/assets/img/sponsors/accenture-logo.png",
+        "alt": "Accenture Technology"
+      }
     }
   ],
   "galaxy-basic": [
