@@ -1005,6 +1005,21 @@
       "speakers": [
         "5c8cf21786cae4a337b4c305fe244359243ded67"
       ]
+    },
+    {
+      "id": "5caa658938da161235721c48",
+      "title": " Undercover Kotlin: Using Kotlin without tipping your hand",
+      "abstract": "One of the many hazards of trying out a new language is the lack of interoperability. A new language often presents the added burden of learning a whole new ecosystem. The designers of Kotlin took special care to make sure Kotlin suffered from this as little as possible. Generally speaking, much of the code written in Kotlin can be consumed from Java programs in complete ignorance. In some cases, we need to provide a little extra help. In this talk we’ll cover how to manage Kotlin/Java interop to make your Kotlin code as seamlessly usable from Java as possible.",
+      "type": "talk",
+      "tags": [
+        "java",
+        "kotlin",
+        "interoperability"
+      ],
+      "level": "middle",
+      "speakers": [
+        "a2438d6cd232ed739133c66038175d69d4a2e654"
+      ]
     }
   ]
 }
