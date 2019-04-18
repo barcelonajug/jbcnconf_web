@@ -1020,6 +1020,25 @@
       "speakers": [
         "a2438d6cd232ed739133c66038175d69d4a2e654"
       ]
+    },
+    {
+      "id": "5cb8340838da166e7a4e7057",
+      "title": "How to win the war against a PHP Legacy Monolith, battle by battle",
+      "abstract": "You are drowning in PHP Legacy code (like more than 950K LOC) which is completely coupled, using a deprecated version of an abandoned framework. Nobody wants to get near it, but the company as with all companies needs evolving. This is hard to do with PHP monolith but the show must go on!!!. What do you do?\nThis is the story of how a few ABA English brave developers fought against a big PHP monolith, moving into the microservices ecosystem with Java and Kubernetes. They started learning and applying craftsmanship practices while using a clean architecture and getting into the microfrontend world (spoiler alert: they actually managed to kill the legacy code :wink: )",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "microservices",
+        "Kubernetes",
+        "devOps",
+        "refactor",
+        "legacy code"
+      ],
+      "level": "middle",
+      "speakers": [
+        "338c2b906bada5652f39ac6b7a8f1a3f5cca2287",
+        "450c67af219213aa11e69adee286b0c9addd9493"
+      ]
     }
   ]
 }

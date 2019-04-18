@@ -844,6 +844,32 @@
       "homepage": "https://www.antwerkz.com",
       "twitter": "@evanchooly",
       "linkedin": "https://www.linkedin.com/in/justinlee/"
+    },
+    {
+      "enabled": "1",
+      "name": "Albert Roig ",
+      "company": "ABA English",
+      "description": "CTO at ABA English",
+      "biography": "I started working 17 years ago as a Java developer creating prototypes with EWE Virtual Machine for PDA. My passion for team sports such as waterpolo probably drove my natural skill for creating excellent teamwork environments with strong team spirit.  \n\nFor the past ten years, I’ve lead and built developer teams in many different industries - Gaming, Incubators, Healthcare, Education - and in very diverse contexts and types of companies, from small startups to large corporations. \n\nSoftware development is highly creative work, as I see it. To facilitate success and creativity when developing, I believe teams need to work in the best possible atmosphere. \n\nNowadays, our ABA English teams are empowered to drive our technology forward with distributed services in Java microservices, using Kubernetes and DevOps culture.\n\nI am a follower of Lean methodology, Agile, DevOps and Craftsmanship. My philosophy: never stop learning and immediately apply the learning, whenever possible.\n\n",
+      "image": "assets/img/speakers/albert-roig.jpg",
+      "ref": "338c2b906bada5652f39ac6b7a8f1a3f5cca2287",
+      "url": "infoSpeaker.html?ref=338c2b906bada5652f39ac6b7a8f1a3f5cca2287",
+      "homepage": "http://www.aroig.com",
+      "twitter": "@roig_albert",
+      "linkedin": "https://www.linkedin.com/in/albertroig/"
+    },
+    {
+      "enabled": "1",
+      "name": "Tomás Casquero ",
+      "company": "ABA English",
+      "description": "Javascript Architect",
+      "biography": "I have been working in the application development world for more than 16 years. More than any big project, when I look back, what makes me more proud is what people who I have mentored have become. I am a big advocate (and a fan) of pair programming. Add other practices of extreme programming and agile methodologies to the mix, and you got yourself a recipe for success. If you also have the right team with the right mindset, there is no limit to how far you can go. I have worked in leading companies in the sector such as Siemens, Edreams, MRW, Cirsa and ABA English, among others. You will mainly find me helping companies build the applications they need as a Javascript Tech Lead.\n\n",
+      "image": "assets/img/speakers/tomas-casquero.jpeg",
+      "ref": "450c67af219213aa11e69adee286b0c9addd9493",
+      "url": "infoSpeaker.html?ref=450c67af219213aa11e69adee286b0c9addd9493",
+      "homepage": "https://www.linkedin.com/in/tomascasquero/",
+      "twitter": "@tomcask",
+      "linkedin": "https://www.linkedin.com/in/tomascasquero/"
     }
   ]
 }
