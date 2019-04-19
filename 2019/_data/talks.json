@@ -888,7 +888,7 @@
         "ESB",
         "API Management"
       ],
-      "level": "advanced",
+      "level": "middle",
       "speakers": [
         "105687f25615197c08e426d7035ba0fc5847b6ca",
         "5d23dd362b4bb5d1fd74cdcecdcd9278ed5b98e5"
@@ -1039,6 +1039,22 @@
         "338c2b906bada5652f39ac6b7a8f1a3f5cca2287",
         "450c67af219213aa11e69adee286b0c9addd9493"
       ]
-    }
+    },
+    {
+      "id": "5caa65c638da161235721c4b",
+      "title": "Memory footprint of a Java process",
+      "abstract": "Does JVM option '-Xmx4g' mean that the process will consume up to 4 GB RAM? Certainly not. What else can take virtual memory and how much of it? The question becomes especially important when running Java in a shared environment or in a container with limited resources. Excessive memory consumption may occur everywhere: from the application code and the libraries to the Java virtual machine and the operating system. While Java memory leaks are usually easy to discover from a heap dump, native memory leaks can be quite confusing. During this session we will discuss what structures contribute to the JVM footprint. We will study the real cases of native memory leaks and explore the tools useful in memory allocation analysis.",
+      "type": "talk",
+      "tags": [
+        "JVM internals",
+        "Virtual memory",
+        "Profiling",
+        "Memory leaks"
+      ],
+      "level": "advanced",
+      "speakers": [
+        "7a45fa2c21b19721801a08b478d6cc50dcf02518"
+      ]
+    }    
   ]
 }
