@@ -829,7 +829,7 @@
       "image": "assets/img/speakers/pratik-patel.png",
       "ref": "5c8cf21786cae4a337b4c305fe244359243ded67",
       "url": "infoSpeaker.html?ref=5c8cf21786cae4a337b4c305fe244359243ded67",
-      "homepage": "http://mypatelspace.com",
+      "homepage": "https://prpatel.dev",
       "twitter": "@prpatel",
       "linkedin": "https://www.linkedin.com/in/prpatel/"
     },{
@@ -870,6 +870,19 @@
       "homepage": "https://www.linkedin.com/in/tomascasquero/",
       "twitter": "@tomcask",
       "linkedin": "https://www.linkedin.com/in/tomascasquero/"
-    }
+    },
+    {
+      "enabled": "1",
+      "name": "Andrei Pangin",
+      "company": "Odnoklassniki",
+      "description": "Principal engineer at Odnoklassniki",
+      "biography": "Andrei Pangin is the principal engineer at Odnoklassniki social network. His specialization is high performance Java servers. Andrei previously worked on HotSpot JVM, which became his favorite topic and area of expertise. Andrei is also known as top #JVM answerer on Stack Overflow and the author of Async-profiler.",
+      "image": "assets/img/speakers/andrei-pangin.jpg",
+      "ref": "7a45fa2c21b19721801a08b478d6cc50dcf02518",
+      "url": "infoSpeaker.html?ref=7a45fa2c21b19721801a08b478d6cc50dcf02518",
+      "homepage": "https://pangin.pro",
+      "twitter": "@AndreiPangin",
+      "linkedin": "https://www.linkedin.com/in/andrei-pangin-65808532"
+    }    
   ]
 }
