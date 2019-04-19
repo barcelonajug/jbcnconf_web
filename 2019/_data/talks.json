@@ -888,7 +888,7 @@
         "ESB",
         "API Management"
       ],
-      "level": "advanced",
+      "level": "middle",
       "speakers": [
         "105687f25615197c08e426d7035ba0fc5847b6ca",
         "5d23dd362b4bb5d1fd74cdcecdcd9278ed5b98e5"
@@ -1005,6 +1005,56 @@
       "speakers": [
         "5c8cf21786cae4a337b4c305fe244359243ded67"
       ]
-    }
+    },
+    {
+      "id": "5caa658938da161235721c48",
+      "title": " Undercover Kotlin: Using Kotlin without tipping your hand",
+      "abstract": "One of the many hazards of trying out a new language is the lack of interoperability. A new language often presents the added burden of learning a whole new ecosystem. The designers of Kotlin took special care to make sure Kotlin suffered from this as little as possible. Generally speaking, much of the code written in Kotlin can be consumed from Java programs in complete ignorance. In some cases, we need to provide a little extra help. In this talk we’ll cover how to manage Kotlin/Java interop to make your Kotlin code as seamlessly usable from Java as possible.",
+      "type": "talk",
+      "tags": [
+        "java",
+        "kotlin",
+        "interoperability"
+      ],
+      "level": "middle",
+      "speakers": [
+        "a2438d6cd232ed739133c66038175d69d4a2e654"
+      ]
+    },
+    {
+      "id": "5cb8340838da166e7a4e7057",
+      "title": "How to win the war against a PHP Legacy Monolith, battle by battle",
+      "abstract": "You are drowning in PHP Legacy code (like more than 950K LOC) which is completely coupled, using a deprecated version of an abandoned framework. Nobody wants to get near it, but the company as with all companies needs evolving. This is hard to do with PHP monolith but the show must go on!!!. What do you do?\nThis is the story of how a few ABA English brave developers fought against a big PHP monolith, moving into the microservices ecosystem with Java and Kubernetes. They started learning and applying craftsmanship practices while using a clean architecture and getting into the microfrontend world (spoiler alert: they actually managed to kill the legacy code :wink: )",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "microservices",
+        "Kubernetes",
+        "devOps",
+        "refactor",
+        "legacy code"
+      ],
+      "level": "middle",
+      "speakers": [
+        "338c2b906bada5652f39ac6b7a8f1a3f5cca2287",
+        "450c67af219213aa11e69adee286b0c9addd9493"
+      ]
+    },
+    {
+      "id": "5caa65c638da161235721c4b",
+      "title": "Memory footprint of a Java process",
+      "abstract": "Does JVM option '-Xmx4g' mean that the process will consume up to 4 GB RAM? Certainly not. What else can take virtual memory and how much of it? The question becomes especially important when running Java in a shared environment or in a container with limited resources. Excessive memory consumption may occur everywhere: from the application code and the libraries to the Java virtual machine and the operating system. While Java memory leaks are usually easy to discover from a heap dump, native memory leaks can be quite confusing. During this session we will discuss what structures contribute to the JVM footprint. We will study the real cases of native memory leaks and explore the tools useful in memory allocation analysis.",
+      "type": "talk",
+      "tags": [
+        "JVM internals",
+        "Virtual memory",
+        "Profiling",
+        "Memory leaks"
+      ],
+      "level": "advanced",
+      "speakers": [
+        "7a45fa2c21b19721801a08b478d6cc50dcf02518"
+      ]
+    }    
   ]
 }
