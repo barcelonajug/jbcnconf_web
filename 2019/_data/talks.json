@@ -1055,6 +1055,28 @@
       "speakers": [
         "7a45fa2c21b19721801a08b478d6cc50dcf02518"
       ]
-    }    
+    },
+    {
+      "id": "5caa5b3038da161235721c43",
+      "title": "GraalVM - The polyglot virtual machine for all your programs",
+      "abstract": "This talk is about GraalVM, the revolutionary, brand new open source virtual machine that is capable not only of replacing the JVM for Java, Scala or Groovy, but also to run other languages as Ruby, Python, JavaScript/Node, R or C.\nWe will show the main characteristics of GraalVM through practical use cases, including: the Graal compiler, interoperability, native images, profiling, debugging and much more.\n\"One VM to compile them all, and in bytecodes, run them.\" - Jauron, the Lord of the Code",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Graal",
+        "GraalVM",
+        "Ruby",
+        "Python",
+        "R",
+        "Node",
+        "JavaScript",
+        "C",
+        "LLVM"
+      ],
+      "level": "middle",
+      "speakers": [
+        "cd7ae0a837dc938d77c5a4b792b36a02f70eb62f"
+      ]
+    }
   ]
 }
