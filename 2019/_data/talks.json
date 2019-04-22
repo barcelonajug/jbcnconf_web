@@ -1077,6 +1077,27 @@
       "speakers": [
         "cd7ae0a837dc938d77c5a4b792b36a02f70eb62f"
       ]
-    }
+    },
+    {
+      "id": "5c94094e38da165dcdf15ffe",
+      "title": "Slicing Monolith into a CQRS / Event sourcing microservice: joys and pains",
+      "abstract": "Yeah, we are another company that started with a Monolith, we are not neither the first nor the last ones. Buy when a new project came up with fragile integrations and money involved, a more resilient solution was required.\nThis is the story of the great moments, pains, joys, cries but finally success of going live with an event sourced based solution following the DDD principles, Axon, Spring and Kotlin while struggling to coexist with our monolith. \nIt's our humble effort to share our experience and the results we got using this approach.\n",
+      "type": "talk",
+      "tags": [
+        "Kotlin",
+        "CQRS",
+        "Event Sourcing",
+        "DDD",
+        "Event driven",
+        "Monolith",
+        "Microservices",
+        "Testing"
+      ],
+      "level": "middle",
+      "speakers": [
+        "6343c3598d8dde1eb2c630b53110513eceeab1e5",
+        "e016c06049d4c5a829ee4e26db53623c7bf2ccc2"
+      ]
+    }    
   ]
 }
