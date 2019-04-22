@@ -883,6 +883,44 @@
       "homepage": "https://pangin.pro",
       "twitter": "@AndreiPangin",
       "linkedin": "https://www.linkedin.com/in/andrei-pangin-65808532"
+    },
+    {
+      "enabled": "1",
+      "name": "Jorge Hidalgo",
+      "company": "Accenture",
+      "description": "Global Java Community of Practice Lead in Accenture, MalagaJUG co-leader",
+      "biography": "Jorge is the Global Java Community of Practice Lead in Accenture, and the Custom Software Engineering, Architecture and DevOps Lead in Accenture's Spain Advanced Technology Center. In these roles, he drives custom engineering agenda - including Java, JavaScript, C/C++ and dynamic/functional languages - leveraging open source products and tools, lightweight architectures, microservices, containerization, and Agile and DevOps practices.",
+      "image": "assets/img/speakers/jorge-hidalgo.jpg",
+      "ref": "cd7ae0a837dc938d77c5a4b792b36a02f70eb62f",
+      "url": "infoSpeaker.html?ref=cd7ae0a837dc938d77c5a4b792b36a02f70eb62f",
+      "homepage": "https://deors.wordpress.com",
+      "twitter": "@deors314"
+    },
+    {
+      "enabled": "1",
+      "name": "Gerard Llorente",
+      "company": "Wallapop",
+      "description": "Software engineer Wallapop",
+      "biography": "Gerard is a Software Engineer at the Barcelona based company Wallapop. Currently working as a Java/Kotlin backend engineer in high traffic systems and real time services he also had programmed iOS clients in Objective-C and Swift, so he always tried to understand all the parts involved in a project.  Passionate about motorbikes and traveling far far away.",
+      "image": "assets/img/speakers/gerard-llorente.jpg",
+      "ref": "6343c3598d8dde1eb2c630b53110513eceeab1e5",
+      "url": "infoSpeaker.html?ref=6343c3598d8dde1eb2c630b53110513eceeab1e5",
+      "homepage": "",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/gerardllorente/"
+    },
+    {
+      "enabled": "1",
+      "name": "Juan Luis Ozáez",
+      "company": "Wallapop",
+      "description": "Backend engineer at Wallapop",
+      "biography": "Juan Luis is an experienced backend engineer working for Wallapop. He’s been working on multiple JVM based projects and has an extended experience in building Microservices. He started his career on Data Mining, worked on Angular based projects as Front End developer and enjoys participating in his teams as Scrum facilitator from time to time. Zen meditator in his free time, yoga and padel are also his passions apart from software.",
+      "image": "assets/img/speakers/juan-ozaez.jpg",
+      "ref": "e016c06049d4c5a829ee4e26db53623c7bf2ccc2",
+      "url": "infoSpeaker.html?ref=e016c06049d4c5a829ee4e26db53623c7bf2ccc2",
+      "homepage": "",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/jozaez/"
     }    
   ]
 }
