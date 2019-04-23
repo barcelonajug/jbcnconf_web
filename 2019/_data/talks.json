@@ -753,9 +753,18 @@
       "title": "Flow in Software Design, Practices, and Processes",
       "abstract": "\"Flow\" is Lean terminology but also a psychological state. Flow allows us to achieve value and happiness through our work. How we, design/deploy software and use development practices/processes has a major impact on \"flow\" in both meaning of this word. I will describe some properties in software design and process that are essential to maintaining flow, if you don't have them in your current work then you must strive towards them.",
       "type": "talk",
-      "tags": ["XP", "DevOps", "Software Design", "Architecture", "Agile", "Lean"],
+      "tags": [
+        "XP",
+        "DevOps",
+        "Software Design",
+        "Architecture",
+        "Agile",
+        "Lean"
+      ],
       "level": "middle",
-      "speakers": ["a9fa078a7b8408c731c79c0060b9956373bfb5f6"]
+      "speakers": [
+        "a9fa078a7b8408c731c79c0060b9956373bfb5f6"
+      ]
     },
     {
       "id": "5c9409c138da165dcdf16001",
@@ -1098,6 +1107,22 @@
         "6343c3598d8dde1eb2c630b53110513eceeab1e5",
         "e016c06049d4c5a829ee4e26db53623c7bf2ccc2"
       ]
-    }    
+    },
+    {
+      "id": "5cbe17ee38da165ac54cf421",
+      "title": "Harry Socket and the Prisonner of Ack-aban, an intro to RSocket",
+      "abstract": "In this session, we’ll introduce a new protocol called RSocket, which furthers the ideas behind Reactor and reactive programming on the JVM (Reactive Streams) and make them work across the boundaries of the network.\n\nMultiple semantics, application-level backpressure, load awareness, session resumption… This new kid packs a punch!\n\nThis session will be a lighthearted introduction to this very capable protocol.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Reactive Programming",
+        "RSocket",
+        "protocols"
+      ],
+      "level": "middle",
+      "speakers": [
+        "ae5106226e9b9b505812aa0b2cdd5809329c9c24"
+      ]
+    }
   ]
 }
