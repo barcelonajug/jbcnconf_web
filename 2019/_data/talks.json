@@ -1123,6 +1123,23 @@
       "speakers": [
         "ae5106226e9b9b505812aa0b2cdd5809329c9c24"
       ]
+    },
+    {
+      "id": "5cbe17e438da165ac54cf420",
+      "title": "Launching the Micro Future: Micronaut with GraalVM in Practice",
+      "abstract": "Micronaut is a modern, JVM-based full-stack framework for building modular, easily testable microservice and serverless applications. Developed by the creators of the Grails framework and with the support of many Spring developers, who have used their experience in these areas to develop a framework specifically focused on microservices.\n\nUnlike other frameworks, Micronaut does not analyze fields, methods and constructors at runtime by reflection, but already at compilation time, so that the start time and memory consumption of an application no longer depends on its size. Micronaut supports the declarative build of reactive HTTP clients that are implemented at compile time, further reducing memory consumption. Additional features such as non-blocking HTTP servers, easy execution of component tests with automatically started and managed test instances, dependency injection at compile time and the cloud-native approach can be implemented in a wondrously simple way.\n\nWith its relatively flat learning curve, Micronaut makes it as easy as possible to provide RESTful services. Of course, as usual today, also for distributed environments with integrated support of repeats in case of failure, circuit breakers and fallbacks for robust applications.\n\nOracle's newly developed GraalVM will change our view of microservices and cloud capabilities in the Java ecosystem and enable us to compete with native compilations. When Micronaut and GraalVM come together, both architectures can take full advantage of each other, resulting in amazingly efficient applications.\n\nIn my presentation I will give a rough overview and a short introduction to Micronaut on the GraalVM and show during a live coding session how to develop real microservices efficiently in a very short time.",
+      "type": "talk",
+      "tags": [
+        "Micronaut",
+        "GraalVM",
+        "Microservice",
+        "Java",
+        "Kotlin"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "034100c2dca6f7a15d06273390c11c6aa73949d3"
+      ]
     }
   ]
 }

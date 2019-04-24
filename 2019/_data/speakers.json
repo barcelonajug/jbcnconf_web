@@ -937,6 +937,19 @@
       "homepage": "",
       "twitter": "@simonbasle",
       "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Marcus Fihlon",
+      "company": "CSS",
+      "description": "Agile Coach at CSS Insurance",
+      "biography": "For over 30 years I have been developing software, the last 20+ years in the Java ecosystem and since some time preferably with Kotlin. I am also interested in agile methodologies and currently work as an Agile Coach at CSS Insurance in Switzerland.\n\nSince a few years I am member of the board of the Java User Group Switzerland and the Kotlin Swiss User Group and responsible for the organization and execution of lectures in Central Switzerland. In addition, I organise the monthly Hackergarten in Lucerne and am involved in the programme committee of BaselOne and Voxxed Days Zurich.\n\nI also enjoy attending many conferences around the world, sharing my knowledge with interested participants through lectures and workshops, learning new things and discussing all kinds of interesting topics. From time to time I publish an article in a professional journal and at the moment I am writing my first book about web development and Kotlin.\n\nAs if that weren’t enough, I’m also a lecturer at the TEKO Swiss Technical College. There I teach web engineering to students and supervise diploma theses.\n\nIn my spare time I am an enthusiastic cyclist and like not only short trips but also long journeys. Very long journeys. Even several thousand kilometres…",
+      "image": "assets/img/speakers/marcus-fihlon.jpg",
+      "ref": "034100c2dca6f7a15d06273390c11c6aa73949d3",
+      "url": "infoSpeaker.html?ref=034100c2dca6f7a15d06273390c11c6aa73949d3",
+      "homepage": "https://www.fihlon.swiss/",
+      "twitter": "@McPringle",
+      "linkedin": "https://www.linkedin.com/in/fihlon/"
     }
   ]
 }
