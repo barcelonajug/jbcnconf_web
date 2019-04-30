@@ -25,13 +25,23 @@
 
 </div>
 
-
 <div class="row schedule-row">
     <div class="{{scheduleLeftWidth}}">
         09:40 - 10:30
     </div>
 
     {% assign rowHour = 'SE1' %}
+    {% include schedule/schedule-single-track-row.html %}
+
+</div>
+
+
+<div class="row schedule-row">
+    <div class="{{scheduleLeftWidth}}">
+        09:40 - 10:30
+    </div>
+
+    {% assign rowHour = 'SE2' %}
     {% include schedule/schedule-single-track-row.html %}
 
 </div>
@@ -51,7 +61,7 @@
         11:10 - 12:00
     </div>
 
-    {% assign rowHour = 'SE2' %}
+    {% assign rowHour = 'SE3' %}
     {% include schedule/schedule-multitrack-row.html %}
 
 </div>
@@ -62,7 +72,7 @@
         12:10 - 13:00
     </div>
 
-    {% assign rowHour = 'SE3' %}
+    {% assign rowHour = 'SE4' %}
     {% include schedule/schedule-multitrack-row.html %}
 
 </div>
@@ -82,7 +92,7 @@
         14:30 - 15:20
     </div>
 
-    {% assign rowHour = 'SE4' %}
+    {% assign rowHour = 'SE5' %}
     {% include schedule/schedule-multitrack-row.html %}
 
 </div>
@@ -92,7 +102,7 @@
         15:35 - 16:25
     </div>
 
-    {% assign rowHour = 'SE5' %}
+    {% assign rowHour = 'SE6' %}
     {% include schedule/schedule-multitrack-row.html %}
 
 </div>
@@ -113,7 +123,7 @@
         17:05 - 17:55
     </div>
 
-    {% assign rowHour = 'SE6' %}
+    {% assign rowHour = 'SE7' %}
     {% include schedule/schedule-multitrack-row.html %}
 
 </div>
@@ -123,7 +133,7 @@
         18:00 - 19:00
     </div>
 
-    {% assign rowHour = 'SE7' %}
+    {% assign rowHour = 'SE8' %}
     {% include schedule/schedule-multitrack-row.html %}
 
 </div>

@@ -16,7 +16,7 @@
       "speakers": [
         "16fd0826550372e61a8c17d3acdf30d0871de728"
       ],
-      "scheduleId":"#MON-TC1-SE5"
+      "scheduleId":"#MON-TC1-SE6"
     },
     {
       "id": "5c19651d38da16778cb20fc6",
@@ -52,7 +52,7 @@
       "speakers": [
         "3803f8e428feb905178afd9025cfc53fb47a8abc"
       ],
-      "scheduleId":"#MON-TC1-SE3"
+      "scheduleId":"#MON-TC1-SE4"
     },
     {
       "id": "5c196e0238da165f64820b2a",
@@ -85,7 +85,7 @@
       "speakers": [
         "dcf4d5f83bc2dab51fb90922055352668da14a18"
       ],
-      "scheduleId":"#MON-TC2-SE4"
+      "scheduleId":"#MON-TC2-SE5"
     },
     {
       "id": "5c196e2c38da165f64820b2c",
@@ -117,7 +117,7 @@
       "speakers": [
         "d43c4a28c6222750fcef9b5b50013ea8ed897d19"
       ],
-      "scheduleId":"#MON-TC2-SE2"
+      "scheduleId":"#MON-TC2-SE3"
     },
     {
       "id": "5c1bbfa338da160e621b7a80",
@@ -163,7 +163,7 @@
       ],
       "title": "Me, My Code and I",
       "type": "talk",
-      "scheduleId":"#MON-TC4-SE7"
+      "scheduleId":"#MON-TC4-SE8"
     },
     {
       "id": "5c36675b38da16698cf41ade",
@@ -219,7 +219,7 @@
       "speakers": [
         "1910f00e3b6a8220979782a1355b8570de1beca0"
       ],
-      "scheduleId":"#MON-TC1-SE6"
+      "scheduleId":"#MON-TC1-SE7"
     },
     {
       "id": "5c44693a9034ae38180b14b2",
@@ -237,7 +237,7 @@
         "e4dbc8f86240f1f78408c1e967137aa5d8824024",
         "ce11badd5e660b5bf2b2025e167a91c302c937d5"
       ],
-      "scheduleId":"#MON-TC3-SE7"
+      "scheduleId":"#MON-TC3-SE8"
     },
     {
       "id": "5c3e5e7f38da16698cf41b29",
@@ -274,7 +274,7 @@
       "speakers": [
         "ab822b577be6a2418593327d0530f2e48da634a4"
       ],
-      "scheduleId":"#MON-TC3-SE5"
+      "scheduleId":"#MON-TC3-SE6"
     },
     {
       "id": "5c48ec849034ae38180b14de",
@@ -289,7 +289,7 @@
       "speakers": [
         "d2c05e60af702984122c68c8a46fc574fba6f726"
       ],
-      "scheduleId":"#MON-TC1-SE2"
+      "scheduleId":"#MON-TC1-SE3"
     },
     {
       "abstract": "Amazon Corretto is a no-cost, multiplatform, production-ready distribution of the OpenJDK. Corretto comes with long-term support that will include performance enhancements and security fixes. Amazon runs Corretto internally on thousands of production services and Corretto is certified as compatible with the Java SE standard. With Corretto, you can develop and run Java applications on popular operating systems, including Amazon Linux 2, Windows, and macOS. This talk will explain on why Amazon Corretto was created. Upstream compatibility to OpenJDK is a core tenet of Corretto. Attendees will learn how an upstream OpenJDK build is published as Corretto. You’ll learn how to get started with Corretto and collaborate in open source.",
@@ -304,7 +304,7 @@
       ],
       "title": "Amazon Corretto",
       "type": "talk",
-      "scheduleId":"#MON-TC2-SE3"      
+      "scheduleId":"#MON-TC2-SE4"      
     },
     {
       "id": "5c36683738da16698cf41adf",
@@ -320,7 +320,7 @@
       "speakers": [
         "459fc7466dfa9163817d35cc884ca96e154c2420"
       ],
-      "scheduleId":"#MON-TC3-SE4"
+      "scheduleId":"#MON-TC3-SE5"
     },
     {
       "id": "5c48ec969034ae38180b14df",
@@ -367,7 +367,7 @@
         "5d1b321ccc69de748beba885f56dec92485f328a",
         "4933804ca1248303098eaa459ba614f4bbbbada1"
       ],
-      "scheduleId":"#MON-TC4-SE4"
+      "scheduleId":"#MON-TC4-SE5"
     },
     {
       "id": "5c3b3b1938da16698cf41b09",
@@ -402,7 +402,7 @@
       "speakers": [
         "2e93061543cde6bde464afd77e37198f67675a4f"
       ],
-      "scheduleId":"#MON-TC3-SE2"
+      "scheduleId":"#MON-TC3-SE3"
     },
     {
       "id": "5c48ed639034ae38180b14e1",
@@ -417,7 +417,7 @@
       "speakers": [
         "40afe10a3ea9ec161d15ade201a0101fa8f635f4"
       ],
-      "scheduleId":"#MON-TC4-SE2"
+      "scheduleId":"#MON-TC4-SE3"
     },
     {
       "id": "5c48ed3b9034ae38180b14e0",
@@ -450,7 +450,7 @@
       "speakers": [
         "a744f52d967ebb543100a1215f9fe38080a664f0"
       ],
-      "scheduleId":"#MON-TC2-SE5"
+      "scheduleId":"#MON-TC2-SE6"
     },
     {
       "id": "5c5225d49034ae38180b151d",
@@ -484,7 +484,7 @@
       "speakers": [
         "4933ebef38f82b62da601eb07e8362bb389cc560"
       ],
-      "scheduleId":"#MON-TC5-SE6"
+      "scheduleId":"#MON-TC5-SE7"
     },
     {
       "id": "5c52261c9034ae38180b1520",
@@ -515,7 +515,7 @@
       "speakers": [
         "388f6f9ee4eb169ce6d936f7ce3952f6aadd211f"
       ],
-      "scheduleId":"#MON-TC4-SE3"
+      "scheduleId":"#MON-TC4-SE4"
     },
     {
       "id": "5c5b575a38da160d5d9c8e0f",
@@ -532,7 +532,7 @@
       "speakers": [
         "6c31223d3be1de9ea66a96974ec4f524cd6a786f"
       ],
-      "scheduleId":"#MON-TC2-SE6"
+      "scheduleId":"#MON-TC2-SE7"
     },
     {
       "id": "5c5225f49034ae38180b151f",
@@ -592,7 +592,7 @@
         "ea8cef2c8d8bc8f303ad8e7436c5be94f6dafcd2",
         "c9f19a5a2dbbfed36664ef31c4ee86c0dfbbe388"
       ],
-      "scheduleId":"#MON-TC1-SE4"
+      "scheduleId":"#MON-TC1-SE5"
     },
     {
       "id": "5c5b580038da160d5d9c8e13",
@@ -625,7 +625,7 @@
       "speakers": [
         "1126c74440db86e536e583215673f4a4931b1049"
       ],
-      "scheduleId":"#MON-TC5-SE5"
+      "scheduleId":"#MON-TC5-SE6"
     },
     {
       "id": "5c64984138da16483151bb38",
@@ -659,7 +659,7 @@
         "a925c7b2692519ec35f1a5c0765d0c07249bf530",
         "efc78140677c0c1d0940f83acd9ea58165a82701"
       ],
-      "scheduleId":"#MON-TC4-SE5"
+      "scheduleId":"#MON-TC4-SE6"
     },
     {
       "id": "5c6498b438da16483151bb3a",
@@ -760,7 +760,7 @@
       "speakers": [
         "415f956d463d815e32e0fd2c3bca6422b9babe4e"
       ],
-      "scheduleId":"#MON-TC1-SE7"
+      "scheduleId":"#MON-TC1-SE8"
     },
     {
       "id": "5c7714b538da167fbce02ceb",
@@ -776,7 +776,7 @@
       "speakers": [
         "c93a48ea7c1d8a91f60be490b32b9357f77d8212"
       ],
-      "scheduleId":"#MON-TC5-SE2"
+      "scheduleId":"#MON-TC5-SE3"
     },
     {
       "id": "5c7e19e738da16574c349f02",
@@ -812,7 +812,7 @@
       "speakers": [
         "a9fa078a7b8408c731c79c0060b9956373bfb5f6"
       ],
-      "scheduleId":"#MON-TC3-SE3"
+      "scheduleId":"#MON-TC3-SE4"
     },
     {
       "id": "5c9409c138da165dcdf16001",
@@ -832,7 +832,7 @@
       "speakers": [
         "fe5af6cd06dbc35f328b74b9c870d914fcbb6a9c"
       ],
-      "scheduleId":"#MON-TC5-SE4"
+      "scheduleId":"#MON-TC5-SE5"
     },
     {
       "id": "5c94098138da165dcdf15fff",
@@ -884,7 +884,7 @@
       "speakers": [
         "27509a8795aeb61050e21551db71e2386721a968"
       ],
-      "scheduleId":"#MON-TC1-SE1"
+      "scheduleId":"#MON-TC1-SE2"
     },
     {
       "id": "5c9409a238da165dcdf16000",
@@ -903,7 +903,7 @@
       "speakers": [
         "b7717dd697709e684522aa7aad3e6f97534b030f"
       ],
-      "scheduleId":"#MON-TC3-SE6"
+      "scheduleId":"#MON-TC3-SE7"
     },
     {
       "id": "5c940a1438da165dcdf16003",
@@ -990,7 +990,7 @@
       "speakers": [
         "042bcb6c3a9fc6a76d300d96eb954ed04ec9847e"
       ],
-      "scheduleId":"#MON-TC5-SE3"
+      "scheduleId":"#MON-TC5-SE4"
     },
     {
       "id": "5c94091838da165dcdf15ffd",
@@ -1043,7 +1043,7 @@
         "27a9df1b0b29d676d6c2cd7c00880eb81d60b1d1",
         "36bd706bf1436fb7ecef25ec7e00051bdcce12d3"
       ],
-      "scheduleId":"#MON-TC2-SE7"
+      "scheduleId":"#MON-TC2-SE8"
     },
     {
       "id": "5caa632138da161235721c46",
@@ -1060,7 +1060,7 @@
       "speakers": [
         "55fa365305bcd20ac6221f7f3123d50516ee9b35"
       ],
-      "scheduleId":"#MON-TC4-SE6"
+      "scheduleId":"#MON-TC4-SE7"
     },
     {
       "id": "5caa61e838da161235721c44",
