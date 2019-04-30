@@ -25,7 +25,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 <div class="site-sub-content clearfix">
     <div class="container-fluid">
         <div class="row alternative-row">
-            <div class="col-lg-12 col-sm-12 col-xs-10">
+            <div class="col-lg-12 col-sm-12 col-xs-12">
                 <div class="category-post-list post-list single-list">
                     <article id="post-294"
                              class="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
@@ -40,12 +40,12 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                             </div>
 
                             <ul class="tabs">
-                                <li class="tab-link visible-monday" data-tab="visible-monday">Monday 11.06</li>
-                                <li class="tab-link visible-tuesday" data-tab="visible-tuesday">Tuesday 12.06</li>
-                                <li class="tab-link visible-wednesday" data-tab="visible-wednesday">Wednesday 13.06</li>
+                                <li class="tab-link visible-monday" data-tab="visible-monday">{{site.data.homepage.schedule_first_day}}</li>
+                                <li class="tab-link visible-tuesday" data-tab="visible-tuesday">{{site.data.homepage.schedule_second_day}}</li>
+                                <li class="tab-link visible-wednesday" data-tab="visible-wednesday">{{site.data.homepage.schedule_last_day}}</li>
                             </ul>
 
-                            {% assign scheduleLeftWidth = 'col-md-1 col-sm-1 col-xs-10' %}
+                            {% assign scheduleLeftWidth = 'col-md-2 col-sm-1 col-xs-12' %}
                             {% assign scheduleRightWidth = 'col-md-10 col-sm-10 col-xs-10' %}
 
                             {% include schedule/talks-list.html %}
@@ -56,20 +56,17 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                 {% assign scheduleDay = 'MON' %}
                                 {% include schedule/schedule-day-one.html %}
 
-
                             </div>
                             <div id="visible-tuesday" class="tab-content">
 
                                 {% assign scheduleDay = 'TUE' %}
                                 {% include schedule/schedule-day-two.html %}
 
-
                             </div>
                             <div id="visible-wednesday" class="tab-content">
 
                                 {% assign scheduleDay = 'WED' %}
                                 {% include schedule/schedule-day-three.html %}
-
 
                             </div>
 

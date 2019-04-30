@@ -63,5 +63,14 @@
   "schedule_first_day": "Monday 27.05",
   "schedule_second_day": "Tuesday 28.05",
   "schedule_last_day": "Wednesday 29.05",
-
+  "room1_talks": "Room 'native' (recorded)",
+  "room2_talks": "Room 'microservices' (recorded)",
+  "room3_talks": "Room 'lambda'",
+  "room4_talks": "Room 'optional'",
+  "room5_talks": "Room 'future'",
+  "room1_workshops": "Room 'native'",
+  "room2_workshops": "Room 'microservices'",
+  "room3_workshops": "Room 'lambda'",
+  "room4_workshops": "Room 'optional'",
+  "room5_workshops": "Room 'future'"
 }
