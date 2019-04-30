@@ -32,7 +32,7 @@
       "speakers": [
         "34e64a4d88094a0c4231d49cc0305d61d7b854ee"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#WED-TC1-SE1"
     },
     {
       "id": "5c196dd738da165f64820b29",
@@ -69,7 +69,7 @@
       "speakers": [
         "c5224c12852709f7ae60fa80d93f46fd2d64a5c4"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#WED-TC1-SE2"
     },
     {
       "id": "5c196e1138da165f64820b2b",
@@ -384,7 +384,7 @@
         "3b8f95a333469c079f0264b8b903184fe5082c05",
         "3803f8e428feb905178afd9025cfc53fb47a8abc"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#WED-TC2-SE2"
     },
     {
       "id": "5c3666d138da16698cf41adc",
@@ -434,7 +434,7 @@
       "speakers": [
         "8ba341ede35371519196bc6a3c2cd11e4789c34a"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#WED-TC5-SE1"
     },
     {
       "id": "5c5225df9034ae38180b151e",
@@ -500,7 +500,7 @@
       "speakers": [
         "1d54c30358e79434b07f96ddcb7dc19325134eeb"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#TUE-TC5-SE5"
     },
     {
       "id": "5c5b5b5138da160d5d9c8e14",
@@ -548,7 +548,7 @@
       "speakers": [
         "d89cefec93be3aba5a4a16347d38216b67606322"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#TUE-TC4-SE5"
     },
     {
       "id": "5c5b576538da160d5d9c8e10",
@@ -569,7 +569,7 @@
       "speakers": [
         "417a471e81a8522f2868a154c587bfd4484f1310"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#WED-TC2-SE1"
     },
     {
       "id": "5c69474938da1663aa5fc661",
@@ -609,7 +609,7 @@
       "speakers": [
         "ea89fe753dbd87eb417cd4bc34f5df5216b48d70"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#TUE-TC5-SE7"
     },
     {
       "id": "5c5b57e038da160d5d9c8e11",
@@ -677,7 +677,7 @@
         "20576670e696ba8ea562ba8275e300953e41675e",
         "71af056fedc23b5b4210ca138eb31f0852041361"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#WED-TC3-SE1"
     },
     {
       "id": "5c64983638da16483151bb37",
@@ -693,7 +693,7 @@
       "speakers": [
         "a71020196a6877a18aa38df8e51e12fc6807d6c7"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#TUE-TC2-SE7"
     },
     {
       "id": "5c728b1c38da16567538857a",
@@ -709,7 +709,7 @@
       "speakers": [
         "da0ad51569e9380e792e4cc5673578a58850fe60"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#TUE-TC1-SE1"
     },
     {
       "id": "5c728afd38da165675388579",
@@ -742,7 +742,7 @@
         "f35d1872137ef145c138baa293c92834f88a8560",
         "ff55294f8464ef742da59a126c35e25670d377dc"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#WED-TC3-SE2"
     },
     {
       "id": "5c64982e38da16483151bb36",
@@ -793,7 +793,7 @@
       "speakers": [
         "893a2efbfaeeb5ce34ced62745778f7a8b02c1b8"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#TUE-TC1-SE7"
     },
     {
       "id": "5c770f8438da167fbce02ce9",
@@ -850,7 +850,7 @@
       "speakers": [
         "3b41d2043c201d402e1a97965b11f7e304a381e6"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#TUE-TC5-SE6"
     },
     {
       "id": "5c9408bb38da165dcdf15ffb",
@@ -884,7 +884,7 @@
       "speakers": [
         "27509a8795aeb61050e21551db71e2386721a968"
       ],
-      "scheduleId":"#TUE-TC1-SE5"
+      "scheduleId":"#MON-TC1-SE1"
     },
     {
       "id": "5c9409a238da165dcdf16000",
@@ -918,7 +918,7 @@
       "speakers": [
         "dc47e12a60c10690bfbad90e0de30b0201d32a87"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#TUE-TC1-SE5"
     },
     {
       "id": "5c9409fa38da165dcdf16002",
@@ -937,7 +937,7 @@
         "466fc88529d33847e0ed302da0b2f091c6ce1e0d",
         "d32872131f45452e2aa9dab8edf5ea71ff1a870f"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#WED-TC5-SE2"
     },
     {
       "id": "5caa579738da161235721c42",
@@ -957,7 +957,7 @@
         "105687f25615197c08e426d7035ba0fc5847b6ca",
         "5d23dd362b4bb5d1fd74cdcecdcd9278ed5b98e5"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#TUE-TC4-SE6"
     },
     {
       "id": "5caa633138da161235721c47",
@@ -1009,7 +1009,7 @@
         "042bcb6c3a9fc6a76d300d96eb954ed04ec9847e",
         "6db51a7a47f433795f5024926d64e6cff36ea6d1"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#WED-TC4-SE1"
     },
     {
       "id": "5caa659838da161235721c49",
@@ -1025,7 +1025,7 @@
       "speakers": [
         "05e624ae77d36bb40a42224637b81a487050eb3e"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#TUE-TC1-SE6"
     },
     {
       "id": "5caa65b338da161235721c4a",
@@ -1076,7 +1076,7 @@
       "speakers": [
         "5c8cf21786cae4a337b4c305fe244359243ded67"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#WED-TC4-SE2"
     },
     {
       "id": "5caa658938da161235721c48",
@@ -1092,7 +1092,7 @@
       "speakers": [
         "a2438d6cd232ed739133c66038175d69d4a2e654"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#TUE-TC4-SE7"
     },
     {
       "id": "5cb8340838da166e7a4e7057",
@@ -1112,7 +1112,7 @@
         "338c2b906bada5652f39ac6b7a8f1a3f5cca2287",
         "450c67af219213aa11e69adee286b0c9addd9493"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#TUE-TC3-SE5"
     },
     {
       "id": "5caa65c638da161235721c4b",
@@ -1208,7 +1208,8 @@
       "level": "beginner",
       "speakers": [
         "034100c2dca6f7a15d06273390c11c6aa73949d3"
-      ]
+      ],
+      "scheduleId":"#TUE-TC3-SE7"
     }
   ]
 }

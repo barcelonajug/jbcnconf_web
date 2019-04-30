@@ -87,6 +87,16 @@
 
 </div>
 
+<div class="row schedule-row">
+    <div class="{{scheduleLeftWidth}}">
+        16:25 - 17:15
+    </div>
+
+    {% assign rowHour = 'SE6' %}
+    {% include schedule/schedule-multitrack-row.html %}
+
+</div>
+
 <div class="row schedule-row  schedule-break">
     <div class="{{scheduleLeftWidth}}">
         15:50 - 16:20
@@ -102,10 +112,11 @@
         16:25 - 17:15
     </div>
 
-    {% assign rowHour = 'SE6' %}
-    {% include schedule/schedule-single-track-row.html %}
+    {% assign rowHour = 'SE7' %}
+    {% include schedule/schedule-multitrack-row.html %}
 
 </div>
+
 
 <div class="row schedule-row">
     <div class="{{scheduleLeftWidth}}">
