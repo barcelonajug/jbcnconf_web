@@ -1172,6 +1172,19 @@
       "speakers": [
         "7fc5c6d572c567c2d2ae31ce40cbd191a5c497c7"
       ]
+    },
+    {
+      "id": "5cbeec4038da165ac54cf423",
+      "title": "Technological journey through moon landing Apollo vehicles",
+      "abstract": "Fifty years after the first lunar landing, many of the technical aspects of that mission remain unknown to the general public.  This talk will address some of them, stressing those that were determinant on the workings of both Apollo vehicles: The Command and Service Module and the Lunar Module with a somewhat detailed description of their the structural, propulsion and Guidance & Navigation systems.",
+      "type": "talk",
+      "tags": [
+        "keynote"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "90546d2c1a416a9539656c0765740758dfbce3fa"
+      ]
     }
   ]
 }
