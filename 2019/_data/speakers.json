@@ -984,6 +984,16 @@
       "homepage": "",
       "twitter": "@Ripham_78",
       "linkedin": "https://www.linkedin.com/in/francisco-manuel-avila-morcillo-31b56334/"
+    },
+    {
+      "enabled": "1",
+      "name": "Rafael Clemente",
+      "company": "CosmoCaixa",
+      "description": "Science Writter and Founder of Museu de la Ciència Barcelona",
+      "biography": "Industrial Engineer, M.Sc. and software developer.  Science writer in various media (La Vanguardia, El País, RAC1, Onda Cero ...)  Founder and first director of the Museu de la Ciència de Barcelona (now, CosmoCaixa). Author of three books on space exploration.\n\n",
+      "image": "assets/img/speakers/rafael-clemente.jpg",
+      "ref": "90546d2c1a416a9539656c0765740758dfbce3fa",
+      "url": "infoSpeaker.html?ref=90546d2c1a416a9539656c0765740758dfbce3fa"
     }
   ]
 }
