@@ -1156,6 +1156,22 @@
         "3fc412c583929270737441ebc55548b143c26df2",
         "7c41482d4a5c1489ef6a87492526f86dac649b7e"
       ]
+    },
+    {
+      "id": "5caa62f838da161235721c45",
+      "title": "The SCRUM addiction (the SM tempts you, but you are the one taking it)",
+      "abstract": "I would like to tell you my personal story with SCRUM and the industry (or part of the industry), what I think about the Scrum Master role and the different kind we can find it, and why you are in the middle of everything. I will tell you what worked and what didn´t work, what I´ve learned and why I´m so hater and why I consider that Scrum, if you don´t take care, end killing you.",
+      "type": "talk",
+      "tags": [
+        "Agile",
+        "Scrum",
+        "Professional",
+        "You"
+      ],
+      "level": "middle",
+      "speakers": [
+        "7fc5c6d572c567c2d2ae31ce40cbd191a5c497c7"
+      ]
     }
   ]
 }
