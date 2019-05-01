@@ -1,6 +1,6 @@
 ---
 layout: default
-title: JBCNConf - Schedule
+title: JBCNConf - Schedule Java Barcelona Conference
 bodyClass: home page-template-default page page-id-7 eventstation-class  eventstation-shop-column-4 wpb-js-composer js-comp-ver-5.0.1 vc_responsive
 ---
 {% include base.html %}
@@ -46,7 +46,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                             </ul>
 
                             {% assign scheduleLeftWidth = 'col-md-2 col-sm-1 col-xs-12' %}
-                            {% assign scheduleRightWidth = 'col-md-10 col-sm-11 col-xs-12' %}
+                            {% assign scheduleRightWidth = 'col-md-10 col-sm-10 col-xs-10' %}
 
                             {% include schedule/talks-list.html %}
 
@@ -56,20 +56,17 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                 {% assign scheduleDay = 'MON' %}
                                 {% include schedule/schedule-day-one.html %}
 
-
                             </div>
                             <div id="visible-tuesday" class="tab-content">
 
                                 {% assign scheduleDay = 'TUE' %}
                                 {% include schedule/schedule-day-two.html %}
 
-
                             </div>
                             <div id="visible-wednesday" class="tab-content">
 
                                 {% assign scheduleDay = 'WED' %}
                                 {% include schedule/schedule-day-three.html %}
-
 
                             </div>
 

@@ -15,7 +15,8 @@
       "level": "middle",
       "speakers": [
         "16fd0826550372e61a8c17d3acdf30d0871de728"
-      ]
+      ],
+      "scheduleId":"#MON-TC1-SE6"
     },
     {
       "id": "5c19651d38da16778cb20fc6",
@@ -30,7 +31,8 @@
       "level": "middle",
       "speakers": [
         "34e64a4d88094a0c4231d49cc0305d61d7b854ee"
-      ]
+      ],
+      "scheduleId":"#WED-TC1-SE1"
     },
     {
       "id": "5c196dd738da165f64820b29",
@@ -49,7 +51,8 @@
       "level": "middle",
       "speakers": [
         "3803f8e428feb905178afd9025cfc53fb47a8abc"
-      ]
+      ],
+      "scheduleId":"#MON-TC1-SE4"
     },
     {
       "id": "5c196e0238da165f64820b2a",
@@ -65,7 +68,8 @@
       "level": "middle",
       "speakers": [
         "c5224c12852709f7ae60fa80d93f46fd2d64a5c4"
-      ]
+      ],
+      "scheduleId":"#WED-TC1-SE2"
     },
     {
       "id": "5c196e1138da165f64820b2b",
@@ -80,7 +84,8 @@
       "level": "middle",
       "speakers": [
         "dcf4d5f83bc2dab51fb90922055352668da14a18"
-      ]
+      ],
+      "scheduleId":"#MON-TC2-SE5"
     },
     {
       "id": "5c196e2c38da165f64820b2c",
@@ -95,7 +100,8 @@
       "level": "middle",
       "speakers": [
         "1799a6d25dbe9b65e5a25078815b20fc9af956f4"
-      ]
+      ],
+      "scheduleId":"#TUE-TC2-SE5"
     },
     {
       "id": "5c196e3638da165f64820b2d",
@@ -110,7 +116,8 @@
       "level": "beginner",
       "speakers": [
         "d43c4a28c6222750fcef9b5b50013ea8ed897d19"
-      ]
+      ],
+      "scheduleId":"#MON-TC2-SE3"
     },
     {
       "id": "5c1bbfa338da160e621b7a80",
@@ -124,7 +131,8 @@
       "level": "beginner",
       "speakers": [
         "df5c3701545056ca5229efe9b77ad91acf69ea02"
-      ]
+      ],
+      "scheduleId":"#TUE-TC5-SE3"
     },
     {
       "id": "5c24ec6b38da163bd315a05f",
@@ -139,7 +147,8 @@
       "level": "middle",
       "speakers": [
         "8f62b44cd97764484d759b364f5bf32e558a5edd"
-      ]
+      ],
+      "scheduleId":"#TUE-TC2-SE3"
     },
     {
       "abstract": "Some say they can read people and tell by their expressions or body language what kind of personality they have. But what if it is possible to read people from the code they write? It would perhaps be possible to tell who to avoid because they are a little bit aggressive and who to approach because they like to help out other people. In this talk we will explore what research is conducted on the relation between personality traits and programming semantics.",
@@ -153,7 +162,8 @@
         "#design"
       ],
       "title": "Me, My Code and I",
-      "type": "talk"
+      "type": "talk",
+      "scheduleId":"#MON-TC4-SE8"
     },
     {
       "id": "5c36675b38da16698cf41ade",
@@ -169,7 +179,8 @@
       "level": "middle",
       "speakers": [
         "4f72f63b37fb9bb3781b7e7b1e3246b1364c02a2"
-      ]
+      ],
+      "scheduleId":"#TUE-TC4-SE2"
     },
     {
       "id": "5c3e5dbb38da16698cf41b28",
@@ -191,7 +202,8 @@
       "level": "middle",
       "speakers": [
         "5f729db9302ead529bf5818e137c0d3117f33fec"
-      ]
+      ],
+      "scheduleId":"#TUE-TC2-SE4"
     },
     {
       "id": "5c3b3e4538da16698cf41b0a",
@@ -206,7 +218,8 @@
       "level": "middle",
       "speakers": [
         "1910f00e3b6a8220979782a1355b8570de1beca0"
-      ]
+      ],
+      "scheduleId":"#MON-TC1-SE7"
     },
     {
       "id": "5c44693a9034ae38180b14b2",
@@ -223,7 +236,8 @@
       "speakers": [
         "e4dbc8f86240f1f78408c1e967137aa5d8824024",
         "ce11badd5e660b5bf2b2025e167a91c302c937d5"
-      ]
+      ],
+      "scheduleId":"#MON-TC3-SE8"
     },
     {
       "id": "5c3e5e7f38da16698cf41b29",
@@ -243,7 +257,8 @@
       "level": "middle",
       "speakers": [
         "d27efdbbf9293c1d2cbcb35559c2558a0707a484"
-      ]
+      ],
+      "scheduleId":"#TUE-TC2-SE2"
     },
     {
       "id": "5c36688538da16698cf41ae0",
@@ -258,7 +273,8 @@
       "level": "middle",
       "speakers": [
         "ab822b577be6a2418593327d0530f2e48da634a4"
-      ]
+      ],
+      "scheduleId":"#MON-TC3-SE6"
     },
     {
       "id": "5c48ec849034ae38180b14de",
@@ -272,7 +288,8 @@
       "level": "middle",
       "speakers": [
         "d2c05e60af702984122c68c8a46fc574fba6f726"
-      ]
+      ],
+      "scheduleId":"#MON-TC1-SE3"
     },
     {
       "abstract": "Amazon Corretto is a no-cost, multiplatform, production-ready distribution of the OpenJDK. Corretto comes with long-term support that will include performance enhancements and security fixes. Amazon runs Corretto internally on thousands of production services and Corretto is certified as compatible with the Java SE standard. With Corretto, you can develop and run Java applications on popular operating systems, including Amazon Linux 2, Windows, and macOS. This talk will explain on why Amazon Corretto was created. Upstream compatibility to OpenJDK is a core tenet of Corretto. Attendees will learn how an upstream OpenJDK build is published as Corretto. You’ll learn how to get started with Corretto and collaborate in open source.",
@@ -286,7 +303,8 @@
         "open source"
       ],
       "title": "Amazon Corretto",
-      "type": "talk"
+      "type": "talk",
+      "scheduleId":"#MON-TC2-SE4"
     },
     {
       "id": "5c36683738da16698cf41adf",
@@ -301,7 +319,8 @@
       "level": "beginner",
       "speakers": [
         "459fc7466dfa9163817d35cc884ca96e154c2420"
-      ]
+      ],
+      "scheduleId":"#MON-TC3-SE5"
     },
     {
       "id": "5c48ec969034ae38180b14df",
@@ -316,7 +335,8 @@
       "level": "middle",
       "speakers": [
         "1cf43210c8515585e52e4d2f6f2e5e0f582049d8"
-      ]
+      ],
+      "scheduleId":"#TUE-TC3-SE4"
     },
     {
       "id": "5c48ed809034ae38180b14e2",
@@ -330,7 +350,8 @@
       "level": "middle",
       "speakers": [
         "b728a02f2048c81298ca0a5a9bee9e82d7318f18"
-      ]
+      ],
+      "scheduleId":"#TUE-TC2-SE6"
     },
     {
       "id": "5c48ec449034ae38180b14dd",
@@ -345,7 +366,8 @@
       "speakers": [
         "5d1b321ccc69de748beba885f56dec92485f328a",
         "4933804ca1248303098eaa459ba614f4bbbbada1"
-      ]
+      ],
+      "scheduleId":"#MON-TC4-SE5"
     },
     {
       "id": "5c3b3b1938da16698cf41b09",
@@ -361,7 +383,8 @@
       "speakers": [
         "3b8f95a333469c079f0264b8b903184fe5082c05",
         "3803f8e428feb905178afd9025cfc53fb47a8abc"
-      ]
+      ],
+      "scheduleId":"#WED-TC2-SE2"
     },
     {
       "id": "5c3666d138da16698cf41adc",
@@ -378,7 +401,8 @@
       "level": "middle",
       "speakers": [
         "2e93061543cde6bde464afd77e37198f67675a4f"
-      ]
+      ],
+      "scheduleId":"#MON-TC3-SE3"
     },
     {
       "id": "5c48ed639034ae38180b14e1",
@@ -392,7 +416,8 @@
       "level": "middle",
       "speakers": [
         "40afe10a3ea9ec161d15ade201a0101fa8f635f4"
-      ]
+      ],
+      "scheduleId":"#MON-TC4-SE3"
     },
     {
       "id": "5c48ed3b9034ae38180b14e0",
@@ -408,7 +433,8 @@
       "level": "beginner",
       "speakers": [
         "8ba341ede35371519196bc6a3c2cd11e4789c34a"
-      ]
+      ],
+      "scheduleId":"#WED-TC5-SE1"
     },
     {
       "id": "5c5225df9034ae38180b151e",
@@ -423,7 +449,8 @@
       "level": "middle",
       "speakers": [
         "a744f52d967ebb543100a1215f9fe38080a664f0"
-      ]
+      ],
+      "scheduleId":"#MON-TC2-SE6"
     },
     {
       "id": "5c5225d49034ae38180b151d",
@@ -438,7 +465,8 @@
       "level": "middle",
       "speakers": [
         "0ad9d5343d1ee682de4fd65c3df75aac55029fac"
-      ]
+      ],
+      "scheduleId":"#TUE-TC1-SE3"
     },
     {
       "id": "5c5b57ec38da160d5d9c8e12",
@@ -455,7 +483,8 @@
       "level": "middle",
       "speakers": [
         "4933ebef38f82b62da601eb07e8362bb389cc560"
-      ]
+      ],
+      "scheduleId":"#MON-TC5-SE7"
     },
     {
       "id": "5c52261c9034ae38180b1520",
@@ -470,7 +499,8 @@
       "level": "beginner",
       "speakers": [
         "1d54c30358e79434b07f96ddcb7dc19325134eeb"
-      ]
+      ],
+      "scheduleId":"#TUE-TC5-SE5"
     },
     {
       "id": "5c5b5b5138da160d5d9c8e14",
@@ -484,7 +514,8 @@
       "level": "beginner",
       "speakers": [
         "388f6f9ee4eb169ce6d936f7ce3952f6aadd211f"
-      ]
+      ],
+      "scheduleId":"#MON-TC4-SE4"
     },
     {
       "id": "5c5b575a38da160d5d9c8e0f",
@@ -500,7 +531,8 @@
       "level": "beginner",
       "speakers": [
         "6c31223d3be1de9ea66a96974ec4f524cd6a786f"
-      ]
+      ],
+      "scheduleId":"#MON-TC2-SE7"
     },
     {
       "id": "5c5225f49034ae38180b151f",
@@ -515,7 +547,8 @@
       "level": "middle",
       "speakers": [
         "d89cefec93be3aba5a4a16347d38216b67606322"
-      ]
+      ],
+      "scheduleId":"#TUE-TC4-SE5"
     },
     {
       "id": "5c5b576538da160d5d9c8e10",
@@ -535,7 +568,8 @@
       "level": "advanced",
       "speakers": [
         "417a471e81a8522f2868a154c587bfd4484f1310"
-      ]
+      ],
+      "scheduleId":"#WED-TC2-SE1"
     },
     {
       "id": "5c69474938da1663aa5fc661",
@@ -557,7 +591,8 @@
       "speakers": [
         "ea8cef2c8d8bc8f303ad8e7436c5be94f6dafcd2",
         "c9f19a5a2dbbfed36664ef31c4ee86c0dfbbe388"
-      ]
+      ],
+      "scheduleId":"#MON-TC1-SE5"
     },
     {
       "id": "5c5b580038da160d5d9c8e13",
@@ -573,7 +608,8 @@
       "level": "middle",
       "speakers": [
         "ea89fe753dbd87eb417cd4bc34f5df5216b48d70"
-      ]
+      ],
+      "scheduleId":"#TUE-TC5-SE7"
     },
     {
       "id": "5c5b57e038da160d5d9c8e11",
@@ -588,7 +624,8 @@
       "level": "middle",
       "speakers": [
         "1126c74440db86e536e583215673f4a4931b1049"
-      ]
+      ],
+      "scheduleId":"#MON-TC5-SE6"
     },
     {
       "id": "5c64984138da16483151bb38",
@@ -604,7 +641,8 @@
       "level": "advanced",
       "speakers": [
         "4b26a098aafaf6bc3d533389b61d3ef5ab01f5a3"
-      ]
+      ],
+      "scheduleId":"#TUE-TC4-SE4"
     },
     {
       "id": "5c64984b38da16483151bb39",
@@ -620,7 +658,8 @@
       "speakers": [
         "a925c7b2692519ec35f1a5c0765d0c07249bf530",
         "efc78140677c0c1d0940f83acd9ea58165a82701"
-      ]
+      ],
+      "scheduleId":"#MON-TC4-SE6"
     },
     {
       "id": "5c6498b438da16483151bb3a",
@@ -637,7 +676,8 @@
       "speakers": [
         "20576670e696ba8ea562ba8275e300953e41675e",
         "71af056fedc23b5b4210ca138eb31f0852041361"
-      ]
+      ],
+      "scheduleId":"#WED-TC3-SE1"
     },
     {
       "id": "5c64983638da16483151bb37",
@@ -652,7 +692,8 @@
       "level": "advanced",
       "speakers": [
         "a71020196a6877a18aa38df8e51e12fc6807d6c7"
-      ]
+      ],
+      "scheduleId":"#TUE-TC2-SE7"
     },
     {
       "id": "5c728b1c38da16567538857a",
@@ -667,7 +708,8 @@
       "level": "middle",
       "speakers": [
         "da0ad51569e9380e792e4cc5673578a58850fe60"
-      ]
+      ],
+      "scheduleId":"#TUE-TC1-SE1"
     },
     {
       "id": "5c728afd38da165675388579",
@@ -681,7 +723,8 @@
       "level": "middle",
       "speakers": [
         "da0ad51569e9380e792e4cc5673578a58850fe60"
-      ]
+      ],
+      "scheduleId":"#TUE-TC1-SE4"
     },
     {
       "id": "5c770fff38da167fbce02cea",
@@ -698,7 +741,8 @@
       "speakers": [
         "f35d1872137ef145c138baa293c92834f88a8560",
         "ff55294f8464ef742da59a126c35e25670d377dc"
-      ]
+      ],
+      "scheduleId":"#WED-TC3-SE2"
     },
     {
       "id": "5c64982e38da16483151bb36",
@@ -715,7 +759,8 @@
       "level": "middle",
       "speakers": [
         "415f956d463d815e32e0fd2c3bca6422b9babe4e"
-      ]
+      ],
+      "scheduleId":"#MON-TC1-SE8"
     },
     {
       "id": "5c7714b538da167fbce02ceb",
@@ -730,7 +775,8 @@
       "level": "middle",
       "speakers": [
         "c93a48ea7c1d8a91f60be490b32b9357f77d8212"
-      ]
+      ],
+      "scheduleId":"#MON-TC5-SE3"
     },
     {
       "id": "5c7e19e738da16574c349f02",
@@ -746,7 +792,8 @@
       "level": "middle",
       "speakers": [
         "893a2efbfaeeb5ce34ced62745778f7a8b02c1b8"
-      ]
+      ],
+      "scheduleId":"#TUE-TC1-SE7"
     },
     {
       "id": "5c770f8438da167fbce02ce9",
@@ -764,7 +811,8 @@
       "level": "middle",
       "speakers": [
         "a9fa078a7b8408c731c79c0060b9956373bfb5f6"
-      ]
+      ],
+      "scheduleId":"#MON-TC3-SE4"
     },
     {
       "id": "5c9409c138da165dcdf16001",
@@ -783,7 +831,8 @@
       "level": "middle",
       "speakers": [
         "fe5af6cd06dbc35f328b74b9c870d914fcbb6a9c"
-      ]
+      ],
+      "scheduleId":"#MON-TC5-SE5"
     },
     {
       "id": "5c94098138da165dcdf15fff",
@@ -800,7 +849,8 @@
       "level": "middle",
       "speakers": [
         "3b41d2043c201d402e1a97965b11f7e304a381e6"
-      ]
+      ],
+      "scheduleId":"#TUE-TC5-SE6"
     },
     {
       "id": "5c9408bb38da165dcdf15ffb",
@@ -816,7 +866,8 @@
       "level": "middle",
       "speakers": [
         "2cd0f524bac371cd77aab99978e3e2e8ec0a4529"
-      ]
+      ],
+      "scheduleId":"#TUE-TC1-SE2"
     },
     {
       "id": "5c940a6338da165dcdf16004",
@@ -832,7 +883,8 @@
       "level": "beginner",
       "speakers": [
         "27509a8795aeb61050e21551db71e2386721a968"
-      ]
+      ],
+      "scheduleId":"#MON-TC1-SE2"
     },
     {
       "id": "5c9409a238da165dcdf16000",
@@ -850,7 +902,8 @@
       "level": "middle",
       "speakers": [
         "b7717dd697709e684522aa7aad3e6f97534b030f"
-      ]
+      ],
+      "scheduleId":"#MON-TC3-SE7"
     },
     {
       "id": "5c940a1438da165dcdf16003",
@@ -864,7 +917,8 @@
       "level": "beginner",
       "speakers": [
         "dc47e12a60c10690bfbad90e0de30b0201d32a87"
-      ]
+      ],
+      "scheduleId":"#TUE-TC1-SE5"
     },
     {
       "id": "5c9409fa38da165dcdf16002",
@@ -882,7 +936,8 @@
         "5b656cdacb65daac27580c4c468fc31aa3ae6464",
         "466fc88529d33847e0ed302da0b2f091c6ce1e0d",
         "d32872131f45452e2aa9dab8edf5ea71ff1a870f"
-      ]
+      ],
+      "scheduleId":"#WED-TC5-SE2"
     },
     {
       "id": "5caa579738da161235721c42",
@@ -901,7 +956,8 @@
       "speakers": [
         "105687f25615197c08e426d7035ba0fc5847b6ca",
         "5d23dd362b4bb5d1fd74cdcecdcd9278ed5b98e5"
-      ]
+      ],
+      "scheduleId":"#TUE-TC4-SE6"
     },
     {
       "id": "5caa633138da161235721c47",
@@ -916,7 +972,8 @@
       "level": "middle",
       "speakers": [
         "6bcc1166f20d349b0a52352c5f7c2d00434a09c3"
-      ]
+      ],
+      "scheduleId":"#TUE-TC5-SE4"
     },
     {
       "id": "5c9408e638da165dcdf15ffc",
@@ -932,7 +989,8 @@
       "level": "middle",
       "speakers": [
         "042bcb6c3a9fc6a76d300d96eb954ed04ec9847e"
-      ]
+      ],
+      "scheduleId":"#MON-TC5-SE4"
     },
     {
       "id": "5c94091838da165dcdf15ffd",
@@ -950,7 +1008,8 @@
       "speakers": [
         "042bcb6c3a9fc6a76d300d96eb954ed04ec9847e",
         "6db51a7a47f433795f5024926d64e6cff36ea6d1"
-      ]
+      ],
+      "scheduleId":"#WED-TC4-SE1"
     },
     {
       "id": "5caa659838da161235721c49",
@@ -965,7 +1024,8 @@
       "level": "middle",
       "speakers": [
         "05e624ae77d36bb40a42224637b81a487050eb3e"
-      ]
+      ],
+      "scheduleId":"#TUE-TC1-SE6"
     },
     {
       "id": "5caa65b338da161235721c4a",
@@ -982,7 +1042,8 @@
       "speakers": [
         "27a9df1b0b29d676d6c2cd7c00880eb81d60b1d1",
         "36bd706bf1436fb7ecef25ec7e00051bdcce12d3"
-      ]
+      ],
+      "scheduleId":"#MON-TC2-SE8"
     },
     {
       "id": "5caa632138da161235721c46",
@@ -998,7 +1059,8 @@
       "level": "beginner",
       "speakers": [
         "55fa365305bcd20ac6221f7f3123d50516ee9b35"
-      ]
+      ],
+      "scheduleId":"#MON-TC4-SE7"
     },
     {
       "id": "5caa61e838da161235721c44",
@@ -1013,7 +1075,8 @@
       "level": "beginner",
       "speakers": [
         "5c8cf21786cae4a337b4c305fe244359243ded67"
-      ]
+      ],
+      "scheduleId":"#WED-TC4-SE2"
     },
     {
       "id": "5caa658938da161235721c48",
@@ -1028,7 +1091,8 @@
       "level": "middle",
       "speakers": [
         "a2438d6cd232ed739133c66038175d69d4a2e654"
-      ]
+      ],
+      "scheduleId":"#TUE-TC4-SE7"
     },
     {
       "id": "5cb8340838da166e7a4e7057",
@@ -1047,7 +1111,8 @@
       "speakers": [
         "338c2b906bada5652f39ac6b7a8f1a3f5cca2287",
         "450c67af219213aa11e69adee286b0c9addd9493"
-      ]
+      ],
+      "scheduleId":"#TUE-TC3-SE5"
     },
     {
       "id": "5caa65c638da161235721c4b",
@@ -1063,7 +1128,8 @@
       "level": "advanced",
       "speakers": [
         "7a45fa2c21b19721801a08b478d6cc50dcf02518"
-      ]
+      ],
+      "scheduleId":"#TUE-TC3-SE2"
     },
     {
       "id": "5caa5b3038da161235721c43",
@@ -1085,7 +1151,8 @@
       "level": "middle",
       "speakers": [
         "cd7ae0a837dc938d77c5a4b792b36a02f70eb62f"
-      ]
+      ],
+      "scheduleId":"#TUE-TC3-SE3"
     },
     {
       "id": "5c94094e38da165dcdf15ffe",
@@ -1106,7 +1173,8 @@
       "speakers": [
         "6343c3598d8dde1eb2c630b53110513eceeab1e5",
         "e016c06049d4c5a829ee4e26db53623c7bf2ccc2"
-      ]
+      ],
+      "scheduleId":"#TUE-TC4-SE3"
     },
     {
       "id": "5cbe17ee38da165ac54cf421",
@@ -1122,7 +1190,8 @@
       "level": "middle",
       "speakers": [
         "ae5106226e9b9b505812aa0b2cdd5809329c9c24"
-      ]
+      ],
+      "scheduleId":"#TUE-TC5-SE2"
     },
     {
       "id": "5cbe17e438da165ac54cf420",
@@ -1139,7 +1208,8 @@
       "level": "beginner",
       "speakers": [
         "034100c2dca6f7a15d06273390c11c6aa73949d3"
-      ]
+      ],
+      "scheduleId":"#TUE-TC3-SE7"
     },
     {
       "id": "5caa689138da161235721c4c",
@@ -1155,7 +1225,8 @@
       "speakers": [
         "3fc412c583929270737441ebc55548b143c26df2",
         "7c41482d4a5c1489ef6a87492526f86dac649b7e"
-      ]
+      ],
+      "scheduleId":"#TUE-TC3-SE6"
     },
     {
       "id": "5caa62f838da161235721c45",
@@ -1171,7 +1242,8 @@
       "level": "middle",
       "speakers": [
         "7fc5c6d572c567c2d2ae31ce40cbd191a5c497c7"
-      ]
+      ],
+      "scheduleId":"#MON-TC5-SE8"
     },
     {
       "id": "5cbeec4038da165ac54cf423",
@@ -1184,7 +1256,8 @@
       "level": "beginner",
       "speakers": [
         "90546d2c1a416a9539656c0765740758dfbce3fa"
-      ]
+      ],
+      "scheduleId":"#MON-TC1-SE1"
     }
   ]
 }
