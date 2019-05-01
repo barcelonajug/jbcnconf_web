@@ -63,5 +63,14 @@
   "schedule_first_day": "Monday 27.05",
   "schedule_second_day": "Tuesday 28.05",
   "schedule_last_day": "Wednesday 29.05",
-
+  "room1_talks": "Room 1",
+  "room2_talks": "Room 2",
+  "room3_talks": "Room 3",
+  "room4_talks": "Room 4",
+  "room5_talks": "Room 5",
+  "room1_workshops": "Room 1",
+  "room2_workshops": "Room 2",
+  "room3_workshops": "Room 3",
+  "room4_workshops": "Room 4",
+  "room5_workshops": "Room 5"
 }

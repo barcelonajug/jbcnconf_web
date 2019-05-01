@@ -21,7 +21,7 @@
 }
 
 #schedule-calendar .schedule-header {
-    background: linear-gradient(to left, #EB3349, #F45C43);
+    background: linear-gradient(to left, #1260eb, #0f7ef4);
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
@@ -44,7 +44,7 @@
     float: left;
     font-weight: normal;
     font-family: monospace;
-    border-top: solid 1px #F45C43;
+    border-top: solid 1px #0f7ef4;
 }
 
 #schedule-calendar .schedule-break {
@@ -57,7 +57,7 @@
 }
 
 #schedule-calendar ul.tabs li {
-    background: linear-gradient(to left, #EB3349, #F45C43);
+    background: linear-gradient(to left, #1260eb, #0f7ef4);
     color: #ffffff;
     display: inline-block;
     padding: 10px 15px;
@@ -67,14 +67,14 @@
 #schedule-calendar ul.tabs li.current {
     font-size: 16px;
     font-weight: bold;
-    box-shadow: 2px 10px 5px #EB3349;
+    box-shadow: 2px 10px 5px #1260eb;
     color: black;
 }
 
 #schedule-calendar .tab-content {
     display: none;
     color: #f5f5f5;
-    background: linear-gradient(to left, #EB3349, #F45C43);
+    background: linear-gradient(to left, #1260eb, #0f7ef4);
 }
 
 #schedule-calendar .tab-content.current {
