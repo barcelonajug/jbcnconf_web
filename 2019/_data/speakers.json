@@ -950,6 +950,50 @@
       "homepage": "https://www.fihlon.swiss/",
       "twitter": "@McPringle",
       "linkedin": "https://www.linkedin.com/in/fihlon/"
+    },
+    {
+      "enabled": "1",
+      "name": "Sergio Martinez González",
+      "company": "Mango",
+      "description": "Software Engineer at Mango",
+      "biography": "Sergio is a software engineer at Mango. He always eager to embrace both Agile and XP practises. He works in a team responsible of the Mango Online Shop integration with external marketplaces. Actually the team has the challenge of evolve the legacy architecture from monolithic to microservices architecture.",
+      "image": "assets/img/speakers/sergio-martinez-garcia.jpg",
+      "ref": "3fc412c583929270737441ebc55548b143c26df2",
+      "url": "infoSpeaker.html?ref=3fc412c583929270737441ebc55548b143c26df2"
+    },
+    {
+      "enabled": "1",
+      "name": "Erik Torres Serrano",
+      "company": "Codurance",
+      "description": "Software Engineer at Codurance",
+      "biography": "Erik (@ertorser) is a software developer with over ten years experience developing concurrent and distributed systems. He strongly believes in pragmatism, practice and team working.\n\nErik is a lifelong learner, always looking for new ways to improve software quality, including coding practices, security and performance. He especially enjoys sharing his passion for development with others. Lately, you can find him improving his craft and helping others improve theirs in the Barcelona Java User Group and in the Software Craftsmanship Community.\n\nAway from the keyboard, he loves the outdoors and spending time with his wife and son.",
+      "image": "assets/img/speakers/erik-torres.jpg",
+      "ref": "7c41482d4a5c1489ef6a87492526f86dac649b7e",
+      "url": "infoSpeaker.html?ref=7c41482d4a5c1489ef6a87492526f86dac649b7e",
+      "twitter": "@ertorser"
+    },
+    {
+      "enabled": "1",
+      "name": "Fran Avila",
+      "company": "BestSecret",
+      "description": "Agilist in BestSecret",
+      "biography": "Agilist in BestSecret Granada, +15 years in the industry, from dev to agilist. Startups, corporations, as permanent and as consultant, in Spain and UK, in hyper productive teams and in toxic teams. But always, critic with everything.",
+      "image": "assets/img/speakers/fran-avila.jpg",
+      "ref": "7fc5c6d572c567c2d2ae31ce40cbd191a5c497c7",
+      "url": "infoSpeaker.html?ref=7fc5c6d572c567c2d2ae31ce40cbd191a5c497c7",
+      "homepage": "",
+      "twitter": "@Ripham_78",
+      "linkedin": "https://www.linkedin.com/in/francisco-manuel-avila-morcillo-31b56334/"
+    },
+    {
+      "enabled": "1",
+      "name": "Rafael Clemente",
+      "company": "CosmoCaixa",
+      "description": "Science Writter and Founder of Museu de la Ciència Barcelona",
+      "biography": "Industrial Engineer, M.Sc. and software developer.  Science writer in various media (La Vanguardia, El País, RAC1, Onda Cero ...)  Founder and first director of the Museu de la Ciència de Barcelona (now, CosmoCaixa). Author of three books on space exploration.\n\n",
+      "image": "assets/img/speakers/rafael-clemente.jpg",
+      "ref": "90546d2c1a416a9539656c0765740758dfbce3fa",
+      "url": "infoSpeaker.html?ref=90546d2c1a416a9539656c0765740758dfbce3fa"
     }
   ]
 }

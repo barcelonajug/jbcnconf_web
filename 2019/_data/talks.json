@@ -304,7 +304,7 @@
       ],
       "title": "Amazon Corretto",
       "type": "talk",
-      "scheduleId":"#MON-TC2-SE4"      
+      "scheduleId":"#MON-TC2-SE4"
     },
     {
       "id": "5c36683738da16698cf41adf",
@@ -1210,6 +1210,51 @@
         "034100c2dca6f7a15d06273390c11c6aa73949d3"
       ],
       "scheduleId":"#TUE-TC3-SE7"
+    },
+    {
+      "id": "5caa689138da161235721c4c",
+      "title": "From monolith to microservices via people & principles",
+      "abstract": "In this talk we’d like to share our experiences and learnings building stronger technical capabilities in a branch of the business that has grown beyond all expectations. We will see the evolution of a B2B integration solution from the first, rapid implementation and its uncontrolled growth in the form of a suite of monolithic applications. Finally, we will present an ongoing project to re-engineer the current suite of monoliths into an ecosystem of microservices based on Spring Boot and AWS. We will discuss our key technical decisions and their motivations and show how we are using design principles like DRY, KISS and YAGNI as well as other concept and tools from the DDD community to regularly deliver improved capability into production.",
+      "type": "talk",
+      "tags": [
+        "xp",
+        "design",
+        "microservices"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "3fc412c583929270737441ebc55548b143c26df2",
+        "7c41482d4a5c1489ef6a87492526f86dac649b7e"
+      ]
+    },
+    {
+      "id": "5caa62f838da161235721c45",
+      "title": "The SCRUM addiction (the SM tempts you, but you are the one taking it)",
+      "abstract": "I would like to tell you my personal story with SCRUM and the industry (or part of the industry), what I think about the Scrum Master role and the different kind we can find it, and why you are in the middle of everything. I will tell you what worked and what didn´t work, what I´ve learned and why I´m so hater and why I consider that Scrum, if you don´t take care, end killing you.",
+      "type": "talk",
+      "tags": [
+        "Agile",
+        "Scrum",
+        "Professional",
+        "You"
+      ],
+      "level": "middle",
+      "speakers": [
+        "7fc5c6d572c567c2d2ae31ce40cbd191a5c497c7"
+      ]
+    },
+    {
+      "id": "5cbeec4038da165ac54cf423",
+      "title": "Technological journey through moon landing Apollo vehicles",
+      "abstract": "Fifty years after the first lunar landing, many of the technical aspects of that mission remain unknown to the general public.  This talk will address some of them, stressing those that were determinant on the workings of both Apollo vehicles: The Command and Service Module and the Lunar Module with a somewhat detailed description of their the structural, propulsion and Guidance & Navigation systems.",
+      "type": "talk",
+      "tags": [
+        "keynote"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "90546d2c1a416a9539656c0765740758dfbce3fa"
+      ]
     }
   ]
 }
