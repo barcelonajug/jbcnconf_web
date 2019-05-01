@@ -971,6 +971,19 @@
       "ref": "7c41482d4a5c1489ef6a87492526f86dac649b7e",
       "url": "infoSpeaker.html?ref=7c41482d4a5c1489ef6a87492526f86dac649b7e",
       "twitter": "@ertorser"
+    },
+    {
+      "enabled": "1",
+      "name": "Fran Avila",
+      "company": "BestSecret",
+      "description": "Agilist in BestSecret",
+      "biography": "Agilist in BestSecret Granada, +15 years in the industry, from dev to agilist. Startups, corporations, as permanent and as consultant, in Spain and UK, in hyper productive teams and in toxic teams. But always, critic with everything.",
+      "image": "assets/img/speakers/fran-avila.jpg",
+      "ref": "7fc5c6d572c567c2d2ae31ce40cbd191a5c497c7",
+      "url": "infoSpeaker.html?ref=7fc5c6d572c567c2d2ae31ce40cbd191a5c497c7",
+      "homepage": "",
+      "twitter": "@Ripham_78",
+      "linkedin": "https://www.linkedin.com/in/francisco-manuel-avila-morcillo-31b56334/"
     }
   ]
 }
