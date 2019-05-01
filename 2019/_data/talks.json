@@ -1225,7 +1225,8 @@
       "speakers": [
         "3fc412c583929270737441ebc55548b143c26df2",
         "7c41482d4a5c1489ef6a87492526f86dac649b7e"
-      ]
+      ],
+      "scheduleId":"#TUE-TC3-SE6"
     },
     {
       "id": "5caa62f838da161235721c45",
@@ -1241,7 +1242,8 @@
       "level": "middle",
       "speakers": [
         "7fc5c6d572c567c2d2ae31ce40cbd191a5c497c7"
-      ]
+      ],
+      "scheduleId":"#MON-TC5-SE8"
     },
     {
       "id": "5cbeec4038da165ac54cf423",
@@ -1254,7 +1256,8 @@
       "level": "beginner",
       "speakers": [
         "90546d2c1a416a9539656c0765740758dfbce3fa"
-      ]
+      ],
+      "scheduleId":"#MON-TC1-SE1"
     }
   ]
 }
