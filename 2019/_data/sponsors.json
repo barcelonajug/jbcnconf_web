@@ -137,6 +137,14 @@
         "src": "/assets/img/sponsors/accenture-logo.png",
         "alt": "Accenture Technology"
       }
+    },
+    {
+      "name": "Zara",
+      "href": "https://techteams.es/",
+      "image": {
+        "src": "/assets/img/sponsors/zara.jpg",
+        "alt": "Zara"
+      }
     }
   ],
   "galaxy-basic": [
