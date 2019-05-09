@@ -9,3 +9,4 @@ tools/client_id.json
 tools/*.log
 
 .jekyll-metadata
+.gradle
