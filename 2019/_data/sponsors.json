@@ -229,6 +229,14 @@
         "src": "/assets/img/sponsors/jetbrains.png",
         "alt": "JetBrains"
       }
+    },
+    {
+      "name": "Worldline",
+      "href": "https://es.worldline.com/",
+      "image": {
+        "src": "/assets/img/sponsors/worldline.jpg",
+        "alt": "Worldline"
+      }
     }
   ],
   "supporters": [
