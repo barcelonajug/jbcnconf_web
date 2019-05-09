@@ -58,7 +58,7 @@ If changes in the sources are made, remember converting them and adding the gene
 
 == Testing the website
 
-=== Testing it locally
+=== Testing it locally (Requires Ruby installation)
 
 Just fork the repo, open a shell, place yourself in the root and run
  
@@ -70,6 +70,19 @@ of just
 
 This will start a local embedded server on http://localhost:4000.
 The server will stay up and self-update automatically.
+
+=== Testing it lcoally (Required Gradle installation)
+
+If you have Gradle installed somewhere (or even have a project somewhere with the Gradle wrapper) you can
+test without having anything installed. Just fork the repo, open a shell and run
+
+ $ gradle -b jekyll.gradle -i
+ 
+This will bootstrap everything into a throw-away folder and start up the local server on
+
+ http://localhost:4000
+ 
+The server will stay up and self-update automatically. 
 
 === Testing on a GitHub cloned repo
 
