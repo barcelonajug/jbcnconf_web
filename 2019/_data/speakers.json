@@ -777,15 +777,16 @@
     },
     {
       "enabled": "1",
-      "name": "Elder Moraes",
-      "company": "Oracle",
-      "description": "Java & Cloud Advocate, Book Author, Board Member at SouJava",
-      "biography": "Elder helps server side developers to work on great projects by building and delivering secure, available and fast applications. With many years of Java Enterprise development experience, he is an active participant of the Jakarta EE discussions. He is also the author of “JavaEE 8 Cookbook“, where he provides deep knowledge about Java EE 8 API’s and how to use them to solve real enterprise problems. Host of the “JavaEE 8 – the Next Frontier” videocast, Elder is passionate about Java, cloud and systems architecture. As a cloud evangelist, he inspires crowds to adopt Enterprise Java by sharing experiences and best practices through online content and at international events like JavaOne, Code One, Oracle Code, TDC, QCon and Campus Party.",
-      "image": "assets/img/speakers/elder-moraes.png",
-      "ref": "05e624ae77d36bb40a42224637b81a487050eb3e",
-      "url": "infoSpeaker.html?ref=05e624ae77d36bb40a42224637b81a487050eb3e",
-      "homepage": "http://eldermoraes.com",
-      "twitter": "@elderjava"
+      "name": "Viktor Farcic",
+      "company": "Cloudbees",
+      "description": "Developer Advocate at CloudBees",
+      "biography": "Viktor Farcic is a Developer Advocate at CloudBees, a member of the Docker Captains group, and published author.\n\nHe coded using a plethora of languages starting with Pascal (yes, he is old), Basic (before it got Visual prefix), ASP (before it got .Net suffix), C, C++, Perl, Python, ASP.Net, Visual Basic, C#, JavaScript, Java, Scala, etc. He never worked with Fortran. His current favorite is Go.\n\nHis big passions are DevOps, Microservices, Continuous Integration, Delivery and Deployment (CI/CD) and Test-Driven Development (TDD).\n\nHe often speaks at community gatherings and conferences.\n\nHe published The DevOps Toolkit Series and Test-Driven Java Development.\n\nHis random thoughts and tutorials can be found in his blog TechnologyConversations.com.",
+      "image": "assets/img/speakers/viktor-farcic.jpg",
+      "ref": "0ba89c51baf9f8542188bd750973e0767fbcaa68",
+      "url": "infoSpeaker.html?ref=0ba89c51baf9f8542188bd750973e0767fbcaa68",
+      "homepage": "https://technologyconversations.com/",
+      "twitter": "@vfarcic",
+      "linkedin": "https://www.linkedin.com/in/viktorfarcic/"
     },
     {
       "enabled": "1",
