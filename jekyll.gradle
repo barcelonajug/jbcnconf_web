@@ -1,0 +1,37 @@
+import com.github.jrubygradle.JRubyExec
+
+plugins {
+    id "com.github.jruby-gradle.base" version "1.7.0"
+}
+
+buildDir = '../cache-dotorg-site'
+
+dependencies {
+    jrubyExec 'rubygems:jekyll:3.7.2'
+    jrubyExec 'rubygems:tzinfo-data:1.2019.1'
+    jrubyExec 'rubygems:kramdown:1.16.2'
+    jrubyExec 'rubygems:rouge:3.1.1'
+    jrubyExec 'rubygems:rake:10.5.0'
+    jrubyExec 'rubygems:public_suffix:3.0.1'
+    jrubyExec 'rubygems:addressable:2.5.2'
+    jrubyExec 'rubygems:concurrent-ruby:1.0.5'
+    jrubyExec 'rubygems:eventmachine:1.2.5'
+    jrubyExec 'rubygems:ffi:1.9.21'
+    jrubyExec 'rubygems:i18n:0.9.4'
+    jrubyExec 'rubygems:rb-fsevent:0.10.2'
+    jrubyExec 'rubygems:rb-inotify:0.9.10'
+    jrubyExec 'rubygems:sass:3.5.5'
+    jrubyExec 'rubygems:jekyll-watch:2.0.0'
+    jrubyExec 'rubygems:liquid:4.0.0'
+    jrubyExec 'rubygems:pathutil:0.16.1'
+    jrubyExec 'rubygems:safe_yaml:1.0.4'
+    jrubyExec 'rubygems:rake-jekyll:1.1.0'
+}
+
+task jekyll( type : JRubyExec ) {
+    jrubyArgs '-S'
+    script 'jekyll'
+    scriptArgs 'serve', '--future', '--source', projectDir
+}
+
+defaultTasks 'jekyll'
