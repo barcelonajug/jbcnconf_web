@@ -12,7 +12,7 @@
             for (var index = 0; index < ALL_TALKS.length; index++) {
                 var talk = ALL_TALKS[index];
                 if (talk.scheduleId) {
-                    var html = talk.title + "<br/>";
+                    var html = "<a href='" + global.BASE_URL + "/infoTalk.html?id=" + talk.id + "' class='talk-title'>" + talk.title + "</a><br/>";
                     for (var speakerIndex = 0; speakerIndex < talk.allSpeakers.length; speakerIndex++) {
                         var speaker = talk.allSpeakers[speakerIndex];
                         html += " &nbsp;&nbsp;   <a href='" + global.BASE_URL + "/" + speaker.url + "'>"

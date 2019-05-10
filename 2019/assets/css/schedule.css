@@ -9,7 +9,8 @@
     list-style: none;
 }
 
-#schedule-calendar .schedule-row {
+#schedule-calendar .schedule-row,
+#schedule-calendar .schedule-row .talk-title {
     height: 100%;
     padding: 5px;
     overflow: hidden;
@@ -52,7 +53,8 @@
     background-color: #ddd;
 }
 
-#schedule-calendar .schedule-keynote {
+#schedule-calendar .schedule-keynote, 
+#schedule-calendar .schedule-keynote .talk-title {
     font-size: 24px;
 }
 
@@ -79,4 +81,13 @@
 
 #schedule-calendar .tab-content.current {
     display: inherit;
+}
+
+#schedule-calendar .talk-title {
+    text-decoration: none !important;
+    color: black;
+}
+
+#schedule-calendar .talk-title:hover {
+    color: red;
 }
