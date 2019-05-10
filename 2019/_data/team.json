@@ -82,6 +82,18 @@
         "url": "/assets/img/team/alejandro.jpg",
         "alt": "Alejandro Martinez, Java Lover"
       }
+    },
+    {
+      "name": "Simone Masoni",
+      "position": "Java Sorcerer's Apprentice",
+      "role": "Team Member Barcelona JUG.",
+      "bio": "I'm the CTO of Molomics, a biotech company focused on development of new drugs through Artificial Intelligence. I've more than 10 years of experience in Java and JVM technologies and a big fan of Agile methodologies.",
+      "linkedin": "https://www.linkedin.com/in/simone-masoni/",
+      "twitter": "https://twitter.com/simone_masoni",
+      "image": {
+        "url": "/assets/img/team/smasoni.jpg",
+        "alt": "Simone Masoni, Java Lover"
+      }
     }
   ]
 }
