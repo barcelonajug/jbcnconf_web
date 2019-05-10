@@ -85,7 +85,7 @@
       "speakers": [
         "dcf4d5f83bc2dab51fb90922055352668da14a18"
       ],
-      "scheduleId":"#MON-TC2-SE5"
+      "scheduleId":"#TUE-TC2-SE7"
     },
     {
       "id": "5c196e2c38da165f64820b2c",
@@ -1012,20 +1012,22 @@
       "scheduleId":"#WED-TC4-SE1"
     },
     {
-      "id": "5caa659838da161235721c49",
-      "title": "The quest to the Language Graal: One VM to rule them all",
-      "abstract": "Dear Frodo... it's not easy to work in projects using multiple languages that doesn't integrate natively. It's like a quest to Mordor: a lot of risks, traps and epic battles against Bugs Hordes (aka Orcs).\n\nIn this situation, every programmer would like to have a friend like Sam. Somebody who give interoperability between Elves, Dwarves, Java, Python, Scala, Node.js... and even helps you on creating a new language!\n\nThat friend exists. It's not Sam. Smeagol would call it \"Precious\", but it's name is Graal VM. This session will show you how it will change the way you think and build software.",
+      "id": "5cd1f98438da161cb0381424",
+      "title": "Running Serverless Continuous Delivery",
+      "abstract": "Running applications for continuous delivery is a massive waste of resources. Think about it. We spend gigabytes of RAM for running Jenkins, Bamboo, Team City, or whichever tool we're using. And yet, those tools are often sitting idle inside our cluster, waiting to eventually receive a webhook notifying them that something should be done. As a result, resources are wasted when those tools are idle, and they are slow when under heavy load. If we add agents to the mix, we can quickly end up with hundreds of unused servers, and yet not have enough.\n\nWhat if we could run our tools only when we need them? What if we could scale them to any number of replicas to accommodate the increase in the number of builds, and scale them down to zero when there are no new commits? What if we can do all that with a single command? The answer to those and quite a few other questions is to go serverless with our continuous delivery tools. Jenkins X happens to do just that. It is a cloud-native Kubernetes-first solution that embraced a serverless model for managing our pipelines.",
       "type": "talk",
       "tags": [
-        "java",
-        "jvm",
-        "performance"
+        "cloud",
+        "serverless",
+        "kubernetes",
+        "jenkins",
+        "continuous delivery"
       ],
       "level": "middle",
       "speakers": [
-        "05e624ae77d36bb40a42224637b81a487050eb3e"
+        "0ba89c51baf9f8542188bd750973e0767fbcaa68"
       ],
-      "scheduleId":"#TUE-TC2-SE7"
+      "scheduleId":"#MON-TC2-SE5"
     },
     {
       "id": "5caa65b338da161235721c4a",
