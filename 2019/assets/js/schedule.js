@@ -37,7 +37,9 @@
 
 
         var day = window.location.hash.toLowerCase();
-        if (day.indexOf("#") !== -1) {
+        if (day.indexOf("#") === -1) {
+            day = 'monday';
+        } else {
             day = day.replace("#", "");
         }
         if (day && (day === 'wednesday' || day === 'tuesday' || day === 'monday')) {
