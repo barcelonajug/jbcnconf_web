@@ -672,6 +672,17 @@
     },
     {
       "enabled": "1",
+      "name": "Kamel Aouane",
+      "company": "Adaptive",
+      "description": "Senior consultant trading technologies and cryptocurrencies at Adaptive Financial Consulting",
+      "biography": "Kamel is a senior consultant and project manager with 10+ years experience in trading technology for the financial markets. His current focus is on cryptocurrencies developing real-time systems that handle thousands of trades in sub-millisecond timeframes. Currently working at Adaptive Financial Consulting to develop a next generation cryptocurrencies trading platform.",
+      "image": "assets/img/speakers/kamel-anouane.jpg",
+      "ref": "fdacc84b83631b3a1a3af81e6d639550b02ed2a7",
+      "url": "infoSpeaker.html?ref=fdacc84b83631b3a1a3af81e6d639550b02ed2a7",
+      "linkedin": "https://www.linkedin.com/in/kamel-aouane-00292b14/"
+    },
+    {
+      "enabled": "1",
       "name": "Clement Escoffier",
       "company": "RedHat",
       "description": "Reactive Chief Architect at Red Hat",
