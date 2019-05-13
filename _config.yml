@@ -11,4 +11,4 @@ defaults:
 layouts_dir: 2019/_layouts
 includes_dir: 2019/_includes
 data_dir: 2019/_data
-exclude: ["vendor","README.*","/tools/**", "Gemfile", "Rakefile"]
+exclude: ["vendor","README.*","/tools/**", "Gemfile", "Rakefile", "*.i*"]
