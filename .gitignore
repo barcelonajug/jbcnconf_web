@@ -3,6 +3,8 @@
 
 _site
 *.iml
+*.iws
+*.ipr
 .idea
 
 tools/client_id.json
