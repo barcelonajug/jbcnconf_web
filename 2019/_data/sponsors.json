@@ -145,6 +145,14 @@
         "src": "/assets/img/sponsors/zara.jpg",
         "alt": "Zara"
       }
+    },
+    {
+      "name": "eDreams",
+      "href": "https://www.edreams.com",
+      "image": {
+        "src": "/assets/img/sponsors/edreams.png",
+        "alt": "eDreams"
+      }
     }
   ],
   "galaxy-basic": [
