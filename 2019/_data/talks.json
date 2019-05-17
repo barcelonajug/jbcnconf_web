@@ -1261,6 +1261,19 @@
         "90546d2c1a416a9539656c0765740758dfbce3fa"
       ],
       "scheduleId":"#MON-TC1-SE1"
+    },
+    {
+      "id": "5cddab5638da163e2eef7cde",
+      "title": "Connecting the dots (in video games world)",
+      "abstract": "Game development is not too different from other software creation... or is it? In game development, a software coder finds many different roles not ever seen in any other industry, such as game and economy designers, concept/2D/3D artists, live ops, tech programmers, producers, and of course the always present Client+Server engineers (Frontend+Backend). With such as heterogeneous ecosystem, a +2 years development of a project becomes an interesting journey across many iterations and ideas, always full of challenges and passion. For further knowledge about all these roles and the interaction between them, we will review a postmortem of an already developed game in the Ubisoft Barcelona Mobile studio, discovering how so many professionals work together from the very first day until the world wide launch (and beyond).",
+      "type": "talk",
+      "tags": [
+        "games"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "808c0d648e5b763cfd7bc95df0d6ff91daf997ae"
+      ]
     }
   ]
 }
