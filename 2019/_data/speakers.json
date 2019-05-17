@@ -1007,6 +1007,18 @@
       "image": "assets/img/speakers/rafael-clemente.jpg",
       "ref": "90546d2c1a416a9539656c0765740758dfbce3fa",
       "url": "infoSpeaker.html?ref=90546d2c1a416a9539656c0765740758dfbce3fa"
+    },
+    {
+      "enabled": "1",
+      "name": "Alfonso Maestre",
+      "company": "Ubisoft",
+      "description": "Lead Server Programmer",
+      "biography": "Alfonso Maestre has been developing software based on Java and open source platforms for the last 15 years, coding and leading teams in a wide range of fields, from banking, cryptography, public administration, GIS, telco services at Telefonica R&D and consulting for startups. In a new iteration, he landed in the videogames industry at Ubisoft Mobile Barcelona, where he works as Lead Server Engineer, on the design and administration of high availability systems, live ops tools and gameplay development. ",
+      "image": "assets/img/speakers/alfonso-maestre.jpg",
+      "ref": "808c0d648e5b763cfd7bc95df0d6ff91daf997ae",
+      "url": "infoSpeaker.html?ref=808c0d648e5b763cfd7bc95df0d6ff91daf997ae",
+      "twitter": "@fonsite",
+      "linkedin": "https://www.linkedin.com/in/fonsito"
     }
   ]
 }
