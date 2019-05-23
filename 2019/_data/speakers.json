@@ -740,13 +740,16 @@
     },
     {
       "enabled": "1",
-      "name": "Oscar Sacristán Agulló",
+      "name": "Anton Maria Rodriguez Yuste",
       "company": "Zara",
-      "description": "Data Engineer at Zara",
-      "biography": "Oscar is part of the Data Engineer team from Zara. The goal of this team is to design architectures and build solutions for the new informational use-cases required by the business users.\n\nHis background at several start-ups as product owner defining innovative solutions helps the cultural change of moving from a project based approach to a product based one.",
-      "image": "assets/img/speakers/oscar-agullo.jpeg",
-      "ref": "105687f25615197c08e426d7035ba0fc5847b6ca",
-      "url": "infoSpeaker.html?ref=105687f25615197c08e426d7035ba0fc5847b6ca"
+      "description": "Senior Software Engineer at Inditex",
+      "biography": "Antón is a Software Engineer passionate about development with JVM languages, distributed systems and Deployment pipelines, mainly for big companies where technology is part of the business core. In his career, he had several roles from intern developer to technical director which allowed him to earn a lot of experience breaking things and improving them before someone notices it.\nHe's also involved in the local and national Tech community, organizing the Vigo and Coruña Java User Groups (VigoJUG & CoruñaJUG), the biggest Java conference in his area (XantarJ), speaking at international conferences and always willing to speak about how to promote excellence and diversity in the Tech industry.",
+      "image": "assets/img/speakers/anton-yuste.jpg",
+      "ref": "a89429af4015719f02428545d2de6155c5bf7b46",
+      "url": "infoSpeaker.html?ref=a89429af4015719f02428545d2de6155c5bf7b46",
+      "homepage": "http://www.galiglobal.com/",
+      "twitter": "@antonmry",
+      "linkedin": "https://www.linkedin.com/in/antonmry/"
     },
     {
       "enabled": "1",

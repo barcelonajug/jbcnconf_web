@@ -942,8 +942,8 @@
     },
     {
       "id": "5caa579738da161235721c42",
-      "title": "Real-time stock management, Kappa Architecture",
-      "abstract": "Every day increases the pressure of the business analyst to consume the relevant information in near real time to support real time decision, the data are produced in a distributed and decentralized along the company's facilities around the world and from different data sources.<br><br>In this session will talk about a real business case and how we approach this problem with a Kappa architecture.",
+      "title": "Making possible real-time stock management with the Kappa Architecture",
+      "abstract": "Every day our business analysts need to consume the relevant information as fast as possible to support real-time decisions. It's a big challenge: the data are produced in a distributed and decentralized along the company's facilities around the world and from different data sources.\nIn this session, we'll talk about how we approach this problem with a Kappa architecture. We'll share how to face the design of complex architectures and the lessons learnt doing it. ",
       "type": "talk",
       "tags": [
         "Active-Active Topologies",
@@ -951,11 +951,11 @@
         "Coherence Datagrid",
         "Java Data Services",
         "ESB",
-        "API Management"
+        "API Management…"
       ],
       "level": "middle",
       "speakers": [
-        "105687f25615197c08e426d7035ba0fc5847b6ca",
+        "a89429af4015719f02428545d2de6155c5bf7b46",
         "5d23dd362b4bb5d1fd74cdcecdcd9278ed5b98e5"
       ],
       "scheduleId":"#TUE-TC4-SE6"
