@@ -4,6 +4,10 @@
       "href": "/#JBCN"
     },
     {
+      "label" : "News",
+      "href" : "/news.html"
+    },
+    {
       "label": "Schedule",
       "href": "/schedule.html"
     },
