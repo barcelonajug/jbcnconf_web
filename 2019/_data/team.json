@@ -67,7 +67,7 @@
       "linkedin": "https://www.linkedin.com/in/abels1",
       "twitter": "https://twitter.com/abelsromero",
       "image": {
-        "url": "/assets/img/team/abel.jpg",
+        "url": "/assets/img/team/abelsromero.jpg",
         "alt": "Abel Salgado"
       }
     },
@@ -93,6 +93,18 @@
       "image": {
         "url": "/assets/img/team/smasoni.jpg",
         "alt": "Simone Masoni, Java Lover"
+      }
+    },
+    {
+      "name": "Anna Kurman",
+      "position": "Software Sorceress",
+      "role": "Troll",
+      "bio": "bla",
+      "linkedin": "https://www.linkedin.com/in/anna-kurman-98894415/",
+      "twitter": "https://twitter.com/freyliis",
+      "image": {
+        "url": "/assets/img/team/anna-kurman.jpg",
+        "alt": "Anna Kurman"
       }
     }
   ]
