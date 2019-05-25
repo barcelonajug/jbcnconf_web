@@ -126,17 +126,18 @@
       "scheduleId":"#MON-TC2-SE3"
     },
     {
-      "id": "5c1bbfa338da160e621b7a80",
-      "title": "Micro Frontend: the microservice puzzle extended to frontend",
-      "abstract": "Microservices are at the top of the hype right now and perhaps you’ve already fallen for them and are replacing your good old monolith for new shiny microservices on the back-end.\n\nBut have you ever considered doing the same on the front-end? Even hype-r (or crazy-er, we’ll let you judge), have you tried mixing different JavaScript frameworks (let’s say AngularJS, Angular and React for example) in a Single Page Application?\n\nThat’s what Micro Frontend is and that’s what we’ve done at Saagie. In this talk I’d like to give you feedback on the different architectures we’ve tried, their pros and cons and help you find which one would be the best for you, just in case you’d like to opt for the dark and crazy side of front-end.",
+      "id": "5ce93e1338da1653a0966532",
+      "title": "Testing in Production. From DevTestOops to DevTestOps",
+      "abstract": "DevOps is growing in popularity in last years, particularly in (software) companies that want to reduce its lead time to be measured in days/weeks instead of months/years.\n\nIf you want that your software does the right things and the things right, you need to test it implacably.\n\nThe big problem is that companies see (and it is) testing phase as the bottleneck of the process slowing down product release. To change that, we need a new way of testing our applications, making the release process of an application a testing process as well and involve the QA since the beginning within the team. QAs are not a separate team anymore (DevTestOps).\n\nHow the testing pyramid is affected? In this session, we will not only describe but actively demonstrate several techniques that you can use immediately following the session for starting testing in production and speeding up your release cycle to unimaginable limits.",
       "type": "talk",
       "tags": [
-        "micro-services",
-        "front-end"
+        "testing",
+        "devops",
+        "microservices"
       ],
       "level": "beginner",
       "speakers": [
-        "df5c3701545056ca5229efe9b77ad91acf69ea02"
+        "1cf43210c8515585e52e4d2f6f2e5e0f582049d8"
       ],
       "scheduleId":"#TUE-TC5-SE3"
     },
