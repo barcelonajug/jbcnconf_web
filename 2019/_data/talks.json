@@ -78,22 +78,6 @@
       "scheduleId":"#WED-TC1-SE2"
     },
     {
-      "id": "5c196e1138da165f64820b2b",
-      "title": "Fantastic Frameworks and How to Avoid Them",
-      "abstract": "As high-level programming languages users, we love bold promises of getting all our problems solved just by adding a few annotations. \n\nThose few annotations come often bundled with other magical techniques like classpath scanning or dynamic proxies… and creep into our domain models contributing to long-term maintainability issues... and/or consultancy and premium enterprise support costs.\n\nIn this session, we’ll have a look at the cons of adopting invasive frameworks and how we can minimize the problems they cause.",
-      "type": "talk",
-      "tags": [
-        "Java",
-        "Architecture",
-        "Methodology"
-      ],
-      "level": "middle",
-      "speakers": [
-        "dcf4d5f83bc2dab51fb90922055352668da14a18"
-      ],
-      "scheduleId":"#TUE-TC2-SE7"
-    },
-    {
       "id": "5c196e2c38da165f64820b2c",
       "title": "Bulletproof Java Enterprise Applications for The Hard Production Life",
       "abstract": "It’s one thing to develop Java Enterprise applications, to execute, and validate them in test environments. Running the application in production, however, is a whole other story. Production life is harsh, unforgivable and the ultimate verification whether your application is able to add value to its users. Besides knowing the Java Enterprise APIs, developers therefore also need to know how to meet production requirements.\n\nThis session shows which non-functional requirements we enterprise developers need to be aware of to build stable and resilient applications. We will see different resiliency approaches, such as circuit breakers, bulkheads, or backpressure, in action. We will implement these concepts using the Java Enterprise API, MicroProfile, and certain Java EE extensions. Furthermore, we will see, how especially service meshes enable us to add resiliency to multiple microservices in a transparent, redundancy-free fashion.\n\nAdding telemetry to our applications is crucial to gather insights about the application under production load. We will see how to enhance our microservices with concerns such as monitoring, tracing, or logging in a minimalistic way.\n\nAll of the time will be spent live-demoing Java Enterprise applications that are deployed to an Istio cluster.",
@@ -437,26 +421,6 @@
         "40afe10a3ea9ec161d15ade201a0101fa8f635f4"
       ],
       "scheduleId":"#MON-TC4-SE3"
-    },
-    {
-      "id": "5c48ed3b9034ae38180b14e0",
-      "title": "Retrospective Sailing Workshop",
-      "abstract": "Hands on workshop for teams to help implement and improve Retrospectives within teams. Agile retrospectives are a great practice for helping teams to reflect on what’s going well and what could be better, and identify opportunities for improvement and change.  Retrospectives within teams helps to encourage self organisation, management and improvement. Introduction to Retrospectives: Formats for running Retrospectives, Practical exercises – Retrospective Sailing Game, Facilitating a Retrospective, Outcomes and Measures using Retrospectives. Retrospective Sailing is an agile reflection game demonstrated in this hands-on workshop. You can play as an individual in any role, as part of a development team, or with clients and customers to help understand how your journey is going. It will give you a new, fun way to run a retrospective to help to gain your bearings, identify what’s putting the wind in your sails, the anchors holding you back, and discover hidden treasure. Then you’ll plot your course and map a way forward that raises those anchors and catches the tide and a fair wind. You will be introduced to the game and try it out. There will be case examples and tips for facilitating the game too. Join us for some constructive fun, practical outcomes, and a useful tool to take back to the office. Helping teams embed continuous reflection and improvement into their work. Retrospective Sailing helps teams to reflect and map their way forward easily, in a fun, tactile and visual way. Review what's going well, what could go better, and ensure you are responding regularly to the changing horizon.",
-      "requirements":{
-        "htmlText": "No laptops or other requirements for this workshop :)"
-      },
-      "type": "workshop",
-      "tags": [
-        "Agile",
-        "Retrospectives",
-        "Teams",
-        "improvement"
-      ],
-      "level": "beginner",
-      "speakers": [
-        "8ba341ede35371519196bc6a3c2cd11e4789c34a"
-      ],
-      "scheduleId":"#WED-TC5-SE1"
     },
     {
       "id": "5c5225df9034ae38180b151e",
