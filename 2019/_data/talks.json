@@ -1279,6 +1279,23 @@
         "808c0d648e5b763cfd7bc95df0d6ff91daf997ae"
       ],
       "scheduleId":"#TUE-TC1-SE8"
+    },
+    {
+      "id": "5c48ed3b9034ae38180b14e0",
+      "title": "Boost the skills of programming with Code Retreat",
+      "abstract": "If you are new to programming or have been doing it for a long time, it's a good idea to have solid fundamental programming skills: a variety of techniques and good communication skills. Using the format from Code Retreat (https://www.coderetreat.org/) you will practise coding a simple algorithm in pairs. Then you will delete your code, and write it again in a different style. We'll do this a few times using a variety of styles and techniques.  This is a low-stress workshop to practise and improve programming skills, so come along and enjoy learning together!\n\nRequirements:  Laptop (optional - we need 1 between every 2 attendees) & an open mind.",
+      "type": "workshop",
+      "tags": [
+        "Agile",
+        "Retrospectives",
+        "Teams",
+        "improvement"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "0e1cca9625d3ede62146053089a6396560c88fab"
+      ],
+      "scheduleId":"#WED-TC5-SE1"
     }
   ]
 }
