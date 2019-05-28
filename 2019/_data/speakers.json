@@ -988,6 +988,19 @@
       "url": "infoSpeaker.html?ref=808c0d648e5b763cfd7bc95df0d6ff91daf997ae",
       "twitter": "@fonsite",
       "linkedin": "https://www.linkedin.com/in/fonsito"
+    },
+    {
+      "enabled": "1",
+      "name": "Matthew Gilliard",
+      "company": "Twilio",
+      "description": "Developer Evangelist at Twilio",
+      "biography": "Matthew is a Developer Evangelist for Twilio, equipping developers with the power to change how communication works.  His past lives include programming Java since 1.4, Clojure at Oracle and teaching English as a Second Language at a high-school.",
+      "image": "assets/img/speakers/gilliard.jpg",
+      "ref": "0e1cca9625d3ede62146053089a6396560c88fab",
+      "url": "infoSpeaker.html?ref=0e1cca9625d3ede62146053089a6396560c88fab",
+      "homepage": "http://blog.gilliard.lol",
+      "twitter": "@MaximumGilliard",
+      "linkedin": ""
     }
   ]
 }
