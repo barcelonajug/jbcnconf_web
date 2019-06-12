@@ -13,15 +13,35 @@
     },
     {
       "label": "Talks",
-      "href": "/talks.html"
+      "href": "/#Talks",
+      "items": [
+        {
+          "label": "List",
+          "href": "/talks.html"
+        },
+        {
+          "label": "feedback",
+          "href": "/feedback-talks.html"
+        }
+      ]
+    },
+    {
+      "label": "Workshops",
+      "href": "/#Workshops",
+      "items": [
+        {
+          "label": "List",
+          "href": "/workshops.html"
+        },
+        {
+          "label": "feedback",
+          "href": "/feedback-workshops.html"
+        }
+      ]
     },
     {
       "label": "Speakers",
       "href": "/speakers.html"
-    },
-    {
-      "label": "Workshops",
-      "href": "/workshops.html"
     },
     {
       "label": "Sponsors",

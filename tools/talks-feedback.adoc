@@ -1,0 +1,42 @@
+= Talks
+:icons: font
+:linkattrs:
+
+== Feedback summary
+
+[cols="1,16,5",width=75%,options="header"]
+|=== 
+
+| | Talk | Speaker(s)
+
+|1 | http://www.jbcnconf.com/2019/infoTalk.html?id=5caa65b338da161235721c4a[Introduce girls to programming and reduce the gender gap] |Ansgar Schulze Everding, Laura Luiz
+|2 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c3e5e7f38da16698cf41b29[Evolving a Pragmatic, Clean Architecture - A Craftsman's Guide] |Victor Rentea
+|3 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c48ec849034ae38180b14de[Type Inference: Friend or Foe] |Venkat Subramaniam
+|4 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c196dd738da165f64820b29[Reactive Spring] |Josh Long
+|5 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c940a6338da165dcdf16004[Supersonic, Subatomic Java] |Burr Sutter
+|6 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c9409a238da165dcdf16000[Cryptocurrency algo-trading testing in Scala] |Bruno Bonanno, Kamel Aouane
+|7 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c5b575a38da160d5d9c8e0f[Introduction to Micronaut: Lightweight Microservices with Ahead of Time Compilation] |Graeme Rocher
+|8 | http://www.jbcnconf.com/2019/infoTalk.html?id=5caa5b3038da161235721c43[GraalVM - The polyglot virtual machine for all your programs] |Jorge Hidalgo
+|9 | http://www.jbcnconf.com/2019/infoTalk.html?id=5cd1f98438da161cb0381424[Running Serverless Continuous Delivery] |Viktor Farcic
+|10 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c5b580038da160d5d9c8e13[Bust the burglars: Machine Learning with TensorFlow and Apache Kafka] |Erik-Berndt Scheper
+|11 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c19647038da16778cb20fc5[From object oriented to functional and back: the pursuit of pragmatic programming] |Mario Fusco
+|12 | http://www.jbcnconf.com/2019/infoTalk.html?id=5ce93e1338da1653a0966532[Testing in Production. From DevTestOops to DevTestOps] |Alex Soto
+|13 | http://www.jbcnconf.com/2019/infoTalk.html?id=5caa65c638da161235721c4b[Memory footprint of a Java process] |Andrei Pangin
+|14 | http://www.jbcnconf.com/2019/infoTalk.html?id=5caa658938da161235721c48[Undercover Kotlin: Using Kotlin without tipping your hand] |Justin Lee
+|15 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c36672c38da16698cf41add[Me, My Code and I] |Rosanne Joosten
+|16 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c36688538da16698cf41ae0[Responsible Microservices] |Nate Schutta
+|17 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c728afd38da165675388579[Java Futures, 2019 Edition] |Brian Goetz
+|18 | http://www.jbcnconf.com/2019/infoTalk.html?id=5cbe17e438da165ac54cf420[Launching the Micro Future: Micronaut with GraalVM in Practice] |Marcus Fihlon
+|19 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c3e5e8838da16698cf41b2a[Amazon Corretto] |Arun Gupta
+|20 | http://www.jbcnconf.com/2019/infoTalk.html?id=5caa62f838da161235721c45[The SCRUM addiction (the SM tempts you, but you are the one taking it)] |Fran Avila
+|21 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c48ed809034ae38180b14e2[Continuous deployment to Kubernetes with the Google Container Tools] |David Gageot
+|22 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c196e2c38da165f64820b2c[Bulletproof Java Enterprise Applications for The Hard Production Life] |Sebastian Daschner
+|23 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c5b57ec38da160d5d9c8e12[IoT Sensor Analytics with Apache Kafka, KSQL and TensorFlow] |Kai Waehner
+
+|===
+
+[NOTE]
+====
+* Aggregated votes from devices in rooms and mobile app
+* Attendees scored the talk from 1 to 5 
+====

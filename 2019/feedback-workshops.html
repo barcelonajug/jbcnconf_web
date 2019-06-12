@@ -1,59 +1,60 @@
 ---
 layout: default
 title: JBCNConf - Workshops's feedback
-bodyClass: home page-template-default page page-id-7 eventstation-class  eventstation-shop-column-4 wpb-js-composer js-comp-ver-5.0.1 vc_responsive
+bodyClass: home page-template-default page page-id-7 eventstation-class eventstation-shop-column-4 wpb-js-composer js-comp-ver-5.0.1 vc_responsive
 ---
 {% include base.html %}
 
-
 <div class="content-heading">
-    <div class="container-fluid">
-        <div class="heading-navigation">
-            <i class="fa fa-address-book"></i>
-            <ul>
-                <li>Home</li>
-                <li>&#47;</li>
-                <li>Talks</li>
-            </ul>
-        </div>
-
-        <div class="heading-title">
-        </div>
+  <div class="container-fluid">
+    <div class="heading-navigation">
+      <i class="fa fa-address-book"></i>
+      <ul>
+        <li>Home</li>
+        <li>&#47;</li>
+        <li>Workshops</li>
+      </ul>
     </div>
+
+    <div class="heading-title">
+    </div>
+  </div>
 </div>
 
 <div class="site-sub-content clearfix">
-    <div class="container-fluid">
-        <div class="row alternative-row">
-            <div class="col-lg-9 col-sm-9 col-xs-12 site-content-left">
-                <div class="category-post-list post-list single-list">
-                    <article id="post-294"
-                             class="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
-                        <div class="post-wrapper">
-                            <div class="post-header">
-                                <ul class="post-information">
+  <div class="container-fluid">
+    <div class="row alternative-row">
+      <div class="col-lg-12 col-sm-12 col-xs-12 site-content-center">
+        <div class="category-post-list post-list single-list">
+          <article id="post-294"
+            class="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
 
-                                </ul>
-                                <h2>Workshops</h2>
-                                <p>
-                                    {{site.data.homepage.workshop_days}}
-                                </p>
-
-                            </div>
-
-                            {% include feedback/workshops.html %}
-
-                        </div>
-                        * Attendees scored the talk or workshop from 1 to 5
-                    </article>
+            <div class="post-wrapper">
+              <div class="post-header">
+                <ul class="post-information"></ul>
+                <h2></h2>
+                <h2>Workshops feedback</h2>
+              </div>
+              <div class="post-content">
+                <style>
+                  p {margin-bottom: 5px}
+                  #content a {text-decoration: underline;}
+                  th.halign-left,td.halign-left{text-align:left}
+                  th.halign-right,td.halign-right{text-align:right}
+                  th.halign-center,td.halign-center{text-align:center}
+                  th.valign-top,td.valign-top{vertical-align:top}
+                  th.valign-bottom,td.valign-bottom{vertical-align:bottom}
+                  th.valign-middle,td.valign-middle{vertical-align:middle}
+                </style>
+                <div id="content">
+                  {% include feedback/feedback-workshops-table.html %}
                 </div>
+              </div>
             </div>
 
+          </article>
         </div>
+      </div>
     </div>
-
-    <script type='text/javascript'
-            src='{{ base }}/assets/js/tag-colors.js'></script>
-
+  </div>
 </div>
-
