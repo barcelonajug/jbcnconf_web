@@ -4,6 +4,8 @@
 
 == Feedback summary
 
+These are the top-half ranked talks of JBCNConf 2019.
+
 [cols="1,16,5",width=75%,options="header"]
 |=== 
 
@@ -32,6 +34,20 @@
 |21 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c48ed809034ae38180b14e2[Continuous deployment to Kubernetes with the Google Container Tools] |David Gageot
 |22 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c196e2c38da165f64820b2c[Bulletproof Java Enterprise Applications for The Hard Production Life] |Sebastian Daschner
 |23 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c5b57ec38da160d5d9c8e12[IoT Sensor Analytics with Apache Kafka, KSQL and TensorFlow] |Kai Waehner
+|24 | http://www.jbcnconf.com/2019/infoTalk.html?id=5caa579738da161235721c42[Making possible real-time stock management with the Kappa Architecture] |Anton Maria Rodriguez Yuste, Miguel García Lorenzo
+|25 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c48ec449034ae38180b14dd[My Kotlin is better than your Java!] |Paulien van Alst, Brian Vermeer
+|26 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c5b57e038da160d5d9c8e11[Tips and Tricks about Apache Kafka in the Cloud for Java Developers] |Ricardo Ferreira
+|27 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c94094e38da165dcdf15ffe[Slicing Monolith into a CQRS / Event sourcing microservice: joys and pains] |Gerard Llorente, Juan Luis Ozáez
+|28 | http://www.jbcnconf.com/2019/infoTalk.html?id=5cb8340838da166e7a4e7057[How to win the war against a PHP Legacy Monolith, battle by battle] |Albert Roig , Tomás Casquero
+|29 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c9408bb38da165dcdf15ffb[Winning the language war - How N26 decided to adopt Kotlin] |Patrick Kua
+|30 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c36675b38da16698cf41ade[Nowadays Architecture Trends, from Monolith to Microservices and Serverless] |Alberto Salazar
+|31 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c64984138da16483151bb38[Extending Kubernetes with Spring Cloud] |Mauricio Salatino
+|32 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c48ec969034ae38180b14df[Zero Downtime Migrations in Istio era] |Alex Soto
+|33 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c940a1438da165dcdf16003[Subatomic Reactive Systems with Quarkus] |Clement Escoffier
+|34 | http://www.jbcnconf.com/2019/infoTalk.html?id=5caa689138da161235721c4c[From monolith to microservices via people & principles] |Sergio Martinez González, Erik Torres Serrano
+|35 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c5225d49034ae38180b151d[Real-world HTTP performance benchmarking, lessons learned] |Julien Viet
+|36 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c48ed639034ae38180b14e1[Java n + 1: What's in store for Java 12 and beyond] |Michel Schudel
+|37 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c5225df9034ae38180b151e[Serverless Java Challenges and Triumphs] |David Delabassee
 
 |===
 
