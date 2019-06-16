@@ -1,0 +1,23 @@
+= Workshop
+:icons: font
+:linkattrs:
+
+== Feedback summary
+
+[cols="1,16,5",width=75%,options="header"]
+|=== 
+| | Workshop | Speaker(s)
+
+|1 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c196e0238da165f64820b2a[The Istio Workshop] |Rafael Benevides
+|2 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c19651d38da16778cb20fc6[Poker Hands - Refactoring into Chain of Responsibility] |Wlodek Krakowski
+|3 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c48ed3b9034ae38180b14e0[Boost the skills of programming with Code Retreat] |Matthew Gilliard
+|4 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c3b3b1938da16698cf41b09[Full Stack Reactive with React and Spring WebFlux] |Matt Raible, Josh Long
+|5 | http://www.jbcnconf.com/2019/infoTalk.html?id=5c770fff38da167fbce02cea[OpenShift for Developers in Action] |Josh Wood, Jorge Morales
+
+|===
+
+[NOTE]
+====
+* Aggregated votes from devices in rooms and mobile app
+* Attendees scored the talk from 1 to 5 
+====
