@@ -4,6 +4,8 @@
 
 == Feedback summary
 
+These are the top-half ranked workshops of JBCNConf 2019.
+
 [cols="1,16,5",width=75%,options="header"]
 |=== 
 | | Workshop | Speaker(s)
