@@ -16,7 +16,8 @@
       "speakers": [
         "16fd0826550372e61a8c17d3acdf30d0871de728"
       ],
-      "scheduleId":"#MON-TC1-SE6"
+      "scheduleId":"#MON-TC1-SE6",
+      "video": "aRYIEoh5tPk"
     },
     {
       "id": "5c19651d38da16778cb20fc6",
@@ -55,7 +56,8 @@
       "speakers": [
         "3803f8e428feb905178afd9025cfc53fb47a8abc"
       ],
-      "scheduleId":"#MON-TC1-SE4"
+      "scheduleId":"#MON-TC1-SE4",
+      "video": "9Z8kIDqLh7E"
     },
     {
       "id": "5c196e0238da165f64820b2a",
@@ -91,7 +93,8 @@
       "speakers": [
         "1799a6d25dbe9b65e5a25078815b20fc9af956f4"
       ],
-      "scheduleId":"#TUE-TC2-SE5"
+      "scheduleId":"#TUE-TC2-SE5",
+      "video": "AEpRmnyE_K0"
     },
     {
       "id": "5c196e3638da165f64820b2d",
@@ -107,7 +110,8 @@
       "speakers": [
         "d43c4a28c6222750fcef9b5b50013ea8ed897d19"
       ],
-      "scheduleId":"#MON-TC2-SE3"
+      "scheduleId":"#MON-TC2-SE3",
+      "video": "UR-Mue-_5b8"
     },
     {
       "id": "5ce93e1338da1653a0966532",
@@ -139,7 +143,8 @@
       "speakers": [
         "8f62b44cd97764484d759b364f5bf32e558a5edd"
       ],
-      "scheduleId":"#TUE-TC2-SE3"
+      "scheduleId":"#TUE-TC2-SE3",
+      "video": "1A6woIjltrw"
     },
     {
       "abstract": "Some say they can read people and tell by their expressions or body language what kind of personality they have. But what if it is possible to read people from the code they write? It would perhaps be possible to tell who to avoid because they are a little bit aggressive and who to approach because they like to help out other people. In this talk we will explore what research is conducted on the relation between personality traits and programming semantics.",
@@ -194,7 +199,8 @@
       "speakers": [
         "5f729db9302ead529bf5818e137c0d3117f33fec"
       ],
-      "scheduleId":"#TUE-TC2-SE4"
+      "scheduleId":"#TUE-TC2-SE4",
+      "video": "HpoqFjeNO7s"
     },
     {
       "id": "5c3b3e4538da16698cf41b0a",
@@ -210,7 +216,8 @@
       "speakers": [
         "1910f00e3b6a8220979782a1355b8570de1beca0"
       ],
-      "scheduleId":"#MON-TC1-SE7"
+      "scheduleId":"#MON-TC1-SE7",
+      "video": "Zfgc7qJEZZ0"
     },
     {
       "id": "5c44693a9034ae38180b14b2",
@@ -249,7 +256,8 @@
       "speakers": [
         "d27efdbbf9293c1d2cbcb35559c2558a0707a484"
       ],
-      "scheduleId":"#TUE-TC2-SE2"
+      "scheduleId":"#TUE-TC2-SE2",
+      "video": "WcU0EImGI_g"
     },
     {
       "id": "5c36688538da16698cf41ae0",
@@ -280,7 +288,8 @@
       "speakers": [
         "d2c05e60af702984122c68c8a46fc574fba6f726"
       ],
-      "scheduleId":"#MON-TC1-SE3"
+      "scheduleId":"#MON-TC1-SE3",
+      "video": "WYA4HORXZe8"
     },
     {
       "abstract": "Amazon Corretto is a no-cost, multiplatform, production-ready distribution of the OpenJDK. Corretto comes with long-term support that will include performance enhancements and security fixes. Amazon runs Corretto internally on thousands of production services and Corretto is certified as compatible with the Java SE standard. With Corretto, you can develop and run Java applications on popular operating systems, including Amazon Linux 2, Windows, and macOS. This talk will explain on why Amazon Corretto was created. Upstream compatibility to OpenJDK is a core tenet of Corretto. Attendees will learn how an upstream OpenJDK build is published as Corretto. You’ll learn how to get started with Corretto and collaborate in open source.",
@@ -295,7 +304,8 @@
       ],
       "title": "Amazon Corretto",
       "type": "talk",
-      "scheduleId":"#MON-TC2-SE4"
+      "scheduleId":"#MON-TC2-SE4",
+      "video": "gwBf2WCrxJw"
     },
     {
       "id": "5c36683738da16698cf41adf",
@@ -342,7 +352,8 @@
       "speakers": [
         "b728a02f2048c81298ca0a5a9bee9e82d7318f18"
       ],
-      "scheduleId":"#TUE-TC2-SE6"
+      "scheduleId":"#TUE-TC2-SE6",
+      "video": "XKllWWiDxTs"
     },
     {
       "id": "5c48ec449034ae38180b14dd",
@@ -436,7 +447,8 @@
       "speakers": [
         "a744f52d967ebb543100a1215f9fe38080a664f0"
       ],
-      "scheduleId":"#MON-TC2-SE6"
+      "scheduleId":"#MON-TC2-SE6",
+      "video": "Q_41QgYpDrk"
     },
     {
       "id": "5c5225d49034ae38180b151d",
@@ -452,7 +464,8 @@
       "speakers": [
         "0ad9d5343d1ee682de4fd65c3df75aac55029fac"
       ],
-      "scheduleId":"#TUE-TC1-SE3"
+      "scheduleId":"#TUE-TC1-SE3",
+      "video": "EtSpRZbfSOc"
     },
     {
       "id": "5c5b57ec38da160d5d9c8e12",
@@ -518,7 +531,8 @@
       "speakers": [
         "6c31223d3be1de9ea66a96974ec4f524cd6a786f"
       ],
-      "scheduleId":"#MON-TC2-SE7"
+      "scheduleId":"#MON-TC2-SE7",
+      "video": "26cHxMZaPkc"
     },
     {
       "id": "5c5225f49034ae38180b151f",
@@ -581,7 +595,8 @@
         "ea8cef2c8d8bc8f303ad8e7436c5be94f6dafcd2",
         "c9f19a5a2dbbfed36664ef31c4ee86c0dfbbe388"
       ],
-      "scheduleId":"#MON-TC1-SE5"
+      "scheduleId":"#MON-TC1-SE5",
+      "video": "r72w0sKKy9Q"
     },
     {
       "id": "5c5b580038da160d5d9c8e13",
@@ -685,7 +700,8 @@
       "speakers": [
         "a71020196a6877a18aa38df8e51e12fc6807d6c7"
       ],
-      "scheduleId":"#TUE-TC1-SE6"
+      "scheduleId":"#TUE-TC1-SE6",
+      "video": "KVxloQHRYvU"
     },
     {
       "id": "5c728b1c38da16567538857a",
@@ -701,7 +717,8 @@
       "speakers": [
         "da0ad51569e9380e792e4cc5673578a58850fe60"
       ],
-      "scheduleId":"#TUE-TC1-SE1"
+      "scheduleId":"#TUE-TC1-SE1",
+      "video": "tK1ujeCn97g"
     },
     {
       "id": "5c728afd38da165675388579",
@@ -716,7 +733,8 @@
       "speakers": [
         "da0ad51569e9380e792e4cc5673578a58850fe60"
       ],
-      "scheduleId":"#TUE-TC1-SE4"
+      "scheduleId":"#TUE-TC1-SE4",
+      "video": "-VMVuBRbz50"
     },
     {
       "id": "5c770fff38da167fbce02cea",
@@ -755,7 +773,8 @@
       "speakers": [
         "415f956d463d815e32e0fd2c3bca6422b9babe4e"
       ],
-      "scheduleId":"#MON-TC1-SE8"
+      "scheduleId":"#MON-TC1-SE8",
+      "video": "0n1Jqt8c4Fs"
     },
     {
       "id": "5c7714b538da167fbce02ceb",
@@ -788,7 +807,8 @@
       "speakers": [
         "893a2efbfaeeb5ce34ced62745778f7a8b02c1b8"
       ],
-      "scheduleId":"#TUE-TC1-SE7"
+      "scheduleId":"#TUE-TC1-SE7",
+      "video": "eh-ibDy0Hy8"
     },
     {
       "id": "5c770f8438da167fbce02ce9",
@@ -862,7 +882,8 @@
       "speakers": [
         "2cd0f524bac371cd77aab99978e3e2e8ec0a4529"
       ],
-      "scheduleId":"#TUE-TC1-SE2"
+      "scheduleId":"#TUE-TC1-SE2",
+      "video": "nRAwOU11c_c"
     },
     {
       "id": "5c940a6338da165dcdf16004",
@@ -879,7 +900,8 @@
       "speakers": [
         "27509a8795aeb61050e21551db71e2386721a968"
       ],
-      "scheduleId":"#MON-TC1-SE2"
+      "scheduleId":"#MON-TC1-SE2",
+      "video": "1VQt5yZaLbk"
     },
     {
       "id": "5c9409a238da165dcdf16000",
@@ -914,7 +936,8 @@
       "speakers": [
         "dc47e12a60c10690bfbad90e0de30b0201d32a87"
       ],
-      "scheduleId":"#TUE-TC1-SE5"
+      "scheduleId":"#TUE-TC1-SE5",
+      "video": "trwJxZawglc"
     },
     {
       "id": "5c9409fa38da165dcdf16002",
@@ -1029,7 +1052,8 @@
       "speakers": [
         "0ba89c51baf9f8542188bd750973e0767fbcaa68"
       ],
-      "scheduleId":"#MON-TC2-SE5"
+      "scheduleId":"#MON-TC2-SE5",
+      "video": "PEmsqzbiNFc"
     },
     {
       "id": "5caa65b338da161235721c4a",
@@ -1047,7 +1071,8 @@
         "27a9df1b0b29d676d6c2cd7c00880eb81d60b1d1",
         "36bd706bf1436fb7ecef25ec7e00051bdcce12d3"
       ],
-      "scheduleId":"#MON-TC2-SE8"
+      "scheduleId":"#MON-TC2-SE8",
+      "video": "FPM0w1uZrrM"
     },
     {
       "id": "5caa632138da161235721c46",
@@ -1264,7 +1289,8 @@
       "speakers": [
         "90546d2c1a416a9539656c0765740758dfbce3fa"
       ],
-      "scheduleId":"#MON-TC1-SE1"
+      "scheduleId":"#MON-TC1-SE1",
+      "video": "GNxZBHOwIc4"
     },
     {
       "id": "5cddab5638da163e2eef7cde",
@@ -1278,7 +1304,8 @@
       "speakers": [
         "808c0d648e5b763cfd7bc95df0d6ff91daf997ae"
       ],
-      "scheduleId":"#TUE-TC1-SE8"
+      "scheduleId":"#TUE-TC1-SE8",
+      "video": "JKEGRZRsFoc"
     },
     {
       "id": "5c48ed3b9034ae38180b14e0",
@@ -1311,7 +1338,8 @@
       "speakers": [
         "1910f00e3b6a8220979782a1355b8570de1beca0"
       ],
-      "scheduleId":"#TUE-TC2-SE7"
+      "scheduleId":"#TUE-TC2-SE7",
+      "video": "QAHx30SO4T8"
     }
   ]
 }
