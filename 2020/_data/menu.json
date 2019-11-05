@@ -1,5 +1,6 @@
 {
-  "items": [{
+  "items": [
+    {
       "label": "Home",
       "href": "/#JBCN"
     },
@@ -16,6 +17,10 @@
     {
       "label": "Venue",
       "href": "/java-barcelona-venue.html"
+    },
+    {
+      "label": "Become a sponsor",
+      "href": "/become-sponsor.html"
     }
   ]
 }
