@@ -29,4 +29,7 @@ If you *want to know more* here is {brochure-url}[*a brief explanatory document*
 <div>
 ++++
 
+
 Feel free to *send us a message at icon:envelope[] mailto:info@barcelonajug.org?subject=JBCNConf2020%20Being%20a%20sponsor[info@barcelonajug.org, window="_blank"]* sharing what you are looking for, questions, etc. and we will reach you.
+
+image::sponsors-mural.jpg[]
