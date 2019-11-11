@@ -15,7 +15,7 @@ And we feel JBCNConf is the right place to go if you are considering
     * _contacting technology leaders_ or just 
     * _improve your employee's training_ on the latest technologies.
 
-If you *want to know more* here is {brochure-url}[*a brief explanatory document*, window="_blank"], or just browse the https://www.flickr.com/photos/barcelonajug/albums/72157709509392952/[*photo album of the last edition*, window="_blank"].
+If you *want to know more* here is {brochure-url}[*a brief explanatory document*, window="_blank"], or just have a look at the https://www.flickr.com/photos/barcelonajug/albums/with/72157709509392952[*pictures from the last edition*, window="_blank"].
 
 [subs="attributes+"]
 ++++
@@ -24,7 +24,9 @@ If you *want to know more* here is {brochure-url}[*a brief explanatory document*
   <img src="{imagesdir}/brochure-icon-50.png" width="100" height="100" alt="Download">
 </a>
 <button type="button" class="btn btn-lg btn-primary" style="background: #1260eb">
-  <i class="fa fa-envelope">&nbsp;Get in touch!</i>
+  <i class="fa fa-envelope">
+    <a href="mailto:info@barcelonajug.org?subject=JBCNConf2020%20Being%20a%20sponsor">Get in touch!</a>
+  </i>
 </button>
 <div>
 ++++
