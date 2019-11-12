@@ -1,0 +1,37 @@
+= Diversity terms
+:icons: font
+:linkattrs:
+:imagesdir: assets/img/sponsors
+:brochure-url: https://drive.google.com/file/d/1sHRO7YW6rPWEjdCvhWxCBawclH-JBwfc/view?usp=sharing
+
+JBCNConf is the biggest Java & JVM conference in Spain, and has become the reference for Java developers in southern Europe with more than 740 attendees during the last edition.
+
+*For the next edition during July 2020 we expect more than 800 attendees, from 6th to 8th of July in the 6th edition.*
+
+And we feel JBCNConf is the right place to go if you are considering
+
+    * _increasing IT branding of your organization_, 
+    * _getting in touch with the best developers_,
+    * _contacting technology leaders_ or just 
+    * _improve your employee's training_ on the latest technologies.
+
+If you *want to know more* here is {brochure-url}[*a brief explanatory document*, window="_blank"], or just have a look at the https://www.flickr.com/photos/barcelonajug/albums/with/72157709509392952[*pictures from the last edition*, window="_blank"].
+
+[subs="attributes+"]
+++++
+<div>
+<a href="{brochure-url}" target="_blank">
+  <img src="{imagesdir}/brochure-icon-50.png" width="100" height="100" alt="Download">
+</a>
+<button type="button" class="btn btn-lg btn-primary" style="background: #1260eb">
+  <i class="fa fa-envelope">
+    <a href="mailto:info@barcelonajug.org?subject=JBCNConf2020%20Being%20a%20sponsor">Get in touch!</a>
+  </i>
+</button>
+<div>
+++++
+
+
+Feel free to *send us a message at icon:envelope[] mailto:info@barcelonajug.org?subject=JBCNConf2020%20Being%20a%20sponsor[info@barcelonajug.org, window="_blank"]* sharing what you are looking for, questions, etc. and we will reach you.
+
+image::sponsors-mural.jpg[]
