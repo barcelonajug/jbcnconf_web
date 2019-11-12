@@ -53,6 +53,7 @@ Here is the list of the current generated files and their commands:
  $ asciidoctor tools/hackergarten.adoc -aidprefix -aidseparator=- -s -o 2019/_includes/hackergarten/hackergarten-content.html
  $ asciidoctor tools/talks-feedback.adoc -aidprefix -aidseparator=- -s -o 2019/_includes/feedback/feedback-talks-table.html
  $ asciidoctor tools/workshops-feedback.adoc -aidprefix -aidseparator=- -s -o 2019/_includes/feedback/feedback-workshops-table.html
+ $ asciidoctor tools/become-sponsor.adoc -aidprefix -aidseparator=- -s -o 2020/_includes/sponsors/become-sponsor.html
 
 [IMPORTANT]
 ====
