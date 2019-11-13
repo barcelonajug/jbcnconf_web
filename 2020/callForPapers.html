@@ -86,12 +86,12 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                     <li>Talks will be 50 minutes long on {{site.data.homepage.talks_days_cfp}} and they must be in English.</li>
                                 </ul>
                                 <p>The proposal will be reviewed for the organizers and we will try to send you a reply with our feedback.</p>
-                                <b>Subject of CFP has to be related to any of these topics:</b>
-                                <TABLE>
-                                    <TR>
+                                <b>Subject of CFP can be related to any of these topics:</b>
+                                <table>
+                                    <tr>
                                         <TD><ul>
-                                            <li>#JVM langs (Java, Scala, Clojure, Groovy, Kotlin...)</li>
-                                            <li>#Functional Programming</li>
+                                            <li>#JVM langs (Java, Kotlin, Scala, Clojure, Groovy...)</li>
+                                            <li>#Mobile, #Android</li>
                                             <li>#Microservices, #Docker, #Kubernetes, #Istio</li>
                                             <li>#Agile, #cleancode, #design</li>
                                             <li>#Testing, #DDD, #TDD</li>
@@ -102,13 +102,13 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                             <li>#Machine learning, #AI</li>
                                             <li>#CI, #CD, #Integration</li>
                                             <li>#IoT, #VR, #AR</li>
-                                            <li>#Mobile, #Android</li>
+                                            <li>#Functional Programming</li>
                                         </ul></TD>
-                                    </TR>
-                                </TABLE>
+                                    </tr>
+                                </table>
                                 <span id="eachSpeaker">Each speaker may send more than one CFP.<br></span>
 
-                                <b>Which elements on your paper can improve your rating:</b>
+                                <b>Which elements from your paper can improve your rating?</b>
                                 <ul>
                                   <li>Cover main stream topics (see above)</li>
                                     <li>Focus on <u>real life experiences</u> rather than theoretical ("<i>hello world</i>")</li>
@@ -118,7 +118,6 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                 <p>If you have questions or comments, please contact with us: <i><a href="mailto:info@barcelonajug.org">info@barcelonajug.org</a></i></p>
 
                                 <p class="mandatory">* mandatory field</p>
-
 
                                 <form name="sendPaperForm" id="sendPaperForm" class="form">
                                     <div class="form-group">
@@ -146,16 +145,16 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                     </div>
                                     <div class="form-group">
                                         <label for="paperTitle">Tags (at least 2 separated by comma) *:</label>
-                                        <input required type="text" class="form-control" id="paperTags" placeholder="Java, Functional Programming, Machine Learning, Cloud...">
+                                        <input required type="text" class="form-control" id="paperTags" placeholder="Android, Kotlin, Scala, Machine Learning, Cloud...">
                                     </div>
                                     <div class="form-group">
-                                        <label for="paperDay">Do you MUST talk in a concrete day ? ( only for TALKS , Workshops are on Wednesday ):</label>
+                                        <label for="paperDay">Do you MUST talk in a concrete day? (only for TALKS, Workshops are on Wednesday):</label>
                                         <select class="form-control" id="paperDay">
                                             <option value="" selected>No, I don't care</option>
                                             <option value="{{site.data.homepage.first_day_talks_send_to_cfp}}">{{site.data.homepage.first_day_talks}}</option>
                                             <option value="{{site.data.homepage.second_day_talks_send_to_cfp}}">{{site.data.homepage.second_day_talks}}</option>
                                         </select>
-                                        <p>We will try to fit your need, but please consider that with 60 speakers is very difficult to make all them happy. <br/>So, only request a concrete day if it's totally required.</p>
+                                        <p><em>We will try to fit your need, but please consider that with 60 speakers is very difficult to make all them happy. <br/>So, only request a concrete day if it's totally required.</em></p>
                                     </div>
                                     <div class="form-group">
                                         <label for="paperComments">Comments:</label>
@@ -175,7 +174,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                             </div>
                                             <div class="form-group">
                                                 <label for="senderName0">Picture (URL) *:</label>
-                                                <div>Please, ensure that the image is 512 x 512. This will help us a lot and avoid any resizing on our side.</div>
+                                                <div>Please, ensure that the image is 512 x 512 and available as public http resource. This will help us a lot and avoid any manipulation from our side.</div>
                                                 <input required type="text" class="form-control" name="picture0" id="picture0">
                                             </div>
                                             <div class="form-group">
@@ -357,7 +356,6 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                 req.addClass('valid');
             }
         });
-
         return firstMissingY;
     }
 
