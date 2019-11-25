@@ -182,6 +182,10 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                                 <input required type="text" class="form-control" name="email0" id="email0">
                                             </div>
                                             <div class="form-group">
+                                                <label for="company0">Company *:</label>
+                                                <input required type="text" class="form-control" name="company0" id="company0">
+                                            </div>
+                                            <div class="form-group">
                                                 <label for="twitter0">Twitter:</label>
                                                 <input type="text" class="form-control" name="twitter0" id="twitter0" placeholder="@my_account">
                                             </div>
@@ -271,6 +275,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
     '<div class="form-group"><label for="senderName::i::">Full name *:</label><input required type="text" class="form-control" name="senderName::i::" id="senderName::i::"></div>' +
     '<div class="form-group"><label for="senderName::i::">Picture (URL) *:</label><input required type="text" class="form-control" name="picture::i::" id="picture::i::"></div>' +
     '<div class="form-group"><label for="email::i::">e-mail *:</label><input required type="text" class="form-control" name="email::i::" id="email::i::"></div>' +
+    '<div class="form-group"><label for="company::i::">Company *:</label><input required type="text" class="form-control" name="company::i::" id="company::i::"></div>' +
     '<div class="form-group"><label for="twitter::i::">Twitter:</label><input type="text" class="form-control" name="twitter::i::" id="twitter::i::" placeholder="@my_account"></div>' +
     '<div class="form-group"><label for="web::i::">Web:</label><input type="text" class="form-control" name="web::i::" id="web::i::"></div>' +
     '<div class="form-group"><label for="linkedin::i::">LinkedIn:</label><input type="text" class="form-control" name="linkedin::i::" id="linkedin::i::" placeholder="https://www.linkedin.com/in/my_account"></div>' +
@@ -395,7 +400,6 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
             }
         }
         paper.comments = jQuery("#paperComments").val();
-
         paper.preferenceDay = jQuery("#paperDay").val();
         paper.senders = [];
 
@@ -404,6 +408,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
             let sender = {
                 "fullName":jQuery("#senderName"+iSpeaker).val(),
                 "email":jQuery("#email"+iSpeaker).val(),
+                "company":jQuery("#company"+iSpeaker).val(),
                 "twitter":jQuery("#twitter"+iSpeaker).val(),
                 "picture":jQuery("#picture"+iSpeaker).val(),
                 "web":jQuery("#web"+iSpeaker).val(),
@@ -419,7 +424,6 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
             paper.senders.push(sender);
         }
         const ajaxUrl = "{{ site.data.configuration.cfpapi.url }}";
-
 
         jQuery.ajax({
                 method: "POST",
