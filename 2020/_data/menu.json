@@ -13,6 +13,10 @@
       "href": "/#Tickets"
     },
     {
+      "label": "Speakers",
+      "href": "/speakers.html"
+    },
+    {
       "label": "Travel",
       "href": "/#Travel",
       "items": [
