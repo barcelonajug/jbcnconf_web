@@ -1,2 +1,36 @@
 {
- }
+  "supporters": [
+    {
+      "name": "Barcelona Java Users Group",
+      "href": "http://www.barcelonajug.org",
+      "image": {
+        "src": "/assets/img/logos/logo_bicolor_blog_barcelonajug.png",
+        "alt": "Barcelona Java Users Group"
+      }
+    },
+    {
+      "name": "Barcelona Activa",
+      "href": "http://www.barcelonactiva.cat/",
+      "image": {
+        "src": "/assets/img/sponsors/barcelona-activa.png",
+        "alt": "Barcelona Activa"
+      }
+    },
+    {
+      "name": "Google Developer Group Barcelona",
+      "href": "https://www.meetup.com/es-ES/GDG-Barcelona/",
+      "image": {
+        "src": "/assets/img/sponsors/gdg_barcelona.png",
+        "alt": "Google Developer Group Barcelona"
+      }
+    },
+    {
+      "name": "Google Developer Group Tarragona",
+      "href": "https://gdgtarragona.blogspot.com/",
+      "image": {
+        "src": "/assets/img/sponsors/gdg_tarragona.png",
+        "alt": "Google Developer Group Tarragona"
+      }
+    }
+  ]
+}
