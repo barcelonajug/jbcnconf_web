@@ -12146,56 +12146,61 @@ hr.sponsor-separator:after {
     background: white;
 }
 
-.sponsor-diamond h1 {
-
+.sponsor-top h1 {
     background: #FF0000; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #FF0000, #DC143C); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #FF0000, #DC143C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color : #FFF5EE;
-
 }
 
-.sponsor-gold {
-
+.sponsor-premium {
     background: #ffb347; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #ffb347, #ffcc33); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #ffb347, #ffcc33); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
-.sponsor-silver {
-
+.sponsor-regular {
     background: #abbaab; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #abbaab, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #abbaab, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
-.sponsor-bronze {
+.sponsor-basic {
     background: #D1913C; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #D1913C, #FFD194); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #D1913C, #FFD194); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.sponsor-startup {
+    background: #b3c2ff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #b3c2ff, #cddaff); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #b3c2ff, #cddaff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.sponsor-virtual {
+    background: #ffa991; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffa991, #ffbfa7); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffa991, #ffbfa7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 /*
- * ==== diamond
+ * ==== top
  */
 
-.sponsor-diamond img {
+.sponsor-top img {
     width: 50%;
     height: auto;
 }
 
 @media (max-width: 600px) {
-    .sponsor-diamond img {
+    .sponsor-top img {
         width: 30%;
     }
 }
 
 
 @media (max-width: 900px) {
-    .sponsor-diamond img {
+    .sponsor-top img {
         width: 40%;
     }
 }
