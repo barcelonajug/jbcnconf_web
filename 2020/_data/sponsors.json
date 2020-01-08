@@ -1,4 +1,14 @@
 {
+  "regular": [
+    {
+      "name": "Capitole Consulting",
+      "href": "https://capitole-consulting.com/",
+      "image": {
+        "src": "/assets/img/sponsors/capitole.png",
+        "alt": "Capitole Consulting"
+      }
+    }
+  ],
   "supporters": [
     {
       "name": "Barcelona Java Users Group",
