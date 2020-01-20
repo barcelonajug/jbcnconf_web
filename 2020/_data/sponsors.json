@@ -1,4 +1,14 @@
 {
+  "premium" : [
+    {
+      "name" : "Ocado Technology",
+      "href" : "https://www.ocadotechnology.com",
+      "image" : {
+        "src" : "/assets/img/sponsors/ocadotechnology.png",
+        "alt" : "Ocado Technology"
+      }
+    }
+  ],
   "regular": [
     {
       "name": "Capitole Consulting",
