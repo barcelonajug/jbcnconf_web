@@ -51,6 +51,14 @@
         "src": "/assets/img/sponsors/gdg_tarragona.png",
         "alt": "Google Developer Group Tarragona"
       }
+    },
+    {
+      "name": "Col•legi Oficial d'Enginyeries Tècniques i Grau en Enginyeria Informàtica de Catalunya",
+      "href": "https://www.coetic.cat",
+      "image": {
+        "src": "/assets/img/sponsors/coetic.jpg",
+        "alt": "Col•legi Oficial d'Enginyeries Tècniques i Grau en Enginyeria Informàtica de Catalunya"
+      }
     }
   ]
 }
