@@ -64,8 +64,8 @@
 
                     <div class="post-related-posts row">
                         {% for sponsor in site.data.sponsors.regular %}
-                            {% assign mod = forloop.index0 | modulo:2 %}
-                            {% assign style = "line-height: 200px" %}
+                            {% assign mod = forloop.index0 | modulo:3 %}
+                            {% assign style = "line-height: 150px" %}
                             {% if mod == 0 %}
                                 {% assign style = style | append: "; clear:both" %}
                             {% endif %}
@@ -73,7 +73,7 @@
                                 <div class="image align-middle">
                                     <a href="{{ sponsor.href }}" target="_blank" title="{{ sponsor.name }}"
                                        style=" vertical-align:middle;">
-                                        <img src="{{ base }}{{ sponsor.image.src }}" style="height: 130px"
+                                        <img src="{{ base }}{{ sponsor.image.src }}" style="max-height:80%; max-width:80%"
                                              class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
                                              alt="{{ sponsor.image.alt }}"/></a>
                                 </div>
@@ -91,7 +91,7 @@
                     <div class="post-related-posts row">
                         {% for sponsor in site.data.sponsors.basic %}
                             {% assign mod = forloop.index0 | modulo:3 %}
-                            {% assign style = "line-height: 200px" %}
+                            {% assign style = "line-height: 150px" %}
                             {% if mod == 0 %}
                                 {% assign style = style | append: "; clear:both" %}
                             {% endif %}
@@ -99,7 +99,7 @@
                                   <div class="image align-middle">
                                       <a href="{{ sponsor.href }}" target="_blank" title="{{ sponsor.name }}"
                                          style=" vertical-align:middle;">
-                                          <img src="{{ base }}{{ sponsor.image.src }}" style="height: 80px"
+                                          <img src="{{ base }}{{ sponsor.image.src }}" style="max-height:75%; max-width:75%"
                                                class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
                                                alt="{{ sponsor.image.alt }}"/></a>
                                   </div>
@@ -118,7 +118,7 @@
             <div class="post-related-posts row">
 
                 {% for sponsor in site.data.sponsors.startup %}
-                <div class="item col-sm-3 col-xs-6" style="line-height: 150px;">
+                <div class="item col-sm-3 col-xs-6" style="line-height: 125px;">
                     <div class="image align-middle">
                         <a href="{{ sponsor.href }}" target="_blank" title="{{ sponsor.name }}"
                            style=" vertical-align:middle;">
@@ -145,7 +145,7 @@
                     <div class="image align-middle">
                         <a href="{{ sponsor.href }}" target="_blank" title="{{ sponsor.name }}"
                            style=" vertical-align:middle;">
-                            <img src="{{ base }}{{ sponsor.image.src }}" style="max-height:70%; max-width:70%"
+                            <img src="{{ base }}{{ sponsor.image.src }}" style="max-height:65%; max-width:65%"
                                  class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
                                  alt="{{ sponsor.image.alt }}"/></a>
                     </div>
