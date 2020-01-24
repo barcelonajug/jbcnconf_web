@@ -24,7 +24,7 @@ For Windows you can use link:https://rubyinstaller.org/[RubyInstaller] or the li
 
 Once Ruby is installed, install the required gems with the following command.
 
- bundler install
+ bundle install
 
 [IMPORTANT]
 ====
