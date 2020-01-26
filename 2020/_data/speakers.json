@@ -44,6 +44,31 @@
       "twitter": "https://twitter.com/aalmiray",
       "homepage": "http://andresalmiray.com",
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Alex Soto",
+      "description": "",
+      "biography": "Alex is a Director of Developer Experience at Red Hat. He is passionate about Java world, software automation and he believes in the open source software model. Alex is the creator of NoSQLUnit project, member of JSR374 (Java API for JSON Processing) Expert Group, the co-author of Testing Java Microservices book for Manning and contributor of several open source projects. A Java Champion since 2017, international speaker and teacher at Salle URL University, he has talked about new testing techniques for microservices and continuous delivery in the 21st century.",
+      "image": "assets/img/speakers/alex-soto.jpg",
+      "ref": "1cf43210c8515585e52e4d2f6f2e5e0f582049d8",
+      "url": "infoSpeaker.html?ref=1cf43210c8515585e52e4d2f6f2e5e0f582049d8",
+      "homepage": "",
+      "twitter": "@alexsotob",
+      "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Grace Jansen",
+      "company": "IBM",
+      "description": "",
+      "biography": "Grace is a developer advocate at IBM, working with Open Liberty and Reactive Platform. She has now been with IBM for two years, after graduating from Exeter University with a Degree in Biology. Moving to software engineering has been a challenging step for Grace, but she enjoys bringing a varied perspective to her projects and using her knowledge of biological systems to simplify complex software patterns and architectures. As a developer advocate, Grace builds POC’s, demos and sample applications, and writes guides and tutorials to help guide users through technologies and products. She is a regular presentor at internation technology conferences and has recently authored a book on reactive systems. Grace also has a keen passion for encouraging more women into STEM and especially Technology careers.",
+      "image": "assets/img/speakers/vwjv97n057onr7oa8xa4nhc88ldvdolk.jpg",
+      "ref": "b21e540e924111f0e9d271ed82350fa020b9972e",
+      "url": "infoSpeaker.html?ref=b21e540e924111f0e9d271ed82350fa020b9972e",
+      "homepage": "",
+      "twitter": "@gracejansen27",
+      "linkedin": "https://www.linkedin.com/in/grace-jansen/"
     }
   ]
 }
