@@ -44,6 +44,18 @@
       "twitter": "https://twitter.com/aalmiray",
       "homepage": "http://andresalmiray.com",
       "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Alex Soto",
+      "description": "Java Champion, Red Hatter, teacher and writer",
+      "biography": "Alex is a Director of Developer Experience at Red Hat. He is passionate about Java world, software automation and he believes in the open source software model. Alex is the creator of NoSQLUnit project, member of JSR374 (Java API for JSON Processing) Expert Group, the co-author of Testing Java Microservices book for Manning and contributor of several open source projects. A Java Champion since 2017, international speaker and teacher at Salle URL University, he has talked about new testing techniques for microservices and continuous delivery in the 21st century.",
+      "image": "assets/img/speakers/alex-soto.jpg",
+      "ref": "1cf43210c8515585e52e4d2f6f2e5e0f582049d8",
+      "url": "infoSpeaker.html?ref=1cf43210c8515585e52e4d2f6f2e5e0f582049d8",
+      "homepage": "http://www.lordofthejars.com/",
+      "twitter": "@alexsotob",
+      "linkedin": "https://www.linkedin.com/in/asotobu/"
     }
   ]
 }

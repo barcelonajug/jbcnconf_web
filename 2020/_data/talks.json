@@ -1,4 +1,34 @@
 {
   "items": [
+    {
+      "id": "5e1f8b2cb84b1a0cd6b9fabb",
+      "title": "Unit Testing like a Pro",
+      "abstract": "\"I think everyone is born creative, but it can be suppressed by fear\" - Evan Spiegel Focusing on the creative work without being afraid of breaking the existing behavior can make software development very addictive! Good automated tests can buy you that! However, unmaintainable tests will slow you down and cause you painful headaches, compilation errors and random failures. To avoid that, your unit tests should be significant, expressive, few, and blazing fast - writing good tests thus becomes the toughest challenge for any developer, no matter how experienced. For every test that you write you have to balance risk with maintenance costs, while also looking out for test design smells that may point out needed refactorings, sometimes unexpected or risky. Testing can give you one of the most valuable feedback about your micro-design you will ever receive. You only have to listen. Because in the end, a good, clean design is what matters, not the coverage%. Grab a strong coffee and join this extract from Victor’s Unit Testing #training, to learn about: testing priorities, buggy tests, mutation testing, fixture-based test breakdown, \"purifying\" your logic, partial mock smell and key tips for testing Legacy Code. All via an entertaining, dynamic session you will never forget.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Unit Testing",
+        "Design",
+        "Clean Code"
+      ],
+      "level": "middle",
+      "speakers": [
+        "d27efdbbf9293c1d2cbcb35559c2558a0707a484"
       ]
+    },
+    {
+      "id": "5e1f91dcb84b1a0cd6b9fabf",
+      "title": "Reactive Programming for Real Use Cases",
+      "abstract": "Probably you are curious about this thing called Reactive Programming. Reactive Programming is another programming paradigm that in most of the cases, we are not used to coding in our day-to-day work, as the imperative way is the common one. This makes learning and thinking in a reactive way harder. One of the main problems I have found when learning and reading material about Reactive Programming is that they never tackle enterprise use cases. In this session, we are going to skip the cute ideas that are normally part of a reactive programming talk and focus on how to use it in the real world. Don't be the last developer to board this train and move your reactive skills from novice to expert. ",
+      "type": "talk",
+      "tags": [
+        "java",
+        " reactive"
+      ],
+      "level": "middle",
+      "speakers": [
+        "1cf43210c8515585e52e4d2f6f2e5e0f582049d8"
+      ]
+    }
+  ]
 }
