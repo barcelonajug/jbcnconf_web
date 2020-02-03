@@ -24,6 +24,18 @@
     },
     {
       "enabled": "1",
+      "name": "Andres Almiray",
+      "description": "Java/Groovy developer",
+      "biography": "Andres is a Java/Groovy developer and a Java Champion with more than 20 years of experience in software design and development. He has been involved in web and desktop application development since the early days of Java. Andres is a true believer in open source and has participated on popular projects like Groovy, Griffon, and DbUnit, as well as starting his own projects (Json-lib, EZMorph, GraphicsBuilder, JideBuilder). Founding member of the Griffon framework and Hackergarten community event. You can find him on twitter too as @aalmiray. He likes to spend time with his beloved wife, Ixchel, when not hacking around.",
+      "image": "assets/img/speakers/andres-almiray.jpg",
+      "ref": "aalmiray",
+      "url": "infoSpeaker.html?ref=aalmiray",
+      "twitter": "https://twitter.com/aalmiray",
+      "homepage": "http://andresalmiray.com",
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
       "name": "Ixchel Ruiz",
       "company": "Karakun AG",
       "description": "Software developer, Java Champion, Open Source advocate, Groundbreaker Ambassador, public speaker and mentor",
