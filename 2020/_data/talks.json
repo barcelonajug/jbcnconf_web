@@ -3,7 +3,7 @@
     {
       "id": "5e1f8b2cb84b1a0cd6b9fabb",
       "title": "Unit Testing like a Pro",
-      "abstract": "\"I think everyone is born creative, but it can be suppressed by fear\" - Evan Spiegel Focusing on the creative work without being afraid of breaking the existing behavior can make software development very addictive! Good automated tests can buy you that! However, unmaintainable tests will slow you down and cause you painful headaches, compilation errors and random failures. To avoid that, your unit tests should be significant, expressive, few, and blazing fast - writing good tests thus becomes the toughest challenge for any developer, no matter how experienced. For every test that you write you have to balance risk with maintenance costs, while also looking out for test design smells that may point out needed refactorings, sometimes unexpected or risky. Testing can give you one of the most valuable feedback about your micro-design you will ever receive. You only have to listen. Because in the end, a good, clean design is what matters, not the coverage%. Grab a strong coffee and join this extract from Victor’s Unit Testing #training, to learn about: testing priorities, buggy tests, mutation testing, fixture-based test breakdown, \"purifying\" your logic, partial mock smell and key tips for testing Legacy Code. All via an entertaining, dynamic session you will never forget.",
+      "abstract": "\"I think everyone is born creative, but it can be suppressed by fear\" - Evan Spiegel\nFocusing on the creative work without being afraid of breaking the existing behavior can make software development very addictive! Good automated tests can buy you that!\n\nHowever, unmaintainable tests will slow you down and cause you painful headaches, compilation errors and random failures. To avoid that, your unit tests should be significant, expressive, few, and blazing fast - writing good tests thus becomes the toughest challenge for any developer, no matter how experienced. For every test that you write you have to balance risk with maintenance costs, while also looking out for test design smells that may point out needed refactorings, sometimes unexpected or risky. Testing can give you one of the most valuable feedback about your micro-design you will ever receive. You only have to listen. Because in the end, a good, clean design is what matters, not the coverage%.\n\nGrab a strong coffee and join this extract from Victor’s Unit Testing #training, to learn about: testing priorities,  buggy tests, mutation testing, fixture-based test breakdown, \"purifying\" your logic, partial mock smell and key tips for testing Legacy Code. All via an entertaining, dynamic session you will never forget.",
       "type": "talk",
       "tags": [
         "Java",
@@ -17,9 +17,55 @@
       ]
     },
     {
+      "id": "5e1f8b4db84b1a0cd6b9fabc",
+      "title": "Battle of the Microservice Frameworks - Micronaut versus Quarkus edition!",
+      "abstract": "Micronaut and Quarkus are two cool emerging Java backend frameworks that aim to solve some problems that exist in current frameworks, like faster startup, low memory footprint, and support for ahead-of-time compilation using GraalVM. In this session, we'll square off both frameworks against each other.\n\nHow do they compare, what are the stronger and weaker points of both frameworks?\n\nWe'll compare the following features:\n\nInitializing your project\nBuilding your first restcontroller / programming model\nStartup time\nDatabase support\nIntegration test support\nBuilding native images\nMemory usage and JAR sizes\nEase of cloud deployment\nIn the end, we might have a clear winner! ... or will we?\n\n",
+      "type": "talk",
+      "tags": [
+        "java",
+        " quarkus",
+        " micronaut",
+        " comparison"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "40afe10a3ea9ec161d15ade201a0101fa8f635f4"
+      ]
+    },
+    {
+      "id": "5e1f8bf1b84b1a0cd6b9fabd",
+      "title": "Change Data Streaming For Microservices With Apache Kafka & Debezium",
+      "abstract": "Debezium (noun | de·be·zi·um | /dɪ:ˈbɪ:ziːəm/) - Secret Sauce for Change Data Capture\n\nApache Kafka is a highly popular option for asynchronous event propagation between microservices. Things get challenging though when adding a service’s database to the picture: How can you avoid inconsistencies between Kafka and the database?\n\nEnter change data capture (CDC) and Debezium. By capturing changes from the log files of the database, Debezium gives you both reliable and consistent inter-service messaging via Kafka and instant read-your-own-write semantics for services themselves.\n\nIn this session you’ll see how to leverage CDC for reliable microservices integration, e.g. using the outbox pattern, as well as many other CDC applications, such as maintaining audit logs, automatically keeping your full-text search index in sync, and driving streaming queries. We’ll also discuss practical matters, e.g. HA set-ups, best practices for running Debezium in production on and off Kubernetes, and the many use cases enabled by Kafka Connect's single message transformations.",
+      "type": "talk",
+      "tags": [
+        "Data Streaming",
+        " Apache Kafka",
+        " Change Data Capture"
+      ],
+      "level": "middle",
+      "speakers": [
+        "8c386f2e1f0875844aab547ee40fa1772173d59e"
+      ]
+    },
+    {
+      "id": "5e1f914eb84b1a0cd6b9fabe",
+      "title": "Reacting to an Event-Driven World",
+      "abstract": "\n\nWe now live in a world with data at its heart. The amount of data being produced every day is growing exponentially and a large amount of this data is in the form of events. Whether it be updates from sensors, clicks on a website or even tweets, applications are bombarded with a never-ending stream of new events. So, how can we architect our applications to be more reactive and resilient to these fluctuating loads and better manage our thirst for data? In this session explore how Kafka and Reactive application architecture can be combined in applications to better handle our modern data needs.\n",
+      "type": "talk",
+      "tags": [
+        "Kafka",
+        " Reactive Architecture",
+        " Vert.x"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "b21e540e924111f0e9d271ed82350fa020b9972e"
+      ]
+    },
+    {
       "id": "5e1f91dcb84b1a0cd6b9fabf",
       "title": "Reactive Programming for Real Use Cases",
-      "abstract": "Probably you are curious about this thing called Reactive Programming. Reactive Programming is another programming paradigm that in most of the cases, we are not used to coding in our day-to-day work, as the imperative way is the common one. This makes learning and thinking in a reactive way harder. One of the main problems I have found when learning and reading material about Reactive Programming is that they never tackle enterprise use cases. In this session, we are going to skip the cute ideas that are normally part of a reactive programming talk and focus on how to use it in the real world. Don't be the last developer to board this train and move your reactive skills from novice to expert. ",
+      "abstract": "Probably you are curious about this thing called Reactive Programming. Reactive Programming is another programming paradigm that in most of the cases, we are not used to coding in our day-to-day work, as the imperative way is the common one. This makes learning and thinking in a reactive way harder. One of the main problems I have found when learning and reading material about Reactive Programming is that they never tackle enterprise use cases. In this session, we are going to skip the cute ideas that are normally part of a reactive programming talk and focus on how to use it in the real world. Don't be the last developer to board this train and move your reactive skills from novice to expert.\n",
       "type": "talk",
       "tags": [
         "java",
@@ -28,6 +74,87 @@
       "level": "middle",
       "speakers": [
         "1cf43210c8515585e52e4d2f6f2e5e0f582049d8"
+      ]
+    },
+    {
+      "id": "5e28cb18b67d590cd5b81271",
+      "title": "Refactoring into State Design Pattern",
+      "abstract": "State Design pattern seems to be well know in theory of software development. But how often is it used? When we realize it is needed, we might be already drowning within sets of nested if-else statements or switches… On the other side usually we do not know that we are going to need it at some point and want to avoid over-engineering at the beginning...\n\nDuring the workshop I will take you into a journey of refactoring from sets of if-else statements into State Design Pattern. We will be supported by Pyramid of Refactoring concept. We are going to meet a few other design patterns on the way as well, like Null Object and probably more. \n\nDo not forget to bring your laptop with IntelliJ installed and Java 8+. \n",
+      "type": "workshop",
+      "tags": [
+        "refactoring",
+        " design patterns",
+        " java"
+      ],
+      "level": "middle",
+      "speakers": [
+        "34e64a4d88094a0c4231d49cc0305d61d7b854ee"
+      ]
+    },
+    {
+      "id": "5e28cb6bb67d590cd5b81272",
+      "title": "What Every Java Developer Needs To Know About Java Flight Recorder",
+      "abstract": "Java Flight Recorder (JFR) is a mature and stable profiling and monitoring technology. Its long history dates back to BEA JRockit, and it was integrated with HotSpot over 10 years ago! However, for most of that time, it was a proprietary Oracle technology and so many developers are unfamiliar with it.\n\nIn this workshop, we will explore how to start up Flight Recorder and use Java Mission Control to look at the files it creates. We will see, hands-on, how many of the tasks that developers typically use JProfiler or YourKit for can be replaced with the open-source JFR / JMC combo instead.\n\nIn the second half, we will dig deeper into Flight Recorder and explore its programmatic APIs, and how to use JFR without needing a GUI - just by writing simple Java code. You'll have the opportunity to read and extract data from your own JFR files. To conclude with, we'll meet the brand new Java 14 features that extend Flight Recorder even further, and see the power that this unleashes for the next generation of monitoring and observing JVM apps.",
+      "type": "workshop",
+      "tags": [
+        "Observability",
+        " Java 14",
+        " Monitoring"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "43465d1832e6ad88035b44bfc924e958aca86aa9"
+      ]
+    },
+    {
+      "id": "5e28cc6ab67d590cd5b81274",
+      "title": "Everything you need to know about Kafka Streams",
+      "abstract": "Would you like to learn stream processing within the Kafka platform?. In this easy-to-follow workshop, you’ll explore real-world examples to collect, transform, and aggregate data, work with multiple processors, and handle real-time events. You’ll even dive into streaming SQL with KSQL!. Practical to the very end, it will finish with testing and operational aspects, such as monitoring and debugging.",
+      "type": "workshop",
+      "tags": [
+        "Kafka",
+        " KafkaStreams",
+        " KSQL",
+        " Java",
+        " Scala",
+        " databases",
+        " streaming",
+        " events"
+      ],
+      "level": "middle",
+      "speakers": [
+        "be0cbd800e1696be1dce1a24e522d7f595698495"
+      ]
+    },
+    {
+      "id": "5e28cd68b67d590cd5b81275",
+      "title": "The HOW series: Testing and documenting  REST ",
+      "abstract": "Every developer has a set of favorite tools and there are several reason to why. Join me for the list of key features, code examples, a little bit of theory and plenty of  “lessons learned“ on some of my favorite tools : RestAssured, WireMock, Spock, OpenAPI, Swagger and TestContainers.",
+      "type": "talk",
+      "tags": [
+        "REST",
+        " REST API",
+        " Development Tools",
+        " Documentation"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "41ceb1cd66f7ae889863eaae4906e011474440cc"
+      ]
+    },
+    {
+      "id": "5e28cde8b67d590cd5b81276",
+      "title": "Event-Driven REST APIs",
+      "abstract": "When should you use request-response and when should you use messaging instead? What if you could use REST for everything, including Event-Driven Architectures?\n\nLearn how to design REST APIs that support both conventional human user interfaces and services, and those that support Event-Driven, and more generally, Message-Driven Architectures. As a bonus, expect to pick up tips on Reactive programming. This session is about REST API design for request-response and event-driven microservices with Domain Events using Event Sourcing and CQRS.",
+      "type": "talk",
+      "tags": [
+        "REST",
+        "Event-Driven",
+        "Reactive"
+      ],
+      "level": "middle",
+      "speakers": [
+        "c9f19a5a2dbbfed36664ef31c4ee86c0dfbbe388"
       ]
     }
   ]
