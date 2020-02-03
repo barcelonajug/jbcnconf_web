@@ -12,6 +12,17 @@
       "twitter": "@venkat_s"
     },
     {
+      "biography": "Trisha has developed Java applications for a range of industries, including finance, manufacturing, software and non-profit, for companies of all sizes. She has expertise in Java high performance systems, is passionate about enabling developer productivity, and dabbles with Open Source development. Trisha is a leader of the Sevilla Java User Group, a MongoDB Master and a Java Champion. She believes we shouldn't all have to make the same mistakes again and again. She\u2019s a Developer Advocate for JetBrains so she can share all the cool stuff she's discovered so far. Blog: http://www.trishagee.com",
+      "description": " Java Champion, Developer Advocate for JetBrains",
+      "enabled": "1",
+      "homepage": "http://www.trishagee.com",
+      "image": "assets/img/speakers/trisha-gee.jpeg",
+      "name": "Trisha Gee",
+      "ref": "5778ef29f1bfba305f2684b45f585d6655728e10",
+      "twitter": "@trisha_gee",
+      "url": "infoSpeaker.html?ref=5778ef29f1bfba305f2684b45f585d6655728e10"
+    },
+    {
       "enabled": "1",
       "name": "Ixchel Ruiz",
       "company": "Karakun AG",
