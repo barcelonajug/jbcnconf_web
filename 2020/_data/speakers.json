@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "name": "Venkat Subramaniam",
+      "description": "Java Champion, Founder of Agile Developer, Inc.",
+      "biography": "Dr. Venkat Subramaniam is an award-winning author, founder of Agile Developer, Inc., creator of agilelearner.com, and an instructional professor at the University of Houston. He has trained and mentored thousands of software developers in the US, Canada, Europe, and Asia, and is a regularly-invited speaker at several international conferences. Venkat helps his clients effectively apply and succeed with sustainable agile practices on their software projects. Venkat is a (co)author of multiple technical books, including the 2007 Jolt Productivity award winning book Practices of an Agile Developer. You can find a list of his books at agiledeveloper.com. You can reach him by email at venkats@agiledeveloper.com or on twitter at @venkat_s.",
+      "enabled": "1",
+      "homepage": "http://agiledeveloper.com",
+      "image": "assets/img/speakers/venkat-subramaniam.jpg",
+      "ref": "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ",
+      "url": "infoSpeaker.html?ref=VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ",
+      "twitter": "@venkat_s"
+    },
+    {
       "enabled": "1",
       "name": "Ixchel Ruiz",
       "company": "Karakun AG",
