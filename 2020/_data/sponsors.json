@@ -1,4 +1,12 @@
 {
+  "top" : {
+      "name" : "Red Hat",
+      "href" : "https://developers.redhat.com/",
+      "image" : {
+        "src" : "/assets/img/sponsors/redhat_rgb.png",
+        "alt" : "Red Hat"
+      }
+  },
   "premium" : [
     {
       "name" : "Ocado Technology",
