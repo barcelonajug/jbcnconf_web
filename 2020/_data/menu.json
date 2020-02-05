@@ -14,7 +14,11 @@
     },
     {
       "label": "Speakers",
-      "href": "/speakers.html"
+      "href": "/#Speakers"
+    },
+    {
+      "label": "Talks",
+      "href": "/talks.html"
     },
     {
       "label": "Sponsors",
