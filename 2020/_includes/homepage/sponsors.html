@@ -15,7 +15,7 @@
         {% if site.data.sponsors.top %}
             <div class="vc_column-inner" style="text-align: center;">
 
-                <div class="sponsor-top">
+                <div id="sponsor-top" class="sponsor-top">
                     <h1>Top</h1>
                     <br>
                     <br>
@@ -34,7 +34,7 @@
         {% if site.data.sponsors.premium %}
             <div class="vc_column-inner" style="text-align: center;">
                     <hr class="sponsor-separator-gold sponsor-separator"/>
-                    <h1 class="sponsor-premium">Premium</h1>
+                    <h1 id="sponsor-premium" class="sponsor-premium">Premium</h1>
 
                     <div class="post-related-posts row">
                         {% for sponsor in site.data.sponsors.premium %}
@@ -60,7 +60,7 @@
         {% if site.data.sponsors.regular %}
             <div class="vc_column-inner" style="text-align: center;">
                     <hr class="sponsor-separator-gold sponsor-separator"/>
-                    <h1 class="sponsor-regular">Regular</h1>
+                    <h1 id="sponsor-regular" class="sponsor-regular">Regular</h1>
 
                     <div class="post-related-posts row">
                         {% for sponsor in site.data.sponsors.regular %}
@@ -86,7 +86,7 @@
         {% if site.data.sponsors.basic %}
             <div class="vc_column-inner" style="text-align: center;">
                     <hr class="sponsor-separator-gold sponsor-separator"/>
-                    <h1 class="sponsor-basic">Basic</h1>
+                    <h1 id="sponsor-basic" class="sponsor-basic">Basic</h1>
 
                     <div class="post-related-posts row">
                         {% for sponsor in site.data.sponsors.basic %}
@@ -113,7 +113,7 @@
         <div class="vc_column-inner" style="text-align: center;">
             <hr class="sponsor-separator"/>
 
-            <h1 class="sponsor-startup">Startup</h1>
+            <h1 id="sponsor-startup" class="sponsor-startup">Startup</h1>
 
             <div class="post-related-posts row">
 
@@ -136,7 +136,7 @@
         <div class="vc_column-inner" style="text-align: center;">
             <hr class="sponsor-separator"/>
 
-            <h1 class="sponsor-virtual">Virtual</h1>
+            <h1 id="sponsor-virtual" class="sponsor-virtual">Virtual</h1>
 
             <div class="post-related-posts row">
 
@@ -159,7 +159,7 @@
             <div class="vc_column-inner" style="text-align: center;">
                 <hr class="sponsor-separator"/>
 
-                <h1 class="sponsor-supporter">Supporters</h1>
+                <h1 id="sponsor-supporter" class="sponsor-supporter">Supporters</h1>
                 <div class="post-related-posts row">
 
                     {% for sponsor in site.data.sponsors.supporters %}
@@ -187,7 +187,7 @@
         <div class="vc_column-inner" style="text-align: center;">
             <hr class="sponsor-separator"/>
 
-            <h1 class="sponsor-mediapartner">Media Partners</h1>
+            <h1 id="sponsor-mediapartner" class="sponsor-mediapartner">Media Partners</h1>
             <div class="post-related-posts row">
 
                 {% for sponsor in site.data.sponsors.mediapartners %}
