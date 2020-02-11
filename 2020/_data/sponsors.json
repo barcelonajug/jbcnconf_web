@@ -25,6 +25,14 @@
         "src": "/assets/img/sponsors/capitole.png",
         "alt": "Capitole Consulting"
       }
+    },
+    {
+      "name": "Lifull Connect",
+      "href": "https://www.lifullconnect.com/careers/",
+      "image": {
+        "src": "/assets/img/sponsors/lifull-connect.png",
+        "alt": "Lifull Connect"
+      }
     }
   ],
   "supporters": [
