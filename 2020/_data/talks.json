@@ -156,6 +156,21 @@
       "speakers": [
         "c9f19a5a2dbbfed36664ef31c4ee86c0dfbbe388"
       ]
+    },
+    {
+      "id": "5e3b3b99a8bd710c4fe7295b",
+      "title": "10 Java Security Practices They Didn't Teach You In School",
+      "abstract": "Software security breaches are rising to an alarming rate. As a Java developer, you should be aware of how important security in your applications is. In this session, we will provide you with the top 10 security best practices for Java developers. Reviewing the OWASP top 10 and how this augments Java development for better security. By showing the actual problems and how you can protect yourself during your daily Java development, you will have a better understanding of why and how security focus is essential.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        " Security",
+        " Best practices "
+      ],
+      "level": "middle",
+      "speakers": [
+        "a4529dc3081fc5242a51aecadc114b5ff5aa1520"
+      ]
     }
   ]
 }
