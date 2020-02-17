@@ -33,6 +33,14 @@
         "src": "/assets/img/sponsors/lifull-connect.png",
         "alt": "Lifull Connect"
       }
+    },
+    {
+      "name": "Wallapop",
+      "href": "https://jobs.wallapop.com/es/",
+      "image": {
+        "src": "/assets/img/sponsors/wallapop.png",
+        "alt": "Wallapop"
+      }
     }
   ],
   "supporters": [
