@@ -50,6 +50,7 @@
     {
       "enabled": "1",
       "name": "Michel Schudel",
+      "company": "Rabobank",
       "description": "Developer at Craftsmen BV, DevOps engineer",
       "biography": "Michel Schudel has been a passionate Java developer since 1998, building various Java solutions for banks, insurance companies and telecom providers. Since then he has seen the good, the bad and the ugly in Java land. He loves agile development and coding with frameworks like SpringBoot to get up-and-running as fast as possible. Futhermore, he likes to coach junior developers in Core Java. Michel is currently working for Rabobank in the Netherlands.",
       "image": "assets/img/speakers/michel-schudel.jpg",
@@ -75,6 +76,7 @@
     {
       "enabled": "1",
       "name": "Anton Rodriguez Yuste",
+      "company": "Inditex",
       "description": "Senior Software Engineer at Inditex. CorunaJUG & VigoJUG organizer",
       "biography": "I'm a Software Engineer who codes in Java/Scala/Groovy, with experience working in different Cloud providers (AWS, Azure) using Docker and Kubernetes. Nowadays I'm focused on Data Pipelines (Spark) and Event Streaming (Kafka). Nowadays I work for Inditex Group (Zara, Massimo Dutti, etc.) as Data Engineer. In the past, I worked as a specialist in Deployment Pipelines, API Management and Advanced Orchestration in distributed systems.\n\nI co-organize the Vigo and Coruña Java User Groups (VigoJUG & CoruñaJUG) and sometimes I speak at international conferences as Geecon, SpringIO, JBCNConf, GReach, CommitConf, etc.\n",
       "image": "assets/img/speakers/anton-yuste.jpg",
@@ -95,7 +97,7 @@
       "url": "infoSpeaker.html?ref=d27efdbbf9293c1d2cbcb35559c2558a0707a484",
       "homepage": "https://victorrentea.ro",
       "twitter": "@victorrentea",
-      "linkedin": "www.linkedin.com/in/victor-rentea-trainer"
+      "linkedin": "https://www.linkedin.com/in/victor-rentea-trainer/"
     },
     {
       "enabled": "1",
@@ -112,7 +114,21 @@
     },
     {
       "enabled": "1",
+      "name": "Brian Vermeer",
+      "company": "Snyk",
+      "description": "Developer Advocate, FP and Cybersecurity passionate, Oracle Groundbreaker Ambassador, Utrecht JUG co-lead & co-lead at MyDevSecOps",
+      "biography": "Developer Advocate for Snyk and Software Engineer with over 10 years of hands-on experience in creating and maintaining software. He is passionate about Java, (Pure) Functional Programming and Cybersecurity. Brian is an Oracle Groundbreaker Ambassador, Utrecht JUG Co-lead, Virtual JUG organizer and Co-lead at MyDevSecOps. He is a regular international speaker on mostly Java-related conferences like JavaOne, Oracle Code One, Devoxx BE, Devoxx UK, Jfokus, JavaZone and many more. Besides all that Brian is a military reserve for the Royal Netherlands Air Force and a Taekwondo Master / Teacher.",
+      "image": "assets/img/speakers/brian-vermeer.png",
+      "ref": "a4529dc3081fc5242a51aecadc114b5ff5aa1520",
+      "url": "infoSpeaker.html?ref=a4529dc3081fc5242a51aecadc114b5ff5aa1520",
+      "homepage": "",
+      "twitter": "@BrianVerm",
+      "linkedin": "https://linkedin.com/in/brianvermeer"
+    },
+    {
+      "enabled": "1",
       "name": "Vaughn Vernon",
+      "company": "kalele",
       "description": "Software developer and architect with more than 35 years of experience in a broad range of business domains",
       "biography": "Vaughn Vernon is a software developer and architect with more than 35 years of experience in a broad range of business domains. Vaughn is a leading expert in Domain-Driven Design, champion of simplicity and reactive systems, and the founder of the open source, DDD-friendly, reactive, vlingo/PLATFORM. He consults and teaches around Domain-Driven Design and reactive software development, helping teams and organizations realize the potential of business driven and reactive systems as they transition from technology driven legacy web implementation approaches. As he does so, he puts strong emphasis on embracing simplicity whenever possible. Vaughn is the author of three books: Implementing Domain-Driven Design, Reactive Messaging Patterns with the Actor Model, and Domain-Driven Design Distilled, all published by Addison-Wesley.",
       "image": "assets/img/speakers/vaughn-vernon.jpg",
@@ -126,8 +142,8 @@
       "enabled": "1",
       "name": "Ben Evans",
       "company": "New Relic",
-      "description": "Principal Engineer & JVM Technologies Architect at New Relic, Inc.",
-      "biography": "Ben Evans is Principal Engineer and Architect for JVM technologies at New Relic. Prior to joining New Relic, Ben co-founded jClarity (acquired by Microsoft) and was Chief Architect (Listed Derivatives) at Deutsche Bank. Ben is the author of 5 books - \"The Well-Grounded Java Developer\", \"Java: The Legend\", \"Optimizing Java\" and the recent editions of \"Java in a Nutshell\". He is the track lead for Java / JVM at infoq.com, writes regularly for industry publications and is a frequent speaker at technical conferences worldwide. Ben has been active in Free and Open Source Software for over 20 years, co-founded the AdoptOpenJDK initiative (with Martijn Verburg), and served on the JCP Executive Committee for 6 years.",
+      "description": "Technologist, Writer, & Educator. Java Champion, Java / JVM track lead at InfoQ, bestselling tech author, speaker. ",
+      "biography": "Ben Evans is a Principal Engineer and Architect for JVM technologies at New Relic. Prior to joining New Relic, Ben co-founded jClarity (acquired by Microsoft) and was Chief Architect (Listed Derivatives) at Deutsche Bank. Ben is the author of 5 books - \"The Well-Grounded Java Developer\", \"Java: The Legend\", \"Optimizing Java\" and the recent editions of \"Java in a Nutshell\". He is the track lead for Java / JVM at infoq.com, writes regularly for industry publications and is a frequent speaker at technical conferences worldwide. Ben has been active in Free and Open Source Software for over 20 years, co-founded the AdoptOpenJDK initiative (with Martijn Verburg), and served on the JCP Executive Committee for 6 years.",
       "image": "assets/img/speakers/ben-evans.jpg",
       "ref": "43465d1832e6ad88035b44bfc924e958aca86aa9",
       "url": "infoSpeaker.html?ref=43465d1832e6ad88035b44bfc924e958aca86aa9",
@@ -153,7 +169,7 @@
       "name": "Grace Jansen",
       "company": "IBM",
       "description": "Developer Advocate at IBM, Biologist converted to Tech, TechWomen100 winner",
-      "biography": "Grace is a developer advocate at IBM, working with Open Liberty and Reactive Platform. She has now been with IBM for two years, after graduating from Exeter University with a Degree in Biology. Moving to software engineering has been a challenging step for Grace, but she enjoys bringing a varied perspective to her projects and using her knowledge of biological systems to simplify complex software patterns and architectures. As a developer advocate, Grace builds POC’s, demos and sample applications, and writes guides and tutorials to help guide users through technologies and products. She is a regular presentor at internation technology conferences and has recently authored a book on reactive systems. Grace also has a keen passion for encouraging more women into STEM and especially Technology careers.",
+      "biography": "Grace is a developer advocate at IBM, working with Open Liberty and Reactive Platform. She has now been with IBM for two years, after graduating from Exeter University with a Degree in Biology. Moving to software engineering has been a challenging step for Grace, but she enjoys bringing a varied perspective to her projects and using her knowledge of biological systems to simplify complex software patterns and architectures. As a developer advocate, Grace builds POC’s, demos and sample applications, and writes guides and tutorials to help guide users through technologies and products. She is a regular presenter at international technology conferences and has recently authored a book on reactive systems. Grace also has a keen passion for encouraging more women into STEM and especially Technology careers.",
       "image": "assets/img/speakers/grace-jensen.jpg",
       "ref": "b21e540e924111f0e9d271ed82350fa020b9972e",
       "url": "infoSpeaker.html?ref=b21e540e924111f0e9d271ed82350fa020b9972e",
