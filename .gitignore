@@ -11,4 +11,8 @@ tools/client_id.json
 tools/*.log
 
 .jekyll-metadata
+
 .gradle
+gradlew
+gradlew.bat
+gradle
