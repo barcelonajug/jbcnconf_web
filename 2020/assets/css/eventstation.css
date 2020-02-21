@@ -6115,6 +6115,10 @@ blockquote.right {
     min-height: 230px;
 }
 
+.speaker-item-topic-wrapper {
+   border-radius: 15px;
+}
+
 .speakers-widget .speaker-item-header .speaker-item-topic-wrapper {
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -6145,6 +6149,7 @@ blockquote.right {
 .speakers-widget .speaker-item-body {
     color: #FFFFFF;
     padding: 17px 25px 0px;
+    border-radius: 15px;
 }
 
 .speakers-widget.alternative .speaker-item-body {
