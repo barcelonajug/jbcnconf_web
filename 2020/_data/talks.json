@@ -171,6 +171,38 @@
       "speakers": [
         "a4529dc3081fc5242a51aecadc114b5ff5aa1520"
       ]
-    }
+    },
+    {
+      "id": "5e3b3ccda8bd710c4fe7295d",
+      "title": "The journey from Imperative to Reactive",
+      "abstract": "You have been developing imperative microservices for a while. You then tried hard to make them to be asynchronous. Lately, you've heard about people talking about reactive. You are now wondering why you should care about reactive. You'd like to find out more about reactive: Why should I care? What I can do to make my microservice reactive, non-blocking? Should I consider using Reactive Streams? Come to this session to find out what reactive means. It explains reactive programming and then Reactive eXtensions, Reactive Streams, followed by a demo of using MicroProfile Reactive Streams Operators, and MicroProfile Reactive Messaging to create a truly reactive microservice and integrate with Kafka.",
+      "type": "talk",
+      "tags": [
+        "Cloud Native",
+        " Microservices",
+        " MicroProfile",
+        " reactive",
+        " imperative"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "287733a35b40f9c6050e1cfda90e39e611323e91"
+      ]
+    },
+    {
+      "id": "5e3b3c62a8bd710c4fe7295c",
+      "title": "Evolve to Reactive; A performance history",
+      "abstract": "In this session, attendees will learn about a real-world evolution to a reactive way; we will show how we migrate a huge EAR Core Banking Application  covering tips and tricks of an experience of an evolution the Application and how we evolve to a modern reactive modules; tips, tricks, pros, cons and the reasons for being involved on move forward and present sample code and explain the security concerns on this evolution. We will be using snippets code based on JAVA, JWT, JWS, Auth0, Spring Boot, Reactor and Webflux deployed on Oracle Cloud.\n",
+      "type": "talk",
+      "tags": [
+        "reactive",
+        " java",
+        " performance"
+      ],
+      "level": "middle",
+      "speakers": [
+        "4f72f63b37fb9bb3781b7e7b1e3246b1364c02a2"
+      ]
+    },
   ]
 }
