@@ -176,6 +176,32 @@
       "homepage": "",
       "twitter": "@gracejansen27",
       "linkedin": "https://www.linkedin.com/in/grace-jansen/"
-    }
+    },
+    {
+      "enabled": "1",
+      "name": "Emily Jiang",
+      "company": "IBM",
+      "description": "Java Champion, MicroProfile guru, passionate about Java +Jakarta EE",
+      "biography": "Emily Jiang is a Java Champion. She is Liberty Microservices Architect and Advocate, STSM in IBM, based at Hursley Lab in the UK. Emily is a senior MicroProfile lead and has been working on MicroProfile since 2016 and leads the specifications of MicroProfile Config, Fault Tolerance and Service Mesh. She is CDI Expert Group member.\n\nShe has worked on the WebSphere Application Server since 2006 and is heavily involved in Java EE and MicroProfile implementation in Liberty releases.\n\nShe regularly speaks at conferences, such as Code One, DevNexus, JAX London, Voxxed, Devoxx US, Devoxx Belgium, Devoxx UK, Devoxx France, EclipseCon, etc. Follow her on Twitter @emilyfhjiang and/or connect with her on LinkedIn (https://www.linkedin.com/in/emily-jiang-60803812/).",
+      "image": "assets/img/speakers/emily-jiang.png",
+      "ref": "287733a35b40f9c6050e1cfda90e39e611323e91",
+      "url": "infoSpeaker.html?ref=287733a35b40f9c6050e1cfda90e39e611323e91",
+      "homepage": "",
+      "twitter": "@emilyfhjiang",
+      "linkedin": "https://www.linkedin.com/in/emily-jiang-60803812/"
+    },
+    {
+      "enabled": "1",
+      "name": "Alberto Salazar",
+      "company": "Advance Latam",
+      "description": "Java Champion, Oracle Groundbreaker, JUG Leader, Auth0Ambassador, JCP, @advancelatam, @ecuadorjug",
+      "biography": "Alberto Salazar is an entrepreneur, passionate Consultant, Java Champion, Oracle Groundbreaker Ambassador, JUG Leader, Auth0 Ambassador, founder of the Ecuador Java User Group, Java Community Process Associate Member and Java evangelist/trainer; active in twitter at @betoSalazar. He is the co-author of the book 'Software Architecture with Spring 5.0'. Alberto has been working for 2 decades creating large scalable and high transaction load systems from military software to banking solutions. He is also a frequent speaker at Java conferences such as Oracle Code One, JBCNConf, Voxxed Days, Oracle Code, Red Hat Summit, JavaOne, Oracle Developer Tour Latam, OTN Tours, and local JUG meetings.\n",
+      "image": "assets/img/speakers/alberto-salazar.jpg",
+      "ref": "4f72f63b37fb9bb3781b7e7b1e3246b1364c02a2",
+      "url": "infoSpeaker.html?ref=4f72f63b37fb9bb3781b7e7b1e3246b1364c02a2",
+      "homepage": "https://lasalazarr.github.io/blog/",
+      "twitter": "@betoSalazar",
+      "linkedin": "https://www.linkedin.com/in/alberto-salazar-15334154/"
+    },
   ]
 }
