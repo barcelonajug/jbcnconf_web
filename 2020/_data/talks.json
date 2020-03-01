@@ -221,6 +221,22 @@
       ]
     },
     {
+      "id": "5e56f82493dc4008d5c9d1c2",
+      "title": "Designing Microservices in Functional Style",
+      "abstract": "Event sourcing, CQRS, Microservices, they are all concepts that share a natural affinity with the fundamental idea of functional programming: defining complex behavior through the combination of elementary transformations.\nThe real surprise is how well they work together. Not only we can build a very powerful and scalable application, but it is even simpler to build than the traditional Object-Oriented approach. I will present what we learned from our experience: our problems and how we solved them.\nAt the end of this talk, you will know the basic rules to architect a system using functional programming principles for microservices with CQRS and Event Source without using any framework. We will discuss what are the benefits of this approach and the dangers and difficulties that it is better to avoid.",
+      "type": "talk",
+      "tags": [
+        "Kotlin",
+        " Event Sourcing",
+        " Microservices",
+        " Functional Programming"
+      ],
+      "level": "middle",
+      "speakers": [
+        "30ad77f3c637602914465cad22c7445a992104cd"
+      ]
+    },
+    {
       "id": "5e56fa5293dc4008d5c9d1c5",
       "title": "Purely Dysfunctional Data Structures for Java",
       "abstract": "The design of performant immutable data structures is a challenge that was accepted by Chris Okasaki over 20 years ago. \n\nWe all know and appreciate the benefits and simplicity of immutability, but does it indeed make everything simpler?\n\nIn this talk, we'll challenge the omni-applicability of immutability, explore what the concept of Persistent Data Structures is, how most common implementations look like, and why it makes things way more complicated that one might think.\n\nWe'll see how much blood, sweat, and tears are required to make the experience of working with immutable data structures at least remotely efficient.",

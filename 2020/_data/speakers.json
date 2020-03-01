@@ -229,5 +229,18 @@
       "twitter": "@KaiWaehner",
       "linkedin": "https://www.linkedin.com/in/megachucky/ "
     },
+    {
+      "enabled": "1",
+      "name": "Uberto Barbini",
+      "company": "Indipendent consultant",
+      "description": "Passionate Polyglot Programmer Technical leader, Hands-on Architect",
+      "biography": "Uberto is a polyglot programmer and hands-on software architect with more than 20 years of experience designing and building successful software products in many industries.\n\nHe is very passionate and opinionated about how to deliver value to the business not only once but at a regular pace.\n\nHe is particularly interested in Functional Programming and Distributed Computing since they are both critical to modern software challenges.\n\nWhen not coding, Uberto loves public speaking, writing and teaching programming. He's currently writing a book about Pragmatic Functional Kotlin.\n\nYou can read his blog here: https://medium.com/@ramtop\n\n\n",
+      "image": "assets/img/speakers/uberto-barbini.jpg",
+      "ref": "30ad77f3c637602914465cad22c7445a992104cd",
+      "url": "infoSpeaker.html?ref=30ad77f3c637602914465cad22c7445a992104cd",
+      "homepage": "https://medium.com/@ramtop",
+      "twitter": "@ramtop",
+      "linkedin": "https://www.linkedin.com/in/uberto/"
+    },
   ]
 }
