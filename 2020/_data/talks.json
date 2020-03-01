@@ -204,5 +204,20 @@
         "4f72f63b37fb9bb3781b7e7b1e3246b1364c02a2"
       ]
     },
+    {
+      "id": "5e56fa5293dc4008d5c9d1c5",
+      "title": "Purely Dysfunctional Data Structures for Java",
+      "abstract": "The design of performant immutable data structures is a challenge that was accepted by Chris Okasaki over 20 years ago. \n\nWe all know and appreciate the benefits and simplicity of immutability, but does it indeed make everything simpler?\n\nIn this talk, we'll challenge the omni-applicability of immutability, explore what the concept of Persistent Data Structures is, how most common implementations look like, and why it makes things way more complicated that one might think.\n\nWe'll see how much blood, sweat, and tears are required to make the experience of working with immutable data structures at least remotely efficient.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        " Functional Programming",
+        " Data Structures"
+      ],
+      "level": "middle",
+      "speakers": [
+        "dcf4d5f83bc2dab51fb90922055352668da14a18"
+      ]
+    }
   ]
 }
