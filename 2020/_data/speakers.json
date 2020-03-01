@@ -203,5 +203,18 @@
       "twitter": "@betoSalazar",
       "linkedin": "https://www.linkedin.com/in/alberto-salazar-15334154/"
     },
+    {
+      "enabled": "1",
+      "name": "Grzegorz Piwowarek",
+      "company": "Hazelcast",
+      "description": "Senior Software Engineera at Hazelcast, JDD_Krakow committee member",
+      "biography": "Grzegorz Piwowarek is a senior software engineer at Hazelcast, trainer, blogger at 4comprehension.com, and OSS contributor.\n\nThere are rumors that he exists only at compile-time.",
+      "image": "assets/img/speakers/grzegorz-piwowarek.jpg",
+      "ref": "dcf4d5f83bc2dab51fb90922055352668da14a18",
+      "url": "infoSpeaker.html?ref=dcf4d5f83bc2dab51fb90922055352668da14a18",
+      "homepage": "http://4comprehension.com/",
+      "twitter": "@pivovarit",
+      "linkedin": "https://www.linkedin.com/in/gpiwowarek/"
+    },
   ]
 }
