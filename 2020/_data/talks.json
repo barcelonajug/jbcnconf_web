@@ -221,6 +221,29 @@
       ]
     },
     {
+      "id": "5e56f7d793dc4008d5c9d1c1",
+      "title": "Keeping Safe Your Server to Server Communications",
+      "abstract": "The rise of microservices has reached an impressive point of maturity. We have all traveled a very interesting way to learn about new tools, frameworks, design patterns and strategies that have forced us to think out of the box to embrace this architecture. One of the challenges is choosing how our microservices will communicate? choreography or orchestration. Another of the challenges is to reduce the risk between those communication adding a security layer.\n\nWe are facing scenarios such as communications between two microservices in the same trust domain of between two or multiple trust domains. How to ensure that a microservices has access to another? We also can have communications between synchronously or asynchronously microservices, for the first ones the communication is given over HTTP, but the seconds the communication can be given over any kind of messaging system.\n\nIn this talk, we will cover some points to solve those challenges. Starting with the authentication and authorization in server-to-server communications, propagating identity information between microservices and handling communications between different trust domains. Then we will discuss how to secure synchronous communications with certificates, JWTs or over gRPC. Finally, we will talk about messaging systems such as RabbitMQ, Kafka, ActiveMQ for secure asynchronous communications.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        " Microservices",
+        " Microservices Architecture",
+        " Identity",
+        " Authentication",
+        " Authorization",
+        " JWTs",
+        " Communication Complexity",
+        " gRPC",
+        " Event-Driven Microservices",
+        " API Gateway"
+      ],
+      "level": "advanced",
+      "speakers": [
+        "636abf491a53384c8f8187db2bb85e81e29e0982"
+      ]
+    },
+    {
       "id": "5e56f82493dc4008d5c9d1c2",
       "title": "Designing Microservices in Functional Style",
       "abstract": "Event sourcing, CQRS, Microservices, they are all concepts that share a natural affinity with the fundamental idea of functional programming: defining complex behavior through the combination of elementary transformations.\nThe real surprise is how well they work together. Not only we can build a very powerful and scalable application, but it is even simpler to build than the traditional Object-Oriented approach. I will present what we learned from our experience: our problems and how we solved them.\nAt the end of this talk, you will know the basic rules to architect a system using functional programming principles for microservices with CQRS and Event Source without using any framework. We will discuss what are the benefits of this approach and the dangers and difficulties that it is better to avoid.",
