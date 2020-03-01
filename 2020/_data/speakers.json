@@ -242,5 +242,18 @@
       "twitter": "@ramtop",
       "linkedin": "https://www.linkedin.com/in/uberto/"
     },
+    {
+      "enabled": "1",
+      "name": "Mercedes Wyss",
+      "company": "Produactivity",
+      "description": "CTO at Produactivity, Oracle Groundbreaker, Auth0 Ambassador, JDuchessGT & 502Devs Lead",
+      "biography": "Mercedes Wyss is a software engineer with more than eight years of experience in the backend, frontend and Android development using Python, Java and Kotlin. Currently, she is a CTO at Produactivity, a startup based in Guatemala. \n\nShe was previously organizing meetings in Guatemala Java Users Group from 2012 to 2016. Since 2016 she is focusing on increasing women’s participation in STEAM by running a JDuchess Chapter in Guatemala and is the leader of a Google community (Devs+502). \n\nShe is an Oracle Groundbreaker Ambassador and an Auth0 Ambassador, she also has a Duke’s Choice Award in Educational Outreach.",
+      "image": "assets/img/speakers/mercedes-wyss.jpg",
+      "ref": "636abf491a53384c8f8187db2bb85e81e29e0982",
+      "url": "infoSpeaker.html?ref=636abf491a53384c8f8187db2bb85e81e29e0982",
+      "homepage": "https://aknowledgejourney.com/",
+      "twitter": "@itrjwyss",
+      "linkedin": "https://www.linkedin.com/in/itrjwyss/"
+    }
   ]
 }
