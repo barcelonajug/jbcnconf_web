@@ -41,7 +41,16 @@
         "src": "/assets/img/sponsors/wallapop.png",
         "alt": "Wallapop"
       }
+    },
+    {
+      "name": "Glovo",
+      "href": "https://www.glovoapp.com/es",
+      "image": {
+        "src": "/assets/img/sponsors/glovo.png",
+        "alt": "Glovo"
+      }
     }
+
   ],
   "supporters": [
     {
