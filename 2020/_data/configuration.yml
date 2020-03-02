@@ -1,2 +1,4 @@
 cfpapi:
   url: https://cfpapi.jbcnconf.com/public/api/paper
+blog:
+  url: https://blog.jbcnconf.com/
