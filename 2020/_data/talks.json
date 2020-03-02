@@ -173,6 +173,21 @@
       ]
     },
     {
+      "id": "5e3b3c62a8bd710c4fe7295c",
+      "title": "Evolve to Reactive; A performance history",
+      "abstract": "In this session, attendees will learn about a real-world evolution to a reactive way; we will show how we migrate a huge EAR Core Banking Application  covering tips and tricks of an experience of an evolution the Application and how we evolve to a modern reactive modules; tips, tricks, pros, cons and the reasons for being involved on move forward and present sample code and explain the security concerns on this evolution. We will be using snippets code based on JAVA, JWT, JWS, Auth0, Spring Boot, Reactor and Webflux deployed on Oracle Cloud.\n",
+      "type": "talk",
+      "tags": [
+        "reactive",
+        " java",
+        " performance"
+      ],
+      "level": "middle",
+      "speakers": [
+        "4f72f63b37fb9bb3781b7e7b1e3246b1364c02a2"
+      ]
+    },
+    {
       "id": "5e3b3ccda8bd710c4fe7295d",
       "title": "The journey from Imperative to Reactive",
       "abstract": "You have been developing imperative microservices for a while. You then tried hard to make them to be asynchronous. Lately, you've heard about people talking about reactive. You are now wondering why you should care about reactive. You'd like to find out more about reactive: Why should I care? What I can do to make my microservice reactive, non-blocking? Should I consider using Reactive Streams? Come to this session to find out what reactive means. It explains reactive programming and then Reactive eXtensions, Reactive Streams, followed by a demo of using MicroProfile Reactive Streams Operators, and MicroProfile Reactive Messaging to create a truly reactive microservice and integrate with Kafka.",
@@ -190,19 +205,74 @@
       ]
     },
     {
-      "id": "5e3b3c62a8bd710c4fe7295c",
-      "title": "Evolve to Reactive; A performance history",
-      "abstract": "In this session, attendees will learn about a real-world evolution to a reactive way; we will show how we migrate a huge EAR Core Banking Application  covering tips and tricks of an experience of an evolution the Application and how we evolve to a modern reactive modules; tips, tricks, pros, cons and the reasons for being involved on move forward and present sample code and explain the security concerns on this evolution. We will be using snippets code based on JAVA, JWT, JWS, Auth0, Spring Boot, Reactor and Webflux deployed on Oracle Cloud.\n",
+      "id": "5e56f7be93dc4008d5c9d1c0",
+      "title": "Real Time Streaming Analytics with 100000 Connected Cars using MQTT, Kafka, Kubernetes and TensorFlow",
+      "abstract": "This session discusses uses cases leveraging Apache Kafka open source ecosystem as streaming platform to process IoT data. See architectural alternatives and a live demo of how devices connect to Kafka via MQTT. Learn how to analyze the IoT data either natively on Kafka with Kafka Streams / KSQL, or on an external big data cluster like Spark, Flink or Elastic leveraging Kafka Connect, and how to leverage TensorFlow for Machine Learning. A live demo shows how to build a cloud native IoT infrastructure on Kubernetes to connect and process streaming data in real time from 100000 cars to do predictive maintenance at scale in real time.",
       "type": "talk",
       "tags": [
-        "reactive",
-        " java",
-        " performance"
+        "kafka",
+        " mqtt",
+        " kubernetes",
+        " IoT"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "4933ebef38f82b62da601eb07e8362bb389cc560"
+      ]
+    },
+    {
+      "id": "5e56f7d793dc4008d5c9d1c1",
+      "title": "Keeping Safe Your Server to Server Communications",
+      "abstract": "The rise of microservices has reached an impressive point of maturity. We have all traveled a very interesting way to learn about new tools, frameworks, design patterns and strategies that have forced us to think out of the box to embrace this architecture. One of the challenges is choosing how our microservices will communicate? choreography or orchestration. Another of the challenges is to reduce the risk between those communication adding a security layer.\n\nWe are facing scenarios such as communications between two microservices in the same trust domain of between two or multiple trust domains. How to ensure that a microservices has access to another? We also can have communications between synchronously or asynchronously microservices, for the first ones the communication is given over HTTP, but the seconds the communication can be given over any kind of messaging system.\n\nIn this talk, we will cover some points to solve those challenges. Starting with the authentication and authorization in server-to-server communications, propagating identity information between microservices and handling communications between different trust domains. Then we will discuss how to secure synchronous communications with certificates, JWTs or over gRPC. Finally, we will talk about messaging systems such as RabbitMQ, Kafka, ActiveMQ for secure asynchronous communications.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        " Microservices",
+        " Microservices Architecture",
+        " Identity",
+        " Authentication",
+        " Authorization",
+        " JWTs",
+        " Communication Complexity",
+        " gRPC",
+        " Event-Driven Microservices",
+        " API Gateway"
+      ],
+      "level": "advanced",
+      "speakers": [
+        "636abf491a53384c8f8187db2bb85e81e29e0982"
+      ]
+    },
+    {
+      "id": "5e56f82493dc4008d5c9d1c2",
+      "title": "Designing Microservices in Functional Style",
+      "abstract": "Event sourcing, CQRS, Microservices, they are all concepts that share a natural affinity with the fundamental idea of functional programming: defining complex behavior through the combination of elementary transformations.\nThe real surprise is how well they work together. Not only we can build a very powerful and scalable application, but it is even simpler to build than the traditional Object-Oriented approach. I will present what we learned from our experience: our problems and how we solved them.\nAt the end of this talk, you will know the basic rules to architect a system using functional programming principles for microservices with CQRS and Event Source without using any framework. We will discuss what are the benefits of this approach and the dangers and difficulties that it is better to avoid.",
+      "type": "talk",
+      "tags": [
+        "Kotlin",
+        " Event Sourcing",
+        " Microservices",
+        " Functional Programming"
       ],
       "level": "middle",
       "speakers": [
-        "4f72f63b37fb9bb3781b7e7b1e3246b1364c02a2"
+        "30ad77f3c637602914465cad22c7445a992104cd"
       ]
     },
+    {
+      "id": "5e56fa5293dc4008d5c9d1c5",
+      "title": "Purely Dysfunctional Data Structures for Java",
+      "abstract": "The design of performant immutable data structures is a challenge that was accepted by Chris Okasaki over 20 years ago. \n\nWe all know and appreciate the benefits and simplicity of immutability, but does it indeed make everything simpler?\n\nIn this talk, we'll challenge the omni-applicability of immutability, explore what the concept of Persistent Data Structures is, how most common implementations look like, and why it makes things way more complicated that one might think.\n\nWe'll see how much blood, sweat, and tears are required to make the experience of working with immutable data structures at least remotely efficient.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        " Functional Programming",
+        " Data Structures"
+      ],
+      "level": "middle",
+      "speakers": [
+        "dcf4d5f83bc2dab51fb90922055352668da14a18"
+      ]
+    }
   ]
 }

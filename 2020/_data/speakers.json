@@ -203,5 +203,57 @@
       "twitter": "@betoSalazar",
       "linkedin": "https://www.linkedin.com/in/alberto-salazar-15334154/"
     },
+    {
+      "enabled": "1",
+      "name": "Grzegorz Piwowarek",
+      "company": "Hazelcast",
+      "description": "Senior Software Engineera at Hazelcast, JDD_Krakow committee member",
+      "biography": "Grzegorz Piwowarek is a senior software engineer at Hazelcast, trainer, blogger at 4comprehension.com, and OSS contributor.\n\nThere are rumors that he exists only at compile-time.",
+      "image": "assets/img/speakers/grzegorz-piwowarek.jpg",
+      "ref": "dcf4d5f83bc2dab51fb90922055352668da14a18",
+      "url": "infoSpeaker.html?ref=dcf4d5f83bc2dab51fb90922055352668da14a18",
+      "homepage": "http://4comprehension.com/",
+      "twitter": "@pivovarit",
+      "linkedin": "https://www.linkedin.com/in/gpiwowarek/"
+    },
+    {
+      "enabled": "1",
+      "name": "Kai Waehner",
+      "company": "Confluent",
+      "description": "Technology Evangelist with focus on Event Processing, Big Data, Machine Learning and Blockchain",
+      "biography": "Kai Waehner works as Technology Evangelist at Confluent. Kai’s main area of expertise lies within the fields of Big Data Analytics, Machine Learning / Deep Learning, Cloud / Hybrid Architectures, Messaging, Integration, Microservices, Stream Processing, Internet of Things and Blockchain. He is regular speaker at international conferences such as Kafka Summit, O’Reilly Software Architecture or ApacheCon, writes articles for professional journals, and shares his experiences with new technologies on his blog (www.kai-waehner.de/blog). Contact and references: contact@kai-waehner.de / @KaiWaehner / www.kai-waehner.de / LinkedIn (https://www.linkedin.com/in/megachucky/).",
+      "image": "assets/img/speakers/kai-waehner.jpg",
+      "ref": "4933ebef38f82b62da601eb07e8362bb389cc560",
+      "url": "infoSpeaker.html?ref=4933ebef38f82b62da601eb07e8362bb389cc560",
+      "homepage": "https://www.kai-waehner.de ",
+      "twitter": "@KaiWaehner",
+      "linkedin": "https://www.linkedin.com/in/megachucky/ "
+    },
+    {
+      "enabled": "1",
+      "name": "Uberto Barbini",
+      "company": "Indipendent consultant",
+      "description": "Passionate Polyglot Programmer Technical leader, Hands-on Architect",
+      "biography": "Uberto is a polyglot programmer and hands-on software architect with more than 20 years of experience designing and building successful software products in many industries.\n\nHe is very passionate and opinionated about how to deliver value to the business not only once but at a regular pace.\n\nHe is particularly interested in Functional Programming and Distributed Computing since they are both critical to modern software challenges.\n\nWhen not coding, Uberto loves public speaking, writing and teaching programming. He's currently writing a book about Pragmatic Functional Kotlin.\n\nYou can read his blog here: https://medium.com/@ramtop\n\n\n",
+      "image": "assets/img/speakers/uberto-barbini.jpg",
+      "ref": "30ad77f3c637602914465cad22c7445a992104cd",
+      "url": "infoSpeaker.html?ref=30ad77f3c637602914465cad22c7445a992104cd",
+      "homepage": "https://medium.com/@ramtop",
+      "twitter": "@ramtop",
+      "linkedin": "https://www.linkedin.com/in/uberto/"
+    },
+    {
+      "enabled": "1",
+      "name": "Mercedes Wyss",
+      "company": "Produactivity",
+      "description": "CTO at Produactivity, Oracle Groundbreaker, Auth0 Ambassador, JDuchessGT & 502Devs Lead",
+      "biography": "Mercedes Wyss is a software engineer with more than eight years of experience in the backend, frontend and Android development using Python, Java and Kotlin. Currently, she is a CTO at Produactivity, a startup based in Guatemala. \n\nShe was previously organizing meetings in Guatemala Java Users Group from 2012 to 2016. Since 2016 she is focusing on increasing women’s participation in STEAM by running a JDuchess Chapter in Guatemala and is the leader of a Google community (Devs+502). \n\nShe is an Oracle Groundbreaker Ambassador and an Auth0 Ambassador, she also has a Duke’s Choice Award in Educational Outreach.",
+      "image": "assets/img/speakers/mercedes-wyss.jpg",
+      "ref": "636abf491a53384c8f8187db2bb85e81e29e0982",
+      "url": "infoSpeaker.html?ref=636abf491a53384c8f8187db2bb85e81e29e0982",
+      "homepage": "https://aknowledgejourney.com/",
+      "twitter": "@itrjwyss",
+      "linkedin": "https://www.linkedin.com/in/itrjwyss/"
+    }
   ]
 }
