@@ -4,13 +4,10 @@
     <div class="container-fluid">
         <header class="header">
             <div class="logo-area"><a href="{{ base }}" class="site-logo">
-                <img alt="Logo"
-                     src="{{ base }}/assets/img/logos/logo-jbcnconf-small.png"/></a>
-
+                <img alt="Logo" src="{{ base }}/assets/img/logos/logo-jbcnconf-small.png"/></a>
             </div>
             <div class="logo-area logo-area-alternative"><a href="{{ base }}" class="site-logo">
-                <img alt="Logo"
-                     src="{{ base }}/assets/img/logos/logo-jbcnconf.png"/></a>
+                <img alt="Logo" src="{{ base }}/assets/img/logos/logo-jbcnconf.png"/></a>
             </div>
             <div class="menu-area">
                 <nav class="navbar">
@@ -59,8 +56,7 @@
                                 
                                 <ul role="menu" class=" dropdown-menu">
                                     {% for child in menu.items %}
-                                    <li
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item">
                                         <a href="{{ base }}{{child.href}}">{{child.label}}</a>
                                     </li>
                                     {% endfor %}
@@ -75,14 +71,12 @@
                             <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children dropdown"
                                 data-dropdown="dropdown"><a href="#Contact" class="dropdown-toggle disabled" data-toggle="dropdown">Contact</a>
                                 <ul role="menu" class=" dropdown-menu">
-                                    <li
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7 current_page_item menu-item-14 active">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7 current_page_item menu-item-14 active">
+                                        <a href="{{ site.data.configuration.blog.url }}" target="_blank">Our blog</a>
                                         <a href="{{ base }}/about.html">About Us</a>
                                     </li>
                                 </ul>
                             </li>
-
-
                         </ul>
                     </div>
                 </nav>
