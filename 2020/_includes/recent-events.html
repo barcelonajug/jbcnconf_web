@@ -18,20 +18,20 @@
                         </div>
                         <div class="desc">
                             <ul class="post-information">
-                                <li class="date"><i class="fa fa-calendar-check-o"></i> Date: <span>{{ event.date }}</span></li>
+                                <li class="date"><i class="fa fa-calendar-check-o"></i> Date:
+                                    <span>{{ event.date }}</span></li>
                             </ul>
-                            <h3><a href="{{ event.url }}"
-                                   title="{{ event.title }}">{{ event.title }}</a></h3>
+                            <h3><a href="{{ event.url }}" title="{{ event.title }}">{{ event.title }}</a></h3>
                             <a target="_blank" href="{{ event.url }}"
-                               title="{{ event.title }}" class="more">Read More <i
-                                    class="fa fa-angle-right"></i></a>
+                               title="{{ event.title }}" class="more">Read More <i class="fa fa-angle-right"></i></a>
                         </div>
                     </li>
                     {% endfor %}
-
-
                 </ul>
             </div>
         </div>
     </div>
 </div>
+
+<script type="text/javascript" src="{{ base }}/assets/js/event-parser.js"></script>
+<script src="https://api.meetup.com/BarcelonaJUG/events?&sign=true&photo-host=public&scroll=recent_past&page=5&desc=1&status=past&callback=parseEvents"></script>
