@@ -50,7 +50,7 @@
     {
       "id": "5e1f914eb84b1a0cd6b9fabe",
       "title": "Reacting to an Event-Driven World",
-      "abstract": "\n\nWe now live in a world with data at its heart. The amount of data being produced every day is growing exponentially and a large amount of this data is in the form of events. Whether it be updates from sensors, clicks on a website or even tweets, applications are bombarded with a never-ending stream of new events. So, how can we architect our applications to be more reactive and resilient to these fluctuating loads and better manage our thirst for data? In this session explore how Kafka and Reactive application architecture can be combined in applications to better handle our modern data needs.\n",
+      "abstract": "We now live in a world with data at its heart. The amount of data being produced every day is growing exponentially and a large amount of this data is in the form of events. Whether it be updates from sensors, clicks on a website or even tweets, applications are bombarded with a never-ending stream of new events. So, how can we architect our applications to be more reactive and resilient to these fluctuating loads and better manage our thirst for data? In this session explore how Kafka and Reactive application architecture can be combined in applications to better handle our modern data needs.\n",
       "type": "talk",
       "tags": [
         "Kafka",
@@ -211,9 +211,9 @@
       "type": "talk",
       "tags": [
         "kafka",
-        " mqtt",
-        " kubernetes",
-        " IoT"
+        "mqtt",
+        "kubernetes",
+        "IoT"
       ],
       "level": "beginner",
       "speakers": [
@@ -260,9 +260,26 @@
       ]
     },
     {
+      "id": "5e56fa4493dc4008d5c9d1c4",
+      "title": "Troubleshooting containerized applications",
+      "abstract": "Your application is living now in a container, yet is its private life a happy one?\n\nFind out that before your users do! If your application is not feeling so well, perhaps dealing with issues should be an inner container/Kubernetes affair while trying not to affect the availability of your software piece.\n\nIn this session will detail some implementation techniques for troubleshooting and debugging containerized applications in order to address some common problems like: permission issues, invalid parameters, volume mount errors, obsolete images, accessing running containers inside pods etc.",
+      "type": "talk",
+      "tags": [
+        "kubernetes",
+        " cloud",
+        " docker",
+        " fixit",
+        " lessonslearned"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "c93a48ea7c1d8a91f60be490b32b9357f77d8212"
+      ]
+    },
+    {
       "id": "5e56fa5293dc4008d5c9d1c5",
       "title": "Purely Dysfunctional Data Structures for Java",
-      "abstract": "The design of performant immutable data structures is a challenge that was accepted by Chris Okasaki over 20 years ago. \n\nWe all know and appreciate the benefits and simplicity of immutability, but does it indeed make everything simpler?\n\nIn this talk, we'll challenge the omni-applicability of immutability, explore what the concept of Persistent Data Structures is, how most common implementations look like, and why it makes things way more complicated that one might think.\n\nWe'll see how much blood, sweat, and tears are required to make the experience of working with immutable data structures at least remotely efficient.",
+      "abstract": "The design of performant immutable data structures is a challenge that was accepted by Chris Okasaki over 20 years ago. \n\nWe all know and appreciate the benefits and simplicity of immutability, but does it indeed make everything simpler?\n\nIn this talk, we'll challenge the omni-applicability of immutability, explore what the concept of Persistent Data Structures is, how most common implementations look like, and why it makes things way more complicated that one might think.\n\nWe'll see how much blood, sweat, and tears are required to make the experience of working with immutable data structures at least remotely efficient.",
       "type": "talk",
       "tags": [
         "Java",

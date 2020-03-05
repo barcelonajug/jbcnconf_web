@@ -254,6 +254,19 @@
       "homepage": "https://aknowledgejourney.com/",
       "twitter": "@itrjwyss",
       "linkedin": "https://www.linkedin.com/in/itrjwyss/"
+    },
+    {
+      "enabled": "1",
+      "name": "Ana Maria Mihalceanu",
+      "company": "IBM",
+      "description": "tech passionate of cloud application development",
+      "biography": "Ana-Maria Mihalceanu is a custom application development enthusiast, co-founder of Bucharest Software Craftsmanship Community and a constant adopter of challenging technical scenarios. Some of her older experiments are available on Dzone. In 2016, as tech passionate of cloud application development she achieved IBM Certified Application Developer - Cloud Platform v1. Since then, she has enriched her cloud expertise by learning and certifying with other offerings (Salesforce, OpenShift) in order to attain a better understanding on how to integrate different cloud applications and services. Other passions? The knowledge hunt through reading and improving her fashion sense through shopping.",
+      "image": "assets/img/speakers/ana-maria-mihalceanu.jpg",
+      "ref": "c93a48ea7c1d8a91f60be490b32b9357f77d8212",
+      "url": "infoSpeaker.html?ref=c93a48ea7c1d8a91f60be490b32b9357f77d8212",
+      "homepage": "",
+      "twitter": "@ammbra1508",
+      "linkedin": ""
     }
   ]
 }
