@@ -66,9 +66,6 @@
                         {% for sponsor in site.data.sponsors.regular %}
                             {% assign mod = forloop.index0 | modulo:3 %}
                             {% assign style = "line-height: 150px" %}
-                            {% if mod == 0 %}
-                                {% assign style = style | append: "; clear:both" %}
-                            {% endif %}
                             <div class="item col-sm-6 col-xs-8" style="{{ style }}">
                                 <div class="image align-middle">
                                     <a href="{{ sponsor.href }}" target="_blank" title="{{ sponsor.name }}"
