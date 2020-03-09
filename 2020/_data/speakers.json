@@ -267,6 +267,58 @@
       "homepage": "",
       "twitter": "@ammbra1508",
       "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Mauricio Salatino",
+      "company": "Camunda/LearnK8s",
+      "description": "Principal Software Engineer at Camunda",
+      "biography": "Mauricio is a Principal Software Engineer at Camunda (http://www.camunda.com ) and a LearnK8s (http://learnk8s.io ) Instructor. Mauricio has been working with Kubernetes for the last 4 years, training teams and developing cloud-native applications. In his journey, he has participated in several open-source projects including Zeebe, Jhipster, Spring Cloud and Jenkins X. Previously, Mauricio worked at Red Hat/JBoss in the Business Automation Engineering department. Mauricio is currently involved with the CD Foundation (http://cd.foundation), the Jenkins X project (as member of the bootstrap steering committee) as well with the CNCF Serverless Working Group helping the Workflow initiative to move forward. ",
+      "image": "assets/img/speakers/mauricio-salatino.png",
+      "ref": "4b26a098aafaf6bc3d533389b61d3ef5ab01f5a3",
+      "url": "infoSpeaker.html?ref=4b26a098aafaf6bc3d533389b61d3ef5ab01f5a3",
+      "homepage": "http://salaboy.com",
+      "twitter": "@salaboy",
+      "linkedin": "https://www.linkedin.com/in/salaboy/ "
+    },
+    {
+      "enabled": "1",
+      "name": "Paolo Patierno",
+      "company": "Red Hat",
+      "description": "Principal Software Engineer working for Red Hat on the messaging and IoT team",
+      "biography": "Paolo is a Principal Software Engineer working for Red Hat on the messaging and IoT team. He is one of the maintainers of Strimzi, a CNCF sandbox project for running Apache Kafka on Kubernetes using operators. In his previous role, he worked on different integration projects about AMQP with Apache Kafka and Spark and on the EnMasse messaging-as-a-service project about the integration with MQTT. He is also a maintainer for different IoT related components in Eclipse Vert.x and Eclipse Paho projects. Finally, he has spoken at numerous national and international conferences about Kafka, Strimzi, and IoT.",
+      "image": "assets/img/speakers/paolo-patierno.jpeg",
+      "ref": "e274414e5eaa7d3cb0705bd1488291ccf5ccdec5",
+      "url": "infoSpeaker.html?ref=e274414e5eaa7d3cb0705bd1488291ccf5ccdec5",
+      "homepage": "",
+      "twitter": "@ppatierno",
+      "linkedin": "https://www.linkedin.com/in/paolopatierno/"
+    },
+    {
+      "enabled": "1",
+      "name": "Simon Ritter",
+      "company": "Azul Systems",
+      "description": "Deputy CTO of Azul Systems, Java Rockstar and Java Champion",
+      "biography": "Simon Ritter is the Deputy CTO of Azul Systems.  Simon has been in the IT business since 1984 and holds a Bachelor of Science degree in Physics from Brunel University in the U.K. Simon joined Sun Microsystems in 1996 and started working with Java technology from JDK 1.0; he has spent time working in both Java development and consultancy.  Having moved to Oracle as part of the Sun acquisition, he managed the Java Evangelism team for the core Java platform.  Now at Azul, he continues to help people understand Java as well as Azul’s JVM technologies and products.  Simon has twice been awarded Java Rockstar status at JavaOne and is a Java Champion.  He currently represents Azul on the JCP Executive Committee and on the Java SE Expert Group.",
+      "image": "assets/img/speakers/simon-ritter.png",
+      "ref": "a1eda7b31c4fa43f4097d55e9687a876dc194f4b",
+      "url": "infoSpeaker.html?ref=a1eda7b31c4fa43f4097d55e9687a876dc194f4b",
+      "homepage": "",
+      "twitter": "speakjava",
+      "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Nicolai Parlog",
+      "company": "CodeFX",
+      "description": "Java developer, blogger, author, trainer, organizer of AccentoDev",
+      "biography": "Nicolai is a thirty-year-old boy, as the narrator would put it (if he's generous), who has found his passion in software development (mostly Java) and who codes for a living as well as [for fun][code]. He also [blogs], [writes], [newsletters], [speaks], [chats], [records], [streams], [trains, and consults][hire] about it, and organizes a [conference] - not all at the same time, but in prolific fits and starts with high throughput and long latencies. If you want to take the wheel, [hire] him for in-house trainings on new Java features, migrations to Java 9+, and JUnit 5. His home is at [codefx.org].\n\n[codefx.org]: https://codefx.org\n[blogs]: http://blog.codefx.org\n[writes]: https://books.codefx.org\n[chats]: https://chat.codefx.org\n[hire]: https://hire.codefx.org\n[code]: https://code.codefx.org\n[streams]: https://streams.codefx.org\n[speaks]: https://talks.codefx.org\n[records]: https://vids.codefx.org\n[newsletters]: http://weekly.codefx.org\n[conference]: https://accento.dev\n",
+      "image": "assets/img/speakers/nicolai-parlog.jpg",
+      "ref": "4c4752c0d767ef218ef980dfd1ab90ac6c1571d9",
+      "url": "infoSpeaker.html?ref=4c4752c0d767ef218ef980dfd1ab90ac6c1571d9",
+      "homepage": "https://codefx.org",
+      "twitter": "@nipafx",
+      "linkedin": ""
     }
   ]
 }
