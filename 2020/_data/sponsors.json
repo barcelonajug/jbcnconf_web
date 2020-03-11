@@ -15,6 +15,14 @@
         "src" : "/assets/img/sponsors/ocadotechnology-200px-h.png",
         "alt" : "Ocado Technology"
       }
+    },
+    {
+      "name" : "Adevinta Spain",
+      "href" : "https://www.adevinta.es",
+      "image" : {
+        "src" : "/assets/img/sponsors/adevinta.png",
+        "alt" : "Adevinta Spain"
+      }
     }
   ],
   "regular": [
