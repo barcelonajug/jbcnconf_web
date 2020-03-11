@@ -290,6 +290,71 @@
       "speakers": [
         "dcf4d5f83bc2dab51fb90922055352668da14a18"
       ]
+    },
+    {
+      "id": "5e56f6ef93dc4008d5c9d1be",
+      "title": "Deploying a Kubernetes-native Data Streaming Pipeline with Strimzi and Debezium",
+      "abstract": "In  this workshop, you’ll learn the practical aspects of deploying, operating and interacting data streaming pipeline with Apache Kafka on Kubernetes thanks to Strimzi and Debezium. You will learn: \n* How to manage Apache Kafka clusters, topics, and users on Kubernetes using the Strimzi operators and custom resources (CRDs) \n* How to self-service your Kafka clusters, topics, and users by monitoring specific projects; \n* How to interact with your Kafka cluster from both within and outside the Kubernetes instance, using Apache Camel; \n* How to handle cluster and clients TLS certificates for encryption and authentication. \n* Use of Change Data Capture (CDC) in the context of data streaming\n* Configure Debezium for data ingestion to Apache Kafka\n* Deploy microservices for data streaming based on Kafka Streams and Quarkus",
+      "type": "workshop",
+      "tags": [
+        "Apache Kafka",
+        "Kubernetes",
+        "CDC",
+        "debezium",
+        "strimzi"
+      ],
+      "level": "middle",
+      "speakers": [
+        "e274414e5eaa7d3cb0705bd1488291ccf5ccdec5",
+        "8c386f2e1f0875844aab547ee40fa1772173d59e"
+      ]
+    },
+    {
+      "id": "5e56f74a93dc4008d5c9d1bf",
+      "title": "From (Java) Monoliths to K8s",
+      "abstract": "Migrating your existing architecture from a monolith to microservices is a challenging task. Not only is the technology landscape different and overwhelming, but you also need a solid plan to bring the rest of the team along in the journey. \nHow do you come up with such a plan?\nThis session covers the lessons learned from migrating a monolithic open-source project to microservices using Jenkins X. You’ll learn common patterns, tweaks, and best practices that you can adopt to make the best of tools such as Jenkins X, Helm, Zeebe, and Kubernetes. The talk focuses on real-life examples and shows you how these tools can be used to speed your development practices and train high performing teams.\n",
+      "type": "talk",
+      "tags": [
+        "kubernetes",
+        " cloudnative",
+        " journey",
+        " tools",
+        " challenges",
+        " patterns "
+      ],
+      "level": "advanced",
+      "speakers": [
+        "4b26a098aafaf6bc3d533389b61d3ef5ab01f5a3"
+      ]
+    },
+    {
+      "id": "5e56fa3293dc4008d5c9d1c3",
+      "title": "How to Choose a JDK",
+      "abstract": "Choosing which Java runtime to deploy used to be simple: for most people, it was the de facto default Oracle JDK.  For those with more demanding performance requirements, the options were Zing from Azul or possibly J9 from IBM.\n\nToday, things are very different. The license for the Oracle JDK changed with the release of JDK 11, meaning to use it in production requires a paid Java SE subscription.  To address the needs of Java developers, there are now a number of choices for the Java runtime, all in some way based on the OpenJDK source code.\n\nHow do you decide what distribution is right for your situation?",
+      "type": "talk",
+      "tags": [
+        "OpenJDK",
+        " JDK",
+        " Java"
+      ],
+      "level": "middle",
+      "speakers": [
+        "a1eda7b31c4fa43f4097d55e9687a876dc194f4b"
+      ]
+    },
+    {
+      "id": "5e56fa6693dc4008d5c9d1c6",
+      "title": "Java After Eight",
+      "abstract": "Many projects are still on Java 8 and yet, Java 14 is already out! The small releases after 9 created the illusion of nothing much happening, but nothing could be further from the truth - a lot changes since then that shapes the look of everyday Java code:\n\n* new language features like switch expressions, `var`, and text blocks\n* new APIs like stack walking and the reactive HTTP/2 client\n* additions to existing APIs, like `Stream` and `Optional`\n\nIn this talk, we'll take a simple Java 8 code base, update it to 14, and refactor it to use the new language features and APIs. You'll be surprised how much the code changes!\n",
+      "type": "talk",
+      "tags": [
+        "JavaNext",
+        " Java14"
+      ],
+      "level": "middle",
+      "speakers": [
+        "4c4752c0d767ef218ef980dfd1ab90ac6c1571d9"
+      ]
     }
   ]
 }
