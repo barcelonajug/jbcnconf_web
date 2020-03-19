@@ -11345,6 +11345,7 @@ _::-ms-reveal, .speakers-widget .speaker-item-body .speaker-item-information li 
 
     .counter-box .counter-box-general-wrapper{
         top:160px;
+        background:none;
     }
 
     .counter-box .counter-box-general-wrapper .counter-box-general-content-wrapper .counter-box-general-content .counter-box-general-content-top {
