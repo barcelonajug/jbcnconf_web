@@ -106,6 +106,18 @@
         "url": "/assets/img/team/anna-kurman.jpg",
         "alt": "Anna Kurman"
       }
+    },
+    {
+      "name": "Anyul Rivas",
+      "position": "Senior Software Engineer",
+      "role": "Volunteer",
+      "twitter": "https://twitter.com/anyulled",
+      "linkedin": "https://www.linkedin.com/in/anyulled",
+      "bio": "Software craftsman, Full stack developer focused on cloud based distributed architectures",
+      "image": {
+        "url": "/assets/img/team/anyul.jpg",
+        "alt": "Anyul Rivas, volunteer"
+      }
     }
   ]
 }
