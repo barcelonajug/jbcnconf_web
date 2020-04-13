@@ -107,26 +107,6 @@
       ]
     },
     {
-      "id": "5e28cc6ab67d590cd5b81274",
-      "title": "Everything you need to know about Kafka Streams",
-      "abstract": "Would you like to learn stream processing within the Kafka platform?. In this easy-to-follow workshop, you’ll explore real-world examples to collect, transform, and aggregate data, work with multiple processors, and handle real-time events. You’ll even dive into streaming SQL with KSQL!. Practical to the very end, it will finish with testing and operational aspects, such as monitoring and debugging.",
-      "type": "workshop",
-      "tags": [
-        "Kafka",
-        " KafkaStreams",
-        " KSQL",
-        " Java",
-        " Scala",
-        " databases",
-        " streaming",
-        " events"
-      ],
-      "level": "middle",
-      "speakers": [
-        "be0cbd800e1696be1dce1a24e522d7f595698495"
-      ]
-    },
-    {
       "id": "5e28cd68b67d590cd5b81275",
       "title": "The HOW series: Testing and documenting  REST ",
       "abstract": "Every developer has a set of favorite tools and there are several reason to why. Join me for the list of key features, code examples, a little bit of theory and plenty of  “lessons learned“ on some of my favorite tools : RestAssured, WireMock, Spock, OpenAPI, Swagger and TestContainers.",
