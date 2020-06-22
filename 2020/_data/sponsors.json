@@ -51,14 +51,6 @@
       }
     },
     {
-      "name": "Glovo",
-      "href": "http://www.glovoapp.com/es",
-      "image": {
-        "src": "/assets/img/sponsors/glovo.png",
-        "alt": "Glovo"
-      }
-    },
-    {
       "name": "Adaptive",
       "href": "https://www.weareadaptive.com",
       "image": {
