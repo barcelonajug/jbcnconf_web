@@ -117,9 +117,23 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 
                                 <p>If you have questions or comments, please contact with us: <i><a href="mailto:info@barcelonajug.org">info@barcelonajug.org</a></i></p>
 
+                                <div class="panel panel-default">
+                                </div>
+
                                 <p class="mandatory">* mandatory field</p>
 
                                 <form name="sendPaperForm" id="sendPaperForm" class="form">
+                                    <div class="form-group">
+                                        <label>Languages available *:</label>
+                                        <div>Let us know in which of the following you could share the session.</div>
+                                        <div style="margin-left:7px;">
+                                            <input required hidden value="fix" id ="languages">
+                                            <input type="checkbox" id="langEng" name="langEng" checked>
+                                            <label for="langEng">English</label>
+                                            <input type="checkbox" id="langEs" name="langEs">
+                                            <label for="langEs">Spanish</label>
+                                        </div>
+                                    </div>
                                     <div class="form-group">
                                         <label for="paperTitle">Title *:</label>
                                         <input required type="text" class="form-control" id="paperTitle">
@@ -269,9 +283,9 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
     </div>
 
 <script type='text/javascript' src='{{ base }}/assets/js/tag-colors.js'></script>
-<script type="text/javascript">
-    var speakers = [0];
-    var template = '<div class="panel-body" id="speaker::i::">' +
+<script language="JavaScript" type="text/javascript">
+    let speakers = [0];
+    const template = '<div class="panel-body" id="speaker::i::">' +
     '<div class="form-group"><label for="senderName::i::">Full name *:</label><input required type="text" class="form-control" name="senderName::i::" id="senderName::i::"></div>' +
     '<div class="form-group"><label for="senderName::i::">Picture (URL) *:</label><input required type="text" class="form-control" name="picture::i::" id="picture::i::"></div>' +
     '<div class="form-group"><label for="email::i::">e-mail *:</label><input required type="text" class="form-control" name="email::i::" id="email::i::"></div>' +
@@ -317,10 +331,14 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
     }
 
     function validateRequiredFields() {
-        var firstMissingY = null;
+        let firstMissingY = null;
         jQuery(':required').each(function(i, e) {
             let req = jQuery(e);
-            if (e.id == 'paperTags' && !contains2Strings(req.val())) {
+            if (e.id == 'languages' && !jQuery("#langEng")[0].checked && !jQuery("#langEs")[0].checked) {
+                req.removeClass('valid');
+                req.addClass('invalid');
+                firstMissingY = updateScrollOffset(firstMissingY, req.parent());
+            } else if (e.id == 'paperTags' && !contains2Strings(req.val())) {
                 req.removeClass('valid');
                 req.addClass('invalid');
                 firstMissingY = updateScrollOffset(firstMissingY, req);
@@ -368,7 +386,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
         jQuery("#paperSuccess").addClass("hide");
         jQuery("#paperError").addClass("hide");
 
-        var offset = validateRequiredFields();
+        let offset = validateRequiredFields();
 
         if (offset != null) {
             jQuery("HTML, BODY").animate({scrollTop: offset - 30}, 1000);
@@ -384,15 +402,21 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
             "edition":"{{ site.data.homepage.year }}"
         };
 
+        paper.languages = []
+        if (jQuery("#langEng")[0].checked) paper.languages.push('eng');
+        if (jQuery("#langEs")[0].checked)  paper.languages.push('es');
+
+
         paper.title = jQuery("#paperTitle").val();
         paper.type = jQuery("#paperType").val();
         paper.level = jQuery("#paperLevel").val();
         paper.abstract = jQuery("#paperAbstract").val();
-        var tagsStr = jQuery("#paperTags").val();
-        if(tagsStr && tagsStr !== '') {
+
+        const tagsStr = jQuery("#paperTags").val();
+        if (tagsStr && tagsStr !== '') {
             let values = tagsStr.split(",");
             paper.tags = new Array();
-            for (var i = 0; i < values.length; i++) {
+            for (let i = 0; i < values.length; i++) {
                 let value = values[i];
                 if (value != null && value.trim().length > 0) {
                     paper.tags.push(value);
