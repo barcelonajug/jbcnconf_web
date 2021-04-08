@@ -5,6 +5,10 @@
       "href": "/#JBCN"
     },
     {
+      "label": "Call For Papers",
+      "href": "/allForPapers.html"
+    },
+    {
       "label": "Speakers",
       "href": "/#Speakers"
     },
@@ -15,24 +19,6 @@
     {
       "label": "Sponsors",
       "href": "/#Sponsors"
-    },
-    {
-      "label": "Travel",
-      "href": "/#Travel",
-      "items": [
-        {
-          "label": "To Barcelona",
-          "href": "/travel-to-java-barcelona.html"
-        },
-        {
-          "label": "Offers",
-          "href": "/offers.html"
-        }
-      ]
-    },
-    {
-      "label": "Venue",
-      "href": "/java-barcelona-venue.html"
     },
     {
       "label": "Become a sponsor",
