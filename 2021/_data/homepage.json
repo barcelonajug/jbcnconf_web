@@ -1,6 +1,6 @@
 {
   "og_title":"JBCNConf - The big JVM conference in Spain",
-  "og_description": "23th of July 2021, Barcelona will be the host for three days to share knowledge and experiences, meet enthusiasts and geeks and learn about new technologies.",
+  "og_description": "23th of July 2021, will be the date for a day to share knowledge and experiences, meet enthusiasts and geeks and learn about new technologies.",
   "og_image": "/assets/img/logos/og-image.png",
   "ticket_section_title": "buy a ticket",
   "ticket_section_desc": "Do not miss the opportunity to participate in this event and to immerse yourself in 1 day of interesting talks on Java, JVM and open-source technologies.",
@@ -52,7 +52,7 @@
   "days": "23",
   "from-to": "23th of July",
   "from_to_days": "23th of July 2021",
-  "cfp_closing": "18th of July (last day)",
+  "cfp_closing": "18th of June (last day)",
   "talks-workshops": "Friday",
   "talks_days_cfp": "Friday",
   "talks_days": "Friday 23th of July 2021",
