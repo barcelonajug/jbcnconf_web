@@ -79,13 +79,15 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                             <div class="post-content">
                                 <p>Complete <a href="#eachSpeaker"><b>this form</b></a> with your proposal to join as speaker to the next edition of the JBCNConf ({{site.data.homepage.from-to}}).</p>
                                 <p>Call for papers will end the  <span class="label tag label-info"><b>{{site.data.homepage.cfp_closing}}</b></span> or as soon as the schedule is completed.</p>
+                                <!--
                                 We accept 2 types:  Workshop and Talk.
                                 <br>
                                 <ul>
                                     <li>Workshops will be 2 hours long on {{site.data.homepage.workshop_day_cfp}}. These should be in English.</li>
                                     <li>Talks will be 50 minutes long on {{site.data.homepage.talks_days_cfp}} and they must be in English.</li>
                                 </ul>
-                                <p>The proposal will be reviewed for the organizers and we will try to send you a reply with our feedback.</p>
+                                -->
+                                <p>The proposal will be reviewed for the org team and we will try to send you a reply with our feedback.</p>
                                 <b>Subject of CFP can be related to any of these topics:</b>
                                 <table>
                                     <tr>
@@ -117,13 +119,28 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 
                                 <p>If you have questions or comments, please contact with us: <i><a href="mailto:info@barcelonajug.org">info@barcelonajug.org</a></i></p>
 
+                                <div class="panel panel-default">
+                                </div>
+
                                 <p class="mandatory">* mandatory field</p>
 
                                 <form name="sendPaperForm" id="sendPaperForm" class="form">
                                     <div class="form-group">
+                                        <label>Languages available *:</label>
+                                        <div>Let us know in which of the following you could share the session.</div>
+                                        <div style="margin-left:7px;">
+                                            <input required hidden value="fix" id ="languages">
+                                            <input type="checkbox" id="langEng" name="langEng" checked>
+                                            <label for="langEng">English</label>
+                                            <input type="checkbox" id="langEs" name="langEs">
+                                            <label for="langEs">Spanish</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
                                         <label for="paperTitle">Title *:</label>
                                         <input required type="text" class="form-control" id="paperTitle">
                                     </div>
+                                    <!--
                                     <div class="form-group">
                                         <label for="paperType">Type *:</label>
                                         <select required class="form-control" id="paperType">
@@ -131,6 +148,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                             <option value="workshop">Workshop</option>
                                         </select>
                                     </div>
+                                    -->
                                     <div class="form-group">
                                         <label for="paperLevel" required>Level *:</label>
                                         <select required class="form-control" id="paperLevel">
@@ -147,6 +165,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                         <label for="paperTitle">Tags (at least 2 separated by comma) *:</label>
                                         <input required type="text" class="form-control" id="paperTags" placeholder="Android, Kotlin, Scala, Machine Learning, Cloud...">
                                     </div>
+                                    <!--
                                     <div class="form-group">
                                         <label for="paperDay">Do you MUST talk in a concrete day? (only for TALKS, Workshops are on Wednesday):</label>
                                         <select class="form-control" id="paperDay">
@@ -156,6 +175,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                         </select>
                                         <p><em>We will try to fit your need, but please consider that with 60 speakers is very difficult to make all them happy. <br/>So, only request a concrete day if it's totally required.</em></p>
                                     </div>
+                                    -->
                                     <div class="form-group">
                                         <label for="paperComments">Comments:</label>
                                         <textarea for="paperComments" id="paperComments" class="form-control"></textarea>
@@ -176,6 +196,10 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                                 <label for="senderName0">Picture (URL) *:</label>
                                                 <div>Please, ensure that the image is 512 x 512 and available as public http resource. This will help us a lot and avoid any manipulation from our side.</div>
                                                 <input required type="text" class="form-control" name="picture0" id="picture0">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="company0">Job description *:</label>
+                                                <input required type="text" class="form-control" name="jobTitle0" id="jobTitle0">
                                             </div>
                                             <div class="form-group">
                                                 <label for="email0">e-mail *:</label>
@@ -201,6 +225,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                                 <label for="biography0">Biography *:</label>
                                                 <textarea required class="form-control" name="biography0" id="biography0" rows="5"></textarea>
                                             </div>
+                                            <!--
                                             <div class="form-group">
                                                 <label for="tshirtSize0">T-Shirt size:</label>
                                                 <select class="form-control" id="tshirtSize0">
@@ -244,6 +269,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                                     <option value="true">Yes, I can't come without some help</option>
                                                 </select>
                                             </div>
+                                            -->
                                         </div>
                                     </div>
                                     <div class="form-group" style="padding: 3px 0px 0px 10px; border-radius: 5px;">
@@ -269,22 +295,23 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
     </div>
 
 <script type='text/javascript' src='{{ base }}/assets/js/tag-colors.js'></script>
-<script type="text/javascript">
-    var speakers = [0];
-    var template = '<div class="panel-body" id="speaker::i::">' +
+<script language="JavaScript" type="text/javascript">
+    let speakers = [0];
+    const template = '<div class="panel-body" id="speaker::i::">' +
     '<div class="form-group"><label for="senderName::i::">Full name *:</label><input required type="text" class="form-control" name="senderName::i::" id="senderName::i::"></div>' +
     '<div class="form-group"><label for="senderName::i::">Picture (URL) *:</label><input required type="text" class="form-control" name="picture::i::" id="picture::i::"></div>' +
+    '<div class="form-group"><label for="company::i::">Job description *:</label><input required type="text" class="form-control" name="jobTitle::i::" id="jobTitle::i::"></div>' +
     '<div class="form-group"><label for="email::i::">e-mail *:</label><input required type="text" class="form-control" name="email::i::" id="email::i::"></div>' +
     '<div class="form-group"><label for="company::i::">Company *:</label><input required type="text" class="form-control" name="company::i::" id="company::i::"></div>' +
     '<div class="form-group"><label for="twitter::i::">Twitter:</label><input type="text" class="form-control" name="twitter::i::" id="twitter::i::" placeholder="@my_account"></div>' +
     '<div class="form-group"><label for="web::i::">Web:</label><input type="text" class="form-control" name="web::i::" id="web::i::"></div>' +
     '<div class="form-group"><label for="linkedin::i::">LinkedIn:</label><input type="text" class="form-control" name="linkedin::i::" id="linkedin::i::" placeholder="https://www.linkedin.com/in/my_account"></div>' +
-    '<div class="form-group"><label for="biography::i::">Biography *:</label><textarea required class="form-control" name="biography::i::" id="biography::i::" rows="5"></textarea></div>' +
-    '<div class="form-group"><label for="tshirtSize::i::">T-Shirt size:</label><select class="form-control" id="tshirtSize::i::"><option value="S" selected>S</option><option value="M">M</option><option value="L">L</option><option value="XL">XL</option><option value="XXL">XXL</option></select></div>' +
-    '<div class="form-group"><label for="alergies::i::">Food allergies *:</label><div style="margin-left:7px;"><input type="radio" id="alergiesYes::i::" name="alergiesCombo::i::" value="yes"><label for="alergiesYes::i::">Yes</label><input type="radio" id="alergiesNo::i::" name="alergiesCombo::i::" value="no"><label for="alergiesNo::i::">No</label></div><input required type="text" class="form-control" name="alergies::i::" id="alergies::i::"></div>' +
-    '<div class="form-group"><label for="speakersParty::i::">Are you going to attend to Speaker\'s dinner on Sunday 1::i::th?</label><select class="form-control" id="speakersParty::i::"><option value="true" selected>yes</option><option value="false">no</option></select></div>' +
-    '<div class="form-group"><label for="attendeesParty::i::">Are you going to attend to the attendees Party on {{site.data.homepage.attendees_party_day}}?</label><select class="form-control" id="attendeesParty::i::"><option value="true" selected>yes</option><option value="false">no</option></select></div>' +
-    '<div class="form-group"><label for="travelCost::i::">Do you need help to cover your travel costs?</label><select class="form-control" id="travelCost::i::"><option value="false" selected>No</option><option value="true">Yes, I can\'t come without some help</option></select></div></div>';
+    '<div class="form-group"><label for="biography::i::">Biography *:</label><textarea required class="form-control" name="biography::i::" id="biography::i::" rows="5"></textarea></div>';
+    // '<div class="form-group"><label for="tshirtSize::i::">T-Shirt size:</label><select class="form-control" id="tshirtSize::i::"><option value="S" selected>S</option><option value="M">M</option><option value="L">L</option><option value="XL">XL</option><option value="XXL">XXL</option></select></div>' +
+    // '<div class="form-group"><label for="alergies::i::">Food allergies *:</label><div style="margin-left:7px;"><input type="radio" id="alergiesYes::i::" name="alergiesCombo::i::" value="yes"><label for="alergiesYes::i::">Yes</label><input type="radio" id="alergiesNo::i::" name="alergiesCombo::i::" value="no"><label for="alergiesNo::i::">No</label></div><input required type="text" class="form-control" name="alergies::i::" id="alergies::i::"></div>' +
+    // '<div class="form-group"><label for="speakersParty::i::">Are you going to attend to Speaker\'s dinner on Sunday 1::i::th?</label><select class="form-control" id="speakersParty::i::"><option value="true" selected>yes</option><option value="false">no</option></select></div>' +
+    // '<div class="form-group"><label for="attendeesParty::i::">Are you going to attend to the attendees Party on {{site.data.homepage.attendees_party_day}}?</label><select class="form-control" id="attendeesParty::i::"><option value="true" selected>yes</option><option value="false">no</option></select></div>' +
+    // '<div class="form-group"><label for="travelCost::i::">Do you need help to cover your travel costs?</label><select class="form-control" id="travelCost::i::"><option value="false" selected>No</option><option value="true">Yes, I can\'t come without some help</option></select></div></div>';
 
     function addSpeaker() {
         if (speakers.length < 2) {
@@ -317,10 +344,14 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
     }
 
     function validateRequiredFields() {
-        var firstMissingY = null;
+        let firstMissingY = null;
         jQuery(':required').each(function(i, e) {
             let req = jQuery(e);
-            if (e.id == 'paperTags' && !contains2Strings(req.val())) {
+            if (e.id == 'languages' && !jQuery("#langEng")[0].checked && !jQuery("#langEs")[0].checked) {
+                req.removeClass('valid');
+                req.addClass('invalid');
+                firstMissingY = updateScrollOffset(firstMissingY, req.parent());
+            } else if (e.id == 'paperTags' && !contains2Strings(req.val())) {
                 req.removeClass('valid');
                 req.addClass('invalid');
                 firstMissingY = updateScrollOffset(firstMissingY, req);
@@ -368,7 +399,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
         jQuery("#paperSuccess").addClass("hide");
         jQuery("#paperError").addClass("hide");
 
-        var offset = validateRequiredFields();
+        let offset = validateRequiredFields();
 
         if (offset != null) {
             jQuery("HTML, BODY").animate({scrollTop: offset - 30}, 1000);
@@ -384,15 +415,21 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
             "edition":"{{ site.data.homepage.year }}"
         };
 
+        paper.languages = []
+        if (jQuery("#langEng")[0].checked) paper.languages.push('eng');
+        if (jQuery("#langEs")[0].checked)  paper.languages.push('es');
+
+
         paper.title = jQuery("#paperTitle").val();
-        paper.type = jQuery("#paperType").val();
+        paper.type = 'talk';
         paper.level = jQuery("#paperLevel").val();
         paper.abstract = jQuery("#paperAbstract").val();
-        var tagsStr = jQuery("#paperTags").val();
-        if(tagsStr && tagsStr !== '') {
+
+        const tagsStr = jQuery("#paperTags").val();
+        if (tagsStr && tagsStr !== '') {
             let values = tagsStr.split(",");
             paper.tags = new Array();
-            for (var i = 0; i < values.length; i++) {
+            for (let i = 0; i < values.length; i++) {
                 let value = values[i];
                 if (value != null && value.trim().length > 0) {
                     paper.tags.push(value);
@@ -408,6 +445,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
             let sender = {
                 "fullName":jQuery("#senderName"+iSpeaker).val(),
                 "email":jQuery("#email"+iSpeaker).val(),
+                "jobTitle":jQuery("#jobTitle"+iSpeaker).val(),
                 "company":jQuery("#company"+iSpeaker).val(),
                 "twitter":jQuery("#twitter"+iSpeaker).val(),
                 "picture":jQuery("#picture"+iSpeaker).val(),

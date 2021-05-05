@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem 'github-pages'
-gem "jekyll", "~> 3.8.5"
+gem "jekyll", "~> 3.9.0"
 gem 'rake'
 gem 'rake-jekyll'
 
