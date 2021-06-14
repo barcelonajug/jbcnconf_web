@@ -1,4 +1,59 @@
 {
   "items": [
+    {
+      "id": "60c112eb3be4300877923156",
+      "title": "Kontinuous Integration and Delivery in Kubernetes",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Kubernetes matured enough to be the favorite application orchestration platform, but it still missed one crucial feature of an in-cluster build of the applications. The missing feature made continuous integration and delivery to be less effective. The market had various solutions to solve the problem but 99% of the solutions missed something being Kubernetes native\n\nIn this session, I will introduce you to Tekton - Kubernetes native way of defining and running CI/CD. The session explores the characteristics of Tekton and ArgoCD; Cloud Native, Decoupled, and Declarative. This demo-filled session will show how to stitch various building blocks of Tekton to do an in-cluster build and ArgoCD to deploy a Kubernetes application.\n",
+      "type": "talk",
+      "tags": [
+        "kubernetes",
+        "continuous delivery"
+      ],
+      "level": "middle",
+      "speakers": [
+        "1cf43210c8515585e52e4d2f6f2e5e0f582049d8"
+      ]
+    },
+    {
+      "id": "60c113223be4300877923157",
+      "title": "Developers do not need Kubernetes",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Since the emergence of Kubernetes, we hoped that developers will adopt it. That did not happen, and it will likely never happen. Developers do not need Kubernetes. They need to write code, and they need an easy way to build, test, and deploy their applications. It is unrealistic to expect developers to spend years learning Kubernetes.\n\nOn the other hand, operators and sysadmins need Kubernetes. It gives them all they need to run systems at scale. Nevertheless, operators also need to empower developers to deploy their own applications. They need to enable developers by providing services rather than doing actual deployments.\n\nSo, we have conflicting needs. Kubernetes is necessary to some and a burden to others. Can we satisfy all? Can we have a system that is based on Kubernetes yet easy to operate? Can we make Kubernetes disappear and become an implementation detail running in the background?\n\nLet's discuss where Kubernetes is going and how it might look like in the future.",
+      "type": "talk",
+      "tags": [
+        "Kubernetes",
+        "developers"
+      ],
+      "level": "middle",
+      "speakers": [
+        "0ba89c51baf9f8542188bd750973e0767fbcaa68"
+      ]
+    },
+    {
+      "id": "60c113d33be4300877923158",
+      "title": "Event-driven and serverless with Spring Cloud and Spring Native",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Applications in a microservices architecture can communicate with each other in different ways. Adopting an event-driven paradigm based on asynchronous messaging provides services a way of communicating while reducing runtime coupling. Functions are a natural way of implementing event-driven business logic in terms of suppliers, processors, and consumers. Furthermore, when going serverless, we aim at executables with instant startup and efficiency. Enter Spring.\n\nSpring Cloud Function favors using the functional programming paradigm to implement your business logic and provides useful features to build data pipelines, including type conversion and function composition. Functions can be exposed through different options (like web endpoints or message channels), and adapters are available to run them on platforms like Knative, AWS Lambda, Azure Functions, and GCP Functions. Spring Cloud Stream integrates your functions with messaging systems like RabbitMQ and Kafka without requiring any change to your code. Finally, Spring Native lets you compile your applications as native executable using GraalVM and providing instant startup, instant peak performance, and reduced memory consumption. ",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Cloud",
+        "Serverless",
+        "Spring Boot",
+        "GraalVM",
+        "Spring Cloud"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "19243e47c15a9592009ca961a856d0091d957ab8"
+      ]
+    }
   ]
 }
