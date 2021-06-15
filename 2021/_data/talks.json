@@ -4,9 +4,9 @@
       "id": "60c112eb3be4300877923156",
       "title": "Kontinuous Integration and Delivery in Kubernetes",
       "languages": [
-        "eng"
+        "es"
       ],
-      "abstract": "Kubernetes matured enough to be the favorite application orchestration platform, but it still missed one crucial feature of an in-cluster build of the applications. The missing feature made continuous integration and delivery to be less effective. The market had various solutions to solve the problem but 99% of the solutions missed something being Kubernetes native\n\nIn this session, I will introduce you to Tekton - Kubernetes native way of defining and running CI/CD. The session explores the characteristics of Tekton and ArgoCD; Cloud Native, Decoupled, and Declarative. This demo-filled session will show how to stitch various building blocks of Tekton to do an in-cluster build and ArgoCD to deploy a Kubernetes application.\n",
+      "abstract": "Kubernetes ha madurado suficiente hasta convertirse en la plataforma de orquestración por excelencia, sin embargo aún le falta una un elemento crucial. Y esto hace que Integración Continua y despliegue sean menos efectivas.\nEl mercado ofrece varias soluciones para resolverlo, pero el 99% fallan al no ser nativas para Kuberntes.\n\nEn esta sesión, Alex nos explicará Tekton, la solución nativa Kubernetes para definir y ejecutar tu CI/CD. La sessión explora las características de Tekton y ArgoCD; Cloud Native, Desacoplados y Declarativos.\nJunto a demos en vivo se mostrará como encajar las diferentes piezas de Tekton para hacer tus builds in-cluster, y ArgoCD para desplegar tus aplicaciones Kubernetes.",
       "type": "talk",
       "tags": [
         "kubernetes",
@@ -53,6 +53,27 @@
       "level": "beginner",
       "speakers": [
         "19243e47c15a9592009ca961a856d0091d957ab8"
+      ]
+    },
+    {
+      "id": "60c1144b3be430087792315a",
+      "title": "Despliega en Kubernetes usando Dekorate",
+      "languages": [
+        "es"
+      ],
+      "abstract": "Dekorate ofrece un conjunto de herramientas para generar manifiestos Kubernetes y OpenShift mientras compilas tu aplicacion. Te hará la vida más fácil porque no tienes que manipular ningún tipo de fichero JSON o YAML. Puedes usar anotaciones Java, ficheros application.properties o combinar los dos para personalizar los manifiestos. En esta sesión te enseñaré cómo desplegar fácilmente microservicios en Kubernetes y Openshift usando Dekorate, ¡no te la pierdas!\n",
+      "type": "talk",
+      "tags": [
+        "microservice",
+        "kubernetes",
+        "openshift",
+        "cloud",
+        "java",
+        "deploy"
+      ],
+      "level": "middle",
+      "speakers": [
+        "9e90e9ceb9ba68f67332f4efc12576651ca448a3"
       ]
     }
   ]
