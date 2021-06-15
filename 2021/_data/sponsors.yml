@@ -1,9 +1,14 @@
 top:
-  name: Red Hat
-  href: https://developers.redhat.com/
-  image:
-    src: "/assets/img/sponsors/redhat_rgb.png"
-    alt: Red Hat
+  - name: Red Hat
+    href: https://developers.redhat.com/
+    image:
+      src: "/assets/img/sponsors/redhat_rgb.png"
+      alt: Red Hat
+  - name: GFT
+    href: https://www.gft.com/es/es/index/
+    image:
+      src: "/assets/img/sponsors/gft-logo.jpg"
+      alt: GFT
 premium:
   - name: Ocado Technology
     href: https://www.ocadotechnology.com
