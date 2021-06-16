@@ -1,4 +1,80 @@
 {
   "items": [
+    {
+      "id": "60c112eb3be4300877923156",
+      "title": "Kontinuous Integration and Delivery in Kubernetes",
+      "languages": [
+        "es"
+      ],
+      "abstract": "Kubernetes ha madurado suficiente hasta convertirse en la plataforma de orquestración por excelencia, sin embargo aún le falta una un elemento crucial. Y esto hace que Integración Continua y despliegue sean menos efectivas.\nEl mercado ofrece varias soluciones para resolverlo, pero el 99% fallan al no ser nativas para Kuberntes.\n\nEn esta sesión, Alex nos explicará Tekton, la solución nativa Kubernetes para definir y ejecutar tu CI/CD. La sessión explora las características de Tekton y ArgoCD; Cloud Native, Desacoplados y Declarativos.\nJunto a demos en vivo se mostrará como encajar las diferentes piezas de Tekton para hacer tus builds in-cluster, y ArgoCD para desplegar tus aplicaciones Kubernetes.",
+      "type": "talk",
+      "tags": [
+        "kubernetes",
+        "continuous delivery"
+      ],
+      "level": "middle",
+      "speakers": [
+        "1cf43210c8515585e52e4d2f6f2e5e0f582049d8"
+      ]
+    },
+    {
+      "id": "60c113223be4300877923157",
+      "title": "Los desarrolladores no necesitan Kubernetes",
+      "languages": [
+        "es"
+      ],
+      "abstract": "Desde la aparición de Kubernetes, esperábamos que los desarrolladores lo adoptaran. Eso no sucedió y probablemente nunca sucederá. Los desarrolladores no necesitan Kubernetes. Necesitan escribir código y una forma sencilla de crear, probar e implementar sus aplicaciones. No es realista esperar que los desarrolladores pasen años aprendiendo Kubernetes. Por otro lado, los operadores y administradores de sistemas necesitan Kubernetes. Les brinda todo lo que necesitan para ejecutar sistemas a escala. No obstante, los operadores también deben capacitar a los desarrolladores para que implementen sus propias aplicaciones. Necesitan capacitar a los desarrolladores proporcionando servicios en lugar de realizar implementaciones reales. Entonces, tenemos necesidades en conflicto. Kubernetes es necesario para algunos y una carga para otros. ¿Podemos satisfacer a todos? ¿Podemos tener un sistema basado en Kubernetes pero fácil de operar? ¿Podemos hacer que Kubernetes desaparezca y se convierta en un detalle de implementación ejecutándose en segundo plano? Analicemos hacia dónde se dirige Kubernetes y cómo podría verse en el futuro.",
+      "type": "talk",
+      "tags": [
+        "Kubernetes",
+        "developers"
+      ],
+      "level": "middle",
+      "speakers": [
+        "0ba89c51baf9f8542188bd750973e0767fbcaa68"
+      ]
+    },
+    {
+      "id": "60c113d33be4300877923158",
+      "title": "Event-driven and serverless with Spring Cloud and Spring Native",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Applications in a microservices architecture can communicate with each other in different ways. Adopting an event-driven paradigm based on asynchronous messaging provides services a way of communicating while reducing runtime coupling. Functions are a natural way of implementing event-driven business logic in terms of suppliers, processors, and consumers. Furthermore, when going serverless, we aim at executables with instant startup and efficiency. Enter Spring.\n\nSpring Cloud Function favors using the functional programming paradigm to implement your business logic and provides useful features to build data pipelines, including type conversion and function composition. Functions can be exposed through different options (like web endpoints or message channels), and adapters are available to run them on platforms like Knative, AWS Lambda, Azure Functions, and GCP Functions. Spring Cloud Stream integrates your functions with messaging systems like RabbitMQ and Kafka without requiring any change to your code. Finally, Spring Native lets you compile your applications as native executable using GraalVM and providing instant startup, instant peak performance, and reduced memory consumption. ",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Cloud",
+        "Serverless",
+        "Spring Boot",
+        "GraalVM",
+        "Spring Cloud"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "19243e47c15a9592009ca961a856d0091d957ab8"
+      ]
+    },
+    {
+      "id": "60c1144b3be430087792315a",
+      "title": "Despliega en Kubernetes usando Dekorate",
+      "languages": [
+        "es"
+      ],
+      "abstract": "Dekorate ofrece un conjunto de herramientas para generar manifiestos Kubernetes y OpenShift mientras compilas tu aplicacion. Te hará la vida más fácil porque no tienes que manipular ningún tipo de fichero JSON o YAML. Puedes usar anotaciones Java, ficheros application.properties o combinar los dos para personalizar los manifiestos. En esta sesión te enseñaré cómo desplegar fácilmente microservicios en Kubernetes y Openshift usando Dekorate, ¡no te la pierdas!\n",
+      "type": "talk",
+      "tags": [
+        "microservice",
+        "kubernetes",
+        "openshift",
+        "cloud",
+        "java",
+        "deploy"
+      ],
+      "level": "middle",
+      "speakers": [
+        "9e90e9ceb9ba68f67332f4efc12576651ca448a3"
+      ]
+    }
   ]
 }

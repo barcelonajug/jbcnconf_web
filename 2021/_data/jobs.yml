@@ -1,0 +1,27 @@
+- title: Hello world
+  company:
+    name: company1
+    logo-url: /assets/img/sponsors/redhat_rgb.png
+    description: >-
+      Example company description.
+  description: >-
+    Lorem ipsum.
+  links:
+    linkedIn: http://aaa
+    web: http://bbbb
+- title: Hello world 2
+  company:
+    name: company2
+    logo-url: /assets/img/sponsors/ocadotechnology-200px-h.png
+    description: >-
+      We rock!
+      <ul>
+        <li>dasdasd</li>
+        <li>dadasdd</li>
+        <li>dasdasd</li>
+      </ul>
+  description: >-
+    Another lorem ipum.
+  links:
+    linkedIn: http://ccc
+    web: http://ddd

@@ -51,7 +51,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
             <div class="col-lg-9 col-sm-9 col-xs-12 site-content-left">
                 <div class="category-post-list post-list single-list">
 
-                    <article cass="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
+                    <article id="talk" class="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
                         <div class="post-wrapper">
                             <div class="post-header">
                                 <h2></h2>
@@ -79,6 +79,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
                                          src=""
                                          width="200"
                                          height="300"
+                                         alt="speaker"
                                          data-image-base="{{base}}/">
                                     <ul style="float:right; list-style:none" class="post-information">
                                         <li class="linkedin" style="display:none">
@@ -104,7 +105,6 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
                         </div>
                     </article>
 
-                    <!-- fix layout issue with speakers with only 1 social link -->
                     <div>&nbsp;</div>
 
                     <article id="speaker-page-1"
@@ -122,6 +122,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
                                          src=""
                                          width="200"
                                          height="300"
+                                         alt="speaker"
                                          data-image-base="{{base}}/">
                                     <ul style="float:right; list-style:none" class="post-information">
                                         <li class="linkedin" style="display:none">
@@ -164,6 +165,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
                                          src=""
                                          width="200"
                                          height="300"
+                                         alt="speaker"
                                          data-image-base="{{base}}/">
                                     <ul style="float:right; list-style:none" class="post-information">
                                         <li class="linkedin" style="display:none">
@@ -192,35 +194,36 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
                     <script>
                         (function () {
                             jQuery(document).ready(function ($) {
-
-                                console.log($('#session-type'));
-                                if (window.TALK.type == 'talk') {
+                                if (window.TALK.type === 'talk') {
                                     $('#session-type').append('Talk');
-                                    console.log('Talk');
                                 } else {
                                     $('#session-type').append('Workshop');
                                 }
 
-                                var updateSpeakerPage = function () {
-                                    for (var i = 0; i < window.SPEAKERS.length; i++) {
-                                        var speaker = window.SPEAKERS[i],
-                                            $container = $("#speaker-page-"+i),
+                                const updateSpeakerPage = function () {
+                                    $("article").addClass("hidden");
+                                    $("#talk").removeClass("hidden");
+                                    for (let i = 0; i < window.SPEAKERS.length; i++) {
+                                        const speaker = window.SPEAKERS[i],
+                                            $container = $("#speaker-page-" + i),
                                             updateSocialLink = function (social) {
                                                 if (speaker[social]) {
-                                                  var link = speaker[social]
-                                                  if (social === 'twitter') {
-                                                    link = link.replace('\@','')
-                                                    if (!link.startsWith('http://') && !link.startsWith('https://')) {
-                                                      link = 'http://twitter.com/' + link
+                                                    let link = speaker[social];
+                                                    if (social === 'twitter') {
+                                                        link = link.replace('\@', '')
+                                                        if (!link.startsWith('http://') && !link.startsWith('https://')) {
+                                                            link = 'http://twitter.com/' + link
+                                                        }
                                                     }
-                                                  }
-                                                  $container.find("." + social).show();
-                                                  $container.find("." + social + " a").attr("href", link);
+                                                    $container.removeClass("hidden");
+                                                    $container.find("." + social).show();
+                                                    $container.find("." + social + " a").attr("href", link);
                                                 }
 
                                             };
 
                                         $container.find('.speaker-image').attr("src", $('.speaker-image').attr("data-image-base") + speaker.image);
+                                        $container.find('.speaker-image').attr("alt", speaker.name);
                                         $container.find(".name").html(speaker.name);
                                         $container.find(".biography").html(speaker.biography);
                                         $container.find(".description").html(speaker.description);
@@ -230,24 +233,24 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
                                         updateSocialLink("homepage");
                                     }
 
-                                    var talk = window.TALK;
-                                    var title = '<h1 class="talk-title"> ' + talk.title + '</h1><i>(' + talk.type + ')<i>';
+                                    const talk = window.TALK;
+                                    const title = '<h1 class="talk-title"> ' + talk.title + '</h1><i>(' + talk.type + ')<i>';
                                     $('#post-content').append(title);
 
-                                    var abstractContent;
+                                    let abstractContent;
                                     if (!talk.requirements) {
                                         abstractContent = talk.abstract
                                     } else {
                                         abstractContent = talk.abstract
-                                        + '<br><br><span style="text-decoration:underline;font-weight:bold;">Requirements for the workshop</span>: '
-                                        + (talk.requirements.htmlText ? '<div>'+talk.requirements.htmlText+'</div>' : '')
-                                        + (talk.requirements.link ? '<a href="' + talk.requirements.link + '" style="text-decoration: underline; color: blue;" target="_blank"> 👉 Find them here!!</a>': '')
+                                            + '<br><br><span style="text-decoration:underline;font-weight:bold;">Requirements for the workshop</span>: '
+                                            + (talk.requirements.htmlText ? '<div>' + talk.requirements.htmlText + '</div>' : '')
+                                            + (talk.requirements.link ? '<a href="' + talk.requirements.link + '" style="text-decoration: underline; color: blue;" target="_blank"> 👉 Find them here!!</a>' : '')
                                     }
-                                    
+
                                     $('#post-content').append('<p style="text-align: justify;" class="abstract"> ' + abstractContent + ' </p>');
 
                                     if (talk.video) {
-                                        var video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + talk.video + '"' +
+                                        const video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + talk.video + '"' +
                                             'frameborder="0" autoplay encrypted-media allowfullscreen></iframe>';
                                         $('#post-content').append(video);
                                     }
@@ -266,5 +269,4 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
 
         </div>
     </div>
-
 </div>
