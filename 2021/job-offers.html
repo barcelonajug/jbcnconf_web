@@ -34,13 +34,21 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                 <br/>
                                 <h2>Job offers</h2>
                                 <div class="post-content" style="width : 100%; ">
-                                    <h1>Have a look at some of the opportunities with our sponsors</h1>
+                                    <h1 style="margin-bottom: 10px">Have a look at some of the opportunities with our sponsors</h1>
                                     <table>
+                                        <colgroup>
+                                            <col span="1" style="width: 25%;">
+                                            <col span="1" style="width: 70%;">
+                                        </colgroup>
+                                        <tbody>
                                         {% for job in site.data.jobs %}
                                         <tr>
-                                            <td><img src="{{ base }}{{ job.company.logo-url }}"
+                                            <td>
+                                                <img src="{{ base }}{{ job.company.logo-url }}"
+                                                     style="max-height: 150px;vertical-align: middle"
                                                      class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image"
                                                      alt="{{ job.company.name }}"/>
+                                            </td>
                                             <td>
                                                 <h2>
                                                     {{ job.title }}
@@ -62,6 +70,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                             </td>
                                         </tr>
                                         {% endfor %}
+                                        </tbody>
                                     </table>
                                 </div>
                             </div>
