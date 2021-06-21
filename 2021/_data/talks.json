@@ -56,6 +56,27 @@
       ]
     },
     {
+      "id": "60c114103be4300877923159",
+      "title": "Helidon – a great MicroService framework for the cloud world!",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "\nIn this talk, I will tell you about a wonderful opensource framework for writing microservices called Helidon. By using it, you can write truly tiny microservices with a minimum memory footprint and distribution size, and at the same time, with performance that is often several times higher, the of its competitors. With the help of Helidon, you can write both portable code, standardized by MicroProfile, as well as an absolutely pure reactive java code. CLI, wonderful tooling, full support for GraalVM, and at least Java version 11 will allow us to write the most productive microservices without any compromise!\n",
+      "type": "talk",
+      "tags": [
+        "helidon",
+        "microsercices",
+        "cloud",
+        "natice",
+        "javaee",
+        "microprofile"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "67155bca8730b7491ee45017054743b97982f3fb"
+      ]
+    },
+    {
       "id": "60c1144b3be430087792315a",
       "title": "Despliega en Kubernetes usando Dekorate",
       "languages": [
@@ -74,6 +95,66 @@
       "level": "middle",
       "speakers": [
         "9e90e9ceb9ba68f67332f4efc12576651ca448a3"
+      ]
+    },
+    {
+      "id": "60ca52a41fc64e0884ea9ea7",
+      "title": "Kafka and Pulsar: a gentle comparison",
+      "languages": [
+        "eng",
+        "es"
+      ],
+      "abstract": "Apache Kafka has been the go-to publish-subscribe (pub-sub) messaging system for a while. It offers functionality for a wide range of enterprise use cases, along with a large ecosystem of tools and a dedicated community. But lately, upstart Apache Pulsar has been gaining ground. Pulsar takes the best parts of Kafka and expands on them to solve problems that were out of scope of Kafka’s original design but which are lately coming to Kafka. In this session we'll cover the differences between them, how to choose one depending on your use case and the state of the art of both. If you have interest in messaging brokers and how they work under the hood, this session is for you.",
+      "type": "talk",
+      "tags": [
+        "kafka",
+        "pulsar",
+        "cloud",
+        "streaming",
+        "events"
+      ],
+      "level": "middle",
+      "speakers": [
+        "2b14d512d954c54d2bce56f69c2a7e1b755bee2f"
+      ]
+    },
+    {
+      "id": "60ca55081fc64e0884ea9ea8",
+      "title": "Preparándonos para un mundo multi-cloud / Getting ready for a multi-cloud world",
+      "languages": [
+        "eng",
+        "es"
+      ],
+      "abstract": "Si eres un desarrollador Cloud Native tarde o temprano algún Product Manager te preguntara: \"Pero esto se puede instalar en AWS y en Azure y en GCP?\" Seguido por: \"Tenemos un cliente que quiere lo mismo pero On-Premises\". Esta charla se enfoca en herramientas que apuntan a simplificar el desarrollo, despliegue y mantenimiento de aplicaciones cloud native construyendo funcionalidad sobre las APIs de Kubernetes. Esta charla muestra un ejemplo que la audiencia puede instalar en sus propios clusters de cómo estas herramientas pueden usarse en conjunto. Los siguientes proyectos seran explicados y demostrados: Knative, Crossplane, Helm, Tekton y CloudEvents. \n===\nIf you are a developer building Cloud Native applications, sooner or later a Product Manager will ask you: \"Can we deploy our application on AWS, Azure and GCP?\" followed by: \"We have a very good customer that wants our application to run On-Premises\". This presentation focuses on tools that aim to simplify the development, deployment and maintenance by building abstraction layers on top of the Kubernetes API. This presentation shows an example that the audience can install in their own environments using the following tools: Knative, Crossplane, Helm, Tekton and CloudEvents. ",
+      "type": "talk",
+      "tags": [
+        "kubernetes",
+        "cloud",
+        "multi-cloud",
+        "API",
+        "java"
+      ],
+      "level": "middle",
+      "speakers": [
+        "4b26a098aafaf6bc3d533389b61d3ef5ab01f5a3"
+      ]
+    },
+    {
+      "id": "60d0d9ad1fc64e0884ea9ee9",
+      "title": "Techniques for maintainable Quarkus Applications",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Over time, different people will work on a distributed system to maintain its current behavior and adapt the solution to new use cases; all these team members should work productively. Join this session to find out some techniques to calm those noisy loggers, avoid memory leaks, or have better control over your endpoints' response time; all these crafted to effectively maintain your Quarkus baked microservices.",
+      "type": "talk",
+      "tags": [
+        "Quarkus",
+        "Java",
+        "Development Practices"
+      ],
+      "level": "middle",
+      "speakers": [
+        "959143ffd6c954e5e544cdce71383429895e3679"
       ]
     }
   ]

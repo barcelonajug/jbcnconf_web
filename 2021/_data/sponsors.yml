@@ -31,6 +31,11 @@ regular:
     image:
       src: "/assets/img/sponsors/adaptive-logo.png"
       alt: Adaptive
+  - name: Jetbrains
+    href: https://www.jetbrains.com
+    image:
+      src: /assets/img/sponsors/jetbrains.png
+      alt: JetBrains
 supporters:
   - name: Barcelona Java Users Group
     href: http://www.barcelonajug.org
