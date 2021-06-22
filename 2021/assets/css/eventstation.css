@@ -11497,19 +11497,21 @@ hr.sponsor-separator:after {
  */
 
 .sponsor-top img {
-    width: 50%;
-    height: auto;
+    /*width: 50%;*/
+    /*height: auto;*/
 }
 
 @media (max-width: 600px) {
     .sponsor-top img {
-        width: 30%;
+        width: 75%;
     }
 }
 
 
 @media (max-width: 900px) {
     .sponsor-top img {
+		/*
         width: 40%;
+		*/
     }
 }
