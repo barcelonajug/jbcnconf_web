@@ -140,6 +140,28 @@
       ]
     },
     {
+      "id": "60d0d8351fc64e0884ea9ee7",
+      "title": "IntelliJ IDEA and Keeping Pace with the New Java Language Features",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "With IntelliJ IDEA's 4-month release cycle, JetBrains has adapted well to Java's 6-month release cycle. Up-to-date support for new language features in the IDE ensures that it's always easy for developers to play with the new features. IntelliJ IDEA adapts its existing set of inspections and code assistance tools so that they correctly interact with the new features and make use of them when appropriate. \n\nIn this live-coded session, the audience will take away why, how, and where to use the new language features in Java like Records, Sealed Classes, Pattern Matching, Text Blocks, Switch Expressions, and much more that will transform your everyday coding experience. You’ll see for yourself if it is worthwhile adopting all these new features.\n",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Java 12",
+        "Java 14",
+        "Java 14",
+        "Java 15",
+        "Java16",
+        "Java 17"
+      ],
+      "level": "middle",
+      "speakers": [
+        "c8d8d78afac8134e58563c75bc7c77400e6fc867"
+      ]
+    },
+    {
       "id": "60d0d9ad1fc64e0884ea9ee9",
       "title": "Techniques for maintainable Quarkus Applications",
       "languages": [

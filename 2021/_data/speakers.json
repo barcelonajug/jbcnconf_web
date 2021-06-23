@@ -106,6 +106,19 @@
     },
     {
       "enabled": "1",
+      "name": "Mala Gupta",
+      "company": "JetBrains",
+      "description": "Developer Advocate @JetBrains, Published Author",
+      "biography": "Mala Gupta works as a Developer Advocate with JetBrains. A Java Champion, she has authored multiple books with Manning, Packt, and O’Reilly Publications. She is an international speaker at industry conferences and has over two decades of experience in the software industry. She has been actively supporting Java certification as a path to career advancement.\nShe co-leads Delhi's Java User Group. A strong supporter of Women in Technology, she drives initiatives of the Women Who Code Delhi chapter to augment the participation of women in tech.",
+      "image": "assets/img/speakers/MalaGupta.jpeg",
+      "ref": "c8d8d78afac8134e58563c75bc7c77400e6fc867",
+      "url": "infoSpeaker.html?ref=c8d8d78afac8134e58563c75bc7c77400e6fc867",
+      "homepage": "http://malagupta.com/",
+      "twitter": "@eMalaGupta",
+      "linkedin": "https://www.linkedin.com/in/malagupta/"
+    },
+    {
+      "enabled": "1",
       "name": "Nicolas Fränkel",
       "company": "Hazelcast",
       "description": "Developer Advocate",
