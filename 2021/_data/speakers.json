@@ -15,6 +15,19 @@
     },
     {
       "enabled": "1",
+      "name": "Gopal S Akshintala",
+      "company": "Salesforce",
+      "description": "Senior Member of Technical Staff. Backend Developer ",
+      "biography": "My proposal was approved in JBCN Conf 2020 as well, but unfortunately the event got cancelled due to COVID. I am an international speaker, and you may find all my recorded talks in multiple conferences and meetups here: https://overfullstack.ga/my-talks/\n\nYou may find more about me here: https://overfullstack.ga/about-me",
+      "image": "assets/img/speakers/gopal-akshintala.png",
+      "ref": "fb4fc6057fcdc50798fa601ea43883688923960d",
+      "url": "infoSpeaker.html?ref=fb4fc6057fcdc50798fa601ea43883688923960d",
+      "homepage": "https://overfullstack.ga/",
+      "twitter": "@GopalAkshintala",
+      "linkedin": "https://www.linkedin.com/in/gopal-s-akshintala/"
+    },
+    {
+      "enabled": "1",
       "name": "Viktor Farcic",
       "company": "Shipa",
       "description": "Open-Source Program Manager @ Shipa",
@@ -54,6 +67,58 @@
     },
     {
       "enabled": "1",
+      "name": "Mary Grygleski",
+      "company": "IBM",
+      "description": "Developer Advocate",
+      "biography": "Mary is a Senior Developer Advocate at IBM with the Liberty/Websphere team, focusing on Liberty, Microprofile, Jakarta EE, Java, Open Source, Cloud, and Distributed Systems.  She transitioned from Unix/C to Java around 2000 and has never looked back since then.  She considers herself as a polyglot and loves to continue learning new and better ways to solve real-life problems. She is an active tech community builder outside of her day job, and currently the president of the Chicago Java Users Group (CJUG), as well as a co-organizer for several IBM-sponsored meetup groups in the Greater Chicago area.\n",
+      "image": "assets/img/speakers/mary-grygleski.png",
+      "ref": "443a683fa84a77151521434bf96a7a082d29d361",
+      "url": "infoSpeaker.html?ref=443a683fa84a77151521434bf96a7a082d29d361",
+      "homepage": "https://dev.to/mgrygles",
+      "twitter": "@mgrygles",
+      "linkedin": "https://www.linkedin.com/in/mary-grygleski/"
+    },
+    {
+      "enabled": "1",
+      "name": "Uriel Salischiker",
+      "company": "Dynatrace",
+      "description": "Software Engineer @ Dynatrace",
+      "biography": "Software Engineer @ Dynatrace, originally from Argentina. Worked at companies like Expedia, N26, Zopa and Dynatrace. Ask me about Kotlin :)",
+      "image": "assets/img/speakers/uriel-salis.png",
+      "ref": "f3572dc7d443088b08e41c3c094c425dc6d7d0d7",
+      "url": "infoSpeaker.html?ref=f3572dc7d443088b08e41c3c094c425dc6d7d0d7",
+      "homepage": "https://urielsalis.com",
+      "twitter": "urielsalis",
+      "linkedin": "linkedin.com/in/urielsalis"
+    },
+    {
+      "enabled": "1",
+      "name": "Thomas Vitale",
+      "company": "Systematic",
+      "description": "Senior Software Engineer",
+      "biography": "I’m a Senior Software Engineer specialized in building modern, cloud native, robust, and secure enterprise applications. I’m the author of “Cloud Native Spring in Action”, published by Manning. I develop enterprise software solutions at Systematic, Denmark, supporting home care, social services, and help to citizens. I have led the development of features to ensure a high degree of security and data privacy in our products and worked on modernizing our platforms and applications for the cloud-native world. I have an MSc in Computer Engineering specializing in software from the Polytechnic University of Turin (Italy). I’m a Red Hat Certified Enterprise Application Developer and Pivotal Certified Spring Professional. I’ve been building Java applications for more than five years, using Spring and Java EE/Jakarta EE. I like contributing to open source projects like Spring Security, Spring Cloud, and Keycloak, and I write articles about application security, cloud development, and JVM languages and frameworks on my blog: https://www.thomasvitale.com.",
+      "image": "assets/img/speakers/thomas-vitale.jpg",
+      "ref": "19243e47c15a9592009ca961a856d0091d957ab8",
+      "url": "infoSpeaker.html?ref=19243e47c15a9592009ca961a856d0091d957ab8",
+      "homepage": "https://www.thomasvitale.com/",
+      "twitter": "@vitalethomas",
+      "linkedin": "https://www.linkedin.com/in/vitalethomas/?locale=en_US"
+    },
+    {
+      "enabled": "1",
+      "name": "Nicolas Fränkel",
+      "company": "Hazelcast",
+      "description": "Developer Advocate",
+      "biography": "Developer Advocate with 15+ years experience consulting for many different customers, in a wide range of contexts (such as telecoms, banking, insurances, large retail and public sector). Usually working on Java/Java EE and Spring technologies, but with focused interests like Rich Internet Applications, Testing, CI/CD and DevOps. Currently working for Hazelcast. Also double as a trainer and triples as a book author.",
+      "image": "assets/img/speakers/me.jpg",
+      "ref": "a0fa74f04ff057c970f863cf2b2050b7ce55e4de",
+      "url": "infoSpeaker.html?ref=a0fa74f04ff057c970f863cf2b2050b7ce55e4de",
+      "homepage": "https://blog.frankel.ch/",
+      "twitter": "@nicolas_frankel",
+      "linkedin": ""
+    },
+    {
+      "enabled": "1",
       "name": "Ana-Maria Mihalceanu",
       "company": "IBM",
       "description": "Architect",
@@ -64,6 +129,19 @@
       "homepage": "",
       "twitter": "@ammbra1508",
       "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "David Gómez G.",
+      "company": "AxonIQ",
+      "description": "Developer Advocate",
+      "biography": "\nWith more than 20 years of experience in software development, has been part, lead, and developed projects for Banking, Insurance, Defense and Sea & ground transportation business. Aside from software development, he is also dedicated to training: a former Spring Certified instructor, he is delivering the JavaSpecialists Master courses for advanced Java topics in Spain. In fact, he has delivered more than 50 training courses all over Spain from 2009 to date. David is a JavaChampion since January 2020.\n",
+      "image": "assets/img/speakers/david-gomez.jpg",
+      "ref": "5078494b5b849a1474ce3ec801d23b06cffa5e20",
+      "url": "infoSpeaker.html?ref=5078494b5b849a1474ce3ec801d23b06cffa5e20",
+      "homepage": "",
+      "twitter": "@dgomezg",
+      "linkedin": "https://www.linkedin.com/in/dgomezg/"
     },
     {
       "enabled": "1",
@@ -90,19 +168,6 @@
       "homepage": "",
       "twitter": "@alexsotob",
       "linkedin": ""
-    },
-    {
-      "enabled": "1",
-      "name": "Thomas Vitale",
-      "company": "Systematic",
-      "description": "Senior Software Engineer",
-      "biography": "I’m a Senior Software Engineer specialized in building modern, cloud native, robust, and secure enterprise applications. I’m the author of “Cloud Native Spring in Action”, published by Manning. I develop enterprise software solutions at Systematic, Denmark, supporting home care, social services, and help to citizens. I have led the development of features to ensure a high degree of security and data privacy in our products and worked on modernizing our platforms and applications for the cloud-native world. I have an MSc in Computer Engineering specializing in software from the Polytechnic University of Turin (Italy). I’m a Red Hat Certified Enterprise Application Developer and Pivotal Certified Spring Professional. I’ve been building Java applications for more than five years, using Spring and Java EE/Jakarta EE. I like contributing to open source projects like Spring Security, Spring Cloud, and Keycloak, and I write articles about application security, cloud development, and JVM languages and frameworks on my blog: https://www.thomasvitale.com.",
-      "image": "assets/img/speakers/thomas-vitale.jpg",
-      "ref": "19243e47c15a9592009ca961a856d0091d957ab8",
-      "url": "infoSpeaker.html?ref=19243e47c15a9592009ca961a856d0091d957ab8",
-      "homepage": "https://www.thomasvitale.com/",
-      "twitter": "@vitalethomas",
-      "linkedin": "https://www.linkedin.com/in/vitalethomas/?locale=en_US"
     }
   ]
 }
