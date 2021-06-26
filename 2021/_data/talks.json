@@ -140,6 +140,28 @@
       ]
     },
     {
+      "id": "60d0d8351fc64e0884ea9ee7",
+      "title": "IntelliJ IDEA and Keeping Pace with the New Java Language Features",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "With IntelliJ IDEA's 4-month release cycle, JetBrains has adapted well to Java's 6-month release cycle. Up-to-date support for new language features in the IDE ensures that it's always easy for developers to play with the new features. IntelliJ IDEA adapts its existing set of inspections and code assistance tools so that they correctly interact with the new features and make use of them when appropriate. \n\nIn this live-coded session, the audience will take away why, how, and where to use the new language features in Java like Records, Sealed Classes, Pattern Matching, Text Blocks, Switch Expressions, and much more that will transform your everyday coding experience. You’ll see for yourself if it is worthwhile adopting all these new features.\n",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Java 12",
+        "Java 14",
+        "Java 14",
+        "Java 15",
+        "Java 16",
+        "Java 17"
+      ],
+      "level": "middle",
+      "speakers": [
+        "c8d8d78afac8134e58563c75bc7c77400e6fc867"
+      ]
+    },
+    {
       "id": "60d0d9ad1fc64e0884ea9ee9",
       "title": "Techniques for maintainable Quarkus Applications",
       "languages": [
@@ -155,6 +177,102 @@
       "level": "middle",
       "speakers": [
         "959143ffd6c954e5e544cdce71383429895e3679"
+      ]
+    },
+    {
+      "id": "60d0dbbb1fc64e0884ea9eea",
+      "title": "Exploring Stateful Microservices in the Cloud Native World",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "How does one choose to architect a system that has a Microservice / REST API endpoints? There are many solutions out there. Some are better than others. Should state be held in a server side component, or externally? Generally we are told this is not a good practice for a Cloud Native system, when the 12-factor guidelines seem to be all about stateless containers, but is it? It’s unclear and this confusion may lead to poor technology stack choices that are impossible or extremely hard to change later on as your system evolves in terms of demand and performance.\n\nWhile stateless systems are easier to work with, the reality is that we live in a stateful world, so we have to handle the state of data accordingly to ensure data integrity beyond securing it.\n\nWe will examine and demonstrate the fundamentals of a Cloud Native system with Stateful Microservices that’s built with Open Liberty in Kubernetes:\n\n* Microservices/REST API – Options to use when running your apps in the JVM\n\n* Concurrency – how to take advantage of multi-core CPUs and clustered distributed systems\n\n* Stateful vs Stateless - while stateless apps are easier to implement, the bulk of the apps in production are stateful which involve a higher level of complexity and risk, especially when data would need to travel across multiple machine and network boundaries.  We will examine the Saga and Long-Running Action programming pattern with a prototype design.\n\n* Deployment – how about containerization and orchestration using Kubernetes?  We will look at StatefulSets and PersistenVolume from the container infrastructure perspective.\n",
+      "type": "talk",
+      "tags": [
+        "Microservices",
+        "Cloud Native",
+        "Java",
+        "Transactions",
+        "Containers"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "443a683fa84a77151521434bf96a7a082d29d361"
+      ]
+    },
+    {
+      "id": "60d0e08b1fc64e0884ea9eec",
+      "title": "Building monolith applications that could scale to microservices",
+      "languages": [
+        "eng",
+        "es"
+      ],
+      "abstract": "It’s easy these days to fall into the trap of starting to design your whole application with a microservices architecture…. Because, you know, that’s what everyone is doing, right?\n\nBut no, no. I’m not going to deny that Microservices have their advantages, specifically in a distributed and scalable world like the one we need to deal with. The problem may be in the approach we are taking. Are we considering the microservices architecture as a goal, or as a means to a purpose?\n\nIn this talk we will think in a different approach: we will go back to the basics, and see how following DDD, CQRS and Event-Sourcing practices will drive our application design and evolution in such a way that we will start with a monolith but we will have the ability to scale into a microservices architecture more or less easily when (and more importantly: if) we need to.\n",
+      "type": "talk",
+      "tags": [
+        "DDD",
+        "CQRS",
+        "Event-Sourcing",
+        "Microservices",
+        "LocationTransparency",
+        "Design"
+      ],
+      "level": "middle",
+      "speakers": [
+        "5078494b5b849a1474ce3ec801d23b06cffa5e20"
+      ]
+    },
+    {
+      "id": "60d0e1a51fc64e0884ea9eee",
+      "title": "Functional microservices with Kotlin",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "We all heard good things about functional programming and saw small code snippets on how we can apply concepts from it, but what happens when we try to build an actual microservice?\n\nThis talk is going to introduce some of the base concepts that we are going to use, along with different approaches for each of them with their pros and cons, then we are going to use them to build a real microservice. Based on the services built in Zopa, N26, Mojira and Dynatrace",
+      "type": "talk",
+      "tags": [
+        "Kotlin",
+        "Microservices",
+        "Functional Programming"
+      ],
+      "level": "middle",
+      "speakers": [
+        "f3572dc7d443088b08e41c3c094c425dc6d7d0d7"
+      ]
+    },
+    {
+      "id": "60d0e55a1fc64e0884ea9eef",
+      "title": "From Imperative to Reactive",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "The Reactive Programming model is complex to master. It requires a lot of experience to feel comfortable with its API. However, there’s no denying that it fits the cloud ecosystem perfectly. Since on-premises infrastructure is oversized, running a program that executes a couple of additional CPU cycles won’t change anything. On the other hand, you will pay for them if you host the same program on third-party infrastructure. Depending on the number of those cycles, and the number of nodes the program runs on, it can make a huge difference in your monthly bill.\n\nIn this demo-based talk, I’ll show how to migrate a traditional Spring Boot application that uses WebMVC, Spring Data JPA, and Spring Cache to its Reactive equivalent in a step-by-step process.",
+      "type": "talk",
+      "tags": [
+        "reactive programming",
+        "spring boot"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "a0fa74f04ff057c970f863cf2b2050b7ce55e4de"
+      ]
+    },
+    {
+      "id": "60d0e6c61fc64e0884ea9ef0",
+      "title": "`Huh?` to `Aha!`: A Refactoring Story",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "## Abstract\n    - \"Entropy is the price of a Structure\". But sometimes, the price turns too high to pay. Is your codebase turning untestable, unreadable, and unmaintainable? Does your costs to add new features aren't meeting the ROIs. It's time to ask your manager to fund **Refactoring**!\n    - In this demo-driven talk, using a real-world service, we shall identity some common reasons for a codebase to rot and how to weed them out using principles from **Clean Architecture** and **Functional Programming**, along with achieving 95% test coverage and ~50% reduction in [Cognitive complexity](https://www.sonarsource.com/docs/CognitiveComplexity.pdf).\n\n## Audience & Take-aways\nThis applies to software developers at all levels. I use **Java** to demonstrate the code snippets, but this talk is about Software Design and Testing and is agnostic of programming language. The major take-aways for the audience are:\n    - Pragmatically apply the principles of Clean-Architecture and Functional programming in real-world refactoring.\n    - How to break your codebase into atomic components which can be composed and tested-in-isolation.\n    - How to eliminate _ Exceptions_ from your code using **ADTs (Algebraic Data Types)**.\n    - How to replace _Shared Global mutable state on your Shared Code_ with **Immutability** and **Data Transformations**.\n    - How separating out _What-to-do_ from _How-to-do_ can bring in a lot of flexibility to your code-base.\n    - How following all the above organically boost your **Testability** without falling into any anti-patterns of testing.\n    - Let's talk about **Complexity** and how to objectively measure the reduction we brought with our refactoring.\n",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Refactoring",
+        "Clean Code",
+        "Functional Programming"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "fb4fc6057fcdc50798fa601ea43883688923960d"
       ]
     }
   ]
