@@ -99,11 +99,11 @@
     },
     {
       "id": "60ca52a41fc64e0884ea9ea7",
-      "title": "Kafka and Pulsar: a gentle comparison",
+      "title": "Kafka y Pulsar: a comparación suave",
       "languages": [
         "eng"
       ],
-      "abstract": "Apache Kafka has been the go-to publish-subscribe (pub-sub) messaging system for a while. It offers functionality for a wide range of enterprise use cases, along with a large ecosystem of tools and a dedicated community. But lately, upstart Apache Pulsar has been gaining ground. Pulsar takes the best parts of Kafka and expands on them to solve problems that were out of scope of Kafka’s original design but which are lately coming to Kafka. In this session we'll cover the differences between them, how to choose one depending on your use case and the state of the art of both. If you have interest in messaging brokers and how they work under the hood, this session is for you.",
+      "abstract": "Apache Kafka ha sido el sistema de mensajería de publicación-suscripción (pub-sub) por un tiempo. Ofrece funcionalidad para una amplia gama de casos de uso empresarial, junto con un gran ecosistema de herramientas y una comunidad dedicada. Pero últimamente, el advenedizo Apache Pulsar ha ido ganando terreno. Pulsar toma las mejores partes de Kafka y las amplía para resolver problemas que estaban fuera del alcance del diseño original de Kafka pero que últimamente están llegando a Kafka. En esta sesión, cubriremos las diferencias entre ellos, cómo elegir uno según su caso de uso y el estado de la técnica de ambos. Si está interesado en los agentes de mensajería y en cómo funcionan bajo el capó, esta sesión es para usted.",
       "type": "talk",
       "tags": [
         "kafka",
