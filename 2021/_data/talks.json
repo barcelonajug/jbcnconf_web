@@ -101,7 +101,7 @@
       "id": "60ca52a41fc64e0884ea9ea7",
       "title": "Kafka y Pulsar: a comparación suave",
       "languages": [
-        "eng"
+        "es"
       ],
       "abstract": "Apache Kafka ha sido el sistema de mensajería de publicación-suscripción (pub-sub) por un tiempo. Ofrece funcionalidad para una amplia gama de casos de uso empresarial, junto con un gran ecosistema de herramientas y una comunidad dedicada. Pero últimamente, el advenedizo Apache Pulsar ha ido ganando terreno. Pulsar toma las mejores partes de Kafka y las amplía para resolver problemas que estaban fuera del alcance del diseño original de Kafka pero que últimamente están llegando a Kafka. En esta sesión, cubriremos las diferencias entre ellos, cómo elegir uno según su caso de uso y el estado de la técnica de ambos. Si está interesado en los agentes de mensajería y en cómo funcionan bajo el capó, esta sesión es para usted.",
       "type": "talk",
@@ -242,7 +242,7 @@
       "id": "60d0e08b1fc64e0884ea9eec",
       "title": "Construyendo aplicaciones monolíticas que puedan escalar a micro servicios",
       "languages": [
-        "eng"
+        "es"
       ],
       "abstract": "Es fácil en estos días caer en la trampa de comenzar a diseñar toda su aplicación con una arquitectura de micro servicios ... Porque, ya sabes, eso es lo que todo el mundo está haciendo, ¿verdad? Pero no, no. No voy a negar que los micro servicios tienen sus ventajas, específicamente en un mundo distribuido y escalable como el que tenemos que enfrentar. El problema puede estar en el enfoque que estamos adoptando. ¿Estamos considerando la arquitectura de micro servicios como un objetivo o como un medio para lograr un propósito? En esta charla pensaremos en un enfoque diferente: volveremos a lo básico y veremos cómo seguir las prácticas de DDD, CQRS y Event-Sourcing impulsará el diseño y la evolución de nuestra aplicación de tal manera que comenzaremos con un monolito pero tendremos la capacidad de escalar a una arquitectura de micro servicios más o menos fácilmente cuando (y lo que es más importante: si) lo necesitemos.",
       "type": "talk",
