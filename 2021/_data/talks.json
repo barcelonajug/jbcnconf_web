@@ -240,11 +240,11 @@
     },
     {
       "id": "60d0e08b1fc64e0884ea9eec",
-      "title": "Building monolith applications that could scale to microservices",
+      "title": "Construyendo aplicaciones monolíticas que puedan escalar a micro servicios",
       "languages": [
         "eng"
       ],
-      "abstract": "It’s easy these days to fall into the trap of starting to design your whole application with a microservices architecture…. Because, you know, that’s what everyone is doing, right?\n\nBut no, no. I’m not going to deny that Microservices have their advantages, specifically in a distributed and scalable world like the one we need to deal with. The problem may be in the approach we are taking. Are we considering the microservices architecture as a goal, or as a means to a purpose?\n\nIn this talk we will think in a different approach: we will go back to the basics, and see how following DDD, CQRS and Event-Sourcing practices will drive our application design and evolution in such a way that we will start with a monolith but we will have the ability to scale into a microservices architecture more or less easily when (and more importantly: if) we need to.\n",
+      "abstract": "Es fácil en estos días caer en la trampa de comenzar a diseñar toda su aplicación con una arquitectura de micro servicios ... Porque, ya sabes, eso es lo que todo el mundo está haciendo, ¿verdad? Pero no, no. No voy a negar que los micro servicios tienen sus ventajas, específicamente en un mundo distribuido y escalable como el que tenemos que enfrentar. El problema puede estar en el enfoque que estamos adoptando. ¿Estamos considerando la arquitectura de micro servicios como un objetivo o como un medio para lograr un propósito? En esta charla pensaremos en un enfoque diferente: volveremos a lo básico y veremos cómo seguir las prácticas de DDD, CQRS y Event-Sourcing impulsará el diseño y la evolución de nuestra aplicación de tal manera que comenzaremos con un monolito pero tendremos la capacidad de escalar a una arquitectura de micro servicios más o menos fácilmente cuando (y lo que es más importante: si) lo necesitemos.",
       "type": "talk",
       "tags": [
         "DDD",
