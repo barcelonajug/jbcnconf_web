@@ -106,6 +106,19 @@
     },
     {
       "enabled": "1",
+      "name": "Grace Jansen",
+      "company": "IBM",
+      "description": "Developer Advocate",
+      "biography": "Grace is a Developer Advocate at IBM, working with Open Liberty and Reactive Technologies. She has been with IBM since graduating from Exeter University with a Degree in Biology. Grace enjoys bringing a varied perspective to her projects and using her knowledge of biological systems to simplify complex software patterns and architectures. As a developer advocate, Grace builds POC’s, demos and sample applications, and writes guides and tutorials. She is a regular presenter at international technology conferences and has recently authored a book on reactive systems. Grace also has a keen passion for encouraging more women into STEM and especially Technology careers.",
+      "image": "assets/img/speakers/grace-jensen.jpg",
+      "ref": "b21e540e924111f0e9d271ed82350fa020b9972e",
+      "url": "infoSpeaker.html?ref=b21e540e924111f0e9d271ed82350fa020b9972e",
+      "homepage": "",
+      "twitter": "@gracejansen27",
+      "linkedin": "https://www.linkedin.com/in/grace-jansen/"
+    },
+    {
+      "enabled": "1",
       "name": "Mala Gupta",
       "company": "JetBrains",
       "description": "Developer Advocate @JetBrains, Published Author",
@@ -145,10 +158,23 @@
     },
     {
       "enabled": "1",
+      "name": "Matthew Cornford",
+      "company": "Ocado Technology",
+      "description": "Head of Product, Handling Robotics",
+      "biography": "Matthew is a Head of Product at Ocado Technology, helping to develop the pioneering software underpinning Ocado’s highly automated warehouses - the most evolved of their kind in the world. These warehouses not only serve Ocado's own retail operation in the UK, but also form a core part of the Ocado Smart Platform, enabling some of the world’s leading retailers to leapfrog their competition and groceries sell online profitably.\n\nMatthew studied Mathematics at the University of Oxford and has 10+ years experience as a software developer and engineering team lead at companies such as Cisco Systems and Goldman Sachs. Outside of work, you'll find Matthew raising his two young daughters, or training for his next half marathon.",
+      "image": "assets/img/speakers/matthew-cornford.jpeg",
+      "ref": "9b37a2375ddf8d4691a37454adec0cfebcb5153a",
+      "url": "infoSpeaker.html?ref=9b37a2375ddf8d4691a37454adec0cfebcb5153a",
+      "homepage": "",
+      "twitter": "@bofalot",
+      "linkedin": "https://www.linkedin.com/in/matthewcornford/"
+    },
+    {
+      "enabled": "1",
       "name": "David Gómez G.",
       "company": "AxonIQ",
       "description": "Developer Advocate",
-      "biography": "\nWith more than 20 years of experience in software development, has been part, lead, and developed projects for Banking, Insurance, Defense and Sea & ground transportation business. Aside from software development, he is also dedicated to training: a former Spring Certified instructor, he is delivering the JavaSpecialists Master courses for advanced Java topics in Spain. In fact, he has delivered more than 50 training courses all over Spain from 2009 to date. David is a JavaChampion since January 2020.\n",
+      "biography": "With more than 20 years of experience in software development, has been part, lead, and developed projects for Banking, Insurance, Defense and Sea & ground transportation business. Aside from software development, he is also dedicated to training: a former Spring Certified instructor, he is delivering the JavaSpecialists Master courses for advanced Java topics in Spain. In fact, he has delivered more than 50 training courses all over Spain from 2009 to date. David is a JavaChampion since January 2020.\n",
       "image": "assets/img/speakers/david-gomez.jpg",
       "ref": "5078494b5b849a1474ce3ec801d23b06cffa5e20",
       "url": "infoSpeaker.html?ref=5078494b5b849a1474ce3ec801d23b06cffa5e20",
@@ -171,6 +197,19 @@
     },
     {
       "enabled": "1",
+      "name": "Ben Evans",
+      "company": "New Relic",
+      "description": "Lead Architect, Instrumentation",
+      "biography": "Ben Evans is Principal Engineer and Lead Architect for Instrumentation at New Relic. Previously, he co-founded jClarity, a Java performance company (acquired by Microsoft), and was Chief Architect for Listed Derivatives at Deutsche Bank. \n\nHe represented the user community as a voting member of Java’s governing body for 6 years. He is a Java Champion & 3-time JavaOne Rock Star Speaker. Ben is the author of 5 best-selling books on programming. He is the track lead for Java / JVM at InfoQ, writes regularly for industry publications and is a frequent speaker at technical conferences worldwide.",
+      "image": "assets/img/speakers/ben-evans.jpg",
+      "ref": "6d4ec093aeee2a5dde4bbce8e9698776ce7bd5b8",
+      "url": "infoSpeaker.html?ref=6d4ec093aeee2a5dde4bbce8e9698776ce7bd5b8",
+      "homepage": "https://kittylyst.com",
+      "twitter": "kittylyst",
+      "linkedin": "https://www.linkedin.com/in/kittylyst/"
+    },
+    {
+      "enabled": "1",
       "name": "Alex Soto",
       "company": "Red Hat",
       "description": "Director of Developer Experience",
@@ -181,6 +220,19 @@
       "homepage": "",
       "twitter": "@alexsotob",
       "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Jordi Sola Alaball",
+      "company": "Red Hat",
+      "description": "Content Services Architect",
+      "biography": "Software passionate, developer, father, and mainly a person with ideas that want to get out of the head.\n\nUsing Java for more than 15 years, Jordi is a natural-born developer.\nHe is the owner and an active contributor to the open-source community, such as XMLFormat, Quarkus, Jackson, and Ceylon, and speaker at several meetups. \n\nJordi joined Red Hat in 2018 as a content services architect focused on Red Hat OpenShift and Application Development. \nHe helps to create and teaches Red Hat OpenShift related courses, the Red Hat OpenShift Service Mesh, and the Red Hat Build of Quarkus portfolio.",
+      "image": "assets/img/speakers/jordi-sola.png",
+      "ref": "a3ffcd525f7fe71fc93768fa166a299ec1b60ebc",
+      "url": "infoSpeaker.html?ref=a3ffcd525f7fe71fc93768fa166a299ec1b60ebc",
+      "homepage": "https://someth2say.wordpress.com/",
+      "twitter": "@jordisola_",
+      "linkedin": "https://www.linkedin.com/in/jordisola/"
     }
   ]
 }

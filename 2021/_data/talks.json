@@ -2,11 +2,11 @@
   "items": [
     {
       "id": "60c112eb3be4300877923156",
-      "title": "Kontinuous Integration and Delivery in Kubernetes",
+      "title": "Integración Kontinua y entrega con Kubernetes",
       "languages": [
         "es"
       ],
-      "abstract": "Kubernetes ha madurado suficiente hasta convertirse en la plataforma de orquestración por excelencia, sin embargo aún le falta una un elemento crucial. Y esto hace que Integración Continua y despliegue sean menos efectivas.\nEl mercado ofrece varias soluciones para resolverlo, pero el 99% fallan al no ser nativas para Kuberntes.\n\nEn esta sesión, Alex nos explicará Tekton, la solución nativa Kubernetes para definir y ejecutar tu CI/CD. La sessión explora las características de Tekton y ArgoCD; Cloud Native, Desacoplados y Declarativos.\nJunto a demos en vivo se mostrará como encajar las diferentes piezas de Tekton para hacer tus builds in-cluster, y ArgoCD para desplegar tus aplicaciones Kubernetes.",
+      "abstract": "Kubernetes ha madurado suficiente hasta convertirse en la plataforma de orquestación por excelencia, sin embargo aún le falta una un elemento crucial. Y esto hace que Integración Continua y despliegue sean menos efectivas.\nEl mercado ofrece varias soluciones para resolverlo, pero el 99% fallan al no ser nativas para Kuberntes.\n\nEn esta sesión, Alex nos explicará Tekton, la solución nativa Kubernetes para definir y ejecutar tu CI/CD. La sessión explora las características de Tekton y ArgoCD; Cloud Native, Desacoplados y Declarativos.\nJunto a demos en vivo se mostrará como encajar las diferentes piezas de Tekton para hacer tus builds in-cluster, y ArgoCD para desplegar tus aplicaciones Kubernetes.",
       "type": "talk",
       "tags": [
         "kubernetes",
@@ -65,9 +65,9 @@
       "type": "talk",
       "tags": [
         "helidon",
-        "microsercices",
+        "microservices",
         "cloud",
-        "natice",
+        "native",
         "javaee",
         "microprofile"
       ],
@@ -82,7 +82,7 @@
       "languages": [
         "es"
       ],
-      "abstract": "Dekorate ofrece un conjunto de herramientas para generar manifiestos Kubernetes y OpenShift mientras compilas tu aplicacion. Te hará la vida más fácil porque no tienes que manipular ningún tipo de fichero JSON o YAML. Puedes usar anotaciones Java, ficheros application.properties o combinar los dos para personalizar los manifiestos. En esta sesión te enseñaré cómo desplegar fácilmente microservicios en Kubernetes y Openshift usando Dekorate, ¡no te la pierdas!\n",
+      "abstract": "Dekorate ofrece un conjunto de herramientas para generar manifiestos Kubernetes y OpenShift mientras compilas tu aplicación. Te hará la vida más fácil porque no tienes que manipular ningún tipo de fichero JSON o YAML. Puedes usar anotaciones Java, ficheros application.properties o combinar los dos para personalizar los manifiestos. En esta sesión te enseñaré cómo desplegar fácilmente micro servicios en Kubernetes y Openshift usando Dekorate, ¡no te la pierdas!\n",
       "type": "talk",
       "tags": [
         "microservice",
@@ -120,12 +120,12 @@
     },
     {
       "id": "60ca55081fc64e0884ea9ea8",
-      "title": "Preparándonos para un mundo multi-cloud / Getting ready for a multi-cloud world",
+      "title": "Preparándonos para un mundo multi-cloud",
       "languages": [
         "eng",
         "es"
       ],
-      "abstract": "Si eres un desarrollador Cloud Native tarde o temprano algún Product Manager te preguntara: \"Pero esto se puede instalar en AWS y en Azure y en GCP?\" Seguido por: \"Tenemos un cliente que quiere lo mismo pero On-Premises\". Esta charla se enfoca en herramientas que apuntan a simplificar el desarrollo, despliegue y mantenimiento de aplicaciones cloud native construyendo funcionalidad sobre las APIs de Kubernetes. Esta charla muestra un ejemplo que la audiencia puede instalar en sus propios clusters de cómo estas herramientas pueden usarse en conjunto. Los siguientes proyectos seran explicados y demostrados: Knative, Crossplane, Helm, Tekton y CloudEvents. \n===\nIf you are a developer building Cloud Native applications, sooner or later a Product Manager will ask you: \"Can we deploy our application on AWS, Azure and GCP?\" followed by: \"We have a very good customer that wants our application to run On-Premises\". This presentation focuses on tools that aim to simplify the development, deployment and maintenance by building abstraction layers on top of the Kubernetes API. This presentation shows an example that the audience can install in their own environments using the following tools: Knative, Crossplane, Helm, Tekton and CloudEvents. ",
+      "abstract": "Si eres un desarrollador Cloud Native tarde o temprano algún Product Manager te preguntara:  'Pero esto se puede instalar en AWS y en Azure y en GCP? ' Seguido por:  'Tenemos un cliente que quiere lo mismo pero On-Premises '. Esta charla se enfoca en herramientas que apuntan a simplificar el desarrollo, despliegue y mantenimiento de aplicaciones cloud native construyendo funcionalidad sobre las APIs de Kubernetes. Esta charla muestra un ejemplo que la audiencia puede instalar en sus propios clusters de cómo estas herramientas pueden usarse en conjunto. Los siguientes proyectos serán explicados y demostrados: Knative, Crossplane, Helm, Tekton y CloudEvents.",
       "type": "talk",
       "tags": [
         "kubernetes",
@@ -159,6 +159,28 @@
       "level": "middle",
       "speakers": [
         "c8d8d78afac8134e58563c75bc7c77400e6fc867"
+      ]
+    },
+    {
+      "id": "60d0d8961fc64e0884ea9ee8",
+      "title": "Replicating production on your laptop using the magic of containers",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Containers are an amazing technology that are revolutionising how we deploy and create applications. Docker and Kubernetes are helping developers and organisations realise the magical potential that container technology and orchestration offer. Enter MicroShed and the Testcontainers framework enabling local test automation that leverages that magical portability containers offer. In this session we'll explore how Testcontainers can help you run and test with true-to-production environments in development with minimal re-writing of your test code.",
+      "type": "talk",
+      "tags": [
+        "Testing",
+        "Java",
+        "Testcontainers",
+        "MicroShed testing",
+        "containers",
+        "cloud",
+        "cloud-native"
+      ],
+      "level": "middle",
+      "speakers": [
+        "b21e540e924111f0e9d271ed82350fa020b9972e"
       ]
     },
     {
@@ -200,6 +222,25 @@
       ]
     },
     {
+      "id": "60d0df511fc64e0884ea9eeb",
+      "title": "Orchestrating Robot Swarms with Java",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "At Ocado Technology, we are heavily invested in Java. We are using this language in our in-house built, end-to-end platform Ocado Smart Platform (OSP), from ecommerce to bots fulfilling customer orders and routing deliveries to homes. OSP is the world’s most advanced end-to-end eCommerce, logistics and fulfilment platform ever developed for online grocery, used by some of the world’s most forward-thinking grocery retailers across the globe.\n\nOur highly automated fulfilment centre enlist thousands of bots to process hundreds of thousands of orders per week (click here if you would like to see our bots in action).\n\nIn this session, we will uncover Java’s role in orchestrating these huge bot swarms for superior efficiencies of scale and explore some of the benefits and challenges that the use of Java has presented. A common question we get asked (and ask ourselves!) is why Java instead of others, like C++ or Rust, for example. Over the next 50 minutes, we will explore the four main reasons behind this decision: \n\n- Performance\n- Speed of development\n- Evolving platform\n- Recruitment\n\nJava helps us to not only optimize our control system but also the productivity of our developers. Throughout this presentation, some exciting topics that we will dig into are: \n\n- The different decisions that have to be made at the beginning of an application’s life and the choices we have made at Ocado Technology in developing our robotic swarm control system\n- The use of Java in a scenario where other lower-level languages might seem more appropriate\n- Development principles we adhere to and the implications they have on the implementation choices within our system",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "design",
+        "CI",
+        "testing"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "9b37a2375ddf8d4691a37454adec0cfebcb5153a"
+      ]
+    },
+    {
       "id": "60d0e08b1fc64e0884ea9eec",
       "title": "Building monolith applications that could scale to microservices",
       "languages": [
@@ -219,6 +260,23 @@
       "level": "middle",
       "speakers": [
         "5078494b5b849a1474ce3ec801d23b06cffa5e20"
+      ]
+    },
+    {
+      "id": "60d0e0b01fc64e0884ea9eed",
+      "title": "Do We Really Do Functional Programming in Java?",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Many developers believe that Functional Programming (FP) arrived in Java 8, with the addition of the Streams API. But is this really true? In this talk, Ben Evans will talk about what FP really is, and examine whether Java is really FP or not - and consider some possibilities of how we could have done things differently, in another world. ",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Functional Programming"
+      ],
+      "level": "advanced",
+      "speakers": [
+        "6d4ec093aeee2a5dde4bbce8e9698776ce7bd5b8"
       ]
     },
     {
@@ -262,7 +320,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "## Abstract\n    - \"Entropy is the price of a Structure\". But sometimes, the price turns too high to pay. Is your codebase turning untestable, unreadable, and unmaintainable? Does your costs to add new features aren't meeting the ROIs. It's time to ask your manager to fund **Refactoring**!\n    - In this demo-driven talk, using a real-world service, we shall identity some common reasons for a codebase to rot and how to weed them out using principles from **Clean Architecture** and **Functional Programming**, along with achieving 95% test coverage and ~50% reduction in [Cognitive complexity](https://www.sonarsource.com/docs/CognitiveComplexity.pdf).\n\n## Audience & Take-aways\nThis applies to software developers at all levels. I use **Java** to demonstrate the code snippets, but this talk is about Software Design and Testing and is agnostic of programming language. The major take-aways for the audience are:\n    - Pragmatically apply the principles of Clean-Architecture and Functional programming in real-world refactoring.\n    - How to break your codebase into atomic components which can be composed and tested-in-isolation.\n    - How to eliminate _ Exceptions_ from your code using **ADTs (Algebraic Data Types)**.\n    - How to replace _Shared Global mutable state on your Shared Code_ with **Immutability** and **Data Transformations**.\n    - How separating out _What-to-do_ from _How-to-do_ can bring in a lot of flexibility to your code-base.\n    - How following all the above organically boost your **Testability** without falling into any anti-patterns of testing.\n    - Let's talk about **Complexity** and how to objectively measure the reduction we brought with our refactoring.\n",
+      "abstract": "'Entropy is the price of a Structure '. But sometimes, the price turns too high to pay. Is your codebase turning untestable, unreadable, and unmaintainable? Does your costs to add new features aren't meeting the ROIs. It's time to ask your manager to fund **Refactoring**!\n    - In this demo-driven talk, using a real-world service, we shall identity some common reasons for a codebase to rot and how to weed them out using principles from **Clean Architecture** and **Functional Programming**, along with achieving 95% test coverage and ~50% reduction in [Cognitive complexity](https://www.sonarsource.com/docs/CognitiveComplexity.pdf).\n\n Audience & Takeaways\nThis applies to software developers at all levels. I use **Java** to demonstrate the code snippets, but this talk is about Software Design and Testing and is agnostic of programming language. The major takeaways for the audience are:\n    - Pragmatically apply the principles of Clean-Architecture and Functional programming in real-world refactoring.\n    - How to break your codebase into atomic components which can be composed and tested-in-isolation.\n    - How to eliminate _ Exceptions_ from your code using **ADTs (Algebraic Data Types)**.\n    - How to replace _Shared Global mutable state on your Shared Code_ with **Immutability** and **Data Transformations**.\n    - How separating out _What-to-do_ from _How-to-do_ can bring in a lot of flexibility to your code-base.\n    - How following all the above organically boost your **Testability** without falling into any anti-patterns of testing.\n    - Let's talk about **Complexity** and how to objectively measure the reduction we brought with our refactoring.\n",
       "type": "talk",
       "tags": [
         "Java",
@@ -273,6 +331,26 @@
       "level": "beginner",
       "speakers": [
         "fb4fc6057fcdc50798fa601ea43883688923960d"
+      ]
+    },
+    {
+      "id": "60d0e6ee1fc64e0884ea9ef1",
+      "title": "Fault Tolerance: Elige tu jugador",
+      "languages": [
+        "eng",
+        "es"
+      ],
+      "abstract": "Tus micro servicios van a fallar, y esto es inevitable.\nLas estrategias de Fault Tolerance permiten create micro servicios resistentes a fallos y aislar los clients de los errores.\nExisten docenas de implementaciones para los patrones de Fault Tolerance, pero cual deberíamos elegir? Cuales son las fortalezas y las debilidades de cada implementación?\nEn esta charla, vas a presenciar un combate entre las dos grandes families de implementaciones de Fault Tolerance, representadas por dos grandes maestros: Istio y Quarkus.",
+      "type": "talk",
+      "tags": [
+        "Microservices",
+        "Fault Tolerance",
+        "Resilience",
+        "Java"
+      ],
+      "level": "middle",
+      "speakers": [
+        "a3ffcd525f7fe71fc93768fa166a299ec1b60ebc"
       ]
     }
   ]
