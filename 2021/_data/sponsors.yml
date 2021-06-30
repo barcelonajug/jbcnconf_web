@@ -20,6 +20,11 @@ premium:
     image:
       src: "/assets/img/sponsors/adevinta.png"
       alt: Adevinta Spain
+  - name: Dynatrace
+    href: https://www.dynatrace.com
+    image:
+      src: "/assets/img/sponsors/dynatrace.png"
+      alt: Dynatrace
 regular:
   - name: Capitole Consulting
     href: https://capitole-consulting.com/about/
