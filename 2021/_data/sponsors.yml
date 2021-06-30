@@ -20,6 +20,11 @@ premium:
     image:
       src: "/assets/img/sponsors/adevinta.png"
       alt: Adevinta Spain
+  - name: Clearpay
+    href: https://www.clearpay.com/es/
+    image:
+      src: "/assets/img/sponsors/clearpay.png"
+      alt: Clearpay
 regular:
   - name: Capitole Consulting
     href: https://capitole-consulting.com/about/
