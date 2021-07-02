@@ -99,7 +99,7 @@
     },
     {
       "id": "60ca52a41fc64e0884ea9ea7",
-      "title": "Kafka y Pulsar: una comparación suave",
+      "title": "Kafka y Pulsar: una comparación gentil",
       "languages": [
         "es"
       ],
@@ -282,7 +282,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "We all heard good things about functional programming and saw small code snippets on how we can apply concepts from it, but what happens when we try to build an actual microservice?\n\nThis talk is going to introduce some of the base concepts that we are going to use, along with different approaches for each of them with their pros and cons, then we are going to use them to build a real microservice. Based on the services built in Zopa, N26, Mojira and Dynatrace",
+      "abstract": "Todos escuchamos buenas cosas sobre la programación funcional y vimos pequeños snippets de código de como podemos aplicar conceptos específicos, pero que pasa cuando queremos hacer un micro servicio de verdad? Esta charla va a introducir algunos de los conceptos bases que vamos a usar, junto con diferentes formas de implementar cada uno junto con sus pros y cons, después vamos a usar todo para construir un micro servicio de verdad. Basado en código usado en producción en Zopa, N26, Dynatrace y Mojira",
       "type": "talk",
       "tags": [
         "Kotlin",
