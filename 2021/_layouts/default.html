@@ -28,7 +28,15 @@
     <meta property="og:description" content="{{site.data.homepage.og_description}}"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="{{ base }}{{site.data.homepage.og_image}}"/>
+    <meta property="og:url" content="{{ base }}" />
     <!-- end: Facebook Open Graph -->
+    <!-- start: Twitter cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@jbcnconf" />
+    <meta name="twitter:creator" content="@barcelonajug" />
+    <meta name="twitter:image" content="{{ base }}{{site.data.homepage.og_image}}"/>
+    <meta name="twitter:image:alt" content="{{site.data.homepage.og_title}}"/>
+    <!-- end: Twitter cards -->
 
     <!-- start: Scripts Top -->
     {% include scripts_top.html %}
