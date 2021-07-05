@@ -102,5 +102,5 @@ TBD
 
 [Important]
 ====
-Remember to update the open graph values located at the `_layouts/default.html` page, they are used for the thumbnail generation at every social network.
+Remember to update the open graph values located at the `_layouts/default.html` page and replace the `<year>/assets/img/logos/og-image.png` image. They are used for the thumbnail generation at every social network.
 ====
