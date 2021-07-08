@@ -67,6 +67,19 @@
     },
     {
       "enabled": "1",
+      "name": "Antonio Riquelme Huerta",
+      "company": "GFT TECHNOLOGIES",
+      "description": "Android developer",
+      "biography": "I’m an Android developer who has been working from times of Jelly Bean. Right now I'm working in GFT IT Consulting a company is looking for solutions for Industry companies.",
+      "image": "assets/img/speakers/antonio--riquelme.jpg",
+      "ref": "2ff856d887073217e3af5463147f6e8f9d87ebc0",
+      "url": "infoSpeaker.html?ref=2ff856d887073217e3af5463147f6e8f9d87ebc0",
+      "homepage": "",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/antonioriquelmeh/"
+    },
+    {
+      "enabled": "1",
       "name": "Mary Grygleski",
       "company": "IBM",
       "description": "Developer Advocate",
@@ -116,6 +129,19 @@
       "homepage": "",
       "twitter": "@gracejansen27",
       "linkedin": "https://www.linkedin.com/in/grace-jansen/"
+    },
+    {
+      "enabled": "1",
+      "name": "Josep Lopez Centelles",
+      "company": "GFT TECHNOLOGIES",
+      "description": "Software Developer",
+      "biography": "I’m a Mobile Developer that has been working in this field since I start my developer career. Lately focused on expanding my knowledge area and finding new passionating challenges. Our last year we focused on GFT working for industry projects.",
+      "image": "assets/img/speakers/josep-lopez.jpg",
+      "ref": "038a04754b706785eb161d748c36e76fec85fc6a",
+      "url": "infoSpeaker.html?ref=038a04754b706785eb161d748c36e76fec85fc6a",
+      "homepage": "",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/joseplopezcentelles/"
     },
     {
       "enabled": "1",

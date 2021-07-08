@@ -348,6 +348,28 @@
       "speakers": [
         "a3ffcd525f7fe71fc93768fa166a299ec1b60ebc"
       ]
+    },
+    {
+      "id": "60e5f018a47f6f087a34e07f",
+      "title": "Seeing a future for Google Glass 2.0",
+      "languages": [
+        "es"
+      ],
+      "abstract": "\"La humanidad fue a la luna con menos tecnología de la que tenemos en el bolsillo\". Vivimos en tiempos en los que no necesitamos explorar nuevas tecnologías, es hora de encontrar qué podemos hacer con el conocimiento que tenemos.\n \nGoogle Glass ha evolucionado de tal manera que ahora se centra en las empresas en lugar de en los clientes. Es por eso que existe una gran variedad de aplicaciones para usar la tecnología Google Glass aplicada a la industria.\n \nExisten múltiples casos de uso factibles para implementar en algunos sectores de la industria que pueden aumentar tu productividad fácilmente.\n \n¿Te imaginas estar paseando por el campo con Google Glasses y poder contar los frutos de tus árboles frutales? Esto le ayuda a hacer una predicción rápida de tu cosecha. ¿O te imaginas detectar posibles rayones en una fábrica de montaje de coches? Esta podría ser una forma rápida de crear un documento para cada defecto del automóvil. El límite es tu imaginación.",
+      "type": "talk",
+      "tags": [
+        "Android",
+        "Google Glass",
+        "Industry",
+        "Marching Learning",
+        "Augmented Reality",
+        "Tensor Flow"
+      ],
+      "level": "middle",
+      "speakers": [
+        "2ff856d887073217e3af5463147f6e8f9d87ebc0",
+        "038a04754b706785eb161d748c36e76fec85fc6a"
+      ]
     }
   ]
 }
