@@ -30,6 +30,11 @@ premium:
     image:
       src: "/assets/img/sponsors/clearpay.png"
       alt: Clearpay
+  - name: Capgemini
+    href: https://www.capgemini.com
+    image:
+      src: "/assets/img/sponsors/capgemini.jpg"
+      alt: Capgemini
 regular:
   - name: Capitole Consulting
     href: https://capitole-consulting.com/about/
