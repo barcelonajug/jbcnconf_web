@@ -35,6 +35,11 @@ premium:
     image:
       src: "/assets/img/sponsors/capgemini.jpg"
       alt: Capgemini
+  - name: Roche
+    href: https://www.roche.es
+    image:
+      src: "/assets/img/sponsors/roche.jpg"
+      alt: Roche
 regular:
   - name: Capitole Consulting
     href: https://capitole-consulting.com/about/
