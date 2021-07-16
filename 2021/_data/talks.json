@@ -377,7 +377,7 @@
       "languages": [
         "english"
       ],
-      "abstract": "We've heard about Cloud and Cloud-Native in the past years, but don't be mistaken: the future is Kubernetes-Native. Kubernetes is an open-source platform that runs everywhere, and ensuring that applications are Kubernetes-Native gives developers superpowers to do even more! Join us in this session to learn how Kubernetes allows you to reuse your super skills no matter where you deploy. And witness how technologies like Service Mesh, Serverless, Java, Quarkus, and more help you solve today's challenging problems in monolithic and microservices architectures.\nSorry, I recorded the video but noticed while editing that the quality of the audio was really bad (chose the wrong mic). I'll record it again and send it over to you.\n",
+      "abstract": "We've heard about Cloud and Cloud-Native in the past years, but don't be mistaken: the future is Kubernetes-Native. Kubernetes is an open-source platform that runs everywhere, and ensuring that applications are Kubernetes-Native gives developers superpowers to do even more! Join us in this session to learn how Kubernetes allows you to reuse your super skills no matter where you deploy. And witness how technologies like Service Mesh, Serverless, Java, Quarkus, and more help you solve today's challenging problems in monolithic and microservices architectures.\n",
       "type": "talk",
       "tags": [
         "kubernetes",
