@@ -2,6 +2,7 @@
   "items": [
     {
       "id": "60c112eb3be4300877923156",
+      "scheduleId": "#FRI-TC3-SE1",
       "title": "Integración Kontinua y entrega con Kubernetes",
       "languages": [
         "es"
@@ -19,6 +20,7 @@
     },
     {
       "id": "60c113223be4300877923157",
+      "scheduleId": "#FRI-TC1-SE6",
       "title": "Los desarrolladores no necesitan Kubernetes",
       "languages": [
         "es"
@@ -36,6 +38,7 @@
     },
     {
       "id": "60c113d33be4300877923158",
+      "scheduleId": "#FRI-TC1-SE3",
       "title": "Event-driven and serverless with Spring Cloud and Spring Native",
       "languages": [
         "eng"
@@ -57,6 +60,7 @@
     },
     {
       "id": "60c114103be4300877923159",
+      "scheduleId": "#FRI-TC1-SE2",
       "title": "Helidon – a great MicroService framework for the cloud world!",
       "languages": [
         "eng"
@@ -78,6 +82,7 @@
     },
     {
       "id": "60c1144b3be430087792315a",
+      "scheduleId": "#FRI-TC3-SE3",
       "title": "Despliega en Kubernetes usando Dekorate",
       "languages": [
         "es"
@@ -99,6 +104,7 @@
     },
     {
       "id": "60ca52a41fc64e0884ea9ea7",
+      "scheduleId": "#FRI-TC2-SE6",
       "title": "Kafka y Pulsar: una comparación gentil",
       "languages": [
         "es"
@@ -119,6 +125,7 @@
     },
     {
       "id": "60ca55081fc64e0884ea9ea8",
+      "scheduleId": "#FRI-TC3-SE2",
       "title": "Preparándonos para un mundo multi-cloud",
       "languages": [
         "es"
@@ -139,6 +146,7 @@
     },
     {
       "id": "60d0d8351fc64e0884ea9ee7",
+      "scheduleId": "#FRI-TC2-SE3",
       "title": "IntelliJ IDEA and Keeping Pace with the New Java Language Features",
       "languages": [
         "eng"
@@ -161,6 +169,7 @@
     },
     {
       "id": "60d0d8961fc64e0884ea9ee8",
+      "scheduleId": "#FRI-TC1-SE1",
       "title": "Replicating production on your laptop using the magic of containers",
       "languages": [
         "eng"
@@ -183,6 +192,7 @@
     },
     {
       "id": "60d0d9ad1fc64e0884ea9ee9",
+      "scheduleId": "#FRI-TC1-SE4",
       "title": "Techniques for maintainable Quarkus Applications",
       "languages": [
         "eng"
@@ -201,6 +211,7 @@
     },
     {
       "id": "60d0dbbb1fc64e0884ea9eea",
+      "scheduleId": "#FRI-TC1-SE5",
       "title": "Exploring Stateful Microservices in the Cloud Native World",
       "languages": [
         "eng"
@@ -221,6 +232,7 @@
     },
     {
       "id": "60d0df511fc64e0884ea9eeb",
+      "scheduleId": "#FRI-TC2-SE4",
       "title": "Orchestrating Robot Swarms with Java",
       "languages": [
         "eng"
@@ -240,6 +252,7 @@
     },
     {
       "id": "60d0e08b1fc64e0884ea9eec",
+      "scheduleId": "#FRI-TC3-SE4",
       "title": "Construyendo aplicaciones monolíticas que puedan escalar a micro servicios",
       "languages": [
         "es"
@@ -261,6 +274,7 @@
     },
     {
       "id": "60d0e0b01fc64e0884ea9eed",
+      "scheduleId": "#FRI-TC2-SE2",
       "title": "Do We Really Do Functional Programming in Java?",
       "languages": [
         "eng"
@@ -278,6 +292,7 @@
     },
     {
       "id": "60d0e1a51fc64e0884ea9eee",
+      "scheduleId": "#FRI-TC3-SE5",
       "title": "Functional microservices with Kotlin",
       "languages": [
         "eng"
@@ -296,6 +311,7 @@
     },
     {
       "id": "60d0e55a1fc64e0884ea9eef",
+      "scheduleId": "#FRI-TC2-SE5",
       "title": "From Imperative to Reactive",
       "languages": [
         "eng"
@@ -313,6 +329,7 @@
     },
     {
       "id": "60d0e6c61fc64e0884ea9ef0",
+      "scheduleId": "#FRI-TC2-SE1",
       "title": "`Huh?` to `Aha!`: A Refactoring Story",
       "languages": [
         "eng"
@@ -332,6 +349,7 @@
     },
     {
       "id": "60d0e6ee1fc64e0884ea9ef1",
+      "scheduleId": "#FRI-TC3-SE6",
       "title": "Fault Tolerance: Elige tu jugador",
       "languages": [
         "es"
@@ -351,11 +369,12 @@
     },
     {
       "id": "60e5f018a47f6f087a34e07f",
+      "scheduleId": "#FRI-TC1-KN2",
       "title": "Seeing a future for Google Glass 2.0",
       "languages": [
         "es"
       ],
-      "abstract": "\"La humanidad fue a la luna con menos tecnología que la tenemos en nuestro bolsillo\"\n\n Vivimos tiempos donde ya no es necesario crear nueva tecnología, es tiempo de innovar y pensar como aprovechar la tecnología de la que disponemos.\n\nLas Google Glass han evolucionado y ya no se centran en el usuario, sino en las empresas. Por esta razón existe una gran variedad de aplicaciones enfocadas a la industria.\n\nAún queda mucho por innovar, existen muchos casos de uso factibles en algunos sectores de la industria que pueden aumentar la productividad fácilmente.\n\n¿Te imaginas estar paseando por tierras cultivadas con las Google Glass y poder contar la fruta de los árboles frutales? Podría ayudar a hacer una predicción de la cosecha, o calcular pérdidas tras un granizo. ¿O te imaginas detectar defectos en una fábrica de montaje de coches? Podría ser una buena forma de crear el informe de reparación para el taller.\n\nEl límite está en tu imaginación.",
+      "abstract": "La humanidad fue a la luna con menos tecnología que la tenemos en nuestro bolsillo\"\n\n Vivimos tiempos donde ya no es necesario crear nueva tecnología, es tiempo de innovar y pensar como aprovechar la tecnología de la que disponemos.\n\nLas Google Glass han evolucionado y ya no se centran en el usuario, sino en las empresas. Por esta razón existe una gran variedad de aplicaciones enfocadas a la industria.\n\nAún queda mucho por innovar, existen muchos casos de uso factibles en algunos sectores de la industria que pueden aumentar la productividad fácilmente.\n\n¿Te imaginas estar paseando por tierras cultivadas con las Google Glass y poder contar la fruta de los árboles frutales? Podría ayudar a hacer una predicción de la cosecha, o calcular pérdidas tras un granizo. ¿O te imaginas detectar defectos en una fábrica de montaje de coches? Podría ser una buena forma de crear el informe de reparación para el taller.\n\nEl límite está en tu imaginación.",
       "type": "talk",
       "tags": [
         "Android",
@@ -372,19 +391,19 @@
       ]
     },
     {
-      "id": "60f14c73a47f6f087a34e081",
+      "id": "-",
+      "scheduleId": "#FRI-TC1-KN1",
       "title": "The Future is Kubernetes-Native",
       "languages": [
-        "english"
+        "eng"
       ],
-      "abstract": "We've heard about Cloud and Cloud-Native in the past years, but don't be mistaken: the future is Kubernetes-Native. Kubernetes is an open-source platform that runs everywhere, and ensuring that applications are Kubernetes-Native gives developers superpowers to do even more! Join us in this session to learn how Kubernetes allows you to reuse your super skills no matter where you deploy. And witness how technologies like Service Mesh, Serverless, Java, Quarkus, and more help you solve today's challenging problems in monolithic and microservices architectures.\n",
+      "abstract": "We've heard about Cloud and Cloud-Native in the past years, but don't be mistaken: the future is Kubernetes-Native. Kubernetes is an open-source platform that runs everywhere, and ensuring that applications are Kubernetes-Native gives developers superpowers to do even more! Join us in this session to learn how Kubernetes allows you to reuse your super skills no matter where you deploy. And witness how technologies like Service Mesh, Serverless, Java, Quarkus, and more help you solve today's challenging problems in monolithic and microservices architectures.",
       "type": "talk",
       "tags": [
         "kubernetes",
         "serverless",
         "java",
-        "quarkus",
-        "microservices"
+        "quarkus"
       ],
       "level": "beginner",
       "speakers": [

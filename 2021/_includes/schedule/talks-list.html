@@ -1,29 +1,18 @@
-
 <script>
-
+    // don't format this file
     (function(global){
-        var talksList = [];
-
+        let talksList = [];
+        let talk;
         {% for talk in site.data.talks.items %}
-            var talk = {{ talk | jsonify }}
-            talk.allSpeakers = [];
-        {% for speaker in site.data.speakers.items %}
-            {% if speaker.ref == talk.speakers[0] or speaker.ref == talk.speakers[1] or speaker.ref == talk.speakers[2] %}
-
-            talk.allSpeakers.push({{ speaker | jsonify }})
-
-        {% endif %}
+        talk = {{ talk | jsonify }};
+        talk.allSpeakers = [];
+            {% for speaker in site.data.speakers.items %}
+                {% if speaker.ref == talk.speakers[0] or speaker.ref == talk.speakers[1] or speaker.ref == talk.speakers[2] %}
+        talk.allSpeakers.push({{ speaker | jsonify }});
+                {% endif %}
+            {% endfor %}
+        talksList.push(talk);
         {% endfor %}
-            talksList.push(talk);
-
-
-        {% endfor %}
-
-
         global.ALL_TALKS = talksList;
-
     }(window));
-
-
-    //don't format this file
 </script>

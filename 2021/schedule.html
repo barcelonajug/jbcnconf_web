@@ -33,43 +33,27 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 
                             <div class="post-header">
                                 <h2 style="display: none;" class="visible-monday visible-tuesday">
-                                    </h2>
+                                </h2>
 
                                 <h2 style="display: none" class="visible-wednesday"><br/>
                                 </h2>
                             </div>
 
+                            <!--
                             <ul class="tabs">
                                 <li class="tab-link visible-monday" data-tab="visible-monday">{{site.data.homepage.schedule_first_day}}</li>
-                                <li class="tab-link visible-tuesday" data-tab="visible-tuesday">{{site.data.homepage.schedule_second_day}}</li>
-                                <li class="tab-link visible-wednesday" data-tab="visible-wednesday">{{site.data.homepage.schedule_last_day}}</li>
                             </ul>
+                            -->
 
                             {% assign scheduleLeftWidth = 'col-md-2 col-sm-1 col-xs-12' %}
                             {% assign scheduleRightWidth = 'col-md-10 col-sm-10 col-xs-10' %}
 
                             {% include schedule/talks-list.html %}
 
-
                             <div id="visible-monday" class="tab-content">
-
-                                {% assign scheduleDay = 'MON' %}
+                                {% assign scheduleDay = 'FRI' %}
                                 {% include schedule/schedule-day-one.html %}
-
                             </div>
-                            <div id="visible-tuesday" class="tab-content">
-
-                                {% assign scheduleDay = 'TUE' %}
-                                {% include schedule/schedule-day-two.html %}
-
-                            </div>
-                            <div id="visible-wednesday" class="tab-content">
-
-                                {% assign scheduleDay = 'WED' %}
-                                {% include schedule/schedule-day-three.html %}
-
-                            </div>
-
                         </div>
                     </article>
                 </div>
