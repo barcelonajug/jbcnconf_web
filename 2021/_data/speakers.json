@@ -271,6 +271,18 @@
       "homepage": "https://someth2say.wordpress.com/",
       "twitter": "@jordisola_",
       "linkedin": "https://www.linkedin.com/in/jordisola/"
+    },
+    {
+      "enabled": "1",
+      "name": "Edson Yanaga",
+      "company": "Red Hat",
+      "description": "Director of Developer Experience",
+      "biography": "Edson Yanaga, Red Hat’s Director of Developer Experience, is a Java Champion and a Microsoft MVP. He is also a published author and a frequent speaker at international conferences, discussing Java, Kubernetes, Quarkus, Microservices, Cloud Computing, and DevOps.\n\nYanaga believes that everything we do, big or small, matters - and that we can all create a better world for people with better software. His life’s purpose is to deliver good software and to help developers worldwide in delivering better software faster and reliably. Today his job, his hobby, and his life’s purpose are the same thing: and he’s happy that he found his Ikigai.",
+      "image": "assets/img/speakers/edson-yanaga.png",
+      "ref": "dbc08610f237e5258332ae8e66414159fd29f333",
+      "url": "infoSpeaker.html?ref=dbc08610f237e5258332ae8e66414159fd29f333",
+      "homepage": "https://yanaga.io/",
+      "twitter": "www.twitter.com/yanaga"
     }
   ]
 }

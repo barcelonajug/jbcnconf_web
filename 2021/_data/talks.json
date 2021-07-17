@@ -391,7 +391,7 @@
       ]
     },
     {
-      "id": "-",
+      "id": "60f14c73a47f6f087a34e081",
       "scheduleId": "#FRI-TC1-KN1",
       "title": "The Future is Kubernetes-Native",
       "languages": [
@@ -403,7 +403,8 @@
         "kubernetes",
         "serverless",
         "java",
-        "quarkus"
+        "quarkus",
+        "microservices"
       ],
       "level": "beginner",
       "speakers": [
