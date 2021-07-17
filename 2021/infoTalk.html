@@ -7,10 +7,11 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
 
 <script>
     (function(global){
-        var talk;
-        var speakers = [];
+        let talk;
+        let speakers = [];
+        //let tag = $("<span class=\"label tag label-info\" data-tag=\"{{tag}}\">&nbsp;</span>");
 
-        var talkId = new URL(window.location).searchParams.get("id");
+        let talkId = new URL(window.location).searchParams.get("id");
 
         {% for talkCursor in site.data.talks.items %}
             if("{{ talkCursor.id }}".toLowerCase() === talkId.toLowerCase()){
@@ -60,6 +61,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
                             </div>
                             <div id="post-content">
                             </div>
+                            <div id="tags">&nbsp;</div>
                         </div>
                     </article>
 
@@ -270,3 +272,15 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
         </div>
     </div>
 </div>
+<script type="text/javascript">
+    for (const tag of TALK.tags) {
+        let labelSpan = document.createElement("span");
+        labelSpan.style.marginLeft = "5px";
+        labelSpan.classList.add("label", "tag", "label-info")
+        let text = document.createTextNode(tag);
+        labelSpan.appendChild(text);
+        labelSpan.setAttribute("data-tag", tag)
+        document.getElementById("tags").appendChild(labelSpan);
+    }
+</script>
+<script type='text/javascript' src='{{ base }}/assets/js/tag-colors.js'></script>
