@@ -67,7 +67,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 
     .vacancy {
         flex-grow: 1;
-        margin: 0 5px;
+        margin: 0 10px;
     }
 
     .vacancy p {
@@ -76,6 +76,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 
     .social-media {
         text-align: center;
+        padding-bottom: 20px;
     }
 
     /* ----------------------------------------------
@@ -170,7 +171,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 <div class="site-sub-content clearfix">
     <div class="container-fluid">
         <div class="row alternative-row">
-            <div class="col-lg-9 col-sm-9 col-xs-12 site-content-left">
+            <div class="col-lg-10 col-sm-9 col-xs-12 site-content-left">
                 <div class="category-post-list post-list single-list">
                     <article id="post-294"
                              class="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
@@ -190,13 +191,13 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                         {% for entry in site.data.jobs %}
                                         <div class="entry entry-{{ entry.type }}">
                                             <div class="company-info">
-                                                <div>
+                                                <div style="text-align:center;">
                                                     <img id="{{entry.company.name}}" src="{{ base }}{{ entry.company.logo-url }}"
                                                          class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image jello-vertical"
                                                          alt="{{ entry.company.name }}"/>
                                                 </div>
                                                 <div>
-                                                    <h3 class="company-name">
+                                                    <h3 class="company-name" style="text-align:center;">
                                                         {{ entry.title }}
                                                     </h3>
                                                     <div class="social-media">
@@ -206,7 +207,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                                         </a>
                                                         {% endif %}
                                                         {% if entry.links.web %}
-                                                        <a target="_blank" href="{{ entry.links.linkedIn }}">
+                                                        <a target="_blank" href="{{ entry.links.web }}">
                                                             <i class="fa fa-globe"></i>
                                                         </a>
                                                         {% endif %}
@@ -225,13 +226,12 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                                     <div><em>{{ entry.company.description | truncate: 300 }}</em></div>
                                                 </div>
                                             </div>
+                                            {% if entry.vacancies %}
                                             <div class="vacancies">
                                                 {% for vacancy in entry.vacancies %}
                                                 <div class="vacancy">
-                                                    <h3><i class="fa fa-user"></i> <a href="{{ vacancy.link }}"
-                                                                                      target="_blank"
-                                                                                      rel="noopener noreferrer">{{vacancy.title
-                                                        | capitalize}} </a>
+                                                    <h3>
+                                                        <i class="fa fa-user"></i> <a href="{{ vacancy.link }}" target="_blank" rel="noopener noreferrer">{{vacancy.title }} </a>
                                                     </h3>
                                                     <p><i class="fa fa-map-marker"></i> <small>{{ vacancy.location
                                                         }}</small>
@@ -240,6 +240,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                                 </div>
                                                 {% endfor %}
                                             </div>
+                                            {% endif %}
                                         </div>
                                         {% endfor %}
                                     </div>
