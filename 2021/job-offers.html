@@ -6,6 +6,27 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 {% include base.html %}
 
 <style>
+
+    html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 150px;
+    }
+    #companies {
+        position: sticky;
+        top: 100px;
+        background: white;
+        text-align: center;
+    }
+
+    #companies a {
+        margin: 0 1px;
+        text-transform: capitalize;
+    }
+
+    #companies a:not(:last-child):after {
+        content: " |";
+    }
+
     .entries {
         display: flex;
         flex-direction: column;
@@ -18,7 +39,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
         border-radius: 10px;
         flex: 1 0 33%;
         box-shadow: 0 0 5px 0 lightgray;
-        margin-bottom: 5px;
+        margin-bottom: 20px;
     }
 
     .company-info {
@@ -28,8 +49,8 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #F5F5F5 100%);
     }
 
-    .company-info img{
-        min-width:100px;
+    .company-info img {
+        min-width: 100px;
         vertical-align: middle
     }
 
@@ -160,12 +181,17 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                 <div class="post-content" style="width : 100%; ">
                                     <h2 style="margin-bottom: 10px">Have a look at some opportunities with our
                                         sponsors</h2>
+                                    <div id="companies">
+                                        {% for row in site.data.jobs %}
+                                        <a href="#{{row.company.name}}">{{row.company.name}}</a>
+                                        {% endfor %}
+                                    </div>
                                     <div class="entries">
                                         {% for entry in site.data.jobs %}
                                         <div class="entry entry-{{ entry.type }}">
                                             <div class="company-info">
                                                 <div>
-                                                    <img src="{{ base }}{{ entry.company.logo-url }}"
+                                                    <img id="{{entry.company.name}}" src="{{ base }}{{ entry.company.logo-url }}"
                                                          class="attachment-eventstation-related-post-image size-eventstation-related-post-image wp-post-image jello-vertical"
                                                          alt="{{ entry.company.name }}"/>
                                                 </div>
@@ -202,16 +228,19 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                             <div class="vacancies">
                                                 {% for vacancy in entry.vacancies %}
                                                 <div class="vacancy">
-                                                    <h3><i class="fa fa-user"></i> <a href="{{ vacancy.link }}" target="_blank" rel="noopener noreferrer">{{vacancy.title}} </a>
+                                                    <h3><i class="fa fa-user"></i> <a href="{{ vacancy.link }}"
+                                                                                      target="_blank"
+                                                                                      rel="noopener noreferrer">{{vacancy.title
+                                                        | capitalize}} </a>
                                                     </h3>
-                                                    <p><i class="fa fa-map-marker"></i> <small>{{ vacancy.location }}</small>
+                                                    <p><i class="fa fa-map-marker"></i> <small>{{ vacancy.location
+                                                        }}</small>
                                                     </p>
                                                     <p>{{ vacancy.description | truncate: 1600 }}</p>
                                                 </div>
                                                 {% endfor %}
                                             </div>
                                         </div>
-
                                         {% endfor %}
                                     </div>
                                 </div>

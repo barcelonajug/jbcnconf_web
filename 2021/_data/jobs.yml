@@ -1,6 +1,41 @@
+#Red Hat
+- title: Red Hat
+  type: top
+  company:
+    name: Red Hat
+    logo-url: /assets/img/sponsors/redhat_rgb.png
+    description: >-
+      Red Hat is the world’s leading provider of enterprise open source solutions, using a community-powered approach to deliver high-performing Linux, cloud, container, and Kubernetes technologies. We help you standardize across environments, develop cloud-native applications, and integrate, automate, secure, and manage complex environments with award-winning support, training, and consulting services.
+  links:
+    linkedIn: https://aaa
+    web: https://bbbb
+    twitter: TBC
+    instragram: TBC
+  vacancies:
+    - title: Senior Application Development Consultant
+      location: Barcelona, Spain
+      description: >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla nunc, suscipit eu dolor vitae, molestie rutrum libero. Donec consectetur vitae velit nec bibendum. Fusce maximus efficitur massa sit amet volutpat. Etiam et justo neque. Sed sodales lectus at lacus imperdiet, sed tincidunt nunc finibus. Sed non vulputate odio. Cras sodales metus non placerat ornare. Sed mollis, nisl ac posuere eleifend, metus mauris mollis turpis, et mattis dui magna id libero.
+        Sed ornare mattis leo eu elementum. Vivamus non aliquam sapien. Quisque suscipit mi vitae luctus venenatis. Fusce sodales, felis sed hendrerit faucibus, turpis purus accumsan dui, nec fringilla dolor eros vel ex. Nulla facilisi. Fusce id mi vel ligula porta ultricies. Morbi egestas elit a vulputate aliquam. Aliquam ac commodo neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis diam nec nibh euismod, tempus malesuada tellus fringilla. Aliquam egestas cursus lectus, vitae sollicitudin libero vehicula ac. Duis sit amet turpis quam. Cras ut tempor urna, eget volutpat turpis. Etiam ultrices nulla vel lacus blandit, a accumsan ipsum consectetur.
+        Maecenas interdum vel est et elementum. Nunc sed tristique mi. Nullam eu sodales nisi. Etiam malesuada lorem vitae hendrerit commodo. Praesent dui ipsum, tristique non posuere eget, lobortis quis.
+      link: TBC
+    - title: Senior Software Engineer - Advanced Cluster Security
+      location: Barcelona, Spain
+      description: >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla nunc, suscipit eu dolor vitae, molestie rutrum libero. Donec consectetur vitae velit nec bibendum. Fusce maximus efficitur massa sit amet volutpat. Etiam et justo neque. Sed sodales lectus at lacus imperdiet, sed tincidunt nunc finibus. Sed non vulputate odio. Cras sodales metus non placerat ornare. Sed mollis, nisl ac posuere eleifend, metus mauris mollis turpis, et mattis dui magna id libero.
+        Sed ornare mattis leo eu elementum. Vivamus non aliquam sapien. Quisque suscipit mi vitae luctus venenatis. Fusce sodales, felis sed hendrerit faucibus, turpis purus accumsan dui, nec fringilla dolor eros vel ex. Nulla facilisi. Fusce id mi vel ligula porta ultricies. Morbi egestas elit a vulputate aliquam. Aliquam ac commodo neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis diam nec nibh euismod, tempus malesuada tellus fringilla. Aliquam egestas cursus lectus, vitae sollicitudin libero vehicula ac. Duis sit amet turpis quam. Cras ut tempor urna, eget volutpat turpis. Etiam ultrices nulla vel lacus blandit, a accumsan ipsum consectetur.
+        Maecenas interdum vel est et elementum. Nunc sed tristique mi. Nullam eu sodales nisi. Etiam malesuada lorem vitae hendrerit commodo. Praesent dui ipsum, tristique non posuere eget, lobortis quis.
+
+      link: TBC
+    - title: Senior Software Engineer - Ansible
+      description: >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla nunc, suscipit eu dolor vitae, molestie rutrum libero. Donec consectetur vitae velit nec bibendum. Fusce maximus efficitur massa sit amet volutpat. Etiam et justo neque. Sed sodales lectus at lacus imperdiet, sed tincidunt nunc finibus. Sed non vulputate odio. Cras sodales metus non placerat ornare. Sed mollis, nisl ac posuere eleifend, metus mauris mollis turpis, et mattis dui magna id libero.
+        Sed ornare mattis leo eu elementum. Vivamus non aliquam sapien. Quisque suscipit mi vitae luctus venenatis. Fusce sodales, felis sed hendrerit faucibus, turpis purus accumsan dui, nec fringilla dolor eros vel ex. Nulla facilisi. Fusce id mi vel ligula porta ultricies. Morbi egestas elit a vulputate aliquam. Aliquam ac commodo neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis diam nec nibh euismod, tempus malesuada tellus fringilla. Aliquam egestas cursus lectus, vitae sollicitudin libero vehicula ac. Duis sit amet turpis quam. Cras ut tempor urna, eget volutpat turpis. Etiam ultrices nulla vel lacus blandit, a accumsan ipsum consectetur.
+        Maecenas interdum vel est et elementum. Nunc sed tristique mi. Nullam eu sodales nisi. Etiam malesuada lorem vitae hendrerit commodo. Praesent dui ipsum, tristique non posuere eget, lobortis quis.
+      link: TBC
 # GFT
 - title: GFT
-  type: regular
+  type: top
   company:
     name: GFT
     logo-url: /assets/img/sponsors/gft-logo.jpg
@@ -35,54 +70,14 @@
         Sed ornare mattis leo eu elementum. Vivamus non aliquam sapien. Quisque suscipit mi vitae luctus venenatis. Fusce sodales, felis sed hendrerit faucibus, turpis purus accumsan dui, nec fringilla dolor eros vel ex. Nulla facilisi. Fusce id mi vel ligula porta ultricies. Morbi egestas elit a vulputate aliquam. Aliquam ac commodo neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis diam nec nibh euismod, tempus malesuada tellus fringilla. Aliquam egestas cursus lectus, vitae sollicitudin libero vehicula ac. Duis sit amet turpis quam. Cras ut tempor urna, eget volutpat turpis. Etiam ultrices nulla vel lacus blandit, a accumsan ipsum consectetur.
         Maecenas interdum vel est et elementum. Nunc sed tristique mi. Nullam eu sodales nisi. Etiam malesuada lorem vitae hendrerit commodo. Praesent dui ipsum, tristique non posuere eget, lobortis quis.
       link: https://www.linkedin.com/jobs/view/2632196021/?refId=h%2FMmJEX3YG3d0KvZcSf9mg%3D%3D&trackingId=ncQNuQJXVbmPjZA70E41qA%3D%3D
-#Red Hat
-- title: Red Hat
-  type: premium
-  company:
-    name: Red Hat
-    logo-url: /assets/img/sponsors/redhat_rgb.png
-    description: >-
-      Red Hat is the world’s leading provider of enterprise open source solutions, using a community-powered approach to deliver high-performing Linux, cloud, container, and Kubernetes technologies. We help you standardize across environments, develop cloud-native applications, and integrate, automate, secure, and manage complex environments with award-winning support, training, and consulting services.
-  links:
-    linkedIn: https://aaa
-    web: https://bbbb
-    twitter: TBC
-    instragram: TBC
-  vacancies:
-    - title: Senior Application Development Consultant
-      location: Barcelona, Spain
-      description: >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla nunc, suscipit eu dolor vitae, molestie rutrum libero. Donec consectetur vitae velit nec bibendum. Fusce maximus efficitur massa sit amet volutpat. Etiam et justo neque. Sed sodales lectus at lacus imperdiet, sed tincidunt nunc finibus. Sed non vulputate odio. Cras sodales metus non placerat ornare. Sed mollis, nisl ac posuere eleifend, metus mauris mollis turpis, et mattis dui magna id libero.
-        Sed ornare mattis leo eu elementum. Vivamus non aliquam sapien. Quisque suscipit mi vitae luctus venenatis. Fusce sodales, felis sed hendrerit faucibus, turpis purus accumsan dui, nec fringilla dolor eros vel ex. Nulla facilisi. Fusce id mi vel ligula porta ultricies. Morbi egestas elit a vulputate aliquam. Aliquam ac commodo neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis diam nec nibh euismod, tempus malesuada tellus fringilla. Aliquam egestas cursus lectus, vitae sollicitudin libero vehicula ac. Duis sit amet turpis quam. Cras ut tempor urna, eget volutpat turpis. Etiam ultrices nulla vel lacus blandit, a accumsan ipsum consectetur.
-        Maecenas interdum vel est et elementum. Nunc sed tristique mi. Nullam eu sodales nisi. Etiam malesuada lorem vitae hendrerit commodo. Praesent dui ipsum, tristique non posuere eget, lobortis quis.
-      link: TBC
-    - title: Senior Software Engineer - Advanced Cluster Security
-      location: Barcelona, Spain
-      description: >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla nunc, suscipit eu dolor vitae, molestie rutrum libero. Donec consectetur vitae velit nec bibendum. Fusce maximus efficitur massa sit amet volutpat. Etiam et justo neque. Sed sodales lectus at lacus imperdiet, sed tincidunt nunc finibus. Sed non vulputate odio. Cras sodales metus non placerat ornare. Sed mollis, nisl ac posuere eleifend, metus mauris mollis turpis, et mattis dui magna id libero.
-        Sed ornare mattis leo eu elementum. Vivamus non aliquam sapien. Quisque suscipit mi vitae luctus venenatis. Fusce sodales, felis sed hendrerit faucibus, turpis purus accumsan dui, nec fringilla dolor eros vel ex. Nulla facilisi. Fusce id mi vel ligula porta ultricies. Morbi egestas elit a vulputate aliquam. Aliquam ac commodo neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis diam nec nibh euismod, tempus malesuada tellus fringilla. Aliquam egestas cursus lectus, vitae sollicitudin libero vehicula ac. Duis sit amet turpis quam. Cras ut tempor urna, eget volutpat turpis. Etiam ultrices nulla vel lacus blandit, a accumsan ipsum consectetur.
-        Maecenas interdum vel est et elementum. Nunc sed tristique mi. Nullam eu sodales nisi. Etiam malesuada lorem vitae hendrerit commodo. Praesent dui ipsum, tristique non posuere eget, lobortis quis.
-
-      link: TBC
-    - title: Senior Software Engineer - Ansible
-      description: >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla nunc, suscipit eu dolor vitae, molestie rutrum libero. Donec consectetur vitae velit nec bibendum. Fusce maximus efficitur massa sit amet volutpat. Etiam et justo neque. Sed sodales lectus at lacus imperdiet, sed tincidunt nunc finibus. Sed non vulputate odio. Cras sodales metus non placerat ornare. Sed mollis, nisl ac posuere eleifend, metus mauris mollis turpis, et mattis dui magna id libero.
-        Sed ornare mattis leo eu elementum. Vivamus non aliquam sapien. Quisque suscipit mi vitae luctus venenatis. Fusce sodales, felis sed hendrerit faucibus, turpis purus accumsan dui, nec fringilla dolor eros vel ex. Nulla facilisi. Fusce id mi vel ligula porta ultricies. Morbi egestas elit a vulputate aliquam. Aliquam ac commodo neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis diam nec nibh euismod, tempus malesuada tellus fringilla. Aliquam egestas cursus lectus, vitae sollicitudin libero vehicula ac. Duis sit amet turpis quam. Cras ut tempor urna, eget volutpat turpis. Etiam ultrices nulla vel lacus blandit, a accumsan ipsum consectetur.
-        Maecenas interdum vel est et elementum. Nunc sed tristique mi. Nullam eu sodales nisi. Etiam malesuada lorem vitae hendrerit commodo. Praesent dui ipsum, tristique non posuere eget, lobortis quis.
-      link: TBC
 # Ocado
 - title: Ocado Technology
-  type: regular
+  type: premium
   company:
     name: Ocado Technology
     logo-url: /assets/img/sponsors/ocadotechnology-200px-h.png
     description: >-
-      We rock!
-      <ul>
-        <li>dasdasd</li>
-        <li>dadasdd</li>
-        <li>dasdasd</li>
-      </ul>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla nunc, suscipit eu dolor vitae, molestie rutrum libero. Donec consectetur vitae velit nec bibendum. Fusce maximus efficitur massa sit amet volutpat. Etiam et justo neque. Sed sodales lectus at lacus imperdiet, sed tincidunt nunc finibus. Sed non vulputate odio. Cras sodales metus non placerat ornare. Sed mollis, nisl ac posuere eleifend, metus mauris mollis turpis, et mattis dui magna id libero. Sed ornare mattis leo eu elementum. Vivamus non aliquam sapien. Quisque suscipit mi vitae luctus venenatis. Fusce sodales, felis sed hendrerit faucibus, turpis purus accumsan dui, nec fringilla dolor eros vel ex. Nulla facilisi. Fusce id mi vel ligula porta ultricies. Morbi egestas elit a vulputate aliquam. Aliquam ac commodo neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis diam nec nibh euismod, tempus malesuada tellus fringilla. Aliquam egestas cursus lectus, vitae sollicitudin libero vehicula ac. Duis sit amet turpis quam. Cras ut tempor urna, eget volutpat turpis. Etiam ultrices nulla vel lacus blandit, a accumsan ipsum consectetur. Maecenas interdum vel est et elementum. Nunc sed tristique mi. Nullam eu sodales nisi. Etiam malesuada lorem vitae hendrerit commodo. Praesent dui ipsum, tristique non posuere eget, lobortis quis.
   links:
     linkedIn: http://ccc
     web: http://ddd
@@ -111,7 +106,7 @@
         Maecenas interdum vel est et elementum. Nunc sed tristique mi. Nullam eu sodales nisi. Etiam malesuada lorem vitae hendrerit commodo. Praesent dui ipsum, tristique non posuere eget, lobortis quis.
 # Adevinta
 - title: Adevinta
-  type: regular
+  type: premium
   company:
     name: Adevinta
     logo-url: /assets/img/sponsors/adevinta.png
@@ -139,17 +134,14 @@
       link: https://www.linkedin.com/jobs/view/2632196021/?refId=h%2FMmJEX3YG3d0KvZcSf9mg%3D%3D&trackingId=ncQNuQJXVbmPjZA70E41qA%3D%3D
 # Dynatrace
 - title: Dynatrace
-  type: regular
+  type: premium
   company:
     name: Dynatrace
     logo-url: /assets/img/sponsors/dynatrace.png
     description: >-
       Dynatrace is the world leader in software intelligence products to simplify enterprise cloud complexity and accelerate digital transformation. We offer solutions such Application performance management, Cloud infrastructure monitoring, IT Operations powered by AI and Digital customer experience.
-
       We were founded in Linz (Austria) and the success of our products allowed us to grow strongly. Currently we operate in over 30 countries and we have R&D labs in Linz, Klagenfurt, Graz, Hagenberg, Gdansk, Detroit and Barcelona.
-
       Do you want to level up? Apply!
-
   links:
     linkedIn: http://ccc
     web: http://ddd
@@ -221,7 +213,7 @@
       link: https://jobs.barcelona.dynatrace.com/jobs/9a8b42c1-aeb8-4bb9-8bf1-173bd305ceec
 # ClearPay
 - title: Clearpay
-  type: regular
+  type: premium
   company:
     name: Clearpay
     logo-url: /assets/img/sponsors/clearpay.png
@@ -312,7 +304,7 @@
       link: TBC
 # Capgemini
 - title: Capgemini
-  type: regular
+  type: premium
   company:
     name: Capgemini
     logo-url: /assets/img/sponsors/capgemini.jpg
@@ -346,7 +338,7 @@
       link: TBC
 # Roche
 - title: Roche
-  type: top
+  type: premium
   company:
     name: Roche
     logo-url: /assets/img/sponsors/roche.jpg
@@ -380,12 +372,12 @@
       link: https://www.linkedin.com/jobs/view/2632196021/?refId=h%2FMmJEX3YG3d0KvZcSf9mg%3D%3D&trackingId=ncQNuQJXVbmPjZA70E41qA%3D%3D
 # Capitole
 - title: Capitole
-  type: premium
+  type: regular
   company:
-    name: Red Hat
+    name: Capitole consulting
     logo-url: /assets/img/sponsors/capitole.png
     description: >-
-      Example company description.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla nunc, suscipit eu dolor vitae, molestie rutrum libero. Donec consectetur vitae velit nec bibendum. Fusce maximus efficitur massa sit amet volutpat. Etiam et justo neque. Sed sodales lectus at lacus imperdiet, sed tincidunt nunc finibus. Sed non vulputate odio. Cras sodales metus non placerat ornare. Sed mollis, nisl ac posuere eleifend, metus mauris mollis turpis, et mattis dui magna id libero. Sed ornare mattis leo eu elementum. Vivamus non aliquam sapien. Quisque suscipit mi vitae luctus venenatis. Fusce sodales, felis sed hendrerit faucibus, turpis purus accumsan dui, nec fringilla dolor eros vel ex. Nulla facilisi. Fusce id mi vel ligula porta ultricies. Morbi egestas elit a vulputate aliquam. Aliquam ac commodo neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis diam nec nibh euismod, tempus malesuada tellus fringilla. Aliquam egestas cursus lectus, vitae sollicitudin libero vehicula ac. Duis sit amet turpis quam. Cras ut tempor urna, eget volutpat turpis. Etiam ultrices nulla vel lacus blandit, a accumsan ipsum consectetur. Maecenas interdum vel est et elementum. Nunc sed tristique mi. Nullam eu sodales nisi. Etiam malesuada lorem vitae hendrerit commodo. Praesent dui ipsum, tristique non posuere eget, lobortis quis.
   links:
     linkedIn: http://aaa
     web: http://bbbb
@@ -413,11 +405,12 @@
       link: TBC
 # Wallapop
 - title: Wallapop
-  type: top
+  type: regular
   company:
-    name: Roche
+    name: Wallapop
     logo-url: /assets/img/sponsors/wallapop.jpg
-    description: Doing now what patients need next
+    description: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla nunc, suscipit eu dolor vitae, molestie rutrum libero. Donec consectetur vitae velit nec bibendum. Fusce maximus efficitur massa sit amet volutpat. Etiam et justo neque. Sed sodales lectus at lacus imperdiet, sed tincidunt nunc finibus. Sed non vulputate odio. Cras sodales metus non placerat ornare. Sed mollis, nisl ac posuere eleifend, metus mauris mollis turpis, et mattis dui magna id libero. Sed ornare mattis leo eu elementum. Vivamus non aliquam sapien. Quisque suscipit mi vitae luctus venenatis. Fusce sodales, felis sed hendrerit faucibus, turpis purus accumsan dui, nec fringilla dolor eros vel ex. Nulla facilisi. Fusce id mi vel ligula porta ultricies. Morbi egestas elit a vulputate aliquam. Aliquam ac commodo neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis diam nec nibh euismod, tempus malesuada tellus fringilla. Aliquam egestas cursus lectus, vitae sollicitudin libero vehicula ac. Duis sit amet turpis quam. Cras ut tempor urna, eget volutpat turpis. Etiam ultrices nulla vel lacus blandit, a accumsan ipsum consectetur. Maecenas interdum vel est et elementum. Nunc sed tristique mi. Nullam eu sodales nisi. Etiam malesuada lorem vitae hendrerit commodo. Praesent dui ipsum, tristique non posuere eget, lobortis quis.
   links:
     linkedIn: https://www.linkedin.com/in/anyulled
     web: https://www.roche.es
@@ -447,11 +440,12 @@
       link: TBC
 # Adaptive
 - title: Adaptive
-  type: top
+  type: regular
   company:
     name: Adaptive
     logo-url: /assets/img/sponsors/adaptive-logo.png
-    description: Doing now what patients need next
+    description: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla nunc, suscipit eu dolor vitae, molestie rutrum libero. Donec consectetur vitae velit nec bibendum. Fusce maximus efficitur massa sit amet volutpat. Etiam et justo neque. Sed sodales lectus at lacus imperdiet, sed tincidunt nunc finibus. Sed non vulputate odio. Cras sodales metus non placerat ornare. Sed mollis, nisl ac posuere eleifend, metus mauris mollis turpis, et mattis dui magna id libero. Sed ornare mattis leo eu elementum. Vivamus non aliquam sapien. Quisque suscipit mi vitae luctus venenatis. Fusce sodales, felis sed hendrerit faucibus, turpis purus accumsan dui, nec fringilla dolor eros vel ex. Nulla facilisi. Fusce id mi vel ligula porta ultricies. Morbi egestas elit a vulputate aliquam. Aliquam ac commodo neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis diam nec nibh euismod, tempus malesuada tellus fringilla. Aliquam egestas cursus lectus, vitae sollicitudin libero vehicula ac. Duis sit amet turpis quam. Cras ut tempor urna, eget volutpat turpis. Etiam ultrices nulla vel lacus blandit, a accumsan ipsum consectetur. Maecenas interdum vel est et elementum. Nunc sed tristique mi. Nullam eu sodales nisi. Etiam malesuada lorem vitae hendrerit commodo. Praesent dui ipsum, tristique non posuere eget, lobortis quis.
   links:
     linkedIn: https://www.linkedin.com/in/anyulled
     web: https://www.roche.es
