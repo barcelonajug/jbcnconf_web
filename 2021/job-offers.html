@@ -233,9 +233,9 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                                     <h3>
                                                         <i class="fa fa-user"></i> <a href="{{ vacancy.link }}" target="_blank" rel="noopener noreferrer">{{vacancy.title }} </a>
                                                     </h3>
-                                                    <p><i class="fa fa-map-marker"></i> <small>{{ vacancy.location
-                                                        }}</small>
-                                                    </p>
+                                                    {% if vacancy.location %}
+                                                    <p><i class="fa fa-map-marker"></i> <small>{{ vacancy.location }}</small></p>
+                                                    {% endif %}
                                                     <p>{{ vacancy.description | truncate: 1600 }}</p>
                                                 </div>
                                                 {% endfor %}
