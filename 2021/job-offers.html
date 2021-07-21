@@ -202,23 +202,22 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                                     </h3>
                                                     <div class="social-media">
                                                         {% if entry.links.linkedIn %}
-                                                        <a target="_blank" href="{{ entry.links.linkedIn }}">
+                                                        <a target="_blank" href="{{ entry.links.linkedIn }}" rel="noopener noreferrer">
                                                             <i class="fa fa-linkedin"></i>
                                                         </a>
                                                         {% endif %}
                                                         {% if entry.links.web %}
-                                                        <a target="_blank" href="{{ entry.links.web }}">
+                                                        <a target="_blank" href="{{ entry.links.web }}" rel="noopener noreferrer">
                                                             <i class="fa fa-globe"></i>
                                                         </a>
                                                         {% endif %}
                                                         {% if entry.links.twitter %}
-                                                        <a target="_blank" href="{{ entry.links.twitter }}"
-                                                           rel="noopener noreferrer">
+                                                        <a target="_blank" href="{{ entry.links.twitter }}" rel="noopener noreferrer">
                                                             <i class="fa fa-twitter"></i>
                                                         </a>
                                                         {% endif %}
                                                         {% if entry.links.instagram %}
-                                                        <a target="_blank" href="{{ entry.links.instagram }}">
+                                                        <a target="_blank" href="{{ entry.links.instagram }}" rel="noopener noreferrer">
                                                             <i class="fa fa-instagram"></i>
                                                         </a>
                                                         {% endif %}
