@@ -11,7 +11,7 @@ items:
   href: "/schedule.html"
 - label: Sponsors
   href: "/#Sponsors"
-#- label: Become a sponsor
-#  href: "/become-sponsor.html"
+- label: Job Offers
+  href: "/job-offers.html"
 - label: Code of conduct
   href: "/coc.html"
