@@ -126,10 +126,20 @@
   vacancies:
     - title: Senior Backend Engineer
       description: >-
-        The Storage team manages a vast number of Apache Kafka clusters for our marketplaces around the world. As part of the Data Highway area we play a key role in Adevinta’s Data Strategy. The data we collect is essential to our business as it feeds marketplaces with low-latency (“realtime”) updates, visitor insights analysis and targeted advertisement.
-        We solve exciting problems at scale by building technologies around Kafka, like APIs, monitoring and authentication systems, and gathering up to 900 million events per day while keeping users’ privacy and data security in mind. We also develop data services on top of our Kafka platform, providing capabilities like data catalog, lineage and IAM.
-        As a Senior Backend Engineer in the Data Highway area, you’ll have the opportunity to build a critical, state-of-the-art data transport layer for Adevinta marketplaces for a variety of components, such as classification, insights and understanding and modeling user behavior.
+        The Storage team manages a vast number of Apache Kafka clusters for our marketplaces around the world. As part of the Data Highway area we play a key role in Adevinta’s Data Strategy. The data we collect is essential to our business as it feeds marketplaces with low-latency (“realtime”) updates, visitor insights analysis and targeted advertisement.<br/>
+        We solve exciting problems at scale by building technologies around Kafka, like APIs, monitoring and authentication systems, and gathering up to 900 million events per day while keeping users’ privacy and data security in mind. We also develop data services on top of our Kafka platform, providing capabilities like data catalog, lineage and IAM.<br/>
+        As a Senior Backend Engineer in the Data Highway area, you’ll have the opportunity to build a critical, state-of-the-art data transport layer for Adevinta marketplaces for a variety of components, such as classification, insights and understanding and modeling user behavior.<br/>
       link: https://jobs.smartrecruiters.com/Adevinta/743999747144731-senior-backend-engineer
+    - title: Senior Backend Engineer Fotocasa
+      description: >-
+        We are looking for passionate developers to work in our development team and help us migrate to a reactive microservices architecture. As a team member you will be fully autonomous and responsible for the software and infrastructure delivered by your team, deploying, monitoring, and maintaining it using really cool tools.<br/>
+        We are looking for anyone that has the aim to participate actively in a DDD process implementation at a big scale.<br/>
+        If you want more information about this role, you can check all the details in <a href="https://bit.ly/2SeW1Vi">this post</a><br/>
+      link: https://bit.ly/36RWcd5
+    - title: Backend Engineer Milanuncios (Kotlin&Java)
+      description: >-
+        We are looking for passionate developers to work in Milanuncios development team. You will work with microservices stack formed by Kotlin, Spring Boot, PostgreSQL, Kafka deployed in Kubernetes.
+      link: https://bit.ly/3BsRCjo
 
 # Dynatrace
 - title: Dynatrace
