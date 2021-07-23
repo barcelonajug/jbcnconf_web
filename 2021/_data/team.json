@@ -72,18 +72,6 @@
       }
     },
     {
-      "name": "Anna Kurman",
-      "position": "Software Sorceress",
-      "role": "Troll",
-      "bio": "bla",
-      "linkedin": "https://www.linkedin.com/in/anna-kurman-98894415/",
-      "twitter": "https://twitter.com/freyliis",
-      "image": {
-        "url": "/assets/img/team/anna-kurman.jpg",
-        "alt": "Anna Kurman"
-      }
-    },
-    {
       "name": "Anyul Rivas",
       "position": "Senior Software Engineer",
       "role": "Volunteer",
