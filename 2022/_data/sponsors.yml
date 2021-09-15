@@ -1,0 +1,34 @@
+top:
+  - name: Red Hat
+    href: https://developers.redhat.com/
+    image:
+      src: "/assets/img/sponsors/redhat_rgb.png"
+      alt: Red Hat
+premium:
+  - name: Ocado Technology
+    href: https://www.ocadotechnology.com
+    image:
+      src: "/assets/img/sponsors/ocadotechnology-200px-h.png"
+      alt: Ocado Technology
+  - name: Adevinta Spain
+    href: https://www.adevinta.es
+    image:
+      src: "/assets/img/sponsors/adevinta.png"
+      alt: Adevinta Spain
+regular:
+  - name: Capitole Consulting
+    href: https://capitole-consulting.com/about/
+    image:
+      src: "/assets/img/sponsors/capitole.png"
+      alt: Capitole Consulting
+  - name: Wallapop
+    href: https://apply.workable.com/wallapop/
+    image:
+      src: "/assets/img/sponsors/wallapop.jpg"
+      alt: Wallapop
+  - name: Adaptive
+    href: https://www.weareadaptive.com
+    image:
+      src: "/assets/img/sponsors/adaptive-logo.png"
+      alt: Adaptive
+supporters:

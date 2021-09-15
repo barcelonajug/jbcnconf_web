@@ -1,0 +1,17 @@
+items:
+- label: Home
+  href: "/#JBCN"
+#- label: Call For Papers
+#  href: "/callForPapers.html"
+#- label: Speakers
+#  href: "/#Speakers"
+# label: Talks
+#  href: "/talks.html"
+#- label: Schedule
+#  href: "/schedule.html"
+- label: Sponsors
+  href: "/#Sponsors"
+#- label: Job Offers
+#  href: "/job-offers.html"
+- label: Code of conduct
+  href: "/coc.html"
