@@ -48,7 +48,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                 {% if talk.type contains "talk" %}
 
                                 {% if talk.video %}
-                                    <i class="fa fa-video-camera" aria-hidden="true"></i>
+                                    <a href="{{talk.video}}"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
                                 {% endif %}
 
                                 <a href="{{base}}/infoTalk.html?id={{talk.id}}">
