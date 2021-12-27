@@ -1,0 +1,26 @@
+body {
+    background-color: black !important;
+    color: ghostwhite !important;
+}
+
+h1, h2, h3 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+h4, h5, h6 {
+    font-family: 'Marck Script', cursive;
+}
+
+p, span, a, li, td, th, button, label, input, textarea {
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 250ms ease-in;
+}
