@@ -1,11 +1,12 @@
 import { Container, Nav, Navbar } from "react-bootstrap"
-import React from "react"
+import React, { FC, useEffect, useState } from "react"
 import styled from "styled-components"
+import { collection, getDocs, getFirestore } from "firebase/firestore"
 
 const StyledNavBar = styled(Navbar)`
   .nav-link {
     text-align: center;
-    font-family: "Kaushan Script", cursive;
+    font-family: "Monda", sans-serif;
     font-size: 2rem;
     color: #ef476f !important;
   }
@@ -19,29 +20,50 @@ const StyledNavBar = styled(Navbar)`
   }
 `
 
-export const TopMenu = () => (
-  <StyledNavBar
-    collapseOnSelect
-    expand={false}
-    bg="dark"
-    variant="dark"
-    sticky="top"
-  >
-    <Container>
-      <Navbar.Brand href="/">JBCNConf</Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="me-auto">
-          <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/talks">Talks</Nav.Link>
-          <Nav.Link href="/contact">Contact</Nav.Link>
-          <Nav.Link href="/schedule">Schedule</Nav.Link>
-          <Nav.Link href="/sponsors">Sponsors</Nav.Link>
-          <Nav.Link href="/speakers">Speakers</Nav.Link>
-          <Nav.Link href="/about-us">About us</Nav.Link>
-          <Nav.Link href="/job-offers">Job Offers</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Container>
-  </StyledNavBar>
-)
+interface LinkType {
+  name: string
+  url: string
+  enabled: boolean
+}
+
+export const TopMenu: FC = () => {
+  const db = getFirestore()
+  const [data, setData] = useState<LinkType[]>([])
+
+  useEffect(() => {
+    const getData = () => {
+      getDocs(collection(db, "links")).then(querySnapshot =>
+        setData(querySnapshot.docs.map(doc => doc.data() as LinkType))
+      )
+    }
+    getData()
+  }, [db])
+
+  return (
+    <StyledNavBar
+      collapseOnSelect
+      expand={false}
+      bg="dark"
+      variant="dark"
+      sticky="top"
+    >
+      <Container>
+        <Navbar.Brand href="/">JBCNConf</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            {data.map(({ name, url, enabled }) => (
+              <Nav.Link
+                key={name}
+                href={url}
+                className={enabled ? "nav-link" : "nav-link disabled"}
+              >
+                {name}
+              </Nav.Link>
+            ))}
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </StyledNavBar>
+  )
+}
