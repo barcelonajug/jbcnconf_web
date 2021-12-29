@@ -20,9 +20,8 @@ export const AppRoutes = () => (
     <Route path="talks" element={<TalksPage />} />
     <Route path="contact" element={<Contact />} />
     <Route path="about-us" element={<Members />} />
-    <Route path="speakers" element={<SpeakerPage />}>
-      <Route path=":speakerId" element={<SpeakerDetail />} />
-    </Route>
+    <Route path="speakers" element={<SpeakerPage />} />
+    <Route path="speakers/:speakerId" element={<SpeakerDetail />} />
     <Route path="job-offers" element={<JobListing />} />
     <Route path="schedule" element={<SchedulePage />} />
     <Route path="*" element={<NotFound />} />
