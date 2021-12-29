@@ -4,15 +4,15 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Exo', sans-serif;
 }
 
 h4, h5, h6 {
-    font-family: 'Marck Script', cursive;
+    font-family: 'Monda', sans-serif;
 }
 
 p, span, a, li, td, th, button, label, input, textarea {
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .fade-enter {
