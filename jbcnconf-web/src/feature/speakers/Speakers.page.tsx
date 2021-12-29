@@ -1,15 +1,23 @@
 import { Card, Col, Container, Row } from "react-bootstrap"
 import styled from "styled-components"
-import { Linkedin, Twitter } from "@styled-icons/boxicons-logos"
-import { Home } from "@styled-icons/heroicons-solid/Home"
-import { Link, Outlet } from "react-router-dom"
+import { Link } from "react-router-dom"
 import { FC, useEffect, useState } from "react"
 import { collection, getDocs, getFirestore } from "firebase/firestore"
 import { SpeakerProps, SpeakerType } from "./types"
+import leftBg from "../../img/white-green-lt.jpg"
+import rightBg from "../../img/white-green-bt.jpg"
+import bottomBg from "../../img/green-white-wave.jpg"
 
 const StyledContainer = styled(Container)`
-  background-color: #06d6a0;
-  color: ghostwhite;
+   {
+    background-color: #06d6a0;
+    color: ghostwhite;
+    background-image: url(${leftBg}), url(${rightBg}), url(${bottomBg});
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    background-position: left 20px, right 20px, center bottom;
+    background-size: 10%, 10%, contain;
+    padding-bottom: 150px;
+  }
 
   svg {
     max-height: 24px;
@@ -21,90 +29,59 @@ const StyledContainer = styled(Container)`
     color: tomato;
   }
 
+  h2:before {
+    content: "/";
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
   img {
     clip-path: inset(5% 5% 5% 5% round 2%);
     filter: grayscale(80%) contrast(120%) brightness(120%);
-    transition: all 100ms ease-in-out;
+    transition: all 250ms ease-in-out;
   }
 
   img:hover {
-    clip-path: inset(10% 10% 10% 10% round 10%);
+    clip-path: inset(10% 10% 10% 10% round 5%);
     filter: grayscale(10%);
-    transition: all 250ms ease-in-out;
+    transition: all 500ms ease-in-out;
     transform: scale(1.18);
     box-shadow: 10px 10px red;
   }
 
-  .card-header a {
-    text-decoration: none;
-    color: ghostwhite;
-    font-family: "Kaushan Script", cursive;
-    font-size: 1.2em;
-  }
+  .card {
+    background-color: transparent;
+    border: none;
 
-  .card-title {
-    font-family: "Marck Script", cursive;
-    font-size: 1.1em;
-  }
+    .card-body {
+      padding: 0.2rem;
+    }
 
-  .card-footer {
-    display: flex;
-    justify-content: space-around;
+    h3 a {
+      color: ghostwhite;
+      text-decoration: none;
+    }
 
-    div {
-      display: block;
-      min-width: 24px;
+    h4 {
+      color: #ee476f;
+      font-size: 1rem;
     }
   }
 `
 
 const Speaker: FC<SpeakerProps> = (props: SpeakerProps) => {
-  const {
-    ref,
-    twitter,
-    linkedin,
-    homepage,
-    name,
-    lastname,
-    image,
-    description,
-  } = props.speaker
+  const { ref, name, lastname, image, description } = props.speaker
   return (
-    <Card bg="success">
-      <Card.Header>
-        <Link to={`${ref}`}>
-          {name} {lastname}
-        </Link>
-      </Card.Header>
+    <Card>
       <Card.Img variant="top" src={`https://www.jbcnconf.com/2022/${image}`} />
       <Card.Body>
-        <Card.Title>{description}</Card.Title>
+        <h3>
+          <Link to={`${ref}`}>
+            {name} {lastname}
+          </Link>
+        </h3>
+        <h4>{description}</h4>
       </Card.Body>
-      {(homepage || twitter || linkedin) && (
-        <Card.Footer>
-          {homepage && (
-            <div>
-              <a href={homepage} target="_blank" rel="noopener noreferrer">
-                <Home />
-              </a>
-            </div>
-          )}
-          {linkedin && (
-            <div>
-              <a href={linkedin} target="_blank" rel="noopener noreferrer">
-                <Linkedin />
-              </a>
-            </div>
-          )}
-          {twitter && (
-            <div>
-              <a href={twitter} target="_blank" rel="noopener noreferrer">
-                <Twitter />
-              </a>
-            </div>
-          )}
-        </Card.Footer>
-      )}
     </Card>
   )
 }
@@ -129,18 +106,22 @@ const SpeakersPage: FC = () => {
         <Col>&nbsp;</Col>
       </Row>
       <Row>
-        <Col xs={{ offset: 1, span: 10 }}>
+        <Col xs={{ offset: 1, span: 3 }}>
           <h2>Speakers</h2>
         </Col>
-      </Row>
-      <Row>
-        <Col>
-          <Outlet />
+        <Col xs={6}>
+          Speakers coming from all corners of the world join us to share their
+          experience in various technologies and to invite everyone to
+          participate in Open Source Technologies and in the JCP.
         </Col>
+      </Row>
+      .
+      <Row>
+        <Col>&nbsp;</Col>
       </Row>
       <Row>
         {data.map((speaker, idx) => (
-          <Col key={idx}>
+          <Col xs={{ span: 3, offset: idx % 3 === 0 ? 1 : 0 }} key={idx}>
             <Speaker speaker={speaker} />
           </Col>
         ))}
