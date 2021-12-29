@@ -67,7 +67,7 @@ const Footer = () => (
   <AppFooter>
     <Container fluid>
       <Row>
-        <Col xs={{ span: 2, offset: 2 }}>
+        <Col xs={{ offset: 1, span: 5, order: 1 }} md={{ span: 2, offset: 2 }}>
           <div className="social-icons">
             <a
               rel="noopener noreferrer"
@@ -125,7 +125,7 @@ const Footer = () => (
             </a>
           </p>
         </Col>
-        <Col xs={4} style={{ textAlign: "center" }}>
+        <Col xs={{ order: 2 }} md={4} style={{ textAlign: "center" }}>
           <img src={Logo} alt="Jbcnconf" />
           <br />
           <br />
@@ -133,7 +133,7 @@ const Footer = () => (
           <br />
           <p>© {year} Barcelona JUG. All Rights Reserved.</p>
         </Col>
-        <Col xs={{ span: 3, offset: 0 }}>
+        <Col xs={{ order: 1, span: 6 }} md={{ span: 3, offset: 0 }}>
           <h5>Events</h5>
           <p>
             <a
