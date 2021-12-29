@@ -1,10 +1,16 @@
 import { Col, Container, Row } from "react-bootstrap"
 import styled from "styled-components"
+import LeftBg from "../../img/white-red-lt.jpg"
+import rightBg from "../../img/white-red-bt.jpg"
 
 const StyledContainer = styled(Container)`
    {
+    background-color: #fffcf9;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-image: url(${LeftBg}), url(${rightBg});
+    background-position: left 10%, right 10%;
+    background-repeat: no-repeat, no-repeat;
   }
 
   h1,
@@ -19,7 +25,6 @@ const StyledContainer = styled(Container)`
   p {
     color: #ef476f;
     font-family: "Roboto Slab", sans-serif;
-    font-size: 12px;
   }
 
   .title-top {
@@ -39,6 +44,13 @@ const StyledContainer = styled(Container)`
   }
 `
 
+const TitleColumn = styled(Col)`
+   {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+`
+
 const StyledImage = styled.img`
   max-width: 80%;
   max-height: 80%;
@@ -46,7 +58,7 @@ const StyledImage = styled.img`
   line-height: 75px;
 `
 
-const StyledCol = styled(Col)`
+const Column = styled(Col)`
   text-align: center;
 `
 
@@ -74,25 +86,23 @@ const SponsorDetails = (props: SponsorType) => {
   return (
     <Container fluid>
       <Row>
-        <Col xs={{ offset: 2, order: props.index % 2 }}>
+        <TitleColumn xs={{ offset: 2, order: props.index % 2 }}>
           <h3 className={props.type}>{props.text.toUpperCase()}</h3>
-        </Col>
+        </TitleColumn>
         <Col>
-          <span className={props.type}>
-            &#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;
-          </span>
+          <span className={props.type}>&nbsp;</span>
         </Col>
       </Row>
       <Row>
         {props.sponsors.map((sponsor, index) => (
-          <StyledCol xs={size(props.text)} key={index}>
+          <Column xs={size(props.text)} key={index}>
             <a href={sponsor.href}>
               <StyledImage
                 src={`https://www.jbcnconf.com/2020/${sponsor.image.src}`}
                 alt={sponsor.image.alt}
               />
             </a>
-          </StyledCol>
+          </Column>
         ))}
       </Row>
     </Container>
@@ -217,10 +227,10 @@ const SponsorSection = () => {
   return (
     <StyledContainer fluid>
       <Row>
-        <Col>
+        <Col xs={{ offset: 2, span: 3 }}>
           <h1>/ Sponsors</h1>
         </Col>
-        <Col>
+        <Col xs={{ span: 5 }}>
           <p>
             Are you a technology company? Interested in meeting enthusiasts and
             geek people for technology?

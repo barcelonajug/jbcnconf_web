@@ -26,7 +26,7 @@ const SpeakerDetail: FC = () => {
       })
     }
     getData()
-  }, [db])
+  }, [db, speakerId])
 
   return (
     <Row>

@@ -1,13 +1,15 @@
 import { Col, Container, Row } from "react-bootstrap"
 import styled from "styled-components"
 import { PhotoPlaceholder } from "react-placeholder-image"
+import background from "../../img/green-background.jpg"
 
 const StyledContainer = styled(Container)`
    {
+    background-image: url(${background});
     background-repeat: no-repeat;
     background-position: top right;
     background-color: #06d6a0;
-    padding-top: 20px;
+    padding-top: 45px;
     color: ghostwhite;
     font-size: 12px;
   }

@@ -6,7 +6,8 @@ import SpeakerSection from "./speakers/Speakers.section"
 import Sponsors from "./sponsors/Sponsor.section"
 import Countdown from "./common/CountDown"
 import styled from "styled-components"
-import YouTube from "react-youtube"
+// import YouTube from "react-youtube"
+import homeBg from "../img/home-bg.jpg"
 
 const StyledTop = styled.div`
   text-align: center;
@@ -18,15 +19,15 @@ const StyledTop = styled.div`
   }
 `
 
-const onStart = (props: any) => {
+/*const onStart = (props: any) => {
   props.target.setVolume(0)
-}
+}*/
 
 const Home = () => {
   return (
     <>
       <StyledTop>
-        <YouTube
+        {/*<YouTube
           videoId="SEwqPzGxav4"
           opts={{
             height: "700px",
@@ -39,7 +40,8 @@ const Home = () => {
             },
           }}
           onReady={onStart}
-        />
+        />*/}
+        <img src={homeBg} alt="home-bg" />
         <Jbcnconf />
         <EventDate />
         <Countdown />

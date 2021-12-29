@@ -1,10 +1,16 @@
 import { Col, Container, Row } from "react-bootstrap"
 import styled from "styled-components"
 import { PhotoPlaceholder } from "react-placeholder-image"
+import leftBg from "../img/left-lt.jpg"
+import rightBg from "../img/right-gt.jpg"
 
 const StyledContainer = styled(Container)`
    {
     background-color: #ef476f;
+    background-image: url(${leftBg}), url(${rightBg});
+    background-size: 10%, 10%;
+    background-position: right 70%, left 50px;
+    background-repeat: no-repeat, no-repeat;
     color: ghostwhite;
     padding: 50px 0;
   }
