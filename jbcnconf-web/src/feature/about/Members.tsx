@@ -1,9 +1,11 @@
-import { Card, CardGroup, Col, Container, Row } from "react-bootstrap"
+import { Card, Col, Container, Row } from "react-bootstrap"
 import { Linkedin, Twitter } from "@styled-icons/boxicons-logos"
 import styled from "styled-components"
 import { collection, getDocs, getFirestore } from "firebase/firestore"
 import { Firestore } from "@firebase/firestore"
 import { FC, useEffect, useState } from "react"
+import leftBg from "../../img/white-blue-lt.jpg"
+import rightBg from "../../img/white-blue-bt.jpg"
 
 interface MemberType {
   name: string
@@ -21,40 +23,126 @@ interface MemberProps {
 }
 
 const StyledMembers = styled(Container)`
+  @keyframes blurInOut {
+    0% {
+      filter: grayscale(50%) blur(0);
+    }
+    50% {
+      filter: grayscale(25%) blur(4px);
+    }
+    100% {
+      filter: grayscale(0) blur(0);
+    }
+  }
    {
-    background-color: #0496ff;
-    color: ghostwhite;
+    color: #0496ff;
+    background-color: ghostwhite;
+    background-image: url(${leftBg}), url(${rightBg});
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 20px, right 20px;
+    background-size: 10%, 10%;
+  }
+
+  h3:before {
+    content: "/";
+    font-weight: bold;
+    margin-left: 10px;
   }
 
   svg {
     max-height: 24px;
   }
 
-  .card-body {
-    background-color: #0496ff;
-    color: ghostwhite;
+  .card {
+    background-color: transparent;
+    border: none;
+
+    .card-body {
+      padding: 5px 0;
+    }
+
+    .card-subtitle {
+      color: #ee476f;
+    }
+
+    .card-footer {
+      background-color: transparent;
+      border: none;
+      display: flex;
+      justify-content: center;
+
+      small {
+        flex-grow: 1;
+        text-align: center;
+      }
+    }
+
+    .card-text {
+      font-size: 12px;
+      padding-top: 10px;
+    }
+
+    .card-title {
+      font-family: "Monda", cursive;
+    }
   }
 
-  img:hover {
-    filter: grayscale(50);
-    transition: all 250ms ease-in-out;
+  img {
+    filter: grayscale(30%);
+
+    &:hover {
+      filter: grayscale(0);
+      animation-name: blurInOut;
+      animation-duration: 250ms;
+    }
   }
 
-  .card-text {
-    font-size: 12px;
-    padding-top: 10px;
+  .col:nth-child(2n) {
+    .card {
+      padding-top: 10px;
+    }
+
+    .card-title,
+    .card-footer a {
+      color: #06d6a0;
+    }
+
+    .card-subtitle {
+      color: #0397ff;
+    }
   }
 
-  .card-title {
-    font-family: "Marck Script", cursive;
+  .col:nth-child(3n) {
+    .card {
+      padding-top: 20px;
+    }
+
+    .card-title,
+    .card-footer a {
+      color: #26547c;
+    }
+
+    .card-subtitle {
+      color: #ffd266;
+    }
+  }
+
+  .col:nth-child(5n) {
+    .card-title,
+    .card-footer a {
+      color: #ee476f;
+    }
+
+    .card-subtitle {
+      color: #06d6a0;
+    }
   }
 `
 
 const Member: FC<MemberProps> = (props: MemberProps) => {
-  const { bio, image, lastname, linkedin, name, position, twitter } =
-    props.member
+  const { image, lastname, linkedin, name, position, twitter } = props.member
   return (
-    <Card bg="dark">
+    <Card>
       <Card.Img
         variant="top"
         alt={`${name} ${lastname}`}
@@ -63,7 +151,6 @@ const Member: FC<MemberProps> = (props: MemberProps) => {
       <Card.Body>
         <Card.Title>{`${name} ${lastname}`}</Card.Title>
         <Card.Subtitle>{position}</Card.Subtitle>
-        <Card.Text>{bio}</Card.Text>
       </Card.Body>
       <Card.Footer>
         {linkedin && (
@@ -105,8 +192,10 @@ const Members: FC = () => {
         <Col>&nbsp;</Col>
       </Row>
       <Row>
-        <Col xs={{ offset: 1, span: 10 }}>
-          <h3>Members</h3>
+        <Col xs={{ offset: 1, span: 4 }}>
+          <h3>ABOUT US</h3>
+        </Col>
+        <Col xs={6}>
           <p>
             The Barcelona Java User Group is a non profit association with a
             great team and a broad experience in Java technologies. Since 2012,
@@ -116,15 +205,19 @@ const Members: FC = () => {
           </p>
         </Col>
       </Row>
-      <Row>
-        <Col xs={{ offset: 1, span: 10 }}>
-          <CardGroup>
-            {data.map((member, index) => (
-              <Member key={index} member={member} />
-            ))}
-          </CardGroup>
-        </Col>
-      </Row>
+      <Container>
+        <Row>
+          <Col xs={{ offset: 1, span: 10 }}>
+            <Row xs={3}>
+              {data.map((member, index) => (
+                <Col key={index}>
+                  <Member member={member} />
+                </Col>
+              ))}
+            </Row>
+          </Col>
+        </Row>
+      </Container>
       <Row>
         <Col>&nbsp;</Col>
       </Row>
