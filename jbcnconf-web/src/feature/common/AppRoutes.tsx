@@ -10,12 +10,13 @@ import SpeakerDetail from "../speakers/Speaker.detail"
 import JobListing from "../JobListing"
 import SchedulePage from "../schedule/Schedule.page"
 import NotFound from "./NotFound"
-import React from "react"
+import CallForPapers from "../CallForPapers"
 
 export const AppRoutes = () => (
   <Routes>
     <Route path="/" element={<Home />} />
     <Route path="sponsors" element={<SponsorPage />} />
+    <Route path="call-for-papers" element={<CallForPapers />} />
     <Route path="talks/:id" element={<TalksDetail />} />
     <Route path="talks" element={<TalksPage />} />
     <Route path="contact" element={<Contact />} />
