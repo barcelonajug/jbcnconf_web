@@ -8,11 +8,11 @@ const StyledNavBar = styled(Navbar)`
     text-align: center;
     font-family: "Monda", sans-serif;
     font-size: 2rem;
-    color: #ef476f !important;
+    color: var(--color-fucsia) !important;
   }
 
   .navbar-dark .navbar-nav .nav-link {
-    color: #ef476f;
+    color: var(--color-fucsia);
   }
 
   .navbar-toggler:focus {

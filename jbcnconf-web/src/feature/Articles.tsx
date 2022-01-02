@@ -6,7 +6,7 @@ import rightBg from "../img/right-gt.jpg"
 
 const StyledContainer = styled(Container)`
    {
-    background-color: #ef476f;
+    background-color: var(--color-fucsia);
     background-image: url(${leftBg}), url(${rightBg});
     background-size: 10%, 10%;
     background-position: right 70%, left 50px;
@@ -21,8 +21,8 @@ const StyledContainer = styled(Container)`
   }
 
   button {
-    background-color: #06d6a0;
-    color: #ef476f;
+    background-color: var(--color-green);
+    color: var(--color-fucsia);
   }
 `
 

@@ -11,14 +11,14 @@ import bg from "../../img/blue-green-bt.jpg"
 const SpeakerContainer = styled(Container)`
    {
     background-image: url(${bg});
-    background-color: #0397ff;
+    background-color: var(--color-blue);
     background-repeat: no-repeat;
     background-position: right center;
     background-size: 20%;
   }
 
   h3 {
-    color: #ffd265;
+    color: var(--color-yellow);
   }
 
   svg {
@@ -28,17 +28,17 @@ const SpeakerContainer = styled(Container)`
     transition: all 0.5s ease-in-out;
 
     &:hover {
-      color: #ffd265;
+      color: var(--color-yellow);
     }
   }
 
   img {
     padding: 3px;
-    border: 1px solid #c35a83;
+    border: 1px solid var(--color-fucsia);
     transition: all 0.5s ease-in-out;
 
     &:hover {
-      border: 1px solid #ffd265;
+      border: 1px solid var(--color-yellow);
     }
   }
 

@@ -10,7 +10,7 @@ import bottomBg from "../../img/green-white-wave.jpg"
 
 const StyledContainer = styled(Container)`
    {
-    background-color: #06d6a0;
+    background-color: var(--color-green);
     color: ghostwhite;
     background-image: url(${leftBg}), url(${rightBg}), url(${bottomBg});
     background-repeat: no-repeat, no-repeat, repeat-x;
@@ -26,7 +26,7 @@ const StyledContainer = styled(Container)`
 
   svg:hover {
     transition: all 0.5s ease;
-    color: tomato;
+    color: var(--color-fucsia);
   }
 
   h2:before {
@@ -63,7 +63,7 @@ const StyledContainer = styled(Container)`
     }
 
     h4 {
-      color: #ee476f;
+      color: var(--color-fucsia);
       font-size: 1rem;
     }
   }

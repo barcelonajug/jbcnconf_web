@@ -8,7 +8,7 @@ const StyledContainer = styled(Container)`
     background-image: url(${background});
     background-repeat: no-repeat;
     background-position: top right;
-    background-color: #06d6a0;
+    background-color: var(--color-green);
     padding-top: 45px;
     color: ghostwhite;
     font-size: 12px;
@@ -19,7 +19,7 @@ const StyledContainer = styled(Container)`
   }
 
   .speaker-name {
-    background-color: #ef476f;
+    background-color: var(--color-fucsia);
     color: ghostwhite;
     text-align: center;
   }
@@ -27,7 +27,7 @@ const StyledContainer = styled(Container)`
   .all-speakers {
     font-family: "Roboto slab", sans-serif;
     text-align: right;
-    color: #ef476f;
+    color: var(--color-fucsia);
     font-size: 18px;
     font-weight: bold;
   }

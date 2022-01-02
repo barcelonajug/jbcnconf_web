@@ -16,31 +16,31 @@ const StyledContainer = styled(Container)`
   h1,
   h2,
   h3 {
-    color: #ef476f;
+    color: var(--color-fucsia);
     text-transform: uppercase;
     font-family: "Roboto Slab", sans-serif;
     font-weight: bold;
   }
 
   p {
-    color: #ef476f;
+    color: var(--color-fucsia);
     font-family: "Roboto Slab", sans-serif;
   }
 
   .title-top {
-    color: #0496ff;
+    color: var(--color-blue);
   }
 
   .title-regular {
-    color: #ef476f;
+    color: var(--color-fucsia);
   }
 
   .title-startup {
-    color: #ffd166;
+    color: var(--color-yellow);
   }
 
   .title-supporter {
-    color: #06d6a0;
+    color: var(--color-green);
   }
 `
 

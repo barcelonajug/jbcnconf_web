@@ -16,7 +16,7 @@ import styled from "styled-components"
 
 const AppFooter = styled.footer`
    {
-    background-color: #06d6a0;
+    background-color: var(--color-green);
     background-image: url(${bg});
     background-repeat: no-repeat;
     background-position: 1% bottom;
@@ -52,7 +52,7 @@ const AppFooter = styled.footer`
 
     &:hover {
       transition: all 0.5s ease-in-out;
-      color: tomato;
+      color: var(--color-fucsia);
     }
 
     svg {
