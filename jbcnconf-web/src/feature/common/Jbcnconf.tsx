@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const StyledH1 = styled.h1`
-  background-color: #06d6a0;
+  background-color: var(--color-green);
   font-family: "Roboto Slab", sans-serif;
   font-weight: bold;
   width: 50%;

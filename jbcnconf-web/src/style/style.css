@@ -1,3 +1,11 @@
+:root {
+    --color-fucsia: #ef476f;
+    --color-blue: #0496ff;
+    --color-navy: #25537c;
+    --color-green: #06d6a0;
+    --color-yellow: #ffd166;
+}
+
 body {
     background-color: black !important;
     color: ghostwhite !important;

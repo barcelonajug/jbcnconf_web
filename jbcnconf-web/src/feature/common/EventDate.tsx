@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const StyledH2 = styled.h2`
-  color: #ef476f;
+  color: var(--color-fucsia);
   font-weight: lighter;
 `
 

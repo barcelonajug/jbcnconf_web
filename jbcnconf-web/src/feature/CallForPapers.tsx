@@ -1,5 +1,5 @@
-import { FC, useState } from "react"
-import { Badge, Button, Col, Container, Form, Row } from "react-bootstrap"
+import { FC, SyntheticEvent, useEffect, useState } from "react"
+import { Badge, Button, Col, Container, Form, Row, Tab, Tabs } from "react-bootstrap"
 import styled from "styled-components"
 
 const CfpSection = styled(Container)`
@@ -8,7 +8,9 @@ const CfpSection = styled(Container)`
 `
 
 const CallForPapers: FC = () => {
-  const [speakers, setSpeakers] = useState(0)
+  const [speakersCount, setSpeakersCount] = useState<number>(2)
+  const [validated, setValidated] = useState<boolean>(false)
+  //<editor-fold desc="dates">
   const cfpLastDay = new Date(
     process.env.REACT_APP_CFP_END_DATE || new Date().toDateString()
   )
@@ -18,6 +20,35 @@ const CallForPapers: FC = () => {
   const endDate = new Date(
     process.env.REACT_APP_CONF_END_DATE || new Date().toDateString()
   )
+  //</editor-fold>
+
+  useEffect(() => {
+    document.title = "JBCNConf - Call for Papers"
+  }, [])
+
+  const increaseSpeakersCount = () => {
+    if (speakersCount <= 5) {
+      setSpeakersCount(speakersCount + 1)
+    }
+  }
+
+  const decreaseSpeakersCount = () => {
+    if (speakersCount > 1) {
+      setSpeakersCount(speakersCount - 1)
+    }
+  }
+
+  const handleSubmit = (event: SyntheticEvent) => {
+    console.clear()
+    const formData = new FormData(event.target as HTMLFormElement)
+    console.log()
+    const formProps = Object.fromEntries(formData)
+    console.log(formData.getAll("fullName"))
+    setValidated(true)
+    event.preventDefault()
+    event.stopPropagation()
+    console.log("form data", formProps)
+  }
 
   return (
     <CfpSection fluid>
@@ -82,23 +113,103 @@ const CallForPapers: FC = () => {
       </Row>
       <Row>
         <Col>
-          <Form>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Label>Email address</Form.Label>
-              <Form.Control type="email" placeholder="Enter email" />
-              <Form.Text className="text-muted">
-                We'll never share your email with anyone else.
-              </Form.Text>
+          <Form noValidate validated={validated} onSubmit={handleSubmit}>
+            <input type="hidden" name="edition" value="2022" />
+            <Form.Group className="mb-3" controlId="languages">
+              <Form.Label>Languages available:*</Form.Label>
+              <Form.Text as="p">Let us know in which of the following you could share the
+                session.</Form.Text>
+              <Form.Check name="languages" value="eng" type="checkbox" label="English" inline defaultChecked />
+              <Form.Check name="languages" value="spa" type="checkbox" label="Spanish" inline />
             </Form.Group>
+            <Form.Group className="mb-3" controlId="title">
+              <Form.Label>Title *</Form.Label>
+              <Form.Control name="title" type="text" required />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="level">
+              <Form.Label>Level *</Form.Label>
+              <Form.Select name="level" required>
+                <option value="Beginner">Beginner</option>
+                <option value="Middle">Middle</option>
+                <option value="Advanced">Advanced</option>
+              </Form.Select>
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="Abstract">
+              <Form.Label>Abstract* </Form.Label>
+              <Form.Control name="abstract" as="textarea" rows={5} required />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="tags">
+              <Form.Label>Tags *(at least 2 separated by comma)</Form.Label>
+              <Form.Control name="tags" type="text" placeholder="Java, Android, Kotlin, AWS, Kubernetes" required />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="comments">
+              <Form.Label>Comments </Form.Label>
+              <Form.Control name="comments" as="textarea" rows={2} />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="speakerCount">
+              <Form.Text><h3>Speakers</h3></Form.Text>
+              <Button variant="outline-secondary" size="sm" onClick={increaseSpeakersCount}>+</Button>
+              <Button variant="outline-secondary" size="sm" onClick={decreaseSpeakersCount}>-</Button>
+            </Form.Group>
+            <Tabs defaultActiveKey="Speaker 1">
+              {Array.from(Array(2).keys()).map((index: any, i: any) => <Tab eventKey={index} key={i}
+                                                                            title={`Speaker ${index + 1}`}>
+                <h5>Speaker {index + 1}</h5>
+                <Form.Group
+                  className="mb-3" controlId="speakerName">
+                  <Form.Label>Full name *</Form.Label>
+                  <Form.Control name="fullName" type="text" placeholder="Firstname Lastname" required />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="speakerEmail">
+                  <Form.Label>Email *</Form.Label>
+                  <Form.Control name="email" type="email" required />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="speakerJobDescription">
+                  <Form.Label>Job description*</Form.Label>
+                  <Form.Control name="jobTitle" type="text" required />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="speakerCompany">
+                  <Form.Label>Company *</Form.Label>
+                  <Form.Control name="company" type="text" placeholder="Company name" required />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="speakerLinkedIn">
+                  <Form.Label>LinkedIn </Form.Label>
+                  <Form.Control name="linkedin" type="text" placeholder="https://www.linkedin.com/in/..." />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="speakerTwitter">
+                  <Form.Label>Twitter </Form.Label>
+                  <Form.Control name="twitter" type="text" placeholder="https://twitter.com/..." />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="speakerWeb">
+                  <Form.Label>Web </Form.Label>
+                  <Form.Control name="web" type="text" placeholder="https://my.web.com" />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="biography">
+                  <Form.Label>Biography *</Form.Label>
+                  <Form.Control name="biography" as="textarea" rows={5} required />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="speakerPhoto">
+                  <Form.Label>Picture (URL) *</Form.Label>
+                  <Form.Control name="picture" type="text" placeholder="https://my.photo.com" required />
+                  <Form.Text className="text-muted">
+                    Please, ensure that the image is 512 x 512 and available as public http resource. This will help us
+                    a
+                    lot and avoid any manipulation from our side.
+                  </Form.Text>
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="conditions">
+                  <Form.Check type="checkbox" required>
+                    <Form.Check.Input type="checkbox" required />
+                    <Form.Check.Label>I have read and agree with the <a
+                      href="https://www.jbcnconf.com/2022/conditions.html">conditions
+                      and data policies.</a></Form.Check.Label>
+                  </Form.Check>
+                </Form.Group>
+              </Tab>)}
+            </Tabs>
 
-            <Form.Group className="mb-3" controlId="formBasicPassword">
-              <Form.Label>Password</Form.Label>
-              <Form.Control type="password" placeholder="Password" />
-            </Form.Group>
-            <Form.Group className="mb-3" controlId="formBasicCheckbox">
-              <Form.Check type="checkbox" label="Check me out" />
-            </Form.Group>
-            <Button variant="primary" type="button">
+
+            <Button variant="primary" type="submit">
               Submit
             </Button>
           </Form>

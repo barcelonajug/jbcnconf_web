@@ -1,25 +1,6 @@
 import { FC } from "react"
 import { Card, Col, Container, Row } from "react-bootstrap"
-
-interface Talk {
-  id: number
-  title: string
-  speaker: string[]
-  description: string
-  room: string
-}
-
-interface Slot {
-  id: number
-  start: string
-  end: string
-  talks: Talk[]
-}
-
-interface ScheduleDate {
-  date: string
-  slots: Slot[]
-}
+import { ScheduleDate } from "./types"
 
 const SchedulePage: FC = () => {
   const data: ScheduleDate[] = [
