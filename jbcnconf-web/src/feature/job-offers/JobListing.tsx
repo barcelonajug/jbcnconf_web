@@ -1,79 +1,8 @@
-import styled from "styled-components"
 import { Button, Col, Container, Row } from "react-bootstrap"
 import { EditLocation, Home, User } from "@styled-icons/boxicons-solid"
-import leftBg from "../img/white-navy-lt.jpg"
-import rightBg from "../img/white-navy-bt.jpg"
 import { Instagram, Linkedin, Twitter } from "@styled-icons/fa-brands"
-
-interface Company {
-  name: string
-  logo: string
-  linkedin: string
-  twitter: string
-  web: string
-  instagram: string
-  location: string
-  offers: Offer[]
-}
-
-interface Offer {
-  title: string
-  description: string
-  url: string
-}
-
-interface JobOffer {
-  company: Company
-}
-
-const StyledContainer = styled(Container)`
-{
-  background-color: white;
-  color: #25537c;
-  min-height: 85.8vh;
-  background-image: url(${leftBg}), url("${rightBg}");
-  background-position: left 40px, right 40px;
-  background-repeat: no-repeat, no-repeat;
-}
-
-  h1 {
-    color: var(--color-navy);
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-
-  h2 a {
-    font-family: 'Exo', sans-serif;
-    text-decoration: none;
-    color: var(--color-navy);
-  }
-
-  svg {
-    max-height: 24px;
-  }
-
-  h1:before {
-    content: "/";
-    font-weight: bold;
-  }
-
-  .job-listing-item-content {
-    margin-top: 20px;
-  }
-  
-  .job-listing-item-content:nth-child(2n){
-    text-align: right;
-  }
-
-  .job-listing-company-social-icons {
-    display: flex;
-    justify-content: space-evenly;
-
-    a {
-      min-width: 24px;
-    }
-  }
-`
+import { StyledContainer } from "./styles"
+import { JobOffer, Offer } from "./types"
 
 const JobListingItem = (props: { job: JobOffer }) => {
   const { offers } = props.job.company
