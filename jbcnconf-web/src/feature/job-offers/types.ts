@@ -18,3 +18,7 @@ export interface Offer {
 export interface JobOffer {
   company: Company
 }
+
+export interface JobItemProps {
+  job: JobOffer
+}
