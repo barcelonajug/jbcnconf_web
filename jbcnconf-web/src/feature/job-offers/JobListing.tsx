@@ -1,25 +1,17 @@
 import { Button, Col, Container, Row } from "react-bootstrap"
-import { EditLocation, Home, User } from "@styled-icons/boxicons-solid"
-import { Instagram, Linkedin, Twitter } from "@styled-icons/fa-brands"
+import { EditLocation, User } from "@styled-icons/boxicons-solid"
+import { JobItemProps, JobOffer, Offer } from "./types"
+import { FC, useEffect } from "react"
 import { StyledContainer } from "./styles"
-import { JobOffer, Offer } from "./types"
 
-const JobListingItem = (props: { job: JobOffer }) => {
-  const { offers } = props.job.company
-  return <Row>
-    <Col xs={{ offset: 2, span: 8 }}>
-      <div className="job-listing-company-logo">
-        <img src={props.job.company.logo} alt={props.job.company.name} width="100%" />
-      </div>
-      <div className="job-listing-company-content">
-        <div className="job-listing-company-social-icons">
-          <a href={props.job.company.web}><Home /></a>
-          {props.job.company.linkedin && <a href={props.job.company.linkedin}><Linkedin /></a>}
-          {props.job.company.twitter && <a href={props.job.company.twitter}><Twitter /></a>}
-          {props.job.company.instagram && <a href={props.job.company.instagram}><Instagram /></a>}
-        </div>
-      </div>
-      {offers.map((offer: Offer) => <div className="job-listing-item-content">
+const JobListingItem: FC<JobItemProps> = (props: JobItemProps) => {
+  return <>
+    <Row><Col className="company-name"><h2>{props.job.company.name}</h2></Col></Row>
+    {props.job.company.offers.map((offer: Offer, index: number) => <Row className="job-item" key={index}>
+      <Col className="image-column" xs={{ span: 2, order: index % 2 === 0 ? "first" : "last" }}>
+        <img src={props.job.company.logo} alt={props.job.company.name} />
+      </Col>
+      <Col xs={{ span: 10 }}>
         <div className="job-listing-item-content-title">
           <h2><User /> <a href={offer.url}>{offer.title}</a></h2>
           <EditLocation /> {props.job.company.location}
@@ -28,12 +20,11 @@ const JobListingItem = (props: { job: JobOffer }) => {
           {offer.description}
         </div>
         <Button variant="danger" size="sm" href={offer.url}>Apply</Button>
-      </div>)}
-    </Col>
-  </Row>
+      </Col>
+    </Row>)}</>
 }
 
-const JobListing = () => {
+const JobListing: FC = () => {
   const data: JobOffer[] = [
     {
       company: {
@@ -75,8 +66,36 @@ const JobListing = () => {
           }
         ]
       }
+    },
+    {
+      company: {
+        name: "Roche",
+        logo: "https://www.jbcnconf.com/2022/assets/img/sponsors/roche.jpg",
+        linkedin: "https://www.linkedin.com/company/jbcn/",
+        twitter: "https://twitter.com/jbcn",
+        web: "https://jbcn.org/",
+        instagram: "https://www.instagram.com/jbcn/",
+        location: "Barcelona, Spain",
+        offers: [{
+          title: "Senior Software Engineer",
+          description: "We are on a mission to transform grocery ecommerce through cutting-edge technology and looking for problem-solvers with a passion for Clean Code and TDD. Are you a Java Software Engineer looking for a new challenge? Then this role could be for you!",
+          url: "https://www.jbcn.org/careers/"
+        }, {
+          title: "Distinguished Engineer",
+          description: "We are on a mission to transform grocery ecommerce through cutting-edge technology and looking for problem-solvers with a passion for Clean Code and TDD. Are you a Java Software Engineer looking for a new challenge? Then this role could be for you!",
+          url: "https://www.jbcn.org/careers/"
+        }, {
+          title: "Devops Engineer",
+          description: "We are on a mission to transform grocery ecommerce through cutting-edge technology and looking for problem-solvers with a passion for Clean Code and TDD. Are you a Java Software Engineer looking for a new challenge? Then this role could be for you!",
+          url: "https://www.jbcn.org/careers/"
+        }]
+      }
     }
   ]
+
+  useEffect(() => {
+    document.title = "JBCNConf - Job Listing"
+  }, [])
 
   return <StyledContainer fluid>
     <Row><Col>&nbsp;</Col></Row>
@@ -87,8 +106,9 @@ const JobListing = () => {
       <Col xs={{ span: 3, offset: 2 }}>Have a look at some opportunities with our sponsors</Col>
     </Row>
     <Container>
-      {data.map((job, index) => <JobListingItem job={job} key={index} />)}
+      {data.map(job => <JobListingItem job={job} />)}
     </Container>
+    <Row><Col>&nbsp;</Col></Row>
   </StyledContainer>
 }
 export default JobListing
