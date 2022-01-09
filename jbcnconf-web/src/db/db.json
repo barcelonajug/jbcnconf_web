@@ -1,0 +1,948 @@
+{
+  "speakers": [
+    {
+      "name": "Venkat Subramaniam",
+      "description": "Java Champion, Founder of Agile Developer, Inc.",
+      "biography": "Dr. Venkat Subramaniam is an award-winning author, founder of Agile Developer, Inc., creator of agilelearner.com, and an instructional professor at the University of Houston. He has trained and mentored thousands of software developers in the US, Canada, Europe, and Asia, and is a regularly-invited speaker at several international conferences. Venkat helps his clients effectively apply and succeed with sustainable agile practices on their software projects. Venkat is a (co)author of multiple technical books, including the 2007 Jolt Productivity award winning book Practices of an Agile Developer. You can find a list of his books at agiledeveloper.com. You can reach him by email at venkats@agiledeveloper.com or on twitter at @venkat_s.",
+      "enabled": "1",
+      "homepage": "http://agiledeveloper.com",
+      "image": "assets/img/speakers/venkat-subramaniam.jpg",
+      "ref": "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ",
+      "url": "infoSpeaker.html?ref=VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ",
+      "twitter": "@venkat_s"
+    },
+    {
+      "enabled": "1",
+      "name": "Andres Almiray",
+      "description": "Groovy aficionado, Griffon project lead, Java Champion, Hackergarten lead",
+      "biography": "Andres is a Java/Groovy developer and a Java Champion with more than 20 years of experience in software design and development. He has been involved in web and desktop application development since the early days of Java. Andres is a true believer in open source and has participated on popular projects like Groovy, Griffon, and DbUnit, as well as starting his own projects (Json-lib, EZMorph, GraphicsBuilder, JideBuilder). Founding member of the Griffon framework and Hackergarten community event. You can find him on twitter too as @aalmiray. He likes to spend time with his beloved wife, Ixchel, when not hacking around.",
+      "image": "assets/img/speakers/andres-almiray.jpg",
+      "ref": "aalmiray",
+      "url": "infoSpeaker.html?ref=aalmiray",
+      "twitter": "https://twitter.com/aalmiray",
+      "homepage": "http://andresalmiray.com",
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Ixchel Ruiz",
+      "company": "Karakun AG",
+      "description": "Java Champion, Open Source advocate, Groundbreaker Ambassador, Public speaker and mentor",
+      "biography": "Ixchel Ruiz has developed software application & tools since 2000. Her research interests include Java, dynamic languages, client-side technologies and testing. Java Champion, Oracle Developer Champion, hackergarten enthusiast, Open Source advocate, public speaker and mentor.\n",
+      "image": "assets/img/speakers/ixchel-ruiz.jpeg",
+      "ref": "41ceb1cd66f7ae889863eaae4906e011474440cc",
+      "url": "infoSpeaker.html?ref=41ceb1cd66f7ae889863eaae4906e011474440cc",
+      "homepage": "https://ixchelruiz.com",
+      "twitter": "@ixchelruiz",
+      "linkedin": "https://www.linkedin.com/in/ixchelruiz/"
+    },
+    {
+      "enabled": "1",
+      "name": "Michel Schudel",
+      "company": "Rabobank",
+      "description": "Developer at Craftsmen BV, DevOps engineer",
+      "biography": "Michel Schudel has been a passionate Java developer since 1998, building various Java solutions for banks, insurance companies and telecom providers. Since then he has seen the good, the bad and the ugly in Java land. He loves agile development and coding with frameworks like SpringBoot to get up-and-running as fast as possible. Futhermore, he likes to coach junior developers in Core Java. Michel is currently working for Rabobank in the Netherlands.",
+      "image": "assets/img/speakers/michel-schudel.png",
+      "ref": "40afe10a3ea9ec161d15ade201a0101fa8f635f4",
+      "url": "infoSpeaker.html?ref=40afe10a3ea9ec161d15ade201a0101fa8f635f4",
+      "homepage": "https://craftsmen.nl",
+      "twitter": "@MichelSchudel",
+      "linkedin": "https://www.linkedin.com/in/michelschudel"
+    },
+    {
+      "enabled": "1",
+      "name": "Wlodek Krakowski",
+      "company": "Refactoring PL",
+      "description": "Refactoring & Clean Code Trainer and Speaker",
+      "biography": "Włodek Krakowski works as independent technical trainer. Also a developer if the time allows. His main interest is taking care of delivering valued software from different perspectives. \n\nThese are how people take care of quality of code, how people work together towards providing business value, how people help to grow each other and how people are managed and how development processes are set up. \n\nCurrently he delivers technical / refactoring trainings at www.refactoring.pl.",
+      "image": "assets/img/speakers/wlodek.jpg",
+      "ref": "34e64a4d88094a0c4231d49cc0305d61d7b854ee",
+      "url": "infoSpeaker.html?ref=34e64a4d88094a0c4231d49cc0305d61d7b854ee",
+      "homepage": "https://www.refactoring.pl",
+      "twitter": "@wlodekkr",
+      "linkedin": "https://www.linkedin.com/in/wlodek-krakowski/"
+    },
+    {
+      "enabled": "1",
+      "name": "Victor Rentea",
+      "company": "IBM",
+      "description": "Java Champion, Software Craftsman, Trainer, Speaker, Lead Architect at IBM, Founder of BucharestSCC",
+      "biography": "Victor Rentea is Java Champion and one of the top Independent Trainers in Romania, having trained by now 1500+ developers in 30+ companies. He is Lead Architect at IBM, where he practices Pair Programming, Clean Code and Refactoring every day. For the community, he organized the largest 3 Bucharest Java User Group meetups in history and founded the Bucharest Software Craftsmanship Community.\n\nAs a speaker, Victor is now regularly invited at the top international conferences: his live-coding sessions are insane, lightning-fast but well crafted, full of enthusiasm, deep insights and take-away tips. To learn more about/from him, follow his daily thoughts on LinkedIn, Facebook or Twitter, or check out http://victorrentea.ro.",
+      "image": "assets/img/speakers/victor-rentea.jpg",
+      "ref": "d27efdbbf9293c1d2cbcb35559c2558a0707a484",
+      "url": "infoSpeaker.html?ref=d27efdbbf9293c1d2cbcb35559c2558a0707a484",
+      "homepage": "https://victorrentea.ro",
+      "twitter": "@victorrentea",
+      "linkedin": "https://www.linkedin.com/in/victor-rentea-trainer/"
+    },
+    {
+      "enabled": "1",
+      "name": "Gunnar Morling",
+      "company": "Red Hat",
+      "description": "Lead of Debezium, Spec lead of Bean Validation 2.0, Java Champion",
+      "biography": "Gunnar Morling is a software engineer and open-source enthusiast by heart. He is leading the Debezium project, a tool for change data capture (CDC). He is a Java Champion, the spec lead for Bean Validation 2.0 (JSR 380) and has founded multiple open source projects such as Deptective and MapStruct. Prior to joining Red Hat, Gunnar worked on a wide range of Java EE projects in the logistics and retail industries. He's based in Hamburg, Germany.",
+      "image": "assets/img/speakers/gunnar-morling.jpeg",
+      "ref": "8c386f2e1f0875844aab547ee40fa1772173d59e",
+      "url": "infoSpeaker.html?ref=8c386f2e1f0875844aab547ee40fa1772173d59e",
+      "homepage": "https://in.relation.to/gunnar-morling/",
+      "twitter": "@gunnarmorling",
+      "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Brian Vermeer",
+      "company": "Snyk",
+      "description": "Developer Advocate, FP and Cybersecurity passionate, Oracle Groundbreaker, Utrecht JUG & MyDevSecOps co-lead",
+      "biography": "Developer Advocate for Snyk and Software Engineer with over 10 years of hands-on experience in creating and maintaining software. He is passionate about Java, (Pure) Functional Programming and Cybersecurity. Brian is an Oracle Groundbreaker Ambassador, Utrecht JUG Co-lead, Virtual JUG organizer and Co-lead at MyDevSecOps. He is a regular international speaker on mostly Java-related conferences like JavaOne, Oracle Code One, Devoxx BE, Devoxx UK, Jfokus, JavaZone and many more. Besides all that Brian is a military reserve for the Royal Netherlands Air Force and a Taekwondo Master / Teacher.",
+      "image": "assets/img/speakers/brian-vermeer.png",
+      "ref": "a4529dc3081fc5242a51aecadc114b5ff5aa1520",
+      "url": "infoSpeaker.html?ref=a4529dc3081fc5242a51aecadc114b5ff5aa1520",
+      "homepage": "",
+      "twitter": "@BrianVerm",
+      "linkedin": "https://linkedin.com/in/brianvermeer"
+    },
+    {
+      "enabled": "1",
+      "name": "Vaughn Vernon",
+      "company": "kalele",
+      "description": "Consultant and Trainer at Kalele, author of Domain-Driven Design Distilled, vlingo/platform Founder",
+      "biography": "Vaughn Vernon is a software developer and architect with more than 35 years of experience in a broad range of business domains. Vaughn is a leading expert in Domain-Driven Design, champion of simplicity and reactive systems, and the founder of the open source, DDD-friendly, reactive, vlingo/PLATFORM. He consults and teaches around Domain-Driven Design and reactive software development, helping teams and organizations realize the potential of business driven and reactive systems as they transition from technology driven legacy web implementation approaches. As he does so, he puts strong emphasis on embracing simplicity whenever possible. Vaughn is the author of three books: Implementing Domain-Driven Design, Reactive Messaging Patterns with the Actor Model, and Domain-Driven Design Distilled, all published by Addison-Wesley.",
+      "image": "assets/img/speakers/vaughn-vernon.jpg",
+      "ref": "c9f19a5a2dbbfed36664ef31c4ee86c0dfbbe388",
+      "url": "infoSpeaker.html?ref=c9f19a5a2dbbfed36664ef31c4ee86c0dfbbe388",
+      "homepage": "https://kalele.io/",
+      "twitter": "https://twitter.com/VaughnVernon",
+      "linkedin": "https://www.linkedin.com/in/vaughnvernon/"
+    },
+    {
+      "enabled": "1",
+      "name": "Ben Evans",
+      "company": "New Relic",
+      "description": "Technologist, Java Champion, Java/JVM track lead at InfoQ, Bestselling tech author, Speaker",
+      "biography": "Ben Evans is a Principal Engineer and Architect for JVM technologies at New Relic. Prior to joining New Relic, Ben co-founded jClarity (acquired by Microsoft) and was Chief Architect (Listed Derivatives) at Deutsche Bank. Ben is the author of 5 books - \"The Well-Grounded Java Developer\", \"Java: The Legend\", \"Optimizing Java\" and the recent editions of \"Java in a Nutshell\". He is the track lead for Java / JVM at infoq.com, writes regularly for industry publications and is a frequent speaker at technical conferences worldwide. Ben has been active in Free and Open Source Software for over 20 years, co-founded the AdoptOpenJDK initiative (with Martijn Verburg), and served on the JCP Executive Committee for 6 years.",
+      "image": "assets/img/speakers/ben-evans.jpg",
+      "ref": "43465d1832e6ad88035b44bfc924e958aca86aa9",
+      "url": "infoSpeaker.html?ref=43465d1832e6ad88035b44bfc924e958aca86aa9",
+      "homepage": "",
+      "twitter": "",
+      "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Alex Soto",
+      "company": "RedHat",
+      "description": "Java Champion, Speaker, Teacher, CoAuthor of Testing Java Microservices",
+      "biography": "Alex is a Director of Developer Experience at Red Hat. He is passionate about Java world, software automation and he believes in the open source software model.\n\nAlex is the creator of NoSQLUnit project, member of JSR374 (Java API for JSON Processing) Expert Group, the co-author of Testing Java Microservices book for Manning and contributor of several open source projects. A Java Champion since 2017, international speaker and teacher at Salle URL University, he has talked about new testing techniques for microservices and continuous delivery in the 21st century.",
+      "image": "assets/img/speakers/alex-soto.jpg",
+      "ref": "1cf43210c8515585e52e4d2f6f2e5e0f582049d8",
+      "url": "infoSpeaker.html?ref=1cf43210c8515585e52e4d2f6f2e5e0f582049d8",
+      "homepage": "http://www.lordofthejars.com/",
+      "twitter": "@alexsotob",
+      "linkedin": "https://www.linkedin.com/in/asotobu/"
+    },
+    {
+      "enabled": "1",
+      "name": "Grace Jansen",
+      "company": "IBM",
+      "description": "Developer Advocate at IBM, Biologist converted to Tech, TechWomen100 winner",
+      "biography": "Grace is a developer advocate at IBM, working with Open Liberty and Reactive Platform. She has now been with IBM for two years, after graduating from Exeter University with a Degree in Biology. Moving to software engineering has been a challenging step for Grace, but she enjoys bringing a varied perspective to her projects and using her knowledge of biological systems to simplify complex software patterns and architectures. As a developer advocate, Grace builds POC’s, demos and sample applications, and writes guides and tutorials to help guide users through technologies and products. She is a regular presenter at international technology conferences and has recently authored a book on reactive systems. Grace also has a keen passion for encouraging more women into STEM and especially Technology careers.",
+      "image": "assets/img/speakers/grace-jensen.jpg",
+      "ref": "b21e540e924111f0e9d271ed82350fa020b9972e",
+      "url": "infoSpeaker.html?ref=b21e540e924111f0e9d271ed82350fa020b9972e",
+      "homepage": "",
+      "twitter": "@gracejansen27",
+      "linkedin": "https://www.linkedin.com/in/grace-jansen/"
+    },
+    {
+      "enabled": "1",
+      "name": "Emily Jiang",
+      "company": "IBM",
+      "description": "Java Champion, MicroProfile guru, passionate about Java +Jakarta EE",
+      "biography": "Emily Jiang is a Java Champion. She is Liberty Microservices Architect and Advocate, STSM in IBM, based at Hursley Lab in the UK. Emily is a senior MicroProfile lead and has been working on MicroProfile since 2016 and leads the specifications of MicroProfile Config, Fault Tolerance and Service Mesh. She is CDI Expert Group member.\n\nShe has worked on the WebSphere Application Server since 2006 and is heavily involved in Java EE and MicroProfile implementation in Liberty releases.\n\nShe regularly speaks at conferences, such as Code One, DevNexus, JAX London, Voxxed, Devoxx US, Devoxx Belgium, Devoxx UK, Devoxx France, EclipseCon, etc. Follow her on Twitter @emilyfhjiang and/or connect with her on LinkedIn (https://www.linkedin.com/in/emily-jiang-60803812/).",
+      "image": "assets/img/speakers/emily-jiang.png",
+      "ref": "287733a35b40f9c6050e1cfda90e39e611323e91",
+      "url": "infoSpeaker.html?ref=287733a35b40f9c6050e1cfda90e39e611323e91",
+      "homepage": "",
+      "twitter": "@emilyfhjiang",
+      "linkedin": "https://www.linkedin.com/in/emily-jiang-60803812/"
+    },
+    {
+      "enabled": "1",
+      "name": "Alberto Salazar",
+      "company": "Advance Latam",
+      "description": "Java Champion, Oracle Groundbreaker, JUG Leader, Auth0Ambassador, JCP, @advancelatam, @ecuadorjug",
+      "biography": "Alberto Salazar is an entrepreneur, passionate Consultant, Java Champion, Oracle Groundbreaker Ambassador, JUG Leader, Auth0 Ambassador, founder of the Ecuador Java User Group, Java Community Process Associate Member and Java evangelist/trainer; active in twitter at @betoSalazar. He is the co-author of the book 'Software Architecture with Spring 5.0'. Alberto has been working for 2 decades creating large scalable and high transaction load systems from military software to banking solutions. He is also a frequent speaker at Java conferences such as Oracle Code One, JBCNConf, Voxxed Days, Oracle Code, Red Hat Summit, JavaOne, Oracle Developer Tour Latam, OTN Tours, and local JUG meetings.\n",
+      "image": "assets/img/speakers/alberto-salazar.jpg",
+      "ref": "4f72f63b37fb9bb3781b7e7b1e3246b1364c02a2",
+      "url": "infoSpeaker.html?ref=4f72f63b37fb9bb3781b7e7b1e3246b1364c02a2",
+      "homepage": "https://lasalazarr.github.io/blog/",
+      "twitter": "@betoSalazar",
+      "linkedin": "https://www.linkedin.com/in/alberto-salazar-15334154/"
+    },
+    {
+      "enabled": "1",
+      "name": "Grzegorz Piwowarek",
+      "company": "Hazelcast",
+      "description": "Senior Software Engineera at Hazelcast, JDD_Krakow committee member",
+      "biography": "Grzegorz Piwowarek is a senior software engineer at Hazelcast, trainer, blogger at 4comprehension.com, and OSS contributor.\n\nThere are rumors that he exists only at compile-time.",
+      "image": "assets/img/speakers/grzegorz-piwowarek.jpg",
+      "ref": "dcf4d5f83bc2dab51fb90922055352668da14a18",
+      "url": "infoSpeaker.html?ref=dcf4d5f83bc2dab51fb90922055352668da14a18",
+      "homepage": "http://4comprehension.com/",
+      "twitter": "@pivovarit",
+      "linkedin": "https://www.linkedin.com/in/gpiwowarek/"
+    },
+    {
+      "enabled": "1",
+      "name": "Kai Waehner",
+      "company": "Confluent",
+      "description": "Technology Evangelist with focus on Event Processing, Big Data, Machine Learning and Blockchain",
+      "biography": "Kai Waehner works as Technology Evangelist at Confluent. Kai’s main area of expertise lies within the fields of Big Data Analytics, Machine Learning / Deep Learning, Cloud / Hybrid Architectures, Messaging, Integration, Microservices, Stream Processing, Internet of Things and Blockchain. He is regular speaker at international conferences such as Kafka Summit, O’Reilly Software Architecture or ApacheCon, writes articles for professional journals, and shares his experiences with new technologies on his blog (www.kai-waehner.de/blog). Contact and references: contact@kai-waehner.de / @KaiWaehner / www.kai-waehner.de / LinkedIn (https://www.linkedin.com/in/megachucky/).",
+      "image": "assets/img/speakers/kai-waehner.jpg",
+      "ref": "4933ebef38f82b62da601eb07e8362bb389cc560",
+      "url": "infoSpeaker.html?ref=4933ebef38f82b62da601eb07e8362bb389cc560",
+      "homepage": "https://www.kai-waehner.de ",
+      "twitter": "@KaiWaehner",
+      "linkedin": "https://www.linkedin.com/in/megachucky/ "
+    },
+    {
+      "enabled": "1",
+      "name": "Uberto Barbini",
+      "company": "Indipendent consultant",
+      "description": "Passionate Polyglot Programmer Technical leader, Hands-on Architect",
+      "biography": "Uberto is a polyglot programmer and hands-on software architect with more than 20 years of experience designing and building successful software products in many industries.\n\nHe is very passionate and opinionated about how to deliver value to the business not only once but at a regular pace.\n\nHe is particularly interested in Functional Programming and Distributed Computing since they are both critical to modern software challenges.\n\nWhen not coding, Uberto loves public speaking, writing and teaching programming. He's currently writing a book about Pragmatic Functional Kotlin.\n\nYou can read his blog here: https://medium.com/@ramtop\n\n\n",
+      "image": "assets/img/speakers/uberto-barbini.jpg",
+      "ref": "30ad77f3c637602914465cad22c7445a992104cd",
+      "url": "infoSpeaker.html?ref=30ad77f3c637602914465cad22c7445a992104cd",
+      "homepage": "https://medium.com/@ramtop",
+      "twitter": "@ramtop",
+      "linkedin": "https://www.linkedin.com/in/uberto/"
+    },
+    {
+      "enabled": "1",
+      "name": "Mercedes Wyss",
+      "company": "Produactivity",
+      "description": "CTO at Produactivity, Oracle Groundbreaker, Auth0 Ambassador, JDuchessGT & 502Devs Lead",
+      "biography": "Mercedes Wyss is a software engineer with more than eight years of experience in the backend, frontend and Android development using Python, Java and Kotlin. Currently, she is a CTO at Produactivity, a startup based in Guatemala. \n\nShe was previously organizing meetings in Guatemala Java Users Group from 2012 to 2016. Since 2016 she is focusing on increasing women’s participation in STEAM by running a JDuchess Chapter in Guatemala and is the leader of a Google community (Devs+502). \n\nShe is an Oracle Groundbreaker Ambassador and an Auth0 Ambassador, she also has a Duke’s Choice Award in Educational Outreach.",
+      "image": "assets/img/speakers/mercedes-wyss.jpg",
+      "ref": "636abf491a53384c8f8187db2bb85e81e29e0982",
+      "url": "infoSpeaker.html?ref=636abf491a53384c8f8187db2bb85e81e29e0982",
+      "homepage": "https://aknowledgejourney.com/",
+      "twitter": "@itrjwyss",
+      "linkedin": "https://www.linkedin.com/in/itrjwyss/"
+    },
+    {
+      "enabled": "1",
+      "name": "Ana Maria Mihalceanu",
+      "company": "IBM",
+      "description": "IBM Certified Application Developer, co-founder of Bucharest Software Craftsmanship Community",
+      "biography": "Ana-Maria Mihalceanu is a custom application development enthusiast, co-founder of Bucharest Software Craftsmanship Community and a constant adopter of challenging technical scenarios. Some of her older experiments are available on Dzone. In 2016, as tech passionate of cloud application development she achieved IBM Certified Application Developer - Cloud Platform v1. Since then, she has enriched her cloud expertise by learning and certifying with other offerings (Salesforce, OpenShift) in order to attain a better understanding on how to integrate different cloud applications and services. Other passions? The knowledge hunt through reading and improving her fashion sense through shopping.",
+      "image": "assets/img/speakers/ana-maria-mihalceanu.jpg",
+      "ref": "c93a48ea7c1d8a91f60be490b32b9357f77d8212",
+      "url": "infoSpeaker.html?ref=c93a48ea7c1d8a91f60be490b32b9357f77d8212",
+      "homepage": "",
+      "twitter": "@ammbra1508",
+      "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Mauricio Salatino",
+      "company": "Camunda/LearnK8s",
+      "description": "Principal Software Engineer at Camunda",
+      "biography": "Mauricio is a Principal Software Engineer at Camunda (http://www.camunda.com ) and a LearnK8s (http://learnk8s.io ) Instructor. Mauricio has been working with Kubernetes for the last 4 years, training teams and developing cloud-native applications. In his journey, he has participated in several open-source projects including Zeebe, Jhipster, Spring Cloud and Jenkins X. Previously, Mauricio worked at Red Hat/JBoss in the Business Automation Engineering department. Mauricio is currently involved with the CD Foundation (http://cd.foundation), the Jenkins X project (as member of the bootstrap steering committee) as well with the CNCF Serverless Working Group helping the Workflow initiative to move forward. ",
+      "image": "assets/img/speakers/mauricio-salatino.png",
+      "ref": "4b26a098aafaf6bc3d533389b61d3ef5ab01f5a3",
+      "url": "infoSpeaker.html?ref=4b26a098aafaf6bc3d533389b61d3ef5ab01f5a3",
+      "homepage": "http://salaboy.com",
+      "twitter": "@salaboy",
+      "linkedin": "https://www.linkedin.com/in/salaboy/ "
+    },
+    {
+      "enabled": "1",
+      "name": "Paolo Patierno",
+      "company": "Red Hat",
+      "description": "Principal Software Engineer working for Red Hat on the messaging and IoT team",
+      "biography": "Paolo is a Principal Software Engineer working for Red Hat on the messaging and IoT team. He is one of the maintainers of Strimzi, a CNCF sandbox project for running Apache Kafka on Kubernetes using operators. In his previous role, he worked on different integration projects about AMQP with Apache Kafka and Spark and on the EnMasse messaging-as-a-service project about the integration with MQTT. He is also a maintainer for different IoT related components in Eclipse Vert.x and Eclipse Paho projects. Finally, he has spoken at numerous national and international conferences about Kafka, Strimzi, and IoT.",
+      "image": "assets/img/speakers/paolo-patierno.jpeg",
+      "ref": "e274414e5eaa7d3cb0705bd1488291ccf5ccdec5",
+      "url": "infoSpeaker.html?ref=e274414e5eaa7d3cb0705bd1488291ccf5ccdec5",
+      "homepage": "",
+      "twitter": "@ppatierno",
+      "linkedin": "https://www.linkedin.com/in/paolopatierno/"
+    },
+    {
+      "enabled": "1",
+      "name": "Simon Ritter",
+      "company": "Azul Systems",
+      "description": "Deputy CTO of Azul Systems, Java Rockstar and Java Champion",
+      "biography": "Simon Ritter is the Deputy CTO of Azul Systems.  Simon has been in the IT business since 1984 and holds a Bachelor of Science degree in Physics from Brunel University in the U.K. Simon joined Sun Microsystems in 1996 and started working with Java technology from JDK 1.0; he has spent time working in both Java development and consultancy.  Having moved to Oracle as part of the Sun acquisition, he managed the Java Evangelism team for the core Java platform.  Now at Azul, he continues to help people understand Java as well as Azul’s JVM technologies and products.  Simon has twice been awarded Java Rockstar status at JavaOne and is a Java Champion.  He currently represents Azul on the JCP Executive Committee and on the Java SE Expert Group.",
+      "image": "assets/img/speakers/simon-ritter.png",
+      "ref": "a1eda7b31c4fa43f4097d55e9687a876dc194f4b",
+      "url": "infoSpeaker.html?ref=a1eda7b31c4fa43f4097d55e9687a876dc194f4b",
+      "homepage": "",
+      "twitter": "speakjava",
+      "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Nicolai Parlog",
+      "company": "CodeFX",
+      "description": "Java developer, blogger, author, trainer, organizer of AccentoDev",
+      "biography": "Nicolai is a thirty-year-old boy, as the narrator would put it (if he's generous), who has found his passion in software development (mostly Java) and who codes for a living as well as [for fun][code]. He also [blogs], [writes], [newsletters], [speaks], [chats], [records], [streams], [trains, and consults][hire] about it, and organizes a [conference] - not all at the same time, but in prolific fits and starts with high throughput and long latencies. If you want to take the wheel, [hire] him for in-house trainings on new Java features, migrations to Java 9+, and JUnit 5. His home is at [codefx.org].\n\n[codefx.org]: https://codefx.org\n[blogs]: http://blog.codefx.org\n[writes]: https://books.codefx.org\n[chats]: https://chat.codefx.org\n[hire]: https://hire.codefx.org\n[code]: https://code.codefx.org\n[streams]: https://streams.codefx.org\n[speaks]: https://talks.codefx.org\n[records]: https://vids.codefx.org\n[newsletters]: http://weekly.codefx.org\n[conference]: https://accento.dev\n",
+      "image": "assets/img/speakers/nicolai-parlog.jpg",
+      "ref": "4c4752c0d767ef218ef980dfd1ab90ac6c1571d9",
+      "url": "infoSpeaker.html?ref=4c4752c0d767ef218ef980dfd1ab90ac6c1571d9",
+      "homepage": "https://codefx.org",
+      "twitter": "@nipafx",
+      "linkedin": ""
+    }
+  ],
+  "talks": [
+    {
+      "id": "5e1f8b2cb84b1a0cd6b9fabb",
+      "title": "Unit Testing like a Pro",
+      "abstract": "\"I think everyone is born creative, but it can be suppressed by fear\" - Evan Spiegel\nFocusing on the creative work without being afraid of breaking the existing behavior can make software development very addictive! Good automated tests can buy you that!\n\nHowever, unmaintainable tests will slow you down and cause you painful headaches, compilation errors and random failures. To avoid that, your unit tests should be significant, expressive, few, and blazing fast - writing good tests thus becomes the toughest challenge for any developer, no matter how experienced. For every test that you write you have to balance risk with maintenance costs, while also looking out for test design smells that may point out needed refactorings, sometimes unexpected or risky. Testing can give you one of the most valuable feedback about your micro-design you will ever receive. You only have to listen. Because in the end, a good, clean design is what matters, not the coverage%.\n\nGrab a strong coffee and join this extract from Victor’s Unit Testing #training, to learn about: testing priorities,  buggy tests, mutation testing, fixture-based test breakdown, \"purifying\" your logic, partial mock smell and key tips for testing Legacy Code. All via an entertaining, dynamic session you will never forget.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Unit Testing",
+        "Design",
+        "Clean Code"
+      ],
+      "level": "middle",
+      "speakers": [
+        "d27efdbbf9293c1d2cbcb35559c2558a0707a484"
+      ]
+    },
+    {
+      "id": "5e1f8b4db84b1a0cd6b9fabc",
+      "title": "Battle of the Microservice Frameworks - Micronaut versus Quarkus edition!",
+      "abstract": "Micronaut and Quarkus are two cool emerging Java backend frameworks that aim to solve some problems that exist in current frameworks, like faster startup, low memory footprint, and support for ahead-of-time compilation using GraalVM. In this session, we'll square off both frameworks against each other.\n\nHow do they compare, what are the stronger and weaker points of both frameworks?\n\nWe'll compare the following features:\n\nInitializing your project\nBuilding your first restcontroller / programming model\nStartup time\nDatabase support\nIntegration test support\nBuilding native images\nMemory usage and JAR sizes\nEase of cloud deployment\nIn the end, we might have a clear winner! ... or will we?\n\n",
+      "type": "talk",
+      "tags": [
+        "java",
+        " quarkus",
+        " micronaut",
+        " comparison"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "40afe10a3ea9ec161d15ade201a0101fa8f635f4"
+      ]
+    },
+    {
+      "id": "5e1f8bf1b84b1a0cd6b9fabd",
+      "title": "Change Data Streaming For Microservices With Apache Kafka & Debezium",
+      "abstract": "Debezium (noun | de·be·zi·um | /dɪ:ˈbɪ:ziːəm/) - Secret Sauce for Change Data Capture\n\nApache Kafka is a highly popular option for asynchronous event propagation between microservices. Things get challenging though when adding a service’s database to the picture: How can you avoid inconsistencies between Kafka and the database?\n\nEnter change data capture (CDC) and Debezium. By capturing changes from the log files of the database, Debezium gives you both reliable and consistent inter-service messaging via Kafka and instant read-your-own-write semantics for services themselves.\n\nIn this session you’ll see how to leverage CDC for reliable microservices integration, e.g. using the outbox pattern, as well as many other CDC applications, such as maintaining audit logs, automatically keeping your full-text search index in sync, and driving streaming queries. We’ll also discuss practical matters, e.g. HA set-ups, best practices for running Debezium in production on and off Kubernetes, and the many use cases enabled by Kafka Connect's single message transformations.",
+      "type": "talk",
+      "tags": [
+        "Data Streaming",
+        " Apache Kafka",
+        " Change Data Capture"
+      ],
+      "level": "middle",
+      "speakers": [
+        "8c386f2e1f0875844aab547ee40fa1772173d59e"
+      ]
+    },
+    {
+      "id": "5e1f914eb84b1a0cd6b9fabe",
+      "title": "Reacting to an Event-Driven World",
+      "abstract": "We now live in a world with data at its heart. The amount of data being produced every day is growing exponentially and a large amount of this data is in the form of events. Whether it be updates from sensors, clicks on a website or even tweets, applications are bombarded with a never-ending stream of new events. So, how can we architect our applications to be more reactive and resilient to these fluctuating loads and better manage our thirst for data? In this session explore how Kafka and Reactive application architecture can be combined in applications to better handle our modern data needs.\n",
+      "type": "talk",
+      "tags": [
+        "Kafka",
+        " Reactive Architecture",
+        " Vert.x"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "b21e540e924111f0e9d271ed82350fa020b9972e"
+      ]
+    },
+    {
+      "id": "5e1f91dcb84b1a0cd6b9fabf",
+      "title": "Reactive Programming for Real Use Cases",
+      "abstract": "Probably you are curious about this thing called Reactive Programming. Reactive Programming is another programming paradigm that in most of the cases, we are not used to coding in our day-to-day work, as the imperative way is the common one. This makes learning and thinking in a reactive way harder. One of the main problems I have found when learning and reading material about Reactive Programming is that they never tackle enterprise use cases. In this session, we are going to skip the cute ideas that are normally part of a reactive programming talk and focus on how to use it in the real world. Don't be the last developer to board this train and move your reactive skills from novice to expert.\n",
+      "type": "talk",
+      "tags": [
+        "java",
+        " reactive"
+      ],
+      "level": "middle",
+      "speakers": [
+        "1cf43210c8515585e52e4d2f6f2e5e0f582049d8"
+      ]
+    },
+    {
+      "id": "5e28cb18b67d590cd5b81271",
+      "title": "Refactoring into State Design Pattern",
+      "abstract": "State Design pattern seems to be well know in theory of software development. But how often is it used? When we realize it is needed, we might be already drowning within sets of nested if-else statements or switches… On the other side usually we do not know that we are going to need it at some point and want to avoid over-engineering at the beginning...\n\nDuring the workshop I will take you into a journey of refactoring from sets of if-else statements into State Design Pattern. We will be supported by Pyramid of Refactoring concept. We are going to meet a few other design patterns on the way as well, like Null Object and probably more. \n\nDo not forget to bring your laptop with IntelliJ installed and Java 8+. \n",
+      "type": "workshop",
+      "tags": [
+        "refactoring",
+        " design patterns",
+        " java"
+      ],
+      "level": "middle",
+      "speakers": [
+        "34e64a4d88094a0c4231d49cc0305d61d7b854ee"
+      ]
+    },
+    {
+      "id": "5e28cb6bb67d590cd5b81272",
+      "title": "What Every Java Developer Needs To Know About Java Flight Recorder",
+      "abstract": "Java Flight Recorder (JFR) is a mature and stable profiling and monitoring technology. Its long history dates back to BEA JRockit, and it was integrated with HotSpot over 10 years ago! However, for most of that time, it was a proprietary Oracle technology and so many developers are unfamiliar with it.\n\nIn this workshop, we will explore how to start up Flight Recorder and use Java Mission Control to look at the files it creates. We will see, hands-on, how many of the tasks that developers typically use JProfiler or YourKit for can be replaced with the open-source JFR / JMC combo instead.\n\nIn the second half, we will dig deeper into Flight Recorder and explore its programmatic APIs, and how to use JFR without needing a GUI - just by writing simple Java code. You'll have the opportunity to read and extract data from your own JFR files. To conclude with, we'll meet the brand new Java 14 features that extend Flight Recorder even further, and see the power that this unleashes for the next generation of monitoring and observing JVM apps.",
+      "type": "workshop",
+      "tags": [
+        "Observability",
+        " Java 14",
+        " Monitoring"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "43465d1832e6ad88035b44bfc924e958aca86aa9"
+      ]
+    },
+    {
+      "id": "5e28cd68b67d590cd5b81275",
+      "title": "The HOW series: Testing and documenting  REST ",
+      "abstract": "Every developer has a set of favorite tools and there are several reason to why. Join me for the list of key features, code examples, a little bit of theory and plenty of  “lessons learned“ on some of my favorite tools : RestAssured, WireMock, Spock, OpenAPI, Swagger and TestContainers.",
+      "type": "talk",
+      "tags": [
+        "REST",
+        " REST API",
+        " Development Tools",
+        " Documentation"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "41ceb1cd66f7ae889863eaae4906e011474440cc"
+      ]
+    },
+    {
+      "id": "5e28cde8b67d590cd5b81276",
+      "title": "Event-Driven REST APIs",
+      "abstract": "When should you use request-response and when should you use messaging instead? What if you could use REST for everything, including Event-Driven Architectures?\n\nLearn how to design REST APIs that support both conventional human user interfaces and services, and those that support Event-Driven, and more generally, Message-Driven Architectures. As a bonus, expect to pick up tips on Reactive programming. This session is about REST API design for request-response and event-driven microservices with Domain Events using Event Sourcing and CQRS.",
+      "type": "talk",
+      "tags": [
+        "REST",
+        "Event-Driven",
+        "Reactive"
+      ],
+      "level": "middle",
+      "speakers": [
+        "c9f19a5a2dbbfed36664ef31c4ee86c0dfbbe388"
+      ]
+    },
+    {
+      "id": "5e3b3b99a8bd710c4fe7295b",
+      "title": "10 Java Security Practices They Didn't Teach You In School",
+      "abstract": "Software security breaches are rising to an alarming rate. As a Java developer, you should be aware of how important security in your applications is. In this session, we will provide you with the top 10 security best practices for Java developers. Reviewing the OWASP top 10 and how this augments Java development for better security. By showing the actual problems and how you can protect yourself during your daily Java development, you will have a better understanding of why and how security focus is essential.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        " Security",
+        " Best practices "
+      ],
+      "level": "middle",
+      "speakers": [
+        "a4529dc3081fc5242a51aecadc114b5ff5aa1520"
+      ]
+    },
+    {
+      "id": "5e3b3c62a8bd710c4fe7295c",
+      "title": "Evolve to Reactive; A performance history",
+      "abstract": "In this session, attendees will learn about a real-world evolution to a reactive way; we will show how we migrate a huge EAR Core Banking Application  covering tips and tricks of an experience of an evolution the Application and how we evolve to a modern reactive modules; tips, tricks, pros, cons and the reasons for being involved on move forward and present sample code and explain the security concerns on this evolution. We will be using snippets code based on JAVA, JWT, JWS, Auth0, Spring Boot, Reactor and Webflux deployed on Oracle Cloud.\n",
+      "type": "talk",
+      "tags": [
+        "reactive",
+        " java",
+        " performance"
+      ],
+      "level": "middle",
+      "speakers": [
+        "4f72f63b37fb9bb3781b7e7b1e3246b1364c02a2"
+      ]
+    },
+    {
+      "id": "5e3b3ccda8bd710c4fe7295d",
+      "title": "The journey from Imperative to Reactive",
+      "abstract": "You have been developing imperative microservices for a while. You then tried hard to make them to be asynchronous. Lately, you've heard about people talking about reactive. You are now wondering why you should care about reactive. You'd like to find out more about reactive: Why should I care? What I can do to make my microservice reactive, non-blocking? Should I consider using Reactive Streams? Come to this session to find out what reactive means. It explains reactive programming and then Reactive eXtensions, Reactive Streams, followed by a demo of using MicroProfile Reactive Streams Operators, and MicroProfile Reactive Messaging to create a truly reactive microservice and integrate with Kafka.",
+      "type": "talk",
+      "tags": [
+        "Cloud Native",
+        " Microservices",
+        " MicroProfile",
+        " reactive",
+        " imperative"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "287733a35b40f9c6050e1cfda90e39e611323e91"
+      ]
+    },
+    {
+      "id": "5e56f7be93dc4008d5c9d1c0",
+      "title": "Real Time Streaming Analytics with 100000 Connected Cars using MQTT, Kafka, Kubernetes and TensorFlow",
+      "abstract": "This session discusses uses cases leveraging Apache Kafka open source ecosystem as streaming platform to process IoT data. See architectural alternatives and a live demo of how devices connect to Kafka via MQTT. Learn how to analyze the IoT data either natively on Kafka with Kafka Streams / KSQL, or on an external big data cluster like Spark, Flink or Elastic leveraging Kafka Connect, and how to leverage TensorFlow for Machine Learning. A live demo shows how to build a cloud native IoT infrastructure on Kubernetes to connect and process streaming data in real time from 100000 cars to do predictive maintenance at scale in real time.",
+      "type": "talk",
+      "tags": [
+        "kafka",
+        "mqtt",
+        "kubernetes",
+        "IoT"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "4933ebef38f82b62da601eb07e8362bb389cc560"
+      ]
+    },
+    {
+      "id": "5e56f7d793dc4008d5c9d1c1",
+      "title": "Keeping Safe Your Server to Server Communications",
+      "abstract": "The rise of microservices has reached an impressive point of maturity. We have all traveled a very interesting way to learn about new tools, frameworks, design patterns and strategies that have forced us to think out of the box to embrace this architecture. One of the challenges is choosing how our microservices will communicate? choreography or orchestration. Another of the challenges is to reduce the risk between those communication adding a security layer.\n\nWe are facing scenarios such as communications between two microservices in the same trust domain of between two or multiple trust domains. How to ensure that a microservices has access to another? We also can have communications between synchronously or asynchronously microservices, for the first ones the communication is given over HTTP, but the seconds the communication can be given over any kind of messaging system.\n\nIn this talk, we will cover some points to solve those challenges. Starting with the authentication and authorization in server-to-server communications, propagating identity information between microservices and handling communications between different trust domains. Then we will discuss how to secure synchronous communications with certificates, JWTs or over gRPC. Finally, we will talk about messaging systems such as RabbitMQ, Kafka, ActiveMQ for secure asynchronous communications.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        " Microservices",
+        " Microservices Architecture",
+        " Identity",
+        " Authentication",
+        " Authorization",
+        " JWTs",
+        " Communication Complexity",
+        " gRPC",
+        " Event-Driven Microservices",
+        " API Gateway"
+      ],
+      "level": "advanced",
+      "speakers": [
+        "636abf491a53384c8f8187db2bb85e81e29e0982"
+      ]
+    },
+    {
+      "id": "5e56f82493dc4008d5c9d1c2",
+      "title": "Designing Microservices in Functional Style",
+      "abstract": "Event sourcing, CQRS, Microservices, they are all concepts that share a natural affinity with the fundamental idea of functional programming: defining complex behavior through the combination of elementary transformations.\nThe real surprise is how well they work together. Not only we can build a very powerful and scalable application, but it is even simpler to build than the traditional Object-Oriented approach. I will present what we learned from our experience: our problems and how we solved them.\nAt the end of this talk, you will know the basic rules to architect a system using functional programming principles for microservices with CQRS and Event Source without using any framework. We will discuss what are the benefits of this approach and the dangers and difficulties that it is better to avoid.",
+      "type": "talk",
+      "tags": [
+        "Kotlin",
+        " Event Sourcing",
+        " Microservices",
+        " Functional Programming"
+      ],
+      "level": "middle",
+      "speakers": [
+        "30ad77f3c637602914465cad22c7445a992104cd"
+      ]
+    },
+    {
+      "id": "5e56fa4493dc4008d5c9d1c4",
+      "title": "Troubleshooting containerized applications",
+      "abstract": "Your application is living now in a container, yet is its private life a happy one?\n\nFind out that before your users do! If your application is not feeling so well, perhaps dealing with issues should be an inner container/Kubernetes affair while trying not to affect the availability of your software piece.\n\nIn this session will detail some implementation techniques for troubleshooting and debugging containerized applications in order to address some common problems like: permission issues, invalid parameters, volume mount errors, obsolete images, accessing running containers inside pods etc.",
+      "type": "talk",
+      "tags": [
+        "kubernetes",
+        " cloud",
+        " docker",
+        " fixit",
+        " lessonslearned"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "c93a48ea7c1d8a91f60be490b32b9357f77d8212"
+      ]
+    },
+    {
+      "id": "5e56fa5293dc4008d5c9d1c5",
+      "title": "Purely Dysfunctional Data Structures for Java",
+      "abstract": "The design of performant immutable data structures is a challenge that was accepted by Chris Okasaki over 20 years ago. \n\nWe all know and appreciate the benefits and simplicity of immutability, but does it indeed make everything simpler?\n\nIn this talk, we'll challenge the omni-applicability of immutability, explore what the concept of Persistent Data Structures is, how most common implementations look like, and why it makes things way more complicated that one might think.\n\nWe'll see how much blood, sweat, and tears are required to make the experience of working with immutable data structures at least remotely efficient.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        " Functional Programming",
+        " Data Structures"
+      ],
+      "level": "middle",
+      "speakers": [
+        "dcf4d5f83bc2dab51fb90922055352668da14a18"
+      ]
+    },
+    {
+      "id": "5e56f6ef93dc4008d5c9d1be",
+      "title": "Deploying a Kubernetes-native Data Streaming Pipeline with Strimzi and Debezium",
+      "abstract": "In  this workshop, you’ll learn the practical aspects of deploying, operating and interacting data streaming pipeline with Apache Kafka on Kubernetes thanks to Strimzi and Debezium. You will learn: \n* How to manage Apache Kafka clusters, topics, and users on Kubernetes using the Strimzi operators and custom resources (CRDs) \n* How to self-service your Kafka clusters, topics, and users by monitoring specific projects; \n* How to interact with your Kafka cluster from both within and outside the Kubernetes instance, using Apache Camel; \n* How to handle cluster and clients TLS certificates for encryption and authentication. \n* Use of Change Data Capture (CDC) in the context of data streaming\n* Configure Debezium for data ingestion to Apache Kafka\n* Deploy microservices for data streaming based on Kafka Streams and Quarkus",
+      "type": "workshop",
+      "tags": [
+        "Apache Kafka",
+        "Kubernetes",
+        "CDC",
+        "debezium",
+        "strimzi"
+      ],
+      "level": "middle",
+      "speakers": [
+        "e274414e5eaa7d3cb0705bd1488291ccf5ccdec5",
+        "8c386f2e1f0875844aab547ee40fa1772173d59e"
+      ]
+    },
+    {
+      "id": "5e56f74a93dc4008d5c9d1bf",
+      "title": "From (Java) Monoliths to K8s",
+      "abstract": "Migrating your existing architecture from a monolith to microservices is a challenging task. Not only is the technology landscape different and overwhelming, but you also need a solid plan to bring the rest of the team along in the journey. \nHow do you come up with such a plan?\nThis session covers the lessons learned from migrating a monolithic open-source project to microservices using Jenkins X. You’ll learn common patterns, tweaks, and best practices that you can adopt to make the best of tools such as Jenkins X, Helm, Zeebe, and Kubernetes. The talk focuses on real-life examples and shows you how these tools can be used to speed your development practices and train high performing teams.\n",
+      "type": "talk",
+      "tags": [
+        "kubernetes",
+        " cloudnative",
+        " journey",
+        " tools",
+        " challenges",
+        " patterns "
+      ],
+      "level": "advanced",
+      "speakers": [
+        "4b26a098aafaf6bc3d533389b61d3ef5ab01f5a3"
+      ]
+    },
+    {
+      "id": "5e56fa3293dc4008d5c9d1c3",
+      "title": "How to Choose a JDK",
+      "abstract": "Choosing which Java runtime to deploy used to be simple: for most people, it was the de facto default Oracle JDK.  For those with more demanding performance requirements, the options were Zing from Azul or possibly J9 from IBM.\n\nToday, things are very different. The license for the Oracle JDK changed with the release of JDK 11, meaning to use it in production requires a paid Java SE subscription.  To address the needs of Java developers, there are now a number of choices for the Java runtime, all in some way based on the OpenJDK source code.\n\nHow do you decide what distribution is right for your situation?",
+      "type": "talk",
+      "tags": [
+        "OpenJDK",
+        " JDK",
+        " Java"
+      ],
+      "level": "middle",
+      "speakers": [
+        "a1eda7b31c4fa43f4097d55e9687a876dc194f4b"
+      ]
+    },
+    {
+      "id": "5e56fa6693dc4008d5c9d1c6",
+      "title": "Java After Eight",
+      "abstract": "Many projects are still on Java 8 and yet, Java 14 is already out! The small releases after 9 created the illusion of nothing much happening, but nothing could be further from the truth - a lot changes since then that shapes the look of everyday Java code:\n\n* new language features like switch expressions, `var`, and text blocks\n* new APIs like stack walking and the reactive HTTP/2 client\n* additions to existing APIs, like `Stream` and `Optional`\n\nIn this talk, we'll take a simple Java 8 code base, update it to 14, and refactor it to use the new language features and APIs. You'll be surprised how much the code changes!\n",
+      "type": "talk",
+      "tags": [
+        "JavaNext",
+        " Java14"
+      ],
+      "level": "middle",
+      "speakers": [
+        "4c4752c0d767ef218ef980dfd1ab90ac6c1571d9"
+      ]
+    }
+  ],
+  "menu": [
+    {
+      "label": "Home",
+      "href": "/#JBCN"
+    },
+    {
+      "label": "Tickets",
+      "href": "/tickets"
+    },
+    {
+      "label": "Speakers",
+      "href": "/speakers"
+    },
+    {
+      "label": "Talks",
+      "href": "/talks"
+    },
+    {
+      "label": "Sponsors",
+      "href": "/sponsors"
+    },
+    {
+      "label": "Travel",
+      "href": "/travel",
+      "items": [
+        {
+          "label": "To Barcelona",
+          "href": "/travel-to-java-barcelona"
+        },
+        {
+          "label": "Offers",
+          "href": "/offers"
+        }
+      ]
+    },
+    {
+      "label": "Venue",
+      "href": "/java-barcelona-venue"
+    },
+    {
+      "label": "Become a sponsor",
+      "href": "/become-sponsor"
+    },
+    {
+      "label": "Code of conduct",
+      "href": "/coc"
+    },
+    {
+      "label": "Members",
+      "href": "/members"
+    }
+  ],
+  "sponsors": {
+    "top": [
+      {
+        "name": "Red Hat",
+        "href": "https://developers.redhat.com/",
+        "image": {
+          "src": "/assets/img/sponsors/redhat_rgb.png",
+          "alt": "Red Hat"
+        }
+      }
+    ],
+    "premium": [
+      {
+        "name": "Ocado Technology",
+        "href": "https://www.ocadotechnology.com",
+        "image": {
+          "src": "/assets/img/sponsors/ocadotechnology-200px-h.png",
+          "alt": "Ocado Technology"
+        }
+      },
+      {
+        "name": "Adevinta Spain",
+        "href": "https://www.adevinta.es",
+        "image": {
+          "src": "/assets/img/sponsors/adevinta.png",
+          "alt": "Adevinta Spain"
+        }
+      }
+    ],
+    "regular": [
+      {
+        "name": "Capitole Consulting",
+        "href": "https://capitole-consulting.com/about/",
+        "image": {
+          "src": "/assets/img/sponsors/capitole.png",
+          "alt": "Capitole Consulting"
+        }
+      },
+      {
+        "name": "Lifull Connect",
+        "href": "https://www.lifullconnect.com/careers/",
+        "image": {
+          "src": "/assets/img/sponsors/lifull-connect.png",
+          "alt": "Lifull Connect"
+        }
+      },
+      {
+        "name": "Wallapop",
+        "href": "https://jobs.wallapop.com/es/",
+        "image": {
+          "src": "/assets/img/sponsors/wallapop.png",
+          "alt": "Wallapop"
+        }
+      },
+      {
+        "name": "Glovo",
+        "href": "http://www.glovoapp.com/es",
+        "image": {
+          "src": "/assets/img/sponsors/glovo.png",
+          "alt": "Glovo"
+        }
+      },
+      {
+        "name": "Adaptive",
+        "href": "https://www.weareadaptive.com",
+        "image": {
+          "src": "/assets/img/sponsors/adaptive-logo.png",
+          "alt": "Adaptive"
+        }
+      }
+    ],
+    "supporters": [
+      {
+        "name": "Barcelona Java Users Group",
+        "href": "http://www.barcelonajug.org",
+        "image": {
+          "src": "/assets/img/logos/logo_bicolor_blog_barcelonajug.png",
+          "alt": "Barcelona Java Users Group"
+        }
+      },
+      {
+        "name": "Barcelona Activa",
+        "href": "http://www.barcelonactiva.cat/",
+        "image": {
+          "src": "/assets/img/sponsors/barcelona-activa.png",
+          "alt": "Barcelona Activa"
+        }
+      },
+      {
+        "name": "Google Developer Group Barcelona",
+        "href": "https://www.meetup.com/es-ES/GDG-Barcelona/",
+        "image": {
+          "src": "/assets/img/sponsors/gdg_barcelona.png",
+          "alt": "Google Developer Group Barcelona"
+        }
+      },
+      {
+        "name": "Google Developer Group Tarragona",
+        "href": "https://gdgtarragona.blogspot.com/",
+        "image": {
+          "src": "/assets/img/sponsors/gdg_tarragona.png",
+          "alt": "Google Developer Group Tarragona"
+        }
+      },
+      {
+        "name": "Col•legi Oficial d'Enginyeries Tècniques i Grau en Enginyeria Informàtica de Catalunya",
+        "href": "https://www.coetic.cat",
+        "image": {
+          "src": "/assets/img/sponsors/coetic.jpg",
+          "alt": "Col•legi Oficial d'Enginyeries Tècniques i Grau en Enginyeria Informàtica de Catalunya"
+        }
+      }
+    ]
+  },
+  "members": [
+    {
+      "name": "Nacho Cougil",
+      "position": "Java DeveLOVER",
+      "role": "President of Barcelona JUG.",
+      "twitter": "https://twitter.com/icougil",
+      "linkedin": "https://www.linkedin.com/in/ignaciocougil",
+      "bio": "I'm a Software Architect focused in projects developed with Java technologies with experience in team leadership & software project management with strong analytical and design skills.",
+      "image": {
+        "url": "/assets/img/team/nacho.jpg",
+        "alt": "Nacho Cougil, President, Java Lover"
+      }
+    },
+    {
+      "name": "Jonathan Vila",
+      "position": "Senior Java Developer",
+      "role": "Treasurer at Barcelona JUG.",
+      "twitter": "https://twitter.com/vilojona",
+      "linkedin": "https://www.linkedin.com/in/jonathanvila",
+      "bio": "Interested on learning and specially about Java and microservices",
+      "image": {
+        "url": "/assets/img/team/jonathan.jpg",
+        "alt": "Jonathan Vila, Treasurer, Java Lover"
+      }
+    },
+    {
+      "name": "Adela Tort",
+      "position": "Senior Java Developer",
+      "role": "Coordinator at Barcelona JUG.",
+      "twitter": "http://www.twitter.com/AdelaTort",
+      "linkedin": "https://www.linkedin.com/in/adelatort",
+      "bio": "Entusiasta por la tecnología, probando y aprendiendo siempre las últimas novedades. Me gusta intentar estar al día y ser capaz de diseñar y desarrollar aplicaciones aprovechando las últimas tecnologías del mercado.",
+      "image": {
+        "url": "/assets/img/team/adela.jpg",
+        "alt": "Adela Tort, Java Lover"
+      }
+    },
+    {
+      "name": "José Guitart Ruíz",
+      "position": "Java Engineer",
+      "role": "Team Member Barcelona JUG.",
+      "bio": "IT Architect focused on Java/J2EE application design and development in several platforms and frameworks. Direct experience in design and execution of continuous integration processes.",
+      "linkedin": "https://es.linkedin.com/in/joseguitart",
+      "image": {
+        "url": "/assets/img/team/jose.jpg",
+        "alt": "Jose Guitart Java Lover"
+      }
+    },
+    {
+      "name": "Sergio Ferraz",
+      "position": "Software Engineer",
+      "role": "Team Member Barcelona JUG.",
+      "bio": "I am a software developer specialized in Java.",
+      "linkedin": "https://www.linkedin.com/in/sferrazjr/",
+      "twitter": "https://twitter.com/sferrazjr",
+      "image": {
+        "url": "/assets/img/team/sergio-ferraz.jpg",
+        "alt": "Sergio Ferraz"
+      }
+    },
+    {
+      "name": "Abel Salgado",
+      "position": "Software Engineer",
+      "role": "Team Member Barcelona JUG.",
+      "bio": "I am a software developer specialized in Java.",
+      "linkedin": "https://www.linkedin.com/in/abels1",
+      "twitter": "https://twitter.com/abelsromero",
+      "image": {
+        "url": "/assets/img/team/abelsromero.jpg",
+        "alt": "Abel Salgado"
+      }
+    },
+    {
+      "name": "Alejandro Martínez",
+      "position": "Java DeveLOVER",
+      "role": "Team Member Barcelona JUG.",
+      "bio": "I'm a lead developer focused in projects developed with Java technologies with experience in team leadership & software project management with strong analytical and design skills with more than 15 years of experience.",
+      "linkedin": "https://www.linkedin.com/in/alejandrobcn/",
+      "twitter": "https://twitter.com/alex81sp",
+      "image": {
+        "url": "/assets/img/team/alejandro.jpg",
+        "alt": "Alejandro Martinez, Java Lover"
+      }
+    },
+    {
+      "name": "Simone Masoni",
+      "position": "Java Sorcerer's Apprentice",
+      "role": "Team Member Barcelona JUG.",
+      "bio": "I'm the CTO of Molomics, a biotech company focused on development of new drugs through Artificial Intelligence. I've more than 10 years of experience in Java and JVM technologies and a big fan of Agile methodologies.",
+      "linkedin": "https://www.linkedin.com/in/simone-masoni/",
+      "twitter": "https://twitter.com/simone_masoni",
+      "image": {
+        "url": "/assets/img/team/smasoni.jpg",
+        "alt": "Simone Masoni, Java Lover"
+      }
+    },
+    {
+      "name": "Anna Kurman",
+      "position": "Software Sorceress",
+      "role": "Troll",
+      "bio": "bla",
+      "linkedin": "https://www.linkedin.com/in/anna-kurman-98894415/",
+      "twitter": "https://twitter.com/freyliis",
+      "image": {
+        "url": "/assets/img/team/anna-kurman.jpg",
+        "alt": "Anna Kurman"
+      }
+    },
+    {
+      "name": "Anyul Rivas",
+      "position": "Senior Software Engineer",
+      "role": "Volunteer",
+      "twitter": "https://twitter.com/anyulled",
+      "linkedin": "https://www.linkedin.com/in/anyulled",
+      "bio": "Software craftsman, Full stack developer focused on cloud based distributed architectures",
+      "image": {
+        "url": "/assets/img/team/anyul.jpg",
+        "alt": "Anyul Rivas, volunteer"
+      }
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "What is the Java & JVM Barcelona Conference?",
+      "excerpt": "Three days to share knowledge and experiences, meet enthusiasts and geeks and learn about new technologies related to the JVM in English.",
+      "text": "The JBCNConf is the yearly event organised by the non-profit Java Users Group Barcelona between 7th to 9th of September.\nConference Talks will held from Monday 7th to Tuesday 8thand Workshops will run on Wednesday 9th\n\nTopics are related to the Java World and related technologies: #JVM langs (Java, Scala, Clojure, Groovy, Kotlin...) #Functional Programming #Microservices #Docker #Kubernetes #Istio #Mesos #Marathon #JavaFX #DevOps #Agile #cleancode #design #Testing #DDD #TDD #noSQL #Cloud #AWS #GCE #Scalability #Architecture #Cryptocurrencies #BlockChain #Machine learning #AI #CI #CD #Integration #IoT #VR #AR #Mobile #Android #SOA #Actors #Concurrency\n\nCode of conduct:\nOur conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices.\nWe do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organisers.",
+      "image": "assets/img/homepage/what_is_jbcn.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Why Should I Participate?",
+      "excerpt": "This conference is the perfect stage to discover how others are using your favourite VM. There is something interesting for any kind of tech passionate:\nfrom(Java).to(Scala).or(Groovy).in(Open_Source).or(JCP)",
+      "text": "The most admired Java & <strong>JVM</strong> enthusiastic gather from around the world to talk about their insights, innovations and the developments they’ve been working on since the previous year.\nThis is your chance to interact with like-minded Java and JVM enthusiasts and to recharge your batteries in the beautiful Barcelona.\n\nThe full schedule will be released 2-3 weeks before the event. Meanwhile, we invite you to check out the speakers below on the page.",
+      "image": "assets/img/homepage/why_join_jbcn.jpg"
+    },
+    {
+      "id": 3,
+      "title": "What are we celebrating this year?",
+      "excerpt": "This year we dedicate the conference to honor women in computing. Ada Lovelace, Margaret Hamilton and Carol Shawn are just three examples of pioneering women in the world of programming. We want to remind some of them and their amazing successes.",
+      "text": "This year we dedicate the conference to honoring of women in computing. Ada Lovelace, Margaret Hamilton and Carol Shawn are just three examples of pioneering women in the world of programming. We want to remind some of them and their amazing successes.",
+      "image": "assets/img/homepage/year_topic.png"
+    }
+  ]
+}
