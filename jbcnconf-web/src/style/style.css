@@ -32,3 +32,7 @@ p, span, a, li, td, th, button, label, input, textarea {
     opacity: 1;
     transition: opacity 250ms ease-in;
 }
+
+.yellow-bg {
+    background-color: var(--color-yellow);
+}
