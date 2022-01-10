@@ -56,9 +56,6 @@ const Members: FC = () => {
   return (
     <StyledMembers fluid>
       <Row>
-        <Col>&nbsp;</Col>
-      </Row>
-      <Row>
         <Col xs={{ offset: 1, span: 4 }}>
           <h3>ABOUT US</h3>
         </Col>

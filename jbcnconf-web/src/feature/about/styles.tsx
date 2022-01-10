@@ -14,14 +14,17 @@ export const StyledMembers = styled(Container)`
     100% {
       filter: grayscale(0) blur(0);
     }
-  } {
-  color: var(--color-blue);
-  background-color: ghostwhite;
-  background-image: url(${leftBg}), url(${rightBg});
-  background-repeat: no-repeat, no-repeat;
-  background-position: left 20px, right 20px;
-  background-size: 10%, 10%;
-}
+  }
+   {
+    color: var(--color-blue);
+    background-color: ghostwhite;
+    background-image: url(${leftBg}), url(${rightBg});
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 100px, right 100px;
+    background-attachment: fixed;
+    background-size: 8%, 8%;
+    padding-top: 50px;
+  }
 
   h3:before {
     content: "/";
