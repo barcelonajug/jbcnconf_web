@@ -6,8 +6,18 @@ import rightBg from "../../img/navy-green-bg.jpg"
 import bottomBg from "../../img/green-yellow-bottom.jpg"
 import whiteRedLtBg from "../../img/white-red-lt.jpg"
 import whiteRedBtBg from "../../img/white-red-bt.jpg"
+import whiteYellowBg from "../../img/white-yellow-bottom.png"
 
 export const colors = ["primary", "secondary", "success", "danger", "warning", "info", "light", "dark"]
+
+export const YellowBackground = styled.div`
+  background-color: var(--color-yellow);
+  background-image: url(${whiteYellowBg});
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+  padding-bottom: 100px;
+`
 
 export const TalkContainer = styled(Container)`
 {
@@ -105,6 +115,7 @@ export const SpeakersPageContainer = styled(Container)`
 `
 
 export const TalksContainer = styled(Container)`
+
   img {
     width: 100%;
     border: 1px solid var(--color-fucsia);

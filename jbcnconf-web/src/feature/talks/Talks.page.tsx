@@ -1,7 +1,7 @@
 import { Badge, Button, Col, Row } from "react-bootstrap"
 import { collection, getDocs, getFirestore } from "firebase/firestore"
 import { FC, useEffect, useState } from "react"
-import { colors, SpeakersPageContainer, TalksContainer } from "./styles"
+import { colors, SpeakersPageContainer, TalksContainer, YellowBackground } from "./styles"
 import { TalkProps, TalkType } from "./types"
 
 const imageUrl = "https://www.jbcnconf.com/2021/assets/img/speakers/grace-jensen.jpg"
@@ -33,7 +33,7 @@ const TalksPage: FC = () => {
     getData()
   }, [db])
 
-  return (<div className="yellow-bg">
+  return (<YellowBackground>
     <SpeakersPageContainer fluid>
       <Row>
         <Col>&nbsp;</Col>
@@ -59,7 +59,7 @@ const TalksPage: FC = () => {
         </Row>
       ))}
     </TalksContainer>
-  </div>)
+  </YellowBackground>)
 }
 
 export default TalksPage
