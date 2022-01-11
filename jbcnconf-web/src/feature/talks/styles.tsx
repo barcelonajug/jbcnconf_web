@@ -4,14 +4,22 @@ import SpeakerBg from "../../img/white-green-lt.jpg"
 import leftBg from "../../img/navy-green-lt.jpg"
 import rightBg from "../../img/navy-green-bg.jpg"
 import bottomBg from "../../img/green-yellow-bottom.jpg"
+import whiteRedLtBg from "../../img/white-red-lt.jpg"
+import whiteRedBtBg from "../../img/white-red-bt.jpg"
 
 export const colors = ["primary", "secondary", "success", "danger", "warning", "info", "light", "dark"]
 
 export const TalkContainer = styled(Container)`
-  * {
-    background-color: #fff;
-    color: var(--color-fucsia);
-  }
+{
+  background-color: #fff;
+  color: var(--color-fucsia);
+  background-image: url(${whiteRedLtBg}), url(${whiteRedBtBg});
+  background-repeat: no-repeat, no-repeat;
+  background-size: 10%, 10%;
+  background-position: left 50px, right 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
   h1 {
     text-transform: uppercase;
@@ -95,6 +103,7 @@ export const SpeakersPageContainer = styled(Container)`
   }
 
 `
+
 export const TalksContainer = styled(Container)`
   img {
     width: 100%;
