@@ -16,3 +16,4 @@ tools/*.log
 gradlew
 gradlew.bat
 gradle
+vendor
