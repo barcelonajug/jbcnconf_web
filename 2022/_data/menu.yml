@@ -26,8 +26,6 @@ items:
       href: "/offers.html"
 - label: Become Sponsor
   href: "/become-sponsor.html"
-- label: Venue
-  href: "/java-barcelona-venue.html"
 - label: Travel
   href: "/#Travel"
   items:
