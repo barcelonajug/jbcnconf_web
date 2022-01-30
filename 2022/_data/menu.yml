@@ -3,10 +3,10 @@ items:
   href: "/#JBCN"
 - label: Call For Papers
   href: "/callForPapers.html"
-#- label: Speakers
-#  href: "/#Speakers"
-# label: Talks
-#  href: "/talks.html"
+- label: Speakers
+  href: "/#Speakers"
+- label: Talks
+  href: "/talks.html"
 #- label: Schedule
 #  href: "/schedule.html"
 - label: Sponsors

@@ -1,4 +1,56 @@
 {
   "items": [
+    {
+      "enabled": "1",
+      "name": "Whitney Lee",
+      "company": "VMware",
+      "description": "Staff Developer Advocate",
+      "biography": "Whitney is a Staff Developer Advocate at VMware. She traveled the scenic route but is chuffed to have found her way to Kubernetes & cloud technologies. Whitney began her professional career as a fine artist before owning her own photography business for over a decade. After a year-long tour playing in the band Mutual Benefit, Whitney went back to school in 2019 to learn full-stack web development. After graduation, Whitney was employed by IBM as a cloud developer, using none of the skills she had just learned. She developed an insatiable appetite for all things cloud, and a passion for teaching others as she acquired knowledge herself. Whitney has made many cloud-related lightboard videos that together have 300,000+ views. Whitney’s contagious excitement drives her to collaborate and play!",
+      "image": "assets/img/speakers/whitney-lee.jpg",
+      "ref": "576aeba6a8ebcbe244cc16bd0f973593673cc530",
+      "url": "infoSpeaker.html?ref=576aeba6a8ebcbe244cc16bd0f973593673cc530",
+      "homepage": "https://tanzu.vmware.com/developer/team/whitney-lee/",
+      "twitter": "@wiggitywhitney",
+      "linkedin": "https://www.linkedin.com/in/whitneylee/"
+    },
+    {
+      "enabled": "1",
+      "name": "Maarten Mulders",
+      "company": "Info Support",
+      "description": "IT Architect",
+      "biography": "Passionate architect, senior developer and trainer at Info Support. Also Oracle Groundbreaker Ambassador. I'm eager about \"building the right thing\" and \"building the thing right\". I focus on lean and elegant solutions, and I love to share new ideas and knowledge. Outside work, I appreciate crafting and eating good food, photography, and music, in no particular order.",
+      "image": "assets/img/speakers/maarten-mulders.png",
+      "ref": "f33256b1512b570f58cde29c69166d0fab470334",
+      "url": "infoSpeaker.html?ref=f33256b1512b570f58cde29c69166d0fab470334",
+      "homepage": "https://maarten.mulders.it",
+      "twitter": "@mthmulders",
+      "linkedin": "https://www.linkedin.com/in/mthmulders/"
+    },
+    {
+      "enabled": "1",
+      "name": "Ana-Maria Mihalceanu",
+      "company": "Red Hat",
+      "description": "Develope Advocate",
+      "biography": "Ana is a Java Champion, Developer Advocate at Red Hat, co-founder of Bucharest Software Craftsmanship Community, and a constant adopter of challenging technical scenarios involving Java-based frameworks and multiple cloud providers. She actively supports technical communities’ growth through knowledge sharing and enjoys curating content for conferences as a program committee member.",
+      "image": "assets/img/speakers/ana-maria-mihalceanu.jpg",
+      "ref": "959143ffd6c954e5e544cdce71383429895e3679",
+      "url": "infoSpeaker.html?ref=959143ffd6c954e5e544cdce71383429895e3679",
+      "homepage": "",
+      "twitter": "@ammbra1508",
+      "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Alex Soto Bueno",
+      "company": "Red Hat",
+      "description": "Director of Developer Experience",
+      "biography": "Alex Soto is a Director of Developer Experience at Red Hat. He is passionate about the Java world, software automation and he believes in the open-source software model. Alex is the co-author of Testing Java Microservices, Quarkus Cookbook, and Securing Kubernetes Secrets books, and a contributor to several open-source projects. \n\nA Java Champion since 2017, he is also an international speaker, radio collaborator at Onda Cero, and teacher at Salle URL University.\n",
+      "image": "assets/img/speakers/alex-soto.jpg",
+      "ref": "5c4dc84af05c736fb61555d97670869511e52764",
+      "url": "infoSpeaker.html?ref=5c4dc84af05c736fb61555d97670869511e52764",
+      "homepage": "",
+      "twitter": "@alexsotob",
+      "linkedin": ""
+    }
   ]
 }

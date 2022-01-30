@@ -1,5 +1,78 @@
 {
   "items": [
-   
+    {
+      "id": "61df3543ef0a16083d127537",
+      "title": "Progressive Delivery in the Kubernetes era",
+      "languages": [
+        "eng",
+        "es"
+      ],
+      "abstract": "Production is the place where all applications should live. Even though you are using continuous integration and delivery, you might wonder every time you release a new version to production if it will work or there will be some breakage on the latest version, eventually making production unavailable to the customers. \n\nProgressive delivery is the next step after Continuous Delivery to test your application in production before it becomes fully available to all your user bases.\n\nEmbrace progressive delivery with techniques like the blue-green, canary release, shadowing traffic, or dark launches to validate the application in production using Kubernetes and tools like Istio, Prometheus, ArgoCD, or Argo Rollouts.\n\nCome to this session to learn progressive delivery in action using Kubernetes.\n",
+      "type": "talk",
+      "tags": [
+        "kubernetes",
+        "argocd",
+        "argo rollouts"
+      ],
+      "level": "advanced",
+      "speakers": [
+        "5c4dc84af05c736fb61555d97670869511e52764"
+      ]
+    },
+    {
+      "id": "61e406409e44e3083e435f60",
+      "title": "The hidden gems of distributed tracing",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "When building distributed systems, we aim to get a macro view and zoom in when a particular component seems to be at fault for a failure. Luckily, distributed tracing captures the detailed execution of causally-related activities performed by the elements of a distributed system as it processes a given request.\nIf you wonder how different the execution of the requests from the system's expected behavior was, join my session to learn how to recognize trace patterns, determine the bottlenecks when a request is too slow, and deal with oversampling or traffic labeling in production.\n",
+      "type": "talk",
+      "tags": [
+        "cloud",
+        "distributed systems",
+        "tracing",
+        "practices"
+      ],
+      "level": "middle",
+      "speakers": [
+        "959143ffd6c954e5e544cdce71383429895e3679"
+      ]
+    },
+    {
+      "id": "61f1a32cc4c4120b9d29afa3",
+      "title": "Live Diagramming of Knative Core Concepts ",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Although Knative has been community-maintained since 2018, there has been buzz around the project lately because Google has recently submitted Knative to the CNCF for consideration as an incubating project.\n\n\n\nCool! But what is Knative, exactly?\n\n\n\nSimply put, Knative is a technology that streamlines and enhances the way that applications run on Kubernetes.\n\nThis talk is for people who are excited about this value proposition and want to dig deeper. How does it work? What components are at play? In what ways is running an app on Knative superior to running it directly on Kubernetes?\n\n\n\nInstead of presenting slides, Whitney will draw out the fundamental concepts of Knative, explaining how they work in simple, relatable terms. She will then drive deeper understanding by giving context to the main points with real-life, straightforward use cases. \n\n\n\nAttend this talk to gain a high-level understanding of Knative, its main components, and how it simplifies and improves the way that apps run on Kubernetes. ",
+      "type": "talk",
+      "tags": [
+        "Knative",
+        "Kubernetes",
+        "Cloud",
+        "Eventing"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "576aeba6a8ebcbe244cc16bd0f973593673cc530"
+      ]
+    },
+    {
+      "id": "61f1a45bc4c4120b9d29afa4",
+      "title": "Dapr: Dinosaur or Developer's Dream?",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Dapr lets you abstract your distributed architecture from the underlying infrastructure that powers it. Forget about Kafka, RabbitMQ or any cloud-specific product: you're talking with a pub/sub broker. Let Dapr take care of how it works. Want to switch later? Sure, no problem!\n\nSo, is Dapr the new J2EE application server? How could it change the way we develop distributed solutions? Join me in this talk to find out if we're looking at a dinosaur in a fancy suit, or a developer's dream.",
+      "type": "talk",
+      "tags": [
+        "distributed architecture",
+        "cloud native"
+      ],
+      "level": "middle",
+      "speakers": [
+        "f33256b1512b570f58cde29c69166d0fab470334"
+      ]
+    }
   ]
 }
