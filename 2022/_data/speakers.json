@@ -2,16 +2,29 @@
   "items": [
     {
       "enabled": "1",
-      "name": "Whitney Lee",
-      "company": "VMware",
-      "description": "Staff Developer Advocate",
-      "biography": "Whitney is a Staff Developer Advocate at VMware. She traveled the scenic route but is chuffed to have found her way to Kubernetes & cloud technologies. Whitney began her professional career as a fine artist before owning her own photography business for over a decade. After a year-long tour playing in the band Mutual Benefit, Whitney went back to school in 2019 to learn full-stack web development. After graduation, Whitney was employed by IBM as a cloud developer, using none of the skills she had just learned. She developed an insatiable appetite for all things cloud, and a passion for teaching others as she acquired knowledge herself. Whitney has made many cloud-related lightboard videos that together have 300,000+ views. Whitney’s contagious excitement drives her to collaborate and play!",
-      "image": "assets/img/speakers/whitney-lee.jpg",
-      "ref": "576aeba6a8ebcbe244cc16bd0f973593673cc530",
-      "url": "infoSpeaker.html?ref=576aeba6a8ebcbe244cc16bd0f973593673cc530",
-      "homepage": "https://tanzu.vmware.com/developer/team/whitney-lee/",
-      "twitter": "@wiggitywhitney",
-      "linkedin": "https://www.linkedin.com/in/whitneylee/"
+      "name": "Dmitry Aleksandrov",
+      "company": "Sofia",
+      "description": "Software Developer",
+      "biography": "Dmitry is a software developer at Oracle, Java Champion, Oracle Groundbreaker. Currently working on Project Helidon. He has more than a decade experience mainly in Java Enterprise in banking/telecom, but interested in dynamic languages on JVM and features like massive computations on GPUs. A true believer in open source and community driven initiatives. He is a co-lead of the Bulgarian Java User Group and co-organizer of jPrime Conf. \nDmitry is a blogger and also a frequent speaker at local events as well as conferences like JavaOne/CodeOne, Devoxx/Voxxed and Joker/JPoint.\n",
+      "image": "assets/img/speakers/dmitry-aleksandrov.jpg",
+      "ref": "74479a1ccc69e03d3868de48e18a4d759165d326",
+      "url": "infoSpeaker.html?ref=74479a1ccc69e03d3868de48e18a4d759165d326",
+      "homepage": "",
+      "twitter": "@bercut2000",
+      "linkedin": "https://www.linkedin.com/in/dalexandrov/"
+    },
+    {
+      "enabled": "1",
+      "name": "Ko Turk",
+      "company": "Blue4IT",
+      "description": "Java Developer",
+      "biography": "Hi my name is Ko Turk and I am a Senior Java Developer at Blue4IT! \nI am working as a Fullstack engineer, creating microservices and building awesome frontend applications. \nAs a speaker I am talking at conferences (like JavaZone, DevNexus and JFall) and JUGs about Micrometer and IDEs. \nI really like live-coding, there's no better way to learn. \n\nIf you have some questions, don't hesitate to contact me through (Twitter @KoTurk77).",
+      "image": "assets/img/speakers/ko-turk.jpg",
+      "ref": "98d92074e12051b600499049a3773caf3fc5dd60",
+      "url": "infoSpeaker.html?ref=98d92074e12051b600499049a3773caf3fc5dd60",
+      "homepage": "",
+      "twitter": "@KoTurk77",
+      "linkedin": "https://github.com/KoTurk"
     },
     {
       "enabled": "1",
@@ -25,6 +38,71 @@
       "homepage": "https://www.devopstoolkitseries.com",
       "twitter": "@vfarcic",
       "linkedin": "https://www.linkedin.com/in/viktorfarcic"
+    },
+    {
+      "enabled": "1",
+      "name": "Mauricio Salatino",
+      "company": "VMWare",
+      "description": "Staff Engineer",
+      "biography": "Mauricio is currently working at the Knative OSS Project as part of the VMWare MAPBU team. He is the author of the Continuous Delivery for Kubernetes book for Manning and he is passionate about Open Source, Cloud Native and Kubernetes. You can always get in touch with him via Twitter @Salaboy. ",
+      "image": "assets/img/speakers/mauricio-salatino.jpg",
+      "ref": "4b26a098aafaf6bc3d533389b61d3ef5ab01f5a3",
+      "url": "infoSpeaker.html?ref=4b26a098aafaf6bc3d533389b61d3ef5ab01f5a3",
+      "homepage": "http://salaboy.com",
+      "twitter": "@salaboy",
+      "linkedin": "http://linkedin.com/in/salaboy"
+    },
+    {
+      "enabled": "1",
+      "name": "Holly Cummins",
+      "company": "IBM",
+      "description": "Innovation Leader",
+      "biography": "Holly Cummins is a Senior Technical Staff Member and Innovation Leader at IBM, as well as a Java Champion and author. Holly has led projects for enormous banks, tiny startups, and everything in between. Holly has used the power of cloud to understand climate risks, count fish, help a blind athlete run ultra-marathons in the desert solo, and invent stories (although not at all the same time).",
+      "image": "assets/img/speakers/holly-cummins.jpg",
+      "ref": "16b53ff6547870b3f9c9ef9f5eb97b015ba88e8b",
+      "url": "infoSpeaker.html?ref=16b53ff6547870b3f9c9ef9f5eb97b015ba88e8b",
+      "homepage": "https://hollycummins.com",
+      "twitter": "@holly_cummins",
+      "linkedin": "https://www.linkedin.com/in/holly-k-cummins/"
+    },
+    {
+      "enabled": "1",
+      "name": "Alberto Salazar",
+      "company": "Advance Latam ",
+      "description": "CTO",
+      "biography": "Alberto Salazar is an entrepreneur, passionate Consultant, Java Champion, Oracle Groundbreaker Ambassador, JUG Leader, Auth0 Ambassador, founder of the Ecuador Java User Group, Java Community Process Associate Member and Java evangelist/trainer; active in twitter at @betoSalazar. He is the author of the book ‘Software Architecture with Spring 5.0’. Alberto has been working for more than 2 decades creating large scalable and high transaction load systems from military software to banking solutions. He is also a frequent speaker at Java conferences such as DevNexus, Oracle Code One, DevDays Europe, Voxxed Days, Oracle Code, Red Hat Summit, JavaOne, Oracle Developer Tour Latam, OTN Tours, and local JUG meetings.",
+      "image": "assets/img/speakers/alberto-salazar.png",
+      "ref": "8096d60f578c4cc2c777f231d1dff6aa46f4457b",
+      "url": "infoSpeaker.html?ref=8096d60f578c4cc2c777f231d1dff6aa46f4457b",
+      "homepage": "https://lasalazarr.github.io/blog/",
+      "twitter": "@betoSalazar",
+      "linkedin": "https://www.linkedin.com/in/alberto-salazar-15334154"
+    },
+    {
+      "enabled": "1",
+      "name": "Whitney Lee",
+      "company": "VMware",
+      "description": "Staff Developer Advocate",
+      "biography": "Whitney is a Staff Developer Advocate at VMware. She traveled the scenic route but is chuffed to have found her way to Kubernetes & cloud technologies. Whitney began her professional career as a fine artist before owning her own photography business for over a decade. After a year-long tour playing in the band Mutual Benefit, Whitney went back to school in 2019 to learn full-stack web development. After graduation, Whitney was employed by IBM as a cloud developer, using none of the skills she had just learned. She developed an insatiable appetite for all things cloud, and a passion for teaching others as she acquired knowledge herself. Whitney has made many cloud-related lightboard videos that together have 300,000+ views. Whitney’s contagious excitement drives her to collaborate and play!",
+      "image": "assets/img/speakers/whitney-lee.jpg",
+      "ref": "576aeba6a8ebcbe244cc16bd0f973593673cc530",
+      "url": "infoSpeaker.html?ref=576aeba6a8ebcbe244cc16bd0f973593673cc530",
+      "homepage": "https://tanzu.vmware.com/developer/team/whitney-lee/",
+      "twitter": "@wiggitywhitney",
+      "linkedin": "https://www.linkedin.com/in/whitneylee/"
+    },
+    {
+      "enabled": "1",
+      "name": "Josh Long",
+      "company": "Tanzu, a division of VMware",
+      "description": "Spring Developer Advocate",
+      "biography": "Josh (@starbuxman) has been the first Spring Developer Advocate since 2010. Josh is a Java Champion, author of 6 books (including O'Reilly's \"Cloud Native Java: Designing Resilient Systems with Spring Boot, Spring Cloud, and Cloud Foundry\" and \"Reactive Spring\") and numerous best-selling video training (including \"Building Microservices with Spring Boot Livelessons\" with Spring Boot co-founder Phil Webb), and an open-source contributor (Spring Boot, Spring Integration, Spring Cloud, Activiti and Vaadin, etc), a podcaster (\"A Bootiful Podcast\") and a YouTuber.\n",
+      "image": "assets/img/speakers/josh-1.jpg",
+      "ref": "3803f8e428feb905178afd9025cfc53fb47a8abc",
+      "url": "infoSpeaker.html?ref=3803f8e428feb905178afd9025cfc53fb47a8abc",
+      "homepage": "https://joshlong.com/",
+      "twitter": "@starbuxman",
+      "linkedin": "linkedin.com/in/joshlong"
     },
     {
       "enabled": "1",
@@ -77,6 +155,19 @@
       "homepage": "",
       "twitter": "@alexsotob",
       "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Pratik Patel",
+      "company": "Azul Systems",
+      "description": "Lead Developer Advocate",
+      "biography": "Pratik Patel is a Java Champion and developer advocate at Azul Systems. He wrote the first book on 'enterprise Java' in 1996, \"Java Database Programming with JDBC.\" An all around software and hardware enthusiast with experience in the healthcare, telecom, financial services, and startup sectors. Helps to organize the Atlanta Java User Group, frequent speaker at tech events, and master builder of nachos.",
+      "image": "assets/img/speakers/pratik-patel.png",
+      "ref": "353fbe416417b970f2d60c78791e290ede956bc6",
+      "url": "infoSpeaker.html?ref=353fbe416417b970f2d60c78791e290ede956bc6",
+      "homepage": "https://prpatel.dev",
+      "twitter": "@prpatel",
+      "linkedin": "https://www.linkedin.com/in/prpatel/"
     }
   ]
 }

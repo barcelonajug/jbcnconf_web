@@ -7,7 +7,7 @@
         "eng",
         "es"
       ],
-      "abstract": "Production is the place where all applications should live. Even though you are using continuous integration and delivery, you might wonder every time you release a new version to production if it will work or there will be some breakage on the latest version, eventually making production unavailable to the customers. \n\nProgressive delivery is the next step after Continuous Delivery to test your application in production before it becomes fully available to all your user bases.\n\nEmbrace progressive delivery with techniques like the blue-green, canary release, shadowing traffic, or dark launches to validate the application in production using Kubernetes and tools like Istio, Prometheus, ArgoCD, or Argo Rollouts.\n\nCome to this session to learn progressive delivery in action using Kubernetes.\n",
+      "abstract": "Production is the place where all applications should live. Even though you are using continuous integration and delivery, you might wonder every time you release a new version to production if it will work or there will be some breakage on the latest version, eventually making production unavailable to the customers. \n\nProgressive delivery is the next step after Continuous Delivery to test your application in production before it becomes fully available to all your user bases.\n\nEmbrace progressive delivery with techniques like the blue-green, canary release, shadowing traffic, or dark launches to validate the application in production using Kubernetes and tools like Istio, Prometheus, ArgoCD, or Argo Rollouts.\n\nCome to this session to learn progressive delivery in action using Kubernetes.",
       "type": "talk",
       "tags": [
         "kubernetes",
@@ -60,11 +60,11 @@
     },
     {
       "id": "61f1a32cc4c4120b9d29afa3",
-      "title": "Live Diagramming of Knative Core Concepts ",
+      "title": "Live Diagramming of Knative Core Concepts",
       "languages": [
         "eng"
       ],
-      "abstract": "Although Knative has been community-maintained since 2018, there has been buzz around the project lately because Google has recently submitted Knative to the CNCF for consideration as an incubating project.\n\n\n\nCool! But what is Knative, exactly?\n\n\n\nSimply put, Knative is a technology that streamlines and enhances the way that applications run on Kubernetes.\n\nThis talk is for people who are excited about this value proposition and want to dig deeper. How does it work? What components are at play? In what ways is running an app on Knative superior to running it directly on Kubernetes?\n\n\n\nInstead of presenting slides, Whitney will draw out the fundamental concepts of Knative, explaining how they work in simple, relatable terms. She will then drive deeper understanding by giving context to the main points with real-life, straightforward use cases. \n\n\n\nAttend this talk to gain a high-level understanding of Knative, its main components, and how it simplifies and improves the way that apps run on Kubernetes. ",
+      "abstract": "Although Knative has been community-maintained since 2018, there has been buzz around the project lately because Google has recently submitted Knative to the CNCF for consideration as an incubating project.\n\nCool! But what is Knative, exactly?\n\nSimply put, Knative is a technology that streamlines and enhances the way that applications run on Kubernetes.\n\nThis talk is for people who are excited about this value proposition and want to dig deeper. How does it work? What components are at play? In what ways is running an app on Knative superior to running it directly on Kubernetes?\n\nInstead of presenting slides, Whitney will draw out the fundamental concepts of Knative, explaining how they work in simple, relatable terms. She will then drive deeper understanding by giving context to the main points with real-life, straightforward use cases. \n\nAttend this talk to gain a high-level understanding of Knative, its main components, and how it simplifies and improves the way that apps run on Kubernetes.",
       "type": "talk",
       "tags": [
         "Knative",
@@ -112,6 +112,138 @@
       "level": "advanced",
       "speakers": [
         "78328a04b91142ff18f2a8885d6ec99391906a66"
+      ]
+    },
+    {
+      "id": "61fc3c314fc8140baaa031b5",
+      "title": "Kubernetes Native Java",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Spring is all about helping developers get to production quickly and safely. These days, \"production\" is all but guaranteed to mean Kubernetes, and Spring has you covered. Join me, Spring Developer Advocate Josh Long (@starbuxman), and we'll look at how Spring Boot makes writing blisteringly fast, cloud-native, and scalable services more effortless than ever.\n\n",
+      "type": "talk",
+      "tags": [
+        "spring",
+        "graalvm",
+        "docker",
+        "kubernetes",
+        "buildpacks"
+      ],
+      "level": "middle",
+      "speakers": [
+        "3803f8e428feb905178afd9025cfc53fb47a8abc"
+      ]
+    },
+    {
+      "id": "61fd70f54fc8140baaa031bc",
+      "title": "REACTIVE A New Hope! Learn From a Performance History",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "It is a time of developers complain about performance. Rebel developers, striking from a hidden base, have won their first victory against the evil blocking applications. In this session, attendees will learn about a real-world evolution to reactive; we will be covering tips and tricks of an experience in evolving a Banking Application; Through the session, you are going to get tips, tricks, pros, cons, and the reasons for being involved on move forward to non-blocking application and present sample code and explain the security concerns on this evolution. We will be using snippets code based on JAVA, JWT, JWS, Auth0, Spring Boot, Reactor and Webflux deployed on Cloud.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Reactive",
+        "Microservice",
+        "Architecture"
+      ],
+      "level": "middle",
+      "speakers": [
+        "8096d60f578c4cc2c777f231d1dff6aa46f4457b"
+      ]
+    },
+    {
+      "id": "61fd71234fc8140baaa031bd",
+      "title": "Going Reactive with Helidon!",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Helidon is a brave, small but powerful opensource framework for writing microservices. And if you need get the maximum performance – making your apps reactive is the currently the best way to do it! In this session we will dive deeper and see how to create extremely performant reactive microservices with Helidon “SE” flavour. We will explore its Reactive APIs, asynchronous DB access, and reactive Web-Client. Since Helidon has its own powerful Reactive Engine, we will learn how to get the most requests served in async operations and Messaging. We will also compare the performance with Loom, since Helidon supports it out of the box! Welcome to the Danger Zone!\n\n",
+      "type": "talk",
+      "tags": [
+        "helidon",
+        "microservices",
+        "reactive",
+        "loom"
+      ],
+      "level": "middle",
+      "speakers": [
+        "74479a1ccc69e03d3868de48e18a4d759165d326"
+      ]
+    },
+    {
+      "id": "61fd71544fc8140baaa031be",
+      "title": "Event streaming applications with Kafka Streams, Spring Kafka and Actuator (live coding)",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "We often make applications in which REST (HTTP) predominates, but is this a smart choice? Can't it be faster, or rather asynchronously and event based? Especially if you work with BIG DATA, Kafka is usually the better option.You get a whole platform where scalability, fault tolerance and replay-ability are very important (you don't want your message to be lost, and preferably you want to process it again if your system has been down).\n\nThere are three libraries we will discuss during live coding:\n- Spring Kafka, where we will create a consumer and producer and test them with test-containers (without starting a whole cluster yourself).\n\n- Kafka Streams, a perfect fit for functional programming! With the StreamsAPI we will cover the best and most used patterns like branching, joining, mapping and more. We will create a Topology (stream) where we will handle fraud detection.\n\n- Spring Actuator is a match when you want to monitor your stream of events, you already got a lot of metrics for free!\n\nAfter the session you can create your own application with consumers, producers and streams!",
+      "type": "talk",
+      "tags": [
+        "Kafka Streams",
+        "Big Data",
+        "Java"
+      ],
+      "level": "middle",
+      "speakers": [
+        "98d92074e12051b600499049a3773caf3fc5dd60"
+      ]
+    },
+    {
+      "id": "61fd72704fc8140baaa031bf",
+      "title": "Performance Testing Java Applications",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Every so often,  you’ll read a performance benchmark (of a Java or other application), with bold claims for how well X performs compared to Y. Testing the performance of your Java application is an artform rather than engineering, and is a minefield of misconceptions, misunderstanding, and misinformation. In this session, we will review the basics and give you concrete steps to build a robust performance testbed for your application. We will be looking at this from a real-world server-side application point of view, specifically for Java apps. We’ll review common problems and how to avoid them. We’ll cover these topics while building up a performance test and running it live:\n\n\n\nDefine your goals: SLA, latency, throughput, stability\nTest env vs. Production env for testing\nThe impact of GC on Java app performance\nTools for setting up, driving load, and getting perf test results\nTesting application infrastructure like Kafka, Spark and Cassandra\nOperating system settings, JVM settings, memory sizing, and CPU sizing\nAnalyzing perf test results and finding bottlenecks that are both apparent and not obvious",
+      "type": "talk",
+      "tags": [
+        "java",
+        "performance"
+      ],
+      "level": "advanced",
+      "speakers": [
+        "5c8cf21786cae4a337b4c305fe244359243ded67"
+      ]
+    },
+    {
+      "id": "61fd73e74fc8140baaa031c0",
+      "title": "Why You Can’t Buy Cloud Native",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "The virtual shelves are filled to bursting with cloud native technologies; containers, runtimes, CI pipelines, observability tools. The more an organisation buys, the more cloud native it is, right? And the more network communication an app involves, the more cloud native it is, right? Well, not so much. It turns out cloud native is about how you deliver software, not the tools you use. This talk explains these often-overlooked elements for cloud native success:\n- Figuring out what problem we’re trying to solve\n- Releasing\n- Testing, but not the way you’re used to",
+      "type": "talk",
+      "tags": [
+        "cloud",
+        "culture"
+      ],
+      "level": "middle",
+      "speakers": [
+        "16b53ff6547870b3f9c9ef9f5eb97b015ba88e8b"
+      ]
+    },
+    {
+      "id": "61fd74f14fc8140baaa031c1",
+      "title": "Tales from a Java Developer moving to Go in the context of Kubernetes",
+      "languages": [
+        "eng",
+        "es"
+      ],
+      "abstract": "In this presentation, Mauricio, a very passionate Java Developer, share his psychedelic findings from working in the Go ecosystem for the Knative OSS Project. This presentation focuses on the Go ecosystem instead of the difference between the Java and Go languages. Tools like dependency management, IDEs, frameworks and how to deal with large projects will be discussed. While Java is still big in my heart there are good lessons, frameworks and tools that we might want to bring to the Java ecosystem from the vibrant Go community. A special emphasis is made around Kubernetes related tools and why I think that Go in Kubernetes is miles ahead of Java.",
+      "type": "talk",
+      "tags": [
+        "Cloud",
+        "java",
+        "go",
+        "kubernetes",
+        "tools",
+        "frameworks"
+      ],
+      "level": "middle",
+      "speakers": [
+        "4b26a098aafaf6bc3d533389b61d3ef5ab01f5a3"
       ]
     }
   ]
