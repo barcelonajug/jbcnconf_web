@@ -100,7 +100,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "Java's four big projects are entering the home stretch: Amber and Panama have already incubated, previewed, and even finalized some features, Loom and Valhalla are on track to follow soon. Time to take a closer look at how...\n\n* Project Amber makes the language more expressive and ready for today's and tomorrow's problems\n* Project Panama cuts through the isthmus separating Java from native code\n* Project Loom enables hassle-free and efficient structured concurrency\n* Project Valhalla mends the rift in Java's type system and improves performance\n\nAfter this talk, you will know what to expect from Java in the next few years.",
+      "abstract": "Java's four big projects are entering the home stretch: Amber and Panama have already incubated, previewed, and even finalized some features, Loom and Valhalla are on track to follow soon. Time to take a closer look at how...\n<ul>\n<li>Project Amber makes the language more expressive and ready for today's and tomorrow's problems</li>\n<li>Project Panama cuts through the isthmus separating Java from native code</li>\n<li>Project Loom enables hassle-free and efficient structured concurrency</li>\n<li>Project Valhalla mends the rift in Java's type system and improves performance</li>\n</ul>\nAfter this talk, you will know what to expect from Java in the next few years.",
       "type": "talk",
       "tags": [
         "Java",
