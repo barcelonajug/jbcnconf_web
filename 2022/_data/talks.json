@@ -115,6 +115,25 @@
       ]
     },
     {
+      "id": "61fc3c0a4fc8140baaa031b4",
+      "title": "What Java Devs Need To Know About Observability",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "As applications move to containers and migrate to the cloud, they become ever more complex, and it's increasingly important to monitor, analyze, and diagnose their behaviour. Observability is a new way of thinking about monitoring and understanding your applications. It’s supported by a growing range of open source tools and standards - part of the new wave of technologies that modern developers need to go fully Cloud Native.\n\nJoin Ben Evans to get the basics of the necessary theory behind Observability, including the fundamentals of monitoring, metrics, and tracing, and then get hands-on. You'll learn how to achieve observability in Java using OpenTelemetry, the emerging Open Standard for Observability, and we'll meet several other related OSS libraries and tools  (such as Jaeger) along the way.",
+      "type": "workshop",
+      "tags": [
+        "Cloud",
+        "Java",
+        "Observability",
+        "OpenTelemetry"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "6d4ec093aeee2a5dde4bbce8e9698776ce7bd5b8"
+      ]
+    },
+    {
       "id": "61fc3c314fc8140baaa031b5",
       "title": "Kubernetes Native Java",
       "languages": [
