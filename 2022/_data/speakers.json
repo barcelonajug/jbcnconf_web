@@ -28,6 +28,19 @@
     },
     {
       "enabled": "1",
+      "name": "Pratik Patel",
+      "company": "Azul Systems",
+      "description": "Lead Developer Advocate",
+      "biography": "Pratik Patel is a Java Champion and developer advocate at Azul Systems. He wrote the first book on 'enterprise Java' in 1996, \"Java Database Programming with JDBC.\" An all around software and hardware enthusiast with experience in the healthcare, telecom, financial services, and startup sectors. Helps to organize the Atlanta Java User Group, frequent speaker at tech events, and master builder of nachos.",
+      "image": "assets/img/speakers/pratik-patel.png",
+      "ref": "5c8cf21786cae4a337b4c305fe244359243ded67",
+      "url": "infoSpeaker.html?ref=5c8cf21786cae4a337b4c305fe244359243ded67",
+      "homepage": "https://prpatel.dev",
+      "twitter": "@prpatel",
+      "linkedin": "https://www.linkedin.com/in/prpatel/"
+    },
+    {
+      "enabled": "1",
       "name": "Viktor Farcic",
       "company": "Upbound",
       "description": "Developer Advocate",
@@ -158,16 +171,16 @@
     },
     {
       "enabled": "1",
-      "name": "Pratik Patel",
-      "company": "Azul Systems",
-      "description": "Lead Developer Advocate",
-      "biography": "Pratik Patel is a Java Champion and developer advocate at Azul Systems. He wrote the first book on 'enterprise Java' in 1996, \"Java Database Programming with JDBC.\" An all around software and hardware enthusiast with experience in the healthcare, telecom, financial services, and startup sectors. Helps to organize the Atlanta Java User Group, frequent speaker at tech events, and master builder of nachos.",
-      "image": "assets/img/speakers/pratik-patel.png",
-      "ref": "353fbe416417b970f2d60c78791e290ede956bc6",
-      "url": "infoSpeaker.html?ref=353fbe416417b970f2d60c78791e290ede956bc6",
-      "homepage": "https://prpatel.dev",
-      "twitter": "@prpatel",
-      "linkedin": "https://www.linkedin.com/in/prpatel/"
+      "name": "Ben Evans",
+      "company": "Red Hat",
+      "description": "Senior Principal Software Engineer",
+      "biography": "Ben Evans is an author, architect and educator. He is currently Senior Principal Software Engineer at Red Hat. Previously he was Lead Architect for Instrumentation at New Relic, and co-founded jClarity, a performance tools startup acquired by Microsoft. He has also worked as Chief Architect for Listed Derivatives at Deutsche Bank and as Senior Technical Instructor for Morgan Stanley. He served for 6 years on the Java Community Process Executive Committee, helping define new Java standards. He is a Java Champion and 3-time JavaOne Rockstar Speaker.\n\nBen is the author of six books, including \"Optimizing Java\", the new editions of “Java in a Nutshell” and the recently-updated “The Well-Grounded Java Developer” and his technical articles are read by thousands of developers every month. Ben is a regular speaker and educator on topics such as the Java platform, systems architecture, performance and concurrency for companies and conferences all over the world (pandemic permitting).",
+      "image": "assets/img/speakers/ben-evans.jpg",
+      "ref": "6d4ec093aeee2a5dde4bbce8e9698776ce7bd5b8",
+      "url": "infoSpeaker.html?ref=6d4ec093aeee2a5dde4bbce8e9698776ce7bd5b8",
+      "homepage": "https://kittylyst.com",
+      "twitter": "@kittylyst",
+      "linkedin": "https://www.linkedin.com/in/kittylyst/"
     }
   ]
 }
