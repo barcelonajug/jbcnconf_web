@@ -264,6 +264,84 @@
       "speakers": [
         "4b26a098aafaf6bc3d533389b61d3ef5ab01f5a3"
       ]
+    },
+    {
+      "id": "620d60d18fcdb80b9ff5371f",
+      "title": "Addressing the transaction challenge in a cloud-native world",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "With microservices comes great benefits but also great challenges! One such challenge is data consistency and integrity. Traditionally, tightly coupled transactions were used to ensure strong consistency and isolation. However, this results in strong coupling between services due to data locking and decreasing concurrency, both of which are unsuitable for microservices. So, how do we provide consistency guarantees for flows that span long periods of time in cloud-native applications? We'll address this challenge by investigating the Saga pattern for distributed transactions, the MicroProfile Long Running Action (LRA) specification and how these can be used to develop effective cloud-native Java microservices.",
+      "type": "talk",
+      "tags": [
+        "Transactions",
+        "Cloud-Native",
+        "Java",
+        "MicroProfile",
+        "OSS"
+      ],
+      "level": "middle",
+      "speakers": [
+        "b21e540e924111f0e9d271ed82350fa020b9972e"
+      ]
+    },
+    {
+      "id": "620d61808fcdb80b9ff53720",
+      "title": "Diagrams as code 2.0",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Diagrams as code is becoming a popular way to diagram software architecture, particularly for long-lived high-level documentation - write the diagram source in a text-based domain specific language (e.g. PlantUML or Mermaid) or a programming language, and render diagrams using web-based or command line tooling. The benefits are well understood - writing the diagram source as text allows for easy integration into software development practices and toolchains, plus the automatic layout facilities allow authors to focus on content. The problem with this approach is that it's easy for diagrams to get out of sync. Enter \"diagrams as code 2.0\" and the open source Structurizr DSL - a Java-based library providing a way to define a model of our software architecture and the views that we'd like to see, ultimately resulting in a consistent set of diagrams that are generated for us.",
+      "type": "talk",
+      "tags": [
+        "Software Architecture",
+        "Java"
+      ],
+      "level": "middle",
+      "speakers": [
+        "a51f5e99c5211c81d99cd6f4e4217940c41e2d5d"
+      ]
+    },
+    {
+      "id": "620d629d8fcdb80b9ff53721",
+      "title": "The Call of Ctooling: The Secrets Behind Native Image Building",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "You have learned about the “Closed World Assumption”. You live by the rule “Thou Shall Sparingly Use Reflection”. You know that “From the Powerful defineClass Comes Great Responsibility”. And yet you were still left to wonder: what is it still eluding me? What is the secret ingredient that I am still missing? Join us for a short, but deeper dive into some of the dark magic behind GraalVM’s native image builder: heap snapshotting and build-time initialization. And learn more about other obscure projects investigating the craft of static Java compilation.\n\n",
+      "type": "talk",
+      "tags": [
+        "native image",
+        "graalvm",
+        "compilers",
+        "leyden"
+      ],
+      "level": "advanced",
+      "speakers": [
+        "2b7ec441cce9bb5ab34f86732420a111c517420a"
+      ]
+    },
+    {
+      "id": "620d634d8fcdb80b9ff53722",
+      "title": "Developer Experience with Java on Kubernetes",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "In the cloud-native world, being a developer might be challenging. The number of technologies and patterns to know can be overwhelming. This session presents an approach based on open-source technologies and focused on improving the inner development loop and continuous delivery on Kubernetes. The end goal is delivering value continuously, quickly, and reliably.\n\nFirst, I’ll present several techniques for working locally in an effective and productive way. Should you run Kubernetes in your development environment? I’ll cover a few different options. Using Java and Spring Boot, we’ll build a cloud native application following the principles of test-driven development. The inner development loop will be enhanced with Cloud Native Buildpacks, Skaffold, and Telepresence.\n\nContinuous integration is a crucial practice for continuous delivery. We’ll check in code regularly, triggering an automated process to build, test, and package the application. Do you use pull requests? Relying on ArgoCD and Knative, I’ll show you how to work with temporary environments created dynamically when a new pull request is opened. Next, further acceptance tests will be carried on in a production-like environment to ensure the mainline is always in a releasable state. Finally, we’ll deploy and release the new changes to production following the GitOps principles.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "JVM",
+        "Spring Boot",
+        "Kubernetes",
+        "Knative",
+        "TDD",
+        "Continuous Delivery"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "311027298ebb9e1b88923214cff580786cf3d908"
+      ]
     }
   ]
 }
