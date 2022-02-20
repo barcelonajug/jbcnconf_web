@@ -1,378 +1,67 @@
-# GFT
-- title: GFT
-  type: top
-  company:
-    name: GFT
-    logo-url: /assets/img/sponsors/gft-logo.jpg
-    description: >-
-      GFT is driving the digital transformation of the world’s leading companies in the financial and insurance sectors, as well as in the manufacturing industry. As an IT services and software engineering provider, GFT offers strong consulting and development skills across all aspects of pioneering technologies, such as cloud engineering, artificial intelligence, mainframe modernisation and the Internet of Things for Industry 4.0.
-  links:
-    web: https://gft.com/es/empleo
-    twitter: https://twitter.com/gft_es
-    instagram: https://Instagram/gft_tech
-    linkedin: https://LinkedIn/company/gftgroup
-  vacancies:
-    - title: Remote API expert
-      description: >-
-        - Your main responsibilities:<br/>
-          • Analyze and document the enterprise and technology environment.<br/>
-          • Software architecture design and guidance.<br/>
-          • Enterprise architecture and integration patterns.<br/>
-          • Solution design and technology stack selection.<br/>
-          • Data architecture, API design and implementation.<br/>
-          • Provide support to Sales Team, with your Governance role<br/><br/>
-        - Skills that will help you succeed:<br/>
-          • Computer Science diploma, 10+ years of relevant work experience<br/>
-          • Experience designing and developing web applications using Apigee and Java/J2EE Technologies.<br/>
-          • Experience designing and building business/technical services for the financial sector and supporting them in production environments<br/>
-          • Experience designing relational data models and building microservices<br/>
-          • Deep understanding of modern software development lifecycles, versioning, and deployment<br/>
-          • REST design principles, Spring Framework architecture and extensibility points<br/>
-          • Fluency in English (at least B2 level)<br/><br/>
-        - Soft Skills:<br/>
-          • Team player: ability to work with teams distributed geographically in different locations<br/>
-          • Proactive, motivated and willing to consolidate and develop a professional career<br/>
-          • Analytical, logical and critical thinking.<br/>
-          • Solid problem-solving skills: ability to identify problems and suggest mitigating and contingency actions<br/>
-          • Ability to deal with ambiguous situations<br/>
-          • Committed, proactive and positive<br/>
-          • Advisory skills<br/>
-      link: https://jobs.gft.com/job/Remote-API-Expert-B-08174/691456601/
-
-    - title: Java/Microservices Tech Lead
-      description: >-
-        - Your main responsibilities:<br/>
-          • Design, code, customize and unit-test complex programs in applicable programming languages and platforms<br/>
-          • Prepare and maintain software design and code documentation, as well as software release/installation/maintenance documentation, to include the creation of technical documentation which defines systems solutions<br/>
-          • Identify and raise risks/issues as soon as they are discovered, with a judgment on when they should be escalated to a higher level<br/>
-          • Provide effort estimates for a small part of the project<br/>
-          • Supervise and coordinate junior team member’s tasks<br/>
-          • Provide regular feedback, via status report, to supervisor on progress made on assigned tasks, achieving defined deadlines<br/>
-          • Identify and communicate improvement opportunities<br/>
-          • Acquisition of professional know-how, getting familiar with programming standards/best practices<br/>
-          • Participate on the different development cycle stages, including UAT and Go Live, at at the corresponding level, defining the sanity check strategy and proposing fixes/improvements to production issues (workarounds)<br/><br/>
-        - Skills that will help you succeed:<br/>
-          • Technical Diploma or a University Degree in Computer Engineering, Sciences or its equivalent.<br/>
-          • Previous experience working with Microservices Arquitecture.<br/>
-          • Experience with Springboot, Springbatch and APIs.<br/>
-          • At least B2 level of English, written and spoken.<br/>
-          • Advanced knowledge of Agile methodologies.<br/>
-      link: https://jobs.gft.com/job/Remote-JavaMicroservices-Tech-Lead-B-08174/673280201/
-    - title: Java/J2EE Developer
-      description: >-
-        - Your main responsibilities:<br/>
-          • Programming in new and existing code and maintaining software modules of medium complexity working from detailed written and oral requirements and specifications<br/>
-          • Provides support to more junior colleagues<br/>
-          • Understanding and applying common design patterns<br/>
-          • Assists in the development of prototyped versions of software modules and applications<br/>
-          • Assists in the design activities of software development<br/>
-          • Develops unitary testing scenarios and assumes accountability of unitary testing of their own code<br/>
-          • Participates in basic incident management activities, building up knowledge by supporting some requests, demonstrating the capacity to solve and troubleshoot routine problems<br/>
-          • Understanding of the "rules of development" (Code management, code repository, continuous Integration – CI and code review)<br/>
-          • Participates on the different development cycle stages, including UAT and Go Live, at the corresponding level<br/><br/>
-        - Skills that will help you succeed:<br/>
-        • Technical Diploma or a University Degree in Computer Engineering, Sciences or its equivalent<br/>
-        • Expert knowledge with Java, mainly with Java EE, Spring Framework<br/>
-        • Experience with continuous integration tools as Jenkins, Bamboo and testing tools like JUnit / Cucumber.<br/>
-        • Knowledge of Agile methodologies<br/>
-        • Formal ITIL accreditations preferred<br/>
-        • At least B2 level of English<br/>
-      link: https://jobs.gft.com/job/Remote-JavaJ2EE-Developer-B-08174/694246601/
-
-  # Ocado
-- title: Ocado Technology
-  type: premium
-  company:
-    name: Ocado Technology
-    logo-url: /assets/img/sponsors/ocadotechnology-200px-h.png
-    description: >-
-      At Ocado Technology, we are pioneers focusing on solving some of the toughest tech challenges of our age. Heavily invested in Java, we use this language in our end-to-end integrated platform Ocado Smart Platform (OSP), enabling the world’s largest retailers to offer the best customer experiences.
-  links:
-    linkedIn: https://www.linkedin.com/company/ocado-technology
-    web: https://www.ocadotechnology.com/
-    twitter: https://twitter.com/OcadoTechnology
-  vacancies:
-    - title: Java Software Engineer
-      description: >-
-        We are on a mission to transform grocery ecommerce through cutting-edge technology and looking for problem-solvers with a passion for Clean Code and TDD.
-        Are you a Java Software Engineer looking for a new challenge? Then this role could be for you!
-      link: https://boards.greenhouse.io/ocadotechnology/jobs/5318954002
-    - title: Engineering Team Leader
-      description: >-
-        Few companies can pride themselves on solving some of the toughest technological challenges of our age.
-        We can. For 20+ years we have been challenging the status quo, pushing the boundaries of online grocery shopping.
-        As an Engineering Team Leader, you will have a positive impact on millions of users and, above all, on your team. Make sure you don’t miss this opportunity.
-      link: https://boards.greenhouse.io/ocadotechnology/jobs/5361406002
-    - title: Product Manager
-      description: >-
-        Sitting at the intersection between business and technology, you are empowered to create innovative end-to-end solutions.
-        Does this sound like your next mission? We’re looking for product managers with an ambition to transform grocery ecommerce.
-      link: https://boards.greenhouse.io/ocadotechnology/jobs/5320799002
-
-# Adevinta
-- title: Adevinta
-  type: premium
-  company:
-    name: Adevinta
-    logo-url: /assets/img/sponsors/adevinta.png
-    description: >-
-      At Adevinta Spain, we create the future of digital marketplaces by helping thousands of people find what they are looking for through our six marketplaces. We have a technical community that makes this possible and continuously shares their technical knowledge.
-  links:
-    linkedIn: https://es.linkedin.com/company/adevintaspain
-    web: https://adevinta.es/
-    instagram: https://www.instagram.com/adevintaspain/
-    twitter: https://twitter.com/AdevintaSpain
-  vacancies:
-    - title: Senior Backend Engineer
-      description: >-
-        The Storage team manages a vast number of Apache Kafka clusters for our marketplaces around the world. As part of the Data Highway area we play a key role in Adevinta’s Data Strategy. The data we collect is essential to our business as it feeds marketplaces with low-latency (“realtime”) updates, visitor insights analysis and targeted advertisement.<br/>
-        We solve exciting problems at scale by building technologies around Kafka, like APIs, monitoring and authentication systems, and gathering up to 900 million events per day while keeping users’ privacy and data security in mind. We also develop data services on top of our Kafka platform, providing capabilities like data catalog, lineage and IAM.<br/>
-        As a Senior Backend Engineer in the Data Highway area, you’ll have the opportunity to build a critical, state-of-the-art data transport layer for Adevinta marketplaces for a variety of components, such as classification, insights and understanding and modeling user behavior.<br/>
-      link: https://jobs.smartrecruiters.com/Adevinta/743999747144731-senior-backend-engineer
-    - title: Senior Backend Engineer Fotocasa
-      description: >-
-        We are looking for passionate developers to work in our development team and help us migrate to a reactive microservices architecture. As a team member you will be fully autonomous and responsible for the software and infrastructure delivered by your team, deploying, monitoring, and maintaining it using really cool tools.<br/>
-        We are looking for anyone that has the aim to participate actively in a DDD process implementation at a big scale.<br/>
-        If you want more information about this role, you can check all the details in <a href="https://bit.ly/2SeW1Vi">this post</a><br/>
-      link: https://bit.ly/36RWcd5
-    - title: Backend Engineer Milanuncios (Kotlin&Java)
-      description: >-
-        We are looking for passionate developers to work in Milanuncios development team. You will work with microservices stack formed by Kotlin, Spring Boot, PostgreSQL, Kafka deployed in Kubernetes.
-      link: https://bit.ly/3BsRCjo
-
-# Dynatrace
-- title: Dynatrace
-  type: premium
-  company:
-    name: Dynatrace
-    logo-url: /assets/img/sponsors/dynatrace.png
-    description: >-
-      Dynatrace is the world leader in software intelligence products to simplify enterprise cloud complexity and accelerate digital transformation. We offer solutions such Application performance management, Cloud infrastructure monitoring, IT Operations powered by AI and Digital customer experience.
-  links:
-    linkedIn: https://www.linkedin.com/company/dynatrace/
-    web: https://www.dynatrace.com/
-    instagram: https://www.instagram.com/dynatracelabs/
-    twitter: https://twitter.com/dynatrace
-  vacancies:
-    - title: Java Software Engineer
-      location: Barcelona, Spain
-      description: >-
-        <strong>Your role</strong><br/>
-        You will be developing the Dynatrace Digital Experience Monitoring Solution and depending on your preference specialization Full Stack or Server-Backend.<br/>
-        You will be working with high performing pure Java applications; JMH & workload simulators; Cassandra; Elastic Search; JUnit and other unit testing frameworks.<br/>
-        You will also be using other tools like BitBucket / JIRA / Jenkins / QuickBuild  and Confluence.<br/>
-        You, along with your team, will be designing and implementing new features in collaboration with your Product Manager, local and international development teams.<br/>
-        <strong>We expect</strong><br/>
-        You have a technical study related to Software Engineering (BsC or MsC) and / or a minimum of 5 years of experience in Java development, including architectural design.<br/>
-        You are excited of learning new technologies and are a team player with a proactive approach on facing challenges.<br/>
-        Key words: <i>Java | Server-side High Performance Computing | Big Data | Cloud Monitoring | AI-powered | Distributed Systems</i><br/>
-      link: https://jobs.barcelona.dynatrace.com/jobs/2a8e98ee-a080-4b71-b9a9-22faa530535e
-    - title: Android Software Engineer
-      location: Barcelona, Spain
-      description: >-
-        <strong>Your role</strong><br/>
-        You will join a multidisciplinary team where apart from Mobile you will also have access to the development of the whole end-to-end product<br/>
-        Mobile development for Android (Kotlin)<br/>
-        Knowledge/curiosity for other platforms/technologies is a plus (iOS, Java, Angular …)<br/>
-        Conception of new innovative features in close cooperation with product managers and software architects<br/>
-        Close interaction in an international development team, working with labs in other countries<br/>
-        What we do in the Dynatrace Barcelona Lab<br/>
-        Session Replay which allows organizations to play back unique web or mobile sessions in a “movie-like” experience, providing an end-to-end record of the customer journey from the user’s<br/> perspective. Session Replay is one of the Dynatrace’s best-in-class digital experience monitoring solution.<br/>
-        <strong>We expect</strong><br/>
-        Several years of experience as a Software Engineer, with in-depth knowledge of mobile development, getting projects completed and into production<br/>
-        Team player with a solid level of quality and pride in your own work, responsible and self-sufficient<br/>
-        Passion and pride for what you do<br/>
-        A healthy amount of curiosity, having fun in learning new technologies and tools<br/>
-        Taking beers with the team (just sometimes...) - remote friendly<br/>
-        Key words: <i>Android | Kotlin | Java | Multi-platform | Native | Open Source | Observability | APM</i><br/>
-      link: https://jobs.barcelona.dynatrace.com/jobs/9e3799ef-a63d-43cb-b859-831512378eaa
-    - title: Fullstack Software Engineer
-      location: Barcelona, Spain
-      description: >-
-        <strong>What we do in Barcelona LAB</strong><br/>
-        Session Replay which allows organizations to play back unique web or mobile sessions in a “movie-like” experience, providing an end-to-end record of the customer journey from the user’s<br/> perspective. Session Replay joins Dynatrace’s Real User and Synthetic Monitoring capabilities to extend the company’s all-in-one digital experience management offering.<br/>
-        <strong>Your role in the team</strong><br/>
-        Web browser Agent development in JavaScript<br/>
-        Data ingestion + Backend development in Java<br/>
-        Conception of new innovative Features in close cooperation with product managers and software architects<br/>
-        Close interaction in an international development team<br/>
-        <strong>We expect</strong><br/>
-        Several years of experience as a Software Engineer, with in-depth knowledge of JavaScript, especially about the inner workings of Web Browsers.<br/>
-        Several years of experience as a Software Engineer building REST endpoints with Java.<br/>
-        You know what SOLID stands for and can give some examples of each principle.<br/>
-        You’re familiar with TypeScript and used it in some of your projects.<br/>
-        You have experience debugging complex issues in a variety of browsers.<br/>
-        In your daily work you use JEST, KARMA, JUNIT or similar tools. You’ve done unit, integration and E2E testing.<br/>
-        HTTP essentials (methods, query params, response codes, …)<br/>
-        Proven track record in building software, getting projects completed and into production.<br/>
-        Passion and pride for what you do.<br/>
-        A healthy amount of curiosity, having fun in learning new Technologies and Tools.<br/>
-        Team player with a solid level of quality and pride in your own work, responsible and self sufficient.<br/>
-      link: https://jobs.barcelona.dynatrace.com/jobs/9a8b42c1-aeb8-4bb9-8bf1-173bd305ceec
-
-# ClearPay
-- title: Clearpay
-  type: premium
-  company:
-    name: Clearpay
-    logo-url: /assets/img/sponsors/clearpay.png
-    description: >-
-      Clearpay is an international payments platform, built to enable financial wellness for the next generation of shoppers. Consumers receive products immediately, pay in four interest-free instalments and are rewarded for paying on time
-  links:
-    linkedIn: https://www.linkedin.com/company/clearpay/
-    web: https://www.clearpay.com/es/
-    instagram: https://www.instagram.com/clearpay_es/
-    twitter: https://twitter.com/ClearpayEs
-  vacancies:
-    - title: Backend Software Engineer
-      description: >-
-        As Clearpay’s Java Software Engineer, you’ll join our team in Barcelona. Our Software Engineers are responsible for designing and developing software to enhance the Clearpay platform<br/> delivering value to Customers and Merchants. We operate in a fast paced and constantly changing industry and the development and maintenance of effective software is key to the ongoing success and future growth of the business. This is a perfect role for Engineers who thrive in a fast-paced environment where they are working with current technology and where their work matters and is appreciated.<br/>
-        We are much more than our job descriptions, but here’s where you will begin...<br/>
-        - Design, build, and maintain efficient, reusable, and reliable Java code<br/>
-        - Identify bottlenecks and bugs, and devise solutions to these problems<br/>
-        - Help maintain code quality, organization, and automatization<br/>
-        - Participate in code reviews, pair programming and trainings<br/>
-        - Architect and develop internal APIs and microservices for supporting services for our product<br/>
-        - Develop, deliver and monitor new features that satisfy our customers<br/>
-        Required skills and experience:<br/>
-        - At least 2 years of professional development experience with Java 8 to 14, and Spring Boot<br/>
-        - Working experience with J2EE, Spring, Spring Cloud, JPA, REST<br/>
-        - Fluency with Maven, multi-level maven projects life-cycle, GIT, JIRA<br/>
-        - Interest in CI tools, Docker, Sonar, Postman, JMeter, Profiling<br/>
-        - Follow best practices when developing software, delivering well tested and designed code.<br/>
-      link: https://jobs.lever.co/afterpaytouch/babd054d-d699-46ab-bb89-f1251d58c7e5
-    - title: Frontend Software Engineer - React
-      description: >-
-        As Clearpay’s Frontend Software Engineer, you’ll join our Checkout team in Barcelona. You will be part of our diverse and international department, working in a cross-functional development team. The Checkout team is responsible for smoothly onboarding users across Europe to our split-payment service.<br/>
-        We are much more than our job descriptions, but here’s where you will begin...<br/>
-        - Deliver high quality, tested, maintainable and well-structured code, as well as supporting documentation<br/>
-        - Architect and develop internal APIs and microservices for supporting services for our product<br/>
-        - Develop and test public web interfaces for our merchants<br/>
-        - Own the entire cycle of business features, including Q/A, monitoring, and DevOps<br/>
-        - Develop, deliver and monitor new features that satisfy our customers<br/>
-        - Maintain and improve existing tools, contributing with smart ideas and solutions to the good evolution of the current services<br/>
-        We are looking for a Full Stack Software Engineer with strong React and general front-end experience, as well as with testing and CSS frameworks.<br/>
-        Required skills and experience:<br/>
-        - At least 2 years of professional development experience with React/Redux<br/>
-        - Experience with some backend language desired<br/>
-        - Follow best practices when developing software, delivering simple, efficient, well tested and designed code<br/>
-        - Test-driven mindset<br/>
-        - Business-driven mindset for delivering software solutions within a product team<br/>
-        - Knowledge of software design and architecture in server-side applications<br/>
-      link: https://jobs.lever.co/afterpaytouch/381f4165-e941-467a-9471-05c6209af389
-    - title: Engineering Manager - Frontend
-      description: >-
-        As Afterpay’s Engineering Manager for Payments, you’ll be focused on initiatives that will engage & delight millions of users around the world while creating value for our merchants and<br/> Afterpay’s business.<br/>
-        We are much more than our job descriptions, but here’s where you will begin...<br/>
-        - Ensure the team is consistently delivering working software to our expected standards<br/>
-        - Actively participate in the development and maintenance of Afterpay standards for software development, testing, release management, and reviews<br/>
-        - Technical ownership of the work that your team is delivering within each iteration or standalone deliverable<br/>
-        - Shared responsibility for the architecture of the system<br/>
-        - Proactively supporting your team members to achieve their performance and development goals<br/>
-        - Ensure the team is collaborating closely with our cross-functional teams consisting of designers, product managers, engineers, and QA in an agile, fast-paced environment<br/>
-        Required skills and experience:<br/>
-        - Bachelor’s degree or equivalent practical experience<br/>
-        - 2+ years of engineering leadership experience<br/>
-        - 5+ years of Frontend engineering experience<br/>
-        -Experience driving end-to-end engineering architecture and design for scalable, high-availability, and resilient services.<br/>
-        - Passionate about coaching and people development<br/>
-        - Strong communication and stakeholder management skills<br/>
-        - Passionate about adding to and growing an organization’s engineering culture<br/>
-        - Enjoy driving the technical and product vision<br/>
-      link: https://jobs.lever.co/afterpaytouch/65189874-32bc-4f52-9ce8-167f50a7799c
-# Capgemini
-- title: Capgemini
-  type: premium
-  company:
-    name: Capgemini
-    logo-url: /assets/img/sponsors/capgemini.jpg
-    description: >-
-      Capgemini is a global leader in partnering with companies to transform and manage their business by harnessing the power of technology. The Group is guided everyday by its purpose of unleashing human energy through technology for an inclusive and sustainable future
-  links:
-    web: https://www.capgemini.com/
-    twitter: https://twitter.com/CapgeminiEng
-    instagram: https://www.instagram.com/capgeminiengineeringes/
-    linkedIn: https://www.linkedin.com/company/capgemini-engineering/
-  vacancies:
-    - title: Technical Lead
-      description: >-
-        Estamos buscando una persona con experiencia liderando técnicamente equipos, ¿eres tú?
-      link: https://www.infojobs.net/madrid/technical-lead/of-i604336eee94928b8f3a718b8086483
-    - title: Full Stack Senior Developer
-      description: >-
-        Buscamos expertos para el desarrollo de varios proyectos, estarán involucrad@s en la definición y creación de soluciones técnicas en las tecnologías indicadas para clientes TOP. ¿Hablamos?
-      link: https://www.linkedin.com/jobs/search/?currentJobId=2652958451&keywords=capgemini
-    - title: Desarrollador/a API Swagger
-      description: >-
-        Actualmente estamos buscando una persona con experiencia en desarrollo y diseño de API para formar parte de un equipo especializado en esta tecnología. ¿quieres conocerlo?
-      link: https://www.infojobs.net/madrid/desarrollador-api-swagger/of-i89f504591148c1bd5c892d59abd1ae
-
-# Roche
-- title: Roche
-  type: premium
-  company:
-    name: Roche
-    logo-url: /assets/img/sponsors/roche.jpg
-    description: Doing now what patients need next
-  links:
-    linkedIn: https://www.linkedin.com/company/roche/
-    web: https://www.roche.es
-    twitter: https://www.twitter.com/roche_es
-    instagram: https://www.instagram.com/roche_es
-  vacancies:
-    - title: Principal Software Engineer
-      location: Sant Cugat del Vallès, Spain
-      description: >-
-        - Your main responsibilities will include:<br/>
-        Software Development: This is a hands-on software development position to write high-quality software that will perform at scale, be supportable, and be extensible.<br/>
-        Process & Operations: Ensure the software stack integrates with our existing CI/CD pipeline and contribute to continuous improvement; independently design, plan and deliver high-quality<br/> software
-        Leadership: Ensure a culture that values technical excellence together with support and compassion for individuals<br/>
-        Platform Components/Services Ownership: In collaboration with the Platform Owners, since the platform is intended for developers, you may take ownership over specific requirements related to<br/> platform components or services, defining the details and prioritizing based on other developer needs.<br/>
-        - Who you are<br/>
-        We are looking for a motivated and committed person able to inspire our team oriented towards the values of passion, integrity and courage!<br/>
-        - Moreover you bring:<br/>
-        BS/MS degree in Computer Science or directly related field<br/>
-        10+ years of hands-on industry experience as a software engineer<br/>
-        Experience providing leadership and mentorship to more junior engineers in the teams<br/>
-        Talent to quickly understand sophisticated workflows and develop and validate innovative solutions to tackle difficult problems<br/>
-        Ability to influence within and outside the team. You actively participate and influence in open/inner-sourcing initiatives and/or software communities.<br/>
-      link: https://www.linkedin.com/jobs/view/2643778396/?refId=g4uQDFD351NUoJAL%2F3xRGQ%3D%3D&trackingId=ywpgygga2qZPCy98lXhCGw%3D%3D&trk=d_flagship3_company&lipi=urn%3Ali%3Apage%3Acompanies_company_jobs_jobs%3Byju44M94Q7W4dsvSL2MyFg%3D%3D
-    - title: Distinguished Software Engineer
-      location: Sant Cugat del Vallès, Spain
-      description: >-
-        - Your main responsibilities will include<br/>
-        As the Distinguished Software Engineer, you will be responsible for driving customer and business value through being a catalyst for software engineering excellence. You will be in a key<br/> influencer role to help shape and enable the RIS Architecture & Technology strategy and contribute to the overall Roche Diagnostics Software transformation and capabilities building. Through coaching, mentoring, you’ll be focused on improving the way we develop software across Lab Insights Software Engineering, in close collaboration with the Chief Software Engineer.<br/>
-        You will provide effective leadership for the team in a manner that is consistent with the Roche values and leadership commitments. You will seek to inspire and lead your team to create transformative solutions ensuring that Information Solutions products are recognised as being the best in the Diagnostics industry and maintain our #1 ranking in the future.<br/>
-        Reporting to the Head of Lab Insights Software Engineering in Architecture and SW Engineering, at Roche Information Solutions (RIS), you will work closely with the rest of the Lab Insights<br/> software engineering teams, as well as Lab Insights Customer area in RIS to deliver high quality products.<br/>
-        - In this role, you will<br/>
-        Coach, mentor, and act as a role model for software excellence<br/>
-        Support the Chief Software Engineer to build community of domain experts in various competency areas such as code quality, CI/CD and test automation<br/>
-        Provide coaching and training on specific domain areas<br/>
-      link: https://www.linkedin.com/jobs/view/2632196021/?refId=h%2FMmJEX3YG3d0KvZcSf9mg%3D%3D&trackingId=ncQNuQJXVbmPjZA70E41qA%3D%3D
-    - title: RIS - Senior Software Engineer
-      description: >-
-        - Your main responsibilities will include<br/>
-        Design, implement and test software components in new and product maintenance projects following Roche RIS standards and procedures. Specifically<br/>
-        Design of units and components meeting the technical requirements (functional and non-functional)<br/>
-        Implementation of the design into code<br/>
-        Provision documentation on all levels (code, unit, test, …)<br/>
-        Participation in sprint planning by<br/>
-        Analyze the product backlog items<br/>
-        Estimate the work effort for sprint backlog<br/>
-        Commit to the sprint backlog<br/>
-        Participate in the sprint evaluation by oSupporting the presentation of the sprint deliverables<br/>
-        Supporting continuous improvement by providing feedback in the sprint retrospective<br/>
-        Provide work status and issue notification to appropriate project members and line management as requested<br/>
-        Collaborate within the team and the entire organization<br/>
-        Follow industry standard applications development techniques and practices<br/>
-        Communicate effectively in English and Spanish<br/>
-        - Who You Are<br/>
-        We are looking for a motivated and committed person able to inspire our team oriented towards the values of passion, integrity and courage!<br/>
-        Moreover you bring<br/>
-        Leadership skills to facilitate collaborative work among team members<br/>
-        The proficiency to perform adequate stakeholder management and guide the process to a successful outcome<br/>
-        Good communication and negotiation skills<br/>
-        The Capability to abstract and transform customer needs into simple, tangible and structured expectations<br/>
-      location: Sant Cugat del Vallès, Spain
-      link: https://www.linkedin.com/jobs/view/2631503542/?refId=g4uQDFD351NUoJAL%2F3xRGQ%3D%3D&trackingId=UGp6VXMIiDRPqgKuaute%2FQ%3D%3D
-
+[
+  {
+    "company": {
+      "name": "Dynatrace",
+      "logo-url": "/assets/img/sponsors/dynatrace.png",
+      "description": "Dynatrace is the world leader in software intelligence products to simplify enterprise cloud complexity and accelerate digital transformation. We offer solutions such Application performance management, Cloud infrastructure monitoring, IT Operations powered by AI and Digital customer experience.",
+      "level": "premium",
+    },
+    "links": {
+      "linkedIn": "https://www.linkedin.com/company/dynatrace/",
+      "web": "https://www.dynatrace.com/",
+      "instagram": "https://www.instagram.com/dynatracelabs/",
+      "twitter": "https://twitter.com/dynatrace"
+    },
+    "vacancies": [
+      {
+        "title": "Java Software Engineer",
+        "location": "Barcelona, Spain",
+        "description": "<strong>Your role</strong><br/> You will be developing the Dynatrace Digital Experience Monitoring Solution and depending on your preference specialization Full Stack or Server-Backend.<br/> You will be working with high performing pure Java applications; JMH & workload simulators; Cassandra; Elastic Search; JUnit and other unit testing frameworks.<br/> You will also be using other tools like BitBucket / JIRA / Jenkins / QuickBuild  and Confluence.<br/> You, along with your team, will be designing and implementing new features in collaboration with your Product Manager, local and international development teams.<br/> <strong>We expect</strong><br/> You have a technical study related to Software Engineering (BsC or MsC) and / or a minimum of 5 years of experience in Java development, including architectural design.<br/> You are excited of learning new technologies and are a team player with a proactive approach on facing challenges.<br/> Key words: <i>Java | Server-side High Performance Computing | Big Data | Cloud Monitoring | AI-powered | Distributed Systems</i><br/>",
+        "link": "https://jobs.barcelona.dynatrace.com/jobs/2a8e98ee-a080-4b71-b9a9-22faa530535e"
+      },
+      {
+        "title": "Android Software Engineer",
+        "location": "Barcelona, Spain",
+        "description": "<strong>Your role</strong><br/> You will join a multidisciplinary team where apart from Mobile you will also have access to the development of the whole end-to-end product<br/> Mobile development for Android (Kotlin)<br/> Knowledge/curiosity for other platforms/technologies is a plus (iOS, Java, Angular …)<br/> Conception of new innovative features in close cooperation with product managers and software architects<br/> Close interaction in an international development team, working with labs in other countries<br/> What we do in the Dynatrace Barcelona Lab<br/> Session Replay which allows organizations to play back unique web or mobile sessions in a “movie-like” experience, providing an end-to-end record of the customer journey from the user’s<br/> perspective. Session Replay is one of the Dynatrace’s best-in-class digital experience monitoring solution.<br/> <strong>We expect</strong><br/> Several years of experience as a Software Engineer, with in-depth knowledge of mobile development, getting projects completed and into production<br/> Team player with a solid level of quality and pride in your own work, responsible and self-sufficient<br/> Passion and pride for what you do<br/> A healthy amount of curiosity, having fun in learning new technologies and tools<br/> Taking beers with the team (just sometimes...) - remote friendly<br/> Key words: <i>Android | Kotlin | Java | Multi-platform | Native | Open Source | Observability | APM</i><br/>",
+        "link": "https://jobs.barcelona.dynatrace.com/jobs/9e3799ef-a63d-43cb-b859-831512378eaa"
+      },
+      {
+        "title": "Fullstack Software Engineer",
+        "location": "Barcelona, Spain",
+        "description": "<strong>What we do in Barcelona LAB</strong><br/> Session Replay which allows organizations to play back unique web or mobile sessions in a “movie-like” experience, providing an end-to-end record of the customer journey from the user’s<br/> perspective. Session Replay joins Dynatrace’s Real User and Synthetic Monitoring capabilities to extend the company’s all-in-one digital experience management offering.<br/> <strong>Your role in the team</strong><br/> Web browser Agent development in JavaScript<br/> Data ingestion + Backend development in Java<br/> Conception of new innovative Features in close cooperation with product managers and software architects<br/> Close interaction in an international development team<br/> <strong>We expect</strong><br/> Several years of experience as a Software Engineer, with in-depth knowledge of JavaScript, especially about the inner workings of Web Browsers.<br/> Several years of experience as a Software Engineer building REST endpoints with Java.<br/> You know what SOLID stands for and can give some examples of each principle.<br/> You’re familiar with TypeScript and used it in some of your projects.<br/> You have experience debugging complex issues in a variety of browsers.<br/> In your daily work you use JEST, KARMA, JUNIT or similar tools. You’ve done unit, integration and E2E testing.<br/> HTTP essentials (methods, query params, response codes, …)<br/> Proven track record in building software, getting projects completed and into production.<br/> Passion and pride for what you do.<br/> A healthy amount of curiosity, having fun in learning new Technologies and Tools.<br/> Team player with a solid level of quality and pride in your own work, responsible and self sufficient.<br/>",
+        "link": "https://jobs.barcelona.dynatrace.com/jobs/9a8b42c1-aeb8-4bb9-8bf1-173bd305ceec"
+      }
+    ]
+  },
+  {
+    "company": {
+      "name": "Capgemini",
+      "logo-url": "/assets/img/sponsors/capgemini.jpg",
+      "description": "Capgemini is a global leader in partnering with companies to transform and manage their business by harnessing the power of technology. The Group is guided everyday by its purpose of unleashing human energy through technology for an inclusive and sustainable future",
+      "level": "premium",
+    },
+    "links": {
+      "web": "https://www.capgemini.com/",
+      "twitter": "https://twitter.com/CapgeminiEng",
+      "instagram": "https://www.instagram.com/capgeminiengineeringes/",
+      "linkedIn": "https://www.linkedin.com/company/capgemini-engineering/"
+    },
+    "vacancies": [
+      {
+        "title": "Technical Lead",
+        "description": "Estamos buscando una persona con experiencia liderando técnicamente equipos, ¿eres tú?",
+        "link": "https://www.infojobs.net/madrid/technical-lead/of-i604336eee94928b8f3a718b8086483"
+      },
+      {
+        "title": "Full Stack Senior Developer",
+        "description": "Buscamos expertos para el desarrollo de varios proyectos, estarán involucrad@s en la definición y creación de soluciones técnicas en las tecnologías indicadas para clientes TOP. ¿Hablamos?",
+        "link": "https://www.linkedin.com/jobs/search/?currentJobId=2652958451&keywords=capgemini"
+      },
+      {
+        "title": "Desarrollador/a API Swagger",
+        "description": "Actualmente estamos buscando una persona con experiencia en desarrollo y diseño de API para formar parte de un equipo especializado en esta tecnología. ¿quieres conocerlo?",
+        "link": "https://www.infojobs.net/madrid/desarrollador-api-swagger/of-i89f504591148c1bd5c892d59abd1ae"
+      }
+    ]
+  }
+]
