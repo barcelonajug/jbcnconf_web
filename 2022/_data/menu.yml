@@ -7,10 +7,12 @@ items:
   href: "/#Speakers"
 - label: Talks
   href: "/talks.html"
-#- label: Schedule
-#  href: "/schedule.html"
+- label: Workshops
+  href: "/workshops.html"
 - label: Sponsors
   href: "/#Sponsors"
+#- label: Schedule
+#  href: "/schedule.html"
 #- label: Job Offers
 #  href: "/job-offers.html"
 - label: Code of conduct
