@@ -189,7 +189,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                     </div>
                                     <div class="entries">
                                         {% for entry in site.data.jobs %}
-                                        <div class="entry entry-{{ entry.type }}">
+                                        <div class="entry entry-{{ entry.company.level }}">
                                             <div class="company-info">
                                                 <div style="text-align:center;">
                                                     <img id="{{entry.company.name}}" src="{{ base }}{{ entry.company.logo-url }}"
@@ -198,7 +198,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                                 </div>
                                                 <div>
                                                     <h3 class="company-name" style="text-align:center;">
-                                                        {{ entry.title }}
+                                                        {{ entry.company.name }}
                                                     </h3>
                                                     <div class="social-media">
                                                         {% if entry.links.linkedIn %}
