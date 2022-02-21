@@ -55,7 +55,7 @@
     {
       "enabled": "1",
       "name": "Mauricio Salatino",
-      "company": "VMWare",
+      "company": "VMware",
       "description": "Staff Engineer",
       "biography": "Mauricio is currently working at the Knative OSS Project as part of the VMWare MAPBU team. He is the author of the Continuous Delivery for Kubernetes book for Manning and he is passionate about Open Source, Cloud Native and Kubernetes. You can always get in touch with him via Twitter @Salaboy. ",
       "image": "assets/img/speakers/mauricio-salatino.jpg",
@@ -80,6 +80,19 @@
     },
     {
       "enabled": "1",
+      "name": "Thomas Vitale",
+      "company": "Systematic",
+      "description": "Software Architect",
+      "biography": "Thomas is a Software Architect specialized in building highly-scalable, resilient, and secure enterprise applications. He develops software solutions at Systematic, Denmark, where he’s been working on modernizing platforms and applications for the cloud-native world, focusing on developer experience and security. Thomas likes contributing to open-source projects like Spring Security and Spring Cloud. He’s the author of “Cloud Native Spring in Action - With Spring Boot and Kubernetes”, published by Manning, where some of his main interests converged, such as Kubernetes, Buildpacks, Knative, and other cloud-native technologies.",
+      "image": "assets/img/speakers/thomas-vitale.jpg",
+      "ref": "311027298ebb9e1b88923214cff580786cf3d908",
+      "url": "infoSpeaker.html?ref=311027298ebb9e1b88923214cff580786cf3d908",
+      "homepage": "https://www.thomasvitale.com",
+      "twitter": "@vitalethomas",
+      "linkedin": "https://www.linkedin.com/in/vitalethomas/"
+    },
+    {
+      "enabled": "1",
       "name": "Alberto Salazar",
       "company": "Advance Latam ",
       "description": "CTO",
@@ -90,6 +103,19 @@
       "homepage": "https://lasalazarr.github.io/blog/",
       "twitter": "@betoSalazar",
       "linkedin": "https://www.linkedin.com/in/alberto-salazar-15334154"
+    },
+    {
+      "enabled": "1",
+      "name": "Grace Jansen",
+      "company": "IBM",
+      "description": "Developer Advocate",
+      "biography": "Grace is a Developer Advocate at IBM, working with Open Liberty, MicroProfile and Cloud Technologies. She has been with IBM since graduating from Exeter University with a Degree in Biology. Grace enjoys bringing a varied perspective to her projects and using her knowledge of biological systems to simplify complex software patterns and architectures. As a developer advocate, Grace builds POC’s, demos and sample applications, and writes guides and tutorials. She is a regular presenter at international technology conferences and has authored a book on reactive systems. Grace also has a keen passion for encouraging more women into STEM and especially Technology careers.",
+      "image": "assets/img/speakers/grace-jensen.jpg",
+      "ref": "b21e540e924111f0e9d271ed82350fa020b9972e",
+      "url": "infoSpeaker.html?ref=b21e540e924111f0e9d271ed82350fa020b9972e",
+      "homepage": "",
+      "twitter": "@gracejansen27",
+      "linkedin": "https://www.linkedin.com/in/grace-jansen/"
     },
     {
       "enabled": "1",
@@ -132,6 +158,19 @@
     },
     {
       "enabled": "1",
+      "name": "Simon Brown",
+      "company": "Architectis",
+      "description": "Independent Consultant",
+      "biography": "Simon is an independent consultant specialising in software architecture, and the author of “Software Architecture for Developers” (a developer-friendly guide to software architecture, technical leadership and the balance with agility). He is also the creator of the C4 model for visualising software architecture, and the founder of Structurizr. Simon is a regular speaker at international software development conferences, and travels the world to help organisations visualise and document their software architecture.",
+      "image": "assets/img/speakers/simonbrown.jpg",
+      "ref": "a51f5e99c5211c81d99cd6f4e4217940c41e2d5d",
+      "url": "infoSpeaker.html?ref=a51f5e99c5211c81d99cd6f4e4217940c41e2d5d",
+      "homepage": "https://simonbrown.je/",
+      "twitter": "@simonbrown",
+      "linkedin": ""
+    },
+    {
+      "enabled": "1",
       "name": "Maarten Mulders",
       "company": "Info Support",
       "description": "IT Architect",
@@ -155,6 +194,19 @@
       "homepage": "",
       "twitter": "@ammbra1508",
       "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Edoardo Vacchi",
+      "company": "Red Hat",
+      "description": "Principal Software Engineer",
+      "biography": "During my PhD I researched language design and implementation at University of Milan. After three years at UniCredit Bank’s R&D department, I have joined Red Hat in the KIE group. My current work is mainly on the Drools rules engine and the Kogito project.",
+      "image": "assets/img/speakers/edoardo-vacchi.png",
+      "ref": "2b7ec441cce9bb5ab34f86732420a111c517420a",
+      "url": "infoSpeaker.html?ref=2b7ec441cce9bb5ab34f86732420a111c517420a",
+      "homepage": "https://evacchi.github.io",
+      "twitter": "@evacchi",
+      "linkedin": "https://www.linkedin.com/in/edoardovacchi/"
     },
     {
       "enabled": "1",
