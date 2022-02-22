@@ -36,4 +36,9 @@ regular:
     image:
       src: "/assets/img/sponsors/adaptive-logo.png"
       alt: Adaptive
+  - name: Roche
+    href: https://www.roche.es
+    image:
+      src: "/assets/img/sponsors/roche.jpg"
+      alt: Roche
 supporters:
