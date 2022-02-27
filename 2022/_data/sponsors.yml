@@ -20,6 +20,11 @@ premium:
     image:
       src: "/assets/img/sponsors/dynatrace.jpg"
       alt: Dynatrace
+  - name: Cloudblue
+    href: https://www.cloudblue.com/company/careers/barcelona/
+    image:
+      src: "/assets/img/sponsors/cloudblue.jpg"
+      alt: Cloudblue
 regular:
   - name: Capitole Consulting
     href: https://capitole-consulting.com/about/
