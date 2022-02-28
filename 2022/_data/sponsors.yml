@@ -20,6 +20,11 @@ premium:
     image:
       src: "/assets/img/sponsors/dynatrace.jpg"
       alt: Dynatrace
+  - name: Lifull
+      href: https://www.lifullconnect.com/careers/
+      image:
+        src: "/assets/img/sponsors/lifull.png"
+        alt: Lifull Connect
   - name: Cloudblue
     href: https://www.cloudblue.com/company/careers/barcelona/
     image:
