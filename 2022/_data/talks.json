@@ -342,6 +342,23 @@
       "speakers": [
         "311027298ebb9e1b88923214cff580786cf3d908"
       ]
+    },
+    {
+      "id": "621909084010570ba9b6dd6c",
+      "title": "Choose your own adventure with Spring Security",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Learn and apply Spring Security 5+ in a collection of individual challenges, for all levels. From picking the right dependency, to enforcing security constraints. Choose from a series of self-guided exercises around authorization to suit your needs. Topics include: OpenID Connect, Keycloak and integrating with Spring Cloud Gateway, Spring Data and Testing. Walk away with increased confidence in Spring Security and what it can do for your projects.",
+      "type": "workshop",
+      "tags": [
+        "Spring",
+        "Security"
+      ],
+      "level": "middle",
+      "speakers": [
+        "77c600183db4294a11712dd71a78a680b7008818"
+      ]
     }
   ]
 }
