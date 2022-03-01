@@ -20,6 +20,16 @@ premium:
     image:
       src: "/assets/img/sponsors/dynatrace.jpg"
       alt: Dynatrace
+  - name: Lifull
+    href: https://www.lifullconnect.com/careers/
+    image:
+      src: "/assets/img/sponsors/lifull.png"
+      alt: Lifull Connect
+  - name: Cloudblue
+    href: https://www.cloudblue.com/company/careers/barcelona/
+    image:
+      src: "/assets/img/sponsors/cloudblue.jpg"
+      alt: Cloudblue
 regular:
   - name: Capitole Consulting
     href: https://capitole-consulting.com/about/
@@ -36,4 +46,9 @@ regular:
     image:
       src: "/assets/img/sponsors/adaptive-logo.png"
       alt: Adaptive
+  - name: Roche
+    href: https://www.roche.es
+    image:
+      src: "/assets/img/sponsors/roche.jpg"
+      alt: Roche
 supporters:
