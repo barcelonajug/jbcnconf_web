@@ -80,6 +80,19 @@
     },
     {
       "enabled": "1",
+      "name": "Tim te Beek",
+      "company": "JDriven",
+      "description": "Senior Software Engineer",
+      "biography": "Senior software engineer who enjoys working with and contributing to Open Source such as Spring Boot, Kafka, WireMock, OpenRewrite and ArchUnit. When not at work you'll find me travelling, bouldering, snowboarding, surfing or at one of many cultural events around my home town or abroad.",
+      "image": "assets/img/speakers/tim-te-beek.jpeg",
+      "ref": "77c600183db4294a11712dd71a78a680b7008818",
+      "url": "infoSpeaker.html?ref=77c600183db4294a11712dd71a78a680b7008818",
+      "homepage": "https://github.com/timtebeek",
+      "twitter": "@timtebeek",
+      "linkedin": "https://www.linkedin.com/in/timtebeek/"
+    },
+    {
+      "enabled": "1",
       "name": "Thomas Vitale",
       "company": "Systematic",
       "description": "Software Architect",
