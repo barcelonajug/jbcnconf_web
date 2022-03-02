@@ -80,6 +80,19 @@
     },
     {
       "enabled": "1",
+      "name": "Nate Schutta",
+      "company": "VMware",
+      "description": "Architect as a Service",
+      "biography": "Nathaniel T. Schutta is a software architect focused on cloud computing and building usable applications. A proponent of polyglot programming, Nate has written multiple books and appeared in various videos. He is a seasoned speaker, regularly presenting at conferences worldwide, No Fluff Just Stuff symposia, meetups, universities, and user groups. In addition to his day job, Nate is an adjunct professor at the University of Minnesota where he teaches students to embrace (and evaluate) technical change. Driven to rid the world of bad presentations, Nate co-authored the book Presentation Patterns (O’Reilly Media, 2016) with Neal Ford and Matthew McCullough. He also recently published Thinking Architecturally (O’Reilly Media, 2018), available as a free download from VMware.",
+      "image": "assets/img/speakers/nate-schutta.jpg",
+      "ref": "ab822b577be6a2418593327d0530f2e48da634a4",
+      "url": "infoSpeaker.html?ref=ab822b577be6a2418593327d0530f2e48da634a4",
+      "homepage": "http://ntschutta.io",
+      "twitter": "@ntschutta",
+      "linkedin": ""
+    },
+    {
+      "enabled": "1",
       "name": "Tim te Beek",
       "company": "JDriven",
       "description": "Senior Software Engineer",
@@ -246,6 +259,19 @@
       "homepage": "https://kittylyst.com",
       "twitter": "@kittylyst",
       "linkedin": "https://www.linkedin.com/in/kittylyst/"
+    },
+    {
+      "enabled": "1",
+      "name": "Jakub Pilimon",
+      "company": "VMware",
+      "description": "Developer Advocate",
+      "biography": "Jakub Pilimon is a Staff Technologist at VMware, blogger, programmer, and trainer. His main duty is to tackle complex enterprises with Domain-Driven Design and to propose a model and architecture that solves a problem. Sometimes he is involved in refactoring projects. When he isn’t coding, you can find him riding his bike, reading, or practicing kitesurfing.",
+      "image": "assets/img/speakers/jakub-pilimon.jpg",
+      "ref": "8730b5530ca70d453220ebfa9278c051d0492045",
+      "url": "infoSpeaker.html?ref=8730b5530ca70d453220ebfa9278c051d0492045",
+      "homepage": "https://tanzu.vmware.com/developer/team/jakub-pilimon/",
+      "twitter": "@JakubPilimon",
+      "linkedin": ""
     }
   ]
 }

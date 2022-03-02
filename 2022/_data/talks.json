@@ -359,6 +359,27 @@
       "speakers": [
         "77c600183db4294a11712dd71a78a680b7008818"
       ]
+    },
+    {
+      "id": "621909364010570ba9b6dd6d",
+      "title": "Spring For Architects",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "With globally distributed applications (and teams!) the job of software architect isn’t getting any easier; applications are growing increasingly complex and architects are spread thin. You can’t be involved with every decision, you must empower your teams while ensuring they are making good choices. How do you do that? How can frameworks like Spring not only make your life easier but help your teams deliver robust applications to production? Spring Cloud has a veritable plethora of sub projects from circuit breakers to functions simplifying the task of building cloud native applications while making it easy for developers to adhere to best practices. At the same time it can be overwhelming to get your head wrapped around all the features Spring offers. This talk will show how Spring allows architects to focus on the critical design decisions they need to make while ensuring developers are empowered to implement critical business use cases. Today’s cloud native applications have similar pitfalls, luckily Spring is here to help you resolve them!",
+      "type": "workshop",
+      "tags": [
+        "spring",
+        "java",
+        "architecture",
+        "cloud native",
+        "architect"
+      ],
+      "level": "middle",
+      "speakers": [
+        "ab822b577be6a2418593327d0530f2e48da634a4",
+        "8730b5530ca70d453220ebfa9278c051d0492045"
+      ]
     }
   ]
 }
