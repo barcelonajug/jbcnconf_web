@@ -30,6 +30,11 @@ premium:
     image:
       src: "/assets/img/sponsors/cloudblue.jpg"
       alt: Cloudblue
+  - name: Netcentric
+    href: https://www.netcentric.biz
+    image:
+      src: "/assets/img/sponsors/netcentric.jpg"
+      alt: Netcentric
 regular:
   - name: Capitole Consulting
     href: https://capitole-consulting.com/about/
@@ -51,4 +56,9 @@ regular:
     image:
       src: "/assets/img/sponsors/roche.jpg"
       alt: Roche
+  - name: Azul
+    href: https://www.azul.com/?utm_medium=event&utm_campaign=infl-events&utm_source=event&utm_content=JBCN&utm_term=
+    image:
+      src: "/assets/img/sponsors/azul.jpg"
+      alt: Azul
 supporters:
