@@ -272,6 +272,19 @@
       "homepage": "https://tanzu.vmware.com/developer/team/jakub-pilimon/",
       "twitter": "@JakubPilimon",
       "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Daniel Oh",
+      "company": "Red Hat",
+      "description": "Senior Principal Developer Advocate",
+      "biography": "Daniel Oh is a senior principal technical marketing manager at Red Hat to evangelize developers for building Cloud-Native Microservices and Serverless Functions with Cloud-Native Runtimes(i.e. Quarkus, Spring Boot, Node.js) and OpenShift/Kubernetes. Daniel also continues to contribute to various cloud open-source projects and ecosystems as a CNCF ambassador for accelerating DevOps adoption in enterprises. He's speaking at lots of technical seminars, workshops, and meetups to elaborate on new emerging technologies for enterprise developers & DevOps teams.",
+      "image": "assets/img/speakers/daniel-oh.jpeg",
+      "ref": "772aed76233c2cc81c2c9787426760c125fbe421",
+      "url": "infoSpeaker.html?ref=772aed76233c2cc81c2c9787426760c125fbe421",
+      "homepage": "http://bit.ly/danielohtv",
+      "twitter": "@danieloh30",
+      "linkedin": "https://www.linkedin.com/in/daniel-oh-083818112/"
     }
   ]
 }
