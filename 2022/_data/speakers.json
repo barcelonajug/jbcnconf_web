@@ -285,6 +285,19 @@
       "homepage": "http://bit.ly/danielohtv",
       "twitter": "@danieloh30",
       "linkedin": "https://www.linkedin.com/in/daniel-oh-083818112/"
+    },
+    {
+      "enabled": "1",      
+      "name": "Ivar Grimstad",
+      "company": "Eclipse Foundation",
+      "description": "Jakarta EE Developer Advocate",
+      "biography": "Ivar Grimstad is the Jakarta EE Developer Advocate at Eclipse Foundation. He is a Java Champion and JUG Leader based in Sweden.\n\nBesides advocating the Jakarta EE technologies, Ivar is contributing to the Jakarta EE specifications as well as being the PMC Lead for Eclipse Enterprise for Java (EE4J). He is also one of the specification leads for Jakarta MVC and represents Eclipse Foundation in the JCP Executive Committee.\n\nIvar is also involved in MicroProfile, Apache NetBeans, and a wide range of other open-source projects and communities. He is a frequent speaker at International developer conferences.",
+      "image": "assets/img/speakers/ivar-grimstad.jpg",
+      "ref": "d8b71cf333c0d6c1dd9126059adf41444e95a605",
+      "url": "infoSpeaker.html?ref=d8b71cf333c0d6c1dd9126059adf41444e95a605",
+      "homepage": "https://agilejava.eu",
+      "twitter": "@ivar_grimstad",
+      "linkedin": "https://www.linkedin.com/in/ivargrimstad/"      
     }
   ]
 }
