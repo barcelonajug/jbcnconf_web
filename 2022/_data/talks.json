@@ -400,6 +400,24 @@
       "speakers": [
         "772aed76233c2cc81c2c9787426760c125fbe421"
       ]
+    },
+    {
+      "id": "621909594010570ba9b6dd6e",
+      "title": "Jakarta EE 10 Feature by Feature",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Jakarta EE 10 is here with lots of new features and improvements. This session will go through these features one by one with live coding examples of how to use them.\nYou will get a full overview of what Jakarta EE 10 brings to the table, including the brand new Jakarta EE Core Profile that targets smaller runtimes.\nIf time allows, a sneak peek into what to expect beyond Jakarta EE 10 will also be provided.\n",
+      "type": "talk",
+      "tags": [
+        "Jakarta EE",
+        "Cloud",
+        "Enterprise Java"
+      ],
+      "level": "middle",
+      "speakers": [
+        "d8b71cf333c0d6c1dd9126059adf41444e95a605"
+      ]
     }
   ]
 }
