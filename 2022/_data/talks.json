@@ -436,6 +436,25 @@
       "speakers": [
         "a4529dc3081fc5242a51aecadc114b5ff5aa1520"
       ]
+    },
+    {
+      "id": "62190ab64010570ba9b6dd6f",
+      "title": "What the heck is DevRel?",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "In recent years, we have seen new job titles appear, at the crossroads between tech, marketing and the community: Developer Advocate, Developer Evangelist, Technical Advocate… These jobs are grouped together in a large category: Developer Relations, or quite simply DevRel ... But what exactly is a DevRel? What does he/she do for a living? Is he/she just a glitter thrower? Does he/she spend his/her life in conferences? Does he/she know airports and train stations inside out? Does he/she have a unicorn costume in his/her luggage? Aurélie and Horacio will show you in this talk, with their humor and good mood, their daily life, the different types of activities and what is really behind this DevRel job… And you might even get some little anecdotes ^^",
+      "type": "talk",
+      "tags": [
+        "DevRel",
+        "Job",
+        "Development"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "f3a44479f0e0e748cca666a713d65df707eb5016",
+        "e2f19f832dda1ec89c3019769e30a7d00f564198"
+      ]
     }
   ]
 }
