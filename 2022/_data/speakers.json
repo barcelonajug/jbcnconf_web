@@ -311,6 +311,19 @@
       "homepage": "https://brianvermeer.nl/",
       "twitter": "@BrianVerm",
       "linkedin": "https://www.linkedin.com/in/brianvermeer/"
+    },
+    {
+      "enabled": "1",
+      "name": "Aurélie Vache",
+      "company": "OVHcloud",
+      "description": "DevRel",
+      "biography": "DevRel at OVHcloud in Toulouse, France. She is GDE (Google Developer Expert) for Cloud technologies, Docker captain, CNCF ambassador & Kubernetes for Developers certified. She has been working as a Developer and Ops for over 15 years. Cloud enthusiast and advocates DevOps/Cloud/Golang best practices. One of the leaders of Duchess France, an association that promotes women developers and women working in IT.Conferences and meetups organizer since 2016. Technical writer (dev.to/aurelievache), a book author & reviewer, a sketch noter and a speaker at international conferences. She created a new visual way for people to learn and understand Cloud technologies: 'Understanding Kubernetes/Istio/Docker in a visual way' in sketch-notes and videos. Blog: https://dev.to/aurelievache/ YouTube: https://www.youtube.com/c/AurelieVache",
+      "image": "assets/img/speakers/Z55hCP1c_400x400.jpg",
+      "ref": "f3a44479f0e0e748cca666a713d65df707eb5016",
+      "url": "infoSpeaker.html?ref=f3a44479f0e0e748cca666a713d65df707eb5016",
+      "homepage": "http://scraly.com",
+      "twitter": "@aurelievache",
+      "linkedin": "https://www.linkedin.com/in/aurelievache/"
     }
   ]
 }
