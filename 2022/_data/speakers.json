@@ -324,6 +324,19 @@
       "homepage": "http://scraly.com",
       "twitter": "@aurelievache",
       "linkedin": "https://www.linkedin.com/in/aurelievache/"
+    },
+    {
+      "enabled": "1",
+      "name": "Horacio Gonzalez",
+      "company": "OVHcloud",
+      "description": "DevRel Leader",
+      "biography": "Spaniard lost in Brittany, coder, speaker, dreamer and all-around geek. After some years as Warp 10 frontend leader as Cityzen Data (now SenX), Horacio works as DevRel Leader at OVHcloud. He is the co-founder and leader of the @FinistDevs and @RdvSpeakers communities. Horacio is a Google Developer Expert (GDE) in Web Technologies and Flutter. He loves web development in general and everything around Web Components and standards web in particular.",
+      "image": "assets/img/speakers/7RlmUVvr_400x400.jpg",
+      "ref": "e2f19f832dda1ec89c3019769e30a7d00f564198",
+      "url": "infoSpeaker.html?ref=e2f19f832dda1ec89c3019769e30a7d00f564198",
+      "homepage": "",
+      "twitter": "@lostInBrittany",
+      "linkedin": "https://www.linkedin.com/in/horaciogonzalez/"
     }
   ]
 }
