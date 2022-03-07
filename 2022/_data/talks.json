@@ -7,7 +7,7 @@
         "eng",
         "es"
       ],
-      "abstract": "Production is the place where all applications should live. Even though you are using continuous integration and delivery, you might wonder every time you release a new version to production if it will work or there will be some breakage on the latest version, eventually making production unavailable to the customers. \n\nProgressive delivery is the next step after Continuous Delivery to test your application in production before it becomes fully available to all your user bases.\n\nEmbrace progressive delivery with techniques like the blue-green, canary release, shadowing traffic, or dark launches to validate the application in production using Kubernetes and tools like Istio, Prometheus, ArgoCD, or Argo Rollouts.\n\nCome to this session to learn progressive delivery in action using Kubernetes.",
+      "abstract": "Production is the place where all applications should live. Even though you are using continuous integration and delivery, you might wonder every time you release a new version to production if it will work or there will be some breakage on the latest version, eventually making production unavailable to the customers.  \nProgressive delivery is the next step after Continuous Delivery to test your application in production before it becomes fully available to all your user bases.\n\nEmbrace progressive delivery with techniques like the blue-green, canary release, shadowing traffic, or dark launches to validate the application in production using Kubernetes and tools like Istio, Prometheus, ArgoCD, or Argo Rollouts.\n\nCome to this session to learn progressive delivery in action using Kubernetes.",
       "type": "talk",
       "tags": [
         "kubernetes",
@@ -417,6 +417,24 @@
       "level": "middle",
       "speakers": [
         "d8b71cf333c0d6c1dd9126059adf41444e95a605"
+      ]
+    },
+    {
+      "id": "621907a14010570ba9b6dd69",
+      "title": "Stranger Danger: Your Java Attack Surface Just Got Bigger",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Building cloud-native Java applications is undoubtedly awesome. However, it comes with undeniable new risks. Next to your own code, you are relying on so many other things. Blindly depending on open-source libraries and Docker images can form a massive risk for your application. The wrong package can introduce severe vulnerabilities into your application, exposing your application and your user's data. Join this talk where we’ll show common threats, vulnerabilities, and misconfiguration including the recently disclosed issues in Log4j. Most importantly, you’ll learn how to protect your application with actionable remediation and best practices.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Security",
+        "Cloud-Native"
+      ],
+      "level": "middle",
+      "speakers": [
+        "a4529dc3081fc5242a51aecadc114b5ff5aa1520"
       ]
     }
   ]
