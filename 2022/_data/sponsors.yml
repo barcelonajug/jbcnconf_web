@@ -35,6 +35,11 @@ premium:
     image:
       src: "/assets/img/sponsors/netcentric.jpg"
       alt: Netcentric
+  - name: GFT
+    href: https://www.gft.com/es/es
+    image: 
+      src: "/assets/img/sponsors/gft-logo.jpg"
+      alt: GFT
 regular:
   - name: Capitole Consulting
     href: https://capitole-consulting.com/about/
