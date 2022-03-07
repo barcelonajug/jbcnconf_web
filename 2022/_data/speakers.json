@@ -287,7 +287,7 @@
       "linkedin": "https://www.linkedin.com/in/daniel-oh-083818112/"
     },
     {
-      "enabled": "1",      
+      "enabled": "1",
       "name": "Ivar Grimstad",
       "company": "Eclipse Foundation",
       "description": "Jakarta EE Developer Advocate",
@@ -297,7 +297,20 @@
       "url": "infoSpeaker.html?ref=d8b71cf333c0d6c1dd9126059adf41444e95a605",
       "homepage": "https://agilejava.eu",
       "twitter": "@ivar_grimstad",
-      "linkedin": "https://www.linkedin.com/in/ivargrimstad/"      
+      "linkedin": "https://www.linkedin.com/in/ivargrimstad/"
+    },
+    {
+      "enabled": "1",
+      "name": "Brian Vermeer",
+      "company": "Snyk",
+      "description": "Sr. Developer Advocate & Java Champion",
+      "biography": "Brian Vermeer is a well-known person in the Java community. He is a Developer Advocate for Snyk, Java Champion, and Software Engineer with over a decade of hands-on experience in creating and maintaining (web)applications. He is passionate about Java, (Pure) Functional Programming and Cyber-security. Brian is a JUG leader for the Virtual JUG and the NLJUG. He also co-leads the DevSecCon community and is a community manager for Foojay. He is a regular international speaker on mostly Java-related conferences like JavaOne, Devnexus, Devoxx, Jfokus, JavaZone and many more. Besides all that, Brian is a military reserve for the Royal Netherlands Air Force and a Taekwondo Master / Teacher.",
+      "image": "assets/img/speakers/32c68754a7cde9c627969db8d71bc2b0.jpg",
+      "ref": "a4529dc3081fc5242a51aecadc114b5ff5aa1520",
+      "url": "infoSpeaker.html?ref=a4529dc3081fc5242a51aecadc114b5ff5aa1520",
+      "homepage": "https://brianvermeer.nl/",
+      "twitter": "@BrianVerm",
+      "linkedin": "https://www.linkedin.com/in/brianvermeer/"
     }
   ]
 }
