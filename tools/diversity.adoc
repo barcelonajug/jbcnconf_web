@@ -1,36 +1,52 @@
 = Diversity terms
 :icons: font
 :linkattrs:
+:conference-dates: 18th and 19th
+:end-date: 29th of April
+:mail-subject: JBCNConf2022 Sponsorship application
+:mail-subject-encoded: JBCNConf2022%20Sponsorship%20application
+:application-form-url: https://docs.google.com/forms/d/e/1FAIpQLSfmvjMK2FfcbscfuVvmNzJ_cXCpCBBHWVNTZfY8mUHfAE1GxQ/viewform
 
 JBCNConf, its volunteers, and staff consider that understanding, respecting, valuing and promoting differences is an essential part of our core values.
 Since we believe that everyone is unique, in our events we actively encourage collaborative environments where individuals can confidently share their different ideas.
 We are also committed to embrace the rich diversity of our society and the world around us.
 People who are diverse in nationality, age, race, ethnic origin, spiritual beliefs and practices, gender, gender identity, sexual orientation, work and life status are critical for constant improvement and innovation in our profession.
 
-That why at JBCNConf we are offering diversity a plan.
+That's why we are running again the _diversity sponsorship for JBCNConf 2022_ 🎉
 
 If you belong to a traditionally underrepresented group in the tech community, now is your chance.
-We definitely want you to come and join us at the conference.
+We definitely want you to come and join us at the conference 🤗
 
-== Eligibility
+_We must thank https://www.gft.com/es/es[GFT] for making this possible!_
+
+image::assets/img/sponsors/gft-logo.jpg[width=400,align="center"]
+
+== Who can apply?
 
 We strongly encourage applications from women, people with disabilities, people of color, economically disadvantaged people, LGBTQ or any other underrepresented group.
-In addition, the applicants must be 18 years of age or older and must be available to attend the main days of the event (26th and 27th).
-There are a *limited amount of sponsorships* and will be awarded based on a combination of need and impact.
+In addition, the applicants must be 18 years of age or older and must be available to attend the main days of the event ({conference-dates}).
 
-Selected people will be notified via email.
-They will receive a free ticket to the conference, which *includes admission to all talks during the 27th and 28th, and catering during the two days of the conference*.
-Workshops (on the 29th) cannot be included due to limited capacity.
+There are a *limited amount of sponsorships* 🔥 and will be awarded based on a combination of need and impact.
 
-To apply, send us a message at icon:envelope[] mailto:info@barcelonajug.org?subject=JBCNConf2019%20Sponsorship%20application[info@barcelonajug.org] with the subject _JBCNConf2019 Sponsorship application_ introducing yourself and telling us about your expectations for the event.
-The *deadline for applications is May 15th, 11:59PM CET or until we have delivered the total number of tickets*.
+== How can I apply?
 
-All applications' information will be kept confidential.
+To apply, please fill the {application-form-url}[application form] introducing yourself and telling us about your expectations for the event.
+The *deadline for applications is the {end-date}, 11:59PM CET or until we have delivered the total number of tickets*.
+
+All applications' information will be kept confidential and used exclusively for this campaign.
+
+== How will I be notified?
+
+Selected people will be notified via email at the contact provided.
+
+They will receive a free ticket to the conference, which *includes admission 🎫 to all talks during the {conference-dates}, and catering 🥘 during the two days of the conference*.
+Workshops (on the 20th) cannot be included due to limited capacity.
 
 == Terms and Conditions
 
-All awarded attendees will have to:
+All awarded attendees must:
 
 * Follow the conference link:coc.html[Code of conduct].
-* Find additional funding for transportation and accommodation since these costs are not included.
-* Inform if they are not able to attend the event days 27th and 28th. Tickets are not transferable.
+* Find additional funding for transportation and accommodation. These costs are not included.
+* Inform if they are not able to attend the event days {conference-dates}. Tickets are not transferable.
+* Agree to conference and ticket https://jbcnconf.com/2022/conditions.html[terms and conditions] in case of being awarded with a ticket.
