@@ -344,6 +344,44 @@
       ]
     },
     {
+      "id": "621907a14010570ba9b6dd69",
+      "title": "Stranger Danger: Your Java Attack Surface Just Got Bigger",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Building cloud-native Java applications is undoubtedly awesome.\n\nHowever, it comes with undeniable new risks. Next to your own code, you are relying on so many other things.\n\nBlindly depending on open-source libraries and Docker images can form a massive risk for your application.\n\nThe wrong package can introduce severe vulnerabilities into your application, exposing your application and your user's data.\n\nJoin this talk where we’ll show common threats, vulnerabilities, and misconfiguration including the recently disclosed issues in Log4j.\n\nMost importantly, you’ll learn how to protect your application with actionable remediation and best practices.",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Security",
+        "Cloud-Native"
+      ],
+      "level": "middle",
+      "speakers": [
+        "a4529dc3081fc5242a51aecadc114b5ff5aa1520"
+      ]
+    },
+    {
+      "id": "621908084010570ba9b6dd6b",
+      "title": "Enter Serverless Functions Journey with Quarkus",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "This workshop is designed to be hands-on experiences on how developers can get started with scaffolding serverless functions projects using Quarkus, a new Kubernetes native Java framework with familiar tools (e.g. CLI, Maven, Gradel). The workshop covers deploying service functions to AWS Lambda, optimizing the functions, making them portable across multiple serverless platforms ( e.g., AWS Lambda, Azure Function, Google Cloud Platform, Kubernetes Knative), and using the latest handy command-line tool (e.g. Kn func) to enable a Buildpack for function development & deployment in minutes. Lab participants will be provided a free sandbox for serverless deployments.\n\nLab instructions(WIP): https://github.com/RedHat-Middleware-Workshops/enter-serverless-functions/blob/main/README.md",
+      "type": "workshop",
+      "tags": [
+        "Serverless",
+        "Java",
+        "Kubernetes",
+        "Quarkus",
+        "Function"
+      ],
+      "level": "middle",
+      "speakers": [
+        "772aed76233c2cc81c2c9787426760c125fbe421"
+      ]
+    },
+    {
       "id": "621909084010570ba9b6dd6c",
       "title": "Choose your own adventure with Spring Security",
       "languages": [
@@ -382,26 +420,6 @@
       ]
     },
     {
-      "id": "621908084010570ba9b6dd6b",
-      "title": "Enter Serverless Functions Journey with Quarkus",
-      "languages": [
-        "eng"
-      ],
-      "abstract": "This workshop is designed to be hands-on experiences on how developers can get started with scaffolding serverless functions projects using Quarkus, a new Kubernetes native Java framework with familiar tools (e.g. CLI, Maven, Gradel). The workshop covers deploying service functions to AWS Lambda, optimizing the functions, making them portable across multiple serverless platforms ( e.g., AWS Lambda, Azure Function, Google Cloud Platform, Kubernetes Knative), and using the latest handy command-line tool (e.g. Kn func) to enable a Buildpack for function development & deployment in minutes. Lab participants will be provided a free sandbox for serverless deployments.\n\nLab instructions(WIP): https://github.com/RedHat-Middleware-Workshops/enter-serverless-functions/blob/main/README.md",
-      "type": "workshop",
-      "tags": [
-        "Serverless",
-        "Java",
-        "Kubernetes",
-        "Quarkus",
-        "Function"
-      ],
-      "level": "middle",
-      "speakers": [
-        "772aed76233c2cc81c2c9787426760c125fbe421"
-      ]
-    },
-    {
       "id": "621909594010570ba9b6dd6e",
       "title": "Jakarta EE 10 Feature by Feature",
       "languages": [
@@ -417,24 +435,6 @@
       "level": "middle",
       "speakers": [
         "d8b71cf333c0d6c1dd9126059adf41444e95a605"
-      ]
-    },
-    {
-      "id": "621907a14010570ba9b6dd69",
-      "title": "Stranger Danger: Your Java Attack Surface Just Got Bigger",
-      "languages": [
-        "eng"
-      ],
-      "abstract": "Building cloud-native Java applications is undoubtedly awesome. However, it comes with undeniable new risks. Next to your own code, you are relying on so many other things. Blindly depending on open-source libraries and Docker images can form a massive risk for your application. The wrong package can introduce severe vulnerabilities into your application, exposing your application and your user's data. Join this talk where we’ll show common threats, vulnerabilities, and misconfiguration including the recently disclosed issues in Log4j. Most importantly, you’ll learn how to protect your application with actionable remediation and best practices.",
-      "type": "talk",
-      "tags": [
-        "Java",
-        "Security",
-        "Cloud-Native"
-      ],
-      "level": "middle",
-      "speakers": [
-        "a4529dc3081fc5242a51aecadc114b5ff5aa1520"
       ]
     },
     {
@@ -454,6 +454,66 @@
       "speakers": [
         "f3a44479f0e0e748cca666a713d65df707eb5016",
         "e2f19f832dda1ec89c3019769e30a7d00f564198"
+      ]
+    },
+    {
+      "id": "622916e656274e0bddf0079b",
+      "title": "Seamless SSO workshop : KEYCLAOK + SPRING + VUE.JS + LDAP",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Join us in this workshop for learning how we have utilized great open source identity management solution Keycloak for managing user authentication, synchronizing user groups, user group memberships, etc. by integrating with Active Directory (or any enterprise LDAP). Keycloak is also capable of identity management via social media providers e.g. Linkedin, Github, Twitter, etc. \n\nDuring the workshop, we will go through all the important steps one by one, hands-on\n\n1. Keycloak configuration\n1.1. Realm creation / configuration\n1.2. User federation, LDAP integration \n1.3. users / groups syncronization from LDAP\n1.4. perform authentication requests via postman\n\n2. Spring Security confgiuration\n2.1. verification of keycloak JWT token \n2.2. extracting username and roles from the JWT token \n\n2. Vue.js app integration\n2.1. simple one page vue.js app performing login operation from Keycloak and makine one simple REST request to Spring Rest service\n\nFor the sake of timing during the workshop, Keycloak - LDAP will be provided as a docker container and Spring and Vue.js projects will be shared as a template via Github so that the audience can focus on the important parts. \n",
+      "type": "workshop",
+      "tags": [
+        "keycloak",
+        "security",
+        "spring",
+        "identity management",
+        "openid-connect",
+        "ldap"
+      ],
+      "level": "middle",
+      "speakers": [
+        "5a014096a2b2b36a9a4058dd045242f74f71d32a"
+      ]
+    },
+    {
+      "id": "62291d7956274e0bddf0079f",
+      "title": "To Java 19 and Beyond!",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Java 17 has come and gone, but development on Java continues on! What has changed since Java 11? And what changes are being added in Java 19 and Beyond? Come find out! \n\nIn this presentation we will look at some of the key changes that have been added to Java post-8. The large changes; the Module System and Records, quality of life improvements; var, text blocks, pattern matching, and the many performance and runtime improvements. We will finish the presentation with a brief look ahead to some of the changes that will be coming to Java in the near future and why Java’s future is bright.\n",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "JVM"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "459fc7466dfa9163817d35cc884ca96e154c2420"
+      ]
+    },
+    {
+      "id": "6229f5eb56274e0bddf007a2",
+      "title": "Security in the Micronaut® Framework",
+      "languages": [
+        "eng",
+        "es"
+      ],
+      "abstract": "In this session, Sergio del Amo introduces Micronaut Security, a fully-featured and customizable security solution for your applications.\n\nTopics include:\n\nAuthentication (Basic Auth, Cookie-based, Session-based, Bearer, LDAP, X.509)\nAccess authenticated user\nSecurity Configuration (@Secured, Intercept URL map, and more)\nOAuth 2.0 (Authorization Code, Client Credentials, Password Credentials grants)\nOpenID Connect (integration with third-party OAuth 2.0 server providers: Auth0, Okta, Keycloak, Amazon Cognito)\nJWT (signing, validation, generation, JWKS)\nToken Propagation\nSecurity Events\nDiscover how easy it is to work with Micronaut Security and learn how to tailor it to your needs.\n\nSergio del Amo is a Micronaut core committer, Developer Advocate for the Micronaut Foundation, and host of the Micronaut podcast.",
+      "type": "workshop",
+      "tags": [
+        "Micronaut",
+        "Security",
+        "OAuth 2.0",
+        "JWT",
+        "JWKS",
+        "OpenID Connect"
+      ],
+      "level": "middle",
+      "speakers": [
+        "594e335548f1564c9d8057f7b0098872db39f5df"
       ]
     }
   ]
