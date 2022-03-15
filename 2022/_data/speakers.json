@@ -369,13 +369,26 @@
       "name": "Aurélie Vache",
       "company": "OVHcloud",
       "description": "DevRel",
-      "biography": "DevRel at OVHcloud in Toulouse, France. She is GDE (Google Developer Expert) for Cloud technologies, Docker captain, CNCF ambassador & Kubernetes for Developers certified. She has been working as a Developer and Ops for over 15 years. Cloud enthusiast and advocates DevOps/Cloud/Golang best practices. One of the leaders of Duchess France, an association that promotes women developers and women working in IT.Conferences and meetups organizer since 2016. Technical writer (dev.to/aurelievache), a book author & reviewer, a sketch noter and a speaker at international conferences. She created a new visual way for people to learn and understand Cloud technologies: 'Understanding Kubernetes/Istio/Docker in a visual way' in sketch-notes and videos. Blog: https://dev.to/aurelievache/ YouTube: https://www.youtube.com/c/AurelieVache",
+      "biography": "DevRel at OVHcloud in Toulouse, France. She is GDE (Google Developer Expert) for Cloud technologies, Docker captain, CNCF ambassador & Kubernetes for Developers certified. She has been working as a Developer and Ops for over 15 years. Cloud enthusiast and advocates DevOps/Cloud/Golang best practices. \n\nOne of the leaders of Duchess France, an association that promotes women developers and women working in IT.\n\nConferences and meetups organizer since 2016. Technical writer (dev.to/aurelievache), a book author & reviewer, a sketchnoter and a speaker at international conferences.\n\nShe created a new visual way for people to learn and understand Cloud technologies: \"Understanding Kubernetes/Istio/Docker in a visual way\" in sketchnotes and videos.\n\nBlog: https://dev.to/aurelievache/\nYouTube: https://www.youtube.com/c/AurelieVache",
       "image": "assets/img/speakers/aurelie-vache.jpg",
       "ref": "f3a44479f0e0e748cca666a713d65df707eb5016",
       "url": "infoSpeaker.html?ref=f3a44479f0e0e748cca666a713d65df707eb5016",
       "homepage": "https://scraly.com",
       "twitter": "@aurelievache",
       "linkedin": "https://www.linkedin.com/in/aurelievache/"
+    },
+    {
+      "enabled": "1",
+      "name": "Graeme Rocher",
+      "company": "Oracle",
+      "description": "Architect",
+      "biography": "Graeme Rocher is the creator of several popular Open Source projects including Grails (https://grails.org) and Micronaut (https://Micronaut.io) and co-author of \"The Definitive Guide to Grails\" (Apress - http://apress.com/book/view/1590599950). Graeme currently works as an Architect at Oracle. Graeme is a member of the Java Champions (https://twitter.com/java_champions) and 2018 was awarded the Groundbreaker award by Oracle (https://developer.oracle.com/groundbreakers/) for his work on Open Source.",
+      "image": "assets/img/speakers/graeme-rocher.jpg",
+      "ref": "6c31223d3be1de9ea66a96974ec4f524cd6a786f",
+      "url": "infoSpeaker.html?ref=6c31223d3be1de9ea66a96974ec4f524cd6a786f",
+      "homepage": "",
+      "twitter": "@graemerocher",
+      "linkedin": ""
     }
   ]
 }
