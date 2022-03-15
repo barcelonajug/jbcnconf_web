@@ -7,7 +7,7 @@
         "eng",
         "es"
       ],
-      "abstract": "Production is the place where all applications should live. Even though you are using continuous integration and delivery, you might wonder every time you release a new version to production if it will work or there will be some breakage on the latest version, eventually making production unavailable to the customers.  \nProgressive delivery is the next step after Continuous Delivery to test your application in production before it becomes fully available to all your user bases.\n\nEmbrace progressive delivery with techniques like the blue-green, canary release, shadowing traffic, or dark launches to validate the application in production using Kubernetes and tools like Istio, Prometheus, ArgoCD, or Argo Rollouts.\n\nCome to this session to learn progressive delivery in action using Kubernetes.",
+      "abstract": "Production is the place where all applications should live. Even though you are using continuous integration and delivery, you might wonder every time you release a new version to production if it will work or there will be some breakage on the latest version, eventually making production unavailable to the customers. \n\nProgressive delivery is the next step after Continuous Delivery to test your application in production before it becomes fully available to all your user bases.\n\nEmbrace progressive delivery with techniques like the blue-green, canary release, shadowing traffic, or dark launches to validate the application in production using Kubernetes and tools like Istio, Prometheus, ArgoCD, or Argo Rollouts.\n\nCome to this session to learn progressive delivery in action using Kubernetes.",
       "type": "talk",
       "tags": [
         "kubernetes",
@@ -443,7 +443,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "In recent years, we have seen new job titles appear, at the crossroads between tech, marketing and the community: Developer Advocate, Developer Evangelist, Technical Advocate… These jobs are grouped together in a large category: Developer Relations, or quite simply DevRel ... But what exactly is a DevRel? What does he/she do for a living? Is he/she just a glitter thrower? Does he/she spend his/her life in conferences? Does he/she know airports and train stations inside out? Does he/she have a unicorn costume in his/her luggage? Aurélie and Horacio will show you in this talk, with their humor and good mood, their daily life, the different types of activities and what is really behind this DevRel job… And you might even get some little anecdotes ^^",
+      "abstract": "In recent years, we have seen new job titles appear, at the crossroads between tech, marketing and the community: Developer Advocate, Developer Evangelist, Technical Advocate… These jobs are grouped together in a large category: Developer Relations, or quite simply DevRel ...\n\nBut what exactly is a DevRel? What does he/she do for a living? Is he/she just a glitter thrower? Does he/she spend his/her life in conferences? Does he/she know airports and train stations inside out? Does he/she have a unicorn costume in his/her luggage?\n\nAurélie and Horacio will show you in this talk, with their humor and good mood, their daily life, the different types of activities and what is really behind this DevRel job… And you might even get some little anecdotes ^^",
       "type": "talk",
       "tags": [
         "DevRel",
@@ -475,6 +475,26 @@
       "level": "middle",
       "speakers": [
         "5a014096a2b2b36a9a4058dd045242f74f71d32a"
+      ]
+    },
+    {
+      "id": "6229173756274e0bddf0079d",
+      "title": "Building Database Applications with Micronaut Data and GraalVM ",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Micronaut Data allows the constructions of slick database applications that target a range of different database workloads from SQL databases to document databases like MongoDB and Oracle Autonomous Database. This presentation by Micronaut creator and Oracle Architect Graeme Rocher will take you through a tour of using Micronaut Data's key features including:\n\n- Persistence to SQL and Document Databases\n- Non-blocking database access with R2DBC\n- Programmatic and declarative transactions\n- Persistence events\n- Criteria specifications\n- Building native database applications with GraalVM and Native Image\n\n\nTo get an in-depth tour of Micronaut, Micronaut Data and GraalVM this is the talk for you.\n",
+      "type": "talk",
+      "tags": [
+        "micronaut",
+        "database",
+        "graalvm",
+        "microservices",
+        "sql"
+      ],
+      "level": "middle",
+      "speakers": [
+        "6c31223d3be1de9ea66a96974ec4f524cd6a786f"
       ]
     },
     {
