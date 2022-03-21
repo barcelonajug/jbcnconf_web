@@ -535,6 +535,28 @@
       "speakers": [
         "594e335548f1564c9d8057f7b0098872db39f5df"
       ]
+    },
+    {
+      "id": "62324db53a63410bd73c06e4",
+      "title": "Event Streaming for the Best of All Worlds",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "When it comes to distributed, event-driven messaging systems, we usually see them supporting either one of two types of semantics: streaming, or queueing, and rarely do we find a platform that supports both.  In this presentation, we’ll first get an introduction and some clarifications of event-driven versus message-driven systems, event streams, and stream processing.  We’ll then take a look at Apache Pulsar which offers a very unique capability in modern, cloud-native applications and architecture, in which its platform supports both Publish-Subscribe and Message Queues, and extends into streams processing as well as performs message mediation & transformation.  We will see how it works closely with and relies on Apache Bookkeeper for its durable, scalable, and performant storage of log streams, and leverages on Apache Zookeeper to manage the otherwise very complex ecosystem.  We will then compare Apache Pulsar with the popular Apache Kafka platform to understand some of their key differences as to how Pulsar can overcome some of Kafka's limitations.  With Pulsar's flexible architecture and cloud-native readiness, we will take a look to see how it can be integrated and work collaboratively with the popular Spring framework.\n",
+      "type": "talk",
+      "tags": [
+        "Event Streaming",
+        "Distributed Messaging",
+        "Pub/Sub",
+        "Cloud Native",
+        "Java",
+        "OSS",
+        "Apache Pulsar"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "443a683fa84a77151521434bf96a7a082d29d361"
+      ]
     }
   ]
 }
