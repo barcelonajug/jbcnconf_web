@@ -88,7 +88,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                                   {% if twitter contains 'http' %}
                                                   {% elsif twitter contains 'https' %}
                                                   {% else %}
-                                                    {% capture twitter %}{{ twitter | prepend: "http://twitter.com/" }}{% endcapture %}
+                                                    {% capture twitter %}{{ twitter | prepend: "https://twitter.com/" }}{% endcapture %}
                                                   {% endif %}
                                                   <li>
                                                     <a target="_blank" href="{{twitter}}">
@@ -110,9 +110,9 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                             <div class="name-job">
                                                 <a href="{{ base }}/{{ speaker.url }}">
                                                     <h2>{{ speaker.name }}</h2>
-                                                </a>
-                                                <a href="{{ base }}/{{ speaker.url }}">
-                                                    <h3>{{ speaker.description }}</h3>
+                                                    <div>
+                                                        <h3>{{ speaker.description }} @ {{ speaker.company }}</h3>
+                                                    </div>
                                                 </a>
                                             </div>
                                         </div>
