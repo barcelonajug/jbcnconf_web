@@ -17,7 +17,6 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                 <li>Speaker</li>
             </ul>
         </div>
-
         <div class="heading-title">
         </div>
     </div>
@@ -33,15 +32,9 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                         <div class="post-wrapper">
 
                             <div class="post-header">
-                                <h2>
-                                </h2>
-
-                                <h1 class="name">
-
-                                </h1>
-                                <h3 class="description">
-                                </h3>
-
+                                <h2></h2>
+                                <h1 class="name"></h1>
+                                <h3 class="description"></h3>
                             </div>
 
                             <div class="post-content">
@@ -51,76 +44,63 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                          width="200"
                                          height="300"
                                          data-image-base="{{base}}/">
-                                <ul style="float:right; list-style:none" class="post-information">
-                                    <li class="homepage" style="display:none">
-                                        <a target="_blank" href="#">
-                                            <i class="fa fa-rss"></i>
-                                        </a>
-                                    </li>
-                                    <li class="twitter" style="display:none">
-                                        <a target="_blank" href="#">
-                                            <i class="fa fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li class="linkedin" style="display:none">
-                                        <a target="_blank" href="#">
-                                            <i class="fa fa-linkedin"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <span class="biography">
-
+                                    <ul style="float:right; list-style:none" class="post-information">
+                                        <li class="homepage" style="display:none">
+                                            <a target="_blank" href="#">
+                                                <i class="fa fa-rss"></i>
+                                            </a>
+                                        </li>
+                                        <li class="twitter" style="display:none">
+                                            <a target="_blank" href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="linkedin" style="display:none">
+                                            <a target="_blank" href="#">
+                                                <i class="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <span class="biography">
                                     </span>
                                 </p>
-
-
-
                             </div>
-
                         </div>
                     </article>
 
                     <script>
-
                         (function () {
-
                             jQuery(document).ready(function ($) {
-
-                                var updateSpeakerPage = function () {
-                                    var speaker = window.CURRENT_SPEAKER[0],
+                                const updateSpeakerPage = function () {
+                                    const speaker = window.CURRENT_SPEAKER[0],
                                         $container = $("#speaker-page"),
                                         updateSocialLink = function (social) {
                                             if (speaker[social]) {
-                                              var link = speaker[social]
+                                              let link = speaker[social]
                                               if (social === 'twitter') {
                                                 link = link.replace('\@','')
                                                 if (!link.startsWith('http://') && !link.startsWith('https://')) {
-                                                  link = 'http://twitter.com/' + link
+                                                  link = 'https://twitter.com/' + link
                                                 }
                                               }
                                               $container.find("." + social).show();
                                               $container.find("." + social + " a").attr("href", link);
                                             }
-
                                         };
 
                                     $container.find('.speaker-image').attr("src", $('.speaker-image').attr("data-image-base") + speaker.image);
                                     $container.find(".name").html(speaker.name);
                                     $container.find(".biography").html(speaker.biography);
-                                    $container.find(".description").html(speaker.description);
+                                    $container.find(".description").html(`${speaker.description} @ ${speaker.company}`);
 
-                                    for (var index = 0; index < speaker.talks.length; index++) {
-
-                                        var talk = speaker.talks[index];
-
-                                        var title = ' <h2 class="talk-title"> ' + talk.title + '</h2><i>(' + talk.type + ')<i> ' ;
-                                        $container.find(".post-content").append(title);
-                                        var abstract = '<p style="text-align: justify;" class="abstract"> ' + talk.abstract + ' </p>';
-                                        $container.find(".post-content").append(abstract);
+                                    for (let index = 0; index < speaker.talks.length; index++) {
+                                        const talk = speaker.talks[index];
+                                        $container.find(".post-content").append(`<h2 class="talk-title">(${talk.title})</h2><i>${talk.type}<i>`);
+                                        $container.find(".post-content").append(`<p style="text-align: justify;" class="abstract">${talk.abstract}</p>`);
 
                                         if (talk.video) {
-                                            var video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + talk.video + '"' +
-                                                'frameborder="0" autoplay encrypted-media allowfullscreen></iframe>';
+                                            const video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + talk.video + '"' +
+                                                'border="0" autoplay encrypted-media allowfullscreen></iframe>';
                                             $container.find(".post-content").append(video);
                                         }
                                     }
@@ -128,23 +108,16 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                     updateSocialLink("linkedin");
                                     updateSocialLink("twitter");
                                     updateSocialLink("homepage");
-
                                 };
-
                                 updateSpeakerPage();
-
                             });
-
                         }());
                     </script>
                 </div>
             </div>
-
             <div class="col-lg-3 col-sm-3 col-xs-12 site-content-right rightsidebar fixedrightSidebar">
                 {% include sponsors-sidebar.html %}
             </div>
-
         </div>
     </div>
-
 </div>

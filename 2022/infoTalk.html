@@ -40,7 +40,6 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
                 <li id="session-type"></li>
             </ul>
         </div>
-
         <div class="heading-title">
         </div>
     </div>
@@ -150,7 +149,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
                         </div>
                     </article>
 
-                    <div>&nbsp;</div>
+                    <div>&nbsp</div>
 
                     <article id="speaker-page-2"
                              class="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
@@ -196,11 +195,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
                     <script>
                         (function () {
                             jQuery(document).ready(function ($) {
-                                if (window.TALK.type === 'talk') {
-                                    $('#session-type').append('Talk');
-                                } else {
-                                    $('#session-type').append('Workshop');
-                                }
+                                $('#session-type').append(window.TALK.type === 'talk' ? 'Talk' : 'Workshop');
 
                                 const updateSpeakerPage = function () {
                                     $("article").addClass("hidden");
@@ -214,25 +209,24 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
                                                     if (social === 'twitter') {
                                                         link = link.replace('\@', '')
                                                         if (!link.startsWith('http://') && !link.startsWith('https://')) {
-                                                            link = 'http://twitter.com/' + link
+                                                            link = 'https://twitter.com/' + link
                                                         }
                                                     }
                                                     $container.removeClass("hidden");
                                                     $container.find("." + social).show();
                                                     $container.find("." + social + " a").attr("href", link);
                                                 }
-
                                             };
 
                                         $container.find('.speaker-image').attr("src", $('.speaker-image').attr("data-image-base") + speaker.image);
                                         $container.find('.speaker-image').attr("alt", speaker.name);
                                         $container.find(".name").html(speaker.name);
                                         $container.find(".biography").html(speaker.biography);
-                                        $container.find(".description").html(speaker.description);
+                                        $container.find(".description").html(`${speaker.description} @ ${speaker.company}`);
 
-                                        updateSocialLink("linkedin");
-                                        updateSocialLink("twitter");
-                                        updateSocialLink("homepage");
+                                        updateSocialLink('linkedin');
+                                        updateSocialLink('twitter');
+                                        updateSocialLink('homepage');
                                     }
 
                                     const talk = window.TALK;
@@ -253,22 +247,19 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
 
                                     if (talk.video) {
                                         const video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + talk.video + '"' +
-                                            'frameborder="0" autoplay encrypted-media allowfullscreen></iframe>';
+                                            'border="0" autoplay encrypted-media allowfullscreen></iframe>';
                                         $('#post-content').append(video);
                                     }
                                 };
                                 updateSpeakerPage();
                             });
-
                         }());
                     </script>
                 </div>
             </div>
-
             <div class="col-lg-3 col-sm-3 col-xs-12 site-content-right rightsidebar fixedrightSidebar">
                 {% include sponsors-sidebar.html %}
             </div>
-
         </div>
     </div>
 </div>
