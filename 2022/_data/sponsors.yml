@@ -37,7 +37,7 @@ premium:
       alt: Netcentric
   - name: GFT
     href: https://www.gft.com/es/es
-    image: 
+    image:
       src: "/assets/img/sponsors/gft-logo.jpg"
       alt: GFT
 regular:
@@ -66,4 +66,9 @@ regular:
     image:
       src: "/assets/img/sponsors/azul.jpg"
       alt: Azul
+  - name: Idealista
+    href: https://www.idealista.com/info/trabaja-con-nosotros
+    image:
+      src: "/assets/img/sponsors/idealista.jpg"
+      alt: Idealista
 supporters:
