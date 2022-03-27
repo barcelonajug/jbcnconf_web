@@ -288,6 +288,19 @@
     },
     {
       "enabled": "1",
+      "name": "Emily Jiang",
+      "company": "IBM",
+      "description": "Liberty Cloud Native Architect",
+      "biography": "Emily Jiang is a Java Champion. She is Liberty Cloud-Native Architect and Chief Advocate, Senior Technical Staff Member (STSM) in IBM, based at Hursley Lab in the UK. Emily is MicroProfile guru and has been working on MicroProfile since 2016 and leads a number of specifications including MicroProfile Config, Fault Tolerance and Service Mesh, as well as MicroProfile Starter. She also participates in other specifications such as MicroProfile Reactive Messaging, etc. She is active in Jakarta EE. She is a committer on a number of Jakarta EE specifications such as CDI, Interceptors and she is a co-lead on Jakarta Config. \n\nShe is passionate about MicroProfile and Jakarta EE. She regularly speaks at conferences, such as Code One, DevNexus, JAX London, Voxxed, Devoxx, EclipseCon, QCon, GeeCon, JFokus, etc. Follow her on Twitter @emilyfhjiang and/or connect with her on LinkedIn (https://www.linkedin.com/in/emilyfhjiang)\n",
+      "image": "assets/img/speakers/emily-jiang.png",
+      "ref": "907ad623981c92e789c5b74ed8c18db8a0c1be71",
+      "url": "infoSpeaker.html?ref=907ad623981c92e789c5b74ed8c18db8a0c1be71",
+      "homepage": "",
+      "twitter": "@emilyfhjiang",
+      "linkedin": "https://www.linkedin.com/in/emilyfhjiang/"
+    },
+    {
+      "enabled": "1",
       "name": "Whitney Lee",
       "company": "VMware",
       "description": "Staff Developer Advocate",
