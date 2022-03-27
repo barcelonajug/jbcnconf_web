@@ -7,7 +7,7 @@
         "eng",
         "es"
       ],
-      "abstract": "Production is the place where all applications should live. Even though you are using continuous integration and delivery, you might wonder every time you release a new version to production if it will work or there will be some breakage on the latest version, eventually making production unavailable to the customers. \n\nProgressive delivery is the next step after Continuous Delivery to test your application in production before it becomes fully available to all your user bases.\n\nEmbrace progressive delivery with techniques like the blue-green, canary release, shadowing traffic, or dark launches to validate the application in production using Kubernetes and tools like Istio, Prometheus, ArgoCD, or Argo Rollouts.\n\nCome to this session to learn progressive delivery in action using Kubernetes.",
+      "abstract": "<p>Production is the place where all applications should live. Even though you are using continuous integration and delivery, you might wonder every time you release a new version to production if it will work or there will be some breakage on the latest version, eventually making production unavailable to the customers.</p><p>Progressive delivery is the next step after Continuous Delivery to test your application in production before it becomes fully available to all your user bases.</p><p>Embrace progressive delivery with techniques like the blue-green, canary release, shadowing traffic, or dark launches to validate the application in production using Kubernetes and tools like Istio, Prometheus, ArgoCD, or Argo Rollouts.</p><p>Come to this session to learn progressive delivery in action using Kubernetes.</p>",
       "type": "talk",
       "tags": [
         "kubernetes",
@@ -25,7 +25,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "When building distributed systems, we aim to get a macro view and zoom in when a particular component seems to be at fault for a failure. Luckily, distributed tracing captures the detailed execution of causally-related activities performed by the elements of a distributed system as it processes a given request.\nIf you wonder how different the execution of the requests from the system's expected behavior was, join my session to learn how to recognize trace patterns, determine the bottlenecks when a request is too slow, and deal with oversampling or traffic labeling in production.\n",
+      "abstract": "<p>When building distributed systems, we aim to get a macro view and zoom in when a particular component seems to be at fault for a failure. Luckily, distributed tracing captures the detailed execution of causally-related activities performed by the elements of a distributed system as it processes a given request.</p><p>If you wonder how different the execution of the requests from the system's expected behavior was, join my session to learn how to recognize trace patterns, determine the bottlenecks when a request is too slow, and deal with oversampling or traffic labeling in production.</p>",
       "type": "talk",
       "tags": [
         "cloud",
@@ -44,7 +44,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "We are all moving towards service-based operations and self-sufficient teams. We are all trying to enable developers to be more autonomous. However, it is unrealistic to expect everyone to become an expert on everything, from infrastructure to Kubernetes and everything in between. So, we cannot shift left due to lack of expertise, but we also cannot continue being reactive to the needs of others. The only option left is to simplify services or even remove direct access to infrastructure and Kubernetes.\n\nWe might be able to accomplish those goals through Argo CD or Flux (GitOps), Crossplane (universal control plane), and KubeVela (OAM). By combining those, we can enable developers to manage everything yet still be in complete control of the aspects they care about. GitOps allows us to establish Git as the only point of interaction with the system. Crossplane Composites enable us to simplify developer experience when managing infrastructure. Finally, the Open Application Model (OAM) with KubeVela allows us to define applications instead of Kubernetes resources. If we combine those three types of tools and processes, we can enable operations to define the services used by developers to manage infrastructure and applications. We can do all that without anyone even knowing that there is Kubernetes behind all that.\n\nFor everyone to use Kubernetes, it needs to disappear.\n",
+      "abstract": "<p>We are all moving towards service-based operations and self-sufficient teams. We are all trying to enable developers to be more autonomous. However, it is unrealistic to expect everyone to become an expert on everything, from infrastructure to Kubernetes and everything in between. So, we cannot shift left due to lack of expertise, but we also cannot continue being reactive to the needs of others. The only option left is to simplify services or even remove direct access to infrastructure and Kubernetes.</p><p>We might be able to accomplish those goals through Argo CD or Flux (GitOps), Crossplane (universal control plane), and KubeVela (OAM). By combining those, we can enable developers to manage everything yet still be in complete control of the aspects they care about. GitOps allows us to establish Git as the only point of interaction with the system. Crossplane Composites enable us to simplify developer experience when managing infrastructure. Finally, the Open Application Model (OAM) with KubeVela allows us to define applications instead of Kubernetes resources. If we combine those three types of tools and processes, we can enable operations to define the services used by developers to manage infrastructure and applications. We can do all that without anyone even knowing that there is Kubernetes behind all that.</p><p>For everyone to use Kubernetes, it needs to disappear.</p>",
       "type": "talk",
       "tags": [
         "Cloud",
@@ -64,7 +64,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "Although Knative has been community-maintained since 2018, there has been buzz around the project lately because Google has recently submitted Knative to the CNCF for consideration as an incubating project.\n\nCool! But what is Knative, exactly?\n\nSimply put, Knative is a technology that streamlines and enhances the way that applications run on Kubernetes.\n\nThis talk is for people who are excited about this value proposition and want to dig deeper. How does it work? What components are at play? In what ways is running an app on Knative superior to running it directly on Kubernetes?\n\nInstead of presenting slides, Whitney will draw out the fundamental concepts of Knative, explaining how they work in simple, relatable terms. She will then drive deeper understanding by giving context to the main points with real-life, straightforward use cases. \n\nAttend this talk to gain a high-level understanding of Knative, its main components, and how it simplifies and improves the way that apps run on Kubernetes.",
+      "abstract": "<p>Although Knative has been community-maintained since 2018, there has been buzz around the project lately because Google has recently submitted Knative to the CNCF for consideration as an incubating project.</p><p>Cool! But what is Knative, exactly?</p><p>Simply put, Knative is a technology that streamlines and enhances the way that applications run on Kubernetes.</p><p>This talk is for people who are excited about this value proposition and want to dig deeper. How does it work? What components are at play? In what ways is running an app on Knative superior to running it directly on Kubernetes?</p><p>Instead of presenting slides, Whitney will draw out the fundamental concepts of Knative, explaining how they work in simple, relatable terms. She will then drive deeper understanding by giving context to the main points with real-life, straightforward use cases.</p><p>Attend this talk to gain a high-level understanding of Knative, its main components, and how it simplifies and improves the way that apps run on Kubernetes.</p>",
       "type": "talk",
       "tags": [
         "Knative",
@@ -83,7 +83,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "Dapr lets you abstract your distributed architecture from the underlying infrastructure that powers it. Forget about Kafka, RabbitMQ or any cloud-specific product: you're talking with a pub/sub broker. Let Dapr take care of how it works. Want to switch later? Sure, no problem!\n\nSo, is Dapr the new J2EE application server? How could it change the way we develop distributed solutions? Join me in this talk to find out if we're looking at a dinosaur in a fancy suit, or a developer's dream.",
+      "abstract": "<p>Dapr lets you abstract your distributed architecture from the underlying infrastructure that powers it. Forget about Kafka, RabbitMQ or any cloud-specific product: you're talking with a pub/sub broker. Let Dapr take care of how it works. Want to switch later? Sure, no problem!</p><p>So, is Dapr the new J2EE application server? How could it change the way we develop distributed solutions? Join me in this talk to find out if we're looking at a dinosaur in a fancy suit, or a developer's dream.</p>",
       "type": "talk",
       "tags": [
         "distributed architecture",
@@ -100,7 +100,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "Java's four big projects are entering the home stretch: Amber and Panama have already incubated, previewed, and even finalized some features, Loom and Valhalla are on track to follow soon. Time to take a closer look at how...\n<ul>\n<li>Project Amber makes the language more expressive and ready for today's and tomorrow's problems</li>\n<li>Project Panama cuts through the isthmus separating Java from native code</li>\n<li>Project Loom enables hassle-free and efficient structured concurrency</li>\n<li>Project Valhalla mends the rift in Java's type system and improves performance</li>\n</ul>\nAfter this talk, you will know what to expect from Java in the next few years.",
+      "abstract": "<p>Java's four big projects are entering the home stretch: Amber and Panama have already incubated, previewed, and even finalized some features, Loom and Valhalla are on track to follow soon. Time to take a closer look at how...</p><p><ul></p><p><li>Project Amber makes the language more expressive and ready for today's and tomorrow's problems</li></p><p><li>Project Panama cuts through the isthmus separating Java from native code</li></p><p><li>Project Loom enables hassle-free and efficient structured concurrency</li></p><p><li>Project Valhalla mends the rift in Java's type system and improves performance</li></p><p></ul></p><p>After this talk, you will know what to expect from Java in the next few years.</p>",
       "type": "talk",
       "tags": [
         "Java",
@@ -120,7 +120,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "As applications move to containers and migrate to the cloud, they become ever more complex, and it's increasingly important to monitor, analyze, and diagnose their behaviour. Observability is a new way of thinking about monitoring and understanding your applications. It’s supported by a growing range of open source tools and standards - part of the new wave of technologies that modern developers need to go fully Cloud Native.\n\nJoin Ben Evans to get the basics of the necessary theory behind Observability, including the fundamentals of monitoring, metrics, and tracing, and then get hands-on. You'll learn how to achieve observability in Java using OpenTelemetry, the emerging Open Standard for Observability, and we'll meet several other related OSS libraries and tools  (such as Jaeger) along the way.",
+      "abstract": "<p>As applications move to containers and migrate to the cloud, they become ever more complex, and it's increasingly important to monitor, analyze, and diagnose their behaviour. Observability is a new way of thinking about monitoring and understanding your applications. It’s supported by a growing range of open source tools and standards - part of the new wave of technologies that modern developers need to go fully Cloud Native.</p><p>Join Ben Evans to get the basics of the necessary theory behind Observability, including the fundamentals of monitoring, metrics, and tracing, and then get hands-on. You'll learn how to achieve observability in Java using OpenTelemetry, the emerging Open Standard for Observability, and we'll meet several other related OSS libraries and tools  (such as Jaeger) along the way.</p>",
       "type": "workshop",
       "tags": [
         "Cloud",
@@ -139,7 +139,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "Spring is all about helping developers get to production quickly and safely. These days, \"production\" is all but guaranteed to mean Kubernetes, and Spring has you covered. Join me, Spring Developer Advocate Josh Long (@starbuxman), and we'll look at how Spring Boot makes writing blisteringly fast, cloud-native, and scalable services more effortless than ever.\n\n",
+      "abstract": "<p>Spring is all about helping developers get to production quickly and safely. These days, \"production\" is all but guaranteed to mean Kubernetes, and Spring has you covered. Join me, Spring Developer Advocate Josh Long (@starbuxman), and we'll look at how Spring Boot makes writing blisteringly fast, cloud-native, and scalable services more effortless than ever.</p>",
       "type": "talk",
       "tags": [
         "spring",
@@ -159,7 +159,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "It is a time of developers complain about performance. Rebel developers, striking from a hidden base, have won their first victory against the evil blocking applications. In this session, attendees will learn about a real-world evolution to reactive; we will be covering tips and tricks of an experience in evolving a Banking Application; Through the session, you are going to get tips, tricks, pros, cons, and the reasons for being involved on move forward to non-blocking application and present sample code and explain the security concerns on this evolution. We will be using snippets code based on JAVA, JWT, JWS, Auth0, Spring Boot, Reactor and Webflux deployed on Cloud.",
+      "abstract": "<p>It is a time of developers complain about performance. Rebel developers, striking from a hidden base, have won their first victory against the evil blocking applications. In this session, attendees will learn about a real-world evolution to reactive; we will be covering tips and tricks of an experience in evolving a Banking Application; Through the session, you are going to get tips, tricks, pros, cons, and the reasons for being involved on move forward to non-blocking application and present sample code and explain the security concerns on this evolution. We will be using snippets code based on JAVA, JWT, JWS, Auth0, Spring Boot, Reactor and Webflux deployed on Cloud.</p>",
       "type": "talk",
       "tags": [
         "Java",
@@ -178,7 +178,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "Helidon is a brave, small but powerful opensource framework for writing microservices. And if you need get the maximum performance – making your apps reactive is the currently the best way to do it! In this session we will dive deeper and see how to create extremely performant reactive microservices with Helidon “SE” flavour. We will explore its Reactive APIs, asynchronous DB access, and reactive Web-Client. Since Helidon has its own powerful Reactive Engine, we will learn how to get the most requests served in async operations and Messaging. We will also compare the performance with Loom, since Helidon supports it out of the box! Welcome to the Danger Zone!\n\n",
+      "abstract": "<p>Helidon is a brave, small but powerful opensource framework for writing microservices. And if you need get the maximum performance – making your apps reactive is the currently the best way to do it! In this session we will dive deeper and see how to create extremely performant reactive microservices with Helidon “SE” flavour. We will explore its Reactive APIs, asynchronous DB access, and reactive Web-Client. Since Helidon has its own powerful Reactive Engine, we will learn how to get the most requests served in async operations and Messaging. We will also compare the performance with Loom, since Helidon supports it out of the box! Welcome to the Danger Zone!</p>",
       "type": "talk",
       "tags": [
         "helidon",
@@ -197,7 +197,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "We often make applications in which REST (HTTP) predominates, but is this a smart choice? Can't it be faster, or rather asynchronously and event based? Especially if you work with BIG DATA, Kafka is usually the better option.You get a whole platform where scalability, fault tolerance and replay-ability are very important (you don't want your message to be lost, and preferably you want to process it again if your system has been down).\n\nThere are three libraries we will discuss during live coding:\n- Spring Kafka, where we will create a consumer and producer and test them with test-containers (without starting a whole cluster yourself).\n\n- Kafka Streams, a perfect fit for functional programming! With the StreamsAPI we will cover the best and most used patterns like branching, joining, mapping and more. We will create a Topology (stream) where we will handle fraud detection.\n\n- Spring Actuator is a match when you want to monitor your stream of events, you already got a lot of metrics for free!\n\nAfter the session you can create your own application with consumers, producers and streams!",
+      "abstract": "<p>We often make applications in which REST (HTTP) predominates, but is this a smart choice? Can't it be faster, or rather asynchronously and event based? Especially if you work with BIG DATA, Kafka is usually the better option.You get a whole platform where scalability, fault tolerance and replay-ability are very important (you don't want your message to be lost, and preferably you want to process it again if your system has been down).</p><p>There are three libraries we will discuss during live coding:</p><ul><li>Spring Kafka, where we will create a consumer and producer and test them with test-containers (without starting a whole cluster yourself).</li><li>Kafka Streams, a perfect fit for functional programming! With the StreamsAPI we will cover the best and most used patterns like branching, joining, mapping and more. We will create a Topology (stream) where we will handle fraud detection.</li><li>Spring Actuator is a match when you want to monitor your stream of events, you already got a lot of metrics for free!</li></ul><p>After the session you can create your own application with consumers, producers and streams!</p>",
       "type": "talk",
       "tags": [
         "Kafka Streams",
@@ -215,7 +215,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "Every so often,  you’ll read a performance benchmark (of a Java or other application), with bold claims for how well X performs compared to Y. Testing the performance of your Java application is an artform rather than engineering, and is a minefield of misconceptions, misunderstanding, and misinformation. In this session, we will review the basics and give you concrete steps to build a robust performance testbed for your application. We will be looking at this from a real-world server-side application point of view, specifically for Java apps. We’ll review common problems and how to avoid them. We’ll cover these topics while building up a performance test and running it live:\n\n\n\nDefine your goals: SLA, latency, throughput, stability\nTest env vs. Production env for testing\nThe impact of GC on Java app performance\nTools for setting up, driving load, and getting perf test results\nTesting application infrastructure like Kafka, Spark and Cassandra\nOperating system settings, JVM settings, memory sizing, and CPU sizing\nAnalyzing perf test results and finding bottlenecks that are both apparent and not obvious",
+      "abstract": "<p>Every so often,  you’ll read a performance benchmark (of a Java or other application), with bold claims for how well X performs compared to Y. Testing the performance of your Java application is an artform rather than engineering, and is a minefield of misconceptions, misunderstanding, and misinformation. In this session, we will review the basics and give you concrete steps to build a robust performance testbed for your application. We will be looking at this from a real-world server-side application point of view, specifically for Java apps. We’ll review common problems and how to avoid them. We’ll cover these topics while building up a performance test and running it live:</p><p>Define your goals: SLA, latency, throughput, stability</p><p>Test env vs. Production env for testing</p><p>The impact of GC on Java app performance</p><p>Tools for setting up, driving load, and getting perf test results</p><p>Testing application infrastructure like Kafka, Spark and Cassandra</p><p>Operating system settings, JVM settings, memory sizing, and CPU sizing</p><p>Analyzing perf test results and finding bottlenecks that are both apparent and not obvious</p>",
       "type": "talk",
       "tags": [
         "java",
@@ -232,7 +232,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "The virtual shelves are filled to bursting with cloud native technologies; containers, runtimes, CI pipelines, observability tools. The more an organisation buys, the more cloud native it is, right? And the more network communication an app involves, the more cloud native it is, right? Well, not so much. It turns out cloud native is about how you deliver software, not the tools you use. This talk explains these often-overlooked elements for cloud native success:\n- Figuring out what problem we’re trying to solve\n- Releasing\n- Testing, but not the way you’re used to",
+      "abstract": "<p>The virtual shelves are filled to bursting with cloud native technologies; containers, runtimes, CI pipelines, observability tools. The more an organisation buys, the more cloud native it is, right? And the more network communication an app involves, the more cloud native it is, right? Well, not so much. It turns out cloud native is about how you deliver software, not the tools you use. This talk explains these often-overlooked elements for cloud native success:</p><ul><li>Figuring out what problem we’re trying to solve</li><li>Releasing</li><li>Testing, but not the way you’re used to</li></ul>",
       "type": "talk",
       "tags": [
         "cloud",
@@ -250,7 +250,7 @@
         "eng",
         "es"
       ],
-      "abstract": "In this presentation, Mauricio, a very passionate Java Developer, share his psychedelic findings from working in the Go ecosystem for the Knative OSS Project. This presentation focuses on the Go ecosystem instead of the difference between the Java and Go languages. Tools like dependency management, IDEs, frameworks and how to deal with large projects will be discussed. While Java is still big in my heart there are good lessons, frameworks and tools that we might want to bring to the Java ecosystem from the vibrant Go community. A special emphasis is made around Kubernetes related tools and why I think that Go in Kubernetes is miles ahead of Java.",
+      "abstract": "<p>In this presentation, Mauricio, a very passionate Java Developer, share his psychedelic findings from working in the Go ecosystem for the Knative OSS Project. This presentation focuses on the Go ecosystem instead of the difference between the Java and Go languages. Tools like dependency management, IDEs, frameworks and how to deal with large projects will be discussed. While Java is still big in my heart there are good lessons, frameworks and tools that we might want to bring to the Java ecosystem from the vibrant Go community. A special emphasis is made around Kubernetes related tools and why I think that Go in Kubernetes is miles ahead of Java.</p>",
       "type": "talk",
       "tags": [
         "Cloud",
@@ -271,7 +271,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "With microservices comes great benefits but also great challenges! One such challenge is data consistency and integrity. Traditionally, tightly coupled transactions were used to ensure strong consistency and isolation. However, this results in strong coupling between services due to data locking and decreasing concurrency, both of which are unsuitable for microservices. So, how do we provide consistency guarantees for flows that span long periods of time in cloud-native applications? We'll address this challenge by investigating the Saga pattern for distributed transactions, the MicroProfile Long Running Action (LRA) specification and how these can be used to develop effective cloud-native Java microservices.",
+      "abstract": "<p>With microservices comes great benefits but also great challenges! One such challenge is data consistency and integrity. Traditionally, tightly coupled transactions were used to ensure strong consistency and isolation. However, this results in strong coupling between services due to data locking and decreasing concurrency, both of which are unsuitable for microservices. So, how do we provide consistency guarantees for flows that span long periods of time in cloud-native applications? We'll address this challenge by investigating the Saga pattern for distributed transactions, the MicroProfile Long Running Action (LRA) specification and how these can be used to develop effective cloud-native Java microservices.</p>",
       "type": "talk",
       "tags": [
         "Transactions",
@@ -291,7 +291,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "Diagrams as code is becoming a popular way to diagram software architecture, particularly for long-lived high-level documentation - write the diagram source in a text-based domain specific language (e.g. PlantUML or Mermaid) or a programming language, and render diagrams using web-based or command line tooling. The benefits are well understood - writing the diagram source as text allows for easy integration into software development practices and toolchains, plus the automatic layout facilities allow authors to focus on content. The problem with this approach is that it's easy for diagrams to get out of sync. Enter \"diagrams as code 2.0\" and the open source Structurizr DSL - a Java-based library providing a way to define a model of our software architecture and the views that we'd like to see, ultimately resulting in a consistent set of diagrams that are generated for us.",
+      "abstract": "<p>Diagrams as code is becoming a popular way to diagram software architecture, particularly for long-lived high-level documentation - write the diagram source in a text-based domain specific language (e.g. PlantUML or Mermaid) or a programming language, and render diagrams using web-based or command line tooling. The benefits are well understood - writing the diagram source as text allows for easy integration into software development practices and toolchains, plus the automatic layout facilities allow authors to focus on content. The problem with this approach is that it's easy for diagrams to get out of sync. Enter \"diagrams as code 2.0\" and the open source Structurizr DSL - a Java-based library providing a way to define a model of our software architecture and the views that we'd like to see, ultimately resulting in a consistent set of diagrams that are generated for us.</p>",
       "type": "talk",
       "tags": [
         "Software Architecture",
@@ -308,7 +308,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "You have learned about the “Closed World Assumption”. You live by the rule “Thou Shall Sparingly Use Reflection”. You know that “From the Powerful defineClass Comes Great Responsibility”. And yet you were still left to wonder: what is it still eluding me? What is the secret ingredient that I am still missing? Join us for a short, but deeper dive into some of the dark magic behind GraalVM’s native image builder: heap snapshotting and build-time initialization. And learn more about other obscure projects investigating the craft of static Java compilation.\n\n",
+      "abstract": "<p>You have learned about the “Closed World Assumption”. You live by the rule “Thou Shall Sparingly Use Reflection”. You know that “From the Powerful defineClass Comes Great Responsibility”. And yet you were still left to wonder: what is it still eluding me? What is the secret ingredient that I am still missing? Join us for a short, but deeper dive into some of the dark magic behind GraalVM’s native image builder: heap snapshotting and build-time initialization. And learn more about other obscure projects investigating the craft of static Java compilation.</p>",
       "type": "talk",
       "tags": [
         "native image",
@@ -327,7 +327,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "In the cloud-native world, being a developer might be challenging. The number of technologies and patterns to know can be overwhelming. This session presents an approach based on open-source technologies and focused on improving the inner development loop and continuous delivery on Kubernetes. The end goal is delivering value continuously, quickly, and reliably.\n\nFirst, I’ll present several techniques for working locally in an effective and productive way. Should you run Kubernetes in your development environment? I’ll cover a few different options. Using Java and Spring Boot, we’ll build a cloud native application following the principles of test-driven development. The inner development loop will be enhanced with Cloud Native Buildpacks, Skaffold, and Telepresence.\n\nContinuous integration is a crucial practice for continuous delivery. We’ll check in code regularly, triggering an automated process to build, test, and package the application. Do you use pull requests? Relying on ArgoCD and Knative, I’ll show you how to work with temporary environments created dynamically when a new pull request is opened. Next, further acceptance tests will be carried on in a production-like environment to ensure the mainline is always in a releasable state. Finally, we’ll deploy and release the new changes to production following the GitOps principles.",
+      "abstract": "<p>In the cloud-native world, being a developer might be challenging. The number of technologies and patterns to know can be overwhelming. This session presents an approach based on open-source technologies and focused on improving the inner development loop and continuous delivery on Kubernetes. The end goal is delivering value continuously, quickly, and reliably.</p><p>First, I’ll present several techniques for working locally in an effective and productive way. Should you run Kubernetes in your development environment? I’ll cover a few different options. Using Java and Spring Boot, we’ll build a cloud native application following the principles of test-driven development. The inner development loop will be enhanced with Cloud Native Buildpacks, Skaffold, and Telepresence.</p><p>Continuous integration is a crucial practice for continuous delivery. We’ll check in code regularly, triggering an automated process to build, test, and package the application. Do you use pull requests? Relying on ArgoCD and Knative, I’ll show you how to work with temporary environments created dynamically when a new pull request is opened. Next, further acceptance tests will be carried on in a production-like environment to ensure the mainline is always in a releasable state. Finally, we’ll deploy and release the new changes to production following the GitOps principles.</p>",
       "type": "talk",
       "tags": [
         "Java",
@@ -349,7 +349,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "Building cloud-native Java applications is undoubtedly awesome.\n\nHowever, it comes with undeniable new risks. Next to your own code, you are relying on so many other things.\n\nBlindly depending on open-source libraries and Docker images can form a massive risk for your application.\n\nThe wrong package can introduce severe vulnerabilities into your application, exposing your application and your user's data.\n\nJoin this talk where we’ll show common threats, vulnerabilities, and misconfiguration including the recently disclosed issues in Log4j.\n\nMost importantly, you’ll learn how to protect your application with actionable remediation and best practices.",
+      "abstract": "<p>Building cloud-native Java applications is undoubtedly awesome.</p><p>However, it comes with undeniable new risks. Next to your own code, you are relying on so many other things.</p><p>Blindly depending on open-source libraries and Docker images can form a massive risk for your application.</p><p>The wrong package can introduce severe vulnerabilities into your application, exposing your application and your user's data.</p><p>Join this talk where we’ll show common threats, vulnerabilities, and misconfiguration including the recently disclosed issues in Log4j.</p><p>Most importantly, you’ll learn how to protect your application with actionable remediation and best practices.</p>",
       "type": "talk",
       "tags": [
         "Java",
@@ -367,7 +367,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "This workshop is designed to be hands-on experiences on how developers can get started with scaffolding serverless functions projects using Quarkus, a new Kubernetes native Java framework with familiar tools (e.g. CLI, Maven, Gradel). The workshop covers deploying service functions to AWS Lambda, optimizing the functions, making them portable across multiple serverless platforms ( e.g., AWS Lambda, Azure Function, Google Cloud Platform, Kubernetes Knative), and using the latest handy command-line tool (e.g. Kn func) to enable a Buildpack for function development & deployment in minutes. Lab participants will be provided a free sandbox for serverless deployments.\n\nLab instructions(WIP): https://github.com/RedHat-Middleware-Workshops/enter-serverless-functions/blob/main/README.md",
+      "abstract": "<p>This workshop is designed to be hands-on experiences on how developers can get started with scaffolding serverless functions projects using Quarkus, a new Kubernetes native Java framework with familiar tools (e.g. CLI, Maven, Gradel). The workshop covers deploying service functions to AWS Lambda, optimizing the functions, making them portable across multiple serverless platforms ( e.g., AWS Lambda, Azure Function, Google Cloud Platform, Kubernetes Knative), and using the latest handy command-line tool (e.g. Kn func) to enable a Buildpack for function development & deployment in minutes. Lab participants will be provided a free sandbox for serverless deployments.</p><p>Lab instructions(WIP): https://github.com/RedHat-Middleware-Workshops/enter-serverless-functions/blob/main/README.md</p>",
       "type": "workshop",
       "tags": [
         "Serverless",
@@ -387,7 +387,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "Learn and apply Spring Security 5+ in a collection of individual challenges, for all levels. From picking the right dependency, to enforcing security constraints. Choose from a series of self-guided exercises around authorization to suit your needs. Topics include: OpenID Connect, Keycloak and integrating with Spring Cloud Gateway, Spring Data and Testing. Walk away with increased confidence in Spring Security and what it can do for your projects.",
+      "abstract": "<p>Learn and apply Spring Security 5+ in a collection of individual challenges, for all levels. From picking the right dependency, to enforcing security constraints. Choose from a series of self-guided exercises around authorization to suit your needs. Topics include: OpenID Connect, Keycloak and integrating with Spring Cloud Gateway, Spring Data and Testing. Walk away with increased confidence in Spring Security and what it can do for your projects.</p>",
       "type": "workshop",
       "tags": [
         "Spring",
@@ -404,7 +404,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "With globally distributed applications (and teams!) the job of software architect isn’t getting any easier; applications are growing increasingly complex and architects are spread thin. You can’t be involved with every decision, you must empower your teams while ensuring they are making good choices. How do you do that? How can frameworks like Spring not only make your life easier but help your teams deliver robust applications to production? Spring Cloud has a veritable plethora of sub projects from circuit breakers to functions simplifying the task of building cloud native applications while making it easy for developers to adhere to best practices. At the same time it can be overwhelming to get your head wrapped around all the features Spring offers. This talk will show how Spring allows architects to focus on the critical design decisions they need to make while ensuring developers are empowered to implement critical business use cases. Today’s cloud native applications have similar pitfalls, luckily Spring is here to help you resolve them!",
+      "abstract": "<p>With globally distributed applications (and teams!) the job of software architect isn’t getting any easier; applications are growing increasingly complex and architects are spread thin. You can’t be involved with every decision, you must empower your teams while ensuring they are making good choices. How do you do that? How can frameworks like Spring not only make your life easier but help your teams deliver robust applications to production? Spring Cloud has a veritable plethora of sub projects from circuit breakers to functions simplifying the task of building cloud native applications while making it easy for developers to adhere to best practices. At the same time it can be overwhelming to get your head wrapped around all the features Spring offers. This talk will show how Spring allows architects to focus on the critical design decisions they need to make while ensuring developers are empowered to implement critical business use cases. Today’s cloud native applications have similar pitfalls, luckily Spring is here to help you resolve them!</p>",
       "type": "workshop",
       "tags": [
         "spring",
@@ -425,7 +425,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "Jakarta EE 10 is here with lots of new features and improvements. This session will go through these features one by one with live coding examples of how to use them.\nYou will get a full overview of what Jakarta EE 10 brings to the table, including the brand new Jakarta EE Core Profile that targets smaller runtimes.\nIf time allows, a sneak peek into what to expect beyond Jakarta EE 10 will also be provided.\n",
+      "abstract": "<p>Jakarta EE 10 is here with lots of new features and improvements. This session will go through these features one by one with live coding examples of how to use them.</p><p>You will get a full overview of what Jakarta EE 10 brings to the table, including the brand new Jakarta EE Core Profile that targets smaller runtimes.</p><p>If time allows, a sneak peek into what to expect beyond Jakarta EE 10 will also be provided.</p>",
       "type": "talk",
       "tags": [
         "Jakarta EE",
@@ -443,7 +443,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "In recent years, we have seen new job titles appear, at the crossroads between tech, marketing and the community: Developer Advocate, Developer Evangelist, Technical Advocate… These jobs are grouped together in a large category: Developer Relations, or quite simply DevRel ...\n\nBut what exactly is a DevRel? What does he/she do for a living? Is he/she just a glitter thrower? Does he/she spend his/her life in conferences? Does he/she know airports and train stations inside out? Does he/she have a unicorn costume in his/her luggage?\n\nAurélie and Horacio will show you in this talk, with their humor and good mood, their daily life, the different types of activities and what is really behind this DevRel job… And you might even get some little anecdotes ^^",
+      "abstract": "<p>In recent years, we have seen new job titles appear, at the crossroads between tech, marketing and the community: Developer Advocate, Developer Evangelist, Technical Advocate… These jobs are grouped together in a large category: Developer Relations, or quite simply DevRel ...</p><p>But what exactly is a DevRel? What does he/she do for a living? Is he/she just a glitter thrower? Does he/she spend his/her life in conferences? Does he/she know airports and train stations inside out? Does he/she have a unicorn costume in his/her luggage?</p><p>Aurélie and Horacio will show you in this talk, with their humor and good mood, their daily life, the different types of activities and what is really behind this DevRel job… And you might even get some little anecdotes ^^</p>",
       "type": "talk",
       "tags": [
         "DevRel",
@@ -462,7 +462,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "Join us in this workshop for learning how we have utilized great open source identity management solution Keycloak for managing user authentication, synchronizing user groups, user group memberships, etc. by integrating with Active Directory (or any enterprise LDAP). Keycloak is also capable of identity management via social media providers e.g. Linkedin, Github, Twitter, etc. \n\nDuring the workshop, we will go through all the important steps one by one, hands-on\n\n1. Keycloak configuration\n1.1. Realm creation / configuration\n1.2. User federation, LDAP integration \n1.3. users / groups syncronization from LDAP\n1.4. perform authentication requests via postman\n\n2. Spring Security confgiuration\n2.1. verification of keycloak JWT token \n2.2. extracting username and roles from the JWT token \n\n2. Vue.js app integration\n2.1. simple one page vue.js app performing login operation from Keycloak and makine one simple REST request to Spring Rest service\n\nFor the sake of timing during the workshop, Keycloak - LDAP will be provided as a docker container and Spring and Vue.js projects will be shared as a template via Github so that the audience can focus on the important parts. \n",
+      "abstract": "<p>Join us in this workshop for learning how we have utilized great open source identity management solution Keycloak for managing user authentication, synchronizing user groups, user group memberships, etc. by integrating with Active Directory (or any enterprise LDAP). Keycloak is also capable of identity management via social media providers e.g. Linkedin, Github, Twitter, etc.</p><p>During the workshop, we will go through all the important steps one by one, hands-on</p><p>1. Keycloak configuration</p><p>1.1. Realm creation / configuration</p><p>1.2. User federation, LDAP integration</p><p>1.3. users / groups syncronization from LDAP</p><p>1.4. perform authentication requests via postman</p><p>2. Spring Security confgiuration</p><p>2.1. verification of keycloak JWT token</p><p>2.2. extracting username and roles from the JWT token</p><p>2. Vue.js app integration</p><p>2.1. simple one page vue.js app performing login operation from Keycloak and makine one simple REST request to Spring Rest service</p><p>For the sake of timing during the workshop, Keycloak - LDAP will be provided as a docker container and Spring and Vue.js projects will be shared as a template via Github so that the audience can focus on the important parts.</p>",
       "type": "workshop",
       "tags": [
         "keycloak",
@@ -483,7 +483,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "Micronaut Data allows the constructions of slick database applications that target a range of different database workloads from SQL databases to document databases like MongoDB and Oracle Autonomous Database. This presentation by Micronaut creator and Oracle Architect Graeme Rocher will take you through a tour of using Micronaut Data's key features including:\n\n- Persistence to SQL and Document Databases\n- Non-blocking database access with R2DBC\n- Programmatic and declarative transactions\n- Persistence events\n- Criteria specifications\n- Building native database applications with GraalVM and Native Image\n\n\nTo get an in-depth tour of Micronaut, Micronaut Data and GraalVM this is the talk for you.\n",
+      "abstract": "<p>Micronaut Data allows the constructions of slick database applications that target a range of different database workloads from SQL databases to document databases like MongoDB and Oracle Autonomous Database. This presentation by Micronaut creator and Oracle Architect Graeme Rocher will take you through a tour of using Micronaut Data's key features including:</p><ul><li>Persistence to SQL and Document Databases</li><li>Non-blocking database access with R2DBC</li><li>Programmatic and declarative transactions</li><li>Persistence events</li><li>Criteria specifications</li><li>Building native database applications with GraalVM and Native Image</li></ul><p>To get an in-depth tour of Micronaut, Micronaut Data and GraalVM this is the talk for you.</p>",
       "type": "talk",
       "tags": [
         "micronaut",
@@ -503,7 +503,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "Java 17 has come and gone, but development on Java continues on! What has changed since Java 11? And what changes are being added in Java 19 and Beyond? Come find out! \n\nIn this presentation we will look at some of the key changes that have been added to Java post-8. The large changes; the Module System and Records, quality of life improvements; var, text blocks, pattern matching, and the many performance and runtime improvements. We will finish the presentation with a brief look ahead to some of the changes that will be coming to Java in the near future and why Java’s future is bright.\n",
+      "abstract": "<p>Java 17 has come and gone, but development on Java continues on! What has changed since Java 11? And what changes are being added in Java 19 and Beyond? Come find out!</p><p>In this presentation we will look at some of the key changes that have been added to Java post-8. The large changes; the Module System and Records, quality of life improvements; var, text blocks, pattern matching, and the many performance and runtime improvements. We will finish the presentation with a brief look ahead to some of the changes that will be coming to Java in the near future and why Java’s future is bright.</p>",
       "type": "talk",
       "tags": [
         "Java",
@@ -521,7 +521,7 @@
         "eng",
         "es"
       ],
-      "abstract": "In this session, Sergio del Amo introduces Micronaut Security, a fully-featured and customizable security solution for your applications.\n\nTopics include:\n\nAuthentication (Basic Auth, Cookie-based, Session-based, Bearer, LDAP, X.509)\nAccess authenticated user\nSecurity Configuration (@Secured, Intercept URL map, and more)\nOAuth 2.0 (Authorization Code, Client Credentials, Password Credentials grants)\nOpenID Connect (integration with third-party OAuth 2.0 server providers: Auth0, Okta, Keycloak, Amazon Cognito)\nJWT (signing, validation, generation, JWKS)\nToken Propagation\nSecurity Events\nDiscover how easy it is to work with Micronaut Security and learn how to tailor it to your needs.\n\nSergio del Amo is a Micronaut core committer, Developer Advocate for the Micronaut Foundation, and host of the Micronaut podcast.",
+      "abstract": "<p>In this session, Sergio del Amo introduces Micronaut Security, a fully-featured and customizable security solution for your applications.</p><p>Topics include:</p><p>Authentication (Basic Auth, Cookie-based, Session-based, Bearer, LDAP, X.509)</p><p>Access authenticated user</p><p>Security Configuration (@Secured, Intercept URL map, and more)</p><p>OAuth 2.0 (Authorization Code, Client Credentials, Password Credentials grants)</p><p>OpenID Connect (integration with third-party OAuth 2.0 server providers: Auth0, Okta, Keycloak, Amazon Cognito)</p><p>JWT (signing, validation, generation, JWKS)</p><p>Token Propagation</p><p>Security Events</p><p>Discover how easy it is to work with Micronaut Security and learn how to tailor it to your needs.</p><p>Sergio del Amo is a Micronaut core committer, Developer Advocate for the Micronaut Foundation, and host of the Micronaut podcast.</p>",
       "type": "workshop",
       "tags": [
         "Micronaut",
@@ -542,7 +542,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "When it comes to distributed, event-driven messaging systems, we usually see them supporting either one of two types of semantics: streaming, or queueing, and rarely do we find a platform that supports both.  In this presentation, we’ll first get an introduction and some clarifications of event-driven versus message-driven systems, event streams, and stream processing.  We’ll then take a look at Apache Pulsar which offers a very unique capability in modern, cloud-native applications and architecture, in which its platform supports both Publish-Subscribe and Message Queues, and extends into streams processing as well as performs message mediation & transformation.  We will see how it works closely with and relies on Apache Bookkeeper for its durable, scalable, and performant storage of log streams, and leverages on Apache Zookeeper to manage the otherwise very complex ecosystem.  We will then compare Apache Pulsar with the popular Apache Kafka platform to understand some of their key differences as to how Pulsar can overcome some of Kafka's limitations.  With Pulsar's flexible architecture and cloud-native readiness, we will take a look to see how it can be integrated and work collaboratively with the popular Spring framework.\n",
+      "abstract": "<p>When it comes to distributed, event-driven messaging systems, we usually see them supporting either one of two types of semantics: streaming, or queueing, and rarely do we find a platform that supports both.  In this presentation, we’ll first get an introduction and some clarifications of event-driven versus message-driven systems, event streams, and stream processing.  We’ll then take a look at Apache Pulsar which offers a very unique capability in modern, cloud-native applications and architecture, in which its platform supports both Publish-Subscribe and Message Queues, and extends into streams processing as well as performs message mediation & transformation.  We will see how it works closely with and relies on Apache Bookkeeper for its durable, scalable, and performant storage of log streams, and leverages on Apache Zookeeper to manage the otherwise very complex ecosystem.  We will then compare Apache Pulsar with the popular Apache Kafka platform to understand some of their key differences as to how Pulsar can overcome some of Kafka's limitations.  With Pulsar's flexible architecture and cloud-native readiness, we will take a look to see how it can be integrated and work collaboratively with the popular Spring framework.</p>",
       "type": "talk",
       "tags": [
         "Event Streaming",
