@@ -557,6 +557,25 @@
       "speakers": [
         "443a683fa84a77151521434bf96a7a082d29d361"
       ]
+    },
+    {
+      "id": "623b89093a63410bd73c06fa",
+      "title": "Cloud-Native Application Development with MicroProfile",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Ever wondered what is a Cloud Native Application? Is it a microservice or a monolith? oh, it must be made for Cloud using Java? Ever Wondered how to develop a Cloud-Native Application? Come to this session to find out about what making an application Cloud-Native and then learn how to build a Cloud-Native Application using the latest MicroProfile technologies (MicroProfile 4.1) such as Config, Fault Tolerance, Rest Client, JWT, Metrics etc. This session finishes with a live demo on developing Cloud-Native applications using MicroProfile 4.1 running on Open Liberty and deploying them on k8s.</p>",
+      "type": "talk",
+      "tags": [
+        "cloud-natve",
+        "config",
+        "microprofile",
+        "kubernetes"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "907ad623981c92e789c5b74ed8c18db8a0c1be71"
+      ]
     }
   ]
 }
