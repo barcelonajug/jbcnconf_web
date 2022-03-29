@@ -71,4 +71,9 @@ regular:
     image:
       src: "/assets/img/sponsors/idealista.jpg"
       alt: Idealista
+  - name: commerceTools
+    href: https://commercetools.com/
+    image:
+      src: "/assets/img/sponsors/commerce-tools.png"
+      alt: commerceTools
 supporters:
