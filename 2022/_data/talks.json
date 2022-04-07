@@ -559,6 +559,26 @@
       ]
     },
     {
+      "id": "623b88963a63410bd73c06f9",
+      "title": "Open Innovation and the Java Platform ",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>In this presentation we look at recent enhancements to the language. We will also provide resources to help you get more involved in the evolution of Java, learn Java, and explore how you can contribute to the Java community. We will show you how to stay informed when new versions of Java are released and how joining your local Java User Group builds your network and may eventually lead to better career opportunities. Come for Java; stay for all the fun!</p>",
+      "type": "talk",
+      "tags": [
+        "java",
+        "community",
+        "jdk",
+        "innovation",
+        "careers"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "cdb2f4341ae9909562e3f30b68c1d4ade0597c01"
+      ]
+    },
+    {
       "id": "623b89093a63410bd73c06fa",
       "title": "Cloud-Native Application Development with MicroProfile",
       "languages": [
