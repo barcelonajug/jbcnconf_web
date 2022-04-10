@@ -55,7 +55,7 @@
     {
       "enabled": "1",
       "name": "Holly Cummins",
-      "company": "IBM",
+      "company": "Senior Principal Software Engineer at Red Hat",
       "description": "Innovation Leader",
       "biography": "Holly Cummins is a Senior Technical Staff Member and Innovation Leader at IBM, as well as a Java Champion and author. Holly has led projects for enormous banks, tiny startups, and everything in between. Holly has used the power of cloud to understand climate risks, count fish, help a blind athlete run ultra-marathons in the desert solo, and invent stories (although not at all the same time).",
       "image": "assets/img/speakers/holly-cummins.jpg",
@@ -145,16 +145,42 @@
     },
     {
       "enabled": "1",
+      "name": "Birgit Kratz",
+      "company": "Birgit Kratz",
+      "description": "Freelance",
+      "biography": "Birgit Kratz is a freelancing software developer and consultant, mainly in the Java ecosystem.\nMy domains as well as my passion are using agile development methods and spreading the software-crafting ideas.\nThis is why I'm a co-organizer of the German software crafting community (Softwerkskammer) events in Cologne and Düsseldorf for many years now.\nTo balance my job activities I ride my road bike quite extensively.",
+      "image": "assets/img/speakers/birgit.jpg",
+      "ref": "333c3c7a68eddba59d67331ec6422d0092a814b3",
+      "url": "infoSpeaker.html?ref=333c3c7a68eddba59d67331ec6422d0092a814b3",
+      "homepage": "",
+      "twitter": "@bikratz",
+      "linkedin": "https://www.linkedin.com/in/birgit-kratz-567079204/"
+    },
+    {
+      "enabled": "1",
       "name": "Simon Brown",
       "company": "Architectis",
       "description": "Independent Consultant",
-      "biography": "Simon is an independent consultant specialising in software architecture, and the author of “Software Architecture for Developers” (a developer-friendly guide to software architecture, technical leadership and the balance with agility). He is also the creator of the C4 model for visualising software architecture, and the founder of Structurizr. Simon is a regular speaker at international software development conferences, and travels the world to help organisations visualise and document their software architecture.",
+      "biography": "Simon is an independent consultant specialising in software architecture, and the author of “Software Architecture for Developers” (a developer-friendly guide to software architecture, technical leadership and the balance with agility). He is also the creator of the C4 model for visualising software architecture, and the founder of Structurizr. Simon is a regular speaker at international software development conferences, and travels the world to help organisations visualise and document their software architecture.",
       "image": "assets/img/speakers/simonbrown.jpg",
       "ref": "a51f5e99c5211c81d99cd6f4e4217940c41e2d5d",
       "url": "infoSpeaker.html?ref=a51f5e99c5211c81d99cd6f4e4217940c41e2d5d",
       "homepage": "https://simonbrown.je/",
       "twitter": "@simonbrown",
       "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Milen Dyankov",
+      "company": "AxonIQ",
+      "description": "Developer Advocate",
+      "biography": "Milen is a Developer Advocate at AxonIQ on a mission to help fellow Java developers around the globe design and build clean, modular, and future-proof software! After more than 20 years of developing, designing, and consulting on various solutions for leading European companies, he currently spends most of his time supporting communities and organizations, speaking at conferences all over the world and researching his favorite topics around Java modularity, μservices, distributed systems architecture, and software craftsmanship.",
+      "image": "assets/img/speakers/milen.png",
+      "ref": "24a5f774e105713678358ec00b22df50b32059df",
+      "url": "infoSpeaker.html?ref=24a5f774e105713678358ec00b22df50b32059df",
+      "homepage": "https://milendyankov.com/",
+      "twitter": "@milendyankov",
+      "linkedin": "https://www.linkedin.com/in/milendyankov"
     },
     {
       "enabled": "1",

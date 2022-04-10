@@ -498,6 +498,25 @@
       ]
     },
     {
+      "id": "6229198856274e0bddf0079e",
+      "title": "Give your application memories",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Most applications only know the present. Their current state is calculated and updated on every change, effectively losing previous conditions and information that existed in the past. Can that be a limitation? Missed opportunity? What if your application could remember its entire history? Would that be helpful, or is it a worthless effort?</p><p>This talk will provoke Java developers to start asking such questions. It will help you make applicable mental models of Event Sourcing, DDD, and CQRS concepts. It will also demonstrate what it takes to build such applications in Java.</p>",
+      "type": "talk",
+      "tags": [
+        "Event Sourcing",
+        "Distributed system",
+        "CQRS",
+        "Java"
+      ],
+      "level": "middle",
+      "speakers": [
+        "24a5f774e105713678358ec00b22df50b32059df"
+      ]
+    },
+    {
       "id": "62291d7956274e0bddf0079f",
       "title": "To Java 19 and Beyond!",
       "languages": [
@@ -512,6 +531,23 @@
       "level": "beginner",
       "speakers": [
         "459fc7466dfa9163817d35cc884ca96e154c2420"
+      ]
+    },
+    {
+      "id": "62291eab56274e0bddf007a0",
+      "title": "All test are green? Oh no!! Why it is sometimes good, if a test fails.",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Test coverage: 100% - Check!</p><p>And why do we still have bugs?</p><p>OK, tests don't prove the absence of errors.</p><p>And at the end of the day, they are just code which could contain bugs as well.</p><p>And perhaps they give us a false sense of security.</p><p>But how do I know, that my test are good?</p><p>One way to find out is using Mutation Testing.</p><p>In this talk I want to explain, what Mutation Testing is, how to do it and when it is helpful.</p>",
+      "type": "talk",
+      "tags": [
+        "Testing",
+        "Quality of tests"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "333c3c7a68eddba59d67331ec6422d0092a814b3"
       ]
     },
     {
