@@ -57,7 +57,7 @@
       "name": "Holly Cummins",
       "company": "Red Hat",
       "description": "Senior Principal Software Engineer",
-      "biography": "Holly Cummins is a Senior Technical Staff Member and Innovation Leader at IBM, as well as a Java Champion and author. Holly has led projects for enormous banks, tiny startups, and everything in between. Holly has used the power of cloud to understand climate risks, count fish, help a blind athlete run ultra-marathons in the desert solo, and invent stories (although not at all the same time).",
+      "biography": "Holly Cummins is a Senior Principal Software Engineer on the Red Hat Quarkus team. Before joining Red Hat, Holly was a long time IBMer. In her time at IBM, Holly has been a full-stack javascript developer, a WebSphere Liberty build architect, a client-facing consultant, a JVM performance engineer, and an innovation leader. During her time in the IBM Garage, Holly led projects for enormous banks, tiny startups, and everything in between. Holly has used the power of cloud to understand climate risks, count fish, help a blind athlete run ultra-marathons in the desert solo, and invent stories (although not at all the same time). Holly is also a Java Champion, author, and regular keynote speaker. ",
       "image": "assets/img/speakers/holly-cummins.jpg",
       "ref": "16b53ff6547870b3f9c9ef9f5eb97b015ba88e8b",
       "url": "infoSpeaker.html?ref=16b53ff6547870b3f9c9ef9f5eb97b015ba88e8b",
@@ -142,6 +142,17 @@
       "homepage": "",
       "twitter": "@gracejansen27",
       "linkedin": "https://www.linkedin.com/in/grace-jansen/"
+    },
+    {
+      "enabled": "1",
+      "name": "Gerrit Grunwald",
+      "company": "Azul Systems",
+      "description": "Senior Developer Advocate",
+      "biography": "Gerrit Grunwald works as a Senior Developer Advocate at Azul Systems and loves all things Java. He is a true believer in open source and has participated in popular projects like JFXtras.org as well as his own projects (TilesFX, Medusa, Enzo, SteelSeries Swing, SteelSeries Canvas). \nGerrit blogs at http://harmonic-code.org and https://foojay.io, he is an active member of the Java community, where he founded and leads the Java User Group Münster (Germany), he is a JavaOne rockstar and a Java Champion. He is a speaker at conferences and user groups internationally and writes for several magazines.",
+      "image": "assets/img/speakers/gerrit-grunwald.png",
+      "ref": "e5979093f4775ff480701b323ef5f347812a3ce0",
+      "url": "infoSpeaker.html?ref=e5979093f4775ff480701b323ef5f347812a3ce0",
+      "twitter": "https://twitter.com/hansolo_"
     },
     {
       "enabled": "1",
