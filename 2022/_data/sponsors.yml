@@ -40,6 +40,11 @@ premium:
     image:
       src: "/assets/img/sponsors/gft-logo.jpg"
       alt: GFT
+  - name: SEAT:CODE 
+    href: https://code.seat/about/#open-positions
+    image:
+      src: "/assets/img/sponsors/seat-code.png"
+      alt: SEAT:CODE
 regular:
   - name: Capitole Consulting
     href: https://capitole-consulting.com/about/
@@ -76,4 +81,11 @@ regular:
     image:
       src: "/assets/img/sponsors/commerce-tools.png"
       alt: commerceTools
+basic:
+  - name: Capgemini
+    href: https://www.capgemini.com/es-es/
+    image:
+      src: "/assets/img/sponsors/capgemini.jpg"
+      alt: Capgemini
+
 supporters:

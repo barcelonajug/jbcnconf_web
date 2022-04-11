@@ -457,6 +457,24 @@
       ]
     },
     {
+      "id": "6229158356274e0bddf00791",
+      "title": "Java on CRaC: Superfast JVM Application Startup",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>One of the key benefits of a microservice architecture is the ability to dynamically respond to changes in load by spinning up new instances as required. However, when deploying JVM-based services, the warmup time of JIT compilation can be a limitation on the effectiveness of this technique.</p><p>One approach to solving this problem is using native images, where the service is statically compiled using an ahead-of-time (AOT) compiler.  Although this does reduce startup time and footprint, it does so at the cost of overall performance.</p><p>A new project has been proposed and accepted into OpenJDK called CRaC (Coordinated Restore at Checkpoint).  The goal is to research the co-ordination of Java programs with mechanisms to checkpoint (snapshot) a running application.  Restoring from the snapshot could solve some of the problems with the startup and warmup times, especially in microservices.</p><p>In this session, we’ll look at the main challenges for such a project, potential solutions and the results from a proof-of-concept implementation.</p>",
+      "type": "talk",
+      "tags": [
+        "JDK",
+        "JVM",
+        "OpenJDK"
+      ],
+      "level": "middle",
+      "speakers": [
+        "e5979093f4775ff480701b323ef5f347812a3ce0"
+      ]
+    },
+    {
       "id": "622916e656274e0bddf0079b",
       "title": "Seamless SSO workshop : KEYCLAOK + SPRING + VUE.JS + LDAP",
       "languages": [
@@ -498,6 +516,25 @@
       ]
     },
     {
+      "id": "6229198856274e0bddf0079e",
+      "title": "Give your application memories",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Most applications only know the present. Their current state is calculated and updated on every change, effectively losing previous conditions and information that existed in the past. Can that be a limitation? Missed opportunity? What if your application could remember its entire history? Would that be helpful, or is it a worthless effort?</p><p>This talk will provoke Java developers to start asking such questions. It will help you make applicable mental models of Event Sourcing, DDD, and CQRS concepts. It will also demonstrate what it takes to build such applications in Java.</p>",
+      "type": "talk",
+      "tags": [
+        "Event Sourcing",
+        "Distributed system",
+        "CQRS",
+        "Java"
+      ],
+      "level": "middle",
+      "speakers": [
+        "24a5f774e105713678358ec00b22df50b32059df"
+      ]
+    },
+    {
       "id": "62291d7956274e0bddf0079f",
       "title": "To Java 19 and Beyond!",
       "languages": [
@@ -512,6 +549,23 @@
       "level": "beginner",
       "speakers": [
         "459fc7466dfa9163817d35cc884ca96e154c2420"
+      ]
+    },
+    {
+      "id": "62291eab56274e0bddf007a0",
+      "title": "All test are green? Oh no!! Why it is sometimes good, if a test fails.",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Test coverage: 100% - Check!</p><p>And why do we still have bugs?</p><p>OK, tests don't prove the absence of errors.</p><p>And at the end of the day, they are just code which could contain bugs as well.</p><p>And perhaps they give us a false sense of security.</p><p>But how do I know, that my test are good?</p><p>One way to find out is using Mutation Testing.</p><p>In this talk I want to explain, what Mutation Testing is, how to do it and when it is helpful.</p>",
+      "type": "talk",
+      "tags": [
+        "Testing",
+        "Quality of tests"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "333c3c7a68eddba59d67331ec6422d0092a814b3"
       ]
     },
     {
