@@ -76,4 +76,11 @@ regular:
     image:
       src: "/assets/img/sponsors/commerce-tools.png"
       alt: commerceTools
+basic:
+  - name: Capgemini
+    href: https://www.capgemini.com/es-es/
+    image:
+      src: "/assets/img/sponsors/capgemini.jpg"
+      alt: Capgemini
+
 supporters:
