@@ -652,22 +652,22 @@
       ]
     },
     {
-      "id": "6229158356274e0bddf00791",
-      "title": "Java on CRaC: Superfast JVM Application Startup",
+      "id": "6250631eaa23f0085462dda7",
+      "title": "Deterministic, Reproducible, Unsurprising Releases",
       "languages": [
-      "eng"
+        "eng"
       ],
-      "abstract": "<p>One of the key benefits of a microservice architecture is the ability to dynamically respond to changes in load by spinning up new instances as required. However, when deploying JVM-based services, the warmup time of JIT compilation can be a limitation on the effectiveness of this technique.</p><p>One approach to solving this problem is using native images, where the service is statically compiled using an ahead-of-time (AOT) compiler.  Although this does reduce startup time and footprint, it does so at the cost of overall performance.</p><p>A new project has been proposed and accepted into OpenJDK called CRaC (Coordinated Restore at Checkpoint).  The goal is to research the co-ordination of Java programs with mechanisms to checkpoint (snapshot) a running application.  Restoring from the snapshot could solve some of the problems with the startup and warmup times, especially in microservices.</p><p>In this session, we’ll look at the main challenges for such a project, potential solutions and the results from a proof-of-concept implementation.</p>",
+      "abstract": "<p>When a  project has reached that stage when it’s a good idea to post binaries,  new questions arise such as where should they be posted? How do we make it easier for users to install and discover binaries? Where should releases be shared? Most importantly,  can it be automated? There are so many requirements and considerations depending on the  distribution channels, wouldn't it be great to have a tool to make it easier?  JReleaser is a tool that provides answers to these questions and more.. It may be used to create GiHub/GitLab/Gitea releases and publish binaries that can be consumed from different distribution channels such as Homebrew, Snap, Scoop, and more. Once published, the release can be automatically announced on Twitter, Slack, Gitter, Discord, and other communication channels.</p>",
       "type": "talk",
       "tags": [
-      "JDK",
-      "JVM",
-      "OpenJDK"
+        "Release",
+        "OSS",
+        "DevOps"
       ],
-      "level": "middle",
+      "level": "beginner",
       "speakers": [
-      "e5979093f4775ff480701b323ef5f347812a3ce0"
+        "2d9af6a2ba5f456c6f5b300bd82bd1c75b29da10"
       ]
-      }
+    }
   ]
 }
