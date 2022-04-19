@@ -455,6 +455,19 @@
     },
     {
       "enabled": "1",
+      "name": "Andres Almiray",
+      "company": "Oracle",
+      "description": "Seasoned Sourceror",
+      "biography": "Andres is a Java/Groovy developer and a Java Champion with more than 20 years of experience in software design and development. He has been involved in web and desktop application development since the early days of Java. Andres is a true believer in open source and has participated on popular projects like Groovy, Griffon, and DbUnit, as well as starting his own projects (Json-lib, EZMorph, GraphicsBuilder, JideBuilder). Founding member of the Griffon framework and Hackergarten community event. You can find him on twitter too as @aalmiray. He likes to spend time with his beloved wife, Ixchel, when not hacking around.",
+      "image": "assets/img/speakers/andres-almiray.jpg",
+      "ref": "17f50b47a57b0354999b00d372ac197a9452a7c1",
+      "url": "infoSpeaker.html?ref=17f50b47a57b0354999b00d372ac197a9452a7c1",
+      "homepage": "https://andresalmiray.com",
+      "twitter": "@aalmiray",
+      "linkedin": "https://www.linkedin.com/in/aalmiray/"
+    },
+    {
+      "enabled": "1",
       "name": "Ben Evans",
       "company": "Red Hat",
       "description": "Senior Principal Software Engineer",

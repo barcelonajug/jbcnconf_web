@@ -652,6 +652,23 @@
       ]
     },
     {
+      "id": "62505edfaa23f0085462dda4",
+      "title": "The Microservices Smackdown: Data",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Microservices are everywhere. There is more than one way to implement and deploy them, but in the end what we expect of them is to move data from one place to another databases are typically found at either end of a microservice execution. Microservices can execute in sync and async modes, but what about data processing from and to the database? In this session we'll cover sync & async capabilities offered by Helidon, Micronaut, Quarkus, and Spring Boot when it comes to reading and writing data.",
+      "type": "talk",
+      "tags": [
+        "Microservices",
+        "Data"
+      ],
+      "level": "middle",
+      "speakers": [
+        "17f50b47a57b0354999b00d372ac197a9452a7c1"
+      ]
+    },
+    {
       "id": "62505f60aa23f0085462dda5",
       "title": "Modern Java microservices in the cloud",
       "languages": [
