@@ -668,6 +668,44 @@
       "speakers": [
         "2d9af6a2ba5f456c6f5b300bd82bd1c75b29da10"
       ]
+    },
+    {
+      "id": "62572537aa23f0085462ddac",
+      "title": "Implementing Kubernetes Operators with Java Operator SDK",
+      "languages": [
+      "eng"
+      ],
+      "abstract": "<p>Nowadays it's becoming a standard that developers not just build but also run their software. Managing deployments on Kubernetes it's not necessarily a simple task. In this talk we will take a look at how  Kubernetes Operators can help with that and how to write one.</p><ul><li>What are Kubernetes Operators?</li><li>What are the involved design patterns?</li><li>Why implement Kubernetes Operators in Java?</li></ul><p>First we will answer these questions. In the second part, we will live code a simple Kubernetes Operator using Java Operator SDK, that makes it very clear how to start, how a standard Operator should look like in practice and how to implement the related design patterns.</p>",
+      "type": "talk",
+      "tags": [
+      "Kubernetes",
+      "Operators",
+      "Java",
+      "Quarkus"
+      ],
+      "level": "middle",
+      "speakers": [
+      "508d77fd6c0d6171c5228adac3b440c1b4d2ad8a"
+      ]
+    },
+    {
+      "id": "625724d1aa23f0085462ddaa",
+      "title": "Scaling Camel to the cloud",
+      "languages": [
+      "eng"
+      ],
+      "abstract": "<p>In an ever-accelerating IT world, the need to connect different software systems is growing day by day. More than ever, we need to have a tool to easily create decoupled and easy integration connectors between several external systems. But more importantly, we need to be able to scale those into the Cloud.</p><p>Apache Camel with its 350 connectors gives a proven response to such a demand. In this talk, we will present Apache Camel and explain how to scale Apache Camel based microservices to the cloud. We will present how to make your Camel, Camel Quarkus and Camel K solutions to make them more scalable, high-performing, and observable.</p>",
+      "type": "talk",
+      "tags": [
+      "Camel",
+      "Quarkus",
+      "Kafka"
+      ],
+      "level": "middle",
+      "speakers": [
+      "cf874a75dcb4f22703fb632b069cd640aabbda7f",
+      "92722ac8669606acafdd0895be1e8ee444b5fedc"
+      ]
     }
   ]
 }
