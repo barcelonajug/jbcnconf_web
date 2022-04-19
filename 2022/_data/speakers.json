@@ -195,6 +195,19 @@
     },
     {
       "enabled": "1",
+      "name": "Andrzej Grzesik",
+      "company": "Revolut",
+      "description": "git operator",
+      "biography": "ags likes distributed systems in all shapes and form. Coding since the age of 8, loves simplicity and continuous delivery. While he has written in many languages, he favours the JVM. Since \"most software problems are people problems”, he stirs communities, organizes and speaks at conferences (proud to be a JavaONE Rockstar!). He is passionate about all things data, because science! In his spare time…cycling, photography and books. And he is a Java Champion!",
+      "image": "assets/img/speakers/andrzej-grzesik.jpeg",
+      "ref": "222e9ee3f64709eb49f3299baaa4f39693e5fb82",
+      "url": "infoSpeaker.html?ref=222e9ee3f64709eb49f3299baaa4f39693e5fb82",
+      "homepage": "",
+      "twitter": "ags313",
+      "linkedin": ""
+    },
+    {
+      "enabled": "1",
       "name": "Edoardo Vacchi",
       "company": "Red Hat",
       "description": "Principal Software Engineer",
@@ -309,6 +322,19 @@
       "homepage": "",
       "twitter": "@ixchelruiz",
       "linkedin": "https://www.linkedin.com/in/ixchelruiz"
+    },
+    {
+      "enabled": "1",
+      "name": "Noa Goldman",
+      "company": "Rookout",
+      "description": "Product Manager",
+      "biography": "Noa is Rookout’s Product Manager. Having been a developer for eight years, her goal in life now is to take complicated technology and products and simplify it to the point that anyone can understand and use it. In her free time, you can find her training at her local CrossFit gym, giving a talk at a conference, or eating a bowl of raw cookie dough.",
+      "image": "assets/img/speakers/noah-goldman.jpeg",
+      "ref": "14af727ca8fe920d4fb467b94577c62a09ca62a8",
+      "url": "infoSpeaker.html?ref=14af727ca8fe920d4fb467b94577c62a09ca62a8",
+      "homepage": "",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/goldmanoa/"
     },
     {
       "enabled": "1",
