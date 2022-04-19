@@ -299,6 +299,19 @@
     },
     {
       "enabled": "1",
+      "name": "Ixchel Ruiz",
+      "company": "JFrog",
+      "description": "DA - Senior Software Developer",
+      "biography": "Ixchel Ruiz has developed software applications and tools since 2000. Her research interests include Java, dynamic languages, client-side technologies, DevSecOps, and testing. A Java Champion, CD Foundation Ambassador, SuperFrog, Hackergarten enthusiast, open source advocate, public speaker, and mentor, Ixchel travels around the world (sometimes virtually) sharing knowledge—it’s one of her main drives in life.\n",
+      "image": "assets/img/speakers/ixchel-ruiz.jpeg",
+      "ref": "2d9af6a2ba5f456c6f5b300bd82bd1c75b29da10",
+      "url": "infoSpeaker.html?ref=2d9af6a2ba5f456c6f5b300bd82bd1c75b29da10",
+      "homepage": "",
+      "twitter": "@ixchelruiz",
+      "linkedin": "https://www.linkedin.com/in/ixchelruiz"
+    },
+    {
+      "enabled": "1",
       "name": "Viktor Farcic",
       "company": "Upbound",
       "description": "Developer Advocate",
