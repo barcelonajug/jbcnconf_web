@@ -657,7 +657,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "Microservices are everywhere. There is more than one way to implement and deploy them, but in the end what we expect of them is to move data from one place to another databases are typically found at either end of a microservice execution. Microservices can execute in sync and async modes, but what about data processing from and to the database? In this session we'll cover sync & async capabilities offered by Helidon, Micronaut, Quarkus, and Spring Boot when it comes to reading and writing data.",
+      "abstract": "<p>Microservices are everywhere. There is more than one way to implement and deploy them, but in the end what we expect of them is to move data from one place to another databases are typically found at either end of a microservice execution. Microservices can execute in sync and async modes, but what about data processing from and to the database? In this session we'll cover sync & async capabilities offered by Helidon, Micronaut, Quarkus, and Spring Boot when it comes to reading and writing data.</p>",
       "type": "talk",
       "tags": [
         "Microservices",
@@ -674,7 +674,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "It's 2022, long gone are the days of ceremony and Java development should be productivity, simplicity.\n\nLet's look at how we make it happen, in context of startup going FAST.\nI will describe the architectural approach we use stack we use, and what, sometimes unorthodox, technology and design choices we have made, and their consequences. Expect: code samples, why does our stack look the way it looks AND… what have we learnt in the process.\n\nIt's all going to be Revolut-based!",
+      "abstract": "<p>It's 2022, long gone are the days of ceremony and Java development should be productivity, simplicity.</p><p>Let's look at how we make it happen, in context of startup going FAST.</p><p>I will describe the architectural approach we use stack we use, and what, sometimes unorthodox, technology and design choices we have made, and their consequences. Expect: code samples, why does our stack look the way it looks AND… what have we learnt in the process.</p><p>It's all going to be Revolut-based!</p>",
       "type": "talk",
       "tags": [
         "java",
@@ -730,7 +730,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "Every developer should know that pushing feature updates to production via traditional channels is as archaic as painting on cave walls. And yet, many continue to do so. \n\nThe best developers are always quick to adapt to new, innovative technologies. This mindset is exactly what separates great developers from the average. \n\nSo how do you make sure you’re not a developer that’s stuck in the stone age when doing feature rollouts?\n\nIn this talk, I will share the insights I’ve gained so far in my career as to what should be thought about before releasing a sensitive feature, how to plan it, what type of tools should be used, and how it should be communicated (both externally and internally). Most importantly, I’ll share what should be done when it all goes wrong - and some horror stories of when it did go wrong - and yes, destroying production will be one of them. ",
+      "abstract": "<p>Every developer should know that pushing feature updates to production via traditional channels is as archaic as painting on cave walls. And yet, many continue to do so.</p><p>The best developers are always quick to adapt to new, innovative technologies. This mindset is exactly what separates great developers from the average.</p><p>So how do you make sure you’re not a developer that’s stuck in the stone age when doing feature rollouts?</p><p>In this talk, I will share the insights I’ve gained so far in my career as to what should be thought about before releasing a sensitive feature, how to plan it, what type of tools should be used, and how it should be communicated (both externally and internally). Most importantly, I’ll share what should be done when it all goes wrong - and some horror stories of when it did go wrong - and yes, destroying production will be one of them.</p>",
       "type": "talk",
       "tags": [
         "#Agile",
