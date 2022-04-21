@@ -711,7 +711,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "In an ever-accelerating IT world, the need to connect different software systems is growing day by day. More than ever, we need to have a tool to easily create decoupled and easy integration connectors between several external systems. But more importantly, we need to be able to scale those into the Cloud.\n\nApache Camel with its 350 connectors gives a proven response to such a demand. In this talk, we will present Apache Camel and explain how to scale Apache Camel based microservices to the cloud. We will present how to make your Camel, Camel Quarkus and Camel K solutions to make them more scalable, high-performing, and observable.",
+      "abstract": "<p>In an ever-accelerating IT world, the need to connect different software systems is growing day by day. More than ever, we need to have a tool to easily create decoupled and easy integration connectors between several external systems. But more importantly, we need to be able to scale those into the Cloud.</p><p>Apache Camel with its 350 connectors gives a proven response to such a demand. In this talk, we will present Apache Camel and explain how to scale Apache Camel based microservices to the cloud. We will present how to make your Camel, Camel Quarkus and Camel K solutions to make them more scalable, high-performing, and observable.</p>",
       "type": "talk",
       "tags": [
         "Camel",
@@ -748,7 +748,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "Nowadays it's becoming a standard that developers not just build but also run their software. Managing deployments on Kubernetes it's not necessarily a simple task. In this talk we will take a look at how  Kubernetes Operators can help with that and how to write one.\n\n- What are Kubernetes Operators? \n\n- What are the involved design patterns? \n\n- Why implement Kubernetes Operators in Java?\n\nFirst we will answer these questions. In the second part, we will live code a simple Kubernetes Operator using Java Operator SDK, that makes it very clear how to start, how a standard Operator should look like in practice and how to implement the related design patterns. \n\n",
+      "abstract": "<p>Nowadays it's becoming a standard that developers not just build but also run their software. Managing deployments on Kubernetes it's not necessarily a simple task. In this talk we will take a look at how  Kubernetes Operators can help with that and how to write one.</p><ul><li>What are Kubernetes Operators?</li><li>What are the involved design patterns?</li><li>Why implement Kubernetes Operators in Java?</li></ul><p>First we will answer these questions. In the second part, we will live code a simple Kubernetes Operator using Java Operator SDK, that makes it very clear how to start, how a standard Operator should look like in practice and how to implement the related design patterns.</p>",
       "type": "talk",
       "tags": [
         "Kubernetes",
