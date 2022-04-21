@@ -119,6 +119,19 @@
     },
     {
       "enabled": "1",
+      "name": "Zineb Bendhiba",
+      "company": "Red Hat",
+      "description": "Senior Software Engineer",
+      "biography": "Zineb Bendhiba is Senior Software Engineer at Red Hat. She is a committer and PMC member of the open source project Apache Camel. Currently, she mainly contributes to the Camel Quarkus project. In addition, she is a board member of DuchessFrance, a large Women In Tech community in France.",
+      "image": "assets/img/speakers/zineb-bendhiba.jpg",
+      "ref": "92722ac8669606acafdd0895be1e8ee444b5fedc",
+      "url": "infoSpeaker.html?ref=92722ac8669606acafdd0895be1e8ee444b5fedc",
+      "homepage": "https://zinebbendhiba.com/",
+      "twitter": "@ZinebBendhiba",
+      "linkedin": "https://www.linkedin.com/in/zbendhiba"
+    },
+    {
+      "enabled": "1",
       "name": "Alberto Salazar",
       "company": "Advance Latam ",
       "description": "CTO",
@@ -142,6 +155,19 @@
       "homepage": "",
       "twitter": "@gracejansen27",
       "linkedin": "https://www.linkedin.com/in/grace-jansen/"
+    },
+    {
+      "enabled": "1",
+      "name": "Attila Mészáros",
+      "company": "Red Hat",
+      "description": "Principal Software Engineer",
+      "biography": "I'm Principal Software Engineer at Red Hat, creator and maintainer of Java Operator SDK. In a wider scope currently focusing on Java developer experience on Kubernetes. I'm a passionate Java developer but in addition to that last six years also focusing on server side solutions. As a freelancer I was also part of brilliant platform teams, building platforms mostly on top of Kuberentes/Openshift and AWS. I try to focus on the complete picture of the server side solutions.",
+      "image": "assets/img/speakers/attila-meszaros.jpeg",
+      "ref": "508d77fd6c0d6171c5228adac3b440c1b4d2ad8a",
+      "url": "infoSpeaker.html?ref=508d77fd6c0d6171c5228adac3b440c1b4d2ad8a",
+      "homepage": "",
+      "twitter": "https://twitter.com/csviri",
+      "linkedin": "https://www.linkedin.com/in/attila-m%C3%A9sz%C3%A1ros-9464a645/"
     },
     {
       "enabled": "1",
@@ -300,9 +326,9 @@
     {
       "enabled": "1",
       "name": "Ko Turk",
-      "company": "Blue4IT",
+      "company": "adesso",
       "description": "Java Developer",
-      "biography": "Hi my name is Ko Turk and I am a Senior Java Developer at Blue4IT! \nI am working as a Fullstack engineer, creating microservices and building awesome frontend applications. \nAs a speaker I am talking at conferences (like JavaZone, DevNexus and JFall) and JUGs about Micrometer and IDEs. \nI really like live-coding, there's no better way to learn. \n\nIf you have some questions, don't hesitate to contact me through (Twitter @KoTurk77).",
+      "biography": "Ko Turk is an experienced developer working for adesso. He is focussing on Java, Kotlin and isn't afraid to code in Typescript. \nHe likes to write articles for the Dutch NLJUG JavaMagazine. Also he is regularly speaking at international conferences about\nApache Kafka Streams, Micrometer and Kotlin. Because he doesn't like bull it slide presentations, you can find him (live) coding at stage.\n\nYou can also find him at the UtrechtJUG and love to have a chat!\nHe is always available at Twitter @KoTurk77",
       "image": "assets/img/speakers/ko-turk.jpg",
       "ref": "98d92074e12051b600499049a3773caf3fc5dd60",
       "url": "infoSpeaker.html?ref=98d92074e12051b600499049a3773caf3fc5dd60",
@@ -455,6 +481,19 @@
     },
     {
       "enabled": "1",
+      "name": "Otavio Rodolfo Piske",
+      "company": "Red Hat",
+      "description": "Senior Software Engineer",
+      "biography": "Otavio is a Sr. Software Engineer at Red Hat where he works developing solutions for microservices, cloud and systems integration. He is a committer and a PMC member of the Apache Camel. ",
+      "image": "assets/img/speakers/otavio-rodolfo.png",
+      "ref": "cf874a75dcb4f22703fb632b069cd640aabbda7f",
+      "url": "infoSpeaker.html?ref=cf874a75dcb4f22703fb632b069cd640aabbda7f",
+      "homepage": "http://www.orpiske.net",
+      "twitter": "@otavio021",
+      "linkedin": "https://www.linkedin.com/in/orpiske/"
+    },
+    {
+      "enabled": "1",
       "name": "Andres Almiray",
       "company": "Oracle",
       "description": "Seasoned Sourceror",
@@ -517,45 +556,6 @@
       "homepage": "",
       "twitter": "@graemerocher",
       "linkedin": ""
-    },
-    {
-      "enabled": "1",
-      "name": "Attila Mészáros",
-      "company": "Red Hat",
-      "description": "Principal Software Engineer",
-      "biography": "I'm Principal Software Engineer at Red Hat, creator and maintainer of Java Operator SDK. In a wider scope currently focusing on Java developer experience on Kubernetes. I'm a passionate Java developer but in addition to that last six years also focusing on server side solutions. As a freelancer I was also part of brilliant platform teams, building platforms mostly on top of Kuberentes/Openshift and AWS. I try to focus on the complete picture of the server side solutions.",
-      "image": "assets/img/speakers/attila-meszaros.jpeg",
-      "ref": "508d77fd6c0d6171c5228adac3b440c1b4d2ad8a",
-      "url": "infoSpeaker.html?ref=508d77fd6c0d6171c5228adac3b440c1b4d2ad8a",
-      "homepage": "",
-      "twitter": "https://twitter.com/csviri",
-      "linkedin": "https://www.linkedin.com/in/attila-m%C3%A9sz%C3%A1ros-9464a645/"
-    },
-    {
-      "enabled": "1",
-      "name": "Otavio Rodolfo Piske",
-      "company": "Red Hat",
-      "description": "Senior Software Engineer",
-      "biography": "Otavio is a Sr. Software Engineer at Red Hat where he works developing solutions for microservices, cloud and systems integration. He is a committer and a PMC member of the Apache Camel. ",
-      "image": "assets/img/speakers/otavio-rodolfo.png",
-      "ref": "cf874a75dcb4f22703fb632b069cd640aabbda7f",
-      "url": "infoSpeaker.html?ref=cf874a75dcb4f22703fb632b069cd640aabbda7f",
-      "homepage": "http://www.orpiske.net",
-      "twitter": "@otavio021",
-      "linkedin": "https://www.linkedin.com/in/orpiske/"
-    },
-    {
-      "enabled": "1",
-      "name": "Zineb Bendhiba",
-      "company": "Red Hat",
-      "description": "Senior Software Engineer",
-      "biography": "Zineb Bendhiba is Senior Software Engineer at Red Hat. She is a committer and PMC member of the open source project Apache Camel. Currently, she mainly contributes to the Camel Quarkus project. In addition, she is a board member of DuchessFrance, a large Women In Tech community in France.",
-      "image": "assets/img/speakers/zineb-bendhiba.jpg",
-      "ref": "92722ac8669606acafdd0895be1e8ee444b5fedc",
-      "url": "infoSpeaker.html?ref=92722ac8669606acafdd0895be1e8ee444b5fedc",
-      "homepage": "https://zinebbendhiba.com/",
-      "twitter": "@ZinebBendhiba",
-      "linkedin": "https://www.linkedin.com/in/zbendhiba"
     }
   ]
 }
