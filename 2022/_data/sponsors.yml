@@ -40,7 +40,7 @@ premium:
     image:
       src: "/assets/img/sponsors/gft-logo.jpg"
       alt: GFT
-  - name: SEAT:CODE 
+  - name: SEAT:CODE
     href: https://code.seat/about/#open-positions
     image:
       src: "/assets/img/sponsors/seat-code.png"
@@ -81,6 +81,11 @@ regular:
     image:
       src: "/assets/img/sponsors/commerce-tools.png"
       alt: commerceTools
+  - name: Adobe
+    href: https://www.adobe.com/careers.html
+    image:
+      src: "/assets/img/sponsors/adobe.png"
+      alt: Adobe
 basic:
   - name: Capgemini
     href: https://www.capgemini.com/es-es/
