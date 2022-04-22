@@ -652,6 +652,64 @@
       ]
     },
     {
+      "id": "623b8c513a63410bd73c06fd",
+      "title": "Now is the time: From Java 11 to 17",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Java 17 has come almost a year ago, but many happily run production on Java 11. Some are afraid to migrate forward due to fear, and due to memories of a difficult migration from Java 8. Others don’t see a significant value and lack motivation in invest in the migration forward. The talk will cover, why staying on Java 11 is an additional risk and additional cost, will cover breaking changes between java 11 and 17. The talk will overview benefits of the migration forward, overview of JVM changes, a quick review of the major language and API changes between Java 11 and 17.</p>",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "JVM",
+        "Migration"
+      ],
+      "level": "middle",
+      "speakers": [
+        "eecf1fc106a3fda9197602173d272b9e3c7b8613"
+      ]
+    },
+    {
+      "id": "62505e6faa23f0085462dda2",
+      "title": "Jakarta EE: Community Power and Progress ",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>For more than 20 years, Java has been a dominant programming language. Jakarta EE as successor of Java EE provides essential middleware capabilities for the existing and any future enterprise application development. With the new release and great community involvement Jakarta EE’s mission is more frequent releases, lowered barriers to participation, and modernizing the platform is giving great results! This presentation will provide you with key insights into the industry-wide, open source collaboration to modernize Java enterprise systems for cloud-centric use cases.</p>",
+      "type": "talk",
+      "tags": [
+        "#Java",
+        "#JavaEE",
+        "#JakartaEE",
+        "#JVM langs",
+        "#Cloud"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "851e5eddc5337f77150e3b753a676b412dab892a",
+        "62c17e6d66e07f62fd2ca8b6c0e073950d56a55e"
+      ]
+    },
+    {
+      "id": "62505e8baa23f0085462dda3",
+      "title": "Bootiful Tests in Kotlin",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Join us for an exploration of testing a Kotlin based Spring Boot 3.x application. Test driven development gives us the confidence necessary to improve our code faster, safely. But how do you test components and services, as well as integrations across distributed systems, while maintaining fast feedback loops, and how do you do all of this within the context Kotlin? In this talk, we'll look at how to test imperative components, data flows, and mocks. We’ll examine how to take advantage of test slices, and how to test web applications. We'll look at how to ensure that API producers and consumers work well together using consumer driven contract testing without sacrificing the testing pyramid for end-to-end integration tests.</p>",
+      "type": "talk",
+      "tags": [
+        "Kotlin",
+        "SpringBoot",
+        "TDD",
+        "testing"
+      ],
+      "level": "middle",
+      "speakers": [
+        "572abc9f31f717b714a59be353c58705853b3b81"
+      ]
+    },
+    {
       "id": "62505edfaa23f0085462dda4",
       "title": "The Microservices Smackdown: Data",
       "languages": [
@@ -688,6 +746,23 @@
       ]
     },
     {
+      "id": "62506140aa23f0085462dda6",
+      "title": "Using Quarkus and Kotlin for amazing developer productivity",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Since it's release, Quarkus has taken the Java world by storm by providing amazing developer productivity to go along with very minimal runtime footprint. Quarkus initially focused on Java, but has recently introduced first class support for Kotlin across it's most important APIs.</p><p>This talk will Kotlin lovers how they can use their favorite language along with Quarkus and reap the best of best worlds.</p>",
+      "type": "talk",
+      "tags": [
+        "Kotlin",
+        "Quarkus"
+      ],
+      "level": "middle",
+      "speakers": [
+        "7cff2b21cb47f910e18350c6497853c7daf32e09"
+      ]
+    },
+    {
       "id": "6250631eaa23f0085462dda7",
       "title": "Deterministic, Reproducible, Unsurprising Releases",
       "languages": [
@@ -703,6 +778,44 @@
       "level": "beginner",
       "speakers": [
         "2d9af6a2ba5f456c6f5b300bd82bd1c75b29da10"
+      ]
+    },
+    {
+      "id": "6257242eaa23f0085462dda8",
+      "title": "Building Domain-Specific Language (DSL) for fun and profit",
+      "languages": [
+        "eng",
+        "es"
+      ],
+      "abstract": "<p>What is the benefit of embedding a language within a language? How can we achieve this, without dying in the process? Is it even worth the effort?</p><p>In this talk we’ll go over some of my experiences where writing a DSL made the code far more readable, extendable and even more performant! We’ll go over some heavyweight, fully fledged parser implementations for an external DSL, some libraries and tips; and some more lightweight techniques to embed them in Java itself.</p>",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Kotlin",
+        "Design",
+        "Functional Programming"
+      ],
+      "level": "middle",
+      "speakers": [
+        "114845540f08032641a03bf464caff7815303e5e"
+      ]
+    },
+    {
+      "id": "625724b7aa23f0085462dda9",
+      "title": "DevOps for Java Shops",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>DevOps is great, if you have the people, processes and tools to support it. In this session I’ll highlight the easiest ways for Java developers to work with their IT organizations and partners to deliver their code to the cloud, including the best ways to reliably make updates and maintain production cloud code. The focus is on real-world examples using Linux command line tools, open source tools including Jenkins, and other free SDKs and tools available on GitHub.</p>",
+      "type": "talk",
+      "tags": [
+        "GitHub",
+        "GitHub Actions",
+        "GitHub CodeSpaces"
+      ],
+      "level": "middle",
+      "speakers": [
+        "836bf32dd2283312420733bcbb619965af16ee57"
       ]
     },
     {
