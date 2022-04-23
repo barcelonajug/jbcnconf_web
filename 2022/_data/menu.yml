@@ -31,5 +31,7 @@ items:
       href: "/travel-to-java-barcelona.html"
     - label: "Accommodation Offers"
       href: "/offers.html"
+    - label: COVID-19 policy
+      href: "/covid-19.html"
 - label: Become Sponsor
   href: "/become-sponsor.html"
