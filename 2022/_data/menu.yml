@@ -21,7 +21,7 @@ items:
     - label: Diversity Sponsorship
       href: "/diversity.html"
     - label: Code of conduct
-      href: "/coc.html"  
+      href: "/coc.html"
 - label: Venue
   href: "/java-barcelona-venue.html"
 - label: Travel
@@ -31,6 +31,8 @@ items:
       href: "/travel-to-java-barcelona.html"
     - label: "Accommodation Offers"
       href: "/offers.html"
+    - label: COVID-19 policy
+      href: "/covid-19.html"
 - label: Become Sponsor
   href: "/become-sponsor.html"
 - label: Travel
