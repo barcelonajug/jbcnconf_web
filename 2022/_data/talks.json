@@ -652,24 +652,6 @@
       ]
     },
     {
-      "id": "623b8c513a63410bd73c06fd",
-      "title": "Now is the time: From Java 11 to 17",
-      "languages": [
-        "eng"
-      ],
-      "abstract": "<p>Java 17 has come almost a year ago, but many happily run production on Java 11. Some are afraid to migrate forward due to fear, and due to memories of a difficult migration from Java 8. Others don’t see a significant value and lack motivation in invest in the migration forward. The talk will cover, why staying on Java 11 is an additional risk and additional cost, will cover breaking changes between java 11 and 17. The talk will overview benefits of the migration forward, overview of JVM changes, a quick review of the major language and API changes between Java 11 and 17.</p>",
-      "type": "talk",
-      "tags": [
-        "Java",
-        "JVM",
-        "Migration"
-      ],
-      "level": "middle",
-      "speakers": [
-        "eecf1fc106a3fda9197602173d272b9e3c7b8613"
-      ]
-    },
-    {
       "id": "62505e6faa23f0085462dda2",
       "title": "Jakarta EE: Community Power and Progress ",
       "languages": [
