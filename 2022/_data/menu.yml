@@ -1,8 +1,8 @@
 items:
 - label: Home
   href: "/#JBCN"
-- label: Call For Papers
-  href: "/callForPapers.html"
+#- label: Call For Papers
+#  href: "/callForPapers.html"
 - label: Speakers
   href: "/#Speakers"
 - label: Talks
