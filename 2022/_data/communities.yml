@@ -1,0 +1,30 @@
+[
+  {
+    "company": {
+      "name": "Dynatrace",
+      "logo-url": "/assets/img/sponsors/dynatrace.jpg",
+      "description": "Dynatrace is the world leader in software intelligence products to simplify enterprise cloud complexity and accelerate digital transformation. We offer solutions such Application performance management, Cloud infrastructure monitoring, IT Operations powered by AI and Digital customer experience.",
+      "level": "premium",
+    },
+    "links": {
+      "linkedIn": "https://www.linkedin.com/company/dynatrace/",
+      "web": "https://www.dynatrace.com/",
+      "instagram": "https://www.instagram.com/dynatracelabs/",
+      "twitter": "https://twitter.com/dynatrace"
+    },
+  },
+  {
+    "company": {
+      "name": "Capgemini",
+      "logo-url": "/assets/img/sponsors/capgemini.jpg",
+      "description": "Capgemini is a global leader in partnering with companies to transform and manage their business by harnessing the power of technology. The Group is guided everyday by its purpose of unleashing human energy through technology for an inclusive and sustainable future",
+      "level": "premium",
+    },
+    "links": {
+      "web": "https://www.capgemini.com/",
+      "twitter": "https://twitter.com/CapgeminiEng",
+      "instagram": "https://www.instagram.com/capgeminiengineeringes/",
+      "linkedIn": "https://www.linkedin.com/company/capgemini-engineering/"
+    },
+  }
+]
