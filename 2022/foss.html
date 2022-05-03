@@ -164,7 +164,6 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
             </ul>
         </div>
         <div class="heading-title">
-            This edition, the JBCNConf team will sponsor a free stand for a few communities representing Free and OpenSource Software projects and also Diversity communities
         </div>
     </div>
 </div>
@@ -181,13 +180,8 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                 <br/>
                                 <h1>FOSS & Diversity Communities</h1>
                                 <div class="post-content" style="width : 100%; ">
-                                    <h2 style="margin-bottom: 10px">Have a look at some opportunities with our
-                                        sponsors</h2>
-                                    <div id="companies">
-                                        {% for row in site.data.communities %}
-                                        <a href="#{{row.company.name}}">{{row.company.name}}</a>
-                                        {% endfor %}
-                                    </div>
+                                    This edition, the JBCNConf team will sponsor a free stand for a few communities representing Free and OpenSource Software projects and also Diversity communities
+
                                     <div class="entries">
                                         {% for entry in site.data.communities %}
                                         <div class="entry entry-{{ entry.company.level }}">
