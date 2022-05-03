@@ -1,30 +1,24 @@
 [
   {
     "company": {
-      "name": "Dynatrace",
-      "logo-url": "/assets/img/sponsors/dynatrace.jpg",
-      "description": "Dynatrace is the world leader in software intelligence products to simplify enterprise cloud complexity and accelerate digital transformation. We offer solutions such Application performance management, Cloud infrastructure monitoring, IT Operations powered by AI and Digital customer experience.",
-      "level": "premium",
+      "name": "Eclipse Foundation",
+      "logo-url": "/assets/img/sponsors/eclipse.jpg",
+      "description": "Eclipse is a foundation",
     },
     "links": {
-      "linkedIn": "https://www.linkedin.com/company/dynatrace/",
-      "web": "https://www.dynatrace.com/",
-      "instagram": "https://www.instagram.com/dynatracelabs/",
-      "twitter": "https://twitter.com/dynatrace"
+      "web": "https://www.jakartaee.com/",
+      "twitter": "https://twitter.com/jakartaee"
     },
   },
   {
     "company": {
-      "name": "Capgemini",
-      "logo-url": "/assets/img/sponsors/capgemini.jpg",
-      "description": "Capgemini is a global leader in partnering with companies to transform and manage their business by harnessing the power of technology. The Group is guided everyday by its purpose of unleashing human energy through technology for an inclusive and sustainable future",
-      "level": "premium",
+      "name": "Apache Software Foundation",
+      "logo-url": "/assets/img/sponsors/apache.jpg",
+      "description": "Apache is a software fundation asfas .asdfa da.asdf asfasdf asd. asdf asd.fasd fasdf a.sdf asdf. asdf asdf.asd fasdf .asdf asdf .asdfasdf.asdf.adsf.adsf asd.fasdf.asdf asdf ads.f adsfasdf. ads.fadsf. ads.f",
     },
     "links": {
-      "web": "https://www.capgemini.com/",
-      "twitter": "https://twitter.com/CapgeminiEng",
-      "instagram": "https://www.instagram.com/capgeminiengineeringes/",
-      "linkedIn": "https://www.linkedin.com/company/capgemini-engineering/"
+      "web": "https://www.apache.com/",
+      "twitter": "https://twitter.com/apache",
     },
   }
 ]
