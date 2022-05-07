@@ -92,5 +92,10 @@ basic:
     image:
       src: "/assets/img/sponsors/capgemini.jpg"
       alt: Capgemini
+  - name: Elastic
+    href: https://www.elastic.co/es/
+    image:
+      src: "/assets/img/sponsors/elastic.png"
+      alt: Elastic
 
 supporters:
