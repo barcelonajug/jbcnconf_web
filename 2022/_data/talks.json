@@ -855,6 +855,43 @@
       "speakers": [
         "508d77fd6c0d6171c5228adac3b440c1b4d2ad8a"
       ]
-    }
+    },
+	{
+	  "id": "6272de1a71e11d0858e82242",
+	  "title": "Del final al principio: Un viaje guiado por métricas",
+	  "languages": [
+		"es"
+	  ],
+	  "abstract": "<p>Caminar sobre el agua y desarrollar software sobre unos requisitos es fácil, siempre y cuando ambos estén congelados.</p><p>En esta sesión, explicaremos nuestro camino en el rediseño de nuestro sistema de alertas de búsquedas para usuarios y cómo el cambio de contexto y requerimientos nos hizo replantear nuestra implementación, pasando de un enfoque near-real-time a un proceso en batch. Dicha transformación supondría algunos trade-offs, pero, por otro lado, nos ha permitido escalar de unos pocos millones a decenas de millones de alertas.</p><p>De la misma manera, expondremos la importancia de definir métricas como parte de la estrategia de implementación y cómo éstas nos ayudaron a arrojar luz en los siguientes pasos.</p>",
+	  "type": "talk",
+	  "tags": [
+		"observability",
+		"scalability",
+		"distributed system"
+	  ],
+	  "level": "middle",
+	  "speakers": [
+		"86e816de6f93283ebd9797c0b9272a6e4850d088",
+		"1fdb348ad3d0b80f86295945a9eb2069a03e6d50"
+	  ]
+	},
+	{
+	  "id": "6272e7bc71e11d0858e82246",
+	  "title": "GraphQL-ify your APIs",
+	  "languages": [
+		"eng"
+	  ],
+	  "abstract": "<p>GraphQL is query language for APIs, but what are the advantages and how would one implement such in their microservices/APIs. In this session, I will go through the basics of GraphQL, different aspects of GraphQL and architecture of such APIs. There will be a demo/live-coding on, how 4 different ways we can implement GraphQL for a Springboot microservice/API. Lots of examples, live coding and helpful comparison on structure, usage and implementations of GraphQL in Springboot & Java world.</p>",
+	  "type": "talk",
+	  "tags": [
+		"GraphQL",
+		"Spring Boot",
+		"Java"
+	  ],
+	  "level": "beginner",
+	  "speakers": [
+		"dc7843096c80aaceb163e68b573a9c5618c9146a"
+	  ]
+	}
   ]
 }
