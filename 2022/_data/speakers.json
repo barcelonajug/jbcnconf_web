@@ -430,6 +430,19 @@
       "linkedin": "https://www.linkedin.com/in/grace-jansen/"
     },
     {
+	  "enabled": "1",
+	  "name": "Soham Dasgupta",
+	  "company": "Capgemini Netherlands",
+	  "description": "Architect",
+	  "biography": "<p>A technology enthusiast working at Capgemini as a Solution Architect, with over 16 years of experience in software programming, designing, architecture which includes on-prem, cloud native applications and web based conversational application design.</p>",
+	  "image": "assets/img/speakers/soham-dasgupta.jpg",
+	  "ref": "dc7843096c80aaceb163e68b573a9c5618c9146a",
+	  "url": "infoSpeaker.html?ref=dc7843096c80aaceb163e68b573a9c5618c9146a",
+	  "homepage": "",
+	  "twitter": "@iamsoham",
+	  "linkedin": "https://www.linkedin.com/in/dasguptasoham/"
+	},
+	{
       "enabled": "1",
       "name": "Attila Mészáros",
       "company": "Red Hat",
@@ -467,6 +480,19 @@
       "linkedin": "https://www.linkedin.com/in/shabnam-mayel/"
     },
     {
+	  "enabled": "1",
+	  "name": "Alberto Portilla Casado",
+	  "company": "Wallapop",
+	  "description": "Backend Tech Lead",
+	  "biography": "<p>Alberto es backend Tech lead en Wallapop. Comenzó siendo frontend dev hace más de 10 años y ha desarrollado en varios idiomas y stacks, siendo ahora backend su stack preferido. Amante de los problemas complejos y de pulsar la hotkey de step-into para bucear en códigos para descubrir por qué un pool tiene un leak o por que ha tenido que subir el heap de su proceso en 500mb.</p><p>Comer una buena hamburguesa y disfrutar de la compañía de sus gatos son dos de las cosas que más aprecia de su tiempo libre.</p>",
+	  "image": "assets/img/speakers/alberto-portilla.jpeg",
+	  "ref": "1fdb348ad3d0b80f86295945a9eb2069a03e6d50",
+	  "url": "infoSpeaker.html?ref=1fdb348ad3d0b80f86295945a9eb2069a03e6d50",
+	  "homepage": "",
+	  "twitter": "",
+	  "linkedin": "https://www.linkedin.com/in/alberto-portilla-casado-5a449990/"
+	},
+	{
       "enabled": "1",
       "name": "Edoardo Vacchi",
       "company": "Red Hat",
@@ -519,6 +545,19 @@
       "linkedin": "https://www.linkedin.com/in/horaciogonzalez/"
     },
     {
+	  "enabled": "1",
+	  "name": "Adrián Romero Martin",
+	  "company": "Wallapop",
+	  "description": "Software Engineer",
+	  "biography": "<p>Adrián es Software Engineer en Wallapop desde hace 3 años, donde ha formado parte de varios equipos e iniciativas, entre las más destacadas Transaction tracking y Search Alerts.</p><p>Tiene gran interés en discusiones sobre diseño, testing y escalabilidad. Lleva trabajando casi 10 años  con lenguajes de la JVM, en los que empezó a interesarse tras leer Effective Java y Java concurrency in practice.</p><p>Además del software, le apasiona la guitarra, particularmente el flamenco, el deporte y la gastronomía.</p>",
+	  "image": "assets/img/speakers/adrian-romero.jpeg",
+	  "ref": "86e816de6f93283ebd9797c0b9272a6e4850d088",
+	  "url": "infoSpeaker.html?ref=86e816de6f93283ebd9797c0b9272a6e4850d088",
+	  "homepage": "",
+	  "twitter": "",
+	  "linkedin": "https://www.linkedin.com/in/adriromero/"
+	},
+	{
       "enabled": "1",
       "name": "Ko Turk",
       "company": "adesso",
