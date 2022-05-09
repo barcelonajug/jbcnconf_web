@@ -456,6 +456,19 @@
       "linkedin": "https://www.linkedin.com/in/attila-m%C3%A9sz%C3%A1ros-9464a645/"
     },
     {
+	  "enabled": "1",
+	  "name": "Guillem Plasencia Gallofré",
+	  "company": "Adaptive Financial Consulting",
+	  "description": "Senior software developer & Data scientist",
+	  "biography": "<p>I love to learn new things. During my years at the university, where I studied biochemistry I developed a deep interest in bioinformatics and programming, which I further cultured during my PhD by writing my first software program, used to analyze huge databases of expressed sequence tags (ESTs) and compare them to their respective genome sequences to search for new examples of the novel process of trans-splicing of messenger RNA. After my PhD. I realized I’d be happier programming and working with computers than in an experimental laboratory, and I joined a company where I developed my programming, data science and molecular modeling skills, and applied them to build predictive models and software programs for organic chemists in research departments of large pharmaceutical companies. Now, at Adaptive Financial Consulting, I develop and deploy cloud applications to trade financial instruments in highly performant and resilient cluster architectures.</p>",
+	  "image": "assets/img/speakers/guillem-plasencia.png",
+	  "ref": "1e65ff335ce12cb03cc2dc5130ad907c4d47da6f",
+	  "url": "infoSpeaker.html?ref=1e65ff335ce12cb03cc2dc5130ad907c4d47da6f",
+	  "homepage": "",
+	  "twitter": "@guillempg",
+	  "linkedin": "www.linkedin.com/in/guillem-plasencia-gallofre"
+	},
+	{
       "enabled": "1",
       "name": "Gerrit Grunwald",
       "company": "Azul Systems",

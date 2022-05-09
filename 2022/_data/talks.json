@@ -876,6 +876,24 @@
 	  ]
 	},
 	{
+	  "id": "6272e73371e11d0858e82245",
+	  "title": "Gentle introduction to machine learning algorithms, with examples",
+	  "languages": [
+		"eng"
+	  ],
+	  "abstract": "<p>In the past years we have seen how programs can outperform humans in many specific tasks. Machine learning algorithms are used in fields as diverse as finance, science, medicine, manufacturing industry, fashion or security. In this talk you will learn about the different algorithms in machine learning: regression, classification, clustering, dimensionality reduction and representation and reinforcement learning, and how neural networks can be used to implement them. I will show a practical example of how deep learning can be used in a computer vision task.</p>",
+	  "type": "talk",
+	  "tags": [
+		"Machine Learning",
+		"Deep Learning",
+		"Computer Vision"
+	  ],
+	  "level": "beginner",
+	  "speakers": [
+		"1e65ff335ce12cb03cc2dc5130ad907c4d47da6f"
+	  ]
+	},
+	{
 	  "id": "6272e7bc71e11d0858e82246",
 	  "title": "GraphQL-ify your APIs",
 	  "languages": [
