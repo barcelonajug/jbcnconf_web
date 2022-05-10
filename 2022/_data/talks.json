@@ -2,12 +2,12 @@
   "items": [
     {
       "id": "61df3543ef0a16083d127537",
-      "title": "Progressive Delivery in the Kubernetes era",
+      "title": "Distribución Progresiva en la era de Kubernetes",
       "languages": [
         "eng",
         "es"
       ],
-      "abstract": "<p>Production is the place where all applications should live. Even though you are using continuous integration and delivery, you might wonder every time you release a new version to production if it will work or there will be some breakage on the latest version, eventually making production unavailable to the customers.</p><p>Progressive delivery is the next step after Continuous Delivery to test your application in production before it becomes fully available to all your user bases.</p><p>Embrace progressive delivery with techniques like the blue-green, canary release, shadowing traffic, or dark launches to validate the application in production using Kubernetes and tools like Istio, Prometheus, ArgoCD, or Argo Rollouts.</p><p>Come to this session to learn progressive delivery in action using Kubernetes.</p>",
+      "abstract": "<p>Producción es el lugar donde las aplicaciones deben estar. Aunque apliques Integración y Distribución Continua, cada vez que despliegues una nueva versión en producción te preguntarás si funcionará o habrá algún bug en la última versión, incluso haciendo que producción deje de estar disponible para los clientes.</p><p>La Distribución Progresiva es el siguiente escalón después de la Distribución Continua para probar tu aplicación en producción antes de ponerla disponible a todos tus usuarios.</p><p>Pon en práctica la Distribución Progresiva con técnicas como blue-green, canary release, shadowing traffic o dark launches para validar tu aplicación en Kubernetes con herramientas como Istio, Prometheus, ArgoDC o Argo Rollouts.</p><p>Únete a la sesión para aprender sobre Distribución Progresiva en acción usando Kubernetes.</p>",
       "type": "talk",
       "tags": [
         "kubernetes",
@@ -40,11 +40,11 @@
     },
     {
       "id": "61f1a0e0c4c4120b9d29afa0",
-      "title": "Freedom Means That Kubernetes Needs To Disappear",
+      "title": "Libertad significa que Kubernetes debe desaparecer",
       "languages": [
         "eng"
       ],
-      "abstract": "<p>We are all moving towards service-based operations and self-sufficient teams. We are all trying to enable developers to be more autonomous. However, it is unrealistic to expect everyone to become an expert on everything, from infrastructure to Kubernetes and everything in between. So, we cannot shift left due to lack of expertise, but we also cannot continue being reactive to the needs of others. The only option left is to simplify services or even remove direct access to infrastructure and Kubernetes.</p><p>We might be able to accomplish those goals through Argo CD or Flux (GitOps), Crossplane (universal control plane), and KubeVela (OAM). By combining those, we can enable developers to manage everything yet still be in complete control of the aspects they care about. GitOps allows us to establish Git as the only point of interaction with the system. Crossplane Composites enable us to simplify developer experience when managing infrastructure. Finally, the Open Application Model (OAM) with KubeVela allows us to define applications instead of Kubernetes resources. If we combine those three types of tools and processes, we can enable operations to define the services used by developers to manage infrastructure and applications. We can do all that without anyone even knowing that there is Kubernetes behind all that.</p><p>For everyone to use Kubernetes, it needs to disappear.</p>",
+      "abstract": "<p>Todos nos estamos moviendo hacia modelos de organización basados en servicios y equipos autosuficientes. Todos estamos intentando de permitir que los desarrolladores sean más autónomos. Sin embargo, no es realista esperar que todos se conviertan en expertos en todo, desde infraestructura hasta Kubernetes y todo lo demás. Por lo tanto, no podemos cambiar de un día para el otro por la falta de experiencia, pero tampoco podemos seguir siendo reactivos a las necesidades de los demás. La única opción que queda es simplificar los servicios o incluso eliminar el acceso directo a la infraestructura y Kubernetes.</p><p>Es posible que podamos lograr esos objetivos a través de Argo CD o Flux (GitOps), Crossplane (universal control plane) y KubeVela (OAM). Al combinarlos, podemos permitir que los desarrolladores administren todo y aún así tengan el control total de los aspectos que les interesan. GitOps nos permite establecer Git como único punto de interacción con el sistema. Crossplane Composites nos permite simplificar la experiencia del desarrollador al administrar la infraestructura. Finalmente, el Open Application Model (OAM) con KubeVela nos permite definir aplicaciones en lugar de recursos de Kubernetes. Si combinamos estos tres tipos de herramientas y procesos, podemos permitir que las operaciones definan los servicios utilizados por los desarrolladores para administrar la infraestructura y las aplicaciones. Podemos hacer todo eso sin que nadie sepa que hay Kubernetes detrás de todo eso.</p><p>Para que todos puedan usar Kubernetes, debe desaparecer.</p>",
       "type": "talk",
       "tags": [
         "Cloud",
@@ -245,12 +245,12 @@
     },
     {
       "id": "61fd74f14fc8140baaa031c1",
-      "title": "Tales from a Java Developer moving to Go in the context of Kubernetes",
+      "title": "Historia de un desarrollador de Java que se cambia a Go en el contexto de Kubernetes",
       "languages": [
         "eng",
         "es"
       ],
-      "abstract": "<p>In this presentation, Mauricio, a very passionate Java Developer, share his psychedelic findings from working in the Go ecosystem for the Knative OSS Project. This presentation focuses on the Go ecosystem instead of the difference between the Java and Go languages. Tools like dependency management, IDEs, frameworks and how to deal with large projects will be discussed. While Java is still big in my heart there are good lessons, frameworks and tools that we might want to bring to the Java ecosystem from the vibrant Go community. A special emphasis is made around Kubernetes related tools and why I think that Go in Kubernetes is miles ahead of Java.</p>",
+      "abstract": "<p>En esta presentación, Mauricio, apasionado desarrollador Java, comparte sus hallazgos psicodélicos trabajando en el ecosistema Go para el Proyecto Knative OSS. Esta presentación se centra en el ecosistema Go en lugar de la diferencia entre los lenguajes Java y Go. Se discutirán herramientas como la gestión de dependencias, IDE, marcos y cómo lidiar con proyectos grandes. Si bien Java sigue siendo importante en mi corazón, hay lecciones a tener en cuenta, frameworks y herramientas que tal vez querríamos traer al ecosistema de Java de la vibrante comunidad de Go. Se hace especial énfasis en las herramientas relacionadas con Kubernetes y por qué creo que Go en Kubernetes está muy por delante de Java.</p>",
       "type": "talk",
       "tags": [
         "Cloud",
@@ -697,7 +697,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "<p>Microservices are everywhere. There is more than one way to implement and deploy them, but in the end what we expect of them is to move data from one place to another databases are typically found at either end of a microservice execution. Microservices can execute in sync and async modes, but what about data processing from and to the database? In this session we'll cover sync & async capabilities offered by Helidon, Micronaut, Quarkus, and Spring Boot when it comes to reading and writing data.</p>",
+      "abstract": "<p>Los microservicios están en todas partes. Hay más de una forma de implementarlos y desplegarlos, pero al final lo que esperamos de ellos es mover datos de un lugar a otro. Las bases de datos generalmente se encuentran al final de la ejecución de un microservicio. Los microservicios pueden ejecutarse en modo síncrono y asíncrono, pero ¿qué pasa con el procesamiento de datos desde y hacia la base de datos? En esta sesión, cubriremos las capacidades de sincronización y asincronía que ofrecen Helidon, Micronaut, Quarkus y Spring Boot cuando se trata de leer y escribir datos.</p>",
       "type": "talk",
       "tags": [
         "Microservices",
@@ -856,60 +856,79 @@
         "508d77fd6c0d6171c5228adac3b440c1b4d2ad8a"
       ]
     },
-	{
-	  "id": "6272de1a71e11d0858e82242",
-	  "title": "Del final al principio: Un viaje guiado por métricas",
-	  "languages": [
-		"es"
-	  ],
-	  "abstract": "<p>Caminar sobre el agua y desarrollar software sobre unos requisitos es fácil, siempre y cuando ambos estén congelados.</p><p>En esta sesión, explicaremos nuestro camino en el rediseño de nuestro sistema de alertas de búsquedas para usuarios y cómo el cambio de contexto y requerimientos nos hizo replantear nuestra implementación, pasando de un enfoque near-real-time a un proceso en batch. Dicha transformación supondría algunos trade-offs, pero, por otro lado, nos ha permitido escalar de unos pocos millones a decenas de millones de alertas.</p><p>De la misma manera, expondremos la importancia de definir métricas como parte de la estrategia de implementación y cómo éstas nos ayudaron a arrojar luz en los siguientes pasos.</p>",
-	  "type": "talk",
-	  "tags": [
-		"observability",
-		"scalability",
-		"distributed system"
-	  ],
-	  "level": "middle",
-	  "speakers": [
-		"86e816de6f93283ebd9797c0b9272a6e4850d088",
-		"1fdb348ad3d0b80f86295945a9eb2069a03e6d50"
-	  ]
-	},
-	{
-	  "id": "6272e73371e11d0858e82245",
-	  "title": "Gentle introduction to machine learning algorithms, with examples",
-	  "languages": [
-		"eng"
-	  ],
-	  "abstract": "<p>In the past years we have seen how programs can outperform humans in many specific tasks. Machine learning algorithms are used in fields as diverse as finance, science, medicine, manufacturing industry, fashion or security. In this talk you will learn about the different algorithms in machine learning: regression, classification, clustering, dimensionality reduction and representation and reinforcement learning, and how neural networks can be used to implement them. I will show a practical example of how deep learning can be used in a computer vision task.</p>",
-	  "type": "talk",
-	  "tags": [
-		"Machine Learning",
-		"Deep Learning",
-		"Computer Vision"
-	  ],
-	  "level": "beginner",
-	  "speakers": [
-		"1e65ff335ce12cb03cc2dc5130ad907c4d47da6f"
-	  ]
-	},
-	{
-	  "id": "6272e7bc71e11d0858e82246",
-	  "title": "GraphQL-ify your APIs",
-	  "languages": [
-		"eng"
-	  ],
-	  "abstract": "<p>GraphQL is query language for APIs, but what are the advantages and how would one implement such in their microservices/APIs. In this session, I will go through the basics of GraphQL, different aspects of GraphQL and architecture of such APIs. There will be a demo/live-coding on, how 4 different ways we can implement GraphQL for a Springboot microservice/API. Lots of examples, live coding and helpful comparison on structure, usage and implementations of GraphQL in Springboot & Java world.</p>",
-	  "type": "talk",
-	  "tags": [
-		"GraphQL",
-		"Spring Boot",
-		"Java"
-	  ],
-	  "level": "beginner",
-	  "speakers": [
-		"dc7843096c80aaceb163e68b573a9c5618c9146a"
-	  ]
-	}
+    {
+      "id": "6272d90071e11d0858e82241",
+      "title": "(Mis)Understanding Cloud-Native",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Cloud is great and cloud-native is really nice. However, we are often met with some misconceptions and terms that are being thrown around. Vendor lock-in, serverless, zero downtime, zero trust, scale-to-zero, and many more. Some can be confusing, and some even intimidating. In this session, we will try to bust a few myths about cloud-native development and help to develop better and more modern applications.</p>",
+      "type": "talk",
+      "tags": [
+        "cloud",
+        "kubernetes",
+        "practices"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "959143ffd6c954e5e544cdce71383429895e3679",
+        "72b36c4f06a1b0211e42921b9815136568fa1b73"
+      ]
+    },
+    {
+      "id": "6272de1a71e11d0858e82242",
+      "title": "Del final al principio: Un viaje guiado por métricas",
+      "languages": [
+        "es"
+      ],
+      "abstract": "<p>Caminar sobre el agua y desarrollar software sobre unos requisitos es fácil, siempre y cuando ambos estén congelados.</p><p>En esta sesión, explicaremos nuestro camino en el rediseño de nuestro sistema de alertas de búsquedas para usuarios y cómo el cambio de contexto y requerimientos nos hizo replantear nuestra implementación, pasando de un enfoque near-real-time a un proceso en batch. Dicha transformación supondría algunos trade-offs, pero, por otro lado, nos ha permitido escalar de unos pocos millones a decenas de millones de alertas.</p><p>De la misma manera, expondremos la importancia de definir métricas como parte de la estrategia de implementación y cómo éstas nos ayudaron a arrojar luz en los siguientes pasos.</p>",
+      "type": "talk",
+      "tags": [
+        "observability",
+        "scalability",
+        "distributed system"
+      ],
+      "level": "middle",
+      "speakers": [
+        "86e816de6f93283ebd9797c0b9272a6e4850d088",
+        "1fdb348ad3d0b80f86295945a9eb2069a03e6d50"
+      ]
+    },
+    {
+      "id": "6272e73371e11d0858e82245",
+      "title": "Gentle introduction to machine learning algorithms, with examples",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>In the past years we have seen how programs can outperform humans in many specific tasks. Machine learning algorithms are used in fields as diverse as finance, science, medicine, manufacturing industry, fashion or security. In this talk you will learn about the different algorithms in machine learning: regression, classification, clustering, dimensionality reduction and representation and reinforcement learning, and how neural networks can be used to implement them. I will show a practical example of how deep learning can be used in a computer vision task.</p>",
+      "type": "talk",
+      "tags": [
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "1e65ff335ce12cb03cc2dc5130ad907c4d47da6f"
+      ]
+    },
+    {
+      "id": "6272e7bc71e11d0858e82246",
+      "title": "GraphQL-ify your APIs",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>GraphQL is query language for APIs, but what are the advantages and how would one implement such in their microservices/APIs. In this session, I will go through the basics of GraphQL, different aspects of GraphQL and architecture of such APIs. There will be a demo/live-coding on, how 4 different ways we can implement GraphQL for a Springboot microservice/API. Lots of examples, live coding and helpful comparison on structure, usage and implementations of GraphQL in Springboot & Java world.</p>",
+      "type": "talk",
+      "tags": [
+        "GraphQL",
+        "Spring Boot",
+        "Java"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "dc7843096c80aaceb163e68b573a9c5618c9146a"
+      ]
+    }
   ]
 }

@@ -430,19 +430,19 @@
       "linkedin": "https://www.linkedin.com/in/grace-jansen/"
     },
     {
-	  "enabled": "1",
-	  "name": "Soham Dasgupta",
-	  "company": "Capgemini Netherlands",
-	  "description": "Architect",
-	  "biography": "<p>A technology enthusiast working at Capgemini as a Solution Architect, with over 16 years of experience in software programming, designing, architecture which includes on-prem, cloud native applications and web based conversational application design.</p>",
-	  "image": "assets/img/speakers/soham-dasgupta.jpg",
-	  "ref": "dc7843096c80aaceb163e68b573a9c5618c9146a",
-	  "url": "infoSpeaker.html?ref=dc7843096c80aaceb163e68b573a9c5618c9146a",
-	  "homepage": "",
-	  "twitter": "@iamsoham",
-	  "linkedin": "https://www.linkedin.com/in/dasguptasoham/"
-	},
-	{
+      "enabled": "1",
+      "name": "Soham Dasgupta",
+      "company": "Capgemini Netherlands",
+      "description": "Architect",
+      "biography": "<p>A technology enthusiast working at Capgemini as a Solution Architect, with over 16 years of experience in software programming, designing, architecture which includes on-prem, cloud native applications and web based conversational application design.</p>",
+      "image": "assets/img/speakers/soham-dasgupta.jpg",
+      "ref": "dc7843096c80aaceb163e68b573a9c5618c9146a",
+      "url": "infoSpeaker.html?ref=dc7843096c80aaceb163e68b573a9c5618c9146a",
+      "homepage": "",
+      "twitter": "@iamsoham",
+      "linkedin": "https://www.linkedin.com/in/dasguptasoham/"
+    },
+    {
       "enabled": "1",
       "name": "Attila Mészáros",
       "company": "Red Hat",
@@ -456,19 +456,19 @@
       "linkedin": "https://www.linkedin.com/in/attila-m%C3%A9sz%C3%A1ros-9464a645/"
     },
     {
-	  "enabled": "1",
-	  "name": "Guillem Plasencia Gallofré",
-	  "company": "Adaptive Financial Consulting",
-	  "description": "Senior software developer & Data scientist",
-	  "biography": "<p>I love to learn new things. During my years at the university, where I studied biochemistry I developed a deep interest in bioinformatics and programming, which I further cultured during my PhD by writing my first software program, used to analyze huge databases of expressed sequence tags (ESTs) and compare them to their respective genome sequences to search for new examples of the novel process of trans-splicing of messenger RNA. After my PhD. I realized I’d be happier programming and working with computers than in an experimental laboratory, and I joined a company where I developed my programming, data science and molecular modeling skills, and applied them to build predictive models and software programs for organic chemists in research departments of large pharmaceutical companies. Now, at Adaptive Financial Consulting, I develop and deploy cloud applications to trade financial instruments in highly performant and resilient cluster architectures.</p>",
-	  "image": "assets/img/speakers/guillem-plasencia.png",
-	  "ref": "1e65ff335ce12cb03cc2dc5130ad907c4d47da6f",
-	  "url": "infoSpeaker.html?ref=1e65ff335ce12cb03cc2dc5130ad907c4d47da6f",
-	  "homepage": "",
-	  "twitter": "@guillempg",
-	  "linkedin": "www.linkedin.com/in/guillem-plasencia-gallofre"
-	},
-	{
+      "enabled": "1",
+      "name": "Guillem Plasencia Gallofré",
+      "company": "Adaptive Financial Consulting",
+      "description": "Senior software developer & Data scientist",
+      "biography": "<p>I love to learn new things. During my years at the university, where I studied biochemistry I developed a deep interest in bioinformatics and programming, which I further cultured during my PhD by writing my first software program, used to analyze huge databases of expressed sequence tags (ESTs) and compare them to their respective genome sequences to search for new examples of the novel process of trans-splicing of messenger RNA. After my PhD. I realized I’d be happier programming and working with computers than in an experimental laboratory, and I joined a company where I developed my programming, data science and molecular modeling skills, and applied them to build predictive models and software programs for organic chemists in research departments of large pharmaceutical companies. Now, at Adaptive Financial Consulting, I develop and deploy cloud applications to trade financial instruments in highly performant and resilient cluster architectures.</p>",
+      "image": "assets/img/speakers/guillem-plasencia.png",
+      "ref": "1e65ff335ce12cb03cc2dc5130ad907c4d47da6f",
+      "url": "infoSpeaker.html?ref=1e65ff335ce12cb03cc2dc5130ad907c4d47da6f",
+      "homepage": "",
+      "twitter": "@guillempg",
+      "linkedin": "www.linkedin.com/in/guillem-plasencia-gallofre"
+    },
+    {
       "enabled": "1",
       "name": "Gerrit Grunwald",
       "company": "Azul Systems",
@@ -493,19 +493,19 @@
       "linkedin": "https://www.linkedin.com/in/shabnam-mayel/"
     },
     {
-	  "enabled": "1",
-	  "name": "Alberto Portilla Casado",
-	  "company": "Wallapop",
-	  "description": "Backend Tech Lead",
-	  "biography": "<p>Alberto es backend Tech lead en Wallapop. Comenzó siendo frontend dev hace más de 10 años y ha desarrollado en varios idiomas y stacks, siendo ahora backend su stack preferido. Amante de los problemas complejos y de pulsar la hotkey de step-into para bucear en códigos para descubrir por qué un pool tiene un leak o por que ha tenido que subir el heap de su proceso en 500mb.</p><p>Comer una buena hamburguesa y disfrutar de la compañía de sus gatos son dos de las cosas que más aprecia de su tiempo libre.</p>",
-	  "image": "assets/img/speakers/alberto-portilla.jpeg",
-	  "ref": "1fdb348ad3d0b80f86295945a9eb2069a03e6d50",
-	  "url": "infoSpeaker.html?ref=1fdb348ad3d0b80f86295945a9eb2069a03e6d50",
-	  "homepage": "",
-	  "twitter": "",
-	  "linkedin": "https://www.linkedin.com/in/alberto-portilla-casado-5a449990/"
-	},
-	{
+      "enabled": "1",
+      "name": "Alberto Portilla Casado",
+      "company": "Wallapop",
+      "description": "Backend Tech Lead",
+      "biography": "<p>Alberto es backend Tech lead en Wallapop. Comenzó siendo frontend dev hace más de 10 años y ha desarrollado en varios idiomas y stacks, siendo ahora backend su stack preferido. Amante de los problemas complejos y de pulsar la hotkey de step-into para bucear en códigos para descubrir por qué un pool tiene un leak o por que ha tenido que subir el heap de su proceso en 500mb.</p><p>Comer una buena hamburguesa y disfrutar de la compañía de sus gatos son dos de las cosas que más aprecia de su tiempo libre.</p>",
+      "image": "assets/img/speakers/alberto-portilla.jpeg",
+      "ref": "1fdb348ad3d0b80f86295945a9eb2069a03e6d50",
+      "url": "infoSpeaker.html?ref=1fdb348ad3d0b80f86295945a9eb2069a03e6d50",
+      "homepage": "",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/alberto-portilla-casado-5a449990/"
+    },
+    {
       "enabled": "1",
       "name": "Edoardo Vacchi",
       "company": "Red Hat",
@@ -530,6 +530,19 @@
       "homepage": "https://sergiodelamo.com",
       "twitter": "@sdelamo",
       "linkedin": "https://www.linkedin.com/in/sergiodelamo/"
+    },
+    {
+      "enabled": "1",
+      "name": "Rustam Mehmandarov",
+      "company": "Computas",
+      "description": "Chief Engineer",
+      "biography": "<p>Rustam Mehmandarov is a passionate computer scientist. Java Champion ​and Google Developer Expert (GDE) ​for Cloud. Public speaker.</p>",
+      "image": "assets/img/speakers/rustam-mehmandarov.jpg",
+      "ref": "72b36c4f06a1b0211e42921b9815136568fa1b73",
+      "url": "infoSpeaker.html?ref=72b36c4f06a1b0211e42921b9815136568fa1b73",
+      "homepage": "https://mehmandarov.com/",
+      "twitter": "@RMehmandarov",
+      "linkedin": ""
     },
     {
       "enabled": "1",
@@ -558,19 +571,19 @@
       "linkedin": "https://www.linkedin.com/in/horaciogonzalez/"
     },
     {
-	  "enabled": "1",
-	  "name": "Adrián Romero Martin",
-	  "company": "Wallapop",
-	  "description": "Software Engineer",
-	  "biography": "<p>Adrián es Software Engineer en Wallapop desde hace 3 años, donde ha formado parte de varios equipos e iniciativas, entre las más destacadas Transaction tracking y Search Alerts.</p><p>Tiene gran interés en discusiones sobre diseño, testing y escalabilidad. Lleva trabajando casi 10 años  con lenguajes de la JVM, en los que empezó a interesarse tras leer Effective Java y Java concurrency in practice.</p><p>Además del software, le apasiona la guitarra, particularmente el flamenco, el deporte y la gastronomía.</p>",
-	  "image": "assets/img/speakers/adrian-romero.jpeg",
-	  "ref": "86e816de6f93283ebd9797c0b9272a6e4850d088",
-	  "url": "infoSpeaker.html?ref=86e816de6f93283ebd9797c0b9272a6e4850d088",
-	  "homepage": "",
-	  "twitter": "",
-	  "linkedin": "https://www.linkedin.com/in/adriromero/"
-	},
-	{
+      "enabled": "1",
+      "name": "Adrián Romero Martin",
+      "company": "Wallapop",
+      "description": "Software Engineer",
+      "biography": "<p>Adrián es Software Engineer en Wallapop desde hace 3 años, donde ha formado parte de varios equipos e iniciativas, entre las más destacadas Transaction tracking y Search Alerts.</p><p>Tiene gran interés en discusiones sobre diseño, testing y escalabilidad. Lleva trabajando casi 10 años  con lenguajes de la JVM, en los que empezó a interesarse tras leer Effective Java y Java concurrency in practice.</p><p>Además del software, le apasiona la guitarra, particularmente el flamenco, el deporte y la gastronomía.</p>",
+      "image": "assets/img/speakers/adrian-romero.jpeg",
+      "ref": "86e816de6f93283ebd9797c0b9272a6e4850d088",
+      "url": "infoSpeaker.html?ref=86e816de6f93283ebd9797c0b9272a6e4850d088",
+      "homepage": "",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/adriromero/"
+    },
+    {
       "enabled": "1",
       "name": "Ko Turk",
       "company": "adesso",
@@ -652,7 +665,7 @@
       "enabled": "1",
       "name": "Ana-Maria Mihalceanu",
       "company": "Red Hat",
-      "description": "Develope Advocate",
+      "description": "Developer Advocate",
       "biography": "<p>Ana is a Java Champion, Developer Advocate at Red Hat, co-founder of Bucharest Software Craftsmanship Community, and a constant adopter of challenging technical scenarios involving Java-based frameworks and multiple cloud providers. She actively supports technical communities’ growth through knowledge sharing and enjoys curating content for conferences as a program committee member.</p>",
       "image": "assets/img/speakers/ana-maria-mihalceanu.jpg",
       "ref": "959143ffd6c954e5e544cdce71383429895e3679",
