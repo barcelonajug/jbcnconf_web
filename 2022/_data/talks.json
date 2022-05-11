@@ -570,12 +570,12 @@
     },
     {
       "id": "6229f5eb56274e0bddf007a2",
-      "title": "Security in the Micronaut® Framework",
+      "title": "Seguridad en Micronaut®",
       "languages": [
         "eng",
         "es"
       ],
-      "abstract": "<p>In this session, Sergio del Amo introduces Micronaut Security, a fully-featured and customizable security solution for your applications.</p><p>Topics include:</p><p>Authentication (Basic Auth, Cookie-based, Session-based, Bearer, LDAP, X.509)</p><p>Access authenticated user</p><p>Security Configuration (@Secured, Intercept URL map, and more)</p><p>OAuth 2.0 (Authorization Code, Client Credentials, Password Credentials grants)</p><p>OpenID Connect (integration with third-party OAuth 2.0 server providers: Auth0, Okta, Keycloak, Amazon Cognito)</p><p>JWT (signing, validation, generation, JWKS)</p><p>Token Propagation</p><p>Security Events</p><p>Discover how easy it is to work with Micronaut Security and learn how to tailor it to your needs.</p><p>Sergio del Amo is a Micronaut core committer, Developer Advocate for the Micronaut Foundation, and host of the Micronaut podcast.</p>",
+      "abstract": "<p>En esta sesión, Sergio del Amo presenta Micronaut Security, una solución de seguridad personalizable y con todas las funciones para sus aplicaciones.</p><p>Los temas incluyen:</p><p>Autenticación (autenticación básica, basada en cookies, basada en sesiones, portador, LDAP, X.509)</p><p>Acceso usuario autenticado</p><p>Configuración de seguridad (@Secured, mapa de URL de intercepción y más)</p><p>OAuth 2.0 (Código de autorización, Credenciales de cliente, Concesiones de credenciales de contraseña)</p><p>OpenID Connect (integración con proveedores de servidores OAuth 2.0 de terceros: Auth0, Okta, Keycloak, Amazon Cognito)</p><p>JWT (firma, validación, generación, JWKS)</p><p>Propagación de tokens</p><p>Eventos de seguridad</p><p>Descubra lo fácil que es trabajar con Micronaut Security y aprenda a adaptarlo a sus necesidades.</p><p>Sergio del Amo es Micronaut core commiter, Developer Advocate de la Fundación Micronaut y presentador del “Micronaut podcast” (https://micronautpodcast.com).</p>",
       "type": "workshop",
       "tags": [
         "Micronaut",
