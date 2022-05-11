@@ -155,11 +155,11 @@
     },
     {
       "id": "61fd70f54fc8140baaa031bc",
-      "title": "REACTIVE A New Hope! Learn From a Performance History",
+      "title": "REACTIVE Una nueva esperanza! Lecciones de una historia de Rendimiento",
       "languages": [
-        "eng"
+        "es"
       ],
-      "abstract": "<p>It is a time of developers complain about performance. Rebel developers, striking from a hidden base, have won their first victory against the evil blocking applications. In this session, attendees will learn about a real-world evolution to reactive; we will be covering tips and tricks of an experience in evolving a Banking Application; Through the session, you are going to get tips, tricks, pros, cons, and the reasons for being involved on move forward to non-blocking application and present sample code and explain the security concerns on this evolution. We will be using snippets code based on JAVA, JWT, JWS, Auth0, Spring Boot, Reactor and Webflux deployed on Cloud.</p>",
+      "abstract": "<p>En la era en que los desarrolladores se quejan del rendimiento. Un equipo de desarrolladores rebeldes, atacan desde una base oculta y han obtenido su primera victoria contra las malvadas aplicaciones bloqueantes. En esta sesión, los asistentes aprenderán a partir de una experiencia de la vida real el cambio a paradigma reactivo; cubriremos consejos y trucos de una experiencia en la evolución de una aplicación bancaria. Durante la sesión obtendrás consejos, trucos, pros, contras y las razones para mover su código hacia una aplicación sin bloqueos, en base de  ejemplos de código incluyendo las consideraciones de seguridad en esta evolución. Usaremos fragmentos de código basados en JAVA, JWT, JWS, Auth0, Spring Boot, Reactor y Webflux desplegados en la nube</p>",
       "type": "talk",
       "tags": [
         "Java",
