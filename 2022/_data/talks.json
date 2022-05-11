@@ -929,6 +929,26 @@
       "speakers": [
         "dc7843096c80aaceb163e68b573a9c5618c9146a"
       ]
+    },
+    {
+      "id": "627c168c26f9720858a38eef",
+      "title": "Optimal data warehouse for analytics: Apache Kafka and ClickHouse",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Apache Kafka is amazing at handling real-time data feeds. However, in certain cases we need to come back to older records to analyse and process data at later times. This is challenging because storing records indefinitely and doing large scans of data in Apache Kafka is not optimal.</p><p>ClickHouse, on the other hand, is a scalable and reliable storage designed to handle petabytes of data and, at the same time, it is a powerful open-source tool for fast online analytical processing, it is now used by many companies for data analytics. What's more ClickHouse has a built-in table engine to publish and subscribe to Apache Kafka data feeds.</p><p>Hence, we can use Apache Kafka and ClickHouse in collaboration to transition older records to a data warehouse in order to perform analytics at scale on top of fresh data that Kafka provides.</p><p>In this talk you’ll learn how to use Apache Kafka together with ClickHouse and how to query the data stored in the data warehouse. This session is for those who want to perform analytics with fast response time over a huge volume of data without the need to downsample it.</p>",
+      "type": "talk",
+      "tags": [
+        "Apache Kafka",
+        "ClickHouse",
+        "columnar databases",
+        "OLAP",
+        "analytics"
+      ],
+      "level": "middle",
+      "speakers": [
+        "f86ffeacee17037b8e78ba1a94e99659035eee78"
+      ]
     }
   ]
 }
