@@ -275,6 +275,19 @@
     },
     {
       "enabled": "1",
+      "name": "Ivan Krylov",
+      "company": "",
+      "description": "Software enginner",
+      "biography": "<p>Ivan Krylov is a JVM developer for the last 17 years, working in core JDK  teams in various companies. Ivan specializes in JIT compiler infrastructure and AOT compilation.</p>",
+      "image": "assets/img/speakers/ivan_krylov.jpg",
+      "ref": "eecf1fc106a3fda9197602173d272b9e3c7b8613",
+      "url": "infoSpeaker.html?ref=eecf1fc106a3fda9197602173d272b9e3c7b8613",
+      "homepage": "",
+      "twitter": "@JohnWings",
+      "linkedin": "www.linkedin.com/in/ivan-krylov-62b46a1"
+    },
+    {
+      "enabled": "1",
       "name": "Andres Almiray",
       "company": "Oracle",
       "description": "Seasoned Sourceror",
@@ -673,6 +686,19 @@
       "homepage": "",
       "twitter": "@ammbra1508",
       "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Olena Kutsenko",
+      "company": "Aiven",
+      "description": "Developer Advocate",
+      "biography": "<p>Olena is a software engineer and a developer advocate currently working at Aiven. She is passionate about open source, data, sustainable software development and team work. Her knowledge is shaped by expertise she acquired working in such companies as Nokia, HERE Technologies and AWS and now Aiven; and from the countries she was lucky to live in - Ukraine, Sweden, Spain and Germany.</p>",
+      "image": "assets/img/speakers/olena-kutsenko.jpg",
+      "ref": "f86ffeacee17037b8e78ba1a94e99659035eee78",
+      "url": "infoSpeaker.html?ref=f86ffeacee17037b8e78ba1a94e99659035eee78",
+      "homepage": "",
+      "twitter": "@OlenaKutsenko",
+      "linkedin": "https://www.linkedin.com/in/olenakutsenko/"
     },
     {
       "enabled": "1",

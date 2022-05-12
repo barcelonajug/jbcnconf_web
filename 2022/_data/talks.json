@@ -155,11 +155,11 @@
     },
     {
       "id": "61fd70f54fc8140baaa031bc",
-      "title": "REACTIVE A New Hope! Learn From a Performance History",
+      "title": "REACTIVE Una nueva esperanza! Lecciones de una historia de Rendimiento",
       "languages": [
-        "eng"
+        "es"
       ],
-      "abstract": "<p>It is a time of developers complain about performance. Rebel developers, striking from a hidden base, have won their first victory against the evil blocking applications. In this session, attendees will learn about a real-world evolution to reactive; we will be covering tips and tricks of an experience in evolving a Banking Application; Through the session, you are going to get tips, tricks, pros, cons, and the reasons for being involved on move forward to non-blocking application and present sample code and explain the security concerns on this evolution. We will be using snippets code based on JAVA, JWT, JWS, Auth0, Spring Boot, Reactor and Webflux deployed on Cloud.</p>",
+      "abstract": "<p>En la era en que los desarrolladores se quejan del rendimiento. Un equipo de desarrolladores rebeldes, atacan desde una base oculta y han obtenido su primera victoria contra las malvadas aplicaciones bloqueantes. En esta sesión, los asistentes aprenderán a partir de una experiencia de la vida real el cambio a paradigma reactivo; cubriremos consejos y trucos de una experiencia en la evolución de una aplicación bancaria. Durante la sesión obtendrás consejos, trucos, pros, contras y las razones para mover su código hacia una aplicación sin bloqueos, en base de  ejemplos de código incluyendo las consideraciones de seguridad en esta evolución. Usaremos fragmentos de código basados en JAVA, JWT, JWS, Auth0, Spring Boot, Reactor y Webflux desplegados en la nube</p>",
       "type": "talk",
       "tags": [
         "Java",
@@ -570,12 +570,12 @@
     },
     {
       "id": "6229f5eb56274e0bddf007a2",
-      "title": "Security in the Micronaut® Framework",
+      "title": "Seguridad en Micronaut®",
       "languages": [
         "eng",
         "es"
       ],
-      "abstract": "<p>In this session, Sergio del Amo introduces Micronaut Security, a fully-featured and customizable security solution for your applications.</p><p>Topics include:</p><p>Authentication (Basic Auth, Cookie-based, Session-based, Bearer, LDAP, X.509)</p><p>Access authenticated user</p><p>Security Configuration (@Secured, Intercept URL map, and more)</p><p>OAuth 2.0 (Authorization Code, Client Credentials, Password Credentials grants)</p><p>OpenID Connect (integration with third-party OAuth 2.0 server providers: Auth0, Okta, Keycloak, Amazon Cognito)</p><p>JWT (signing, validation, generation, JWKS)</p><p>Token Propagation</p><p>Security Events</p><p>Discover how easy it is to work with Micronaut Security and learn how to tailor it to your needs.</p><p>Sergio del Amo is a Micronaut core committer, Developer Advocate for the Micronaut Foundation, and host of the Micronaut podcast.</p>",
+      "abstract": "<p>En esta sesión, Sergio del Amo presenta Micronaut Security, una solución de seguridad personalizable y con todas las funciones para sus aplicaciones.</p><p>Los temas incluyen:</p><p>Autenticación (autenticación básica, basada en cookies, basada en sesiones, portador, LDAP, X.509)</p><p>Acceso usuario autenticado</p><p>Configuración de seguridad (@Secured, mapa de URL de intercepción y más)</p><p>OAuth 2.0 (Código de autorización, Credenciales de cliente, Concesiones de credenciales de contraseña)</p><p>OpenID Connect (integración con proveedores de servidores OAuth 2.0 de terceros: Auth0, Okta, Keycloak, Amazon Cognito)</p><p>JWT (firma, validación, generación, JWKS)</p><p>Propagación de tokens</p><p>Eventos de seguridad</p><p>Descubra lo fácil que es trabajar con Micronaut Security y aprenda a adaptarlo a sus necesidades.</p><p>Sergio del Amo es Micronaut core commiter, Developer Advocate de la Fundación Micronaut y presentador del “Micronaut podcast” (https://micronautpodcast.com).</p>",
       "type": "workshop",
       "tags": [
         "Micronaut",
@@ -649,6 +649,24 @@
       "level": "beginner",
       "speakers": [
         "907ad623981c92e789c5b74ed8c18db8a0c1be71"
+      ]
+    },
+    {
+      "id": "623b8c513a63410bd73c06fd",
+      "title": "Now is the time: From Java 11 to 17",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Java 17 has come almost a year ago, but many happily run production on Java 11. Some are afraid to migrate forward due to fear, and due to memories of a difficult migration from Java 8. Others don’t see a significant value and lack motivation in invest in the migration forward. The talk will cover, why staying on Java 11 is an additional risk and additional cost, will cover breaking changes between java 11 and 17. The talk will overview benefits of the migration forward, overview of JVM changes, a quick review of the major language and API changes between Java 11 and 17.</p>",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "JVM",
+        "Migration"
+      ],
+      "level": "middle",
+      "speakers": [
+        "eecf1fc106a3fda9197602173d272b9e3c7b8613"
       ]
     },
     {
@@ -928,6 +946,26 @@
       "level": "beginner",
       "speakers": [
         "dc7843096c80aaceb163e68b573a9c5618c9146a"
+      ]
+    },
+    {
+      "id": "627c168c26f9720858a38eef",
+      "title": "Optimal data warehouse for analytics: Apache Kafka and ClickHouse",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Apache Kafka is amazing at handling real-time data feeds. However, in certain cases we need to come back to older records to analyse and process data at later times. This is challenging because storing records indefinitely and doing large scans of data in Apache Kafka is not optimal.</p><p>ClickHouse, on the other hand, is a scalable and reliable storage designed to handle petabytes of data and, at the same time, it is a powerful open-source tool for fast online analytical processing, it is now used by many companies for data analytics. What's more ClickHouse has a built-in table engine to publish and subscribe to Apache Kafka data feeds.</p><p>Hence, we can use Apache Kafka and ClickHouse in collaboration to transition older records to a data warehouse in order to perform analytics at scale on top of fresh data that Kafka provides.</p><p>In this talk you’ll learn how to use Apache Kafka together with ClickHouse and how to query the data stored in the data warehouse. This session is for those who want to perform analytics with fast response time over a huge volume of data without the need to downsample it.</p>",
+      "type": "talk",
+      "tags": [
+        "Apache Kafka",
+        "ClickHouse",
+        "columnar databases",
+        "OLAP",
+        "analytics"
+      ],
+      "level": "middle",
+      "speakers": [
+        "f86ffeacee17037b8e78ba1a94e99659035eee78"
       ]
     }
   ]
