@@ -49,24 +49,24 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                          width="200"
                                          height="300"
                                          data-image-base="{{base}}/">
-                                    <ul style="float:right; list-style:none" class="post-information">
-                                        <li class="homepage" style="display:none">
-                                            <a target="_blank" href="#">
-                                                <i class="fa fa-rss"></i>
-                                            </a>
-                                        </li>
-                                        <li class="twitter" style="display:none">
-                                            <a target="_blank" href="#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li class="linkedin" style="display:none">
-                                            <a target="_blank" href="#">
-                                                <i class="fa fa-linkedin"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <span class="biography">
+                                <ul style="float:right; list-style:none" class="post-information">
+                                    <li class="homepage" style="display:none">
+                                        <a target="_blank" href="#">
+                                            <i class="fa fa-rss"></i>
+                                        </a>
+                                    </li>
+                                    <li class="twitter" style="display:none">
+                                        <a target="_blank" href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="linkedin" style="display:none">
+                                        <a target="_blank" href="#">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <span class="biography">
                                     </span>
                                 </p>
                             </div>
@@ -81,15 +81,15 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                         $container = $("#speaker-page"),
                                         updateSocialLink = function (social) {
                                             if (speaker[social]) {
-                                              let link = speaker[social]
-                                              if (social === 'twitter') {
-                                                link = link.replace('\@','')
-                                                if (!link.startsWith('http://') && !link.startsWith('https://')) {
-                                                  link = 'https://twitter.com/' + link
+                                                let link = speaker[social]
+                                                if (social === 'twitter') {
+                                                    link = link.replace('\@', '')
+                                                    if (!link.startsWith('http://') && !link.startsWith('https://')) {
+                                                        link = 'https://twitter.com/' + link
+                                                    }
                                                 }
-                                              }
-                                              $container.find("." + social).show();
-                                              $container.find("." + social + " a").attr("href", link);
+                                                $container.find("." + social).show();
+                                                $container.find("." + social + " a").attr("href", link);
                                             }
                                         };
 
@@ -100,7 +100,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 
                                     for (let index = 0; index < speaker.talks.length; index++) {
                                         const talk = speaker.talks[index];
-                                        $container.find(".post-content").append(`<h2 class="talk-title">(${talk.title})</h2><i>${talk.type}<i>`);
+                                        $container.find(".post-content").append(`<h2 class="talk-title">${talk.title}</h2><i>${talk.type}<i>`);
                                         $container.find(".post-content").append(`<p style="text-align: justify;" class="abstract">${talk.abstract}</p>`);
 
                                         if (talk.video) {
