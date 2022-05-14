@@ -967,6 +967,25 @@
       "speakers": [
         "f86ffeacee17037b8e78ba1a94e99659035eee78"
       ]
+    },
+    {
+      "id": "627c180d26f9720858a38ef1",
+      "title": "De 0 a 100 construyendo monolitos modulares que escalen a microservicios",
+      "languages": [
+        "es"
+      ],
+      "abstract": "<p>En este taller, pondremos en práctica lo visto en la charla \"Construyendo monolitos modulares que puedan escalar a microservicios\" de la edición 2021 y experimentaremos en primera persona cómo abordar el escalado de un monolito y evolucionarlo a microservicios, a medida que el proyecto crece y evoluciona en complejidad, o las necesidades de soportar una mayor carga evolucionan de distinta forma para distintas partes de la aplicación.</p><p>Para ello, partiremos de la construcción de un monolito modular utilizando técnicas de DDD, CQRS y Event-Sourcing, y veremos cuáles son las herramientas que hacen posible que el escalado sea sencillo. Comprobaremos qué es lo importante a tener en cuenta en nuestro diseño para que la división y el escalado sean sencillos.</p>",
+      "type": "workshop",
+      "tags": [
+        "java",
+        "EventSourcing",
+        "microservicios",
+        "monolitos"
+      ],
+      "level": "middle",
+      "speakers": [
+        "9907d2fdf89356ee1bfc20234cf2ffa7316833c2"
+      ]
     }
   ]
 }

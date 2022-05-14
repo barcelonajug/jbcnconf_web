@@ -93,6 +93,19 @@
     },
     {
       "enabled": "1",
+      "name": "David Gómez G.",
+      "company": "AxonIQ",
+      "description": "Developer advocate",
+      "biography": "<p>With more than 20 years of experience in software development, has been part, lead, and developed projects for Banking, Insurance, Defense and Sea & ground transportation business. Aside from software development, he is also dedicated to training: a former Spring Certified instructor, he is delivering the JavaSpecialists Master courses for advanced Java topics in Spain. In fact, he has delivered more than 50 training courses all over Spain from 2009 to date. David is a JavaChampion since January 2020.</p>",
+      "image": "assets/img/speakers/david-gomez.jpg",
+      "ref": "9907d2fdf89356ee1bfc20234cf2ffa7316833c2",
+      "url": "infoSpeaker.html?ref=9907d2fdf89356ee1bfc20234cf2ffa7316833c2",
+      "homepage": "",
+      "twitter": "@dgomezg",
+      "linkedin": "https://www.linkedin.com/in/dgomezg/"
+    },
+    {
+      "enabled": "1",
       "name": "Birgit Kratz",
       "company": "Birgit Kratz",
       "description": "Freelance",
