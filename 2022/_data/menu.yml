@@ -15,8 +15,13 @@ items:
 #  href: "/schedule.html"
 #- label: Job Offers
 #  href: "/job-offers.html"
-- label: Code of conduct
-  href: "/coc.html"
+- label: Diversity
+  href: "/#"
+  items:
+    - label: Diversity Sponsorship
+      href: "/diversity.html"
+    - label: Code of conduct
+      href: "/coc.html"
 - label: Travel
   href: "/#Travel"
   items:
