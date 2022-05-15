@@ -16,7 +16,6 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                 <li>Offers</li>
             </ul>
         </div>
-
         <div class="heading-title">
         </div>
     </div>
@@ -30,31 +29,31 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                     <article id="post-294"
                              class="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
                         <div class="post-wrapper">
-                            <div class="post-header">
-                                <ul class="post-information">
-
-                                </ul>
-                                <h2></h2>
-                                <p>
-                                    We have negotiated great offers to help your trip to Barcelona:
-                                </p>
-
-
-                            </div>
-
-                            <div class="post-content">
-
-                                {% include deals.html %}
-
-                            </div>
-
+                            {% if site.data.hotels.items %}
+                                <div class="post-header">
+                                    <ul class="post-information"></ul>
+                                    <h2></h2>
+                                    <p>
+                                        We have negotiated great offers to help your trip to Barcelona:
+                                    </p>
+                                </div>
+                                <div class="post-content">
+                                    {% include deals.html %}
+                                </div>
+                            {% else %}
+                                <div class="post-header">
+                                    <ul class="post-information"></ul>
+                                    <h2></h2>
+                                    <p>
+                                        We will post local accommodation offers as soon as we have them, stay alert for updates in this page and <a href="https://twitter.com/jbcnconf">@jbcnconf</a>.
+                                    </p>
+                                </div>
+                            {% endif %}
                         </div>
                     </article>
                 </div>
             </div>
-
         </div>
     </div>
-
 </div>
 
