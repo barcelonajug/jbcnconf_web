@@ -913,6 +913,27 @@
       ]
     },
     {
+      "id": "6272e23171e11d0858e82243",
+      "title": "Shifting Left - Securing Infrastructure as Code",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>A study by Unit 42 found that \"close to 200,000 potential vulnerabilities have been discovered in IaC templates. Also, more than 43% of cloud databases are currently unencrypted, and only 60% of cloud storage services have logging enabled, which in itself is a serious concern.\"</p><p>Do you also find yourself struggling with a lot of similar cloud infrastructure security alerts in slack? Or, as a developer after spearheading an automated deployment, do you spend a great deal of time going through various infrastructure as code vulnerabilities? Does your compliance report also show you numbers where MTTD and MTTR are far apart?</p><p>Join this talk if you would like to learn how and why to continuously assess, detect, and respond to cloud security threats in real-time. Learn how to implement security and compliance standards from someone who tried and failed and eventually succeeded in building an IaC Security Product from scratch.</p>",
+      "type": "talk",
+      "tags": [
+        "#Security",
+        "#Cloud",
+        "#CI",
+        "#CD",
+        "#Integration",
+        "#Cloud-Native"
+      ],
+      "level": "middle",
+      "speakers": [
+        "72036b8655975d50ae6e51b7e51402b767c06c0e"
+      ]
+    },
+    {
       "id": "6272e73371e11d0858e82245",
       "title": "Gentle introduction to machine learning algorithms, with examples",
       "languages": [
@@ -985,6 +1006,28 @@
       "level": "middle",
       "speakers": [
         "9907d2fdf89356ee1bfc20234cf2ffa7316833c2"
+      ]
+    },
+    {
+      "id": "627c1bdd26f9720858a38ef7",
+      "title": "The ups and downs of deploying AI in the wild",
+      "languages": [
+        "eng",
+        "es"
+      ],
+      "abstract": "<p>Have you ever faced a professional challenge where you just didn’t know where to start?​</p><p>What happens to an AI model once it’s been trained and tested? In this talk, I’m going to share how I transformed into a data engineer for the duration of two weeks, while on the mission to deploy our AI models in a Cloudera datalake using Spark.</p>",
+      "type": "talk",
+      "tags": [
+        "Artificial intelligence",
+        "machine learning",
+        "NLP",
+        "integration",
+        "spark",
+        "personal challenges"
+      ],
+      "level": "middle",
+      "speakers": [
+        "b3da9cdff962b1acbca9868acc10361463f07614"
       ]
     }
   ]
