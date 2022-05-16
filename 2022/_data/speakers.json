@@ -559,6 +559,19 @@
     },
     {
       "enabled": "1",
+      "name": "Steve Poole",
+      "company": "Sonatype",
+      "description": "Developer Advocate ",
+      "biography": "<p>Developer Advocate, Security Champion, DevOps practitioner (whatever that means) Long time  Java developer, leader and evangelist. I’ve been working on  Java SDKs and JVMs since Java was less than 1.  JavaOne Rockstar,  JSR leader and representation, Committer on  open source projects including ones at Apache, Eclipse and OpenJDK.  A seasoned speaker and regular presenter at international conferences on technical and software engineering topics.</p>",
+      "image": "assets/img/speakers/steve-poole.jpg",
+      "ref": "5656dc7f3ecb7ca028ff6382f862467404769dfa",
+      "url": "infoSpeaker.html?ref=5656dc7f3ecb7ca028ff6382f862467404769dfa",
+      "homepage": "",
+      "twitter": "@spoole167",
+      "linkedin": "https://www.linkedin.com/in/noregressions/"
+    },
+    {
+      "enabled": "1",
       "name": "Edoardo Vacchi",
       "company": "Red Hat",
       "description": "Principal Software Engineer",
@@ -712,6 +725,19 @@
       "homepage": "https://tanzu.vmware.com/developer/team/whitney-lee/",
       "twitter": "@wiggitywhitney",
       "linkedin": "https://www.linkedin.com/in/whitneylee/"
+    },
+    {
+      "enabled": "1",
+      "name": "Justin Reock",
+      "company": "Gradle Inc",
+      "description": "Field CTO and Chief Evangelist ",
+      "biography": "<p>Justin Reock is the Chief Evangelist and Field CTO of Gradle Enterprise, and is an outspoken blogger, speaker, and free software evangelist. He has over 20 years of experience working in various software roles and has delivered enterprise solutions, technical leadership, and community education on a range of topics.</p>",
+      "image": "assets/img/speakers/justin-reock.jpg",
+      "ref": "1eb862c7a058f67d5b1e4fcd98fa2d2ce12fe5c0",
+      "url": "infoSpeaker.html?ref=1eb862c7a058f67d5b1e4fcd98fa2d2ce12fe5c0",
+      "homepage": "",
+      "twitter": "@spoole167",
+      "linkedin": "https://www.linkedin.com/in/justinreock/"
     },
     {
       "enabled": "1",
