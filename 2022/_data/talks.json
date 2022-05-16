@@ -1028,6 +1028,29 @@
       ]
     },
     {
+      "id": "627c1b0426f9720858a38ef6",
+      "title": "Superman or Ironman - can everyone be a 10x developer?",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>It’s all about productivity or maybe it’s all about delivering value. Or creating secure applications, dealing with changing directions.</p><p>Whatever it it we often feel that we’re lacking - that it’s hard enough to be any sort of developer. That even 1x is often a challenge</p><p>In this talk we’re going to examine how to think more clearly about being a Java developer:, help you understand the tools and approaches that can offer practical insight into how you work now as well as providing guidance on alternatives that just might give you the powered armour you need.</p><p>A mix of tools, proven processes, new techniques and lessons learnt the hard way make up a session designed to help you understand that being a 10x developer isn’t about having super powers - it’s about using the powers you already have in wiser, more considered ways.</p>",
+      "type": "workshop",
+      "tags": [
+        "productivity",
+        "dpe",
+        "java",
+        "cloud",
+        "security",
+        "sanity",
+        "imposter"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "5656dc7f3ecb7ca028ff6382f862467404769dfa",
+        "1eb862c7a058f67d5b1e4fcd98fa2d2ce12fe5c0"
+      ]
+    },
+    {
       "id": "627c1bdd26f9720858a38ef7",
       "title": "The ups and downs of deploying AI in the wild",
       "languages": [
