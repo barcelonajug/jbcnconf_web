@@ -637,6 +637,19 @@
     },
     {
       "enabled": "1",
+      "name": "María Arias de Reyna Domínguez",
+      "company": "Red Hat",
+      "description": "Senior Software Engineer",
+      "biography": "<p>María Arias de Reyna is a Java Champion, geospatial enthusiast and FLOSS advocator. She has been a community leader and core maintainer of several free and open source projects since 2004. She is currently working at Red Hat where she focuses on Middleware and leads the development of Kaoto, an Apache Camel visual editor.</p><p>María is an experienced keynoter and speaker. Between 2017 and 2019 María was the elected President of OSGeo, the Open Source Geospatial Foundation which serves as an umbrella for the most used geospatial free and open source software. She is also well known as a feminist and Women In Tech activist.</p>",
+      "image": "assets/img/speakers/maria-arias-reyna.webp",
+      "ref": "54502dffd46874a385c1e0c37cea135bc9240db3",
+      "url": "infoSpeaker.html?ref=54502dffd46874a385c1e0c37cea135bc9240db3",
+      "homepage": "https://delawen.com",
+      "twitter": "@delawen",
+      "linkedin": "https://www.linkedin.com/in/delawen/"
+    },
+    {
+      "enabled": "1",
       "name": "Ko Turk",
       "company": "adesso",
       "description": "Java Developer",

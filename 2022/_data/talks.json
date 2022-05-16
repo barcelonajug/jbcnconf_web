@@ -990,6 +990,25 @@
       ]
     },
     {
+      "id": "627c16ee26f9720858a38ef0",
+      "title": "Bungee jumping to Quarkus, blindfolded but happy",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>A year ago I started with a couple of friends a new project to create a visual editor for integrations: based on a visual drag and drop selection on building blocks, generate deployable source code.</p><p>As responsible of the backend side, I obviously chose Java to do it. Some of the challenges were to have an extendable and customizable core where we could inject module languages to generate different outputs depending on how the user wanted to deploy. We also wanted to customize the catalog of building blocks to dynamically adapt to each user. Coming from the Java 8 world with shy traces of Java 11, I decided to jump directly to Quarkus on Java 17 and explore the serverless possibilities while, at the same time, keep the over-engineering and the over-fanciness of new features as reasonable as possible.</p><p>On this talk I will describe the bowels of Kaoto.io, the journey we had to implement a stable architecture, and how it evolved into the powerful tool it is now. I will discuss about the technologies used, their shortcomings and their black magic; and why the decisions made were the right ones (or not!).</p><p>This is a good talk if you want to see Quarkus in a real use case.</p>",
+      "type": "talk",
+      "tags": [
+        "Quarkus",
+        "Java 17",
+        "serverless",
+        "k-native"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "54502dffd46874a385c1e0c37cea135bc9240db3"
+      ]
+    },
+    {
       "id": "627c180d26f9720858a38ef1",
       "title": "De 0 a 100 construyendo monolitos modulares que escalen a microservicios",
       "languages": [
