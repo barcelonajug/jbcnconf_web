@@ -764,11 +764,11 @@
     },
     {
       "id": "6250631eaa23f0085462dda7",
-      "title": "Deterministic, Reproducible, Unsurprising Releases",
+      "title": "Releases determinísticas, reproducibles y sin sorpresas",
       "languages": [
         "eng"
       ],
-      "abstract": "<p>When a  project has reached that stage when it’s a good idea to post binaries,  new questions arise such as where should they be posted? How do we make it easier for users to install and discover binaries? Where should releases be shared? Most importantly,  can it be automated? There are so many requirements and considerations depending on the  distribution channels, wouldn't it be great to have a tool to make it easier?  JReleaser is a tool that provides answers to these questions and more.. It may be used to create GiHub/GitLab/Gitea releases and publish binaries that can be consumed from different distribution channels such as Homebrew, Snap, Scoop, and more. Once published, the release can be automatically announced on Twitter, Slack, Gitter, Discord, and other communication channels.</p>",
+      "abstract": "<p>Cuando un proyecto ha llegado a la etapa en la que es una buena idea publicar binarios, surgen nuevas preguntas, ¿Dónde deberían publicarse? ¿Cómo facilitamos a los usuarios la localización e instalación de binarios? ¿Dónde se deben compartir las releases? Y lo más importante, ¿se pueden automatizar? Hay tantos requisitos y consideraciones dependiendo de los canales de distribución, ¿no sería genial tener una herramienta para hacerlo más fácil?</p><p>JReleaser es una herramienta que brinda respuestas a estas preguntas y más. Se puede usar para crear releases en GitHub/GitLab/Gitea y publicar binarios consumibles desde diferentes canales de distribución como Homebrew, Snap, Scoop y más. Una vez publicada, la release se puede anunciar automáticamente en Twitter, Slack, Gitter, Discord u otros.</p>",
       "type": "talk",
       "tags": [
         "Release",
