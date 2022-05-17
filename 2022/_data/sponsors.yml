@@ -86,6 +86,11 @@ regular:
     image:
       src: "/assets/img/sponsors/adobe.png"
       alt: Adobe
+  - name: Rookout
+    href: https://www.rookout.com/
+    image:
+      src: "/assets/img/sponsors/rookout.png"
+      alt: Rookout
 basic:
   - name: Capgemini
     href: https://www.capgemini.com/es-es/
