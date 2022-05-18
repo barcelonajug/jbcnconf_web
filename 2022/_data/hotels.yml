@@ -2,6 +2,12 @@ items:
   - title: Hotel Barcelona Condal Mar
     url: https://events.melia.com/en/events/hotel-barcelona-condal-mar-managed-by-melia/JBCNConf.html
     image: "/assets/img/hotels/CondalMar-Melia.jpg"
-    date: SPECIAL DISCOUNT
-    aboutText: READ MORE
+    date: 17.07.22 ~ 20.07.22
+    aboutText:
     aboutURL: https://www.melia.com/es/hoteles/espana/barcelona/hotel-barcelona-condal-mar/index.htm
+  - title: Hotel Front Marítim<br>PROMO CODE 'JBCNCONF'
+    url: https://www.besthotels.es/destinos-y-hoteles/best-front-maritim.html
+    image: "/assets/img/hotels/best_front_maritim.webp"
+    date: 17.07.22 ~ 20.07.22
+    aboutText:
+    aboutURL: https://www.besthotels.es/destinos-y-hoteles/best-front-maritim.html
