@@ -22,8 +22,6 @@ items:
       href: "/diversity.html"
     - label: Code of conduct
       href: "/coc.html"
-- label: Venue
-  href: "/java-barcelona-venue.html"
 - label: Travel
   href: "/#Travel"
   items:
