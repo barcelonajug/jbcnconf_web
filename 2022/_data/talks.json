@@ -4,7 +4,6 @@
       "id": "61df3543ef0a16083d127537",
       "title": "Distribución Progresiva en la era de Kubernetes",
       "languages": [
-        "eng",
         "es"
       ],
       "abstract": "<p>Producción es el lugar donde las aplicaciones deben estar. Aunque apliques Integración y Distribución Continua, cada vez que despliegues una nueva versión en producción te preguntarás si funcionará o habrá algún bug en la última versión, incluso haciendo que producción deje de estar disponible para los clientes.</p><p>La Distribución Progresiva es el siguiente escalón después de la Distribución Continua para probar tu aplicación en producción antes de ponerla disponible a todos tus usuarios.</p><p>Pon en práctica la Distribución Progresiva con técnicas como blue-green, canary release, shadowing traffic o dark launches para validar tu aplicación en Kubernetes con herramientas como Istio, Prometheus, ArgoDC o Argo Rollouts.</p><p>Únete a la sesión para aprender sobre Distribución Progresiva en acción usando Kubernetes.</p>",
@@ -42,7 +41,7 @@
       "id": "61f1a0e0c4c4120b9d29afa0",
       "title": "Libertad significa que Kubernetes debe desaparecer",
       "languages": [
-        "eng"
+        "es"
       ],
       "abstract": "<p>Todos nos estamos moviendo hacia modelos de organización basados en servicios y equipos autosuficientes. Todos estamos intentando de permitir que los desarrolladores sean más autónomos. Sin embargo, no es realista esperar que todos se conviertan en expertos en todo, desde infraestructura hasta Kubernetes y todo lo demás. Por lo tanto, no podemos cambiar de un día para el otro por la falta de experiencia, pero tampoco podemos seguir siendo reactivos a las necesidades de los demás. La única opción que queda es simplificar los servicios o incluso eliminar el acceso directo a la infraestructura y Kubernetes.</p><p>Es posible que podamos lograr esos objetivos a través de Argo CD o Flux (GitOps), Crossplane (universal control plane) y KubeVela (OAM). Al combinarlos, podemos permitir que los desarrolladores administren todo y aún así tengan el control total de los aspectos que les interesan. GitOps nos permite establecer Git como único punto de interacción con el sistema. Crossplane Composites nos permite simplificar la experiencia del desarrollador al administrar la infraestructura. Finalmente, el Open Application Model (OAM) con KubeVela nos permite definir aplicaciones en lugar de recursos de Kubernetes. Si combinamos estos tres tipos de herramientas y procesos, podemos permitir que las operaciones definan los servicios utilizados por los desarrolladores para administrar la infraestructura y las aplicaciones. Podemos hacer todo eso sin que nadie sepa que hay Kubernetes detrás de todo eso.</p><p>Para que todos puedan usar Kubernetes, debe desaparecer.</p>",
       "type": "talk",
@@ -247,7 +246,6 @@
       "id": "61fd74f14fc8140baaa031c1",
       "title": "Historia de un desarrollador de Java que se cambia a Go en el contexto de Kubernetes",
       "languages": [
-        "eng",
         "es"
       ],
       "abstract": "<p>En esta presentación, Mauricio, apasionado desarrollador Java, comparte sus hallazgos psicodélicos trabajando en el ecosistema Go para el Proyecto Knative OSS. Esta presentación se centra en el ecosistema Go en lugar de la diferencia entre los lenguajes Java y Go. Se discutirán herramientas como la gestión de dependencias, IDE, marcos y cómo lidiar con proyectos grandes. Si bien Java sigue siendo importante en mi corazón, hay lecciones a tener en cuenta, frameworks y herramientas que tal vez querríamos traer al ecosistema de Java de la vibrante comunidad de Go. Se hace especial énfasis en las herramientas relacionadas con Kubernetes y por qué creo que Go en Kubernetes está muy por delante de Java.</p>",
@@ -572,7 +570,6 @@
       "id": "6229f5eb56274e0bddf007a2",
       "title": "Seguridad en Micronaut®",
       "languages": [
-        "eng",
         "es"
       ],
       "abstract": "<p>En esta sesión, Sergio del Amo presenta Micronaut Security, una solución de seguridad personalizable y con todas las funciones para sus aplicaciones.</p><p>Los temas incluyen:</p><p>Autenticación (autenticación básica, basada en cookies, basada en sesiones, portador, LDAP, X.509)</p><p>Acceso usuario autenticado</p><p>Configuración de seguridad (@Secured, mapa de URL de intercepción y más)</p><p>OAuth 2.0 (Código de autorización, Credenciales de cliente, Concesiones de credenciales de contraseña)</p><p>OpenID Connect (integración con proveedores de servidores OAuth 2.0 de terceros: Auth0, Okta, Keycloak, Amazon Cognito)</p><p>JWT (firma, validación, generación, JWKS)</p><p>Propagación de tokens</p><p>Eventos de seguridad</p><p>Descubra lo fácil que es trabajar con Micronaut Security y aprenda a adaptarlo a sus necesidades.</p><p>Sergio del Amo es Micronaut core commiter, Developer Advocate de la Fundación Micronaut y presentador del “Micronaut podcast” (https://micronautpodcast.com).</p>",
@@ -713,7 +710,7 @@
       "id": "62505edfaa23f0085462dda4",
       "title": "The Microservices Smackdown: Data",
       "languages": [
-        "eng"
+        "es"
       ],
       "abstract": "<p>Los microservicios están en todas partes. Hay más de una forma de implementarlos y desplegarlos, pero al final lo que esperamos de ellos es mover datos de un lugar a otro. Las bases de datos generalmente se encuentran al final de la ejecución de un microservicio. Los microservicios pueden ejecutarse en modo síncrono y asíncrono, pero ¿qué pasa con el procesamiento de datos desde y hacia la base de datos? En esta sesión, cubriremos las capacidades de sincronización y asincronía que ofrecen Helidon, Micronaut, Quarkus y Spring Boot cuando se trata de leer y escribir datos.</p>",
       "type": "talk",
@@ -1054,7 +1051,6 @@
       "id": "627c1bdd26f9720858a38ef7",
       "title": "The ups and downs of deploying AI in the wild",
       "languages": [
-        "eng",
         "es"
       ],
       "abstract": "<p>Have you ever faced a professional challenge where you just didn’t know where to start?​</p><p>What happens to an AI model once it’s been trained and tested? In this talk, I’m going to share how I transformed into a data engineer for the duration of two weeks, while on the mission to deploy our AI models in a Cloudera datalake using Spark.</p>",
