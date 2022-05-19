@@ -145,6 +145,19 @@
     },
     {
       "enabled": "1",
+      "name": "Fabian Stäber",
+      "company": "Grafana",
+      "description": "Sr. Engineering Manager",
+      "biography": "<p>Dr. Fabian Stäber is engineering manager and monitoring enthusiast at Grafana. As a member of the Prometheus project Fabian is maintainer of the Prometheus Java client library and the JMX exporter. As engineering manager at Grafana Fabian has his focus on the OpenTelemetry team.</p>",
+      "image": "assets/img/speakers/fabian-staber.jpg",
+      "ref": "83000b23dafd750a87d9e4fda12b906fc1e4e734",
+      "url": "infoSpeaker.html?ref=83000b23dafd750a87d9e4fda12b906fc1e4e734",
+      "homepage": "",
+      "twitter": "@fstabr",
+      "linkedin": "https://www.linkedin.com/in/staeber/"
+    },
+    {
+      "enabled": "1",
       "name": "Andrzej Grzesik",
       "company": "Revolut",
       "description": "git operator",
@@ -363,6 +376,19 @@
       "homepage": "",
       "twitter": "@graemerocher",
       "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Karin-Aleksandra Monoid",
+      "company": "CircleCI",
+      "description": "Senior Software Engineer ",
+      "biography": "<p>Karin is a Senior Software Engineer, Google Developer Expert in Kotlin and an international speaker. Currently she is specializing in Kotlin and advocating for functional programming (the good parts!). She probably tried your favorite backend language on frontend (Scala.js and Kotlin/JS).</p>",
+      "image": "assets/img/speakers/karin-aleksandra-monoid.jpg",
+      "ref": "d71d836c712c4711d66f0794557f431f11dd333a",
+      "url": "infoSpeaker.html?ref=d71d836c712c4711d66f0794557f431f11dd333a",
+      "homepage": "https://github.com/paranoidmonoid",
+      "twitter": "paranoidmonoid",
+      "linkedin": "https://www.linkedin.com/in/karin-aleksandra-monoid/"
     },
     {
       "enabled": "1",

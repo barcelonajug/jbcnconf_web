@@ -766,7 +766,7 @@
       "id": "6250631eaa23f0085462dda7",
       "title": "Releases determinísticas, reproducibles y sin sorpresas",
       "languages": [
-        "eng"
+        "es"
       ],
       "abstract": "<p>Cuando un proyecto ha llegado a la etapa en la que es una buena idea publicar binarios, surgen nuevas preguntas, ¿Dónde deberían publicarse? ¿Cómo facilitamos a los usuarios la localización e instalación de binarios? ¿Dónde se deben compartir las releases? Y lo más importante, ¿se pueden automatizar? Hay tantos requisitos y consideraciones dependiendo de los canales de distribución, ¿no sería genial tener una herramienta para hacerlo más fácil?</p><p>JReleaser es una herramienta que brinda respuestas a estas preguntas y más. Se puede usar para crear releases en GitHub/GitLab/Gitea y publicar binarios consumibles desde diferentes canales de distribución como Homebrew, Snap, Scoop y más. Una vez publicada, la release se puede anunciar automáticamente en Twitter, Slack, Gitter, Discord u otros.</p>",
       "type": "talk",
@@ -1070,6 +1070,45 @@
       "level": "middle",
       "speakers": [
         "b3da9cdff962b1acbca9868acc10361463f07614"
+      ]
+    },
+    {
+      "id": "62855149d7a7c108376c3a62",
+      "title": "Treasure.map(): Functional Programming in JVM-based languages",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>What is a monad? Do I need a PhD to write in functional style? Any hidden gems that will improve my developer experience?</p><p>In this talk, we'll cover the core concepts of functional programming, discuss typical patterns and structures, their limitations and how to explain to your team that a monad is just a monoid in the category of endofunctors but nobody should be scared.</p>",
+      "type": "talk",
+      "tags": [
+        "Kotlin",
+        "Scala",
+        "Clojure",
+        "Java",
+        "Groovy"
+      ],
+      "level": "middle",
+      "speakers": [
+        "d71d836c712c4711d66f0794557f431f11dd333a"
+      ]
+    },
+    {
+      "id": "62855161d7a7c108376c3a63",
+      "title": "LGTM - Open Source Monitoring with Loki, Grafana, Tempo, and Mimir",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Java observability tools like the OpenTelemetry's auto-instrumentation agent or the upcoming Micrometer release make it easy to get metrics, distributed traces, and logs out of your Java applications.</p><p>This talk focuses on what you can do with these signals. We will show how you can set up your own monitoring backend using Loki, Tempo, and Mimir as open-source databases for logs, traces, and metrics. We will explore best practices for visualizing the data in Grafana dashboards, explore how to create alerts, and how to navigate the data when analyzing the root cause for an alert.</p>",
+      "type": "talk",
+      "tags": [
+        "monitoring",
+        "opentelemetry",
+        "java",
+        "observability"
+      ],
+      "level": "middle",
+      "speakers": [
+        "83000b23dafd750a87d9e4fda12b906fc1e4e734"
       ]
     }
   ]
