@@ -764,11 +764,11 @@
     },
     {
       "id": "6250631eaa23f0085462dda7",
-      "title": "Deterministic, Reproducible, Unsurprising Releases",
+      "title": "Releases determinísticas, reproducibles y sin sorpresas",
       "languages": [
         "eng"
       ],
-      "abstract": "<p>When a  project has reached that stage when it’s a good idea to post binaries,  new questions arise such as where should they be posted? How do we make it easier for users to install and discover binaries? Where should releases be shared? Most importantly,  can it be automated? There are so many requirements and considerations depending on the  distribution channels, wouldn't it be great to have a tool to make it easier?  JReleaser is a tool that provides answers to these questions and more.. It may be used to create GiHub/GitLab/Gitea releases and publish binaries that can be consumed from different distribution channels such as Homebrew, Snap, Scoop, and more. Once published, the release can be automatically announced on Twitter, Slack, Gitter, Discord, and other communication channels.</p>",
+      "abstract": "<p>Cuando un proyecto ha llegado a la etapa en la que es una buena idea publicar binarios, surgen nuevas preguntas, ¿Dónde deberían publicarse? ¿Cómo facilitamos a los usuarios la localización e instalación de binarios? ¿Dónde se deben compartir las releases? Y lo más importante, ¿se pueden automatizar? Hay tantos requisitos y consideraciones dependiendo de los canales de distribución, ¿no sería genial tener una herramienta para hacerlo más fácil?</p><p>JReleaser es una herramienta que brinda respuestas a estas preguntas y más. Se puede usar para crear releases en GitHub/GitLab/Gitea y publicar binarios consumibles desde diferentes canales de distribución como Homebrew, Snap, Scoop y más. Una vez publicada, la release se puede anunciar automáticamente en Twitter, Slack, Gitter, Discord u otros.</p>",
       "type": "talk",
       "tags": [
         "Release",
@@ -990,6 +990,25 @@
       ]
     },
     {
+      "id": "627c16ee26f9720858a38ef0",
+      "title": "Bungee jumping to Quarkus, blindfolded but happy",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>A year ago I started with a couple of friends a new project to create a visual editor for integrations: based on a visual drag and drop selection on building blocks, generate deployable source code.</p><p>As responsible of the backend side, I obviously chose Java to do it. Some of the challenges were to have an extendable and customizable core where we could inject module languages to generate different outputs depending on how the user wanted to deploy. We also wanted to customize the catalog of building blocks to dynamically adapt to each user. Coming from the Java 8 world with shy traces of Java 11, I decided to jump directly to Quarkus on Java 17 and explore the serverless possibilities while, at the same time, keep the over-engineering and the over-fanciness of new features as reasonable as possible.</p><p>On this talk I will describe the bowels of Kaoto.io, the journey we had to implement a stable architecture, and how it evolved into the powerful tool it is now. I will discuss about the technologies used, their shortcomings and their black magic; and why the decisions made were the right ones (or not!).</p><p>This is a good talk if you want to see Quarkus in a real use case.</p>",
+      "type": "talk",
+      "tags": [
+        "Quarkus",
+        "Java 17",
+        "serverless",
+        "k-native"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "54502dffd46874a385c1e0c37cea135bc9240db3"
+      ]
+    },
+    {
       "id": "627c180d26f9720858a38ef1",
       "title": "De 0 a 100 construyendo monolitos modulares que escalen a microservicios",
       "languages": [
@@ -1006,6 +1025,29 @@
       "level": "middle",
       "speakers": [
         "9907d2fdf89356ee1bfc20234cf2ffa7316833c2"
+      ]
+    },
+    {
+      "id": "627c1b0426f9720858a38ef6",
+      "title": "Superman or Ironman - can everyone be a 10x developer?",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>It’s all about productivity or maybe it’s all about delivering value. Or creating secure applications, dealing with changing directions.</p><p>Whatever it it we often feel that we’re lacking - that it’s hard enough to be any sort of developer. That even 1x is often a challenge</p><p>In this talk we’re going to examine how to think more clearly about being a Java developer:, help you understand the tools and approaches that can offer practical insight into how you work now as well as providing guidance on alternatives that just might give you the powered armour you need.</p><p>A mix of tools, proven processes, new techniques and lessons learnt the hard way make up a session designed to help you understand that being a 10x developer isn’t about having super powers - it’s about using the powers you already have in wiser, more considered ways.</p>",
+      "type": "workshop",
+      "tags": [
+        "productivity",
+        "dpe",
+        "java",
+        "cloud",
+        "security",
+        "sanity",
+        "imposter"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "5656dc7f3ecb7ca028ff6382f862467404769dfa",
+        "1eb862c7a058f67d5b1e4fcd98fa2d2ce12fe5c0"
       ]
     },
     {
