@@ -17,7 +17,7 @@ This repository holds the public website for the link:http://www.jbcnconf.com/[J
 == Building the website
 
 The site is build with the link:https://jekyllrb.com/[Jekyll] and published with GitHub pages.
-To run it you need to setup a basic Ruby (up to 2.4.x) environment.
+To run it you need to setup a basic Ruby (up to 2.7.x) environment.
 
 For Linux and MacOS, the recommended way to install Ruby is with link:https://rvm.io/[RVM].
 For Windows you can use link:https://rubyinstaller.org/[RubyInstaller] or the link:https://chocolatey.org/packages?q=ruby[chocolately package].
@@ -25,15 +25,6 @@ For Windows you can use link:https://rubyinstaller.org/[RubyInstaller] or the li
 Once Ruby is installed, install the required gems with the following command.
 
  bundle install
-
-[IMPORTANT]
-====
-The required `ffi` gem is not yet fully supported in Ruby 2.5.x.
-If you want to build the site with Ruby 2.5.x, skip `bundler` and install the gems manually with:
-
- gem install ffi --force -v 1.9.18
- gem install jekyll
-====
 
 === Generated pages
 
@@ -64,7 +55,7 @@ If changes in the sources are made, remember converting them and adding the gene
 
 == Testing the website
 
-=== Testing it locally (Requires Ruby installation)
+=== Testing it locally (with Ruby installation)
 
 Just fork the repo, open a shell, place yourself in the root and run
  
@@ -77,7 +68,7 @@ of just
 This will start a local embedded server on http://localhost:4000.
 The server will stay up and self-update automatically.
 
-=== Testing it locally (Required Gradle installation)
+=== Testing it locally (with Gradle)
 
 If you have Gradle installed somewhere (or even have a project somewhere with the Gradle wrapper) you can
 test without having anything installed. Just fork the repo, open a shell and run
@@ -88,7 +79,21 @@ This will bootstrap everything into a throw-away folder and start up the local s
 
  http://localhost:4000
  
-The server will stay up and self-update automatically. 
+The server will stay up and self-update automatically.
+
+=== Testing it locally (with Docker)
+
+Current Jekyll version used by https://pages.github.com/versions/[GitHub Pages] (v3.9.2) is not available at link:https://hub.docker.com/r/jekyll/jekyll/tags?page=1&name=3.[DockerHub].
+Close available Jekyll images are 3.8 and 4.0.0, use at your own risk.
+
+.docker run example
+----
+JEKYLL_VERSION="3.8" && docker run --rm \
+--volume="$PWD:/srv/jekyll:Z" \
+--publish 4000:4000 \
+-it jekyll/jekyll:$JEKYLL_VERSION \
+jekyll serve
+----
 
 === Testing on a GitHub cloned repo
 
@@ -100,7 +105,7 @@ First, enable GitHub pages in your forked repository and set it to publish to th
 
 TBD
 
-[Important]
+[IMPORTANT]
 ====
 Remember to update the open graph values located at the `_layouts/default.html` page and replace the `<year>/assets/img/logos/og-image.png` image. They are used for the thumbnail generation at every social network.
 ====
