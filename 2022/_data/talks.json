@@ -1049,11 +1049,11 @@
     },
     {
       "id": "627c1bdd26f9720858a38ef7",
-      "title": "The ups and downs of deploying AI in the wild",
+      "title": "El lado oculto del despliegue de modelos IA",
       "languages": [
         "es"
       ],
-      "abstract": "<p>Have you ever faced a professional challenge where you just didn’t know where to start?​</p><p>What happens to an AI model once it’s been trained and tested? In this talk, I’m going to share how I transformed into a data engineer for the duration of two weeks, while on the mission to deploy our AI models in a Cloudera datalake using Spark.</p>",
+      "abstract": "<p>¿Alguna vez te has enfrentado a un desafío profesional en el que simplemente no sabías por dónde empezar? ¿Qué le sucede a un modelo de IA una vez que ha sido entrenado y probado?</p><p>En esta charla, voy a compartir cómo me transformé en una ingeniera de datos durante dos semanas, mientras trabajaba para implementar nuestros modelos de IA en un datalake de Cloudera usando Spark.</p>",
       "type": "talk",
       "tags": [
         "Artificial intelligence",
