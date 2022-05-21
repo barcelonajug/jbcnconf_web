@@ -104,3 +104,8 @@ basic:
       alt: Elastic
 
 supporters:
+  - name: JetBrains
+    href: https://www.jetbrains.com/
+    image:
+      src: "/assets/img/sponsors/jetbrains.png"
+      alt: JetBrains
