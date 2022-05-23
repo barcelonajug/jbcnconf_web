@@ -1025,6 +1025,24 @@
       ]
     },
     {
+			"id": "627c18f226f9720858a38ef3",
+			"title": "The Hitchhiker’s Guide to a Great Developer Career",
+			"languages": [
+				"eng"
+			],
+			"abstract": "<p>As developers, our job is to write great code, test code, deploy code, fix code, and even delete code, but nobody told us that there is much more to it if we want to have a great developer career.</p><p>In this talk, Sven and Helen will share their successes and failures during their 20-year careers to date working for various technology companies. You’ll learn about growing your personal brand (what is it good for?), the trials and tribulations of different roles (so many choices), becoming a manager (or not), mentoring and sponsoring (they are not the same thing), how to care for yourself (prevent burnout), and lots more career advice.</p><p>You'll hear about their inevitable bumps in the road (or downright failures), as well as their successes. As it turns out, having a great developer career is not all about the technology and the code; it's also about you and the people around you!</p>",
+			"type": "talk",
+			"tags": [
+				"career",
+				"leadership"
+			],
+			"level": "beginner",
+			"speakers": [
+				"6e6c32699364da6fd090b2002c3e64da4cecacbb",
+				"efddc30dae7a2df8f301c9afbebbb8e0bb3fb27a"
+			]
+		},
+		{
       "id": "627c1b0426f9720858a38ef6",
       "title": "Superman or Ironman - can everyone be a 10x developer?",
       "languages": [
@@ -1049,11 +1067,11 @@
     },
     {
       "id": "627c1bdd26f9720858a38ef7",
-      "title": "The ups and downs of deploying AI in the wild",
+      "title": "El lado oculto del despliegue de modelos IA",
       "languages": [
         "es"
       ],
-      "abstract": "<p>Have you ever faced a professional challenge where you just didn’t know where to start?​</p><p>What happens to an AI model once it’s been trained and tested? In this talk, I’m going to share how I transformed into a data engineer for the duration of two weeks, while on the mission to deploy our AI models in a Cloudera datalake using Spark.</p>",
+      "abstract": "<p>¿Alguna vez te has enfrentado a un desafío profesional en el que simplemente no sabías por dónde empezar? ¿Qué le sucede a un modelo de IA una vez que ha sido entrenado y probado?</p><p>En esta charla, voy a compartir cómo me transformé en una ingeniera de datos durante dos semanas, mientras trabajaba para implementar nuestros modelos de IA en un datalake de Cloudera usando Spark.</p>",
       "type": "talk",
       "tags": [
         "Artificial intelligence",
@@ -1106,6 +1124,27 @@
       "speakers": [
         "83000b23dafd750a87d9e4fda12b906fc1e4e734"
       ]
-    }
+    },
+		{
+			"id": "628554aed7a7c108376c3a67",
+			"title": "Better Understanding through Bytecode",
+			"languages": [
+				"eng"
+			],
+			"abstract": "<p>Getting familiar with complicated technical topics like concurrency or recursion, we often look to abstractions. We boil things down to diagrams with boxes and arrows, tucking the details away for later.</p><p>While often a great starting point, there’s a lot of value in pushing the other direction too. On the JVM, reality isn’t your Java, Kotlin, or Clojure code -- it’s the bytecode running below the surface. Surprisingly, many elusive topics may actually be clearer when we can understand what’s happening at that layer below.</p><p>In this talk, we’ll get up to speed on just enough bytecode reading to start exploring real topics like lost writes from concurrency, tail recursion, and co-routines. We’ll get familiar with the basic tools and opcodes, what to do when the bytecode’s hard to understand, and come away more confident in our ability to understand our systems from top to bottom.</p>",
+			"type": "talk",
+			"tags": [
+				"JVM",
+				"internals",
+				"concurrency",
+				"recursion",
+				"Java",
+				"Kotlin"
+			],
+			"level": "middle",
+			"speakers": [
+				"ffaad51498cdf845c5c9f24c4eff0d9b17bba237"
+			]
+		}
   ]
 }
