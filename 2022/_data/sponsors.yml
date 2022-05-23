@@ -91,6 +91,11 @@ regular:
     image:
       src: "/assets/img/sponsors/rookout.png"
       alt: Rookout
+  - name: VMware Tanzu
+    href: https://tanzu.vmware.com
+    image:
+      src: "/assets/img/sponsors/vmware-horizontal.png"
+      alt: VMware Tanzu
 basic:
   - name: Capgemini
     href: https://www.capgemini.com/es-es/
