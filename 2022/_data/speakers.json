@@ -145,6 +145,19 @@
     },
     {
       "enabled": "1",
+      "name": "Fabian Stäber",
+      "company": "Grafana",
+      "description": "Sr. Engineering Manager",
+      "biography": "<p>Dr. Fabian Stäber is engineering manager and monitoring enthusiast at Grafana. As a member of the Prometheus project Fabian is maintainer of the Prometheus Java client library and the JMX exporter. As engineering manager at Grafana Fabian has his focus on the OpenTelemetry team.</p>",
+      "image": "assets/img/speakers/fabian-staber.jpg",
+      "ref": "83000b23dafd750a87d9e4fda12b906fc1e4e734",
+      "url": "infoSpeaker.html?ref=83000b23dafd750a87d9e4fda12b906fc1e4e734",
+      "homepage": "",
+      "twitter": "@fstabr",
+      "linkedin": "https://www.linkedin.com/in/staeber/"
+    },
+    {
+      "enabled": "1",
       "name": "Andrzej Grzesik",
       "company": "Revolut",
       "description": "git operator",
@@ -183,6 +196,19 @@
       "linkedin": ""
     },
     {
+			"enabled": "1",
+			"name": "Jason Clark",
+			"company": "New Relic",
+			"description": "Principal Engineer and Architect",
+			"biography": "<p>Jason Clark is a Principal Engineer and Architect at New Relic where he’s worked on everything from petabyte-scale JVM data processing pipelines to Ruby instrumentation libraries. He was previously an Architect at WebMD building .Net-based web services.</p><p>A regular conference speaker, Jason contributes to the open source project Shoes, which aims to make GUI programming easy and fun for beginners and students. He's also co-author of two books, The Well-Grounded Java Developer, Second Edition with Ben Evans and Martijn Verburg, and Java in a Nutshell, Eighth Edition with Ben Evans.</p>",
+			"image": "assets/img/speakers/jason-clark.jpg",
+			"ref": "ffaad51498cdf845c5c9f24c4eff0d9b17bba237",
+			"url": "infoSpeaker.html?ref=ffaad51498cdf845c5c9f24c4eff0d9b17bba237",
+			"homepage": "https://jasonrclark.com",
+			"twitter": "@jasonrclark",
+			"linkedin": "https://www.linkedin.com/in/jasonrclark42/"
+		},
+		{
       "enabled": "1",
       "name": "Dmitry Aleksandrov",
       "company": "Sofia",
@@ -259,6 +285,32 @@
       "homepage": "https://joshlong.com/",
       "twitter": "@starbuxman",
       "linkedin": "linkedin.com/in/joshlong"
+    },
+    {
+			"enabled": "1",
+			"name": "Helen Scott",
+			"company": "Jetbrains",
+			"description": "Developer Advocate",
+			"biography": "<p>Helen Scott is a Java Developer Advocate at JetBrains. She has worked at numerous software companies in the last 20 years and has experienced the development cycle at all stages in various roles throughout that time. Helen loves to learn new tools and technologies, create content about that journey and share it with the community.</p>",
+			"image": "assets/img/speakers/helen-scott.jpeg",
+			"ref": "efddc30dae7a2df8f301c9afbebbb8e0bb3fb27a",
+			"url": "infoSpeaker.html?ref=efddc30dae7a2df8f301c9afbebbb8e0bb3fb27a",
+			"homepage": "",
+			"twitter": "@HelenJoScott",
+			"linkedin": ""
+		},
+		{
+      "enabled": "1",
+      "name": "Akshita Rastogi",
+      "company": "commercetools",
+      "description": "Technical Product Manager ",
+      "biography": "<p>Akshita has always enjoyed dismantling concepts and frameworks to understand what is behind the beautiful abstraction she sees. Some things she could put back together, some were fated to fade away. In her professional career, she imbibed this trait and started off as a QA in a data security firm, then found herself wandering into the “Clouds,” and she knew that was something she admired. After taking up various challenges in different roles as a QA-Automation Engineer, DevOps Engineer, Cloud Consultant, Cloud Architect, and Product Owner, she realized that it was time to face new hurdles as a Technical Product Manager for Cloud Infrastructure & Tooling at commercetools.</p>",
+      "image": "assets/img/speakers/akshita-rastogi.jpg",
+      "ref": "72036b8655975d50ae6e51b7e51402b767c06c0e",
+      "url": "infoSpeaker.html?ref=72036b8655975d50ae6e51b7e51402b767c06c0e",
+      "homepage": "",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/akshita-rastogi-29b81412b/"
     },
     {
       "enabled": "1",
@@ -353,6 +405,19 @@
     },
     {
       "enabled": "1",
+      "name": "Karin-Aleksandra Monoid",
+      "company": "CircleCI",
+      "description": "Senior Software Engineer ",
+      "biography": "<p>Karin is a Senior Software Engineer, Google Developer Expert in Kotlin and an international speaker. Currently she is specializing in Kotlin and advocating for functional programming (the good parts!). She probably tried your favorite backend language on frontend (Scala.js and Kotlin/JS).</p>",
+      "image": "assets/img/speakers/karin-aleksandra-monoid.jpg",
+      "ref": "d71d836c712c4711d66f0794557f431f11dd333a",
+      "url": "infoSpeaker.html?ref=d71d836c712c4711d66f0794557f431f11dd333a",
+      "homepage": "https://github.com/paranoidmonoid",
+      "twitter": "paranoidmonoid",
+      "linkedin": "https://www.linkedin.com/in/karin-aleksandra-monoid/"
+    },
+    {
+      "enabled": "1",
       "name": "Tanja Obradovic",
       "company": "Eclipse Foundation",
       "description": "Jakarta EE Program Manager",
@@ -402,6 +467,19 @@
       "homepage": "https://www.sudoinit5.com",
       "twitter": "@mariogray",
       "linkedin": "https://www.linkedin.com/in/mario-gray-9b2139/"
+    },
+    {
+      "enabled": "1",
+      "name": "Isabella Karabasz",
+      "company": "GFT",
+      "description": "Data Scientist",
+      "biography": "<p>Data scientist in GFT Group in the Artificial Intelligence Strategic Initiative team. ​</p><p>Graduated in Math and Physics with a Masters in Big Data, now is dedicated to developing machine learning models. Specialized in NLP, has worked on various projects like automated document processing and text classification. ​</p><p>Currently excited to grow in areas of MLOps and Data Engineering, and passionate about AI ethics and responsibility.</p>",
+      "image": "assets/img/speakers/Isabella-Karabasz.png",
+      "ref": "b3da9cdff962b1acbca9868acc10361463f07614",
+      "url": "infoSpeaker.html?ref=b3da9cdff962b1acbca9868acc10361463f07614",
+      "homepage": "",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/isabella-karabasz-058477183/"
     },
     {
       "enabled": "1",
@@ -533,6 +611,19 @@
     },
     {
       "enabled": "1",
+      "name": "Steve Poole",
+      "company": "Sonatype",
+      "description": "Developer Advocate ",
+      "biography": "<p>Developer Advocate, Security Champion, DevOps practitioner (whatever that means) Long time  Java developer, leader and evangelist. I’ve been working on  Java SDKs and JVMs since Java was less than 1.  JavaOne Rockstar,  JSR leader and representation, Committer on  open source projects including ones at Apache, Eclipse and OpenJDK.  A seasoned speaker and regular presenter at international conferences on technical and software engineering topics.</p>",
+      "image": "assets/img/speakers/steve-poole.jpg",
+      "ref": "5656dc7f3ecb7ca028ff6382f862467404769dfa",
+      "url": "infoSpeaker.html?ref=5656dc7f3ecb7ca028ff6382f862467404769dfa",
+      "homepage": "",
+      "twitter": "@spoole167",
+      "linkedin": "https://www.linkedin.com/in/noregressions/"
+    },
+    {
+      "enabled": "1",
       "name": "Edoardo Vacchi",
       "company": "Red Hat",
       "description": "Principal Software Engineer",
@@ -611,6 +702,19 @@
     },
     {
       "enabled": "1",
+      "name": "María Arias de Reyna Domínguez",
+      "company": "Red Hat",
+      "description": "Senior Software Engineer",
+      "biography": "<p>María Arias de Reyna is a Java Champion, geospatial enthusiast and FLOSS advocator. She has been a community leader and core maintainer of several free and open source projects since 2004. She is currently working at Red Hat where she focuses on Middleware and leads the development of Kaoto, an Apache Camel visual editor.</p><p>María is an experienced keynoter and speaker. Between 2017 and 2019 María was the elected President of OSGeo, the Open Source Geospatial Foundation which serves as an umbrella for the most used geospatial free and open source software. She is also well known as a feminist and Women In Tech activist.</p>",
+      "image": "assets/img/speakers/maria-arias-reyna.webp",
+      "ref": "54502dffd46874a385c1e0c37cea135bc9240db3",
+      "url": "infoSpeaker.html?ref=54502dffd46874a385c1e0c37cea135bc9240db3",
+      "homepage": "https://delawen.com",
+      "twitter": "@delawen",
+      "linkedin": "https://www.linkedin.com/in/delawen/"
+    },
+    {
+      "enabled": "1",
       "name": "Ko Turk",
       "company": "adesso",
       "description": "Java Developer",
@@ -662,6 +766,19 @@
       "linkedin": "https://www.linkedin.com/in/brianvermeer/"
     },
     {
+			"enabled": "1",
+			"name": "Sven Peters",
+			"company": "Manfred",
+			"description": "Developer Advocate",
+			"biography": "<p>Sven Peters, former developer advocate at Atlassian and MongoDB - now at Manfred, has been studying trends in software development for the last 15 years uncovering the cultural and technical attributes to help development teams work effectively and drive innovation. He has 20 years experience in writing code, leading teams, and sharing his experience with thousands of developers at uncountable conferences in 25+ countries.</p>",
+			"image": "assets/img/speakers/sven-peters.jpeg",
+			"ref": "6e6c32699364da6fd090b2002c3e64da4cecacbb",
+			"url": "infoSpeaker.html?ref=6e6c32699364da6fd090b2002c3e64da4cecacbb",
+			"homepage": "",
+			"twitter": "@svenpet",
+			"linkedin": ""
+		},
+		{
       "enabled": "1",
       "name": "Whitney Lee",
       "company": "VMware",
@@ -673,6 +790,19 @@
       "homepage": "https://tanzu.vmware.com/developer/team/whitney-lee/",
       "twitter": "@wiggitywhitney",
       "linkedin": "https://www.linkedin.com/in/whitneylee/"
+    },
+    {
+      "enabled": "1",
+      "name": "Justin Reock",
+      "company": "Gradle Inc",
+      "description": "Field CTO and Chief Evangelist ",
+      "biography": "<p>Justin Reock is the Chief Evangelist and Field CTO of Gradle Enterprise, and is an outspoken blogger, speaker, and free software evangelist. He has over 20 years of experience working in various software roles and has delivered enterprise solutions, technical leadership, and community education on a range of topics.</p>",
+      "image": "assets/img/speakers/justin-reock.jpg",
+      "ref": "1eb862c7a058f67d5b1e4fcd98fa2d2ce12fe5c0",
+      "url": "infoSpeaker.html?ref=1eb862c7a058f67d5b1e4fcd98fa2d2ce12fe5c0",
+      "homepage": "",
+      "twitter": "@jreock",
+      "linkedin": "https://www.linkedin.com/in/justinreock/"
     },
     {
       "enabled": "1",

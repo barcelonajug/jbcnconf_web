@@ -86,6 +86,16 @@ regular:
     image:
       src: "/assets/img/sponsors/adobe.png"
       alt: Adobe
+  - name: Rookout
+    href: https://www.rookout.com/
+    image:
+      src: "/assets/img/sponsors/rookout.png"
+      alt: Rookout
+  - name: VMware Tanzu
+    href: https://tanzu.vmware.com
+    image:
+      src: "/assets/img/sponsors/vmware-horizontal.png"
+      alt: VMware Tanzu
 basic:
   - name: Capgemini
     href: https://www.capgemini.com/es-es/
@@ -99,3 +109,8 @@ basic:
       alt: Elastic
 
 supporters:
+  - name: JetBrains
+    href: https://www.jetbrains.com/
+    image:
+      src: "/assets/img/sponsors/jetbrains.png"
+      alt: JetBrains

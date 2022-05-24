@@ -4,7 +4,6 @@
       "id": "61df3543ef0a16083d127537",
       "title": "Distribución Progresiva en la era de Kubernetes",
       "languages": [
-        "eng",
         "es"
       ],
       "abstract": "<p>Producción es el lugar donde las aplicaciones deben estar. Aunque apliques Integración y Distribución Continua, cada vez que despliegues una nueva versión en producción te preguntarás si funcionará o habrá algún bug en la última versión, incluso haciendo que producción deje de estar disponible para los clientes.</p><p>La Distribución Progresiva es el siguiente escalón después de la Distribución Continua para probar tu aplicación en producción antes de ponerla disponible a todos tus usuarios.</p><p>Pon en práctica la Distribución Progresiva con técnicas como blue-green, canary release, shadowing traffic o dark launches para validar tu aplicación en Kubernetes con herramientas como Istio, Prometheus, ArgoDC o Argo Rollouts.</p><p>Únete a la sesión para aprender sobre Distribución Progresiva en acción usando Kubernetes.</p>",
@@ -42,7 +41,7 @@
       "id": "61f1a0e0c4c4120b9d29afa0",
       "title": "Libertad significa que Kubernetes debe desaparecer",
       "languages": [
-        "eng"
+        "es"
       ],
       "abstract": "<p>Todos nos estamos moviendo hacia modelos de organización basados en servicios y equipos autosuficientes. Todos estamos intentando de permitir que los desarrolladores sean más autónomos. Sin embargo, no es realista esperar que todos se conviertan en expertos en todo, desde infraestructura hasta Kubernetes y todo lo demás. Por lo tanto, no podemos cambiar de un día para el otro por la falta de experiencia, pero tampoco podemos seguir siendo reactivos a las necesidades de los demás. La única opción que queda es simplificar los servicios o incluso eliminar el acceso directo a la infraestructura y Kubernetes.</p><p>Es posible que podamos lograr esos objetivos a través de Argo CD o Flux (GitOps), Crossplane (universal control plane) y KubeVela (OAM). Al combinarlos, podemos permitir que los desarrolladores administren todo y aún así tengan el control total de los aspectos que les interesan. GitOps nos permite establecer Git como único punto de interacción con el sistema. Crossplane Composites nos permite simplificar la experiencia del desarrollador al administrar la infraestructura. Finalmente, el Open Application Model (OAM) con KubeVela nos permite definir aplicaciones en lugar de recursos de Kubernetes. Si combinamos estos tres tipos de herramientas y procesos, podemos permitir que las operaciones definan los servicios utilizados por los desarrolladores para administrar la infraestructura y las aplicaciones. Podemos hacer todo eso sin que nadie sepa que hay Kubernetes detrás de todo eso.</p><p>Para que todos puedan usar Kubernetes, debe desaparecer.</p>",
       "type": "talk",
@@ -247,7 +246,6 @@
       "id": "61fd74f14fc8140baaa031c1",
       "title": "Historia de un desarrollador de Java que se cambia a Go en el contexto de Kubernetes",
       "languages": [
-        "eng",
         "es"
       ],
       "abstract": "<p>En esta presentación, Mauricio, apasionado desarrollador Java, comparte sus hallazgos psicodélicos trabajando en el ecosistema Go para el Proyecto Knative OSS. Esta presentación se centra en el ecosistema Go en lugar de la diferencia entre los lenguajes Java y Go. Se discutirán herramientas como la gestión de dependencias, IDE, marcos y cómo lidiar con proyectos grandes. Si bien Java sigue siendo importante en mi corazón, hay lecciones a tener en cuenta, frameworks y herramientas que tal vez querríamos traer al ecosistema de Java de la vibrante comunidad de Go. Se hace especial énfasis en las herramientas relacionadas con Kubernetes y por qué creo que Go en Kubernetes está muy por delante de Java.</p>",
@@ -476,7 +474,7 @@
     },
     {
       "id": "622916e656274e0bddf0079b",
-      "title": "Seamless SSO workshop : KEYCLAOK + SPRING + VUE.JS + LDAP",
+      "title": "Seamless SSO workshop : KEYCLOAK + SPRING + VUE.JS + LDAP",
       "languages": [
         "eng"
       ],
@@ -572,7 +570,6 @@
       "id": "6229f5eb56274e0bddf007a2",
       "title": "Seguridad en Micronaut®",
       "languages": [
-        "eng",
         "es"
       ],
       "abstract": "<p>En esta sesión, Sergio del Amo presenta Micronaut Security, una solución de seguridad personalizable y con todas las funciones para sus aplicaciones.</p><p>Los temas incluyen:</p><p>Autenticación (autenticación básica, basada en cookies, basada en sesiones, portador, LDAP, X.509)</p><p>Acceso usuario autenticado</p><p>Configuración de seguridad (@Secured, mapa de URL de intercepción y más)</p><p>OAuth 2.0 (Código de autorización, Credenciales de cliente, Concesiones de credenciales de contraseña)</p><p>OpenID Connect (integración con proveedores de servidores OAuth 2.0 de terceros: Auth0, Okta, Keycloak, Amazon Cognito)</p><p>JWT (firma, validación, generación, JWKS)</p><p>Propagación de tokens</p><p>Eventos de seguridad</p><p>Descubra lo fácil que es trabajar con Micronaut Security y aprenda a adaptarlo a sus necesidades.</p><p>Sergio del Amo es Micronaut core commiter, Developer Advocate de la Fundación Micronaut y presentador del “Micronaut podcast” (https://micronautpodcast.com).</p>",
@@ -713,7 +710,7 @@
       "id": "62505edfaa23f0085462dda4",
       "title": "The Microservices Smackdown: Data",
       "languages": [
-        "eng"
+        "es"
       ],
       "abstract": "<p>Los microservicios están en todas partes. Hay más de una forma de implementarlos y desplegarlos, pero al final lo que esperamos de ellos es mover datos de un lugar a otro. Las bases de datos generalmente se encuentran al final de la ejecución de un microservicio. Los microservicios pueden ejecutarse en modo síncrono y asíncrono, pero ¿qué pasa con el procesamiento de datos desde y hacia la base de datos? En esta sesión, cubriremos las capacidades de sincronización y asincronía que ofrecen Helidon, Micronaut, Quarkus y Spring Boot cuando se trata de leer y escribir datos.</p>",
       "type": "talk",
@@ -764,11 +761,11 @@
     },
     {
       "id": "6250631eaa23f0085462dda7",
-      "title": "Deterministic, Reproducible, Unsurprising Releases",
+      "title": "Releases determinísticas, reproducibles y sin sorpresas",
       "languages": [
-        "eng"
+        "es"
       ],
-      "abstract": "<p>When a  project has reached that stage when it’s a good idea to post binaries,  new questions arise such as where should they be posted? How do we make it easier for users to install and discover binaries? Where should releases be shared? Most importantly,  can it be automated? There are so many requirements and considerations depending on the  distribution channels, wouldn't it be great to have a tool to make it easier?  JReleaser is a tool that provides answers to these questions and more.. It may be used to create GiHub/GitLab/Gitea releases and publish binaries that can be consumed from different distribution channels such as Homebrew, Snap, Scoop, and more. Once published, the release can be automatically announced on Twitter, Slack, Gitter, Discord, and other communication channels.</p>",
+      "abstract": "<p>Cuando un proyecto ha llegado a la etapa en la que es una buena idea publicar binarios, surgen nuevas preguntas, ¿Dónde deberían publicarse? ¿Cómo facilitamos a los usuarios la localización e instalación de binarios? ¿Dónde se deben compartir las releases? Y lo más importante, ¿se pueden automatizar? Hay tantos requisitos y consideraciones dependiendo de los canales de distribución, ¿no sería genial tener una herramienta para hacerlo más fácil?</p><p>JReleaser es una herramienta que brinda respuestas a estas preguntas y más. Se puede usar para crear releases en GitHub/GitLab/Gitea y publicar binarios consumibles desde diferentes canales de distribución como Homebrew, Snap, Scoop y más. Una vez publicada, la release se puede anunciar automáticamente en Twitter, Slack, Gitter, Discord u otros.</p>",
       "type": "talk",
       "tags": [
         "Release",
@@ -913,6 +910,27 @@
       ]
     },
     {
+      "id": "6272e23171e11d0858e82243",
+      "title": "Shifting Left - Securing Infrastructure as Code",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>A study by Unit 42 found that \"close to 200,000 potential vulnerabilities have been discovered in IaC templates. Also, more than 43% of cloud databases are currently unencrypted, and only 60% of cloud storage services have logging enabled, which in itself is a serious concern.\"</p><p>Do you also find yourself struggling with a lot of similar cloud infrastructure security alerts in slack? Or, as a developer after spearheading an automated deployment, do you spend a great deal of time going through various infrastructure as code vulnerabilities? Does your compliance report also show you numbers where MTTD and MTTR are far apart?</p><p>Join this talk if you would like to learn how and why to continuously assess, detect, and respond to cloud security threats in real-time. Learn how to implement security and compliance standards from someone who tried and failed and eventually succeeded in building an IaC Security Product from scratch.</p>",
+      "type": "talk",
+      "tags": [
+        "#Security",
+        "#Cloud",
+        "#CI",
+        "#CD",
+        "#Integration",
+        "#Cloud-Native"
+      ],
+      "level": "middle",
+      "speakers": [
+        "72036b8655975d50ae6e51b7e51402b767c06c0e"
+      ]
+    },
+    {
       "id": "6272e73371e11d0858e82245",
       "title": "Gentle introduction to machine learning algorithms, with examples",
       "languages": [
@@ -969,6 +987,25 @@
       ]
     },
     {
+      "id": "627c16ee26f9720858a38ef0",
+      "title": "Bungee jumping to Quarkus, blindfolded but happy",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>A year ago I started with a couple of friends a new project to create a visual editor for integrations: based on a visual drag and drop selection on building blocks, generate deployable source code.</p><p>As responsible of the backend side, I obviously chose Java to do it. Some of the challenges were to have an extendable and customizable core where we could inject module languages to generate different outputs depending on how the user wanted to deploy. We also wanted to customize the catalog of building blocks to dynamically adapt to each user. Coming from the Java 8 world with shy traces of Java 11, I decided to jump directly to Quarkus on Java 17 and explore the serverless possibilities while, at the same time, keep the over-engineering and the over-fanciness of new features as reasonable as possible.</p><p>On this talk I will describe the bowels of Kaoto.io, the journey we had to implement a stable architecture, and how it evolved into the powerful tool it is now. I will discuss about the technologies used, their shortcomings and their black magic; and why the decisions made were the right ones (or not!).</p><p>This is a good talk if you want to see Quarkus in a real use case.</p>",
+      "type": "talk",
+      "tags": [
+        "Quarkus",
+        "Java 17",
+        "serverless",
+        "k-native"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "54502dffd46874a385c1e0c37cea135bc9240db3"
+      ]
+    },
+    {
       "id": "627c180d26f9720858a38ef1",
       "title": "De 0 a 100 construyendo monolitos modulares que escalen a microservicios",
       "languages": [
@@ -986,6 +1023,128 @@
       "speakers": [
         "9907d2fdf89356ee1bfc20234cf2ffa7316833c2"
       ]
-    }
+    },
+    {
+			"id": "627c18f226f9720858a38ef3",
+			"title": "The Hitchhiker’s Guide to a Great Developer Career",
+			"languages": [
+				"eng"
+			],
+			"abstract": "<p>As developers, our job is to write great code, test code, deploy code, fix code, and even delete code, but nobody told us that there is much more to it if we want to have a great developer career.</p><p>In this talk, Sven and Helen will share their successes and failures during their 20-year careers to date working for various technology companies. You’ll learn about growing your personal brand (what is it good for?), the trials and tribulations of different roles (so many choices), becoming a manager (or not), mentoring and sponsoring (they are not the same thing), how to care for yourself (prevent burnout), and lots more career advice.</p><p>You'll hear about their inevitable bumps in the road (or downright failures), as well as their successes. As it turns out, having a great developer career is not all about the technology and the code; it's also about you and the people around you!</p>",
+			"type": "talk",
+			"tags": [
+				"career",
+				"leadership"
+			],
+			"level": "beginner",
+			"speakers": [
+				"6e6c32699364da6fd090b2002c3e64da4cecacbb",
+				"efddc30dae7a2df8f301c9afbebbb8e0bb3fb27a"
+			]
+		},
+		{
+      "id": "627c1b0426f9720858a38ef6",
+      "title": "Superman or Ironman - can everyone be a 10x developer?",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>It’s all about productivity or maybe it’s all about delivering value. Or creating secure applications, dealing with changing directions.</p><p>Whatever it it we often feel that we’re lacking - that it’s hard enough to be any sort of developer. That even 1x is often a challenge</p><p>In this talk we’re going to examine how to think more clearly about being a Java developer:, help you understand the tools and approaches that can offer practical insight into how you work now as well as providing guidance on alternatives that just might give you the powered armour you need.</p><p>A mix of tools, proven processes, new techniques and lessons learnt the hard way make up a session designed to help you understand that being a 10x developer isn’t about having super powers - it’s about using the powers you already have in wiser, more considered ways.</p>",
+      "type": "workshop",
+      "tags": [
+        "productivity",
+        "dpe",
+        "java",
+        "cloud",
+        "security",
+        "sanity",
+        "imposter"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "5656dc7f3ecb7ca028ff6382f862467404769dfa",
+        "1eb862c7a058f67d5b1e4fcd98fa2d2ce12fe5c0"
+      ]
+    },
+    {
+      "id": "627c1bdd26f9720858a38ef7",
+      "title": "El lado oculto del despliegue de modelos IA",
+      "languages": [
+        "es"
+      ],
+      "abstract": "<p>¿Alguna vez te has enfrentado a un desafío profesional en el que simplemente no sabías por dónde empezar? ¿Qué le sucede a un modelo de IA una vez que ha sido entrenado y probado?</p><p>En esta charla, voy a compartir cómo me transformé en una ingeniera de datos durante dos semanas, mientras trabajaba para implementar nuestros modelos de IA en un datalake de Cloudera usando Spark.</p>",
+      "type": "talk",
+      "tags": [
+        "Artificial intelligence",
+        "machine learning",
+        "NLP",
+        "integration",
+        "spark",
+        "personal challenges"
+      ],
+      "level": "middle",
+      "speakers": [
+        "b3da9cdff962b1acbca9868acc10361463f07614"
+      ]
+    },
+    {
+      "id": "62855149d7a7c108376c3a62",
+      "title": "Treasure.map(): Functional Programming in JVM-based languages",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>What is a monad? Do I need a PhD to write in functional style? Any hidden gems that will improve my developer experience?</p><p>In this talk, we'll cover the core concepts of functional programming, discuss typical patterns and structures, their limitations and how to explain to your team that a monad is just a monoid in the category of endofunctors but nobody should be scared.</p>",
+      "type": "talk",
+      "tags": [
+        "Kotlin",
+        "Scala",
+        "Clojure",
+        "Java",
+        "Groovy"
+      ],
+      "level": "middle",
+      "speakers": [
+        "d71d836c712c4711d66f0794557f431f11dd333a"
+      ]
+    },
+    {
+      "id": "62855161d7a7c108376c3a63",
+      "title": "LGTM - Open Source Monitoring with Loki, Grafana, Tempo, and Mimir",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Java observability tools like the OpenTelemetry's auto-instrumentation agent or the upcoming Micrometer release make it easy to get metrics, distributed traces, and logs out of your Java applications.</p><p>This talk focuses on what you can do with these signals. We will show how you can set up your own monitoring backend using Loki, Tempo, and Mimir as open-source databases for logs, traces, and metrics. We will explore best practices for visualizing the data in Grafana dashboards, explore how to create alerts, and how to navigate the data when analyzing the root cause for an alert.</p>",
+      "type": "talk",
+      "tags": [
+        "monitoring",
+        "opentelemetry",
+        "java",
+        "observability"
+      ],
+      "level": "middle",
+      "speakers": [
+        "83000b23dafd750a87d9e4fda12b906fc1e4e734"
+      ]
+    },
+		{
+			"id": "628554aed7a7c108376c3a67",
+			"title": "Better Understanding through Bytecode",
+			"languages": [
+				"eng"
+			],
+			"abstract": "<p>Getting familiar with complicated technical topics like concurrency or recursion, we often look to abstractions. We boil things down to diagrams with boxes and arrows, tucking the details away for later.</p><p>While often a great starting point, there’s a lot of value in pushing the other direction too. On the JVM, reality isn’t your Java, Kotlin, or Clojure code -- it’s the bytecode running below the surface. Surprisingly, many elusive topics may actually be clearer when we can understand what’s happening at that layer below.</p><p>In this talk, we’ll get up to speed on just enough bytecode reading to start exploring real topics like lost writes from concurrency, tail recursion, and co-routines. We’ll get familiar with the basic tools and opcodes, what to do when the bytecode’s hard to understand, and come away more confident in our ability to understand our systems from top to bottom.</p>",
+			"type": "talk",
+			"tags": [
+				"JVM",
+				"internals",
+				"concurrency",
+				"recursion",
+				"Java",
+				"Kotlin"
+			],
+			"level": "middle",
+			"speakers": [
+				"ffaad51498cdf845c5c9f24c4eff0d9b17bba237"
+			]
+		}
   ]
 }
