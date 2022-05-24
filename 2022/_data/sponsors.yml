@@ -44,7 +44,17 @@ premium:
     href: https://code.seat/about/#open-positions
     image:
       src: "/assets/img/sponsors/seat-code.png"
-      alt: SEAT:CODE
+      alt: SEAT:CODE 
+  - name: Ayden
+    href: https://www.adyen.com/es_ES/?utm_source=Google&utm_medium=Online%20Advertising&utm_campaign=2022.00-SEA-ES-Brand_Related_Es&gclid=CjwKCAjwj42UBhAAEiwACIhADupfrFS2JiXjJEorh8qXLiSgg-Ukjt4MBZfc2js_snyefJze2H9eYBoCx1wQAvD_BwE
+    image:
+      src: "/assets/img/sponsors/ayden.png"
+      alt: Ayden
+  - name: Mobile World Capital
+    href: https://mobileworldcapital.com
+    image:
+      src: "/assets/img/sponsors/mwc.png"
+      alt: Mobile World Capital
 regular:
   - name: Capitole Consulting
     href: https://capitole-consulting.com/about/
@@ -107,7 +117,16 @@ basic:
     image:
       src: "/assets/img/sponsors/elastic.png"
       alt: Elastic
-
+  - name: Inditex
+    href: https://www.inditex.com
+    image:
+      src: "/assets/img/sponsors/inditex.jpeg"
+      alt: Inditex
+  - name: Lightstep
+    href: https://lightstep.com/
+    image:
+      src: "/assets/img/sponsors/lightstep.png"
+      alt: Lightstep
 supporters:
   - name: JetBrains
     href: https://www.jetbrains.com/
