@@ -2,22 +2,22 @@
   {
     "company": {
       "name": "Dynatrace",
-      "logo-url": "/assets/img/sponsors/dynatrace.png",
-      "description": "Dynatrace is the world leader in software intelligence products to simplify enterprise cloud complexity and accelerate digital transformation. We offer solutions such Application performance management, Cloud infrastructure monitoring, IT Operations powered by AI and Digital customer experience.",
+      "logo-url": "/assets/img/sponsors/dynatrace.jpg",
+      "description": "Dynatrace helps the world's largest organizations to create perfect digital solutions with AI-driven, answer-based automation. Dynatrace detects emerging issues and security vulnerabilities in software or IT infrastructures in real time and can trigger automated healing processes.",
       "level": "premium",
     },
     "links": {
       "linkedIn": "https://www.linkedin.com/company/dynatrace/",
       "web": "https://www.dynatrace.com/",
       "instagram": "https://www.instagram.com/dynatracelabs/",
-      "twitter": "https://twitter.com/dynatrace"
+      "twitter": "https://twitter.com/dynatracelabs"
     },
     "vacancies": [
       {
         "title": "Java Software Engineer",
-        "location": "Barcelona, Spain",
-        "description": "<strong>Your role</strong><br/> You will be developing the Dynatrace Digital Experience Monitoring Solution and depending on your preference specialization Full Stack or Server-Backend.<br/> You will be working with high performing pure Java applications; JMH & workload simulators; Cassandra; Elastic Search; JUnit and other unit testing frameworks.<br/> You will also be using other tools like BitBucket / JIRA / Jenkins / QuickBuild  and Confluence.<br/> You, along with your team, will be designing and implementing new features in collaboration with your Product Manager, local and international development teams.<br/> <strong>We expect</strong><br/> You have a technical study related to Software Engineering (BsC or MsC) and / or a minimum of 5 years of experience in Java development, including architectural design.<br/> You are excited of learning new technologies and are a team player with a proactive approach on facing challenges.<br/> Key words: <i>Java | Server-side High Performance Computing | Big Data | Cloud Monitoring | AI-powered | Distributed Systems</i><br/>",
-        "link": "https://jobs.barcelona.dynatrace.com/jobs/2a8e98ee-a080-4b71-b9a9-22faa530535e"
+        "location": "Remote / Barcelona",
+        "description": "<strong>Your role in the team</strong><br/> You will be developing the Dynatrace Digital Experience Monitoring Solution and depending on your preference specialization Full Stack or Server-Backend.<br/> You will be working with high performing pure Java applications; JMH & workload simulators; Cassandra; Elastic Search; JUnit and other unit testing frameworks. You will also be using other tools like BitBucket / JIRA / Jenkins / QuickBuild  and Confluence.<br/> You, along with your team, will be designing and implementing new features in collaboration with your Product Manager, local and international development teams.<br/><br/> <strong>You will love working with us if</strong><br/> You enjoy learning new technologies.<br/> You enjoy following technologies<br/> You take working with agile methods (Scrum) for granted.<br/> You appreciate team spirit, like swapping new ideas with your teammates and an international environment is attractive to you.<br/><br/>We offer competitive salaries depending on your experience, health insurance, merit based salary increase and more.<br/><br/> <strong>We expect</strong><br/>  You have a technical study related to Software Engineering (BsC or MsC) and / or a minimum of 5 years of experience in Java development, including architectural design.<br/>You are excited of learning new technologies and are a team player with a proactive approach on facing challenges.<br/>",
+        "link": "https://careers.dynatrace.com/jobs/4ce097d4-48f0-4908-b1e2-48caf51bf493/"
       },
       {
         "title": "Android Software Engineer",
