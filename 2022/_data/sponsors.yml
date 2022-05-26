@@ -114,3 +114,9 @@ supporters:
     image:
       src: "/assets/img/sponsors/jetbrains.png"
       alt: JetBrains
+
+  - name: CodelyTV
+    href: https://codely.com/pro/jbcnconf22
+    image:
+      src: "/assets/img/sponsors/codely.png"
+      alt: CodelyTV
