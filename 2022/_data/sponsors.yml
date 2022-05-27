@@ -50,11 +50,11 @@ premium:
     image:
       src: "/assets/img/sponsors/ayden.png"
       alt: Ayden
-  - name: Mobile World Capital
-    href: https://mobileworldcapital.com
+  - name: BDTalent
+    href: https://barcelonadigitaltalent.com/
     image:
-      src: "/assets/img/sponsors/mwc.png"
-      alt: Mobile World Capital
+      src: "/assets/img/sponsors/barcelona-digital-talent.png"
+      alt: BDTalent
 regular:
   - name: Capitole Consulting
     href: https://capitole-consulting.com/about/
