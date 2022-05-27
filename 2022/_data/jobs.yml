@@ -41,32 +41,38 @@
   },
   {
     "company": {
-      "name": "Capgemini",
-      "logo-url": "/assets/img/sponsors/capgemini.jpg",
-      "description": "Capgemini is a global leader in partnering with companies to transform and manage their business by harnessing the power of technology. The Group is guided everyday by its purpose of unleashing human energy through technology for an inclusive and sustainable future",
+      "name": "idealista",
+      "logo-url": "/assets/img/sponsors/idealista.jpg",
+      "description": "idealista es el principal punto de encuentro para todas aquellas personas que buscan una vivienda (o local, edificio...) ya sea en compra o en alquiler. Llevamos desde el año 2000 ayudando a todos nuestros usuari@s a superar la ansiedad y la frustración que supone encontrar un hogar.",
       "level": "premium",
     },
     "links": {
-      "web": "https://www.capgemini.com/",
-      "twitter": "https://twitter.com/CapgeminiEng",
-      "instagram": "https://www.instagram.com/capgeminiengineeringes/",
-      "linkedIn": "https://www.linkedin.com/company/capgemini-engineering/"
+      "web": "https://www.idealista.com/"
     },
     "vacancies": [
       {
-        "title": "Technical Lead",
-        "description": "Estamos buscando una persona con experiencia liderando técnicamente equipos, ¿eres tú?",
-        "link": "https://www.infojobs.net/madrid/technical-lead/of-i604336eee94928b8f3a718b8086483"
+        "title": "Backend Developer",
+        "location": "Remote",
+        "description": "¿Eres un apasionado de la programación?<br/>Sí te gusta estar rodeado de buen@s compañer@s, trabajar con buen rollo y en un ambiente colaborativo ¡sigue leyendo! seguro que idealista te va a gustar 😉<br/><br/><strong>¿Qué harás?</strong><br/>Trabajarás junto a tus compañer@s del equipo desarrollando nuevas funcionalidades. Además, trabajarás codo con codo con nuestro equipo de producto y UX para aportar una visión técnica a las soluciones que definamos para los mismos.<br/>Ayudarás a que la plataforma esté estable…Sí, en idealista también tenemos bugs, así que tendrás que ayudar a identificarlos y solucionarlos.<br/><br/><strong>¿Qué esperamos de ti?</strong><br/>Tienes al menos 1 año de experiencia desarrollando el backend de alguna aplicación, y nos puedes hablar de ello.<br/>Nosotr@s trabajamos principalmente con Java y Spring pero lo que de verdad nos interesa es que tengas ciertos fundamentos de programación bien asentados: no importa con lo que qué hayas trabajado hasta ahora.<br/>No te quedas en el “con que funcione vale”. Nosotr@s damos mucho valor tanto a las buenas prácticas, como a definir diseños y arquitecturas que nos permitan extender la plataforma de manera sostenible.<br/>Te gusta este mundillo.<br/>Tienes curiosidad e iniciativa. Al final, este trabajo va de los problemas que somos capaces de resolver y de cómo logramos hacerlo. Así que se espera de ti que seas capaz de analizar, preguntar, pedir ayuda (y ofrecerla), y saber plantear soluciones a los mismos.<br/><br/>¿Aceptas el reto?<br/>",
+        "link": "https://www.linkedin.com/jobs/view/3062108675/?alternateChannel=search&refId=KiWjG%2FVehGaFbu%2BAd99nmA%3D%3D&trackingId=YutOQJbxRiTDWLJESRx%2FHA%3D%3D"
       },
       {
-        "title": "Full Stack Senior Developer",
-        "description": "Buscamos expertos para el desarrollo de varios proyectos, estarán involucrad@s en la definición y creación de soluciones técnicas en las tecnologías indicadas para clientes TOP. ¿Hablamos?",
-        "link": "https://www.linkedin.com/jobs/search/?currentJobId=2652958451&keywords=capgemini"
+        "title": "DevOps Engineer",
+        "location": "Remote",
+        "description": "Incorporamos al equipo un/una DevOps engineer, familiarizad@ con el uso de buenas prácticas, para integrarse en nuestro equipo de plataforma/arquitectura, apoyando en tareas de automatización, monitorización e integración y despliegue continuo.<br/><br/><strong>Además si eres...</strong><br/>Positiv@, colaborativ@, innovador/a y honest@.<br/>Experiencia o interés en desarrollarte como DevOps engineer :)<br/>Te sientes muy cómod@ trabajando con sistemas de gestión de configuración (preferiblemente Ansible).<br/>Usas Git sin problemas: creas ramas, commiteas y haces PRs con los ojos cerrados<br/>Tienes experiencia con sistemas de integración continua (Jenkins).<br/>Te gusta el software libre: https://github.com/idealista<br/><br/><strong>Requisitos deseables:</strong><br/>Experiencia en lenguajes de la JVM<br/>Monitorización/alerting (preferiblemente Prometheus)<br/>Automatización de creación de infraestructura (preferiblemente Terraform)<br/>Sabes crear entornos de desarrollo/test con Docker.<br/>Tienes nociones de Quality Management (SonarQube)<br/>Experiencia en sistemas UNIX<br/><br/>¡Estamos deseando conocerte y que nos conozcas!<br/>",
+        "link": "https://www.linkedin.com/jobs/view/3062107612/?alternateChannel=search&refId=KiWjG%2FVehGaFbu%2BAd99nmA%3D%3D&trackingId=Y3yhmkbeSlpXYxK%2BXnBjyg%3D%3D"
       },
       {
-        "title": "Desarrollador/a API Swagger",
-        "description": "Actualmente estamos buscando una persona con experiencia en desarrollo y diseño de API para formar parte de un equipo especializado en esta tecnología. ¿quieres conocerlo?",
-        "link": "https://www.infojobs.net/madrid/desarrollador-api-swagger/of-i89f504591148c1bd5c892d59abd1ae"
+        "title": "Data Engineer",
+        "location": "Remote",
+        "description": "¿Eres un apasionad@ de la programación y del procesamiento de datos? ¿Te gusta el procesamiento en streaming? ¿Eres inquiet@ y siempre buscas mejorar?<br/>En idealista estamos buscando un ingenier@ de datos para nuestro equipo de tecnología.<br/><br/><strong>¿Qué harás?</strong><br/>Trabajar junto a tus compañer@s del equipo haciendo crecer la infraestructura de datos.<br/>Desarrollar con Apache Flink y Scala, entre otras tecnologías, procesos en streaming para proveer de datos al resto de equipos.<br/>Trabajar codo con codo con el equipo de plataforma y el resto de equipos de desarrollo para desplegar componentes asegurando su escalabilidad, alta disponibilidad y correcta monitorización.<br/><br/><strong>¿Qué esperamos de ti?</strong><br/>Tienes experiencia en el procesamiento de datos, y nos puedes hablar de ello.<br/>Has trabajado con herramientas como Flink, Spark, Storm, Beam, Kstream...<br/>Te has peleado alguna vez con temas de infraestructura.<br/>No subes nada si no tiene test. Sí, todos nuestros procesos de datos como no, tienen test :P<br/>Si no tienes ninguna experiencia en procesamiento de datos, pero eres un backend experimentado con una base sólida en “best practices”, arquitectura hexagonal, servicios, y quieres un cambio, también queremos conocerte<br/>Nosotr@s trabajamos en equipo. El equipo son tus compañer@s; pero también lo es la gente de producto así como la gente de negocio, etc.<br/>Te gusta este mundillo.<br/>Tienes curiosidad e iniciativa.<br/>",
+        "link": "https://www.linkedin.com/company/idealista-com/jobs/"
+      },
+      {
+        "title": "Administrador de BBDD Oracle",
+        "location": "Remote",
+        "description": "¿Eres un apasionado de la tecnología?<br/>En idealista, estamos ampliando nuestro equipo de Sistemas con un/a Administrador/a de BBDD Oracle.<br/>Sí te gusta estar rodeado de buen@s compañer@s, trabajar con buen rollo y en un ambiente colaborativo ¡sigue leyendo! seguro que idealista te va a gustar 😉<br/><br/><strong>¿Qué harás?</strong><br/>Creación y monitorización de BBDD Oracle<br/>Tunning<br/>Copias de seguridad. RMAN. Dataguard<br/>Resolución de incidencias.<br/>Seguridad y auditoría de BBDD.<br/>Replicación. Goldengate.<br/>PLSQL.<br/>Automatización de tareas. (ansible, python, shell scripts, bash…)<br/><br/><strong>¿Qué esperamos de ti?</strong><br/>Experiencia de al menos 2 años con bbdd Oracle<br/>12c and 19c database versions<br/>Oracle enterprise Manager<br/>RMAN<br/>Oracle ASM<br/>Oracle RAC<br/>Dataguard<br/>Database tunning<br/>Oracle Golden Gate<br/>Linux scripting : Python, Shell<br/><br/>Tienes curiosidad e iniciativa. Al final, este trabajo va de los problemas que somos capaces de resolver y de cómo logramos hacerlo. Así que se espera de ti que seas capaz de analizar, preguntar, pedir ayuda (y ofrecerla), y saber plantear soluciones a los mismos.<br/>",
+        "link": "https://www.linkedin.com/jobs/view/3070191411/?alternateChannel=search&refId=K45CRoAi5DJhKjit%2Bi6uNg%3D%3D&trackingId=IhCxo%2BVkAM46uEy5s9GIXg%3D%3D"
       }
     ]
   }
