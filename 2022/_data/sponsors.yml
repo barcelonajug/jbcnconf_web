@@ -117,11 +117,6 @@ basic:
     image:
       src: "/assets/img/sponsors/elastic.png"
       alt: Elastic
-  - name: Inditex
-    href: https://www.inditex.com
-    image:
-      src: "/assets/img/sponsors/inditex.jpeg"
-      alt: Inditex
   - name: Lightstep
     href: https://lightstep.com/
     image:
