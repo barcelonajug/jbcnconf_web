@@ -13,8 +13,8 @@ items:
   href: "/#Sponsors"
 #- label: Schedule
 #  href: "/schedule.html"
-#- label: Job Offers
-#  href: "/job-offers.html"
+- label: Job Offers
+  href: "/job-offers.html"
 - label: Diversity
   href: "/#"
   items:
