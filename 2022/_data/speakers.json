@@ -119,6 +119,19 @@
     },
     {
       "enabled": "1",
+      "name": "Marit van Dijk",
+      "company": "bol.com (until June), JetBrains (starting July)",
+      "description": "Software Engineer at bol.com (until June), Java Developer Advocate at JetBrains (starting July)",
+      "biography": "<p>Marit van Dijk is a software developer with 20 years of experience in different roles and companies. She loves building awesome software with amazing people, and has contributed to open source projects like Cucumber and various other projects. She enjoys learning new things, as well as sharing knowledge on programming, test automation, Cucumber/BDD and software engineering. She speaks at international conferences, webinars and podcasts, occasionally writes blog posts and contributed to the book \"97 Things Every Java Programmer Should Know\" (O’Reilly Media). Marit is currently employed as a Software Engineer at bol.com and will start as a Java Developer Advocate at JetBrains in July 2022.</p>",
+      "image": "assets/img/speakers/marit-van-dijk.jpg",
+      "ref": "de2cd836ea5980909c79dfc4ea139f8db52b14bb",
+      "url": "infoSpeaker.html?ref=de2cd836ea5980909c79dfc4ea139f8db52b14bb",
+      "homepage": "https://mlvandijk.github.io/",
+      "twitter": "@MaritvanDijk77",
+      "linkedin": "https://www.linkedin.com/in/maritvandijk/"
+    },
+    {
+      "enabled": "1",
       "name": "Simon Brown",
       "company": "Architectis",
       "description": "Independent Consultant",
@@ -196,19 +209,19 @@
       "linkedin": ""
     },
     {
-			"enabled": "1",
-			"name": "Jason Clark",
-			"company": "New Relic",
-			"description": "Principal Engineer and Architect",
-			"biography": "<p>Jason Clark is a Principal Engineer and Architect at New Relic where he’s worked on everything from petabyte-scale JVM data processing pipelines to Ruby instrumentation libraries. He was previously an Architect at WebMD building .Net-based web services.</p><p>A regular conference speaker, Jason contributes to the open source project Shoes, which aims to make GUI programming easy and fun for beginners and students. He's also co-author of two books, The Well-Grounded Java Developer, Second Edition with Ben Evans and Martijn Verburg, and Java in a Nutshell, Eighth Edition with Ben Evans.</p>",
-			"image": "assets/img/speakers/jason-clark.jpg",
-			"ref": "ffaad51498cdf845c5c9f24c4eff0d9b17bba237",
-			"url": "infoSpeaker.html?ref=ffaad51498cdf845c5c9f24c4eff0d9b17bba237",
-			"homepage": "https://jasonrclark.com",
-			"twitter": "@jasonrclark",
-			"linkedin": "https://www.linkedin.com/in/jasonrclark42/"
-		},
-		{
+      "enabled": "1",
+      "name": "Jason Clark",
+      "company": "New Relic",
+      "description": "Principal Engineer and Architect",
+      "biography": "<p>Jason Clark is a Principal Engineer and Architect at New Relic where he’s worked on everything from petabyte-scale JVM data processing pipelines to Ruby instrumentation libraries. He was previously an Architect at WebMD building .Net-based web services.</p><p>A regular conference speaker, Jason contributes to the open source project Shoes, which aims to make GUI programming easy and fun for beginners and students. He's also co-author of two books, The Well-Grounded Java Developer, Second Edition with Ben Evans and Martijn Verburg, and Java in a Nutshell, Eighth Edition with Ben Evans.</p>",
+      "image": "assets/img/speakers/jason-clark.jpg",
+      "ref": "ffaad51498cdf845c5c9f24c4eff0d9b17bba237",
+      "url": "infoSpeaker.html?ref=ffaad51498cdf845c5c9f24c4eff0d9b17bba237",
+      "homepage": "https://jasonrclark.com",
+      "twitter": "@jasonrclark",
+      "linkedin": "https://www.linkedin.com/in/jasonrclark42/"
+    },
+    {
       "enabled": "1",
       "name": "Dmitry Aleksandrov",
       "company": "Sofia",
@@ -287,19 +300,19 @@
       "linkedin": "linkedin.com/in/joshlong"
     },
     {
-			"enabled": "1",
-			"name": "Helen Scott",
-			"company": "Jetbrains",
-			"description": "Developer Advocate",
-			"biography": "<p>Helen Scott is a Java Developer Advocate at JetBrains. She has worked at numerous software companies in the last 20 years and has experienced the development cycle at all stages in various roles throughout that time. Helen loves to learn new tools and technologies, create content about that journey and share it with the community.</p>",
-			"image": "assets/img/speakers/helen-scott.jpeg",
-			"ref": "efddc30dae7a2df8f301c9afbebbb8e0bb3fb27a",
-			"url": "infoSpeaker.html?ref=efddc30dae7a2df8f301c9afbebbb8e0bb3fb27a",
-			"homepage": "",
-			"twitter": "@HelenJoScott",
-			"linkedin": ""
-		},
-		{
+      "enabled": "1",
+      "name": "Helen Scott",
+      "company": "Jetbrains",
+      "description": "Developer Advocate",
+      "biography": "<p>Helen Scott is a Java Developer Advocate at JetBrains. She has worked at numerous software companies in the last 20 years and has experienced the development cycle at all stages in various roles throughout that time. Helen loves to learn new tools and technologies, create content about that journey and share it with the community.</p>",
+      "image": "assets/img/speakers/helen-scott.jpeg",
+      "ref": "efddc30dae7a2df8f301c9afbebbb8e0bb3fb27a",
+      "url": "infoSpeaker.html?ref=efddc30dae7a2df8f301c9afbebbb8e0bb3fb27a",
+      "homepage": "",
+      "twitter": "@HelenJoScott",
+      "linkedin": ""
+    },
+    {
       "enabled": "1",
       "name": "Akshita Rastogi",
       "company": "commercetools",
@@ -766,19 +779,19 @@
       "linkedin": "https://www.linkedin.com/in/brianvermeer/"
     },
     {
-			"enabled": "1",
-			"name": "Sven Peters",
-			"company": "Manfred",
-			"description": "Developer Advocate",
-			"biography": "<p>Sven Peters, former developer advocate at Atlassian and MongoDB - now at Manfred, has been studying trends in software development for the last 15 years uncovering the cultural and technical attributes to help development teams work effectively and drive innovation. He has 20 years experience in writing code, leading teams, and sharing his experience with thousands of developers at uncountable conferences in 25+ countries.</p>",
-			"image": "assets/img/speakers/sven-peters.jpeg",
-			"ref": "6e6c32699364da6fd090b2002c3e64da4cecacbb",
-			"url": "infoSpeaker.html?ref=6e6c32699364da6fd090b2002c3e64da4cecacbb",
-			"homepage": "",
-			"twitter": "@svenpet",
-			"linkedin": ""
-		},
-		{
+      "enabled": "1",
+      "name": "Sven Peters",
+      "company": "Manfred",
+      "description": "Developer Advocate",
+      "biography": "<p>Sven Peters, former developer advocate at Atlassian and MongoDB - now at Manfred, has been studying trends in software development for the last 15 years uncovering the cultural and technical attributes to help development teams work effectively and drive innovation. He has 20 years experience in writing code, leading teams, and sharing his experience with thousands of developers at uncountable conferences in 25+ countries.</p>",
+      "image": "assets/img/speakers/sven-peters.jpeg",
+      "ref": "6e6c32699364da6fd090b2002c3e64da4cecacbb",
+      "url": "infoSpeaker.html?ref=6e6c32699364da6fd090b2002c3e64da4cecacbb",
+      "homepage": "",
+      "twitter": "@svenpet",
+      "linkedin": ""
+    },
+    {
       "enabled": "1",
       "name": "Whitney Lee",
       "company": "VMware",
