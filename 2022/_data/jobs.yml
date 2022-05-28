@@ -104,5 +104,33 @@
         "link": "https://apply.workable.com/wallapop/j/C17B2DFB8B/"
       }
     ]
+  },
+  {
+    "company": {
+      "name": "Adaptive",
+      "logo-url": "/assets/img/sponsors/adaptive-logo.png",
+      "description": "At Adaptive, we partner with capital and commodity market participants that value differentiation through technology. Our experienced teams design and deliver complex solutions, using our proven accelerators, creating a long-term competitive advantage for our clients.",
+      "level": "regular",
+    },
+    "links": {
+      "linkedIn": "https://www.linkedin.com/company/adaptive-consulting-ltd/",
+      "web": "https://weareadaptive.com/",
+      "twitter": "https://twitter.com/WeAreAdaptive"
+
+    },
+    "vacancies": [
+      {
+        "title": "Senior Java Developer",
+        "location": "Barcelona",
+        "description": "We are looking for senior Java developers to join us and work on our greenfield projects that will deliver a next-generation back office system for a major custodial bank. The platform will be delivered with a modern technology stack throughout. This includes a reactive front-end and Java back-end. Adaptive has unique experience delivering similar platforms and the person in this role will be crucial to leveraging that internal knowledge and driving the delivery directly in partnership with the client and their senior management.<br/><br/><strong>You will be:</strong><br/>Participating in the team effort to build and release quality financial software in a timely manner.<br/>Involved in the technical design and implementation of a distributed, multi-region, multi-platform microservices based architecture.<br/>Working in a test-driven environment, part of an agile cross-functional squad.<br/>",
+        "link": "https://weareadaptive.com/careers/jobs/?job=3100163"
+      },
+      {
+        "title": "Senior SRE/DevOps Engineer",
+        "location": "Barcelona",
+        "description": "Adaptive has a growing number of projects using the Hydra trading platform in multiple locations. Hydra is a framework built on top of Aeron messaging for building low-latency systems such as exchanges or workflow engines.<br/>We are looking for a candidate to be part of the ops team, and participate in defining infrastructure best practices in both Hydra infrastructure development and testing, as well as client infrastructure and Adaptive hosted Hydra projects. You will report directly to the Head of Operations. <br/>Ideally, we would need to see strong experience within projects building, testing and running custom database or other persistent data services in cloud environments, using immutable infrastructure principles.<br/><br/><strong>You will be:</strong><br/>Making Hydra-based projects easy to deploy and manage, through automation & standardisation.<br/>Participating in best practice definition for Hydra based project installations.<br/>Guiding the development team in best practice CI/CD, and full system testing.<br/>Supporting projects solutions and support teams, maintaining the infrastructure, and using lessons learnt to improve best practices.<br/>Enhancing cloud services operations and monitoring to be as proactive as possible.<br/>Troubleshooting cloud infrastructure, identifying issues and assisting in their timely resolution.<br/>Maintaining strict adherence to security policies within the organisation.<br/>Designing maintenance procedures and operational guide.<br/>Testing, evaluating and implementing new technologies.<br/>",
+        "link": "https://weareadaptive.com/careers/jobs/?job=3629510"
+      }
+    ]
   }
 ]
