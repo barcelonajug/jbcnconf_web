@@ -75,5 +75,34 @@
         "link": "https://www.linkedin.com/jobs/view/3070191411/?alternateChannel=search&refId=K45CRoAi5DJhKjit%2Bi6uNg%3D%3D&trackingId=IhCxo%2BVkAM46uEy5s9GIXg%3D%3D"
       }
     ]
+  },
+  {
+    "company": {
+      "name": "Wallapop",
+      "logo-url": "/assets/img/sponsors/wallapop.jpg",
+      "description": "Wallapop is a Barcelona-based scale-up driven by the purpose to empower people to embrace a more conscious and human way of consumption. Wallapop operates in Spain and Italy, offering a catalog of several hundreds of millions of products and services.",
+      "level": "regular",
+    },
+    "links": {
+      "linkedIn": "https://www.linkedin.com/company/wallapop/",
+      "web": "https://apply.workable.com/wallapop/",
+      "instagram": "https://www.instagram.com/wallapop/",
+      "twitter": "https://twitter.com/wallapop"
+
+    },
+    "vacancies": [
+      {
+        "title": "Backend Engineer",
+        "location": "Barcelona",
+        "description": "<strong>Our Challenge</strong><br/>Some of the interesting things we are currently doing include finding new ways to handle with complexity or improve resiliency. We use many different AWS technologies (computer, storage ...) to archive our goals. As a Wallapop Backend engineer, we have ownership of the team microservices, so we really embrace DevOps philosophy (optionally backend stuff is who are on duty). It’s difficult to explain our stack but the most important parts are:<br/>Java & Kotlin<br/>Spring & Axon Framework<br/>RabbitMQ<br/>MySql, DynamoDB, Redis & Memcached<br/>Docker<br/>ElasticSearch & Solr<br/>AWS: S3, ECS, CloudWatch, RDS, CloudFormation, Lambdas & more<br/><br/><strong>What You Will Do</strong><br/>Writing Java or Kotlin code, it depends on the team, the stack could change a little bit<br/>Developing new features following DDD (tactical design and strategical design)<br/>Tackling legacy parts<br/>Testing all the things! Testing is a must, especially if you want to avoid those friendly reminders during the code review<br/><br/><strong>What We’re Looking For</strong><br/>Problem solver and critical thinking<br/>Quality-driven, attention to detail, and pragmatic ̣<br/>Adaptable and eager to learn<br/>A sense of humor: we like having fun doing what we love :)<br/>",
+        "link": "https://apply.workable.com/wallapop/j/40A3A50067/"
+      },
+      {
+        "title": "Backend Tech Lead",
+        "location": "Barcelona",
+        "description": "<strong>Our Challenge</strong><br/>As a Backend Tech Lead, you will contribute to construct a team culture, with the rest of the technical leads, based on a continuous improvement attitude, trust and a self-empowerment philosophy. So, among others, you will drive teammates to have a complete ownership of the services embracing DevOps philosophy.<br/>One of the current challenges is working completely remote since COVID-19 and improving the communications and documentation inside the company about technical achievements and possible issues.<br/>Some of the interesting things we are currently doing at technical level, include finding new ways to handle complexity, improve resiliency and escalate the team.<br/>It's difficult to explain our stack but the most important parts are:<br/>Kotlin & Java<br/>Spring, Axon Framework & Ktor<br/>RabbitMQ<br/>MySql, DynamoDB, Redis & Memcached<br/>Docker<br/>ElasticSearch & Solr<br/>Kibana, Grafana, InfluxDB & Prometheus<br/>AWS: S3, ECS, CloudWatch, RDS, CloudFormation, Lambdas & more<br/><br/><strong>What You Will Do</strong><br/>Write and review some Java or Kotlin code helping other teammates<br/>Tackling legacy parts and handling tech debt backlog<br/>Help teams with mid and long term technical plans<br/>Promote best practices across teams (DDD, event-driven architectures, testing, monitoring…)<br/>Mentoring other teammates to get the better of them<br/>",
+        "link": "https://apply.workable.com/wallapop/j/C17B2DFB8B/"
+      }
+    ]
   }
 ]
