@@ -36,5 +36,5 @@ items:
       href: "/offers.html"
     - label: COVID-19 policy
       href: "/covid-19.html"
-- label: Become Sponsor
-  href: "/become-sponsor.html"
+#- label: Become Sponsor
+#  href: "/become-sponsor.html"
