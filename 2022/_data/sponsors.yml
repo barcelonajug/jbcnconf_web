@@ -132,6 +132,12 @@ basic:
     image:
       src: "/assets/img/sponsors/seqera.png"
       alt: Seqera Labs
+startup:
+  - name: ApiumHub
+    href: https://apiumhub.com/
+    image:
+      src: "/assets/img/sponsors/apiumhub.png"
+      alt: apiumhub
 supporters:
   - name: JetBrains
     href: https://www.jetbrains.com/
