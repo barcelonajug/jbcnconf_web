@@ -931,6 +931,31 @@
       ]
     },
     {
+      "id": "6272e56271e11d0858e82244",
+      "title": "OpenTelemetry Real Life Production Examples",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>From real life example of a customer using distributed tracing in production, we will go into details of what were the problems he tried to solve? Why did he select distributed tracing and OpenTelemetry? How was the implementation with success and land mines to avoid? How does it impact the root cause and performance analysis workflows? And finally, what were the technical and business benefits?</p><p>By the end of this talk, you’ll understand -</p><p>•\tvalue distributed tracing and OpenTelemetry can bring in production,</p><p>•\tpitfalls to avoid during implementation,</p><p>•\tdeployed OpenTelemetry architecture principles,</p><p>•\tdifferences and some of the changes it creates in your practices, like impacts on code, logs management, SRE and Dev team organizations.</p>",
+      "type": "talk",
+      "tags": [
+        "#OpenTelemetry",
+        "#Observability",
+        "#Monitoring",
+        "#Microservices",
+        "#Performance",
+        "#RCA",
+        "#Kubernetes",
+        "#Instrumentation",
+        "#UserExperience",
+        "#SRE"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "34d565db320a6c8f22c1b6c05b18a1aa01ba0796"
+      ]
+      },    
+    {
       "id": "6272e73371e11d0858e82245",
       "title": "Gentle introduction to machine learning algorithms, with examples",
       "languages": [
@@ -1025,6 +1050,26 @@
       ]
     },
     {
+      "id": "627c18d126f9720858a38ef2",
+      "title": "Keep Your Cache Always Fresh with Debezium!",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>The saying goes that there are only two hard things in Computer Science: cache invalidation, and naming things. Well, turns out the first one is solved actually ;)</p><p>Join us for this session to learn how to keep read views of your data in distributed caches close to your users, always kept in sync with your primary data stores change data capture. You will learn how to</p><ul><li>Implement a low-latency data pipeline for cache updates based on Debezium, Apache Kafka, and Infinispan</li><li>Create denormalized views of your data using Kafka Streams and make them accessible via plain key look-ups from a cache cluster close by</li><li>Propagate updates between cache clusters using cross-site replication</li></ul><p>We'll also touch on some advanced concepts, such as detecting and rejecting writes to the system of record which are derived from outdated cached state, and show in a demo how all the pieces come together, of course connected via Apache Kafka.</p>",
+      "type": "workshop",
+      "tags": [
+        "Apache Kafka",
+        "change data capture",
+        "data streaming",
+        "caching",
+        "microservices"
+      ],
+      "level": "middle",
+      "speakers": [
+        "44775844c7cf4df6e20eb4b208e13ebdb02a3ef9"
+      ]
+      },    
+    {
       "id": "627c18f226f9720858a38ef3",
       "title": "The Hitchhiker’s Guide to a Great Developer Career",
       "languages": [
@@ -1083,7 +1128,8 @@
       ],
       "level": "middle",
       "speakers": [
-        "b3da9cdff962b1acbca9868acc10361463f07614"
+        "b3da9cdff962b1acbca9868acc10361463f07614",
+        "2a88aa1b1e9f6e4a6c13ddb06f9f72cb48b853c8"
       ]
     },
     {
