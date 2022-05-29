@@ -954,7 +954,7 @@
       "speakers": [
         "34d565db320a6c8f22c1b6c05b18a1aa01ba0796"
       ]
-      },    
+    },
     {
       "id": "6272e73371e11d0858e82245",
       "title": "Gentle introduction to machine learning algorithms, with examples",
@@ -1068,7 +1068,7 @@
       "speakers": [
         "44775844c7cf4df6e20eb4b208e13ebdb02a3ef9"
       ]
-      },    
+    },
     {
       "id": "627c18f226f9720858a38ef3",
       "title": "The Hitchhiker’s Guide to a Great Developer Career",
@@ -1209,6 +1209,25 @@
       "level": "middle",
       "speakers": [
         "ffaad51498cdf845c5c9f24c4eff0d9b17bba237"
+      ]
+    },
+    {
+      "id": "628e909d0cb98308207c30de",
+      "title": "Kotlin's Exceptional Performance - Lil' Exception Revisited",
+      "languages": [
+        "eng",
+        "es"
+      ],
+      "abstract": "<p>As the adage goes, \"don't use exceptions as control flow\" - but why not? In 2014, Aleksey Shipilëv published \"The Exceptional Performance of Lil' Exception\", an excellent article about the performance characteristics of Java's exception system and how different strategies for managing exceptions fare in varying scenarios in order to demonstrate why the adage exists. Since then, the Kotlin programming language has taken off in popularity, and this language brings several new options for handling exceptions, for example inline classes and sealed classes. With the help of the Java Microbenchmark Harness, this presentation will explore the benefits, drawbacks, and performance characteristics of various exception-handling strategies that can be employed using these Kotlin features.</p>",
+      "type": "talk",
+      "tags": [
+        "Kotlin",
+        "JMH",
+        "Performance"
+      ],
+      "level": "advanced",
+      "speakers": [
+        "8fc3e7dd2d1a897d037ce00e9be96e35a493bd5b"
       ]
     }
   ]
