@@ -180,9 +180,10 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                 <br/>
                                 <h1>FOSS & Diversity Communities</h1>
                                 <div class="post-content" style="width : 100%; ">
-                                    <p>This edition, the JBCNConf team will sponsor a free stand for a few communities representing Free and OpenSource Software projects and also Diversity communities</p>
-                                    <p>These communities will offer information and support for those that want to know more or want to contribute.</p>
-                                    <p>Don't forget to visit them !!!! </p>
+                                    <p>This edition, the JBCNConf team will sponsor a free stand for a few communities representing Free and OpenSource Software projects and also Diversity communities.</p>
+                                    <p>You can ask them about their projects and how to be involved in their initiatives, as a way to contribute back to the communities and make this a better world sharing, learning, helping.
+                                    These communities will offer information and support for those that want to know more or want to contribute.</p><br/>
+                                    <p><em><b>Don't forget to visit them !!!!</b></em></p>
                                     <div class="entries">
                                         {% for entry in site.data.communities %}
                                         <div class="entry entry-{{ entry.company.level }}">
@@ -218,7 +219,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                                         </a>
                                                         {% endif %}
                                                     </div>
-                                                <div><em>{{ entry.company.description | truncate: 300 }}</em></div>
+                                                <div>{{ entry.company.description 0 }}</div>
                                                 </div>
                                             </div>
                                         </div>
