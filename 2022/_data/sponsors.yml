@@ -45,6 +45,16 @@ premium:
     image:
       src: "/assets/img/sponsors/seat-code.png"
       alt: SEAT:CODE
+  - name: Ayden
+    href: https://www.adyen.com/es_ES/?utm_source=Google&utm_medium=Online%20Advertising&utm_campaign=2022.00-SEA-ES-Brand_Related_Es&gclid=CjwKCAjwj42UBhAAEiwACIhADupfrFS2JiXjJEorh8qXLiSgg-Ukjt4MBZfc2js_snyefJze2H9eYBoCx1wQAvD_BwE
+    image:
+      src: "/assets/img/sponsors/ayden.png"
+      alt: Ayden
+  - name: BDTalent
+    href: https://barcelonadigitaltalent.com/
+    image:
+      src: "/assets/img/sponsors/barcelona-digital-talent.png"
+      alt: BDTalent
 regular:
   - name: Capitole Consulting
     href: https://capitole-consulting.com/about/
@@ -96,6 +106,11 @@ regular:
     image:
       src: "/assets/img/sponsors/vmware-horizontal.png"
       alt: VMware Tanzu
+  - name: Twilio
+    href: https://www.twilio.com
+    image:
+      src: "/assets/img/sponsors/twilio.png"
+      alt: Twilio
 basic:
   - name: Capgemini
     href: https://www.capgemini.com/es-es/
@@ -107,10 +122,24 @@ basic:
     image:
       src: "/assets/img/sponsors/elastic.png"
       alt: Elastic
-
+  - name: Lightstep
+    href: https://lightstep.com/
+    image:
+      src: "/assets/img/sponsors/lightstep.png"
+      alt: Lightstep
+  - name: Seqera Labs
+    href: https://seqera.io/
+    image:
+      src: "/assets/img/sponsors/seqera.png"
+      alt: Seqera Labs
 supporters:
   - name: JetBrains
     href: https://www.jetbrains.com/
     image:
       src: "/assets/img/sponsors/jetbrains.png"
       alt: JetBrains
+  - name: CodelyTV
+    href: https://codely.com/pro/jbcnconf22
+    image:
+      src: "/assets/img/sponsors/codely.png"
+      alt: CodelyTV
