@@ -1,0 +1,26 @@
+[
+  {
+    "company": {
+      "name": "Eclipse Foundation",
+      "logo-url": "/assets/img/sponsors/eclipse-foundation.png",
+      "description": "The Eclipse Foundation provides individuals and organizations with a business-friendly environment for open source software collaboration and innovation. The Foundation is home to the Eclipse IDE, Jakarta EE, and over 415 projects, including runtimes, tools, specifications, and frameworks for cloud and edge applications, IoT, AI, automotive, and more. We are a not-for-profit organization supported by over 320 members. Learn more at eclipse.org.",
+    },
+    "links": {
+      "web": " https://www.eclipse.org/",
+      "twitter": "https://twitter.com/EclipseFdn"
+    },
+  },
+  {
+    "company": {
+      "name": "Apache Software Foundation",
+      "logo-url": "/assets/img/sponsors/apache-foundation.jpeg",
+      "description": "Established in 1999, the ASF is a US 501(c)(3) charitable organization, funded by individual donations and corporate sponsors. Our all-volunteer board oversees more than 350 leading Open Source projects, including Apache HTTP Server -- the world's most popular Web server software.
+
+The ASF provides an established framework for intellectual property and financial contributions that limits potential legal exposure for our project committers. Through the ASF's meritocratic process known as `The Apache Way,`` more than 850 individual Members and 8,200 Committers successfully collaborate to develop freely available enterprise-grade software that benefits millions of users worldwide: projects distribute thousands of software solutions under the Apache License; and the community actively participates in ASF mailing lists, mentoring initiatives, and ApacheCon (the Foundation's official user conference), trainings, and other events.",
+    },
+    "links": {
+      "web": "https://www.apache.com/",
+      "twitter": "https://twitter.com/apache",
+    },
+  }
+]
