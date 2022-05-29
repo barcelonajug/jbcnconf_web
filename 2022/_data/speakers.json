@@ -106,6 +106,19 @@
     },
     {
       "enabled": "1",
+      "name": "Gunnar Morling",
+      "company": "Red Hat",
+      "description": "Senior Principal Software Engineer",
+      "biography": "<p>Gunnar Morling is a software engineer and open-source enthusiast by heart. He is leading the Debezium project, a distributed platform for change data capture. He is a Java Champion, the spec lead for Bean Validation 2.0 (JSR 380) and has founded multiple open source projects such as JfrUnit, Layrry, and MapStruct. Gunnar is an avid blogger (morling.dev) and has spoken at a wide range of conferences like QCon, Java One, Devoxx, JavaZone, and many others. He's based in Hamburg, Germany.</p>",
+      "image": "assets/img/speakers/gunnar-morling.jpg",
+      "ref": "44775844c7cf4df6e20eb4b208e13ebdb02a3ef9",
+      "url": "infoSpeaker.html?ref=44775844c7cf4df6e20eb4b208e13ebdb02a3ef9",
+      "homepage": "https://www.morling.dev/",
+      "twitter": "@gunnarmorling",
+      "linkedin": "https://www.linkedin.com/in/gunnar-morling-2b44b7229/"
+    },
+    {
+      "enabled": "1",
       "name": "Birgit Kratz",
       "company": "Birgit Kratz",
       "description": "Freelance",
@@ -496,6 +509,19 @@
     },
     {
       "enabled": "1",
+      "name": "Dimitris FINAS",
+      "company": "ServiceNow Lightstep",
+      "description": "South EMEA Tech Lead",
+      "biography": "<p>Dimitris Finas is Southern EMEA Tech responsible for Lightstep, which is the co-founder of OpenTelemetry with Google. With previous position as DevOps architect and agile project director, Dimitris is an early adopter, technical passionate and eager to deliver highest quality and business results through IT. As speaker at Cloud Expo Europe, CRIP Paris, and other tech events, he shared bottom-up knowledge from implementation to value.</p>",
+      "image": "assets/img/speakers/dimitris-finas.webp",
+      "ref": "34d565db320a6c8f22c1b6c05b18a1aa01ba0796",
+      "url": "infoSpeaker.html?ref=34d565db320a6c8f22c1b6c05b18a1aa01ba0796",
+      "homepage": "",
+      "twitter": "@dfinas101",
+      "linkedin": "https://www.linkedin.com/in/dimitris-finas/"
+    },    
+    {
+      "enabled": "1",
       "name": "Mary Grygleski",
       "company": "DataStax",
       "description": "Streaming Developer Advocate",
@@ -817,6 +843,17 @@
       "twitter": "@jreock",
       "linkedin": "https://www.linkedin.com/in/justinreock/"
     },
+    {
+      "enabled": "1",
+      "name": "Julián Sanchez Mota",
+      "company": "GFT Group",
+      "description": "Data Scientist",
+      "biography": "<p>Data Scientist in GFT Group in the Artificial Intelligence Strategic Initiative team.</p><p>Graduated in Telecommunications Systems, Sound and Image Engineering with a Masters in Artificial Intelligence. Dedicated to developing solutions using Artificial Intelligence, specially in solutions based on Computer Vision and NLP.</p>",
+      "image": "assets/img/speakers/julian-mota.png",
+      "ref": "2a88aa1b1e9f6e4a6c13ddb06f9f72cb48b853c8",
+      "url": "infoSpeaker.html?ref=2a88aa1b1e9f6e4a6c13ddb06f9f72cb48b853c8",
+      "linkedin": "https://www.linkedin.com/in/juliansanchezmota/"
+    },    
     {
       "enabled": "1",
       "name": "Maarten Mulders",
