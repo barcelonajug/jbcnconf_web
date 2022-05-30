@@ -954,7 +954,7 @@
       "speakers": [
         "34d565db320a6c8f22c1b6c05b18a1aa01ba0796"
       ]
-      },
+    },
     {
       "id": "6272e73371e11d0858e82245",
       "title": "Gentle introduction to machine learning algorithms, with examples",
@@ -1068,7 +1068,7 @@
       "speakers": [
         "44775844c7cf4df6e20eb4b208e13ebdb02a3ef9"
       ]
-      },
+    },
     {
       "id": "627c18f226f9720858a38ef3",
       "title": "The Hitchhiker’s Guide to a Great Developer Career",
@@ -1228,6 +1228,27 @@
       "level": "advanced",
       "speakers": [
         "8fc3e7dd2d1a897d037ce00e9be96e35a493bd5b"
+      ]
+    },
+    {
+      "id": "628e980f0cb98308207c30e1",
+      "title": "Accelerate Serverless Java with GraalVM on AWS (Lambda)",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Java is one of the most popular programming languages but seems not to be competitive in terms of start-up time and memory footprint compared to interpreted or natively compiled languages. Both are critical for short-lived serverless functions.</p><p>In this workshop you will learn the concepts, mechanisms and best practices around serverless Java applications. The first part of the workshop covers how to run traditional Java application on AWS and the limitations and challenges involved. In the second part we’ll introduce GraalVM, a high-performance runtime and modify our existing application to gain up to 80% performance improvement during cold-starts.</p>",
+      "type": "workshop",
+      "tags": [
+        "Java",
+        "Cloud",
+        "Serverless",
+        "GraalVM",
+        "Performance"
+      ],
+      "level": "middle",
+      "speakers": [
+        "8ea4327073ae8971f36f2c0d4d962822ad4e4031",
+        "f97f116ba514a6b4bcbda7e6ccae1bb0bde64d6f"
       ]
     }
   ]

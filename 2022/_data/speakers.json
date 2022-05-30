@@ -379,6 +379,19 @@
     },
     {
       "enabled": "1",
+      "name": "Maximilian Schellhorn",
+      "company": "Amazon Web Services",
+      "description": "Solutions Architect",
+      "biography": "<p>Maximilian Schellhorn works as a Solutions Architect at Amazon Web Services. Before that he worked for more than 10 years as a Software Engineer & Architect on distributed system design and monolith-to-microservice transformations. His recent work focuses on migrating, optimizing and running Serverless Java applications on AWS Lambda.</p>",
+      "image": "assets/img/speakers/maximilian-schellhorn.jpg",
+      "ref": "f97f116ba514a6b4bcbda7e6ccae1bb0bde64d6f",
+      "url": "infoSpeaker.html?ref=f97f116ba514a6b4bcbda7e6ccae1bb0bde64d6f",
+      "homepage": "",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/maximilian-schellhorn-46020b162/"
+    },
+    {
+      "enabled": "1",
       "name": "Ivan Krylov",
       "company": "",
       "description": "Software enginner",
@@ -686,6 +699,19 @@
       "homepage": "https://evacchi.github.io",
       "twitter": "@evacchi",
       "linkedin": "https://www.linkedin.com/in/edoardovacchi/"
+    },
+    {
+      "enabled": "1",
+      "name": "Dennis Kieselhorst",
+      "company": "Amazon Web Services",
+      "description": "Senior Solutions Architect",
+      "biography": "<p>Dennis Kieselhorst is a Solutions Architect at Amazon Web Services. He has over 15 years of experience with software architectures, especially in large distributed heterogeneous environments. Dennis loves to contribute to Open Source projects and is a committer and PMC member at Apache Software Foundation. Moreover he is member of the organizing committees for the Java Forum Nord and the Java User Group (JUG) Bremen-Oldenburg. Prior to joing Amazon Dennis worked as a team leader, architect and consultant at a number of enterprise companies in different sectors.</p>",
+      "image": "assets/img/speakers/dennis-kieselhorst.jpg",
+      "ref": "8ea4327073ae8971f36f2c0d4d962822ad4e4031",
+      "url": "infoSpeaker.html?ref=8ea4327073ae8971f36f2c0d4d962822ad4e4031",
+      "homepage": "",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/kieselhorst/"
     },
     {
       "enabled": "1",
