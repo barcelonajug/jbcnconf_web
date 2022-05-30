@@ -23,7 +23,7 @@
                         <ul id="menu-home-1-menu" class="nav navbar-nav">
 
                             {% for menu in site.data.menu.items %}
-
+                            {% if menu.disabled != true %}
                             <li
                                     {% if menu.items %}
                                     data-dropdown="dropdown"
@@ -65,7 +65,7 @@
                                 {% endif %}
 
                             </li>
-
+                            {% endif %}
                             {% endfor %}
 
                             <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children dropdown"

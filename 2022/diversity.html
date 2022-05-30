@@ -32,6 +32,8 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
     <div class="row alternative-row">
       <div class="col-lg-8 col-sm-8 col-xs-12 col-lg-offset-2 col-sm-offset-2">
         <div class="category-post-list post-list single-list">
+          {% assign menu = site.data.menu.items | where: "label", "Diversity" | first %} 
+          {% if menu.disabled != true %}
           <article id="post-294" class="post-294 post type-post status-publish format-standard has-post-thumbnail hentry category-culturel tag-business tag-news tag-congress tag-entertainment">
             <div class="post-wrapper">
               <div class="post-header">
@@ -50,6 +52,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
               </div>
             </div>
           </article>
+          {% endif %}
         </div>
       </div>  
     </div>
