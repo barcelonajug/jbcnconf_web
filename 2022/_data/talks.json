@@ -931,6 +931,31 @@
       ]
     },
     {
+      "id": "6272e56271e11d0858e82244",
+      "title": "OpenTelemetry Real Life Production Examples",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>From real life example of a customer using distributed tracing in production, we will go into details of what were the problems he tried to solve? Why did he select distributed tracing and OpenTelemetry? How was the implementation with success and land mines to avoid? How does it impact the root cause and performance analysis workflows? And finally, what were the technical and business benefits?</p><p>By the end of this talk, you’ll understand -</p><p>•\tvalue distributed tracing and OpenTelemetry can bring in production,</p><p>•\tpitfalls to avoid during implementation,</p><p>•\tdeployed OpenTelemetry architecture principles,</p><p>•\tdifferences and some of the changes it creates in your practices, like impacts on code, logs management, SRE and Dev team organizations.</p>",
+      "type": "talk",
+      "tags": [
+        "#OpenTelemetry",
+        "#Observability",
+        "#Monitoring",
+        "#Microservices",
+        "#Performance",
+        "#RCA",
+        "#Kubernetes",
+        "#Instrumentation",
+        "#UserExperience",
+        "#SRE"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "34d565db320a6c8f22c1b6c05b18a1aa01ba0796"
+      ]
+      },
+    {
       "id": "6272e73371e11d0858e82245",
       "title": "Gentle introduction to machine learning algorithms, with examples",
       "languages": [
@@ -1025,24 +1050,44 @@
       ]
     },
     {
-			"id": "627c18f226f9720858a38ef3",
-			"title": "The Hitchhiker’s Guide to a Great Developer Career",
-			"languages": [
-				"eng"
-			],
-			"abstract": "<p>As developers, our job is to write great code, test code, deploy code, fix code, and even delete code, but nobody told us that there is much more to it if we want to have a great developer career.</p><p>In this talk, Sven and Helen will share their successes and failures during their 20-year careers to date working for various technology companies. You’ll learn about growing your personal brand (what is it good for?), the trials and tribulations of different roles (so many choices), becoming a manager (or not), mentoring and sponsoring (they are not the same thing), how to care for yourself (prevent burnout), and lots more career advice.</p><p>You'll hear about their inevitable bumps in the road (or downright failures), as well as their successes. As it turns out, having a great developer career is not all about the technology and the code; it's also about you and the people around you!</p>",
-			"type": "talk",
-			"tags": [
-				"career",
-				"leadership"
-			],
-			"level": "beginner",
-			"speakers": [
-				"6e6c32699364da6fd090b2002c3e64da4cecacbb",
-				"efddc30dae7a2df8f301c9afbebbb8e0bb3fb27a"
-			]
-		},
-		{
+      "id": "627c18d126f9720858a38ef2",
+      "title": "Keep Your Cache Always Fresh with Debezium!",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>The saying goes that there are only two hard things in Computer Science: cache invalidation, and naming things. Well, turns out the first one is solved actually ;)</p><p>Join us for this session to learn how to keep read views of your data in distributed caches close to your users, always kept in sync with your primary data stores change data capture. You will learn how to</p><ul><li>Implement a low-latency data pipeline for cache updates based on Debezium, Apache Kafka, and Infinispan</li><li>Create denormalized views of your data using Kafka Streams and make them accessible via plain key look-ups from a cache cluster close by</li><li>Propagate updates between cache clusters using cross-site replication</li></ul><p>We'll also touch on some advanced concepts, such as detecting and rejecting writes to the system of record which are derived from outdated cached state, and show in a demo how all the pieces come together, of course connected via Apache Kafka.</p>",
+      "type": "workshop",
+      "tags": [
+        "Apache Kafka",
+        "change data capture",
+        "data streaming",
+        "caching",
+        "microservices"
+      ],
+      "level": "middle",
+      "speakers": [
+        "44775844c7cf4df6e20eb4b208e13ebdb02a3ef9"
+      ]
+      },
+    {
+      "id": "627c18f226f9720858a38ef3",
+      "title": "The Hitchhiker’s Guide to a Great Developer Career",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>As developers, our job is to write great code, test code, deploy code, fix code, and even delete code, but nobody told us that there is much more to it if we want to have a great developer career.</p><p>In this talk, Sven and Helen will share their successes and failures during their 20-year careers to date working for various technology companies. You’ll learn about growing your personal brand (what is it good for?), the trials and tribulations of different roles (so many choices), becoming a manager (or not), mentoring and sponsoring (they are not the same thing), how to care for yourself (prevent burnout), and lots more career advice.</p><p>You'll hear about their inevitable bumps in the road (or downright failures), as well as their successes. As it turns out, having a great developer career is not all about the technology and the code; it's also about you and the people around you!</p>",
+      "type": "talk",
+      "tags": [
+        "career",
+        "leadership"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "6e6c32699364da6fd090b2002c3e64da4cecacbb",
+        "efddc30dae7a2df8f301c9afbebbb8e0bb3fb27a"
+      ]
+    },
+    {
       "id": "627c1b0426f9720858a38ef6",
       "title": "Superman or Ironman - can everyone be a 10x developer?",
       "languages": [
@@ -1083,7 +1128,8 @@
       ],
       "level": "middle",
       "speakers": [
-        "b3da9cdff962b1acbca9868acc10361463f07614"
+        "b3da9cdff962b1acbca9868acc10361463f07614",
+        "2a88aa1b1e9f6e4a6c13ddb06f9f72cb48b853c8"
       ]
     },
     {
@@ -1125,26 +1171,64 @@
         "83000b23dafd750a87d9e4fda12b906fc1e4e734"
       ]
     },
-		{
-			"id": "628554aed7a7c108376c3a67",
-			"title": "Better Understanding through Bytecode",
-			"languages": [
-				"eng"
-			],
-			"abstract": "<p>Getting familiar with complicated technical topics like concurrency or recursion, we often look to abstractions. We boil things down to diagrams with boxes and arrows, tucking the details away for later.</p><p>While often a great starting point, there’s a lot of value in pushing the other direction too. On the JVM, reality isn’t your Java, Kotlin, or Clojure code -- it’s the bytecode running below the surface. Surprisingly, many elusive topics may actually be clearer when we can understand what’s happening at that layer below.</p><p>In this talk, we’ll get up to speed on just enough bytecode reading to start exploring real topics like lost writes from concurrency, tail recursion, and co-routines. We’ll get familiar with the basic tools and opcodes, what to do when the bytecode’s hard to understand, and come away more confident in our ability to understand our systems from top to bottom.</p>",
-			"type": "talk",
-			"tags": [
-				"JVM",
-				"internals",
-				"concurrency",
-				"recursion",
-				"Java",
-				"Kotlin"
-			],
-			"level": "middle",
-			"speakers": [
-				"ffaad51498cdf845c5c9f24c4eff0d9b17bba237"
-			]
-		}
+    {
+      "id": "628551e8d7a7c108376c3a65",
+      "title": "Use Testing to Develop Better Software Faster",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Testing doesn't always get the attention it deserves in software development. Many developers claim to be bad at it, or are just not that interested. (These may or may not be related.)</p><p>As developers, our job is to deliver working software. With the shift to CI/CD and the move to the cloud, the need to have the right feedback at the right time only increases. There are many ways that testing can help us with that. Not only can testing help us verify our solution and prevent us from breaking things, it can also help us design our software, find flaws in our architecture and come up with better solutions. In this talk I will highlight some of the many ways that testing can help you to develop better software faster.</p>",
+      "type": "talk",
+      "tags": [
+        "Jvm",
+        "testing",
+        "architecture",
+        "quality"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "de2cd836ea5980909c79dfc4ea139f8db52b14bb"
+      ]
+    },
+    {
+      "id": "628554aed7a7c108376c3a67",
+      "title": "Better Understanding through Bytecode",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Getting familiar with complicated technical topics like concurrency or recursion, we often look to abstractions. We boil things down to diagrams with boxes and arrows, tucking the details away for later.</p><p>While often a great starting point, there’s a lot of value in pushing the other direction too. On the JVM, reality isn’t your Java, Kotlin, or Clojure code -- it’s the bytecode running below the surface. Surprisingly, many elusive topics may actually be clearer when we can understand what’s happening at that layer below.</p><p>In this talk, we’ll get up to speed on just enough bytecode reading to start exploring real topics like lost writes from concurrency, tail recursion, and co-routines. We’ll get familiar with the basic tools and opcodes, what to do when the bytecode’s hard to understand, and come away more confident in our ability to understand our systems from top to bottom.</p>",
+      "type": "talk",
+      "tags": [
+        "JVM",
+        "internals",
+        "concurrency",
+        "recursion",
+        "Java",
+        "Kotlin"
+      ],
+      "level": "middle",
+      "speakers": [
+        "ffaad51498cdf845c5c9f24c4eff0d9b17bba237"
+      ]
+    },
+    {
+      "id": "628e909d0cb98308207c30de",
+      "title": "Kotlin's Exceptional Performance - Lil' Exception Revisited",
+      "languages": [
+        "eng",
+        "es"
+      ],
+      "abstract": "<p>As the adage goes, \"don't use exceptions as control flow\" - but why not? In 2014, Aleksey Shipilëv published \"The Exceptional Performance of Lil' Exception\", an excellent article about the performance characteristics of Java's exception system and how different strategies for managing exceptions fare in varying scenarios in order to demonstrate why the adage exists. Since then, the Kotlin programming language has taken off in popularity, and this language brings several new options for handling exceptions, for example inline classes and sealed classes. With the help of the Java Microbenchmark Harness, this presentation will explore the benefits, drawbacks, and performance characteristics of various exception-handling strategies that can be employed using these Kotlin features.</p>",
+      "type": "talk",
+      "tags": [
+        "Kotlin",
+        "JMH",
+        "Performance"
+      ],
+      "level": "advanced",
+      "speakers": [
+        "8fc3e7dd2d1a897d037ce00e9be96e35a493bd5b"
+      ]
+    }
   ]
 }
