@@ -129,11 +129,14 @@
                                                 <a href="become-sponsor.html" title="Become Sponsor"><span>Become Sponsor</span></a>
                                               </div>
                                             </td>
+                                            {% assign menu = site.data.menu.items | where: "label", "Diversity" | first %}
+                                            {% if menu.disabled != true %}
                                             <td>
                                                 <div class="counter-box-button" style="background: plum">
-                                                    <a href="diversity.html" title="Diversity sponsorship"><span>Diversity Sponsorship</span></a>
+                                                    <a href="diversity.html" title="Diversity Sponsorship"><span>Diversity Sponsorship</span></a>
                                                 </div>
                                             </td>
+                                            {% endif %}
                                         </tr>
                                     </table>
                                 </div>
