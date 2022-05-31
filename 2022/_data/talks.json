@@ -495,11 +495,11 @@
     },
     {
       "id": "6229173756274e0bddf0079d",
-      "title": "Building Database Applications with Micronaut Data and GraalVM ",
+      "title": "Desarrollando aplicaciones de bases de datos con Micronaut Data y GraalVM",
       "languages": [
-        "eng"
+        "es"
       ],
-      "abstract": "<p>Micronaut Data allows the constructions of slick database applications that target a range of different database workloads from SQL databases to document databases like MongoDB and Oracle Autonomous Database. This presentation by Micronaut creator and Oracle Architect Graeme Rocher will take you through a tour of using Micronaut Data's key features including:</p><ul><li>Persistence to SQL and Document Databases</li><li>Non-blocking database access with R2DBC</li><li>Programmatic and declarative transactions</li><li>Persistence events</li><li>Criteria specifications</li><li>Building native database applications with GraalVM and Native Image</li></ul><p>To get an in-depth tour of Micronaut, Micronaut Data and GraalVM this is the talk for you.</p>",
+      "abstract": "<p>Micronaut Data permite desarrollar aplicaciones de bases de datos elegantes que soportan una amplia gama de diferentes cargas de trabajo, desde bases de datos SQL hasta bases de datos de documentos como MongoDB y Oracle Autonomous Database. Esta presentación del creador de Micronaut y arquitecto de Oracle, Graeme Rocher, te llevará a través de un recorrido por el uso de las funciones clave de Micronaut Data, que incluyen:</p><ul><li>Persistencia a SQL y bases de datos de documentos</li><li>Acceso a la base de datos sin bloqueo con R2DBC</li><li>Transacciones programáticas y declarativas</li><li>Eventos de persistencia</li><li>Especificaciones de criterios (search criteria)</li><li>Creación de aplicaciones de bases de datos nativas con GraalVM y Native Image</li></ul><p>Esta es tu charla si quieres aprender en profundidad sobre Micronaut, Micronaut Data y GraalVM.</p>",
       "type": "talk",
       "tags": [
         "micronaut",
