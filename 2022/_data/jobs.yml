@@ -2,65 +2,122 @@
   {
     "company": {
       "name": "Dynatrace",
-      "logo-url": "/assets/img/sponsors/dynatrace.png",
-      "description": "Dynatrace is the world leader in software intelligence products to simplify enterprise cloud complexity and accelerate digital transformation. We offer solutions such Application performance management, Cloud infrastructure monitoring, IT Operations powered by AI and Digital customer experience.",
+      "logo-url": "/assets/img/sponsors/dynatrace.jpg",
+      "description": "Dynatrace helps the world's largest organizations to create perfect digital solutions with AI-driven, answer-based automation. Dynatrace detects emerging issues and security vulnerabilities in software or IT infrastructures in real time and can trigger automated healing processes.",
       "level": "premium",
     },
     "links": {
       "linkedIn": "https://www.linkedin.com/company/dynatrace/",
       "web": "https://www.dynatrace.com/",
       "instagram": "https://www.instagram.com/dynatracelabs/",
-      "twitter": "https://twitter.com/dynatrace"
+      "twitter": "https://twitter.com/dynatracelabs"
     },
     "vacancies": [
       {
         "title": "Java Software Engineer",
-        "location": "Barcelona, Spain",
-        "description": "<strong>Your role</strong><br/> You will be developing the Dynatrace Digital Experience Monitoring Solution and depending on your preference specialization Full Stack or Server-Backend.<br/> You will be working with high performing pure Java applications; JMH & workload simulators; Cassandra; Elastic Search; JUnit and other unit testing frameworks.<br/> You will also be using other tools like BitBucket / JIRA / Jenkins / QuickBuild  and Confluence.<br/> You, along with your team, will be designing and implementing new features in collaboration with your Product Manager, local and international development teams.<br/> <strong>We expect</strong><br/> You have a technical study related to Software Engineering (BsC or MsC) and / or a minimum of 5 years of experience in Java development, including architectural design.<br/> You are excited of learning new technologies and are a team player with a proactive approach on facing challenges.<br/> Key words: <i>Java | Server-side High Performance Computing | Big Data | Cloud Monitoring | AI-powered | Distributed Systems</i><br/>",
-        "link": "https://jobs.barcelona.dynatrace.com/jobs/2a8e98ee-a080-4b71-b9a9-22faa530535e"
+        "location": "Remote / Barcelona",
+        "description": "<strong>Your role in the team</strong><br/> You will be developing the Dynatrace Digital Experience Monitoring Solution and depending on your preference specialization Full Stack or Server-Backend.<br/> You will be working with high performing pure Java applications; JMH & workload simulators; Cassandra; Elastic Search; JUnit and other unit testing frameworks. You will also be using other tools like BitBucket / JIRA / Jenkins / QuickBuild  and Confluence.<br/> You, along with your team, will be designing and implementing new features in collaboration with your Product Manager, local and international development teams.<br/><br/> <strong>You will love working with us if</strong><br/> You enjoy learning new technologies.<br/> You enjoy following technologies<br/> You take working with agile methods (Scrum) for granted.<br/> You appreciate team spirit, like swapping new ideas with your teammates and an international environment is attractive to you.<br/><br/>We offer competitive salaries depending on your experience, health insurance, merit based salary increase and more.<br/><br/> <strong>We expect</strong><br/>  You have a technical study related to Software Engineering (BsC or MsC) and / or a minimum of 5 years of experience in Java development, including architectural design.<br/>You are excited of learning new technologies and are a team player with a proactive approach on facing challenges.<br/>",
+        "link": "https://careers.dynatrace.com/jobs/4ce097d4-48f0-4908-b1e2-48caf51bf493/"
       },
       {
-        "title": "Android Software Engineer",
-        "location": "Barcelona, Spain",
-        "description": "<strong>Your role</strong><br/> You will join a multidisciplinary team where apart from Mobile you will also have access to the development of the whole end-to-end product<br/> Mobile development for Android (Kotlin)<br/> Knowledge/curiosity for other platforms/technologies is a plus (iOS, Java, Angular …)<br/> Conception of new innovative features in close cooperation with product managers and software architects<br/> Close interaction in an international development team, working with labs in other countries<br/> What we do in the Dynatrace Barcelona Lab<br/> Session Replay which allows organizations to play back unique web or mobile sessions in a “movie-like” experience, providing an end-to-end record of the customer journey from the user’s<br/> perspective. Session Replay is one of the Dynatrace’s best-in-class digital experience monitoring solution.<br/> <strong>We expect</strong><br/> Several years of experience as a Software Engineer, with in-depth knowledge of mobile development, getting projects completed and into production<br/> Team player with a solid level of quality and pride in your own work, responsible and self-sufficient<br/> Passion and pride for what you do<br/> A healthy amount of curiosity, having fun in learning new technologies and tools<br/> Taking beers with the team (just sometimes...) - remote friendly<br/> Key words: <i>Android | Kotlin | Java | Multi-platform | Native | Open Source | Observability | APM</i><br/>",
-        "link": "https://jobs.barcelona.dynatrace.com/jobs/9e3799ef-a63d-43cb-b859-831512378eaa"
+        "title": "Senior Kafka Expert",
+        "location": "Remote / Barcelona",
+        "description": "Apache Kafka is a critical component of the Dynatrace storage system and processes a massive amount of messages in short periods of time. Performance, reliability and security are key aspects to guarantee availability during high-load situations.<br/><br/><strong>Your role Kafka Expert and member of the core platform storage team includes:</strong><br/>Setting up and deploying Kafka in cloud-based environments (AWS, Azure, GCP)<br/>Operating Kafka on scale (sizing, replication, availability zones)<br/>Defining Kafka security and encryption strategies<br/>Kafka monitoring and maintenance in production<br/>Guiding architectural decisions<br/><br/><strong>You will love working with us if:</strong><br/>You enjoy digging in-depth into new technologies.<br/>You prefer an agile environment with flat hierarchies<br/>You like challenges and care for work assignments which are meaningful<br/><br/>We offer competitive salaries based on your experience, health insurance, merit-based pay raises and more.<br/><br/><strong>Qualifications</strong><br/>Technical study related to Software Engineering<br/>A minimum of two years’ experience in Kafka development and operations, including system architecture design<br/>Open to learn new technologies<br/>Proactive team player<br/><br/><strong>We expect:</strong><br/>Several years of experience as a Software Engineer<br/>2+ years of experience in Kafka operated environments<br/>Experience with Kubernetes and AWS<br/>You like to work on high scale systems<br/>You are a motivated problem solver<br/>You bring along a healthy dose of critical thinking<br/>",
+        "link": "https://careers.dynatrace.com/jobs/84b6990f-6027-436f-abfa-97a240957b2f/"
       },
       {
-        "title": "Fullstack Software Engineer",
-        "location": "Barcelona, Spain",
-        "description": "<strong>What we do in Barcelona LAB</strong><br/> Session Replay which allows organizations to play back unique web or mobile sessions in a “movie-like” experience, providing an end-to-end record of the customer journey from the user’s<br/> perspective. Session Replay joins Dynatrace’s Real User and Synthetic Monitoring capabilities to extend the company’s all-in-one digital experience management offering.<br/> <strong>Your role in the team</strong><br/> Web browser Agent development in JavaScript<br/> Data ingestion + Backend development in Java<br/> Conception of new innovative Features in close cooperation with product managers and software architects<br/> Close interaction in an international development team<br/> <strong>We expect</strong><br/> Several years of experience as a Software Engineer, with in-depth knowledge of JavaScript, especially about the inner workings of Web Browsers.<br/> Several years of experience as a Software Engineer building REST endpoints with Java.<br/> You know what SOLID stands for and can give some examples of each principle.<br/> You’re familiar with TypeScript and used it in some of your projects.<br/> You have experience debugging complex issues in a variety of browsers.<br/> In your daily work you use JEST, KARMA, JUNIT or similar tools. You’ve done unit, integration and E2E testing.<br/> HTTP essentials (methods, query params, response codes, …)<br/> Proven track record in building software, getting projects completed and into production.<br/> Passion and pride for what you do.<br/> A healthy amount of curiosity, having fun in learning new Technologies and Tools.<br/> Team player with a solid level of quality and pride in your own work, responsible and self sufficient.<br/>",
-        "link": "https://jobs.barcelona.dynatrace.com/jobs/9a8b42c1-aeb8-4bb9-8bf1-173bd305ceec"
+        "title": "Senior Software Engineer (JavaScript + Java)",
+        "location": "Remote / Barcelona",
+        "description": "If you have fun looking at complex interconnected technologies, solving nontrivial problems in an innovative, elegant way, or sifting through very high dimensional data and displaying it such that it remains intuitive, we want to meet you even more.<br/>We love to learn from you as we hope you would like to learn what we have to offer.<br/><br/><strong>What we do in Barcelona LAB</strong><br/>Session Replay which allows organizations to play back unique web or mobile sessions in a “movie-like” experience, providing an end-to-end record of the customer journey from the user’s perspective. Session Replay joins Dynatrace’s Real User and Synthetic Monitoring capabilities to extend the company’s all-in-one digital experience management offering.<br/><br/><strong>Your role in the team</strong><br/>Web browser Agent development in JavaScript<br/> Data ingestion + Backend development in Java<br/>Conception of new innovative Features in close cooperation with product managers and software architects<br/>Close interaction in an international development team<br/><br/><strong>You will love working with us if</strong><br/>you want to know and use the latest cutting-edge technologies.<br/>agile development and teamwork using Scrum is a given for you.<br/>you like to have fun also at work and are self-motivated.<br/>like to bring in new ideas and to convince others to build.<br/><br/>We offer competitive salaries depending on your experience, health insurance, merit based salary increase and more.<br/>",
+        "link": "https://careers.dynatrace.com/jobs/a724f895-c208-41fa-ac3d-b2ef45c7a86a/"
+      },
+      {
+        "title": "Senior Automation Engineer",
+        "location": "Remote / Barcelona",
+        "description": "<strong>Your role in the team</strong><br/>Development of nontrivial test scenarios and UI test execution and automation with the objective of reducing manual software testing<br/>Explorative and experience-based application of our web-based product Dynatrace<br/>Extension of our test framework based on Selenium WebDriver<br/>Feedback on development and product management for future product development and enhancements<br/>Close cooperation with the development teams concerning testing and test automation<br/><br/><strong>We expect</strong><br/>Completed Software Engineering Education<br/>Experienced in development and / or software testing<br/>Deep Java knowledge required<br/>Enjoy the design and implementation of test scenarios<br/>Proactive team player with high quality awareness<br/><br/><strong>You will love working with us if</strong><br/>you are looking for challenging tasks with the latest technologies.<br/>you are attracted by an international environment.<br/>agile development methods (Scrum) are a matter of course for you.<br/>you like to work in a team and appreciate an open exchange.<br/>you like to introduce new product ideas and proactively implement them.<br/><br/>We offer competitive salaries depending on your experience, health insurance, merit based salary increase and more.<br/>",
+        "link": "https://careers.dynatrace.com/jobs/57b6c54e-0c86-476c-b33a-db005c2fe60f/"
       }
     ]
   },
   {
     "company": {
-      "name": "Capgemini",
-      "logo-url": "/assets/img/sponsors/capgemini.jpg",
-      "description": "Capgemini is a global leader in partnering with companies to transform and manage their business by harnessing the power of technology. The Group is guided everyday by its purpose of unleashing human energy through technology for an inclusive and sustainable future",
-      "level": "premium",
+      "name": "idealista",
+      "logo-url": "/assets/img/sponsors/idealista.jpg",
+      "description": "idealista es el principal punto de encuentro para todas aquellas personas que buscan una vivienda (o local, edificio...) ya sea en compra o en alquiler. Llevamos desde el año 2000 ayudando a todos nuestros usuari@s a superar la ansiedad y la frustración que supone encontrar un hogar.",
+      "level": "regular",
     },
     "links": {
-      "web": "https://www.capgemini.com/",
-      "twitter": "https://twitter.com/CapgeminiEng",
-      "instagram": "https://www.instagram.com/capgeminiengineeringes/",
-      "linkedIn": "https://www.linkedin.com/company/capgemini-engineering/"
+      "web": "https://www.idealista.com/"
     },
     "vacancies": [
       {
-        "title": "Technical Lead",
-        "description": "Estamos buscando una persona con experiencia liderando técnicamente equipos, ¿eres tú?",
-        "link": "https://www.infojobs.net/madrid/technical-lead/of-i604336eee94928b8f3a718b8086483"
+        "title": "Backend Developer",
+        "location": "Remote",
+        "description": "¿Eres un apasionado de la programación?<br/>Sí te gusta estar rodeado de buen@s compañer@s, trabajar con buen rollo y en un ambiente colaborativo ¡sigue leyendo! seguro que idealista te va a gustar 😉<br/><br/><strong>¿Qué harás?</strong><br/>Trabajarás junto a tus compañer@s del equipo desarrollando nuevas funcionalidades. Además, trabajarás codo con codo con nuestro equipo de producto y UX para aportar una visión técnica a las soluciones que definamos para los mismos.<br/>Ayudarás a que la plataforma esté estable…Sí, en idealista también tenemos bugs, así que tendrás que ayudar a identificarlos y solucionarlos.<br/><br/><strong>¿Qué esperamos de ti?</strong><br/>Tienes al menos 1 año de experiencia desarrollando el backend de alguna aplicación, y nos puedes hablar de ello.<br/>Nosotr@s trabajamos principalmente con Java y Spring pero lo que de verdad nos interesa es que tengas ciertos fundamentos de programación bien asentados: no importa con lo que qué hayas trabajado hasta ahora.<br/>No te quedas en el “con que funcione vale”. Nosotr@s damos mucho valor tanto a las buenas prácticas, como a definir diseños y arquitecturas que nos permitan extender la plataforma de manera sostenible.<br/>Te gusta este mundillo.<br/>Tienes curiosidad e iniciativa. Al final, este trabajo va de los problemas que somos capaces de resolver y de cómo logramos hacerlo. Así que se espera de ti que seas capaz de analizar, preguntar, pedir ayuda (y ofrecerla), y saber plantear soluciones a los mismos.<br/><br/>¿Aceptas el reto?<br/>",
+        "link": "https://www.linkedin.com/jobs/view/3062108675/?alternateChannel=search&refId=KiWjG%2FVehGaFbu%2BAd99nmA%3D%3D&trackingId=YutOQJbxRiTDWLJESRx%2FHA%3D%3D"
       },
       {
-        "title": "Full Stack Senior Developer",
-        "description": "Buscamos expertos para el desarrollo de varios proyectos, estarán involucrad@s en la definición y creación de soluciones técnicas en las tecnologías indicadas para clientes TOP. ¿Hablamos?",
-        "link": "https://www.linkedin.com/jobs/search/?currentJobId=2652958451&keywords=capgemini"
+        "title": "DevOps Engineer",
+        "location": "Remote",
+        "description": "Incorporamos al equipo un/una DevOps engineer, familiarizad@ con el uso de buenas prácticas, para integrarse en nuestro equipo de plataforma/arquitectura, apoyando en tareas de automatización, monitorización e integración y despliegue continuo.<br/><br/><strong>Además si eres...</strong><br/>Positiv@, colaborativ@, innovador/a y honest@.<br/>Experiencia o interés en desarrollarte como DevOps engineer :)<br/>Te sientes muy cómod@ trabajando con sistemas de gestión de configuración (preferiblemente Ansible).<br/>Usas Git sin problemas: creas ramas, commiteas y haces PRs con los ojos cerrados<br/>Tienes experiencia con sistemas de integración continua (Jenkins).<br/>Te gusta el software libre: https://github.com/idealista<br/><br/><strong>Requisitos deseables:</strong><br/>Experiencia en lenguajes de la JVM<br/>Monitorización/alerting (preferiblemente Prometheus)<br/>Automatización de creación de infraestructura (preferiblemente Terraform)<br/>Sabes crear entornos de desarrollo/test con Docker.<br/>Tienes nociones de Quality Management (SonarQube)<br/>Experiencia en sistemas UNIX<br/><br/>¡Estamos deseando conocerte y que nos conozcas!<br/>",
+        "link": "https://www.linkedin.com/jobs/view/3062107612/?alternateChannel=search&refId=KiWjG%2FVehGaFbu%2BAd99nmA%3D%3D&trackingId=Y3yhmkbeSlpXYxK%2BXnBjyg%3D%3D"
+      }
+    ]
+  },
+  {
+    "company": {
+      "name": "Wallapop",
+      "logo-url": "/assets/img/sponsors/wallapop.jpg",
+      "description": "Wallapop is a Barcelona-based scale-up driven by the purpose to empower people to embrace a more conscious and human way of consumption. Wallapop operates in Spain and Italy, offering a catalog of several hundreds of millions of products and services.",
+      "level": "regular",
+    },
+    "links": {
+      "linkedIn": "https://www.linkedin.com/company/wallapop/",
+      "web": "https://apply.workable.com/wallapop/",
+      "instagram": "https://www.instagram.com/wallapop/",
+      "twitter": "https://twitter.com/wallapop"
+
+    },
+    "vacancies": [
+      {
+        "title": "Backend Engineer",
+        "location": "Barcelona",
+        "description": "<strong>Our Challenge</strong><br/>Some of the interesting things we are currently doing include finding new ways to handle with complexity or improve resiliency. We use many different AWS technologies (computer, storage ...) to archive our goals. As a Wallapop Backend engineer, we have ownership of the team microservices, so we really embrace DevOps philosophy (optionally backend stuff is who are on duty). It’s difficult to explain our stack but the most important parts are:<br/>Java & Kotlin<br/>Spring & Axon Framework<br/>RabbitMQ<br/>MySql, DynamoDB, Redis & Memcached<br/>Docker<br/>ElasticSearch & Solr<br/>AWS: S3, ECS, CloudWatch, RDS, CloudFormation, Lambdas & more<br/><br/><strong>What You Will Do</strong><br/>Writing Java or Kotlin code, it depends on the team, the stack could change a little bit<br/>Developing new features following DDD (tactical design and strategical design)<br/>Tackling legacy parts<br/>Testing all the things! Testing is a must, especially if you want to avoid those friendly reminders during the code review<br/><br/><strong>What We’re Looking For</strong><br/>Problem solver and critical thinking<br/>Quality-driven, attention to detail, and pragmatic ̣<br/>Adaptable and eager to learn<br/>A sense of humor: we like having fun doing what we love :)<br/>",
+        "link": "https://apply.workable.com/wallapop/j/40A3A50067/"
       },
       {
-        "title": "Desarrollador/a API Swagger",
-        "description": "Actualmente estamos buscando una persona con experiencia en desarrollo y diseño de API para formar parte de un equipo especializado en esta tecnología. ¿quieres conocerlo?",
-        "link": "https://www.infojobs.net/madrid/desarrollador-api-swagger/of-i89f504591148c1bd5c892d59abd1ae"
+        "title": "Backend Tech Lead",
+        "location": "Barcelona",
+        "description": "<strong>Our Challenge</strong><br/>As a Backend Tech Lead, you will contribute to construct a team culture, with the rest of the technical leads, based on a continuous improvement attitude, trust and a self-empowerment philosophy. So, among others, you will drive teammates to have a complete ownership of the services embracing DevOps philosophy.<br/>One of the current challenges is working completely remote since COVID-19 and improving the communications and documentation inside the company about technical achievements and possible issues.<br/>Some of the interesting things we are currently doing at technical level, include finding new ways to handle complexity, improve resiliency and escalate the team.<br/>It's difficult to explain our stack but the most important parts are:<br/>Kotlin & Java<br/>Spring, Axon Framework & Ktor<br/>RabbitMQ<br/>MySql, DynamoDB, Redis & Memcached<br/>Docker<br/>ElasticSearch & Solr<br/>Kibana, Grafana, InfluxDB & Prometheus<br/>AWS: S3, ECS, CloudWatch, RDS, CloudFormation, Lambdas & more<br/><br/><strong>What You Will Do</strong><br/>Write and review some Java or Kotlin code helping other teammates<br/>Tackling legacy parts and handling tech debt backlog<br/>Help teams with mid and long term technical plans<br/>Promote best practices across teams (DDD, event-driven architectures, testing, monitoring…)<br/>Mentoring other teammates to get the better of them<br/>",
+        "link": "https://apply.workable.com/wallapop/j/C17B2DFB8B/"
+      }
+    ]
+  },
+  {
+    "company": {
+      "name": "Adaptive",
+      "logo-url": "/assets/img/sponsors/adaptive-logo.png",
+      "description": "At Adaptive, we partner with capital and commodity market participants that value differentiation through technology. Our experienced teams design and deliver complex solutions, using our proven accelerators, creating a long-term competitive advantage for our clients.",
+      "level": "regular",
+    },
+    "links": {
+      "linkedIn": "https://www.linkedin.com/company/adaptive-consulting-ltd/",
+      "web": "https://weareadaptive.com/",
+      "twitter": "https://twitter.com/WeAreAdaptive"
+
+    },
+    "vacancies": [
+      {
+        "title": "Senior Java Developer",
+        "location": "Barcelona",
+        "description": "We are looking for senior Java developers to join us and work on our greenfield projects that will deliver a next-generation back office system for a major custodial bank. The platform will be delivered with a modern technology stack throughout. This includes a reactive front-end and Java back-end. Adaptive has unique experience delivering similar platforms and the person in this role will be crucial to leveraging that internal knowledge and driving the delivery directly in partnership with the client and their senior management.<br/><br/><strong>You will be:</strong><br/>Participating in the team effort to build and release quality financial software in a timely manner.<br/>Involved in the technical design and implementation of a distributed, multi-region, multi-platform microservices based architecture.<br/>Working in a test-driven environment, part of an agile cross-functional squad.<br/>",
+        "link": "https://weareadaptive.com/careers/jobs/?job=3100163"
+      },
+      {
+        "title": "Senior SRE/DevOps Engineer",
+        "location": "Barcelona",
+        "description": "Adaptive has a growing number of projects using the Hydra trading platform in multiple locations. Hydra is a framework built on top of Aeron messaging for building low-latency systems such as exchanges or workflow engines.<br/>We are looking for a candidate to be part of the ops team, and participate in defining infrastructure best practices in both Hydra infrastructure development and testing, as well as client infrastructure and Adaptive hosted Hydra projects. You will report directly to the Head of Operations. <br/>Ideally, we would need to see strong experience within projects building, testing and running custom database or other persistent data services in cloud environments, using immutable infrastructure principles.<br/><br/><strong>You will be:</strong><br/>Making Hydra-based projects easy to deploy and manage, through automation & standardisation.<br/>Participating in best practice definition for Hydra based project installations.<br/>Guiding the development team in best practice CI/CD, and full system testing.<br/>Supporting projects solutions and support teams, maintaining the infrastructure, and using lessons learnt to improve best practices.<br/>Enhancing cloud services operations and monitoring to be as proactive as possible.<br/>Troubleshooting cloud infrastructure, identifying issues and assisting in their timely resolution.<br/>Maintaining strict adherence to security policies within the organisation.<br/>Designing maintenance procedures and operational guide.<br/>Testing, evaluating and implementing new technologies.<br/>",
+        "link": "https://weareadaptive.com/careers/jobs/?job=3629510"
       }
     ]
   }
