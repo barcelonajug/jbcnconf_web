@@ -1249,6 +1249,25 @@
       ]
     },
     {
+      "id": "628e97bf0cb98308207c30e0",
+      "title": "Approaching OAuth 2 with Spring Security and the new authorization server",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>The new Spring Security authorization server is out there and you can use it in production. Hoooray! For a long time, after the Spring Security OAuth project deprecation, the community was surrounded by confusion around what to use for implementing an authorization server. The confusion is over know since the new Spring Security authorization server is out and ready for you to use it. I invite you to a 2-hours workshop in which we apply and test or the grant types relevant to real-world applications using the new Spring Security authorization server framework to build our own, custom authorization server.</p>",
+      "type": "talk",
+      "tags": [
+        "OAuth2",
+        "Spring Security",
+        "OpenID Connect",
+        "Spring Security Authorization Server"
+      ],
+      "level": "middle",
+      "speakers": [
+        "5a2f5a3fa8dca8de734654345a181ee5399fc961"
+      ]
+    },
+    {
       "id": "628e980f0cb98308207c30e1",
       "title": "Accelerate Serverless Java with GraalVM on AWS (Lambda)",
       "languages": [

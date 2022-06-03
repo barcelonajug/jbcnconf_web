@@ -288,6 +288,19 @@
     },
     {
       "enabled": "1",
+      "name": "Laurentiu Spilca",
+      "company": "Endava",
+      "description": "Development Lead",
+      "biography": "<p>Who am I?</p><p>I'm a dedicated development lead and trainer at Endava, where I lead the development of various projects used in various places in the world, from Europe to US, and Asia.</p><p>As a Java instructor, I delivered thousands of hours of training to 3000+ students in the past 10 years, recently being involved in courses at the Mathematics and Informatics Faculty of Bucharest University. During a previous couple of years, I delivered presentations, tutorials, and workshops at different important events around the world: in Bucharest, New York, San Francisco, Warsaw, Belgrad, Berlin, and many more.</p><p>Recently, I released together with Manning Publications the book “Spring Security In Action”, and I am currently working on my second book, \"Spring Start Here\".</p><p>Outside of work, I'm passionate about traveling, music, and scuba diving.</p>",
+      "image": "assets/img/speakers/laurentiu-spilca.gif",
+      "ref": "5a2f5a3fa8dca8de734654345a181ee5399fc961",
+      "url": "infoSpeaker.html?ref=5a2f5a3fa8dca8de734654345a181ee5399fc961",
+      "homepage": "https://laurspilca.com/",
+      "twitter": "@laurspilca",
+      "linkedin": "https://www.linkedin.com/in/lauren%C5%A3iu-spilc%C4%83-01a931107/"
+    },
+    {
+      "enabled": "1",
       "name": "Heather VanCura",
       "company": "JCP/Oracle",
       "description": "Senior Director",
