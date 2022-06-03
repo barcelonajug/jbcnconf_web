@@ -275,6 +275,19 @@
     },
     {
       "enabled": "1",
+      "name": "Ionut Balosin",
+      "company": "Raiffeisen Bank International",
+      "description": "Software Architect",
+      "biography": "<p>I am a software architect, independent technical trainer, and security champion. I regularly speak at software development conferences and meetups around the world, delivering presentations, training courses, and workshops. For more information please visit my website www.ionutbalosin.com</p>",
+      "image": "assets/img/speakers/ionut-balosin.jpg",
+      "ref": "3932177414abf39b49cc295816a61762874d8b1e",
+      "url": "infoSpeaker.html?ref=3932177414abf39b49cc295816a61762874d8b1e",
+      "homepage": "https://ionutbalosin.com/",
+      "twitter": "@ionutbalosin",
+      "linkedin": "https://at.linkedin.com/in/ionutbalosin"
+    },
+    {
+      "enabled": "1",
       "name": "Heather VanCura",
       "company": "JCP/Oracle",
       "description": "Senior Director",

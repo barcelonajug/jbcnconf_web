@@ -1191,6 +1191,24 @@
       ]
     },
     {
+      "id": "62855388d7a7c108376c3a66",
+      "title": "Techniques for a faster JVM start-up",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>During this session, I will discuss a few techniques about how to improve the JVM start-up time for any application running on the JVM, independent of the programming language. These techniques could be applied in any project, in general without code changes. You can use the same techniques to speed up the JVM start-up time for your applications (both in development and production environments).</p><p>Main topics:</p><p>when the JVM start-up matters (i.e. for what types of applications)</p><p>application class-data sharing (AppCDS)</p><p>Ahead-of-time (AOT) compilation</p><p>few handy JVM flags</p><p>hands-on demonstration (including benchmarks results)</p><p>The JVMs included in this talk are OpenJDK HotSpot and Graal VM.</p>",
+      "type": "talk",
+      "tags": [
+        "performance",
+        "start-up",
+        "JVM"
+      ],
+      "level": "middle",
+      "speakers": [
+        "3932177414abf39b49cc295816a61762874d8b1e"
+      ]
+    },
+    {
       "id": "628554aed7a7c108376c3a67",
       "title": "Better Understanding through Bytecode",
       "languages": [
