@@ -131,7 +131,12 @@ basic:
     href: https://seqera.io/
     image:
       src: "/assets/img/sponsors/seqera.png"
-      alt: Seqera Labs
+      alt: Seqera Labs  
+  - name: Zara Tech
+    href: https://techteams.es/
+    image:
+      src: "/assets/img/sponsors/zara-tech.png"
+      alt: Zara Tech
 startup:
   - name: ApiumHub
     href: https://apiumhub.com/
