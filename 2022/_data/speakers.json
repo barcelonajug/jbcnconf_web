@@ -652,6 +652,19 @@
     },
     {
       "enabled": "1",
+      "name": "Carlos Saona Vázquez",
+      "company": "Edreams Odigeo",
+      "description": "Chief Architect",
+      "biography": "<p>Carlos is the Chief Architect at eDreams Odigeo, the largest online travel agency in Europe, where he has led architectural transformations such as the migration to microservices, the movement to cloud and Kubernetes, the adoption of chaos engineering and now the creation of a data mesh. Before eDreams, Carlos served in multiple leading technical roles in health care, computer security and video game companies designing distributed, scalable and fault-tolerant systems</p>",
+      "image": "assets/img/speakers/carlos-saona.jpg",
+      "ref": "995deafb6a160f93df5d5e8906e6be02205373d5",
+      "url": "infoSpeaker.html?ref=995deafb6a160f93df5d5e8906e6be02205373d5",
+      "homepage": "",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/carlos-saona-vazquez"
+    },
+    {
+      "enabled": "1",
       "name": "Guillem Plasencia Gallofré",
       "company": "Adaptive Financial Consulting",
       "description": "Senior software developer & Data scientist",

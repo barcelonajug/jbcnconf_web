@@ -1249,6 +1249,23 @@
       ]
     },
     {
+      "id": "628e91130cb98308207c30df",
+      "title": "Nuestro viaje a Data Mesh: impulsando los datos en un mundo de microservicios",
+      "languages": [
+        "es"
+      ],
+      "abstract": "<p>En esta charla hablaremos de arquitecturas de microservicios y su relación con BigData.</p><p>¿Crees que tienes demasiadas dependencias entre tus microservicios? ¿Tienes pipelines de extracción de datos y te preocupa el sobreesfuerzo de mantenerlos? ¿Quieres adoptar Machine Learning masivamente y te preguntas cómo conectar los datos de tus microservicios a los procesos de training de ML? ¿Has implementado un Data Lake pero tienes dudas sobre la calidad de los datos o del coste de mantenerlo?</p><p>En esta charla compartiremos nuestras experiencias evolucionando nuestra arquitectura desde un monolito (2008) a microservicios (más de 250 actualmente), de los problemas que esta evolución causó en los pipelines de datos para los equipos de análisis (Data Science, BI), de las diferentes soluciones que consideramos para solucionarlos, y de por qué decidimos adoptar el paradigma de Data Mesh.</p><p>El paradigma de Data Mesh se publicó en 2019 en el blog de Martin Fowler, pero hay pocos ejemplos públicos de cómo llevarlo a cabo. Presentaremos cómo hemos implementado el Data Mesh, incluyendo los principios, la arquitectura, el stack tecnológico, y los flujos de datos entre los microservicios y la plataforma de datos. Explicaremos cómo hemos solucionado los retos de trazabilidad, privacidad, normativa PCI, costes, tiempos de respuesta y mantenimiento en eDreams ODIGEO, la segunda agencia de viajes del mundo en vuelos.</p>",
+      "type": "talk",
+      "tags": [
+        "#Microservices",
+        "#GCE"
+      ],
+      "level": "middle",
+      "speakers": [
+        "995deafb6a160f93df5d5e8906e6be02205373d5"
+      ]
+    },
+    {
       "id": "628e97bf0cb98308207c30e0",
       "title": "Approaching OAuth 2 with Spring Security and the new authorization server",
       "languages": [
