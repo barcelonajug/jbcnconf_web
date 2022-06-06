@@ -142,6 +142,11 @@ startup:
     href: https://apiumhub.com/
     image:
       src: "/assets/img/sponsors/apiumhub.png"
+      alt: apiumhub  
+  - name: CaixaBank Tech
+    href: https://www.peoplexperiencehub.com/caixabanktech
+    image:
+      src: "/assets/img/sponsors/caixabank-tech.png"
       alt: apiumhub
 supporters:
   - name: JetBrains
