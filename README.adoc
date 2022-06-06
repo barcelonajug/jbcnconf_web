@@ -17,7 +17,7 @@ This repository holds the public website for the link:http://www.jbcnconf.com/[J
 == Building the website
 
 The site is build with the link:https://jekyllrb.com/[Jekyll] and published with GitHub pages.
-To run it you need to setup a basic Ruby (up to 2.7.x) environment.
+To run it you need to set up a basic Ruby (up to 2.7.x) environment.
 
 For Linux and MacOS, the recommended way to install Ruby is with link:https://rvm.io/[RVM].
 For Windows you can use link:https://rubyinstaller.org/[RubyInstaller] or the link:https://chocolatey.org/packages?q=ruby[chocolately package].
@@ -100,6 +100,11 @@ jekyll serve
 You can publish the site in your cloned repo to see the result of your changes.
 
 First, enable GitHub pages in your forked repository and set it to publish to the gh-pages branch.
+
+== Publication
+
+Changes are published directly from `main` branch.
+Make sure everything is correct before merging into it.
 
 == Generating a new Edition
 
