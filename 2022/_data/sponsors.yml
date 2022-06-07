@@ -111,6 +111,11 @@ regular:
     image:
       src: "/assets/img/sponsors/twilio.png"
       alt: Twilio
+  - name: Allianz Technology
+    href: https://careers.allianz.com/go/Allianz-Technology/5123701/
+    image:
+      src: "/assets/img/sponsors/allianz-technology.png"
+      alt: Allianz Technology
 basic:
   - name: Capgemini
     href: https://www.capgemini.com/es-es/
@@ -131,7 +136,7 @@ basic:
     href: https://seqera.io/
     image:
       src: "/assets/img/sponsors/seqera.png"
-      alt: Seqera Labs  
+      alt: Seqera Labs
   - name: Zara Tech
     href: https://techteams.es/
     image:
@@ -142,7 +147,7 @@ startup:
     href: https://apiumhub.com/
     image:
       src: "/assets/img/sponsors/apiumhub.png"
-      alt: apiumhub  
+      alt: apiumhub
   - name: CaixaBank Tech
     href: https://www.peoplexperiencehub.com/caixabanktech
     image:
