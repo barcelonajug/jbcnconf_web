@@ -142,6 +142,11 @@ basic:
     image:
       src: "/assets/img/sponsors/zara-tech.png"
       alt: Zara Tech
+  - name: N26
+    href: https://grnh.se/00e9bc1d1us
+    image:
+      src: "/assets/img/sponsors/n26.png"
+      alt: N26
 startup:
   - name: ApiumHub
     href: https://apiumhub.com/
