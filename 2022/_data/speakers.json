@@ -509,6 +509,19 @@
     },
     {
       "enabled": "1",
+      "name": "Michał Płachta",
+      "company": "Functional Club",
+      "description": "Software Engineer",
+      "biography": "<p>Polyglot software engineer focused on delivering useful and maintainable applications. Author of “Grokking Functional Programming”.</p>",
+      "image": "assets/img/speakers/michal-plachta.jpg",
+      "ref": "c5ec49ea9516fdcd9aad629778979043b2fe331e",
+      "url": "infoSpeaker.html?ref=c5ec49ea9516fdcd9aad629778979043b2fe331e",
+      "homepage": "https://michalplachta.com",
+      "twitter": "@miciek",
+      "linkedin": "https://www.linkedin.com/in/plachta/"
+    },
+    {
+      "enabled": "1",
       "name": "Tanja Obradovic",
       "company": "Eclipse Foundation",
       "description": "Jakarta EE Program Manager",
