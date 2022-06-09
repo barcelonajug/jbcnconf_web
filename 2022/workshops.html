@@ -42,34 +42,8 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
 
                             </div>
                             <div class="post-content">
-
-                                {% for talk in site.data.talks.items %}
-
-                                {% if talk.type contains "workshop" %}
-
-                                <a href="{{base}}/infoTalk.html?id={{talk.id}}">
-                                    <b>{{talk.title}}</b> by
-                                </a>
-                                {% for speakerRef in talk.speakers %}
-                                {% for speaker in site.data.speakers.items %}
-
-                                {% if speakerRef == speaker.ref %}
-                                <a href="{{base}}/{{speaker.url}}" style="text-decoration: underline;">{{ speaker.name }}</a>
-                                {% endif %}
-                                {% endfor %}
-                                {% endfor %}
-
-                                </br>
-                                Level: {{talk.level}}
-                                {% for tag in talk.tags %}
-                                <span class="label tag label-info" data-tag="{{tag}}">{{ tag }}</span>
-                                {% endfor %}
-
-                                </br>
-
-                                {% endif %}
-                                {% endfor %}
-
+                                {% assign talk_list = site.data.talks.items | where: "type", "workshop" %}
+                                {% include talks/talk-item-list.html talks=talk_list %}
                             </div>
                         </div>
                     </article>

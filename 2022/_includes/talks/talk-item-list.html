@@ -1,0 +1,48 @@
+<div class="talks-list">
+    {% for talk in include.talks %}
+    {% assign talk_language = talk.languages.first %}
+    <div class="talk-list--item">
+        <div class="inner-content">
+            <div class="talk-item-preheader">
+                <div class="talk-level">
+                    <i class="fa fa-lg fa-signal" aria-hidden="true"></i> Level: {{talk.level}}
+                </div>
+                <div class="talk-language">
+                    <i class="fa fa-lg fa-language" aria-hidden="true"></i> 
+                    {% case talk_language %}
+                        {% when "eng" %}
+                            English
+                        {% when "es" %}
+                            Spanish
+                        {% else %}
+                            {{talk_language}}
+                    {% endcase %}
+                </div>
+            </div>
+            <div class="talk-item-header">
+
+                {% if talk.video %}
+                    <a href="{{talk.video}}"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                {% endif %}
+
+                <a href="{{base}}/infoTalk.html?id={{talk.id}}">
+                    <h3>{{talk.title}}</h3> by
+                </a>
+                {% for speakerRef in talk.speakers %}
+                {% for speaker in site.data.speakers.items %}
+
+                {% if speakerRef == speaker.ref %}
+                    <a href="{{base}}/{{speaker.url}}" style="text-decoration: underline;">{{ speaker.name }}</a>
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+            </div>
+            <div class="talk-item-footer">
+                {% for tag in talk.tags %}
+                <span class="label tag label-info" data-tag="{{tag}}">{{ tag }}</span>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
