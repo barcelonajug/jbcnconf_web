@@ -1172,6 +1172,30 @@
       ]
     },
     {
+      "id": "628551c9d7a7c108376c3a64",
+      "title": "Immutability Against The Machine",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Immutability has taken over the software world. Programmers are using immutable values to make their products more maintainable. They are able to focus on higher-level architectural problems instead of hard-to-debug accidental mutations.</p><p>However, the software we write often needs to run on a real machine. It needs state, it needs to do many things at once using multiple threads, and it needs to acquire some resources like sockets or files. Moreover, it needs to clean after itself in any condition, even when things go awry, making sure it never leaks memory or resources. We may be tempted to say that solving these concerns requires some old-school mutations. But it doesn’t!</p><p>In this talk we will show a real-world application that uses state, multiple threads, and resources. We will use real data from an external Wikidata service, make sure we conform to the API limits, implement a cache, and make sure we release all unneeded connections along the way. Most importantly, all this is going to be modelled as immutable values!</p>",
+      "type": "talk",
+      "tags": [
+        "design principles",
+        "APIs",
+        "debugging",
+        "functional programming",
+        "cache",
+        "memory leaks",
+        "scala",
+        "architecture",
+        "immutability"
+      ],
+      "level": "advanced",
+      "speakers": [
+        "c5ec49ea9516fdcd9aad629778979043b2fe331e"
+      ]
+    },
+    {
       "id": "628551e8d7a7c108376c3a65",
       "title": "Use Testing to Develop Better Software Faster",
       "languages": [
