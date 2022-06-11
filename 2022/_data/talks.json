@@ -1295,7 +1295,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "<p>The new Spring Security authorization server is out there and you can use it in production. Hoooray! For a long time, after the Spring Security OAuth project deprecation, the community was surrounded by confusion around what to use for implementing an authorization server. The confusion is over know since the new Spring Security authorization server is out and ready for you to use it. I invite you to a 2-hours workshop in which we apply and test or the grant types relevant to real-world applications using the new Spring Security authorization server framework to build our own, custom authorization server.</p>",
+      "abstract": "<p>The new Spring Security authorization server is out there and you can use it in production. Hoooray! For a long time, after the Spring Security OAuth project deprecation, the community was surrounded by confusion around what to use for implementing an authorization server. The confusion is over know since the new Spring Security authorization server is out and ready for you to use it. I invite you to a talk in which we'll see how to apply grant types relevant to real-world applications using the new Spring Security authorization server framework to build our own, custom authorization server.</p>",
       "type": "talk",
       "tags": [
         "OAuth2",
