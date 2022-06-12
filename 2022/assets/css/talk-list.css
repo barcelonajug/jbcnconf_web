@@ -1,0 +1,37 @@
+.talk-list--item {
+    margin-bottom: 25px;
+    border: 1px solid #d5d5d5;
+    padding: 16px;
+    border-radius: 5px;
+}
+
+.talk-item-preheader {
+    padding-bottom: 8px;
+}
+
+.talk-item-preheader > div {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.talk-item-header {
+    padding-bottom: 7px;
+}
+
+.talk-item-header h3 {
+    margin: 0;
+    display: inline;
+    color: inherit;
+}
+
+.talk-language .fa,
+.talk-level .fa {
+    margin-right: 5px;
+}
+
+.talk-item-preheader.detail {
+    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-left: 5px;
+}

@@ -1172,6 +1172,30 @@
       ]
     },
     {
+      "id": "628551c9d7a7c108376c3a64",
+      "title": "Immutability Against The Machine",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Immutability has taken over the software world. Programmers are using immutable values to make their products more maintainable. They are able to focus on higher-level architectural problems instead of hard-to-debug accidental mutations.</p><p>However, the software we write often needs to run on a real machine. It needs state, it needs to do many things at once using multiple threads, and it needs to acquire some resources like sockets or files. Moreover, it needs to clean after itself in any condition, even when things go awry, making sure it never leaks memory or resources. We may be tempted to say that solving these concerns requires some old-school mutations. But it doesn’t!</p><p>In this talk we will show a real-world application that uses state, multiple threads, and resources. We will use real data from an external Wikidata service, make sure we conform to the API limits, implement a cache, and make sure we release all unneeded connections along the way. Most importantly, all this is going to be modelled as immutable values!</p>",
+      "type": "talk",
+      "tags": [
+        "design principles",
+        "APIs",
+        "debugging",
+        "functional programming",
+        "cache",
+        "memory leaks",
+        "scala",
+        "architecture",
+        "immutability"
+      ],
+      "level": "advanced",
+      "speakers": [
+        "c5ec49ea9516fdcd9aad629778979043b2fe331e"
+      ]
+    },
+    {
       "id": "628551e8d7a7c108376c3a65",
       "title": "Use Testing to Develop Better Software Faster",
       "languages": [
@@ -1271,7 +1295,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "<p>The new Spring Security authorization server is out there and you can use it in production. Hoooray! For a long time, after the Spring Security OAuth project deprecation, the community was surrounded by confusion around what to use for implementing an authorization server. The confusion is over know since the new Spring Security authorization server is out and ready for you to use it. I invite you to a 2-hours workshop in which we apply and test or the grant types relevant to real-world applications using the new Spring Security authorization server framework to build our own, custom authorization server.</p>",
+      "abstract": "<p>The new Spring Security authorization server is out there and you can use it in production. Hoooray! For a long time, after the Spring Security OAuth project deprecation, the community was surrounded by confusion around what to use for implementing an authorization server. The confusion is over know since the new Spring Security authorization server is out and ready for you to use it. I invite you to a talk in which we'll see how to apply grant types relevant to real-world applications using the new Spring Security authorization server framework to build our own, custom authorization server.</p>",
       "type": "talk",
       "tags": [
         "OAuth2",
@@ -1303,6 +1327,24 @@
       "speakers": [
         "8ea4327073ae8971f36f2c0d4d962822ad4e4031",
         "f97f116ba514a6b4bcbda7e6ccae1bb0bde64d6f"
+      ]
+    },
+    {
+      "id": "629e0757d61b550b63e58f88",
+      "title": "Fighting Legacy",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Which is the definition of Legacy Code? In my context is software that works and pay the bills, but we need to work on it in order to get better results and be able to evolve when it’s necessary.</p><p>Working with three (real estate aggregators, Mitula, Nestoria and Nuroa) products with thousands of legacy lines of code, legacy systems and legacy infrastructure is our day to day work in my team, but you know what? We like it, and it is a challenge to figure out how to deal with that situation and at the same time evolve those products.</p><p>In this talk we will show some of the tecniques we use to deal with that code, and the strategies we are taking in the long run in order to survive to that quest, and we will discuss some economics concepts related to that: When to invest in something, when is usefull to work on preventing a risk and how to deal with technical debt (no silver bullet, it’s a difficult subject).</p>",
+      "type": "talk",
+      "tags": [
+        "Jva",
+        "kotlin",
+        "legacy"
+      ],
+      "level": "advanced",
+      "speakers": [
+        "f1d7e2395a50ba1c384294c4bc73eba9170fddd0"
       ]
     }
   ]

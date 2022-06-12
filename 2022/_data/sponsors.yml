@@ -33,7 +33,7 @@ premium:
   - name: Netcentric
     href: https://www.netcentric.biz
     image:
-      src: "/assets/img/sponsors/netcentric.jpg"
+      src: "/assets/img/sponsors/netcentric.png"
       alt: Netcentric
   - name: GFT
     href: https://www.gft.com/es/es
@@ -116,6 +116,11 @@ regular:
     image:
       src: "/assets/img/sponsors/wefox.png"
       alt: Wefox
+  - name: Allianz Technology
+    href: https://careers.allianz.com/go/Allianz-Technology/5123701/
+    image:
+      src: "/assets/img/sponsors/allianz-technology.png"
+      alt: Allianz Technology
 basic:
   - name: Capgemini
     href: https://www.capgemini.com/es-es/
@@ -136,17 +141,27 @@ basic:
     href: https://seqera.io/
     image:
       src: "/assets/img/sponsors/seqera.png"
-      alt: Seqera Labs  
+      alt: Seqera Labs
   - name: Zara Tech
     href: https://techteams.es/
     image:
       src: "/assets/img/sponsors/zara-tech.png"
       alt: Zara Tech
+  - name: N26
+    href: https://n26.com/en-es
+    image:
+      src: "/assets/img/sponsors/n26.png"
+      alt: N26
 startup:
   - name: ApiumHub
     href: https://apiumhub.com/
     image:
       src: "/assets/img/sponsors/apiumhub.png"
+      alt: apiumhub
+  - name: CaixaBank Tech
+    href: https://www.peoplexperiencehub.com/caixabanktech
+    image:
+      src: "/assets/img/sponsors/caixabank-tech.png"
       alt: apiumhub
 supporters:
   - name: JetBrains
