@@ -22,5 +22,16 @@ The ASF provides an established framework for intellectual property and financia
       "web": "https://www.apache.com/",
       "twitter": "https://twitter.com/apache",
     },
+  },
+  {
+    "company": {
+      "name": "Migracode Barcelona",
+      "logo-url": "/assets/img/sponsors/migracode-bcn.png",
+      "description": "MigraCode Barcelona is a tech academy for migrants and refugees that offers free courses and also connects graduates with the labor market. Since 2019, MigraCode does not only provide free education, but also offers psychological support, legal advice, a program for female students and many more forms of additional support to create a safe and inclusive community."
+    },
+    "links": {
+      "web": "https://www.migracode.openculturalcenter.org",
+      "twitter": "https://twitter.com/migracodebcn",
+    },
   }
 ]
