@@ -741,19 +741,6 @@
     },
     {
       "enabled": "1",
-      "name": "Steve Poole",
-      "company": "Sonatype",
-      "description": "Developer Advocate ",
-      "biography": "<p>Developer Advocate, Security Champion, DevOps practitioner (whatever that means) Long time  Java developer, leader and evangelist. I’ve been working on  Java SDKs and JVMs since Java was less than 1.  JavaOne Rockstar,  JSR leader and representation, Committer on  open source projects including ones at Apache, Eclipse and OpenJDK.  A seasoned speaker and regular presenter at international conferences on technical and software engineering topics.</p>",
-      "image": "assets/img/speakers/steve-poole.jpg",
-      "ref": "5656dc7f3ecb7ca028ff6382f862467404769dfa",
-      "url": "infoSpeaker.html?ref=5656dc7f3ecb7ca028ff6382f862467404769dfa",
-      "homepage": "",
-      "twitter": "@spoole167",
-      "linkedin": "https://www.linkedin.com/in/noregressions/"
-    },
-    {
-      "enabled": "1",
       "name": "Edoardo Vacchi",
       "company": "Red Hat",
       "description": "Principal Software Engineer",
