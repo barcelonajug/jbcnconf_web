@@ -120,5 +120,32 @@
         "link": "https://weareadaptive.com/careers/jobs/?job=3629510"
       }
     ]
+  },
+  {
+    "company": {
+      "name": "Capitole Consulting",
+      "logo-url": "/assets/img/sponsors/capitole.png",
+      "description": "Capitole is an IT consulting company that specializes in providing our clients IT technical expertise and making our employees happy through our unique approach of human investment. We provide innovative solutions in Development, Quality Assurance, Information System and Digital Transformation.",
+      "level": "regular"
+    },
+    "links": {
+      "linkedIn": "https://www.linkedin.com/company/capitole-consulting",
+      "web": "https://capitole-consulting.com/es/",
+      "twitter": "https://twitter.com/CapitoleCons"
+    },
+    "vacancies": [
+      {
+        "title": "Tech Lead Java",
+        "location": "Remoto",
+        "description": "En @Capitole estamos ampliando nuestro equipo de desarrollo con varios Tech Lead enfocados a Java para trabajar en una multinacional puntera y líder en su sector.<br/>Tendrás la oportunidad de trabajar en un entorno totalmente Agile y Event Driven beneficiándote de la solidez y experiencia de una empresa bien consolidada y reconocida en su sector, aplicando las mejores prácticas de programación a través de Java11, microservicios y arquitectura DDD, y SIEMPRE trabajando con el stack tecnológico más puntero del mercado Español.<br/>Buscamos profesionales que les apasione el mundo de la programación, que se sientan atraídos por los retos y desafíos, y que tengan ganas de crecer en una importante empresa Española.<br/><br/><strong>¿POR QUÉ CAPITOLE?</strong><br/>Somos geniales, pero contigo lo seremos más 😊 Para ello tendrás:<br/><br/>- Presupuesto de formación individual para que lo utilices en lo que tú quieras (eventos tecnológicos, libros, formaciones, certificaciones etc.)<br/>- Seguimiento con tu equipo todos los meses para tener un continuo feedback<br/>- Flexibilidad horaria para ayudarte a conciliar tu vida profesional/familiar<br/>- Y mucho más!<br/><br/>Para que conozcas a toda la familia:<br/>- Team Buildings todos los meses, no te puedes perder la Pool Party o la cena de Navidad<br/>- Equipo de Fútbol patrocinado por Capitole<br/>- Comunidades tecnológicas para que compartas tus conocimientos e ideas con los demás equipos. ¡¡¡Compartir el conocimiento interno es fundamental!<br/><br/>¡¡Descúbrenos!!<br/><a href=\"https://capitole-consulting.com/\">https://capitole-consulting.com/</a><br/>",
+        "link": "https://www.linkedin.com/jobs/view/3088046949"
+      },
+      {
+        "title": "Senior Java Software Engineer",
+        "location": "Remoto",
+        "description": "En @Capitole estamos ampliando nuestro equipo dentro de un proyecto con las tecnologías más punteras. Para ello queremos incorporar algunos perfiles Senior especialistas en desarrollo en Java.<br/>Tendrás la oportunidad de trabajar en un entorno totalmente Agile, tecnológicamente puntero y muy dinámico, con un salario competitivo y con un equipo de profesionales altamente competente.<br/><br/><strong>¿QUÉ BUSCAMOS?</strong><br/><br/>Un perfil con:<br/>- Tres o más años de experiencia en desarrollo Java 8 en adelante<br/>- Microservicios y desarrollo de Apis<br/>- Spring Framework<br/>- Git, Jenkins, Maven, Junit, Sonarqube<br/><br/><strong>¿QUÉ HARÁS?</strong><br/><br/>Como Desarrollador Senior en Java tendrás que:<br/><br/>- Desarrollar nuevas funcionalidades.<br/>- Mantener los flujos de trabajo.<br/>Colaborar con los diferentes equipos (DevOps y QA) para la ejecución de despliegues y los ascensos de aplicaciones entre entornos, ejecución de pruebas unitarias y automatización.<br/>Trabajar en la definición e implementación de los Dashboards de monitorización de las aplicaciones y contenedores.<br/>Mantener el estándar de calidad del código y definir e implementar soluciones para mejorar el ciclo de vida del código.<br/><br/>Buscamos profesionales que les apasione el mundo de la programación, que se sientan atraídos por los retos y desafíos. ¡Esta es tu oportunidad!<br/>",
+        "link": "https://www.linkedin.com/jobs/view/3068049755"
+      }
+    ]
   }
 ]
