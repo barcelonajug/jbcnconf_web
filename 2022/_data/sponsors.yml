@@ -110,17 +110,17 @@ regular:
     href: https://www.twilio.com
     image:
       src: "/assets/img/sponsors/twilio.png"
-      alt: Twilio  
-  - name: Wefox
-    href: https://www.wefox.com 
-    image:
-      src: "/assets/img/sponsors/wefox.png"
-      alt: Wefox
+      alt: Twilio
   - name: Allianz Technology
     href: https://careers.allianz.com/go/Allianz-Technology/5123701/
     image:
       src: "/assets/img/sponsors/allianz-technology.png"
       alt: Allianz Technology
+  - name: Wefox
+    href: https://www.wefox.com
+    image:
+      src: "/assets/img/sponsors/wefox.png"
+      alt: Wefox
 basic:
   - name: Capgemini
     href: https://www.capgemini.com/es-es/
