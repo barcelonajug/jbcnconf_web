@@ -122,7 +122,7 @@ regular:
       src: "/assets/img/sponsors/wefox.png"
       alt: Wefox  
   - name: Panorama
-    href: www.panoramait.com
+    href: https://www.panoramait.com
     image:
       src: "/assets/img/sponsors/panorama.png"
       alt: Panorama
