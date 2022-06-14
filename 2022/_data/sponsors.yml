@@ -120,7 +120,12 @@ regular:
     href: https://www.wefox.com
     image:
       src: "/assets/img/sponsors/wefox.png"
-      alt: Wefox
+      alt: Wefox  
+  - name: Panorama
+    href: www.panoramait.com
+    image:
+      src: "/assets/img/sponsors/panorama.png"
+      alt: Panorama
 basic:
   - name: Capgemini
     href: https://www.capgemini.com/es-es/
