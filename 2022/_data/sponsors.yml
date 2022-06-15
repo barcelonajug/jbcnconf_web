@@ -174,3 +174,38 @@ supporters:
     image:
       src: "/assets/img/sponsors/codely.png"
       alt: CodelyTV
+  - name: Sevilla JUG
+    href: https://www.meetup.com/SVQJUG
+    image:
+      src: "/assets/img/sponsors/sevilla-jug.png"
+      alt: Sevilla JUG
+  - name: Málaga JUG
+    href: https://www.meetup.com/MalagaJUG
+    image:
+      src: "/assets/img/sponsors/malaga-jug.png"
+      alt: Málaga JUG
+  - name: VigoJUG
+    href: https://www.vigojug.org/
+    image:
+      src: "/assets/img/sponsors/vigo-jug.png"
+      alt: Vigo JUG
+  - name: Coruña JUG
+    href: https://www.meetup.com/CorunaJUG
+    image:
+      src: "/assets/img/sponsors/coruna-jug.png"
+      alt: Coruña JUG
+  - name: Madrid JUG
+    href: https://www.meetup.com/MadridJUG
+    image:
+      src: "/assets/img/sponsors/madrid-jug.jpg"
+      alt: Madrid JUG
+  - name: Madrid GUG
+    href: https://www.madridgug.com/
+    image:
+      src: "/assets/img/sponsors/madgug.png"
+      alt: Madrid GUG
+  - name: Valencia JUG
+    href: https://www.meetup.com/ValenciaJUG
+    image:
+      src: "/assets/img/sponsors/valencia-jug.jpg"
+      alt: Valencia JUG
