@@ -120,12 +120,17 @@ regular:
     href: https://www.wefox.com
     image:
       src: "/assets/img/sponsors/wefox.png"
-      alt: Wefox  
+      alt: Wefox
   - name: Panorama
     href: https://www.panoramait.com
     image:
       src: "/assets/img/sponsors/panorama.png"
       alt: Panorama
+  - name: New Relic
+    href: https://newrelic.com
+    image:
+      src: "/assets/img/sponsors/newrelic.png"
+      alt: New Relic
 basic:
   - name: Capgemini
     href: https://www.capgemini.com/es-es/
@@ -157,6 +162,11 @@ basic:
     image:
       src: "/assets/img/sponsors/n26.png"
       alt: N26
+  - name: Openbank
+    href: https://www.openbank.es/ofertas-empleo
+    image:
+      src: "/assets/img/sponsors/openbank.png"
+      alt: Openbank
 startup:
   - name: ApiumHub
     href: https://apiumhub.com/
