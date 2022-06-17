@@ -1050,26 +1050,6 @@
       ]
     },
     {
-      "id": "627c18d126f9720858a38ef2",
-      "title": "Keep Your Cache Always Fresh with Debezium!",
-      "languages": [
-        "eng"
-      ],
-      "abstract": "<p>The saying goes that there are only two hard things in Computer Science: cache invalidation, and naming things. Well, turns out the first one is solved actually ;)</p><p>Join us for this session to learn how to keep read views of your data in distributed caches close to your users, always kept in sync with your primary data stores change data capture. You will learn how to</p><ul><li>Implement a low-latency data pipeline for cache updates based on Debezium, Apache Kafka, and Infinispan</li><li>Create denormalized views of your data using Kafka Streams and make them accessible via plain key look-ups from a cache cluster close by</li><li>Propagate updates between cache clusters using cross-site replication</li></ul><p>We'll also touch on some advanced concepts, such as detecting and rejecting writes to the system of record which are derived from outdated cached state, and show in a demo how all the pieces come together, of course connected via Apache Kafka.</p>",
-      "type": "workshop",
-      "tags": [
-        "Apache Kafka",
-        "change data capture",
-        "data streaming",
-        "caching",
-        "microservices"
-      ],
-      "level": "middle",
-      "speakers": [
-        "44775844c7cf4df6e20eb4b208e13ebdb02a3ef9"
-      ]
-    },
-    {
       "id": "627c18f226f9720858a38ef3",
       "title": "The Hitchhiker’s Guide to a Great Developer Career",
       "languages": [
