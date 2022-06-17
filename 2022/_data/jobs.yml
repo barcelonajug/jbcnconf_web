@@ -176,7 +176,7 @@
       {
         "title": "Senior Backend Developer, Software Development",
         "location": "Barcelona",
-        "description": "<strong>What you need:<strong><br/><br/>-More than 3 years of solid, active commercial software development experience.<br/><-Strong knowledge of Java (Core Java/Java EE) paired with solid experience with frameworks: Spring, JDBC, Hibernate, REST Web Services.<br/>-Strong conceptual knowledge of OOPS, Design Patterns, Microservice architecture, and Clean architecture.<br/>-Experience with application servers/servlet containers (WildFly, Tomcat, etc.).<br/>-Practical experience in development and/or maintenance of highly loaded enterprise-grade systems.<br/>-Experience in Linux, Docker, and Kubernetes management.<br/>-SQL experience (specifically PostgreSQL).<br/>-it will be essential that you can speak and write in English.<br/><br/><strong>What you'll be doing:</strong<br/><br/>-Design and develop cloud micro-services (E-commerce, service provisioning, etc.) that seamlessly integrates with the rest of the Ingram Micro Cloud portfolio.<br/>-Design of the REST APIs necessary for external clients who use our platform, helping to ensure good communication between the platform and their systems.<br/>-Challenge and redefine existing architectural fundamentals to provide the next level of performance and scalability; ability to foresee post-deployment design challenges, performance, and scale bottlenecks.<br/>-Develop and implement software verification plans and quality assurance procedures.<br/>-Document and maintain software functionality.<br/>",
+        "description": "<strong>What you need:</strong><br/><br/>-More than 3 years of solid, active commercial software development experience.<br/>-Strong knowledge of Java (Core Java/Java EE) paired with solid experience with frameworks: Spring, JDBC, Hibernate, REST Web Services.<br/>-Strong conceptual knowledge of OOPS, Design Patterns, Microservice architecture, and Clean architecture.<br/>-Experience with application servers/servlet containers (WildFly, Tomcat, etc.).<br/>-Practical experience in development and/or maintenance of highly loaded enterprise-grade systems.<br/>-Experience in Linux, Docker, and Kubernetes management.<br/>-SQL experience (specifically PostgreSQL).<br/>-it will be essential that you can speak and write in English.<br/><br/><strong>What you'll be doing:</strong><br/><br/>-Design and develop cloud micro-services (E-commerce, service provisioning, etc.) that seamlessly integrates with the rest of the Ingram Micro Cloud portfolio.<br/>-Design of the REST APIs necessary for external clients who use our platform, helping to ensure good communication between the platform and their systems.<br/>-Challenge and redefine existing architectural fundamentals to provide the next level of performance and scalability; ability to foresee post-deployment design challenges, performance, and scale bottlenecks.<br/>-Develop and implement software verification plans and quality assurance procedures.<br/>-Document and maintain software functionality.<br/>",
         "link": "https://careers.ingrammicro.com/es/jobs/9620883-senior-backend-developer-software-development-barcelona"
       },
       {
@@ -184,6 +184,31 @@
         "location": "Barcelona",
         "description": "CloudBlue is a technology solution startup born from the need to digitally transform a multibillion-dollar enterprise. The CloudBlue platform orchestrates ecosystems for customers worldwide, including the largest B2B Cloud Marketplace in the world.<br/><br/><strong>Who You Are</strong><br/><br/>A Business Analyst / Data Scientist is expected to have 3+ years of solid, active commercial work on projects related to data processing (BI, ML, AI) including significant personal ownership of projects or initiatives. Written and speaking English skills sufficient for team communication.<br/>-SQL itself & experience in working with relational DBs<br/>-Understanding of BI systems design patterns<br/><br/><br/><strong>Skills / Project Experience - good to have experience in:</strong><br/><br/>-MS Azure Cloud Services<br/>-MS SQL, PostgreSQL<br/>-Experience in BI, ML, AI projects<br/><br/><strong>You will have an opportunity to contribute to our BI/Data subsystems:</strong><br/><br/>-Works closely with customers and multiple departments. Utilizes data to determine potential changes<br/>-Analyze data and business processes to assist in the development of solutions that are fully aligned with overall business goals<br/>-Extend the functionality of the existing system<br/>-Plan and design business processes and make recommendations and changes in order to improve and support business systems and activities<br/>-Uses industry knowledge to recommend options that will optimize company functions or processes<br/>-Assists company in areas of solutions planning, impact analysis, and risk assessment<br/>",
         "link": "https://careers.ingrammicro.com/es/search/jobs?q=&location=barcelona"
+      }
+    ]
+  },
+  {
+    "company": {
+      "name": "Allianz Technology SE",
+      "logo-url": "/assets/img/sponsors/allianz-technology.png",
+      "description": "Allianz Technology is the global IT service provider for Allianz and delivers IT solutions that drive the digitalization of the Group. With more than 10,000 employees located in 55 countries around the globe",
+      "level": "regular"
+    },
+    "links": {
+      "web": "https://tech.allianz.com/en.html"
+    },
+    "vacancies": [
+      {
+        "title": "DevOps Expert",
+        "location": "Barcelona",
+        "description": "<strong>KEY RESPONSIBILITIES</strong><br/>- Defines how to automate processes as well as deployment tasks. Administrates our cloud infrastructures based on AWS, Azure and private cloud.<br/>- Sets up CI/CD pipelines and educates the service teams in order to enforce a DevOps transformation.<br/>- Works with architect(s) and various parties to design & build the operational processes in DevOps manner based on enterprise guidelines and standards.<br/>- Actualizes the DevOps processes for environment management including infrastructure, platform, and application lifecycle.<br/>- Participates actively in knowledge sharing activities like communities of practice, and/or other knowledge exchanges.<br/>",
+        "link": "https://careers.allianz.com/job/BARCELONA-B-08009/737888501/"
+      },
+      {
+        "title": "DevOps Expert",
+        "location": "Barcelona",
+        "description": "<strong>KEY RESPONSIBILITIES</strong><br/>- Defines how to automate processes as well as deployment tasks. Administrates our cloud infrastructures based on AWS, Azure and private cloud.<br/>- Sets up CI/CD pipelines and educates the service teams in order to enforce a DevOps transformation.<br/>- Works with architect(s) and various parties to design & build the operational processes in DevOps manner based on enterprise guidelines and standards.<br/>- Actualizes the DevOps processes for environment management including infrastructure, platform, and application lifecycle.<br/>- Participates actively in knowledge sharing activities like communities of practice, and/or other knowledge exchanges.<br/>",
+        "link": "https://careers.allianz.com/job/BARCELONA-B-08009/737888501/"
       }
     ]
   }
