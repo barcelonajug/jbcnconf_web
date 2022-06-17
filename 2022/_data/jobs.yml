@@ -189,7 +189,7 @@
   },
   {
     "company": {
-      "name": "Allianz Technology SE",
+      "name": "Allianz Technology SL",
       "logo-url": "/assets/img/sponsors/allianz-technology.png",
       "description": "Allianz Technology is the global IT service provider for Allianz and delivers IT solutions that drive the digitalization of the Group. With more than 10,000 employees located in 55 countries around the globe",
       "level": "regular"
@@ -205,10 +205,10 @@
         "link": "https://careers.allianz.com/job/BARCELONA-B-08009/737888501/"
       },
       {
-        "title": "DevOps Expert",
-        "location": "Barcelona",
-        "description": "<strong>KEY RESPONSIBILITIES</strong><br/>- Defines how to automate processes as well as deployment tasks. Administrates our cloud infrastructures based on AWS, Azure and private cloud.<br/>- Sets up CI/CD pipelines and educates the service teams in order to enforce a DevOps transformation.<br/>- Works with architect(s) and various parties to design & build the operational processes in DevOps manner based on enterprise guidelines and standards.<br/>- Actualizes the DevOps processes for environment management including infrastructure, platform, and application lifecycle.<br/>- Participates actively in knowledge sharing activities like communities of practice, and/or other knowledge exchanges.<br/>",
-        "link": "https://careers.allianz.com/job/BARCELONA-B-08009/737888501/"
+        "title": "IT Solutions Architect",
+        "location": "Barcelona (Hybrid work model)",
+        "description": "Expert in IT architecture with capabilities to integrate the current architecture in the IberoLatam platform with the global architecture proposed at the Allianz Group level.<br/><br/><strong>Main responsibilities:</strong><br/>Designing functional technology solutions.<br/>Overseeing development and implementation of programs.<br/>Providing technical leadership and support to software development t teams.<br/>Carry out, in some cases autonomously and in others in conjunction.<br/>with the team, revisions of the current architecture, to seek alignment.<br/>Communicate system requirements to software development teams.<br/><br/><strong>Requirements / Experience:</strong><br/>Proven experience as a Technical Architect.<br/>Hands-on experience with software development and system administration.<br/>Understanding of strategic IT solutions.<br/>Experience in service choreography (API, events).<br/>Knowledge of selected coding languages (e.g. Java, Spring framework, JavaScript).<br/>Familiarity with various operating systems (e.g. Windows, UNIX) and databases (e.g. DB2, MongoDB, Postgres, MySQL).<br/>Experience in cloud technologies (e.g. AWS Azure) and containers (Kubernetes).<br/>Excellent communication skills both verbal and written, into an international environment (English fluency is necessary).<br/>Used to work on agile methodologies, TDD and DevOps.<br/>",
+        "link": "https://careers.allianz.com/job/BARCELONA-IT-Architect-Project-Manager-B-08014/732441701/"
       }
     ]
   }
