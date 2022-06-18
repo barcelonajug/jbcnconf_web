@@ -211,5 +211,45 @@
         "link": "https://careers.allianz.com/job/BARCELONA-IT-Architect-Project-Manager-B-08014/732441701/"
       }
     ]
+  },
+  {
+    "company": {
+      "name": "LIFULL Connect",
+      "logo-url": "/assets/img/sponsors/lifull-connect.png",
+      "description": "LIFULL Connect is a global marketplace group that operates more than 250 vertical search sites in 63 countries and 24 different languages. We are one of the world’s largest aggregation players in the Jobs, Cars and Fashion verticals and the biggest Real Estate aggregation network in the world.",
+      "level": "premium"
+    },
+    "links": {
+      "web": "https://www.lifullconnect.com/",
+      "twitter": "https://mobile.twitter.com/lifullconneng",
+      "instagram": "https://www.instagram.com/lifullconnecters/",
+      "linkedIn": "https://www.linkedin.com/company/lifullconnect/"
+    },
+    "vacancies": [
+      {
+        "title": "Software Engineer",
+        "location": "Remote (Spain)",
+        "description": "You will be joining our B2C Trovit tech team, whose goal is to maintain our websites, which account for millions of visits every month, and to develop its new features according to the objectives defined with our Product team.<br/><br/>Our team is responsible for the backend and the frontend of the websites that offer the best experience to our users in order to help them to find their new home, car or job.<br/><br/><strong>1. How we work:</strong><br/>We apply XP practices and embrace agile principles and values.<br/>We’re learning to approach our solutions with a lean mindset.<br/>We engage in pair programming daily. Sometimes, we also do mob programming sessions.<br/>We invest in our continuous improvement and engage in deliberate practice weekly.<br/><br/><strong>2. What we need:</strong><br/>Strong skills in object-oriented programming and SOLID principles<br/>Knowledge of Javascript and PHP or Java<br/>Good understanding of application architecture patterns and domain-driven design<br/>Good refactoring skills and experience dealing with legacy code<br/>Solid experience with unit testing and comfortable with TDD<br/>Experience in an agile environment with a DevOps mindset<br/>Experience with continuous integration and delivery<br/>Excellent communications skills in both Spanish and English<br/><br/><strong>3. What’s a plus:</strong><br/>Familiarity with a cloud solution, preferably AWS<br/>Familiarity with search engines (Solr, Elasticsearch)<br/>Experience with Docker and container orchestration<br/>",
+        "link": "https://www.linkedin.com/jobs/view/3117326077"
+      },
+      {
+        "title": "Backend Developer",
+        "location": "Remote (Spain)",
+        "description": "You will be joining our Content Ingestion team, whose goal is to ensure that our websites have top quality content, so our users can find their new home, car or job. This team is responsible for the backend that powers content feeding (ingestion, processing, etc.) for a number of websites from our inventory, which account for tens of millions of visits every month.<br/><br/><strong>1. What you will do:</strong><br/>You will bring a lean mindset approach to the technical solutions we are working on in the team.<br/>You will embrace pair programming and mob programming as the preferred way to collaborate with your teammates.<br/>You will help us introduce and improve our XP practices.<br/>You will improve continuously and engage in deliberate practice with your teammates.<br/>You will provide mentoring to junior developers when it makes sense.<br/>You will be part of a goals orientated team that embraces Agile principles and values.<br/><br/><strong>2. What we would love you to bring:</strong><br/>Strong object-oriented programming skills.<br/>Good skills in Go.<br/>Solid experience with unit testing (TDD preferred).<br/>Experience working in Agile environments.<br/>A willingness to provide and request constructive feedback<br/>Strong skills in management of CI/CD toolchains.<br/><br/><strong>3. What’s a plus but not mandatory:</strong><br/>Knowledge of Kotlin.<br/>Experience with continuous delivery practices.<br/>Experience with evolutionary design & architectures.<br/>A DevOps mindset (experience not required, just being familiar with the culture).<br/>Technical mentoring or coaching skills.<br/>",
+        "link": "https://www.linkedin.com/jobs/view/3095164453"
+      },
+      {
+        "title": "Systems/DevOps Engineer",
+        "location": "Remote (Spain)",
+        "description": "Systems/DevOps Engineering is often pivotal in many tech conversations, because of its backbone-like nature. Things have to run smoothly all the time, but they also need to evolve and adapt quickly to technology changes, internal requirements of all sorts and innovation challenges. We are looking for an experienced Systems/DevOps Engineer who will be an active member of the team, focused on moving forward and achieving tech teams goals.<br/><br/><strong>- What you need to bring to the table:</strong><br/>Knowledge and experience with public Cloud Platforms - AWS preferred, for security, resilience, performance, networking, availability, Blue-green deployments in context of business application.<br/>Excellent knowledge of the Linux CLI<br/>Experience with CI, CD and environments for different contexts<br/>Knowledge of Jenkins and Git Operations<br/>Experience with automation tools (Puppet, Ansible, Terraform, Chef)<br/>Experience with containerisation (Docker, Containerd)<br/>In-depth understanding of container orchestration with Kubernetes<br/>Familiarity managing relational and non relational databases (MariaDB, MySQL, ElasticSearch)<br/>Experience of writing programming languages other than Java (Python, Go, etc)<br/>Experience with diagnosing performance issues in production with custom metrics or APM tools.<br/>",
+        "link": "https://www.linkedin.com/jobs/view/3064390010"
+      },
+      {
+        "title": "Senior Software Engineer",
+        "location": "Remote (Spain)",
+        "description": "You will be joining our B2C Mitula Group team, which is responsible for the Mitula, Nestoria and Nuroa sites. The goal of this team is to help our users to find their dream property, giving them the best possible experience in our sites.<br/><br/><strong>1. How we work:</strong><br/>We apply agile principles and values.<br/>We approach our solutions with a Lean mindset.<br/>Pair programming and mob programming.<br/>Applying XP practices.<br/><br/><strong>2. What we would love you to bring:</strong><br/>Our teams use various programming languages (Java, Kotlin, Javascript, Typescript...), but we welcome developers with different programming backgrounds if you’re open to learning and expanding your tech stack. <br/>Strong skills in OOP or Functional Programming.<br/>Solid experience with unit testing (TDD preferred).<br/>Experience working in Agile environments.<br/>DevOps mindset (experience not required, just familiar with the culture)<br/>Willing to understand the product, challenge the PO and have long discussions with the team about it.<br/><br/><strong>3. What’s a plus but not mandatory:</strong><br/>Front-end knowledge.<br/>Experience with Trunk based development and continuous delivery practices.<br/>Experience with evolutionary design & architectures.<br/>Some experience with AWS cloud.<br/>",
+        "link": "https://www.linkedin.com/jobs/view/3116870511"
+      }
+    ]
   }
 ]
