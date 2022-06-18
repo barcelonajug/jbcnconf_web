@@ -131,6 +131,11 @@ regular:
     image:
       src: "/assets/img/sponsors/newrelic.png"
       alt: New Relic
+  - name: Revolut
+    href: https://www.revolut.com/careers/team/engineering-data
+    image:
+      src: "/assets/img/sponsors/revolut.jpg"
+      alt: Revolut
 basic:
   - name: Capgemini
     href: https://www.capgemini.com/es-es/
