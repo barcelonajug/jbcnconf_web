@@ -251,5 +251,32 @@
         "link": "https://www.linkedin.com/jobs/view/3116870511"
       }
     ]
+  },
+  {
+    "company": {
+      "name": "New Relic",
+      "logo-url": "/assets/img/sponsors/newrelic.png",
+      "description": "New Relic is where dev, ops, security and business teams solve software–performance problems with data.",
+      "level": "regular"
+    },
+    "links": {
+      "web": "https://newrelic.com/",
+      "twitter": "https://twitter.com/newrelic",
+      "linkedIn": "https://www.linkedin.com/company/new-relic-inc-/"
+    },
+    "vacancies": [
+      {
+        "title": "Senior Back-End Software Engineer (Open to remote)",
+        "location": "Remote",
+        "description": "We work with data at a scale found at few companies using a diverse tech stack (Go, Java, JavaScript, React, GraphQL, Cassandra, Elasticsearch, Kafka, Kubernetes, many public cloud web services, and more). If you love to scale and want to contribute to one of the largest and fastest-growing observability platforms in the market, we want to hear from you. We are a software company that cares about our product and culture!<br/><br/><strong>Responsibilities</strong><br/>- Build, maintain, and scale back-end services and their support tools<br/>- Participate in architectural definitions with a high degree of innovation and creativity<br/>- Creating automation and tooling to make our systems more scalable and easier to deploy<br/>- Research new tools and services to understand complex scenarios and to also propose new features<br/>- Working in an agile environment with a DevOps approach—including taking turns with being on-call<br/><br/><strong>Requirements</strong><br/>- Experience with distributed systems, concurrency, and scaling in a production environment<br/>- Strong experience in writing software in OOP. You are not afraid of adapting, learning, and working with different languages and frameworks<br/>- Familiarity with asynchronous programming techniques: streams, event-based flows, task queues, message queues<br/>- Being comfortable in a fast-paced environment focused on delivering production code using Agile methodologies<br/>- Having a collaborative work style<br/>- Proficiency in English<br/>",
+        "link": "https://newrelic.careers/careers/JobDetail/Spain-Senior-Back-End-Software-Engineer-Open-to-remote/2020"
+      },
+      {
+        "title": "Senior Software Engineer - Frontend (Open to remote)",
+        "location": "Remote",
+        "description": "Some of the problems we work on involve frontend API’s to interact with the internal framework, extensible architecture solutions, UI components and deal with modern frameworks and libraries such as ReactJS or Redux.<br/><br/><strong>Responsibilities</strong><br/>- Implement rich, interactive data visualizations using modern JavaScript and software development techniques<br/>- Select the best frameworks and tools needed to do the job done quickly, while also optimizing for codebase stability, product stability, and target use case growth<br/>- Work with our product manager and a team of data engineers to ensure data exploration products accurately render complex data that are aligned with the needs of our internal customers<br/>- Produce highly performant and flexible user interfaces<br/>- Collaborate with designers and other UI engineers across the company to learn from others and to ensure you stay up to date on the company’s UI best practices<br/>- Learn and improve your skills to continuously push us to deliver higher quality data products and improve how we view data visualization as a company<br/><br/><strong>Requirements</strong><br/>- Experience working with modern JavaScript front-end frameworks<br/>- Familiarity with modern development and build tools such as git, npm, babel, and webpack; - Experience with front-end JS testing tools and a comprehensive understanding of UI testing techniques<br/>- Experience integrating the UI with data from service endpoints and expertise in modern HTML and CSS<br/>- Proficiency in English<br/>",
+        "link": "https://newrelic.careers/careers/JobDetail/Spain-Senior-Software-Engineer-Frontend-Open-to-remote/2313"
+      }
+    ]
   }
 ]
