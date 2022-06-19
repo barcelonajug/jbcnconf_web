@@ -54,7 +54,12 @@ premium:
     href: https://barcelonadigitaltalent.com/
     image:
       src: "/assets/img/sponsors/barcelona-digital-talent.png"
-      alt: BDTalent
+      alt: BDTalent  
+  - name: Gradle
+    href: https://gradle.com/
+    image:
+      src: "/assets/img/sponsors/gradle.png"
+      alt: Gradle
 regular:
   - name: Capitole Consulting
     href: https://capitole-consulting.com/about/
