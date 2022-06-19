@@ -779,12 +779,11 @@
     },
     {
       "id": "6257242eaa23f0085462dda8",
-      "title": "Building Domain-Specific Language (DSL) for fun and profit",
+      "title": "Construyendo un DSL (Domain-Specific Language / Lenguaje específico de dominio) por diversión y provecho",
       "languages": [
-        "eng",
         "es"
       ],
-      "abstract": "<p>What is the benefit of embedding a language within a language? How can we achieve this, without dying in the process? Is it even worth the effort?</p><p>In this talk we’ll go over some of my experiences where writing a DSL made the code far more readable, extendable and even more performant! We’ll go over some heavyweight, fully fledged parser implementations for an external DSL, some libraries and tips; and some more lightweight techniques to embed them in Java itself.</p>",
+      "abstract": "<p>¿Cuál es el beneficio de incrustar un lenguaje dentro de otro lenguaje? ¿Cómo podemos lograr esto sin morir en el proceso? ¿Vale la pena el esfuerzo?</p><p>En esta charla, veremos algunas de mis experiencias en las que escribir un DSL hizo que el código fuera mucho más legible, extensible e incluso más eficiente! Repasaremos algunas implementaciones de analizadores de texto para un DSL externa, algunas librerías y consejos; y finalmente algunas técnicas más ligeras para embeberlas en aplicaciones de Java.</p>",
       "type": "talk",
       "tags": [
         "Java",
@@ -1236,8 +1235,7 @@
       "id": "628e909d0cb98308207c30de",
       "title": "Kotlin's Exceptional Performance - Lil' Exception Revisited",
       "languages": [
-        "eng",
-        "es"
+        "eng"
       ],
       "abstract": "<p>As the adage goes, \"don't use exceptions as control flow\" - but why not? In 2014, Aleksey Shipilëv published \"The Exceptional Performance of Lil' Exception\", an excellent article about the performance characteristics of Java's exception system and how different strategies for managing exceptions fare in varying scenarios in order to demonstrate why the adage exists. Since then, the Kotlin programming language has taken off in popularity, and this language brings several new options for handling exceptions, for example inline classes and sealed classes. With the help of the Java Microbenchmark Harness, this presentation will explore the benefits, drawbacks, and performance characteristics of various exception-handling strategies that can be employed using these Kotlin features.</p>",
       "type": "talk",
