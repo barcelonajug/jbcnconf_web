@@ -728,6 +728,19 @@
     },
     {
       "enabled": "1",
+      "name": "Andrea Peruffo",
+      "company": "Red Hat",
+      "description": "Principal Software Engineer",
+      "biography": "<p>Andrea Peruffo is a Principal Software Engineer at Red Hat with expertise in delivering various kinds of software systems, from large-scale cloud to embedded devices. He enjoys finding creative solutions to complex problems and has a not-so-secret love for automation.</p>",
+      "image": "assets/img/speakers/andrea-peruffo.jpg",
+      "ref": "3a8ccd9f65f848548800c4c1bdb0b3b459e53daf",
+      "url": "infoSpeaker.html?ref=3a8ccd9f65f848548800c4c1bdb0b3b459e53daf",
+      "homepage": "http://andreaperuffo.com/",
+      "twitter": "@and_prf",
+      "linkedin": "https://www.linkedin.com/in/andrea-peruffo-32269178/"
+    },
+    {
+      "enabled": "1",
       "name": "Edoardo Vacchi",
       "company": "Red Hat",
       "description": "Principal Software Engineer",

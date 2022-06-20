@@ -1323,6 +1323,27 @@
       "speakers": [
         "f1d7e2395a50ba1c384294c4bc73eba9170fddd0"
       ]
+    },
+    {
+      "id": "62ac451d21f34a0b62f77652",
+      "title": "Write You An Actor (System) For Great Good! (with JBang, JDK 19, records, pattern matching and virtual threads!)",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Learn everything about all the fanciest recent features of the JDK, by implementing an actor system from scratch!</p><p>In this workshop, we will explain how an actor system works, and live-code it right before your eyes using expression switches, records, sealed type hierarchies, and virtual threads!</p><p>We will compare our actor system to other languages and actor runtimes, and will bring all of this to your fingertips with the power of JBang!</p>",
+      "type": "workshop",
+      "tags": [
+        "Java 17",
+        "Actors",
+        "concurrency",
+        "live coding",
+        "demo"
+      ],
+      "level": "middle",
+      "speakers": [
+        "2b7ec441cce9bb5ab34f86732420a111c517420a",
+        "3a8ccd9f65f848548800c4c1bdb0b3b459e53daf"
+      ]
     }
   ]
 }
