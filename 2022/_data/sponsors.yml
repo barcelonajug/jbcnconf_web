@@ -54,12 +54,17 @@ premium:
     href: https://barcelonadigitaltalent.com/
     image:
       src: "/assets/img/sponsors/barcelona-digital-talent.png"
-      alt: BDTalent  
+      alt: BDTalent
   - name: Gradle
     href: https://gradle.com/
     image:
       src: "/assets/img/sponsors/gradle.png"
       alt: Gradle
+  - name: Oracle Netsuite
+    href: https://www.netsuite.com/portal/resource/articles/erp/what-is-netsuite.shtml?cid=Online_NPSocChampionsI_SEOHiMyNameIs
+    image:
+      src: "/assets/img/sponsors/oracle-netsuite.jpeg"
+      alt: Oracle Netsuite
 regular:
   - name: Capitole Consulting
     href: https://capitole-consulting.com/about/
