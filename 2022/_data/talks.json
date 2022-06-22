@@ -1197,7 +1197,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "<p>During this session, I will discuss a few techniques about how to improve the JVM start-up time for any application running on the JVM, independent of the programming language. These techniques could be applied in any project, in general without code changes. You can use the same techniques to speed up the JVM start-up time for your applications (both in development and production environments).</p><p>Main topics:</p><p>when the JVM start-up matters (i.e. for what types of applications)</p><p>application class-data sharing (AppCDS)</p><p>Ahead-of-time (AOT) compilation</p><p>few handy JVM flags</p><p>hands-on demonstration (including benchmarks results)</p><p>The JVMs included in this talk are OpenJDK HotSpot and Graal VM.</p>",
+      "abstract": "<p>During this session, I will discuss a few techniques about how to improve the JVM start-up time for any application running on the JVM, independent of the programming language. These techniques could be applied in any project, in general without code changes. You can use the same techniques to speed up the JVM start-up time for your applications (both in development and production environments).</p><p>Main topics:</p><ul><li>when the JVM start-up matters (i.e. for what types of applications)</li><li>Application/Dynamic class-data sharing in HotSpot JVM</li><li>Shared class cache in Eclipse OpenJ9</li><li>Ahead-of-time (AOT) compilation</li><li>few handy JVM flags</li><li>hands-on demonstration (including benchmarks results)</li><li>The JVMs included in this talk are OpenJDK HotSpot, Eclipse OpenJ9 and Graal VM</li></ul>",
       "type": "talk",
       "tags": [
         "performance",
