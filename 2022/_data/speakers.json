@@ -702,19 +702,6 @@
     },
     {
       "enabled": "1",
-      "name": "Shabnam Mayel",
-      "company": "Eclipse Foundation",
-      "description": "Senior Marketing Manager",
-      "biography": "<p>Shabnam Mayel is the Senior Marketing Manager, Cloud Native Java at the Eclipse Foundation. She is an accomplished marketing and business development professional with over 10 years of experience in marketing leadership, brand activation, and management in Southeast Asia and North America. She has a particular interest in open-source and tech-based organizations.</p>",
-      "image": "assets/img/speakers/shabnam.jpg",
-      "ref": "62c17e6d66e07f62fd2ca8b6c0e073950d56a55e",
-      "url": "infoSpeaker.html?ref=62c17e6d66e07f62fd2ca8b6c0e073950d56a55e",
-      "homepage": "",
-      "twitter": "@MayelShabnam",
-      "linkedin": "https://www.linkedin.com/in/shabnam-mayel/"
-    },
-    {
-      "enabled": "1",
       "name": "Alberto Portilla Casado",
       "company": "Wallapop",
       "description": "Backend Tech Lead",
