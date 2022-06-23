@@ -182,6 +182,11 @@ basic:
     image:
       src: "/assets/img/sponsors/openbank.png"
       alt: Openbank
+  - name: eDreams ODIGEO
+    href: https://www.edreamsodigeo.com/
+    image:
+      src: "/assets/img/sponsors/edreams.png"
+      alt: eDreams ODIGEO
 startup:
   - name: ApiumHub
     href: https://apiumhub.com/
