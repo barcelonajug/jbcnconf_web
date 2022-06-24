@@ -1048,6 +1048,26 @@
       ]
     },
     {
+      "id": "627c18d126f9720858a38ef2",
+      "title": "Keep Your Cache Always Fresh with Debezium!",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>The saying goes that there are only two hard things in Computer Science: cache invalidation, and naming things. Well, turns out the first one is solved actually ;)</p><p>Join us for this session to learn how to keep read views of your data in distributed caches close to your users, always kept in sync with your primary data stores change data capture. You will learn how to</p><ul><li>Implement a low-latency data pipeline for cache updates based on Debezium, Apache Kafka, and Infinispan</li><li>Create denormalized views of your data using Kafka Streams and make them accessible via plain key look-ups from a cache cluster close by</li><li>Propagate updates between cache clusters using cross-site replication</li></ul><p>We'll also touch on some advanced concepts, such as detecting and rejecting writes to the system of record which are derived from outdated cached state, and show in a demo how all the pieces come together, of course connected via Apache Kafka.</p>",
+      "type": "talk",
+      "tags": [
+        "Apache Kafka",
+        "change data capture",
+        "data streaming",
+        "caching",
+        "microservices"
+      ],
+      "level": "middle",
+      "speakers": [
+        "44775844c7cf4df6e20eb4b208e13ebdb02a3ef9"
+      ]
+    },
+    {
       "id": "627c18f226f9720858a38ef3",
       "title": "The Hitchhiker’s Guide to a Great Developer Career",
       "languages": [
@@ -1306,6 +1326,24 @@
       ]
     },
     {
+      "id": "6297cc034b510b0822d4b66c",
+      "title": "Unleash the power of your applications with Micronaut and GraalVM",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>In this talk, Micronaut committer Álvaro Sánchez-Mariscal, will demonstrate how you can quickly build optimised Microservices with Micronaut & GraalVM Native Image. Attendees will learn how the combination of GraalVM Native Image and Micronaut can lead to efficient, highly performant, and optimised applications that can be perfectly deployed to environments like Kubernetes or serverless platforms</p>",
+      "type": "talk",
+      "tags": [
+        "Micronaut",
+        "GraalVM",
+        "Java"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "85cf4e0c5a4dffe526db92e2b79b3381a790a0cd"
+      ]
+    },
+    {
       "id": "629e0757d61b550b63e58f88",
       "title": "Fighting Legacy",
       "languages": [
@@ -1342,6 +1380,24 @@
       "speakers": [
         "2b7ec441cce9bb5ab34f86732420a111c517420a",
         "3a8ccd9f65f848548800c4c1bdb0b3b459e53daf"
+      ]
+    },
+    {
+      "id": "62b3769796d7c00b689850ad",
+      "title": "CompletableFuture and its Quirks",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>CompletableFuture revolutionised asynchronous processing in Java. Unfortunately, it’s full of quirks, traps, and surprises… during this live coding session, we’ll have a look at things like: thread pools backing task execution, exception propagation, cancellations, and unintuitive methods from the public API.</p>",
+      "type": "talk",
+      "tags": [
+        "java",
+        "async",
+        "multithreading"
+      ],
+      "level": "middle",
+      "speakers": [
+        "dcf4d5f83bc2dab51fb90922055352668da14a18"
       ]
     }
   ]
