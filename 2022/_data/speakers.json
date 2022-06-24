@@ -67,6 +67,19 @@
     },
     {
       "enabled": "1",
+      "name": "Grzegorz Piwowarek",
+      "company": "Hazelcast",
+      "description": "Lead Architect",
+      "biography": "<p>Grzegorz Piwowarek is a lead architect at Hazelcast, trainer, and blogger at 4comprehension.com. He is interested in distributed systems, system performance, and architecture. There are rumours that he exists only at compile time.</p>",
+      "image": "assets/img/speakers/grzegorz-piwowarek.jpg",
+      "ref": "dcf4d5f83bc2dab51fb90922055352668da14a18",
+      "url": "infoSpeaker.html?ref=dcf4d5f83bc2dab51fb90922055352668da14a18",
+      "homepage": "http://4comprehension.com/",
+      "twitter": "@pivovarit",
+      "linkedin": "https://www.linkedin.com/in/gpiwowarek/"
+    },
+    {
+      "enabled": "1",
       "name": "Holly Cummins",
       "company": "Red Hat",
       "description": "Senior Principal Software Engineer",
@@ -129,6 +142,19 @@
       "homepage": "",
       "twitter": "@dgomezg",
       "linkedin": "https://www.linkedin.com/in/dgomezg/"
+    },
+    {
+      "enabled": "1",
+      "name": "Gunnar Morling",
+      "company": "Red Hat",
+      "description": "Senior Principal Software Engineer",
+      "biography": "<p>Gunnar Morling is a software engineer and open-source enthusiast by heart. He is leading the Debezium project, a distributed platform for change data capture. He is a Java Champion, the spec lead for Bean Validation 2.0 (JSR 380) and has founded multiple open source projects such as JfrUnit, Layrry, and MapStruct. Gunnar is an avid blogger (morling.dev) and has spoken at a wide range of conferences like QCon, Java One, Devoxx, JavaZone, and many others. He's based in Hamburg, Germany.</p>",
+      "image": "assets/img/speakers/gunnar-morling.jpeg",
+      "ref": "44775844c7cf4df6e20eb4b208e13ebdb02a3ef9",
+      "url": "infoSpeaker.html?ref=44775844c7cf4df6e20eb4b208e13ebdb02a3ef9",
+      "homepage": "https://www.morling.dev/",
+      "twitter": "@gunnarmorling",
+      "linkedin": "https://www.linkedin.com/in/gunnar-morling-2b44b7229/"
     },
     {
       "enabled": "1",
@@ -246,6 +272,19 @@
       "homepage": "https://jasonrclark.com",
       "twitter": "@jasonrclark",
       "linkedin": "https://www.linkedin.com/in/jasonrclark42/"
+    },
+    {
+      "enabled": "1",
+      "name": "Álvaro Sánchez-Mariscal Arnaiz",
+      "company": "Álvaro Sánchez-Mariscal Arnaiz",
+      "description": "Principal Member of Technical Staff at Oracle Labs",
+      "biography": "<p>Álvaro is a passionate developer and agile enthusiast with over 21 years of experience. He is now a Principal Member of Technical Staff at Oracle Labs, where he is a Micronaut committer, helping to maintain and evolve the open-source framework.</p><p>Before that, he was a Staff Engineer at VMWare, where he led the creation of new products to build, package, verify and publish software solutions with confidence in the VMware Marketplace. Previously, he spent some years working in different industries like gambling games (Odobo) and fintech (4Finance). Prior to that, he created his own company, Salenda, in 2005, a software factory and Atlassian Solution Partner headquartered in Madrid, Spain. Adaptavist acquired Salenda in 2019. Previously, he worked at companies like IBM BCS, Sun Microsystems or BEA Systems, where he was recognised as BEA Technical Director, an MVP awards program. He was also one of the initial founders and member of the Board of Directors of javaHispano in 2002, the world's largest Spanish-speaking Java User Group.</p><p>Álvaro has spoken in 11 different countries at conferences like Devoxx BE, GeeCON, JavaLand, JavaZone, Codemotion and Commit Conf. In his spare time, as well as coding and experimenting with new technologies, he likes to spend time with his wife and children, support CD Leganés football team, and play paddle tennis.</p>",
+      "image": "assets/img/speakers/alvaro-sanchez-mariscal.jpg",
+      "ref": "85cf4e0c5a4dffe526db92e2b79b3381a790a0cd",
+      "url": "infoSpeaker.html?ref=85cf4e0c5a4dffe526db92e2b79b3381a790a0cd",
+      "homepage": "",
+      "twitter": "@alvaro_sanchez",
+      "linkedin": "https://www.linkedin.com/in/mariscal/"
     },
     {
       "enabled": "1",
