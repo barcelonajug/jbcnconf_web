@@ -65,6 +65,11 @@ premium:
     image:
       src: "/assets/img/sponsors/oracle-netsuite.jpeg"
       alt: Oracle Netsuite
+  - name: Celonis
+    href: https://engineering.celonis.com/
+    image:
+      src: "/assets/img/sponsors/celonis.png"
+      alt: Celonis
 regular:
   - name: Capitole Consulting
     href: https://capitole-consulting.com/about/
