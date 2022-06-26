@@ -276,8 +276,8 @@
     {
       "enabled": "1",
       "name": "Álvaro Sánchez-Mariscal Arnaiz",
-      "company": "Álvaro Sánchez-Mariscal Arnaiz",
-      "description": "Principal Member of Technical Staff at Oracle Labs",
+      "company": "Oracle Labs",
+      "description": "Principal Member of Technical Staff",
       "biography": "<p>Álvaro is a passionate developer and agile enthusiast with over 21 years of experience. He is now a Principal Member of Technical Staff at Oracle Labs, where he is a Micronaut committer, helping to maintain and evolve the open-source framework.</p><p>Before that, he was a Staff Engineer at VMWare, where he led the creation of new products to build, package, verify and publish software solutions with confidence in the VMware Marketplace. Previously, he spent some years working in different industries like gambling games (Odobo) and fintech (4Finance). Prior to that, he created his own company, Salenda, in 2005, a software factory and Atlassian Solution Partner headquartered in Madrid, Spain. Adaptavist acquired Salenda in 2019. Previously, he worked at companies like IBM BCS, Sun Microsystems or BEA Systems, where he was recognised as BEA Technical Director, an MVP awards program. He was also one of the initial founders and member of the Board of Directors of javaHispano in 2002, the world's largest Spanish-speaking Java User Group.</p><p>Álvaro has spoken in 11 different countries at conferences like Devoxx BE, GeeCON, JavaLand, JavaZone, Codemotion and Commit Conf. In his spare time, as well as coding and experimenting with new technologies, he likes to spend time with his wife and children, support CD Leganés football team, and play paddle tennis.</p>",
       "image": "assets/img/speakers/alvaro-sanchez-mariscal.jpg",
       "ref": "85cf4e0c5a4dffe526db92e2b79b3381a790a0cd",
@@ -401,6 +401,19 @@
       "url": "infoSpeaker.html?ref=efddc30dae7a2df8f301c9afbebbb8e0bb3fb27a",
       "homepage": "",
       "twitter": "@HelenJoScott",
+      "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Nerea Luis Mingueza",
+      "company": "SNGULAR",
+      "description": "Artificial Engineer Lead ",
+      "biography": "<p>Nerea Luis has a PhD in Computer Science, and works as an Artificial Intelligence Engineer at Sngular where she leads projects related to Machine Learning and Computer Vision, among others. She is passionate about artificial intelligence, and robotics. Also speaker at nationwide conferences.</p><p>Nerea is the cofounder of T3chFest. Also, she is Women Techmaker Scholar in 2016 by Google. In 2018, the COTEC Foundation selected her as an expert in Technology, Talent and Gender within its network “Los 100 de Cotec”. In 2019, Nerea has been awarded by the Royal House with the decoration to the Order of Civil Merit and she has also been selected within the Top 100 leading women in Spain in the revelation category. This year she has joined the TV show program Orbita Laika.</p>",
+      "image": "assets/img/speakers/nerea-luis.jpeg",
+      "ref": "c856e449e2ade396c1365e144fed54a33a558810",
+      "url": "infoSpeaker.html?ref=c856e449e2ade396c1365e144fed54a33a558810",
+      "homepage": "https://nerealuis.es",
+      "twitter": "@sailormerqury",
       "linkedin": ""
     },
     {

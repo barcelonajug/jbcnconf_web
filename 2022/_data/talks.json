@@ -1399,6 +1399,24 @@
       "speakers": [
         "dcf4d5f83bc2dab51fb90922055352668da14a18"
       ]
+    },
+    {
+      "id": "62b83cb796d7c00b689850af",
+      "title": "Artificial Intelligence needs Backend & DevOps to reach the real-world",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Intelligent models usually work very well under controlled environments. However, when you want them to be deployed into the real world, the process is still unclear and often immature on a technical level: you need infrastructure, QA, automated pipelines, human-in-the-loop validation... In this talk I'd like to share where we are right now: what's the MLOps trend, why it needs diverse profiles and how there are already companies and open source initiatives working along the lines of shortening the step to production, such as MLFlow, Kubeflow, Hugging Face with Gradio/Streamlit or Google with Vertex AI among others.</p>",
+      "type": "talk",
+      "tags": [
+        "Machine Learning",
+        "MLOps",
+        "AI"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "c856e449e2ade396c1365e144fed54a33a558810"
+      ]
     }
   ]
 }
