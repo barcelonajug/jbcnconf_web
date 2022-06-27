@@ -1252,11 +1252,11 @@
     },
     {
       "id": "628e909d0cb98308207c30de",
-      "title": "Kotlin's Exceptional Performance - Lil' Exception Revisited",
+      "title": "El rendimiento Excepcional de Kotlin - Revisión de \"Excepcioncita\"",
       "languages": [
-        "eng"
+        "es"
       ],
-      "abstract": "<p>As the adage goes, \"don't use exceptions as control flow\" - but why not? In 2014, Aleksey Shipilëv published \"The Exceptional Performance of Lil' Exception\", an excellent article about the performance characteristics of Java's exception system and how different strategies for managing exceptions fare in varying scenarios in order to demonstrate why the adage exists. Since then, the Kotlin programming language has taken off in popularity, and this language brings several new options for handling exceptions, for example inline classes and sealed classes. With the help of the Java Microbenchmark Harness, this presentation will explore the benefits, drawbacks, and performance characteristics of various exception-handling strategies that can be employed using these Kotlin features.</p>",
+      "abstract": "<p>Como dice el adagio viejo, \"no use excepciones como control de flujo\", ¿pero por qué? En 2014 Aleksey Shipilëv publicó \"The Exceptional Performance of Lil' Exception\" (El Rendimiento Excepcional de Excepcioncita\", un artículo excelente sobre las características de rendimiento del sistema de excepciones en Java y cómo salen unas estrategias diferentes de manejar las excepciones en varios escenarios para demostrar por qué el adagio existe. Desde entonces, el lenguaje de programación Kotlin se ha disparado en popularidad, y este lenguaje introduce nuevas opciones para tratar excepciones, por ejemplo clases inline y clases selladas. Con la ayuda del Java Microbenchmark Harness, esta presentación explorará los beneficios, desventajas y características de rendimiento de varias estrategias para tratar las excepciones que pueden ser empleadas usando estos rasgos de Kotlin.</p>",
       "type": "talk",
       "tags": [
         "Kotlin",
