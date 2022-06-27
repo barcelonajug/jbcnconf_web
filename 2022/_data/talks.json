@@ -1383,6 +1383,24 @@
       ]
     },
     {
+      "id": "62aefee4a45da90b624341d5",
+      "title": "How to be a good Cloud Citizen",
+      "languages": [
+        "english"
+      ],
+      "abstract": "<p>Deploying an application to the cloud is easy. Keeping it up and running and scaling it up is also fairly easy, thanks to technologies like Kubernetes. But does that mean that your application is a good Cloud Citizen?</p><p>Is it helping your cluster by providing its real health status? Does it start fast enough to provide serverless functionality? Maybe it’s eating all the resources available in your cluster.</p><p>Also, being a good Cloud Citizen means making it easy for any developers, DevOps, or SRE to make the deployments and upgrades as smooth as possible by making it entirely part of your operational processes.</p><p>Join us in this journey of a perfect Cloud Native Application, where we will cover all the challenges that we have to face from a developer point of view and an operational point of view.</p>",
+      "type": "talk",
+      "tags": [
+        "cloud",
+        "kubernetes",
+        "serverless"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "5c4dc84af05c736fb61555d97670869511e52764"
+      ]
+    },
+    {
       "id": "62b3769796d7c00b689850ad",
       "title": "CompletableFuture and its Quirks",
       "languages": [
