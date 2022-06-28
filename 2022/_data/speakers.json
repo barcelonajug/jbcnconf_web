@@ -379,6 +379,19 @@
     },
     {
       "enabled": "1",
+      "name": "Ferran Galí i Reniu",
+      "company": "Lifull Connect",
+      "description": "Data Engineer",
+      "biography": "<p>Ferran Galí is passionate about web scale distributed systems. Working on Big Data technologies for several years he gained expertise solving problems that require a massive amount of data processing. Right now he is working at LifullConnect materializing products that involve real-time data processing, all that embracing Kafka, Avro, Kotlin and ElasticSearch.</p>",
+      "image": "assets/img/speakers/ferran-gali.jpg",
+      "ref": "06cc66ac133088d8c673c44ccf2f4bba731eb446",
+      "url": "infoSpeaker.html?ref=06cc66ac133088d8c673c44ccf2f4bba731eb446",
+      "homepage": "",
+      "twitter": "@ferrangali",
+      "linkedin": "https://www.linkedin.com/in/ferrangali/"
+    },
+    {
+      "enabled": "1",
       "name": "Josh Long",
       "company": "Tanzu, a division of VMware",
       "description": "Spring Developer Advocate",

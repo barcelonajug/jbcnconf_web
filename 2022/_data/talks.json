@@ -1435,6 +1435,26 @@
       "speakers": [
         "c856e449e2ade396c1365e144fed54a33a558810"
       ]
+    },
+    {
+      "id": "62bab55996d7c00b689850eb",
+      "title": "Real-time, real estate listings with Apache Kafka",
+      "languages": [
+        "eng",
+        "es"
+      ],
+      "abstract": "<p>In real estate markets, it can make a difference to have real-time data instead of the good-old batch processing.</p><p>How many real estate agents are losing time because they cannot find their listing?</p><p>How many home-seekers lost opportunities, hearing things like “sorry, it’s already sold”?</p><p>In this talk I will be presenting how we implemented an event-driven architecture based on Apache Kafka, how it is enabling us to deliver fresh content to all LifullConnect sites across 3 continents, and build meaningful products to real estate professionals, and home-seekers.</p>",
+      "type": "talk",
+      "tags": [
+        "Kafka",
+        "Kafka-Streams",
+        "Avro",
+        "Big Data"
+      ],
+      "level": "middle",
+      "speakers": [
+        "06cc66ac133088d8c673c44ccf2f4bba731eb446"
+      ]
     }
   ]
 }
