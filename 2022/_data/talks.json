@@ -683,8 +683,7 @@
       ],
       "level": "beginner",
       "speakers": [
-        "851e5eddc5337f77150e3b753a676b412dab892a",
-        "62c17e6d66e07f62fd2ca8b6c0e073950d56a55e"
+        "851e5eddc5337f77150e3b753a676b412dab892a"
       ]
     },
     {
@@ -1049,6 +1048,26 @@
       ]
     },
     {
+      "id": "627c18d126f9720858a38ef2",
+      "title": "Keep Your Cache Always Fresh with Debezium!",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>The saying goes that there are only two hard things in Computer Science: cache invalidation, and naming things. Well, turns out the first one is solved actually ;)</p><p>Join us for this session to learn how to keep read views of your data in distributed caches close to your users, always kept in sync with your primary data stores change data capture. You will learn how to</p><ul><li>Implement a low-latency data pipeline for cache updates based on Debezium, Apache Kafka, and Infinispan</li><li>Create denormalized views of your data using Kafka Streams and make them accessible via plain key look-ups from a cache cluster close by</li><li>Propagate updates between cache clusters using cross-site replication</li></ul><p>We'll also touch on some advanced concepts, such as detecting and rejecting writes to the system of record which are derived from outdated cached state, and show in a demo how all the pieces come together, of course connected via Apache Kafka.</p>",
+      "type": "talk",
+      "tags": [
+        "Apache Kafka",
+        "change data capture",
+        "data streaming",
+        "caching",
+        "microservices"
+      ],
+      "level": "middle",
+      "speakers": [
+        "44775844c7cf4df6e20eb4b208e13ebdb02a3ef9"
+      ]
+    },
+    {
       "id": "627c18f226f9720858a38ef3",
       "title": "The Hitchhiker’s Guide to a Great Developer Career",
       "languages": [
@@ -1198,7 +1217,7 @@
       "languages": [
         "eng"
       ],
-      "abstract": "<p>During this session, I will discuss a few techniques about how to improve the JVM start-up time for any application running on the JVM, independent of the programming language. These techniques could be applied in any project, in general without code changes. You can use the same techniques to speed up the JVM start-up time for your applications (both in development and production environments).</p><p>Main topics:</p><p>when the JVM start-up matters (i.e. for what types of applications)</p><p>application class-data sharing (AppCDS)</p><p>Ahead-of-time (AOT) compilation</p><p>few handy JVM flags</p><p>hands-on demonstration (including benchmarks results)</p><p>The JVMs included in this talk are OpenJDK HotSpot and Graal VM.</p>",
+      "abstract": "<p>During this session, I will discuss a few techniques about how to improve the JVM start-up time for any application running on the JVM, independent of the programming language. These techniques could be applied in any project, in general without code changes. You can use the same techniques to speed up the JVM start-up time for your applications (both in development and production environments).</p><p>Main topics:</p><ul><li>when the JVM start-up matters (i.e. for what types of applications)</li><li>Application/Dynamic class-data sharing in HotSpot JVM</li><li>Shared class cache in Eclipse OpenJ9</li><li>Ahead-of-time (AOT) compilation</li><li>few handy JVM flags</li><li>hands-on demonstration (including benchmarks results)</li><li>The JVMs included in this talk are OpenJDK HotSpot, Eclipse OpenJ9 and Graal VM</li></ul>",
       "type": "talk",
       "tags": [
         "performance",
@@ -1233,11 +1252,11 @@
     },
     {
       "id": "628e909d0cb98308207c30de",
-      "title": "Kotlin's Exceptional Performance - Lil' Exception Revisited",
+      "title": "El rendimiento Excepcional de Kotlin - Revisión de \"Excepcioncita\"",
       "languages": [
-        "eng"
+        "es"
       ],
-      "abstract": "<p>As the adage goes, \"don't use exceptions as control flow\" - but why not? In 2014, Aleksey Shipilëv published \"The Exceptional Performance of Lil' Exception\", an excellent article about the performance characteristics of Java's exception system and how different strategies for managing exceptions fare in varying scenarios in order to demonstrate why the adage exists. Since then, the Kotlin programming language has taken off in popularity, and this language brings several new options for handling exceptions, for example inline classes and sealed classes. With the help of the Java Microbenchmark Harness, this presentation will explore the benefits, drawbacks, and performance characteristics of various exception-handling strategies that can be employed using these Kotlin features.</p>",
+      "abstract": "<p>Como dice el adagio viejo, \"no use excepciones como control de flujo\", ¿pero por qué? En 2014 Aleksey Shipilëv publicó \"The Exceptional Performance of Lil' Exception\" (El Rendimiento Excepcional de Excepcioncita\", un artículo excelente sobre las características de rendimiento del sistema de excepciones en Java y cómo salen unas estrategias diferentes de manejar las excepciones en varios escenarios para demostrar por qué el adagio existe. Desde entonces, el lenguaje de programación Kotlin se ha disparado en popularidad, y este lenguaje introduce nuevas opciones para tratar excepciones, por ejemplo clases inline y clases selladas. Con la ayuda del Java Microbenchmark Harness, esta presentación explorará los beneficios, desventajas y características de rendimiento de varias estrategias para tratar las excepciones que pueden ser empleadas usando estos rasgos de Kotlin.</p>",
       "type": "talk",
       "tags": [
         "Kotlin",
@@ -1307,6 +1326,24 @@
       ]
     },
     {
+      "id": "6297cc034b510b0822d4b66c",
+      "title": "Unleash the power of your applications with Micronaut and GraalVM",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>In this talk, Micronaut committer Álvaro Sánchez-Mariscal, will demonstrate how you can quickly build optimised Microservices with Micronaut & GraalVM Native Image. Attendees will learn how the combination of GraalVM Native Image and Micronaut can lead to efficient, highly performant, and optimised applications that can be perfectly deployed to environments like Kubernetes or serverless platforms</p>",
+      "type": "talk",
+      "tags": [
+        "Micronaut",
+        "GraalVM",
+        "Java"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "85cf4e0c5a4dffe526db92e2b79b3381a790a0cd"
+      ]
+    },
+    {
       "id": "629e0757d61b550b63e58f88",
       "title": "Fighting Legacy",
       "languages": [
@@ -1343,6 +1380,80 @@
       "speakers": [
         "2b7ec441cce9bb5ab34f86732420a111c517420a",
         "3a8ccd9f65f848548800c4c1bdb0b3b459e53daf"
+      ]
+    },
+    {
+      "id": "62aefee4a45da90b624341d5",
+      "title": "How to be a good Cloud Citizen",
+      "languages": [
+        "english"
+      ],
+      "abstract": "<p>Deploying an application to the cloud is easy. Keeping it up and running and scaling it up is also fairly easy, thanks to technologies like Kubernetes. But does that mean that your application is a good Cloud Citizen?</p><p>Is it helping your cluster by providing its real health status? Does it start fast enough to provide serverless functionality? Maybe it’s eating all the resources available in your cluster.</p><p>Also, being a good Cloud Citizen means making it easy for any developers, DevOps, or SRE to make the deployments and upgrades as smooth as possible by making it entirely part of your operational processes.</p><p>Join us in this journey of a perfect Cloud Native Application, where we will cover all the challenges that we have to face from a developer point of view and an operational point of view.</p>",
+      "type": "talk",
+      "tags": [
+        "cloud",
+        "kubernetes",
+        "serverless"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "5c4dc84af05c736fb61555d97670869511e52764"
+      ]
+    },
+    {
+      "id": "62b3769796d7c00b689850ad",
+      "title": "CompletableFuture and its Quirks",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>CompletableFuture revolutionised asynchronous processing in Java. Unfortunately, it’s full of quirks, traps, and surprises… during this live coding session, we’ll have a look at things like: thread pools backing task execution, exception propagation, cancellations, and unintuitive methods from the public API.</p>",
+      "type": "talk",
+      "tags": [
+        "java",
+        "async",
+        "multithreading"
+      ],
+      "level": "middle",
+      "speakers": [
+        "dcf4d5f83bc2dab51fb90922055352668da14a18"
+      ]
+    },
+    {
+      "id": "62b83cb796d7c00b689850af",
+      "title": "Artificial Intelligence needs Backend & DevOps to reach the real-world",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Intelligent models usually work very well under controlled environments. However, when you want them to be deployed into the real world, the process is still unclear and often immature on a technical level: you need infrastructure, QA, automated pipelines, human-in-the-loop validation... In this talk I'd like to share where we are right now: what's the MLOps trend, why it needs diverse profiles and how there are already companies and open source initiatives working along the lines of shortening the step to production, such as MLFlow, Kubeflow, Hugging Face with Gradio/Streamlit or Google with Vertex AI among others.</p>",
+      "type": "talk",
+      "tags": [
+        "Machine Learning",
+        "MLOps",
+        "AI"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "c856e449e2ade396c1365e144fed54a33a558810"
+      ]
+    },
+    {
+      "id": "62bab55996d7c00b689850eb",
+      "title": "Real-time, real estate listings with Apache Kafka",
+      "languages": [
+        "eng",
+        "es"
+      ],
+      "abstract": "<p>In real estate markets, it can make a difference to have real-time data instead of the good-old batch processing.</p><p>How many real estate agents are losing time because they cannot find their listing?</p><p>How many home-seekers lost opportunities, hearing things like “sorry, it’s already sold”?</p><p>In this talk I will be presenting how we implemented an event-driven architecture based on Apache Kafka, how it is enabling us to deliver fresh content to all LifullConnect sites across 3 continents, and build meaningful products to real estate professionals, and home-seekers.</p>",
+      "type": "talk",
+      "tags": [
+        "Kafka",
+        "Kafka-Streams",
+        "Avro",
+        "Big Data"
+      ],
+      "level": "middle",
+      "speakers": [
+        "06cc66ac133088d8c673c44ccf2f4bba731eb446"
       ]
     }
   ]

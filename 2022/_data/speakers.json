@@ -5,7 +5,7 @@
       "name": "Severn Everett",
       "company": "Apiumhub",
       "description": "Backend Developer",
-      "biography": "<p>Severn Everett, currently employed as a backend developer in ApiumHub, has been in the software engineering industry for over a decade, having worked in software development companies in the United States, India, Germany, the Netherlands, and Spain. His tech stack repertoire has also varied considerably over the years, with experience in projects using Java, Kotlin, C++, Python, Ruby, and Go. However, the JVM and Spring Boot ecosystems remain the domains in which he retains the most knowledge as well as interest.</p>",
+      "biography": "<p>Severn Everett, actualmente empleado como desarrollador de backend en ApiumHub, lleva más de una década en la industria de la Ingeniería de Software y ha trabajado en compañías de desarrollo de software en los Estados Unidos, la India, Alemania, los Países Bajos y en España. Su repertorio de pila de tecnología también ha variado considerablemente con los años con experiencia en proyectos que usaban Java, Kotlin, C++, Python, Ruby y Go. No obstante, los ecosistemas de JVM y Spring Boot permanecen los dominios en los que más retiene conocimiento e interés.</p>",
       "image": "assets/img/speakers/SevernEverett.webp",
       "ref": "8fc3e7dd2d1a897d037ce00e9be96e35a493bd5b",
       "url": "infoSpeaker.html?ref=8fc3e7dd2d1a897d037ce00e9be96e35a493bd5b",
@@ -64,6 +64,19 @@
       "homepage": "",
       "twitter": "Aitortxu",
       "linkedin": "www.linkedin.com/in/aitoralzola"
+    },
+    {
+      "enabled": "1",
+      "name": "Grzegorz Piwowarek",
+      "company": "Hazelcast",
+      "description": "Lead Architect",
+      "biography": "<p>Grzegorz Piwowarek is a lead architect at Hazelcast, trainer, and blogger at 4comprehension.com. He is interested in distributed systems, system performance, and architecture. There are rumours that he exists only at compile time.</p>",
+      "image": "assets/img/speakers/grzegorz-piwowarek.jpg",
+      "ref": "dcf4d5f83bc2dab51fb90922055352668da14a18",
+      "url": "infoSpeaker.html?ref=dcf4d5f83bc2dab51fb90922055352668da14a18",
+      "homepage": "http://4comprehension.com/",
+      "twitter": "@pivovarit",
+      "linkedin": "https://www.linkedin.com/in/gpiwowarek/"
     },
     {
       "enabled": "1",
@@ -129,6 +142,19 @@
       "homepage": "",
       "twitter": "@dgomezg",
       "linkedin": "https://www.linkedin.com/in/dgomezg/"
+    },
+    {
+      "enabled": "1",
+      "name": "Gunnar Morling",
+      "company": "Red Hat",
+      "description": "Senior Principal Software Engineer",
+      "biography": "<p>Gunnar Morling is a software engineer and open-source enthusiast by heart. He is leading the Debezium project, a distributed platform for change data capture. He is a Java Champion, the spec lead for Bean Validation 2.0 (JSR 380) and has founded multiple open source projects such as JfrUnit, Layrry, and MapStruct. Gunnar is an avid blogger (morling.dev) and has spoken at a wide range of conferences like QCon, Java One, Devoxx, JavaZone, and many others. He's based in Hamburg, Germany.</p>",
+      "image": "assets/img/speakers/gunnar-morling.jpeg",
+      "ref": "44775844c7cf4df6e20eb4b208e13ebdb02a3ef9",
+      "url": "infoSpeaker.html?ref=44775844c7cf4df6e20eb4b208e13ebdb02a3ef9",
+      "homepage": "https://www.morling.dev/",
+      "twitter": "@gunnarmorling",
+      "linkedin": "https://www.linkedin.com/in/gunnar-morling-2b44b7229/"
     },
     {
       "enabled": "1",
@@ -249,6 +275,19 @@
     },
     {
       "enabled": "1",
+      "name": "Álvaro Sánchez-Mariscal Arnaiz",
+      "company": "Oracle Labs",
+      "description": "Principal Member of Technical Staff",
+      "biography": "<p>Álvaro is a passionate developer and agile enthusiast with over 21 years of experience. He is now a Principal Member of Technical Staff at Oracle Labs, where he is a Micronaut committer, helping to maintain and evolve the open-source framework.</p><p>Before that, he was a Staff Engineer at VMWare, where he led the creation of new products to build, package, verify and publish software solutions with confidence in the VMware Marketplace. Previously, he spent some years working in different industries like gambling games (Odobo) and fintech (4Finance). Prior to that, he created his own company, Salenda, in 2005, a software factory and Atlassian Solution Partner headquartered in Madrid, Spain. Adaptavist acquired Salenda in 2019. Previously, he worked at companies like IBM BCS, Sun Microsystems or BEA Systems, where he was recognised as BEA Technical Director, an MVP awards program. He was also one of the initial founders and member of the Board of Directors of javaHispano in 2002, the world's largest Spanish-speaking Java User Group.</p><p>Álvaro has spoken in 11 different countries at conferences like Devoxx BE, GeeCON, JavaLand, JavaZone, Codemotion and Commit Conf. In his spare time, as well as coding and experimenting with new technologies, he likes to spend time with his wife and children, support CD Leganés football team, and play paddle tennis.</p>",
+      "image": "assets/img/speakers/alvaro-sanchez-mariscal.jpg",
+      "ref": "85cf4e0c5a4dffe526db92e2b79b3381a790a0cd",
+      "url": "infoSpeaker.html?ref=85cf4e0c5a4dffe526db92e2b79b3381a790a0cd",
+      "homepage": "",
+      "twitter": "@alvaro_sanchez",
+      "linkedin": "https://www.linkedin.com/in/mariscal/"
+    },
+    {
+      "enabled": "1",
       "name": "Dmitry Aleksandrov",
       "company": "Sofia",
       "description": "Software Developer",
@@ -340,6 +379,19 @@
     },
     {
       "enabled": "1",
+      "name": "Ferran Galí i Reniu",
+      "company": "Lifull Connect",
+      "description": "Data Engineer",
+      "biography": "<p>Ferran Galí is passionate about web scale distributed systems. Working on Big Data technologies for several years he gained expertise solving problems that require a massive amount of data processing. Right now he is working at LifullConnect materializing products that involve real-time data processing, all that embracing Kafka, Avro, Kotlin and ElasticSearch.</p>",
+      "image": "assets/img/speakers/ferran-gali.jpg",
+      "ref": "06cc66ac133088d8c673c44ccf2f4bba731eb446",
+      "url": "infoSpeaker.html?ref=06cc66ac133088d8c673c44ccf2f4bba731eb446",
+      "homepage": "",
+      "twitter": "@ferrangali",
+      "linkedin": "https://www.linkedin.com/in/ferrangali/"
+    },
+    {
+      "enabled": "1",
       "name": "Josh Long",
       "company": "Tanzu, a division of VMware",
       "description": "Spring Developer Advocate",
@@ -362,6 +414,19 @@
       "url": "infoSpeaker.html?ref=efddc30dae7a2df8f301c9afbebbb8e0bb3fb27a",
       "homepage": "",
       "twitter": "@HelenJoScott",
+      "linkedin": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Nerea Luis Mingueza",
+      "company": "SNGULAR",
+      "description": "Artificial Engineer Lead ",
+      "biography": "<p>Nerea Luis has a PhD in Computer Science, and works as an Artificial Intelligence Engineer at Sngular where she leads projects related to Machine Learning and Computer Vision, among others. She is passionate about artificial intelligence, and robotics. Also speaker at nationwide conferences.</p><p>Nerea is the cofounder of T3chFest. Also, she is Women Techmaker Scholar in 2016 by Google. In 2018, the COTEC Foundation selected her as an expert in Technology, Talent and Gender within its network “Los 100 de Cotec”. In 2019, Nerea has been awarded by the Royal House with the decoration to the Order of Civil Merit and she has also been selected within the Top 100 leading women in Spain in the revelation category. This year she has joined the TV show program Orbita Laika.</p>",
+      "image": "assets/img/speakers/nerea-luis.jpeg",
+      "ref": "c856e449e2ade396c1365e144fed54a33a558810",
+      "url": "infoSpeaker.html?ref=c856e449e2ade396c1365e144fed54a33a558810",
+      "homepage": "https://nerealuis.es",
+      "twitter": "@sailormerqury",
       "linkedin": ""
     },
     {
@@ -575,7 +640,7 @@
     {
       "enabled": "1",
       "name": "Dimitris FINAS",
-      "company": "ServiceNow Lightstep",
+      "company": "Lightstep",
       "description": "South EMEA Tech Lead",
       "biography": "<p>Dimitris Finas is Southern EMEA Tech responsible for Lightstep, which is the co-founder of OpenTelemetry with Google. With previous position as DevOps architect and agile project director, Dimitris is an early adopter, technical passionate and eager to deliver highest quality and business results through IT. As speaker at Cloud Expo Europe, CRIP Paris, and other tech events, he shared bottom-up knowledge from implementation to value.</p>",
       "image": "assets/img/speakers/dimitris-finas.webp",
@@ -699,19 +764,6 @@
       "ref": "e5979093f4775ff480701b323ef5f347812a3ce0",
       "url": "infoSpeaker.html?ref=e5979093f4775ff480701b323ef5f347812a3ce0",
       "twitter": "https://twitter.com/hansolo_"
-    },
-    {
-      "enabled": "1",
-      "name": "Shabnam Mayel",
-      "company": "Eclipse Foundation",
-      "description": "Senior Marketing Manager",
-      "biography": "<p>Shabnam Mayel is the Senior Marketing Manager, Cloud Native Java at the Eclipse Foundation. She is an accomplished marketing and business development professional with over 10 years of experience in marketing leadership, brand activation, and management in Southeast Asia and North America. She has a particular interest in open-source and tech-based organizations.</p>",
-      "image": "assets/img/speakers/shabnam.jpg",
-      "ref": "62c17e6d66e07f62fd2ca8b6c0e073950d56a55e",
-      "url": "infoSpeaker.html?ref=62c17e6d66e07f62fd2ca8b6c0e073950d56a55e",
-      "homepage": "",
-      "twitter": "@MayelShabnam",
-      "linkedin": "https://www.linkedin.com/in/shabnam-mayel/"
     },
     {
       "enabled": "1",
