@@ -288,7 +288,7 @@
     },
     "links": {
       "web": "https://www.revolut.com/benefits",
-      "twitter": https://twitter.com/RevolutInsider",
+      "twitter": "https://twitter.com/RevolutInsider",
       "linkedIn": "https://www.linkedin.com/company/5356541/",
       "instagram": "https://www.instagram.com/revolutinsider/"
     },
@@ -304,6 +304,46 @@
         "location": "Remote or office in Madrid/Barcelona",
         "description": "Our Technology team isn't just one of the best in the industry, it's one of the best in the world. It's our driving force; our engine 🚀 From building a new banking backend to creating an award-winning app, there's nothing our tech team can't do. Our Tech team isn't here to fix legacy systems – it's here to build world-class financial products from the ground up. Products that will be used by millions (18+ million people, not that we're counting) 🌎<br/><br/>We're looking for Backend Engineers that want to change the world. If you like to work at a steady pace with no surprises, keep scrolling. If you want your work to change the global financial landscape, you might be just who we're looking for. We have a minimalist approach to using external frameworks, with emphasis on maintainability and fast turnaround with TDD, DDD and Continuous Integration & Delivery. <br/><br/>Our technology stack: Java 11, GCP, Kubernetes. Docker, PostgreSQL, Redis, Spock, SparkJava<br/><br/><strong>What you'll be doing:</strong><br/>- Building mobile APIs<br/>- Developing micro services to evolve our architecture<br/>- Perfecting a number of systems that our business depend on, like risk management, fraud detection, payment processing for example<br/>- Focusing mostly on greenfield development and improvement of existing systems<br/><br/><strong>What you'll need:</strong><br/>- Fluency with Java<br/>- 3+ years of experience in back-end development<br/>- Bachelor's degree in Computer Science/Maths/Physics/similar<br/>- Quick learner attitude with a results driven personality<br/>- Fluent English<br/>",
         "link": "https://jobs.lever.co/revolut/530d3bfd-bdca-4390-8f8a-bc88ddc1eb51?lever-origin=applied&lever-source%5B%5D=jbcnconf2022"
+      }
+    ]
+  },
+  {
+    "company": {
+      "name": "Celonis SL",
+      "logo-url": "/assets/img/sponsors/celonis.png",
+      "description": "We're Celonis, the global leading Process Mining software company and one of the world's fastest-growing SaaS firms. We believe that every company can unlock its full execution capacity - and for that, we need you to join us as an SDET ( Software Developer Engineer in Test)",
+      "level": "premium"
+    },
+    "links": {
+      "web": "https://www.celonis.com/",
+      "twitter": "https://twitter.com/Celonis?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+      "linkedIn": "https://www.linkedin.com/company/celonis/",
+      "instagram": "https://www.instagram.com/lifeatcelonis/"
+    },
+    "vacancies": [
+      {
+        "title": "Senior SDET (Software Development in Test)",
+        "location": "Remote, Spain",
+        "description": "<strong>The Team:</strong><br/>As part of the SDET team, you’ll be involved in many chapter initiatives to develop tooling and continuously improve test automation practices that will help teams streamline their testing. <br/>Day-to-day you will be embedded into a product team where your efforts will have a noticeable and positive impact on quality release after release.<br/><br/><strong>The Role:</strong><br/>As a Senior Software Development Engineer in Test (SDET) you have a cross-functional role with dual strengths in coding and testing. You will share a passion for high-quality software, strong engineering principles, and methodical problem-solving skills.<br/>Your primary focus is designing, developing, and maintaining scalable test automation frameworks and tools that standardize approaches and guide test automation design best practices to help peers effectively perform testing.<br/>Within this role, you’ll champion and drive testing practices within product teams and implement an effective continuous test strategy to mitigate the risks of release and to facilitate teams in delivering quality software faster.<br/><br/><strong>The qualifications you need:</strong><br/>Broad experience in tooling across various technology stacks from unit through E2E testing<br/>Proficient in more than one language including Java, Scala, Typescript, JavaScript, Golang, or Python<br/>Good knowledge of white-box and black-box testing techniques <br/>Familiar with patterns such as Page Object, Journey, Screenplay, Mission<br/>Experience with any test double tooling such as Mockito<br/>",
+        "link": "https://boards.greenhouse.io/celonis/jobs/5035615003"
+      },
+      {
+        "title": "Senior Back End Engineer (Microservices)",
+        "location": "Remote, Spain",
+        "description": "Celonis is offering fully remote work opportunities for Senior Software Engineers. This role will require occasional travel to our Engineering HUB in Madrid. <br/><br/><strong>The Role:</strong><br/>Being a global hyper-growth leader in process mining technology, our goal at Celonis is to establish our Intelligent Business Cloud as a standard SaaS solution in any company. Celonis is looking for a Senior Backend Engineer to build new features, design and implement useful API methods and increase the reliability of our software continuously. Our Java services are built on Java 11 and Spring (Boot), so expertise in these areas is highly desirable. <br/><br/><strong>The qualifications you need:</strong><br/>7+ years of experience in building JAVA web applications professionally<br/>Write clear, understandable, and testable code with a continuous focus on maintainability<br/>Have experience in Spring (Boot)<br/>Know how to build good REST APIs  <br/>Have a high-level understanding of the domain, product, and architecture<br/>Can solve complex problems with limited supervision<br/>",
+        "link": "https://boards.greenhouse.io/celonis/jobs/4971000003"
+      },
+      {
+        "title": "Engineering Manager",
+        "location": "Madrid, Spain",
+        "description": "<strong>The Team:</strong><br/>The ecosystem is a key area of Engineering at Celonis which includes a growing number of teams working on the Celonis Marketplace, our entry products, Ecosystem APIs, and more. These teams are responsible end to end for the definition, development, and delivery of products in our cloud.<br/><br/><strong>The Role:</strong><br/>As an Engineering Manager, you’ll be responsible for leading a team to execute a defined mission, managing the careers of the team members and their performance, and actively fostering successful group dynamics to help the team accomplish its mission. Managers at this level possess the technical judgment and decision-making expected of Staff Software Engineers, often making technical contributions that have a direct impact on the team's mission. <br/><br/><strong>The qualifications you need:</strong><br/>Previous experience in an Engineering Manager or technical leadership position<br/>Strong technical knowledge (usually 5+ years of experience in software engineering is expected)<br/>Experience working with Java, the Spring framework, microservices. Knowledge of Process Mining, JavaScript, Typescript, Angular, Cloud providers, Kubernetes, CI/CD, .. is also highly appreciated.<br/>Knowledge of Agile concepts (e.g. Scrum, Kanban, Continuous Delivery)<br/>Ability to lead and make decisions to define the road ahead<br/>",
+        "link": "https://boards.greenhouse.io/celonis/jobs/5035607003"
+      },
+      {
+        "title": "Senior Front End (Angular - Widgets & Components)",
+        "location": "Remote, Spain",
+        "description": "<strong>The Team</strong><br/>At Celonis we have a variety of different frontend challenges ranging from building forms, components & pages for our products, reusable components, component libraries, design systems, micro frontend architectures, and highly optimised visualizations that render big data, frontend SDKs, etc. You will be assigned to the team that is responsible for introducing Celonis widgets and web components, into external platforms like Salesforce, Service Now<br/><br/><strong>The Role</strong><br/>In this role, you will be the ambassador of Celonis tools out of our EMS, creating a library of components that will be used for external developers to create their own applications in a variety of different marketplaces. We are at the frontier of frontend engineering, pushing the frontend boundaries to make our EMS platform a reality.  Hence, if you want to be challenged in the front end and push the boundaries of what's already done, Celonis is the tech environment for you to thrive.<br/>Our tech stack is Angular 11, Typescript 3, HTML5 & SASS.  We develop using SOLID principles and focus on performance<br/><br/><strong>The Qualifications:</strong><br/>University degree in computer science or equivalent<br/>+7 yrs of experience in Frontend Development<br/>Proven experience with Angular, TypeScript/JavaScript, HTML5, CSS/SCSS<br/>Familiarity with data structures & algorithms, profiling & optimization<br/>Experience in writing and setting up tests (unit and integration tests) as well as with JS module bundlers such as Webpack<br/>",
+        "link": "https://boards.greenhouse.io/celonis/jobs/5072374003"
       }
     ]
   }
