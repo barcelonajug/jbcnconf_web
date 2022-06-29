@@ -278,5 +278,33 @@
         "link": "https://newrelic.careers/careers/JobDetail/Spain-Senior-Software-Engineer-Frontend-Open-to-remote/2313"
       }
     ]
+  },
+  {
+    "company": {
+      "name": "Revolut",
+      "logo-url": "/assets/img/sponsors/revolut.png",
+      "description": "People deserve more from their money. More visibility, more control, more freedom. With an arsenal of awesome products that span spending, saving, travel, transfers, investing, exchanging and more, Revolut has helped 18+ million customers get more from their money. And we're not done yet. 🚀",
+      "level": "regular"
+    },
+    "links": {
+      "web": "https://www.revolut.com/benefits",
+      "twitter": https://twitter.com/RevolutInsider",
+      "linkedIn": "https://www.linkedin.com/company/5356541/",
+      "instagram": "https://www.instagram.com/revolutinsider/"
+    },
+    "vacancies": [
+      {
+        "title": "Software Engineer (Backend)",
+        "location": "Remote or office in Madrid/Barcelona",
+        "description": "Our Technology team isn’t just one of the best in the industry, it’s one of the best in the world. It’s our driving force; our engine 🚀 From building a new banking backend to creating an award-winning app, there’s nothing our tech team can’t do. Our Tech team isn’t here to fix legacy systems – it’s here to build world-class financial products from the ground up. Products that will be used by millions (18+ million people, not that we’re counting) 🌎<br/><br/>We’re looking for Backend Engineers that want to change the world. If you like to work at a steady pace with no surprises, keep scrolling. If you want your work to change the global financial landscape, you might be just who we’re looking for. We have a minimalist approach to using external frameworks, with emphasis on maintainability and fast turnaround with TDD, DDD and Continuous Integration & Delivery. <br/><br/>Our technology stack: Java 11, GCP, Kubernetes. Docker, PostgreSQL, Redis, Spock, SparkJava<br/><br/><strong>What you’ll be doing:</strong><br/>- Building mobile APIs<br/>- Developing micro services to evolve our architecture<br/>- Perfecting a number of systems that our business depend on, like risk management, fraud detection, payment processing for example<br/>- Focusing mostly on greenfield development and improvement of existing systems<br/><br/><strong>What you'll need:</strong><br/>- Fluency with Java<br/>- 3+ years of experience in back-end development<br/>- Bachelor's degree in Computer Science/Maths/Physics/similar<br/>- Quick learner attitude with a results driven personality<br/>- Fluent English<br/>",
+        "link": "https://jobs.lever.co/revolut/530d3bfd-bdca-4390-8f8a-bc88ddc1eb51?lever-origin=applied&lever-source%5B%5D=jbcnconf2022"
+      },
+      {
+        "title": "Senior Software Engineer (Backend)",
+        "location": "Remote or office in Madrid/Barcelona",
+        "description": "Our Technology team isn’t just one of the best in the industry, it’s one of the best in the world. It’s our driving force; our engine 🚀 From building a new banking backend to creating an award-winning app, there’s nothing our tech team can’t do. Our Tech team isn’t here to fix legacy systems – it’s here to build world-class financial products from the ground up. Products that will be used by millions (18+ million people, not that we’re counting) 🌎<br/><br/>We’re looking for Backend Engineers that want to change the world. If you like to work at a steady pace with no surprises, keep scrolling. If you want your work to change the global financial landscape, you might be just who we’re looking for. We have a minimalist approach to using external frameworks, with emphasis on maintainability and fast turnaround with TDD, DDD and Continuous Integration & Delivery. <br/><br/>Our technology stack: Java 11, GCP, Kubernetes. Docker, PostgreSQL, Redis, Spock, SparkJava<br/><br/><strong>What you’ll be doing:</strong><br/>- Building mobile APIs<br/>- Developing micro services to evolve our architecture<br/>- Perfecting a number of systems that our business depend on, like risk management, fraud detection, payment processing for example<br/>- Focusing mostly on greenfield development and improvement of existing systems<br/><br/><strong>What you'll need:</strong><br/>- Fluency with Java<br/>- 3+ years of experience in back-end development<br/>- Bachelor's degree in Computer Science/Maths/Physics/similar<br/>- Quick learner attitude with a results driven personality<br/>- Fluent English<br/>",
+        "link": "https://jobs.lever.co/revolut/530d3bfd-bdca-4390-8f8a-bc88ddc1eb51?lever-origin=applied&lever-source%5B%5D=jbcnconf2022"
+      }
+    ]
   }
 ]
