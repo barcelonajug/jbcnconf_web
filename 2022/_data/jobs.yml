@@ -346,5 +346,33 @@
         "link": "https://boards.greenhouse.io/celonis/jobs/5072374003"
       }
     ]
+  },
+  {
+    "company": {
+      "name": "commercetools",
+      "logo-url": "/assets/img/sponsors/commerce-tools.png",
+      "description": "commercetools is the world’s leading commerce platform built on MACH principles (Microservice-based, API-first, Cloud-native and Headless).We are focused on providing all the tools and building blocks our customers need to deliver outstanding online shopping experiences. We offer full remote in EU",
+      "level": "regular"
+    },
+    "links": {
+      "web": "https://commercetools.com/?location=emea",
+      "twitter": "https://twitter.com/commercetools",
+      "linkedIn": "https://www.linkedin.com/company/commercetools/mycompany/verification/",
+      "instagram": "https://www.instagram.com/lifeatcommercetools/?hl=en"
+    },
+    "vacancies": [
+      {
+        "title": "Site Reliability Engineer",
+        "location": "Remote (EU or UK)",
+        "description": "At commercetools we power e-commerce solutions that allow our customers to work at cloud scale. Join the new checkout initiative and work together with your team  to shape the technical future of e-commerce. You will focus on providing your  teams with a unified, reliable, and scalable solution to quickly deploy any type of resources they may need, from creating cloud resources to deploying code to production.<br/><br/>Your main responsibilities will be making sure that the infrastructure components are up and running smoothly and security is not compromised<br/><br/><strong>Your Mission:</strong><br/>Automate cloud infrastructure deployments and maintenance<br/>Implement monitoring to ensure security standards<br/>Monitor the health status of the infrastructure<br/>Active participation in designing, analyzing, and troubleshooting infrastructure<br/>Participate in on-call rotation<br/>Ability to work closely with developers inside your team<br/><br/><strong>What you need to succeed:</strong><br/>Knowledge of industry standard security practices (CIS, Vault)<br/>Experience running production workloads in GCP<br/>Experience using IaC tooling (Terraform)<br/>Strong time management skills<br/>Experience with Kubernetes and familiar with the ecosystem<br/>Experience with databases and web services<br/>Experience with MongoDB<br/>Analytical mindset<br/>Familiar with Agile methodologies<br/>Willingness to participate in on call rotation<br/><br/><strong>Soft Skills:</strong><br/>Great communication skills<br/>Ability to  give and receive feedback<br/>Team player<br/>English speaking<br/>",
+        "link": "https://boards.greenhouse.io/commercetools/jobs/5101984003"
+      },
+      {
+        "title": "Scala Engineer",
+        "location": "Europe (remote)",
+        "description": "You would like to work with enthusiastic and experienced Software Engineers in an agile, international environment with a modern tech-stack  (#Functionalprogramming, #GraphQL, #Scala)? Your heart beats Scala, you love solving complex problems? On top you work with passion, love clean code and like to understand the big picture? Sounds like commercetools is the perfect match! Modern e-Commerce solutions, built for high availability!<br/><br/><strong>Your Mission:</strong><br/>Design and implement our PaaS eCommerce backend in Scala as well as our core infrastructure components like database mappings and web service APIs<br/>Work on the APIs that power the checkout: carts and orders<br/>Develop a scalable and multi-tenant architecture<br/>Analyze user needs and discuss technical approaches<br/>Test software components regarding usability, functionality, and performance and work closely with Product, Management and DevOps<br/>Taking part in on-call rotation (with the worldwide distributed team) for production systems<br/><br/> <strong>What you need to succeed:</strong><br/>Deep insights in functional programming and practical work experience with Scala and in developing server-side systems using the JVM<br/>Solid understanding of parallel and asynchronous programming as well as non-blocking I/O<br/>Experience in developing REST APIs and knowledge of scalable architectures (incl. sharding, replication, load balancing, and failover)<br/>Fluent English for work in international teams<br/>Aspiration to constantly improve yourself and learn new technologies, concepts, etc.<br/>",
+        "link": "https://boards.greenhouse.io/commercetools/jobs/4886439003"
+      }
+    ]
   }
 ]
