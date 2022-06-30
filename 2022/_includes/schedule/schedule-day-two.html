@@ -17,17 +17,17 @@
 
 <div class="row schedule-row">
     <div class="{{scheduleLeftWidth}}">
-        09:00 - 09:40
+        09:00 - 09:50
     </div>
 
     {% assign rowHour = 'SE1' %}
-    {% include schedule/schedule-single-track-row.html %}
+    {% include schedule/schedule-multitrack-talks-row.html %}
 
 </div>
 
 <div class="row schedule-row">
     <div class="{{scheduleLeftWidth}}">
-        9:45 - 10:35
+        10:00 - 10:50
     </div>
 
     {% assign rowHour = 'SE2' %}
@@ -37,10 +37,10 @@
 
 <div class="row schedule-row  schedule-break">
     <div class="{{scheduleLeftWidth}}">
-        10:35 - 11:10
+        10:50 - 11:10
     </div>
 
-    {% assign breakContent = 'Coffee Break + Start of Tuesday <a href="hackergarten.html">Hackergarten</a>' %}
+    {% assign breakContent = 'Coffee Break' %}
     {% include schedule/schedule-break-single-track.html %}
 
 </div>
@@ -101,7 +101,7 @@
         16:20 - 16:55
     </div>
 
-    {% assign breakContent = 'Coffee Break + End of Tuesday <a href="hackergarten.html">Hackergarten</a>' %}
+    {% assign breakContent = 'Coffee Break' %}
     {% include schedule/schedule-break-single-track.html %}
 
 </div>
@@ -135,4 +135,3 @@
     {% include schedule/schedule-break-single-track.html %}
 
 </div>
-

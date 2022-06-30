@@ -1,79 +1,64 @@
 <div class="row schedule-row schedule-header">
     <div class="{{scheduleLeftWidth}}">
     </div>
+
     {% include schedule/schedule-header-talks.html %}
-</div>
 
-<div class="row schedule-row">
+</div>
+<div class="row schedule-row schedule-break">
     <div class="{{scheduleLeftWidth}}">
-        08:40 - 09:00
+        08:15 - 09:00
     </div>
 
-    {% assign breakContent = 'Welcome All' %}
+    {% assign breakContent = 'Registration' %}
     {% include schedule/schedule-break-single-track.html %}
-    
+
 </div>
 
 <div class="row schedule-row">
     <div class="{{scheduleLeftWidth}}">
-        09:00 - 09:40
+        09:00 - 09:15
     </div>
 
-    {% assign rowHour = 'KN1' %}
+    {% assign breakContent = 'Welcome Keynote' %}
+    {% include schedule/schedule-break-single-track.html %}
+
+</div>
+
+
+<div class="row schedule-row">
+    <div class="{{scheduleLeftWidth}}">
+        09:20 - 9:55
+    </div>
+
+    {% assign rowHour = 'SE1' %}
     {% include schedule/schedule-single-track-row.html %}
 
 </div>
 
-<!-- BREAK -->
-<div class="row schedule-row schedule-break">
-    <div class="{{scheduleLeftWidth}}">
-        09:40 - 10:00
-    </div>
-    {% assign breakContent = 'Break' %}
-    {% include schedule/schedule-break-single-track.html %}
-</div>
-
 <div class="row schedule-row">
     <div class="{{scheduleLeftWidth}}">
-        10:00 - 10:40
-    </div>
-
-    {% assign rowHour = 'SE1' %}
-    {% include schedule/schedule-multitrack-talks-row.html %}
-
-</div>
-
-<!-- BREAK -->
-<div class="row schedule-row schedule-break">
-    <div class="{{scheduleLeftWidth}}">
-        10:40 - 11:00
-    </div>
-    {% assign breakContent = 'Break' %}
-    {% include schedule/schedule-break-single-track.html %}
-</div>
-
-<div class="row schedule-row">
-    <div class="{{scheduleLeftWidth}}">
-        11:00 - 11:40
+        10:00 - 10:35
     </div>
 
     {% assign rowHour = 'SE2' %}
-    {% include schedule/schedule-multitrack-talks-row.html %}
+    {% include schedule/schedule-single-track-row.html %}
 
 </div>
 
-<!-- BREAK -->
-<div class="row schedule-row schedule-break">
+<div class="row schedule-row  schedule-break">
     <div class="{{scheduleLeftWidth}}">
-        11:40 - 14:00
+        10:35 - 11:10
     </div>
-    {% assign breakContent = 'Lunch Break' %}
+
+    {% assign breakContent = 'Coffee Break' %}
     {% include schedule/schedule-break-single-track.html %}
+
 </div>
 
 <div class="row schedule-row">
     <div class="{{scheduleLeftWidth}}">
-        14:00 - 14:40
+        11:10 - 12:00
     </div>
 
     {% assign rowHour = 'SE3' %}
@@ -81,18 +66,9 @@
 
 </div>
 
-<!-- BREAK -->
-<div class="row schedule-row schedule-break">
-    <div class="{{scheduleLeftWidth}}">
-        14:40 - 15:00
-    </div>
-    {% assign breakContent = 'Break' %}
-    {% include schedule/schedule-break-single-track.html %}
-</div>
-
 <div class="row schedule-row">
     <div class="{{scheduleLeftWidth}}">
-        15:00 - 15:40
+        12:15 - 13:05
     </div>
 
     {% assign rowHour = 'SE4' %}
@@ -100,37 +76,19 @@
 
 </div>
 
-<!-- BREAK -->
-<div class="row schedule-row schedule-break">
+<div class="row schedule-row  schedule-break">
     <div class="{{scheduleLeftWidth}}">
-        15:40 - 17:00
+        13:15 - 14:25
     </div>
-    {% assign breakContent = 'Afternoon Break' %}
+
+    {% assign breakContent = 'Lunch' %}
     {% include schedule/schedule-break-single-track.html %}
+
 </div>
 
 <div class="row schedule-row">
     <div class="{{scheduleLeftWidth}}">
-        17:00 - 17:40
-    </div>
-
-    {% assign rowHour = 'KN2' %}
-    {% include schedule/schedule-single-track-row.html %}
-
-</div>
-
-<!-- BREAK -->
-<div class="row schedule-row schedule-break">
-    <div class="{{scheduleLeftWidth}}">
-        17:40 - 17:00
-    </div>
-    {% assign breakContent = 'Break' %}
-    {% include schedule/schedule-break-single-track.html %}
-</div>
-
-<div class="row schedule-row">
-    <div class="{{scheduleLeftWidth}}">
-        18:00 - 18:40
+        14:30 - 15:20
     </div>
 
     {% assign rowHour = 'SE5' %}
@@ -138,18 +96,9 @@
 
 </div>
 
-<!-- Break -->
-<div class="row schedule-row schedule-break">
-    <div class="{{scheduleLeftWidth}} ">
-        18:40 - 19:00
-    </div>
-    {% assign breakContent = 'Break' %}
-    {% include schedule/schedule-break-single-track.html %}
-</div>
-
 <div class="row schedule-row">
     <div class="{{scheduleLeftWidth}}">
-        19:00 - 19:40
+        15:35 - 16:25
     </div>
 
     {% assign rowHour = 'SE6' %}
@@ -157,13 +106,52 @@
 
 </div>
 
-<div class="row schedule-row">
-    <div class="{{scheduleLeftWidth}} ">
-        19:40
+<div class="row schedule-row  schedule-break">
+    <div class="{{scheduleLeftWidth}}">
+        16:30 - 17:05
     </div>
 
-    {% assign breakContent = 'Closing Ceremony' %}
+    {% assign breakContent = 'Coffee Break' %}
     {% include schedule/schedule-break-single-track.html %}
-    
+
 </div>
 
+<div class="row schedule-row">
+    <div class="{{scheduleLeftWidth}}">
+        17:05 - 17:55
+    </div>
+
+    {% assign rowHour = 'SE7' %}
+    {% include schedule/schedule-multitrack-talks-row.html %}
+
+</div>
+
+<div class="row schedule-row">
+    <div class="{{scheduleLeftWidth}}">
+        18:10 - 19:00
+    </div>
+
+    {% assign rowHour = 'SE8' %}
+    {% include schedule/schedule-multitrack-talks-row.html %}
+
+</div>
+
+<div class="row schedule-row schedule-break">
+    <div class="{{scheduleLeftWidth}} ">
+        19:00 - 20:00
+    </div>
+
+    {% assign breakContent = 'Pre-party at Sponsors area' %}
+    {% include schedule/schedule-break-single-track.html %}
+
+</div>
+
+<div class="row schedule-row schedule-break">
+    <div class="{{scheduleLeftWidth}} ">
+        20:00-22:00
+    </div>
+
+    {% assign breakContent = 'Networking Party at the venue!' %}
+    {% include schedule/schedule-break-single-track.html %}
+
+</div>
