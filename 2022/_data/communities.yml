@@ -33,5 +33,18 @@ The ASF provides an established framework for intellectual property and financia
       "web": "https://www.migracode.openculturalcenter.org",
       "twitter": "https://twitter.com/migracodebcn",
     },
+  },
+  {
+    "company": {
+      "name": "Step4ward",
+      "logo-url": "/assets/img/sponsors/step4ward.jpg",
+      "description": "Step4ward is a group of volunteer women mentors that helps women that are either starting in the tech industry in Spain or want to continue their evolution within their tech career path.
+As mentors, we believe in the given value through the feeling of belonging to a community. We encourage our mentees to build their career path, by guiding them and teaching all the available tools. The most important part for us is letting them know that they are not alone, there are more women like them, and us in the same situation during their career evolution.
+As a community, we also want to create alliances and partnerships with other groups and communities with similar initiatives and spirits in the tech world. "
+    },
+    "links": {
+      "web": "https://bit.ly/step4wardhome",
+      "twitter": "https://twitter.com/@Step4ward_ES",
+    },
   }
 ]
