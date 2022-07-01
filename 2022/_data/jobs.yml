@@ -374,5 +374,37 @@
         "link": "https://boards.greenhouse.io/commercetools/jobs/4886439003"
       }
     ]
+  },
+  {
+    "company": {
+      "name": "Adyen",
+      "logo-url": "/assets/img/sponsors/ayden.png",
+      "description": "Adyen is the financial technology platform of choice for leading companies. By providing end-to-end payments capabilities, data-driven insights, and financial products in a single global solution.",
+      "level": "premium"
+    },
+    "links": {
+      "web": "https://www.adyen.com/",
+      "linkedIn": "https://www.linkedin.com/company/adyen/about/"
+    },
+    "vacancies": [
+      {
+        "title": "Java Software Engineer",
+        "location": "Madrid",
+        "description": "<strong>What You'll Do</strong><br/><br/>You will build and maintain our distributed high-performance platform.<br/>We launch fast and iterate often. Concretely, this means that within your first few weeks, you will bring code live that impacts many businesses and shoppers.<br/>You will be fully responsible from its initial design to bringing new functionality live.<br/>Identify and improve parts of the platform to make it more robust and scalable.<br/>Collaborate across teams and time zones to make things happen, review code and be open to feedback.<br/>As an engineer you will helping our core financial data processes and working on our finance infrastructure, to keep it scalable, reliable and secure<br/><br/><strong>Who you are:</strong><br/>We are looking for Software Engineers with some experience working with object-oriented programming languages (JAVA).<br/>If you are flexible, a team player, someone with an eye for detail will be great.<br/>Someone who enjoys writing testable code.<br/>Great communication skills and the ability to articulate complex, technical concepts.<br/>We are an international team, so we need you to be full professional proficiency (written and verbal) in English.<br/><br/><strong>Our Tech Stack:</strong><br/>Java 11, Web Services (RESTful) and SQL/PostgreSQL using MyBatis (ORM),  Tomcat, Gradle, CockroachDB and Elasticsearch.<br/>Proficient in creating performant database queries and table structures.<br/>For more information about what it's like working here, check out our formula!<br/><br/>If you want to dig deeper into our technology and projects check our blog.<br/>",
+        "link": "https://careers.adyen.com/vacancies/development/4319475/java-software-engineer-madrid-new"
+      },
+      {
+        "title": "Senior Java Engineer",
+        "location": "Madrid",
+        "description": "<strong>What You'll Do</strong><br/><br/>You will build and maintain our distributed high-performance platform.<br/>We launch fast and iterate often. Concretely, this means that within your first few weeks, you will bring code live that impacts many businesses and shoppers.<br/>You will be fully responsible from its initial design to bringing new functionality live.<br/>Identify and improve parts of the platform to make it more robust and scalable.<br/>Collaborate across teams and time zones to make things happen, review code and be open to feedback.<br/>As an engineer you will helping our core financial data processes and working on our finance infrastructure, to keep it scalable, reliable and secure<br/><br/><strong>Who you are:</strong><br/>We are looking for Software Engineers with some experience working with object-oriented programming languages (JAVA).<br/>If you are flexible, a team player, someone with an eye for detail will be great.<br/>Someone who enjoys writing testable code.<br/>Great communication skills and the ability to articulate complex, technical concepts.<br/>We are an international team, so we need you to be full professional proficiency (written and verbal) in English.<br/><br/><strong>Our Tech Stack:</strong><br/>Java 11, Web Services (RESTful) and SQL/PostgreSQL using MyBatis (ORM),  Tomcat, Gradle, CockroachDB and Elasticsearch.<br/>Proficient in creating performant database queries and table structures.<br/>For more information about what it's like working here, check out our formula!<br/>",
+        "link": "https://careers.adyen.com/vacancies/development/3980216/backend-software-engineer--java"
+      },
+      {
+        "title": "Software Engineer ( Java)",
+        "location": "Madrid",
+        "description": "<strong>What You'll Do</strong><br/><br/>You will build and maintain our distributed high-performance platform.<br/>We launch fast and iterate often. Concretely, this means that within your first few weeks, you will bring code live that impacts many businesses and shoppers.<br/>You will be fully responsible from its initial design to bringing new functionality live.<br/>Identify and improve parts of the platform to make it more robust and scalable.<br/>Collaborate across teams and time zones to make things happen, review code and be open to feedback.<br/>As an engineer you will helping our core financial data processes and working on our finance infrastructure, to keep it scalable, reliable and secure<br/><br/><strong>Who you are:</strong><br/>We are looking for Software Engineers with senior experience working with object-oriented programming languages (JAVA).<br/>If you are flexible, a team player, someone with an eye for detail will be great.<br/>Someone able to take ownership and lead a project and who enjoys writing testable code.<br/>Great communication skills and the ability to articulate complex, technical concepts.<br/>We are an international team, so we need you to be full professional proficiency (written and verbal) in English.<br/><br/><strong>Our Tech Stack:</strong><br/>Java 11, Web Services (RESTful) and SQL/PostgreSQL using MyBatis (ORM),  Tomcat, Gradle, CockroachDB and Elasticsearch.<br/>Proficient in creating performant database queries and table structures.<br/>",
+        "link": "https://careers.adyen.com/vacancies/development/3980216/backend-software-engineer--java"
+      }
+    ]
   }
 ]
