@@ -406,5 +406,44 @@
         "link": "https://careers.adyen.com/vacancies/development/3980216/backend-software-engineer--java"
       }
     ]
+  },
+  {
+    "company": {
+      "name": "Cognizant Netcentric",
+      "logo-url": "/assets/img/sponsors/netcentric.png",
+      "description": "Cognizant Netcentric brings digital experience visions to life for the world’s leading brands. With proven expertise in the Adobe Experience Cloud and certified in 5 principal Adobe specialisations, we know how to leverage cutting-edge technology and offer solve unique digital marketing challenges.",
+      "level": "premium"
+    },
+    "links": {
+      "web": "https://www.netcentric.biz",
+      "instagram": "https://www.instagram.com/cognizantnetcentric/",
+      "linkedIn": "https://www.linkedin.com/company/cognizantnetcentric/mycompany/"
+    },
+    "vacancies": [
+      {
+        "title": "(Senior) Backend Engineer",
+        "location": "Remote Spain/ Onsite Barcelona or Vigo",
+        "description": "We’re looking for a Software Engineer to participate in web development projects for major international customers. If you are a backend developer interested in building web solutions based on modern standards, this role will allow you to learn and develop new skills and contribute to the growth of Netcentric.<br/><br/>Netcentric is powered by an international team of skilled, social people who are all about building innovative digital marketing solutions in the Adobe Experience Cloud. We are a responsive organisation that enables everyone to take initiative and contribute to the success of our projects and the company through Holacracy. We focus on technology, delivering quality work and supporting our customers.<br/>If this sounds like you, we need to talk.<br/><br/><strong>Your role includes:</strong><br/>- Developing and maintaining large scale web solutions and components<br/>- Translating requirements into solutions<br/>- Write unit and integration tests<br/>- Integrating third party services<br/>- Working with other talented developers in a decentralized manner<br/><br/><strong>What do we require?</strong><br/>- Experience with web projects<br/>- Good knowledge of Java or other Object Oriented Languages<br/>- Build tools like Maven or Gradle<br/>- Version control tools, especially Git<br/>- Knowledge about RESTful Services<br/>- Knowledge of HTML, CSS and JavaScript<br/>- Design patterns and clean code<br/>- A proactive mind-set and enthusiasm for continuous learning<br/>- Solid interpersonal skills<br/>- Strong verbal and written English language skills<br/>",
+        "link": "https://www.youtube.com/watch?v=-4digbYIFxs&list=PLKrSWEllR0Lg5c0eYT5AEi0vamlAZHilb"
+      },
+      {
+        "title": "System Engineer - Internal IT",
+        "location": "Remote/ Onsite BCN or Vigo",
+        "description": "It is all about Systems! As a System Engineer, you make sure that these systems run consistently stable and well. You develop software to automate or to integrate systems. You are also involved in designing the infrastructure for the solution and developing the system engineering aspects. The jobs is very diverse, from coding excellent automations to client communication and occasionally saving our clients world.<br/><br/>You are a good fit if you consider yourself as a team player who is looking forward to operating and constantly improving secure and highly performing Systems.<br/><br/><strong>You will not be bored, as your role involves the following:</strong><br/>- Collaborate with team members to improve the company’s engineering tools, systems and procedures, and data security<br/>- Analyze code and discuss with the teams to ensure a marked improvement in applications and the timely completion of projects<br/>- Building and maintaining the technology stack conforming to the documented architecture blueprint<br/><br/><strong>What we require:</strong><br/>- Substantial senior experience to be able to do the job with your eyes closed (well, almost)<br/>- Fluent in English<br/>- Strong focus on Automation<br/>- AWS administration, Google Cloud or Azure<br/>- Linux administration: CentOS or RedHat<br/>- Scripting: Bash, Ruby or Python<br/>- Configuration Management: Puppet, Ansible or Chef<br/>- Provisioning tools: Foreman, Salt or Terraform<br/>- Continuous Integration: Jenkins, Nexus or Sonar<br/>- Monitoring tools: Nagios, Zabbix, Prometheus or Sensu<br/>",
+        "link": "https://www.youtube.com/watch?v=-4digbYIFxs&list=PLKrSWEllR0Lg5c0eYT5AEi0vamlAZHilb"
+      },
+      {
+        "title": "Requirements Engineer",
+        "location": "Remote in Spain/ Onsite BCN/Vigo",
+        "description": "We are growing our Requirements Engineering / IT Business Analyst Team in Barcelona and Vigo and are looking for new colleagues who will bring their consultative and analytical experience spiced up by technical skills.<br/><br/><strong>Your Tasks</strong><br/>- You will be the link between our customer and our development teams and translate business requests to technical requirements and into technical concepts.<br/>- You will write business requirements, testing software, executing operational tasks and providing project management support while strengthening your technical acumen and business consulting skills. <br/>- You will take responsibility for the conception and design of web-based solutions in the digital marketing domain, designing, testing and launching the technology that meets fully the business need. You will truly be a game changer for our clients.<br/>- You will support the analysis and implementation of requirements along the entire software development cycle.<br/><br/><strong>What we require:</strong><br/>- Strong verbal and written English skills (C1 and higher)<br/>- First hands-on experience with web-based content management systems (CMS)<br/>- Solid technical understanding of web development and web application integrations<br/>- Basic knowledge of HTML / CSS / JavaScript and / or web-relevant programming languages<br/>- Experience in the creation of wireframes / mock-ups for IT applications<br/>",
+        "link": "https://www.youtube.com/watch?v=-4digbYIFxs&list=PLKrSWEllR0Lg5c0eYT5AEi0vamlAZHilb"
+      },
+      {
+        "title": "AEM Solutions Architect",
+        "location": "Remote in Spain/Onsite in BCN/Vigo",
+        "description": "We are looking for a workmate who is following their vocation to spend time with web development and work with open source frameworks.  You are a good fit if you consider yourself as a passionate techie who is willing to take over responsibility and share his expertise with others. Netcentric may probably feel like home for you if you are developing and want to develop together with us. AEM makes you curious.<br/><br/>You will be responsible for the entire delivery of a project. You will work closely together with the project manager to ensure a delivery exceeding the client's expectations.<br/><br/><strong>Main tasks are:</strong><br/>- defining the architecture of the solution, interacting with the client's architects<br/>- writing and refining technical specifications, provide effort estimations for requirements<br/>- leading the development team (mostly distributed among various locations), reviewing code, coaching and guidance<br/>- respecting infrastructure requirements, synchronise with the project's lead system engineer<br/>- ensuring quality and performance requirements are met, synchronise with the test manager<br/>- development of critical parts of the systems<br/>- ensuring reliable work environment for developers (IDE setup, Maven, CICD, Docker, SonarQube)<br/><br/><strong>What we require:</strong><br/>- Hands-on experience with AEM<br/>- Experience in leading a team, both technically and people management<br/>- Great communication skills and the ability to communicate effectively with technical and business users<br/>",
+        "link": "https://www.youtube.com/watch?v=-4digbYIFxs&list=PLKrSWEllR0Lg5c0eYT5AEi0vamlAZHilb"
+      }
+    ]
   }
 ]
