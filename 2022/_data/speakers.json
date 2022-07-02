@@ -392,19 +392,6 @@
     },
     {
       "enabled": "1",
-      "name": "Josh Long",
-      "company": "Tanzu, a division of VMware",
-      "description": "Spring Developer Advocate",
-      "biography": "<p>Josh (@starbuxman) has been the first Spring Developer Advocate since 2010. Josh is a Java Champion, author of 6 books (including O'Reilly's \"Cloud Native Java: Designing Resilient Systems with Spring Boot, Spring Cloud, and Cloud Foundry\" and \"Reactive Spring\") and numerous best-selling video training (including \"Building Microservices with Spring Boot Livelessons\" with Spring Boot co-founder Phil Webb), and an open-source contributor (Spring Boot, Spring Integration, Spring Cloud, Activiti and Vaadin, etc), a podcaster (\"A Bootiful Podcast\") and a YouTuber.</p>",
-      "image": "assets/img/speakers/josh-1.jpg",
-      "ref": "3803f8e428feb905178afd9025cfc53fb47a8abc",
-      "url": "infoSpeaker.html?ref=3803f8e428feb905178afd9025cfc53fb47a8abc",
-      "homepage": "https://joshlong.com/",
-      "twitter": "@starbuxman",
-      "linkedin": "linkedin.com/in/joshlong"
-    },
-    {
-      "enabled": "1",
       "name": "Helen Scott",
       "company": "Jetbrains",
       "description": "Developer Advocate",
