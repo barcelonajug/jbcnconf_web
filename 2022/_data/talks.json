@@ -1448,7 +1448,8 @@
       "level": "beginner",
       "speakers": [
         "5c4dc84af05c736fb61555d97670869511e52764"
-      ]
+      ],
+      "scheduleId":"#MON-TC1-SE1"
     },
     {
       "id": "62b3769796d7c00b689850ad",
@@ -1485,7 +1486,8 @@
       "level": "beginner",
       "speakers": [
         "c856e449e2ade396c1365e144fed54a33a558810"
-      ]
+      ],
+      "scheduleId": "#MON-TC1-SE2"
     },
     {
       "id": "62bab55996d7c00b689850eb",
