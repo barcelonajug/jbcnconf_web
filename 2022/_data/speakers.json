@@ -22,9 +22,9 @@
       "image": "assets/img/speakers/mauricio-salatino.jpg",
       "ref": "4b26a098aafaf6bc3d533389b61d3ef5ab01f5a3",
       "url": "infoSpeaker.html?ref=4b26a098aafaf6bc3d533389b61d3ef5ab01f5a3",
-      "homepage": "http://salaboy.com",
+      "homepage": "https://salaboy.com",
       "twitter": "@salaboy",
-      "linkedin": "http://linkedin.com/in/salaboy"
+      "linkedin": "https://linkedin.com/in/salaboy"
     },
     {
       "enabled": "1",
@@ -74,7 +74,7 @@
       "image": "assets/img/speakers/grzegorz-piwowarek.jpg",
       "ref": "dcf4d5f83bc2dab51fb90922055352668da14a18",
       "url": "infoSpeaker.html?ref=dcf4d5f83bc2dab51fb90922055352668da14a18",
-      "homepage": "http://4comprehension.com/",
+      "homepage": "https://4comprehension.com/",
       "twitter": "@pivovarit",
       "linkedin": "https://www.linkedin.com/in/gpiwowarek/"
     },
@@ -243,7 +243,7 @@
       "image": "assets/img/speakers/daniel-oh.jpeg",
       "ref": "772aed76233c2cc81c2c9787426760c125fbe421",
       "url": "infoSpeaker.html?ref=772aed76233c2cc81c2c9787426760c125fbe421",
-      "homepage": "http://bit.ly/danielohtv",
+      "homepage": "https://bit.ly/danielohtv",
       "twitter": "@danieloh30",
       "linkedin": "https://www.linkedin.com/in/daniel-oh-083818112/"
     },
@@ -392,19 +392,6 @@
     },
     {
       "enabled": "1",
-      "name": "Josh Long",
-      "company": "Tanzu, a division of VMware",
-      "description": "Spring Developer Advocate",
-      "biography": "<p>Josh (@starbuxman) has been the first Spring Developer Advocate since 2010. Josh is a Java Champion, author of 6 books (including O'Reilly's \"Cloud Native Java: Designing Resilient Systems with Spring Boot, Spring Cloud, and Cloud Foundry\" and \"Reactive Spring\") and numerous best-selling video training (including \"Building Microservices with Spring Boot Livelessons\" with Spring Boot co-founder Phil Webb), and an open-source contributor (Spring Boot, Spring Integration, Spring Cloud, Activiti and Vaadin, etc), a podcaster (\"A Bootiful Podcast\") and a YouTuber.</p>",
-      "image": "assets/img/speakers/josh-1.jpg",
-      "ref": "3803f8e428feb905178afd9025cfc53fb47a8abc",
-      "url": "infoSpeaker.html?ref=3803f8e428feb905178afd9025cfc53fb47a8abc",
-      "homepage": "https://joshlong.com/",
-      "twitter": "@starbuxman",
-      "linkedin": "linkedin.com/in/joshlong"
-    },
-    {
-      "enabled": "1",
       "name": "Helen Scott",
       "company": "Jetbrains",
       "description": "Developer Advocate",
@@ -464,7 +451,7 @@
       "image": "assets/img/speakers/otavio-rodolfo.png",
       "ref": "cf874a75dcb4f22703fb632b069cd640aabbda7f",
       "url": "infoSpeaker.html?ref=cf874a75dcb4f22703fb632b069cd640aabbda7f",
-      "homepage": "http://www.orpiske.net",
+      "homepage": "https://www.orpiske.net",
       "twitter": "@otavio021",
       "linkedin": "https://www.linkedin.com/in/orpiske/"
     },
@@ -538,7 +525,7 @@
       "name": "Graeme Rocher",
       "company": "Oracle",
       "description": "Architect",
-      "biography": "<p>Graeme Rocher is the creator of several popular Open Source projects including Grails (https://grails.org) and Micronaut (https://Micronaut.io) and co-author of \"The Definitive Guide to Grails\" (Apress - http://apress.com/book/view/1590599950). Graeme currently works as an Architect at Oracle. Graeme is a member of the Java Champions (https://twitter.com/java_champions) and 2018 was awarded the Groundbreaker award by Oracle (https://developer.oracle.com/groundbreakers/) for his work on Open Source.</p>",
+      "biography": "<p>Graeme Rocher is the creator of several popular Open Source projects including Grails (https://grails.org) and Micronaut (https://Micronaut.io) and co-author of \"The Definitive Guide to Grails\" (Apress - https://apress.com/book/view/1590599950). Graeme currently works as an Architect at Oracle. Graeme is a member of the Java Champions (https://twitter.com/java_champions) and 2018 was awarded the Groundbreaker award by Oracle (https://developer.oracle.com/groundbreakers/) for his work on Open Source.</p>",
       "image": "assets/img/speakers/graeme-rocher.jpg",
       "ref": "6c31223d3be1de9ea66a96974ec4f524cd6a786f",
       "url": "infoSpeaker.html?ref=6c31223d3be1de9ea66a96974ec4f524cd6a786f",
@@ -787,7 +774,7 @@
       "image": "assets/img/speakers/andrea-peruffo.jpg",
       "ref": "3a8ccd9f65f848548800c4c1bdb0b3b459e53daf",
       "url": "infoSpeaker.html?ref=3a8ccd9f65f848548800c4c1bdb0b3b459e53daf",
-      "homepage": "http://andreaperuffo.com/",
+      "homepage": "https://andreaperuffo.com/",
       "twitter": "@and_prf",
       "linkedin": "https://www.linkedin.com/in/andrea-peruffo-32269178/"
     },

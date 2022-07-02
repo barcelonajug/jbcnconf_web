@@ -140,27 +140,6 @@
       "scheduleId": "#WED-TC5-SE1"
     },
     {
-      "id": "61fc3c314fc8140baaa031b5",
-      "title": "Kubernetes Native Java",
-      "languages": [
-        "eng"
-      ],
-      "abstract": "<p>Spring is all about helping developers get to production quickly and safely. These days, \"production\" is all but guaranteed to mean Kubernetes, and Spring has you covered. Join me, Spring Developer Advocate Josh Long (@starbuxman), and we'll look at how Spring Boot makes writing blisteringly fast, cloud-native, and scalable services more effortless than ever.</p>",
-      "type": "talk",
-      "tags": [
-        "spring",
-        "graalvm",
-        "docker",
-        "kubernetes",
-        "buildpacks"
-      ],
-      "level": "middle",
-      "speakers": [
-        "3803f8e428feb905178afd9025cfc53fb47a8abc"
-      ],
-      "scheduleId": "#MON-TC1-SE4"
-    },
-    {
       "id": "61fd70f54fc8140baaa031bc",
       "title": "REACTIVE Una nueva esperanza! Lecciones de una historia de Rendimiento",
       "languages": [
@@ -1468,8 +1447,9 @@
       ],
       "level": "beginner",
       "speakers": [
-        "49bfda000f39ad3236a771a3bb05f4976c2785b4"
-      ]
+        "5c4dc84af05c736fb61555d97670869511e52764"
+      ],
+      "scheduleId":"#MON-TC1-SE1"
     },
     {
       "id": "62b3769796d7c00b689850ad",
@@ -1506,7 +1486,8 @@
       "level": "beginner",
       "speakers": [
         "c856e449e2ade396c1365e144fed54a33a558810"
-      ]
+      ],
+      "scheduleId": "#MON-TC1-SE2"
     },
     {
       "id": "62bab55996d7c00b689850eb",
