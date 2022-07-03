@@ -202,7 +202,18 @@ startup:
     href: https://www.peoplexperiencehub.com/caixabanktech
     image:
       src: "/assets/img/sponsors/caixabank-tech.png"
-      alt: apiumhub
+      alt: CaixaBank Tech
+virtual:
+  - name: CNCF
+    href: https://https://www.cncf.io
+    image:
+      src: "/assets/img/sponsors/cncf.png"
+      alt: CNCF
+  - name: Ajuntament de Barcelona
+    href: https://www.barcelona.cat/internationalwelcome/en
+    image:
+      src: "/assets/img/sponsors/ajuntament-barcelona.png"
+      alt: Ajuntament de Barcelona  
 supporters:
   - name: JetBrains
     href: https://www.jetbrains.com/
