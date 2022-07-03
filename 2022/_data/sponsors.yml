@@ -212,7 +212,7 @@ virtual:
   - name: Ajuntament de Barcelona
     href: https://www.barcelona.cat/internationalwelcome/en
     image:
-      src: "/assets/img/sponsors/ajuntament.png"
+      src: "/assets/img/sponsors/ajuntament-barcelona.png"
       alt: Ajuntament de Barcelona  
 supporters:
   - name: JetBrains
