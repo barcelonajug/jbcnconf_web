@@ -46,5 +46,15 @@ As a community, we also want to create alliances and partnerships with other gro
       "web": "https://bit.ly/step4wardhome",
       "twitter": "https://twitter.com/@Step4ward_ES",
     },
+  },
+  {
+    "company": {
+      "name": "CNCF",
+      "logo-url": "/assets/img/sponsors/cncf.png",
+      "description": "CNCF is the open source, vendor-neutral hub of cloud native computing, hosting projects like Kubernetes and Prometheus to make cloud native universal and sustainable."    },
+    "links": {
+      "web": "https://www.cncf.io",
+      "twitter": "https://twitter.com/CloudNativeFdn",
+    },
   }
 ]
