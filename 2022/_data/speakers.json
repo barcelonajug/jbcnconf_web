@@ -353,19 +353,6 @@
     },
     {
       "enabled": "1",
-      "name": "Georgios Andrianakis",
-      "company": "Red Hat",
-      "description": "Principal Software Engineer",
-      "biography": "<p>Georgios is part of the core Quarkus team, where he works on various areas, such REST Reactive, Spring support, Kubernetes support, testing, Kotlin among others</p>",
-      "image": "assets/img/speakers/georgios.jpg",
-      "ref": "7cff2b21cb47f910e18350c6497853c7daf32e09",
-      "url": "infoSpeaker.html?ref=7cff2b21cb47f910e18350c6497853c7daf32e09",
-      "homepage": "",
-      "twitter": "geoand86",
-      "linkedin": "https://www.linkedin.com/in/georgios-andrianakis/"
-    },
-    {
-      "enabled": "1",
       "name": "Emily Jiang",
       "company": "IBM",
       "description": "Liberty Cloud Native Architect",
@@ -894,6 +881,19 @@
       "homepage": "",
       "twitter": "@KoTurk77",
       "linkedin": "https://github.com/KoTurk"
+    },
+    {
+      "enabled": "1",
+      "name": "Bruno Borges",
+      "company": "Microsoft",
+      "description": "Product Manager, Java@MS",
+      "biography": "<p>Greetings, I’m Bruno. I’m a Product Manager at Microsoft living in Vancouver, Canada. I am a fan of photography, technology, and movies. I’m also interested in food and travel. But most importantly, I'm opinionated! :-)</p>",
+      "image": "assets/img/speakers/bruno-borges.jpg",
+      "ref": "1e9640271099b69351d75d534a65a3379aaeae12",
+      "url": "infoSpeaker.html?ref=1e9640271099b69351d75d534a65a3379aaeae12",
+      "homepage": "https://brunoborges.io/",
+      "twitter": "@brunoborges",
+      "linkedin": "https://linkedin.com/in/brunocborges"
     },
     {
       "enabled": "1",
