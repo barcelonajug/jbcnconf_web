@@ -756,24 +756,6 @@
       "level": "middle",
       "speakers": [
         "222e9ee3f64709eb49f3299baaa4f39693e5fb82"
-      ],
-      "scheduleId": "#MON-TC5-SE8"
-    },
-    {
-      "id": "62506140aa23f0085462dda6",
-      "title": "Using Quarkus and Kotlin for amazing developer productivity",
-      "languages": [
-        "eng"
-      ],
-      "abstract": "<p>Since it's release, Quarkus has taken the Java world by storm by providing amazing developer productivity to go along with very minimal runtime footprint. Quarkus initially focused on Java, but has recently introduced first class support for Kotlin across it's most important APIs.</p><p>This talk will Kotlin lovers how they can use their favorite language along with Quarkus and reap the best of best worlds.</p>",
-      "type": "talk",
-      "tags": [
-        "Kotlin",
-        "Quarkus"
-      ],
-      "level": "middle",
-      "speakers": [
-        "7cff2b21cb47f910e18350c6497853c7daf32e09"
       ]
     },
     {
@@ -1509,6 +1491,25 @@
         "06cc66ac133088d8c673c44ccf2f4bba731eb446"
       ],
       "scheduleId": "#TUE-TC2-SE1"
+    },
+    {
+      "id": "62c2a0abd5da000812712787",
+      "title": "Secrets of Performance Tuning Java on Kubernetes",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Initially, getting Java to run on Kubernetes may seem complicated, but after a few lines of YAML and a bit of work with Docker, you will wonder what all that fuss was. It is easy! Then you start looking at the performance of your Java app in one core, one GB of memory container, and this is when it all very quickly gets murky. Ops, SREs, and Java developers need to be aware of the JVM's inner works when deciding on how to resource their applications. Without this knowledge, it isn't easy to know whether it is best to scale vertically or horizontally for performance and costs. This talk will explore JVM ergonomics, CPU throttling, Garbage Collectors, and how using this knowledge can help you increase performance while reducing costs in the cloud.</p>",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Kubernetes",
+        "performance"
+      ],
+      "level": "middle",
+      "speakers": [
+        "1e9640271099b69351d75d534a65a3379aaeae12"
+      ],
+      "scheduleId": "#MON-TC1-SE1"
     }
   ]
 }
