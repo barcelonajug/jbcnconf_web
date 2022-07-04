@@ -1494,6 +1494,27 @@
       "scheduleId": "#TUE-TC2-SE1"
     },
     {
+      "id": "62c1cc94d5da000812712784",
+      "title": "How to Write an API Gateway Plugin in Java",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>The role of an API gateway in building large-scale, cloud-native Microservices APIs is sometimes important. It provides rich traffic management features such as load balancing, dynamic upstream, canary release, circuit breaking, authentication, observability, and more. An API gateway will introduce these concerns, allowing your Microservices to focus on the business task at hand.</p><p>Plugin is heart mechanism in API Gateway by using it, we can create high performance systems in tight deadlines. In this talk, we will describe how to build custom plugins in Java with Apache APISIX to manage our API Gateway traffic. Apache APISIX is a fully dynamic high-performance Cloud-Native API gateway and supports multi-language plugins development. With Apache APISIX we can write custom plugins in a programming language we are familiar with, including Java.</p><p>We will also talk about:</p><p>1. Apache APISIX API Gateway.</p><p>2. Configuring Apache APISIX.</p><p>3. Implementation of Java plugin runner.</p><p>4. How to develop a new Java Plugin.</p>",
+      "type": "talk",
+      "tags": [
+        "Java",
+        "Microservices",
+        "API Gateway",
+        "Cloud",
+        "Java Plugin"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "9d03908f0bc0a612d8ab46b8aebbc62cc26ee324"
+      ],
+      "scheduleId": "#TUE-TC5-SE1"
+    },
+    {
       "id": "62c2a0abd5da000812712787",
       "title": "Secrets of Performance Tuning Java on Kubernetes",
       "languages": [

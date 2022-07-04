@@ -119,6 +119,19 @@
     },
     {
       "enabled": "1",
+      "name": "Bobur Umurzokov",
+      "company": "Api7.ai",
+      "description": "Developer Advocate for Apache APISIX",
+      "biography": "<p>I am a Developer Advocate for Open-source Apache APISIX (https://apisix.apache.org/), I have been working as a Software Engineering Trainer at SDAcademy (https://sdacademy.ee/en/) for about 2 years and a former Software engineer at Microsoft. Also, I am highly skilled in developing, testing, and designing software, knowledgeable of back-end development the best practices. I have a total of 8 years of experience as a Software Engineer.</p><p>I like teaching as I learn new things. Nowadays, my main focus areas are Kubernetes, Cloud-Native API Gateways, and some cloud serverless services such as Azure Functions, AWS Lambda.</p><p>There are other three facts about me:</p><p>1. I do professional jiu-jitsu.</p><p>2. I do not like driving a car.</p><p>3. Some colleagues call me just \"BI\" in short which means \"Bobur International\" if it is difficult to pronounce my name.</p>",
+      "image": "assets/img/speakers/bobur-umurzokov.jpg",
+      "ref": "9d03908f0bc0a612d8ab46b8aebbc62cc26ee324",
+      "url": "infoSpeaker.html?ref=9d03908f0bc0a612d8ab46b8aebbc62cc26ee324",
+      "homepage": "https://github.com/Boburmirzo",
+      "twitter": "@BoburUmurzokov",
+      "linkedin": ""
+    },
+    {
+      "enabled": "1",
       "name": "Thomas Vitale",
       "company": "Systematic",
       "description": "Software Architect",
