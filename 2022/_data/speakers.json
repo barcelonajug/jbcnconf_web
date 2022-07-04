@@ -743,6 +743,19 @@
     },
     {
       "enabled": "1",
+      "name": "Ihar Sadounikau",
+      "company": "N26",
+      "description": "Tech Lead",
+      "biography": "<p>Ihar is a Tech Lead at N26 with 9 years of experience in Spring</p><p>He is a contributor to testcontainers and built an initial RabitMQ integration between SpringBoot and testcontainers</p><p>And as Kotlin enthusiast he manages his own telegram Kotlin group</p>",
+      "image": "assets/img/speakers/ihar.png",
+      "ref": "0f14282ded5ac1868eeab077b1af9dd4d494ba55",
+      "url": "infoSpeaker.html?ref=0f14282ded5ac1868eeab077b1af9dd4d494ba55",
+      "homepage": "https://isadounikau.com",
+      "twitter": "@isadounikau",
+      "linkedin": "https://www.linkedin.com/in/isadounikau/"
+    },
+    {
+      "enabled": "1",
       "name": "Gerrit Grunwald",
       "company": "Azul Systems",
       "description": "Senior Developer Advocate",
