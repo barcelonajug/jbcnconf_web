@@ -1357,11 +1357,11 @@
     },
     {
       "id": "6297cc034b510b0822d4b66c",
-      "title": "Unleash the power of your applications with Micronaut and GraalVM",
+      "title": "Libera la potencia de tus aplicaciones con Micronaut y GraalVM",
       "languages": [
         "es"
       ],
-      "abstract": "<p>In this talk, Micronaut committer Álvaro Sánchez-Mariscal, will demonstrate how you can quickly build optimised Microservices with Micronaut & GraalVM Native Image. Attendees will learn how the combination of GraalVM Native Image and Micronaut can lead to efficient, highly performant, and optimised applications that can be perfectly deployed to environments like Kubernetes or serverless platforms</p>",
+      "abstract": "<p>En esta charla, el committer de Micronaut Álvaro Sánchez-Mariscal, demostrará cómo se pueden construir rápidamente microservicios optimizados con Micronaut y GraalVM Native Image.</p><p>Los asistentes aprenderán cómo la combinación de GraalVM Native Image y Micronaut puede dar lugar a aplicaciones eficientes, de alto rendimiento y optimizadas que pueden ser perfectamente desplegadas en entornos como Kubernetes o plataformas sin servidor.</p><p>Habrá una sesión de programación en directo de una aplicación Micronaut utilizando Micronaut Data JDBC y GraalVM.</p>",
       "type": "talk",
       "tags": [
         "Micronaut",
