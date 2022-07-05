@@ -757,7 +757,7 @@
       "speakers": [
         "222e9ee3f64709eb49f3299baaa4f39693e5fb82"
       ],
-      "scheduleId": "#MON-TC5-SE8"
+      "scheduleId": "#MON-TC1-SE7"
     },
     {
       "id": "6250631eaa23f0085462dda7",
@@ -1532,6 +1532,29 @@
         "1e9640271099b69351d75d534a65a3379aaeae12"
       ],
       "scheduleId": "#MON-TC1-SE4"
+    },
+    {
+      "id": "62c34b94d5da000812712788",
+      "title": "Make microservice testing sweet like a honey",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Nobody likes testing. Engineers want to build features that do not write meaningless unit tests with thousands of boilerplate code. Meaningless tests are painful, but they don’t hurt as much as flaky End-To-End tests. And as a buck, we must comply with our customers and run thousands of end-to-end system checks every hour. And we found a balanced solution for most of our cases. So let’s talk about the possibility of testing our application boilerplate code and flakiness</p>",
+      "type": "talk",
+      "tags": [
+        "Testcontainers",
+        "Spring",
+        "Kotlin",
+        "SpringBoot",
+        "Docker",
+        "Integration Testing",
+        "microservice"
+      ],
+      "level": "middle",
+      "speakers": [
+        "0f14282ded5ac1868eeab077b1af9dd4d494ba55"
+      ],
+      "scheduleId": "#MON-TC5-SE8"
     }
   ]
 }
