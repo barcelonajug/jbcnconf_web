@@ -702,22 +702,20 @@
       "scheduleId": "#TUE-TC4-SE5"
     },
     {
-      "id": "62505e8baa23f0085462dda3",
-      "title": "Bootiful Tests in Kotlin",
+      "id": "62bd8c5756138308140760e0",
+      "title": "Java at Microsoft - Behind the scenes",
       "languages": [
         "eng"
       ],
-      "abstract": "<p>Join us for an exploration of testing a Kotlin based Spring Boot 3.x application. Test driven development gives us the confidence necessary to improve our code faster, safely. But how do you test components and services, as well as integrations across distributed systems, while maintaining fast feedback loops, and how do you do all of this within the context Kotlin? In this talk, we'll look at how to test imperative components, data flows, and mocks. We’ll examine how to take advantage of test slices, and how to test web applications. We'll look at how to ensure that API producers and consumers work well together using consumer driven contract testing without sacrificing the testing pyramid for end-to-end integration tests.</p>",
+      "abstract": "<p>This session is a fast-paced tour of all things Java and OpenJDK at the modern Microsoft of today. We will first talk about the why, how and what of Java and Microsoft. We will then dive right into the broad range of tools, services and APIs that Microsoft offers around Azure for Java developers. Lastly, we will discuss the road map for what Java developers can expect from Microsoft in the future. This session is as much about sharing what Microsoft offers today as it is about listening to what the Java community wants to see from Microsoft tomorrow.</p>",
       "type": "talk",
       "tags": [
-        "Kotlin",
-        "SpringBoot",
-        "TDD",
-        "testing"
+        "Java",
+        "Microsoft"
       ],
-      "level": "middle",
+      "level": "beginner",
       "speakers": [
-        "572abc9f31f717b714a59be353c58705853b3b81"
+        "1e9640271099b69351d75d534a65a3379aaeae12"
       ],
       "scheduleId": "#TUE-TC4-SE2"
     },
