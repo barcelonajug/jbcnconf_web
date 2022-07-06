@@ -598,19 +598,7 @@
       "twitter": "@ivar_grimstad",
       "linkedin": "https://www.linkedin.com/in/ivargrimstad/"
     },
-    {
-      "enabled": "1",
-      "name": "Mario Gray",
-      "company": "VMWare",
-      "description": "Technical Advocate",
-      "biography": "<p>Mario Gray is a Principal Technologist at VMware with over 20 years of experience in software development and software architecture. He is co-author of Apress's Pro Spring Integration. Stay tuned for the next installment. He’s helped organizations large and small build service-based architectures in a number of different runtimes and platforms over the decades, but adopting Spring in 2004, and using it whenever possible since, was a no-brainer that culminated in joining the Spring team in 2017. As a Spring Developer Advocate, Mario loves to engage and inspire developers and businesses in the VMware Tanzu ecosystem.</p>",
-      "image": "assets/img/speakers/mario_v_gray.jpeg",
-      "ref": "572abc9f31f717b714a59be353c58705853b3b81",
-      "url": "infoSpeaker.html?ref=572abc9f31f717b714a59be353c58705853b3b81",
-      "homepage": "https://www.sudoinit5.com",
-      "twitter": "@mariogray",
-      "linkedin": "https://www.linkedin.com/in/mario-gray-9b2139/"
-    },
+
     {
       "enabled": "1",
       "name": "Isabella Karabasz",
