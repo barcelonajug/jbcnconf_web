@@ -542,5 +542,41 @@
         "description": "At GFT we have an open position for a Senior DevOps Engineer. It's important to have experience with some cloud (Azure, AWS, GCP) and technologies like Terraform, Jenkins, Docker or Kubernetes. We are looking for an enthusiastic and dynamic person willing to start and grow in a multi-cultural, motivating and challenging environment.<br/><br/><strong>Your main responsibilities will be:</strong><br/>-Standardize, automate and document setup of development, testing and production environments.<br/>-Design and drive improvements to the full SDLC process applying best practices.<br/>-Maintain rapid deployment pipelines, CD infrastructure monitoring and troubleshooting.<br/>-Actively participate in high level team activities such as architecture improvements, process improvements, etc.<br/>-Responsible for ensuring service-level agreement requirements are met.<br/><br/><strong>Our offer:</strong><br/>-Competitive salary<br/>-Restaurant tickets and life insurance for every employee<br/>-The possibility of Working from Home<br/>-Flexible compensation plan, according to your needs<br/>-Customized plan for professional development and training program<br/>-Technical certifications<br/>-Subsidized English / German / Spanish courses<br/>-Flexible working hours and short Fridays<br/>-Program to improve and promote a healthy lifestyle at work: a sports program<br/>International work culture<br/>Discount with Andjoy (called before Gym for Less)<br/>"
       }
     ]
+  },
+  {
+    "company": {
+      "name": "SEAT CODE",
+      "logo-url": "/assets/img/sponsors/seat-code.png",
+      "description": "SEAT CODE is the Barcelona based tech company created in 2019 to disrupt the future of SEAT S.A. Our goal is to foster the digitalization within SEAT to pivot from a successful car manufacturer into an even more successful and efficient mobility service provider with fans as customers.",
+      "level": "premium"
+    },
+    "links": {
+      "web": "https://code.seat/",
+      "twitter": "https://twitter.com/seat_code?lang=es",
+      "instagram": "https://www.instagram.com/seat_code/?hl=es",
+      "linkedIn": "https://www.linkedin.com/company/seatcode/"
+    },
+    "vacancies": [
+      {
+        "title": "Backend Engineer",
+        "location": "Barcelona/Remote ",
+        "description": "<strongThe Role:</strong><br/>As a Backend Engineer you have experience writing APIs that are deployed in cloud environments (AWS / Google Cloud), providing highly available services that are resilient in the face of failures.<br/>You have also worked in Agile teams composed of other engineers, designers, and product managers and are comfortable building high level features as well as writing platform level code.<br/><br/> <strong>Responsibilities:</strong><br/>-	Coding in Kotlin/Java and knowledge of frameworks such as Spring + Spring Boot.<br/>-	Write automated tests.<br/>-	Manage the current code deployment pipelines.<br/>-	Managing and deploying on cloud (both IAAS and PAAS offerings of AWS/Google Cloud).<br/>-	Writing and maintaining Microservices (you know their advantages and caveats).<br/>-	Working with databases (both SQL and NoSQL, their pros and cons).<br/>-	Managing code via git.<br/>-	Working with message and key-value stores (e.g. Redis).<br/>-	Applying knowledge of algorithms and data structures for the suitable problem.<br/>-	Passion for building great products.<br/>-	Experience with kubernetes is a plus.<br/>-	Lead and/or assist in executing any needed testing (units, functional, visual, etc).<br/>"
+      },
+      {
+        "title": "Frontend Engineer",
+        "location": "Barcelona/Remote ",
+        "description": "<strong>The Role:</strong><br/>You will work on a day-to-day basis with our design and backend team to build a scalable and solid product. You have experience writing microservices that are deployed in cloud environments (AWS/Google Cloud), providing highly available services that are resilient in the face of failures. We aim to be curious and care about the little details that make the app delightful.<br/><br/><strong>Responsibilities:</strong><br/>- Coding in Javascript, ReactJs and NodeJs and knowledge of frameworks such Redux or Typescript.<br/>- HTML5 and CSS3 with preprocessors like SASS<br/>- Responsive design with Bootstrap.<br/>- Translation from design mockups and wireframes, collaborative of tools like Zeplin.<br/>- Work using best practices (testing, code reviews, continuous integration...) and in an environment of Agile methodologies.<br/>- Contribute to technical and architectural decision-making.<br/>- Managing code via git.<br/>"
+      },
+      {
+        "title": "Platform Engineer",
+        "location": "Barcelona/Remote ",
+        "description": "<strong>Responsibilities:</strong><br/>-	Managing and maintaining our cloud-based infrastructure;<br/>-	Supporting other team members to define optimum workflows and architectures;<br/>-	Improve the infrastructure by automating to become altogether more comfortable at work.<br/><br/><strong>Minimum requirements:</strong><br/>-	Strong working knowledge of Amazon Web Services<br/>-	Experience with git version control <br/>-	Experience in Continuous Delivery and Continuous Integration<br/>-	Experience with orchestration tools<br/>-	Knowledge of some programming languages (bash scripting, Kotlin, ...)<br/>-	Diagnostic and troubleshooting ability at system and software layers<br/>-	Strong background in Linux Administration<br/>-	Capacity to detect problems and contribute with possible solutions<br/>-	Self learning and investigation capacity<br/>-	Ability to automate processes. <br/>-	Knowledge of Kubernetes<br/><br/><strong>Preferred requirements</strong>:<br/>-	Knowledge of AWS CDK and Terraform<br/>-	Solid experience in building highly scalable server architectures<br/>-	Experience with EKS and ECS (other container platforms are valuable too)<br/>-	In-depth experience with Kotlin<br/>"
+      },
+      {
+        "title": "QA Automation Engineer",
+        "location": "Barcelona/Remote ",
+        "description": "<strong>The Role:</strong><br/>This role will evolve beyond manually testing things. The QA Tester will quickly become a reference for the product, and a key partner of the product owner. The role involves: testing apps on different devices and platforms, understand the relationships between different aspects of the app, and its interface with the backend, create test plans, estimate time and effort for testing features, and keep pushing us into automated testing.<br/><br/><strong>Responsibilities:</strong><br/>- Creating and executing manual, functional, regression, system, and integration tests.<br/>- Automated testing with Selenium and/or Cypress.<br/>- Performing compatibility tests using different handsets, different platforms (IOS and Android) and different versions of each.<br/>- Use of Jira and bug tracking tools.<br/>- Participating in Agile development teams, using either Kanban or Scrum techniques.<br/>- Ideally you should have some experience with automation or a desire to<br/>learn and to get ahead on automated testing tools and frameworks.<br/>"
+      }
+    ]
   }
 ]
