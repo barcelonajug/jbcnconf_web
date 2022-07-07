@@ -191,7 +191,12 @@ basic:
     href: https://www.edreamsodigeo.com/
     image:
       src: "/assets/img/sponsors/edreams.png"
-      alt: eDreams ODIGEO
+      alt: eDreams ODIGEO  
+  - name: EPAM
+    href: https://www.epam.com/
+    image:
+      src: "/assets/img/sponsors/epam.png"
+      alt: EPAM
 startup:
   - name: ApiumHub
     href: https://apiumhub.com/
