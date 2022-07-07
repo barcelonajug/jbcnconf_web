@@ -478,5 +478,33 @@
         "link": "https://careers.ocadogroup.com/job/greenhouse/5335721002?gh_jid=5335721002"
       }
     ]
+  },
+  {
+    "company": {
+      "name": "wefox",
+      "logo-url": "/assets/img/sponsors/wefox.png",
+      "description": "We are the world´s #1 insurtech building an industry-defining product-driven insurance platform. We're splitting the monolith into state-of-the-art microservices and micro-apps solutions – with best practices and agile delivery, to make insurance 10x better and faster! And Java 17 is our pickaxe!",
+      "level": "regular"
+    },
+    "links": {
+      "web": "https://www.wefox.com/en-de/careers",
+      "twitter": "https://twitter.com/wefoxhq",
+      "instagram": "https://www.instagram.com/wefox_de/?hl=en",
+      "linkedIn": "https://www.linkedin.com/company/wefox/"
+    },
+    "vacancies": [
+      {
+        "title": "Java Developer (f/m/d)",
+        "location": "Barcelona, Spain (hybrid)",
+        "description": "We are looking for a Java Developer with experience building microservices to join our Tech team in Spain. Your work will focus on the development and maintenance of backend features using Java, Spring, PostgreSQL, Mongo, Kafka, and AWS. We write quality code using TDD and Unit Testing. We use GitHub, GitHub Actions, and a full CI/CD pipeline.<br/><br/><strong>Your responsibilities:</strong><br/>- Understanding product and technical priorities.<br/>- Independently scoping and implementing production-ready solutions. Debugging production issues.<br/>- Contributing to project estimation tasks and committing to a realistic amount of work.<br/>- Making well-reasoned design decisions, identifying potential issues, trade-offs, risks, and an appropriate level of abstraction.<br/>- Writing meaningful code reviews.<br/>- Mentoring junior, mentee engineers within your squad.<br/>- Contributing to a security-first mindset throughout your squad, always looking for and avoiding vulnerabilities.<br/><br/><strong>What you bring:</strong><br/>- Hands-on experience with Java. We will help you transition to Spring if necessary. We believe it takes 2 years of hands-on experience in order to be comfortable at this level, but if you have less experience, we also welcome you to apply.<br/>- Hands-on experience working with client/server applications, SQL or NoSQL databases, RESTful APIs.<br/>- Experience working with git is a plus.<br/>- Working English is required; Spanish/German is a plus.<br/><br/>To all the misunderstood geniuses, rebels & mavericks looking to change the world for the better. Come work with us!<br/>",
+        "link": "https://www.wefox.com/en-de/position-detail?gh_jid=5172414003"
+      },
+      {
+        "title": "Engineering Lead (Java) (f/m/d)",
+        "location": "Barcelona, Spain (hybrid)",
+        "description": "We are looking for an Engineering Lead with experience building Spring-based microservices, who will focus on leading and managing a squad as it develops and maintains large-scale microservices using Java, Spring, PostgreSQL, Mongo, Kafka, and AWS. We write quality code using TDD, Unit Testing, GitHub, GitHub Actions, and a full CI/CD pipeline.<br/><br/><strong>Your responsibilities:</strong><br/>- Managing the squad’s daily technical delivery to production systems<br/>- Ensuring the squad’s technical solutions are aligned with architectural standards in a way that balances feature delivery and tech debt creation<br/>- Providing estimates of the squad’s upcoming and planned work<br/>- Ensuring that production support issues are being solved in a timely way and according to established SLAs; OKRs, technical initiatives, and other non-Product initiatives are being prioritised, and that the squads in your domains have bandwidth available to work on them<br/>- Ensuring that QA, Monitoring, Alerting, and product security are prioritised within your domains<br/>- Leading by example<br/>- Understanding and documenting each individual squad member’s professional goals and communicating expectations around it<br/><br/><strong>What you bring:</strong><br/>- 6+ years experience creating Spring-based microservices in a professional setting<br/>- Professional experience designing well-formed RESTful APIs, SQL and no-SQL databases, API gateways, microservices system architecture and AWS cloud<br/>- A deep sense of ownership and a “can-do” attitude<br/>- Working knowledge of English<br/><br/>Come work with us!<br/>",
+        "link": "https://www.wefox.com/en-de/position-detail?gh_jid=4805153003"
+      }
+    ]
   }
 ]
