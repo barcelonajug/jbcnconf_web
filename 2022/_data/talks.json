@@ -1553,6 +1553,24 @@
         "0f14282ded5ac1868eeab077b1af9dd4d494ba55"
       ],
       "scheduleId": "#MON-TC5-SE8"
+    },
+    {
+      "id": "62c9d7c60255ff0b603c2f21",
+      "title": " Talent, passion, curiosity, cooperation and a special spirit for discovery",
+      "languages": [
+        "english"
+      ],
+      "abstract": "<p>Last 4th of July we celebrated the 10th anniversary of the Higgs boson discovery solving one of the biggest mysteries of the cosmos. Working at the edge of the knowledge requires talent, passion, curiosity, cooperation and a special spirit for discovery. They are the same values that we need to show at solving technological problems in the XXIst century. Do you take the challenge?</p>",
+      "type": "talk",
+      "tags": [
+        "motivation",
+        "cooperation",
+        "growth"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "33448eaf017c0f6a83fae085f6250427d39cfa17"
+      ]
     }
   ]
 }

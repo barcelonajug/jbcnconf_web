@@ -366,6 +366,19 @@
     },
     {
       "enabled": "1",
+      "name": "Javier Santaolalla",
+      "company": "independent",
+      "description": "Telecommunications ingeneer, writer, educator, Youtuber",
+      "biography": "<p>Telecommunications ingeneer with work experience in satellites at CNES, physics graduate with a masters in fundamental physics, PhD in particle physics with a CIEMAT scolarship at CERN, where he worked when the Higgs boson was discovered. Science disseminator for more than 10 years, funding member of Big Van científicos sobre ruedas, show and conference conductor, writer of 6 books, education researcher and YouTuber.</p>",
+      "image": "assets/img/speakers/javier-santaolalla.jpeg",
+      "ref": "33448eaf017c0f6a83fae085f6250427d39cfa17",
+      "url": "infoSpeaker.html?ref=33448eaf017c0f6a83fae085f6250427d39cfa17",
+      "homepage": "https://javiersantaolalla.es",
+      "twitter": "https://twitter.com/jasantaolalla",
+      "linkedin": "https://www.linkedin.com/in/javier-santaolalla-camino-80560092/"
+    },
+    {
+      "enabled": "1",
       "name": "Emily Jiang",
       "company": "IBM",
       "description": "Liberty Cloud Native Architect",
