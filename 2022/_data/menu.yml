@@ -18,7 +18,7 @@ items:
 - label: Communities
   href: "/foss.html"
 - label: Diversity
-  disabled: true
+#  disabled: true
   href: "/#"
   items:
     - label: Diversity Sponsorship
