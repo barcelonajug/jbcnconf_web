@@ -27,6 +27,7 @@ Once Ruby is installed, install the required gems with the following command.
  bundle install
 
 === Generated pages
+:year: 2022
 
 IMPORTANT: Converting generated html is ONLY required when updating them.
 
@@ -40,11 +41,15 @@ To convert them:
 
 Here is the list of the current generated files and their commands:
 
- $ asciidoctor tools/diversity.adoc -aidprefix -aidseparator=- -s -o 2019/_includes/diversity/diversity-terms.html
- $ asciidoctor tools/hackergarten.adoc -aidprefix -aidseparator=- -s -o 2019/_includes/hackergarten/hackergarten-content.html
- $ asciidoctor tools/talks-feedback.adoc -aidprefix -aidseparator=- -s -o 2019/_includes/feedback/feedback-talks-table.html
- $ asciidoctor tools/workshops-feedback.adoc -aidprefix -aidseparator=- -s -o 2019/_includes/feedback/feedback-workshops-table.html
- $ asciidoctor tools/become-sponsor.adoc -aidprefix -aidseparator=- -s -o 2020/_includes/sponsors/become-sponsor.html
+[source,shell,subs="attributes+"]
+----
+$ asciidoctor tools/diversity.adoc -aidprefix -aidseparator=- -s -o {year}/_includes/diversity/diversity-terms.html
+$ asciidoctor tools/mentoring-panel.adoc -aidprefix -aidseparator=- -s -o {year}/_includes/diversity/mentoring-panel.html
+$ asciidoctor tools/hackergarten.adoc -aidprefix -aidseparator=- -s -o {year}/_includes/hackergarten/hackergarten-content.html
+$ asciidoctor tools/talks-feedback.adoc -aidprefix -aidseparator=- -s -o {year}/_includes/feedback/feedback-talks-table.html
+$ asciidoctor tools/workshops-feedback.adoc -aidprefix -aidseparator=- -s -o {year}/_includes/feedback/feedback-workshops-table.html
+$ asciidoctor tools/become-sponsor.adoc -aidprefix -aidseparator=- -s -o {year}/_includes/sponsors/become-sponsor.html
+----
 
 [IMPORTANT]
 ====

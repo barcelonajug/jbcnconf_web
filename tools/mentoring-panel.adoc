@@ -1,0 +1,123 @@
+= Mentoring panel
+:speakers-imagesdir: assets/img/speakers
+:guests-imagesdir: assets/img/guests
+:image-width: 100
+
+We will talk about the importance of mentoring people underrepresented by seniors and people of reference in the tech industry.
+
+* How to become a reference and role model for others to help them grow.
+* Do we really know what mentoring means? In what ways we can do it?
+* How can we help to contribute to diversity?
+
+== Our speakers
+
+[cols="2,1,2,1"]
+|===
+
+|
+**Lorena Bernardez (Step4ward)** +++
+<a target="_blank" href="https://www.linkedin.com/in/lorena-bernardez/">
+<i class="fa fa-linkedin"></i>
+</a>
++++
+
+Monitoring Manager at eDream Odigeo.
+|
+image:{guests-imagesdir}/lorena-bernardez.jpg[width={image-width}]
+
+|
+**Lizzeth Quinteros (Step4ward)** +++
+<a target="_blank" href="https://www.linkedin.com/in/lizzeth-quinteros-87662a13/">
+<i class="fa fa-linkedin"></i>
+</a>
++++
+
+Senior Cloud Oracle Database Administrator.
+|
+image:{guests-imagesdir}/lizzeth-quinteros.jpg[width={image-width}]
+
+|
+**Cristina Verdi (Code Sherpas)** +++
+<a target="_blank" href="https://www.linkedin.com/in/cristina-verdi/">
+<i class="fa fa-linkedin"></i>
+</a>
++++
+
+Technical Coach and Founder at CodeSherpas.
+|
+image:{guests-imagesdir}/cristina-verdi.jpg[width={image-width}]
+
+|
+**Henriette Hettinga (CodeWomen, MigraCode)** +++
+<a target="_blank" href="https://www.linkedin.com/in/henriette-hettinga/">
+<i class="fa fa-linkedin"></i>
+</a>
++++
+
+Project manager at CodeWomen, an open community for tech women and women-identifying in Barcelona, organised and run by tech women.
+Henriette has a background in management and did a WebDev bootcamp in 2020 before initiating CodeWomen.
+|
+image:{guests-imagesdir}/henriette-hettinga.jpg[width={image-width}]
+
+|
+**Grace Jansen (Developer Advocate IBM)** +++
+<a target="_blank" href="https://www.linkedin.com/in/grace-jansen/">
+<i class="fa fa-linkedin"></i>
+</a>
+<a target="_blank" href="https://twitter.com/gracejansen27">
+<i class="fa fa-twitter"></i>
+</a>
++++
+
+Grace builds POC’s, demos, and sample applications, and writes guides and tutorials.
+Grace also has a keen passion for encouraging more women into STEM and especially Technology careers.
+She is also a Speaker here with the talk  “Addressing the transaction challenge in a cloud-native world”.
+|
+image:{speakers-imagesdir}/grace-jensen.jpg[width={image-width}]
+
+|
+**Heather VanCura (Senior Director JCP/Oracle)** +++
+<a target="_blank" href="https://twitter.com/heathervc">
+<i class="fa fa-twitter"></i>
+</a>
++++
+
+Heather VanCura is the director and chairperson of the Java Community Process (JCP) program.
+In her role, she is responsible for the leadership of the community. In this role, she also serves as an international speaker, mentor, and leader of hack days.
+She also is a speaker here with the talk “Open Innovation and the Java Platform”.
+|
+image:{speakers-imagesdir}/heather-vancura.jpg[width={image-width}]
+
+|
+**Carmen Delgado (Co-Founder Step4ward)** +++
+<a target="_blank" href="https://www.linkedin.com/in/carmenldelgadop/">
+<i class="fa fa-linkedin"></i>
+</a>
++++
+
+Our host 🎙️ Co-Founder and project manager at Step4ward.
+Experienced in career evolution from finance to project management in the tech world.
+
+| image:{guests-imagesdir}/carmen-delgado.jpg[width={image-width}]
+
+|===
+
+== Thanks to our collaborators
+
+CodeWomen::
+Is an empowering and supportive community for women, by women.
+Our goals are offering women learning, encouragement and support.
+In addition, CodeWomen offers its members a safe environment to share their plans, ambitions and questions with each other.
+By building this community, CodeWomen stimulates both professional and personal growth.
+CodeWomen is a unique place for women career changers, specifically for women with a migration background, to learn and network, meet new people, and get career advice from experienced women developers.
+Learning from other women and working with women coaches is an important part of the learning we offer.
+
+Step4ward::
+Is a group of volunteer mentors that helps women starting within the tech world by making a career change or want to continue improving their knowledge and experience.
+Currently, we are under the BCN ENG Slack community, and we offer from 2-3 sessions with each mentee to get to know their needs and work with a plan, we know that only with those sessions there won’t be a huge improvement, but talking with other people that already have a path in tech and even that have lived the same situation gives them the courage to continue and help them with the anxiety of the process.
+We do our session fully remote and are specialized in the Spanish tech market.
+
+Code Sherpas::
+We make it easy for startups, scaleups and innovative companies to scale their teams by connecting them with top tech talent.
+We foster diversity, inclusion and equity in tech by breaking down entry barriers to tech and by guiding dreamers and doers to the top.
+We support, mentor, train and coach apprentices from all over the world: from Nigeria to India, Cabo Verde, Europe and Latin America
