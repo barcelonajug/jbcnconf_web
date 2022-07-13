@@ -1,22 +1,22 @@
 <div class="{{scheduleRightWidth}}">
 
-    <div class="hidden-xs hidden-sm schedule-cell col-md-2">
+    <div class="hidden-xs hidden-sm schedule-cell col-md-2" {% if site.data.homepage.room1_recorded == true %} title="The sessions in this track will be recorded, and later uploaded to YT." {% endif %}>
         {{site.data.homepage.room1_talks}}
     </div>
 
-    <div class="hidden-xs hidden-sm schedule-cell col-md-2">
+    <div class="hidden-xs hidden-sm schedule-cell col-md-2" {% if site.data.homepage.room2_recorded == true %} title="The sessions in this track will be recorded, and later uploaded to YT." {% endif %}>
         {{site.data.homepage.room2_talks}}
     </div>
 
-    <div class=" hidden-xs hidden-sm schedule-cell col-md-2">
+    <div class=" hidden-xs hidden-sm schedule-cell col-md-2" {% if site.data.homepage.room3_recorded == true %} title="The sessions in this track will be recorded, and later uploaded to YT." {% endif %}>
         {{site.data.homepage.room3_talks}}
     </div>
 
-    <div class="hidden-xs hidden-sm schedule-cell col-md-2">
+    <div class="hidden-xs hidden-sm schedule-cell col-md-2" {% if site.data.homepage.room4_recorded == true %} title="The sessions in this track will be recorded, and later uploaded to YT." {% endif %}>
         {{site.data.homepage.room4_talks}}
     </div>
 
-    <div class="hidden-xs hidden-sm schedule-cell col-md-2">
+    <div class="hidden-xs hidden-sm schedule-cell col-md-2" {% if site.data.homepage.room5_recorded == true %} title="The sessions in this track will be recorded, and later uploaded to YT." {% endif %}>
         {{site.data.homepage.room5_talks}}
     </div>
 

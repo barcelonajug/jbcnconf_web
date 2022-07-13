@@ -84,5 +84,10 @@
   "room2_workshops": "Room 120-121 'Barbara Liskov'",
   "room3_workshops": "Room 122-123 'Dynatrace' 🇪🇸",
   "room4_workshops": "Room 129-130 'Oracle NetSuite'",
-  "room5_workshops": "Room 131-132 'Megan Smith'"
+  "room5_workshops": "Room 131-132 'Megan Smith'",
+  "room1_recorded": true,
+  "room2_recorded": true,
+  "room3_recorded": false,
+  "room4_recorded": false,
+  "room5_recorded": false
 }
