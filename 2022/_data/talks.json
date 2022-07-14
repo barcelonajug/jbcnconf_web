@@ -621,27 +621,6 @@
       "scheduleId": "#TUE-TC2-SE3"
     },
     {
-      "id": "623b88963a63410bd73c06f9",
-      "title": "Open Innovation and the Java Platform ",
-      "languages": [
-        "eng"
-      ],
-      "abstract": "<p>In this presentation we look at recent enhancements to the language. We will also provide resources to help you get more involved in the evolution of Java, learn Java, and explore how you can contribute to the Java community. We will show you how to stay informed when new versions of Java are released and how joining your local Java User Group builds your network and may eventually lead to better career opportunities. Come for Java; stay for all the fun!</p>",
-      "type": "talk",
-      "tags": [
-        "java",
-        "community",
-        "jdk",
-        "innovation",
-        "careers"
-      ],
-      "level": "beginner",
-      "speakers": [
-        "cdb2f4341ae9909562e3f30b68c1d4ade0597c01"
-      ],
-      "scheduleId": "#TUE-TC4-SE1"
-    },
-    {
       "id": "623b89093a63410bd73c06fa",
       "title": "Cloud-Native Application Development with MicroProfile",
       "languages": [
@@ -1572,6 +1551,26 @@
         "33448eaf017c0f6a83fae085f6250427d39cfa17"
       ],
       "scheduleId": "#TUE-TC1-SE8"
-    }
+    },
+		{
+			"id": "62cf27b00255ff0b603c2f22",
+			"title": "I Didn't Know JFR Could Do That!",
+			"languages": [
+				"eng"
+			],
+			"abstract": "<p>Java Flight Recorder (JFR) is one of the hidden gems of the Java platform - a mature, lightweight, production grade profiling and telemetry subsystem. However, many developers don't know just how flexible and powerful this subsystem really is.</p><p>In this talk, Ben Evans will quickly introduce the basics of JFR and then explore some of the less well-known aspects and capabilities of JFR, including streaming, custom events, and integrating with open-source monitoring tools (including the new OpenTelemetry JVM Metrics standard).</p>",
+			"type": "talk",
+			"tags": [
+				"Performance",
+				"Java",
+				"JFR",
+				"Monitoring"
+			],
+			"level": "beginner",
+			"speakers": [
+				"6d4ec093aeee2a5dde4bbce8e9698776ce7bd5b8"
+			],
+			"scheduleId": "#TUE-TC4-SE1"
+		}
   ]
 }

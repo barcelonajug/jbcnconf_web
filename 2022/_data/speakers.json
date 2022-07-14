@@ -353,19 +353,6 @@
     },
     {
       "enabled": "1",
-      "name": "Heather VanCura",
-      "company": "JCP/Oracle",
-      "description": "Senior Director",
-      "biography": "<p>Heather VanCura in the director and chairperson of the Java Community Process (JCP) program. In her role she is responsible for leadership of the community. In this role she also serves as an international speaker, mentor, and leader or hack days. VanCura oversees the work of the JCP executive committee, the JCP.org web site, JSR management, community building, events, communications, and growth of the membership. She is also a contributor and leader of community-driven education and adoption programs. She is the spec lead for JSRs as part of the ongoing JCP.Next effort to evolve the JCP itself. Heather is based in California, is passionate about Java, developer communities, and enjoys trying new sports and fitness activities in her free time.</p><p>@heathervc</p>",
-      "image": "assets/img/speakers/heather-vancura.jpg",
-      "ref": "cdb2f4341ae9909562e3f30b68c1d4ade0597c01",
-      "url": "infoSpeaker.html?ref=cdb2f4341ae9909562e3f30b68c1d4ade0597c01",
-      "homepage": "",
-      "twitter": "@heathervc",
-      "linkedin": ""
-    },
-    {
-      "enabled": "1",
       "name": "Javier Santaolalla",
       "company": "independent",
       "description": "Telecommunications ingeneer, writer, educator, Youtuber",
