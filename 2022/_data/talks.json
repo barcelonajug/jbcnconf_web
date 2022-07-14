@@ -394,7 +394,10 @@
       "speakers": [
         "77c600183db4294a11712dd71a78a680b7008818"
       ],
-      "scheduleId": "#WED-TC4-SE2"
+      "scheduleId": "#WED-TC4-SE2",
+      "requirements": {
+        "link" : "https://github.com/timtebeek/spring-security-workshop/blob/main/README.adoc"
+      }
     },
     {
       "id": "621909364010570ba9b6dd6d",
@@ -416,7 +419,11 @@
         "ab822b577be6a2418593327d0530f2e48da634a4",
         "8730b5530ca70d453220ebfa9278c051d0492045"
       ],
-      "scheduleId": "#WED-TC1-SE2"
+      "scheduleId": "#WED-TC1-SE2",
+      "requirements": {
+        "htmlText": "If you want to do some hands-on coding exercises, please clone this repo with all the tags",
+        "link" : "https://github.com/pilloPl/cloud-native"
+      }
     },
     {
       "id": "621909594010570ba9b6dd6e",
