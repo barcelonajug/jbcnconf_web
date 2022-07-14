@@ -76,17 +76,20 @@ She is also a Speaker here with the talk  “Addressing the transaction challeng
 image:{speakers-imagesdir}/grace-jensen.jpg[width={image-width}]
 
 |
-**Heather VanCura (Senior Director JCP/Oracle)** +++
-<a target="_blank" href="https://twitter.com/heathervc">
+**Ana-Maria Mihalceanu (Developer Advocate Red Hat)** +++
+<a target="_blank" href="https://twitter.com/ammbra1508">
 <i class="fa fa-twitter"></i>
 </a>
 +++
 
-Heather VanCura is the director and chairperson of the Java Community Process (JCP) program.
-In her role, she is responsible for the leadership of the community. In this role, she also serves as an international speaker, mentor, and leader of hack days.
-She also is a speaker here with the talk “Open Innovation and the Java Platform”.
+Ana is a Java Champion, Developer Advocate at Red Hat, co-founder of Bucharest Software Craftsmanship Community, and a constant adopter of challenging technical scenarios involving Java-based frameworks and multiple cloud providers.
+She actively supports technical communities' growth through knowledge sharing and enjoys curating content for conferences as a program committee member.
 |
-image:{speakers-imagesdir}/heather-vancura.jpg[width={image-width}]
+image:{speakers-imagesdir}/ana-maria-mihalceanu.jpg[width={image-width}]
+
+|===
+
+|===
 
 |
 **Carmen Delgado (Co-Founder Step4ward)** +++
@@ -98,7 +101,7 @@ image:{speakers-imagesdir}/heather-vancura.jpg[width={image-width}]
 Our host 🎙️ Co-Founder and project manager at Step4ward.
 Experienced in career evolution from finance to project management in the tech world.
 
-| image:{guests-imagesdir}/carmen-delgado.jpg[width={image-width}]
+image:{guests-imagesdir}/carmen-delgado.jpg[width={image-width}]
 
 |===
 
