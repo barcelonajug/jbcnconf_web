@@ -215,7 +215,7 @@ startup:
       alt: CaixaBank Tech
 virtual:
   - name: CNCF
-    href: https://https://www.cncf.io
+    href: https://www.cncf.io
     image:
       src: "/assets/img/sponsors/cncf.png"
       alt: CNCF
