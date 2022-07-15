@@ -141,11 +141,11 @@ regular:
     image:
       src: "/assets/img/sponsors/wefox.png"
       alt: Wefox
-  - name: Panorama
-    href: https://www.panoramait.com
+  - name: Sonatype
+    href: https://www.sonatype.com/
     image:
-      src: "/assets/img/sponsors/panorama.png"
-      alt: Panorama
+      src: "/assets/img/sponsors/sonatype.png"
+      alt: Sonatype
   - name: New Relic
     href: https://newrelic.com
     image:
@@ -215,7 +215,7 @@ startup:
       alt: CaixaBank Tech
 virtual:
   - name: CNCF
-    href: https://https://www.cncf.io
+    href: https://www.cncf.io
     image:
       src: "/assets/img/sponsors/cncf.png"
       alt: CNCF
