@@ -602,7 +602,10 @@
       "speakers": [
         "594e335548f1564c9d8057f7b0098872db39f5df"
       ],
-      "scheduleId": "#WED-TC3-SE1"
+      "scheduleId": "#WED-TC3-SE1",
+      "requirements": {
+        "link" : "https://github.com/sdelamo/micronaut-security-jbcnconf2022"
+      }
     },
     {
       "id": "62324db53a63410bd73c06e4",
