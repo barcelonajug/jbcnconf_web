@@ -471,7 +471,7 @@
     {
       "enabled": "1",
       "name": "Ivan Krylov",
-      "company": "",
+      "company": "Apple",
       "description": "Software enginner",
       "biography": "<p>Ivan Krylov is a JVM developer for the last 17 years, working in core JDK  teams in various companies. Ivan specializes in JIT compiler infrastructure and AOT compilation.</p>",
       "image": "assets/img/speakers/ivan_krylov.jpg",
