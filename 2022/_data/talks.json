@@ -275,7 +275,7 @@
       "speakers": [
         "b21e540e924111f0e9d271ed82350fa020b9972e"
       ],
-      "scheduleId": "#MON-TC2-SE8"
+      "scheduleId": "#TUE-TC4-SE1"
     },
     {
       "id": "620d61808fcdb80b9ff53720",
@@ -1580,7 +1580,7 @@
 			"speakers": [
 				"6d4ec093aeee2a5dde4bbce8e9698776ce7bd5b8"
 			],
-			"scheduleId": "#TUE-TC4-SE1"
+			"scheduleId": "#MON-TC2-SE8"
 		}
   ]
 }
