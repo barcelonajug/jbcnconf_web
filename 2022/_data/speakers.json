@@ -54,19 +54,6 @@
     },
     {
       "enabled": "1",
-      "name": "Aitor Alzola",
-      "company": "Lifull Connect",
-      "description": "Tech Lead",
-      "biography": "<p>I have been creating software to solve problems in almost every possible role for more than 25 years, using multiple languages and platforms and different methodologies, trying to improve the process with questionable success. The best thing about all this is that I still like to do it (solve problems and improve in the process). I currently work at Lifull Connect trying to help people to find the property of their dreams all over the world.</p>",
-      "image": "assets/img/speakers/aitor-alzola.jpg",
-      "ref": "f1d7e2395a50ba1c384294c4bc73eba9170fddd0",
-      "url": "infoSpeaker.html?ref=f1d7e2395a50ba1c384294c4bc73eba9170fddd0",
-      "homepage": "",
-      "twitter": "Aitortxu",
-      "linkedin": "www.linkedin.com/in/aitoralzola"
-    },
-    {
-      "enabled": "1",
       "name": "Grzegorz Piwowarek",
       "company": "Hazelcast",
       "description": "Lead Architect",

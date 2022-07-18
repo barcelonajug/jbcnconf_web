@@ -1363,11 +1363,11 @@
     },
     {
       "id": "629e0757d61b550b63e58f88",
-      "title": "Fighting Legacy",
+      "title": "Demystifying 'event' related software concepts and methodologies",
       "languages": [
         "eng"
       ],
-      "abstract": "<p>Which is the definition of Legacy Code? In my context is software that works and pay the bills, but we need to work on it in order to get better results and be able to evolve when it’s necessary.</p><p>Working with three (real estate aggregators, Mitula, Nestoria and Nuroa) products with thousands of legacy lines of code, legacy systems and legacy infrastructure is our day to day work in my team, but you know what? We like it, and it is a challenge to figure out how to deal with that situation and at the same time evolve those products.</p><p>In this talk we will show some of the tecniques we use to deal with that code, and the strategies we are taking in the long run in order to survive to that quest, and we will discuss some economics concepts related to that: When to invest in something, when is usefull to work on preventing a risk and how to deal with technical debt (no silver bullet, it’s a difficult subject).</p>",
+      "abstract": "No matter exactly what type of software you are building, at least a few terms starting with the word \"event\" must have tried to invade your professional space. \"Event-driven\" has already evolved to the level of a magical buzzword in IT marketing and sales activities. But the tech terms list is much longer. It includes \"event streaming\", \"event storming\", \"event sourcing\", \"event store\", \"event modeling\", \"event notification\", \"event-carried state transfer\",  ... Getting dizzy already? Don't worry. Many developers feel this way. This talk is an “event-dizziness” cure. It'll walk you through the entire \"event land\" and explain what is what. It’ll discuss the origins, intention, and applicability of each term. So the next time you face the \"event-driven\" label, you can ask the right questions and make educated choices",
       "type": "talk",
       "tags": [
         "Jva",
@@ -1376,7 +1376,7 @@
       ],
       "level": "advanced",
       "speakers": [
-        "f1d7e2395a50ba1c384294c4bc73eba9170fddd0"
+        "24a5f774e105713678358ec00b22df50b32059df"
       ],
       "scheduleId": "#MON-TC5-SE4"
     },
