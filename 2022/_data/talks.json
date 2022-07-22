@@ -58,7 +58,11 @@
       "speakers": [
         "0ba89c51baf9f8542188bd750973e0767fbcaa68"
       ],
-      "scheduleId": "#TUE-TC3-SE4"
+      "scheduleId": "#TUE-TC3-SE4",
+      "slides": {
+        "url": "https://vfarcic.github.io/crossplane/kubernetes-disappear#/cover",
+        "text": "Kubernetes Needs To Disappear (Online)"
+      }
     },
     {
       "id": "61f1a32cc4c4120b9d29afa3",
@@ -177,7 +181,11 @@
       "speakers": [
         "74479a1ccc69e03d3868de48e18a4d759165d326"
       ],
-      "scheduleId": "#MON-TC1-SE6"
+      "scheduleId": "#MON-TC1-SE6",
+      "slides": {
+        "url": "https://dmitryalexandrov.net/ReactiveHelidon.pdf",
+        "text": "Going Reactive with Helidon (PDF)"
+      }
     },
     {
       "id": "61fd71544fc8140baaa031be",
@@ -293,7 +301,11 @@
       "speakers": [
         "a51f5e99c5211c81d99cd6f4e4217940c41e2d5d"
       ],
-      "scheduleId": "#TUE-TC2-SE6"
+      "scheduleId": "#TUE-TC2-SE6",
+      "slides": {
+        "url": "https://static.architectis.je/jbcnconf2022-diagrams-as-code-2.pdf",
+        "text": "Diagrams as code 2.0 (PDF)"
+      }
     },
     {
       "id": "620d629d8fcdb80b9ff53721",
@@ -313,7 +325,11 @@
       "speakers": [
         "2b7ec441cce9bb5ab34f86732420a111c517420a"
       ],
-      "scheduleId": "#TUE-TC5-SE6"
+      "scheduleId": "#TUE-TC5-SE6",
+      "slides": {
+        "url": "https://speakerdeck.com/evacchi/the-call-of-c-tooling-the-secrets-behind-native-image-building-jbcnconf-2022",
+        "text": "The Call of C-Tooling (speakerdeck.com)"
+      }
     },
     {
       "id": "620d634d8fcdb80b9ff53722",
@@ -396,7 +412,11 @@
       ],
       "scheduleId": "#WED-TC4-SE2",
       "instructions": {
-        "link" : "https://github.com/timtebeek/spring-security-workshop/blob/main/README.adoc"
+        "link": "https://github.com/timtebeek/spring-security-workshop/blob/main/README.adoc"
+      },
+      "slides": {
+        "url": "https://docs.google.com/presentation/d/1LlxcWd3KqTJBcxETh1Rc9MOhkwV-pdQwW93t7tYfnQE/edit?usp=sharing",
+        "text": "Choose your own adventure with Spring Security (Google Sheets)"
       }
     },
     {
@@ -422,7 +442,11 @@
       "scheduleId": "#WED-TC1-SE2",
       "instructions": {
         "htmlText": "If you want to do some hands-on coding exercises, please clone this repo with all the tags",
-        "link" : "https://github.com/pilloPl/cloud-native"
+        "link": "https://github.com/pilloPl/cloud-native"
+      },
+      "slides": {
+        "url": "https://www.dropbox.com/sh/tgbx796go8r398q/AACf7nZy9oQWebQtUi-mufyDa/spring-for-arch-workshop.pdf?dl=0",
+        "text": "Spring For Architects (PDF)"
       }
     },
     {
@@ -462,7 +486,11 @@
         "f3a44479f0e0e748cca666a713d65df707eb5016",
         "e2f19f832dda1ec89c3019769e30a7d00f564198"
       ],
-      "scheduleId": "#MON-TC4-SE5"
+      "scheduleId": "#MON-TC4-SE5",
+      "slides": {
+        "url": "https://noti.st/aurelievache/NhVjFG/what-the-heck-is-devrel",
+        "text": "What the heck is DevRel?"
+      }
     },
     {
       "id": "6229158356274e0bddf00791",
@@ -505,7 +533,7 @@
       ],
       "scheduleId": "#WED-TC1-SE1",
       "instructions": {
-        "link" : "https://github.com/gunayus/keycloak-workshop"
+        "link": "https://github.com/gunayus/keycloak-workshop"
       }
     },
     {
@@ -547,7 +575,11 @@
       "speakers": [
         "24a5f774e105713678358ec00b22df50b32059df"
       ],
-      "scheduleId": "#TUE-TC5-SE5"
+      "scheduleId": "#TUE-TC5-SE5",
+      "slides": {
+        "url": "https://slidr.io/azzazzel/give-your-application-memories#1",
+        "text": "Give your application memories (slidr.io)"
+      }
     },
     {
       "id": "62291d7956274e0bddf0079f",
@@ -607,7 +639,7 @@
       ],
       "scheduleId": "#WED-TC3-SE1",
       "instructions": {
-        "link" : "https://github.com/sdelamo/micronaut-security-jbcnconf2022"
+        "link": "https://github.com/sdelamo/micronaut-security-jbcnconf2022"
       }
     },
     {
@@ -631,7 +663,11 @@
       "speakers": [
         "443a683fa84a77151521434bf96a7a082d29d361"
       ],
-      "scheduleId": "#TUE-TC2-SE3"
+      "scheduleId": "#TUE-TC2-SE3",
+      "slides": {
+        "url": "https://docs.google.com/presentation/d/1bydSWPbA1RMk0nTgnfmtYUTpZMoqKrAZfULfu8W_xQ8",
+        "text": "Event Streaming for the Best of All Worlds (Google Sheets)"
+      }
     },
     {
       "id": "623b89093a63410bd73c06fa",
@@ -825,7 +861,11 @@
         "cf874a75dcb4f22703fb632b069cd640aabbda7f",
         "92722ac8669606acafdd0895be1e8ee444b5fedc"
       ],
-      "scheduleId": "#TUE-TC5-SE7"
+      "scheduleId": "#TUE-TC5-SE7",
+      "slides": {
+        "url": "https://github.com/zbendhiba/zbendhiba.github.io/blob/main/assets/confs/2022/220719-jbcn.pdf",
+        "text": "Scaling Camel to the Cloud (PDF)"
+      }
     },
     {
       "id": "62572502aa23f0085462ddab",
@@ -952,7 +992,11 @@
       "speakers": [
         "34d565db320a6c8f22c1b6c05b18a1aa01ba0796"
       ],
-      "scheduleId": "#MON-TC5-SE5"
+      "scheduleId": "#MON-TC5-SE5",
+      "slides": {
+        "url": "https://mcusercontent.com/e27e522eaac09cee214702bf0/files/25b45556-f54b-cc33-e37f-0987b77d3bad/2207_Otel_in_production_compressed.01.pdf",
+        "text": "OpenTelemetry Real Life Production Feedback (PDF)"
+      }
     },
     {
       "id": "6272e73371e11d0858e82245",
@@ -1178,7 +1222,11 @@
       "speakers": [
         "83000b23dafd750a87d9e4fda12b906fc1e4e734"
       ],
-      "scheduleId": "#MON-TC5-SE6"
+      "scheduleId": "#MON-TC5-SE6",
+      "slides": {
+        "url": "https://docs.google.com/presentation/d/e/2PACX-1vRIX3tZFSElD-DnKOGa4UrG71-BpE-NQTEhEPkxW9VY4S_jhviqCfQBBpubKiEBmxQzehkrFVaNJECT/pub#slide=id.g13bbe60361c_0_1",
+        "text": "Open Source Monitoring with Loki, Grafana, Tempo and Mimir (Google Sheets)"
+      }
     },
     {
       "id": "628551c9d7a7c108376c3a64",
@@ -1381,7 +1429,11 @@
       "speakers": [
         "24a5f774e105713678358ec00b22df50b32059df"
       ],
-      "scheduleId": "#MON-TC5-SE4"
+      "scheduleId": "#MON-TC5-SE4",
+      "slides": {
+        "url": "https://slidr.io/azzazzel/demystifying-event-related-software-concepts-and-methodologies#1",
+        "text": "Demystifying 'event' related software concepts and methodologies (slidr.io)"
+      }
     },
     {
       "id": "62ac451d21f34a0b62f77652",
@@ -1403,7 +1455,14 @@
         "2b7ec441cce9bb5ab34f86732420a111c517420a",
         "3a8ccd9f65f848548800c4c1bdb0b3b459e53daf"
       ],
-      "scheduleId": "#WED-TC5-SE2"
+      "scheduleId": "#WED-TC5-SE2",
+      "slides": {
+        "url": "https://strehler.github.io/workshop-jbcn/docs/",
+        "text": "Write You An Actor (System) For Great Good!"
+      },
+      "instructions": {
+        "link": "https://github.com/strehler/workshop-jbcn"
+      }
     },
     {
       "id": "62aefee4a45da90b624341d5",
@@ -1444,7 +1503,7 @@
       "scheduleId": "#TUE-TC1-SE1",
       "slides": {
         "url": "https://pivovarit.github.io/talks/completable-future-quirks",
-        "text": "completable-future-quirks"
+        "text": "CompletableFuture and its Quirks (Online)"
       }
     },
     {
@@ -1569,25 +1628,25 @@
       ],
       "scheduleId": "#TUE-TC1-SE8"
     },
-		{
-			"id": "62cf27b00255ff0b603c2f22",
-			"title": "I Didn't Know JFR Could Do That!",
-			"languages": [
-				"eng"
-			],
-			"abstract": "<p>Java Flight Recorder (JFR) is one of the hidden gems of the Java platform - a mature, lightweight, production grade profiling and telemetry subsystem. However, many developers don't know just how flexible and powerful this subsystem really is.</p><p>In this talk, Ben Evans will quickly introduce the basics of JFR and then explore some of the less well-known aspects and capabilities of JFR, including streaming, custom events, and integrating with open-source monitoring tools (including the new OpenTelemetry JVM Metrics standard).</p>",
-			"type": "talk",
-			"tags": [
-				"Performance",
-				"Java",
-				"JFR",
-				"Monitoring"
-			],
-			"level": "beginner",
-			"speakers": [
-				"6d4ec093aeee2a5dde4bbce8e9698776ce7bd5b8"
-			],
-			"scheduleId": "#MON-TC2-SE8"
-		}
+    {
+      "id": "62cf27b00255ff0b603c2f22",
+      "title": "I Didn't Know JFR Could Do That!",
+      "languages": [
+        "eng"
+      ],
+      "abstract": "<p>Java Flight Recorder (JFR) is one of the hidden gems of the Java platform - a mature, lightweight, production grade profiling and telemetry subsystem. However, many developers don't know just how flexible and powerful this subsystem really is.</p><p>In this talk, Ben Evans will quickly introduce the basics of JFR and then explore some of the less well-known aspects and capabilities of JFR, including streaming, custom events, and integrating with open-source monitoring tools (including the new OpenTelemetry JVM Metrics standard).</p>",
+      "type": "talk",
+      "tags": [
+        "Performance",
+        "Java",
+        "JFR",
+        "Monitoring"
+      ],
+      "level": "beginner",
+      "speakers": [
+        "6d4ec093aeee2a5dde4bbce8e9698776ce7bd5b8"
+      ],
+      "scheduleId": "#MON-TC2-SE8"
+    }
   ]
 }
