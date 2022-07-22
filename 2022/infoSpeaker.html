@@ -101,16 +101,12 @@ bodyClass: home page-template-default page page-id-7 eventstation-class  eventst
                                     for (let index = 0; index < speaker.talks.length; index++) {
                                         const talk = speaker.talks[index];
                                         $container.find(".post-content").append(`<h2 class="talk-title">${talk.title}</h2><i>${talk.type}<i>`);
-                                        let abstractContent;
-                                        if (!talk.requirements) {
-                                            abstractContent = talk.abstract
-                                        } else {
-                                            abstractContent = talk.abstract
-                                                + '<br><br><span style="text-decoration:underline;font-weight:bold;">Requirements for the workshop</span>: '
-                                                + (talk.requirements.htmlText ? '<div>' + talk.requirements.htmlText + '</div>' : '')
-                                                + (talk.requirements.link ? '<a href="' + talk.requirements.link + '" style="text-decoration: underline; color: blue;" target="_blank"> 👉 Find them here!!</a>' : '')
+                                        let abstractContent = talk.abstract
+                                        if (talk.instructions) {
+                                            abstractContent = '<br><br><span style="font-size:18px;font-weight:bold;">Instructions for the workshop</span>: '
+                                                + (talk.instructions.htmlText ? '<div>' + talk.instructions.htmlText + '</div>' : '')
+                                                + (talk.instructions.link ? '<a href="' + talk.instructions.link + '" style="text-decoration: underline; color: blue;" target="_blank"> 👉 Find them here!!</a>' : '')
                                         }
-                                        console.log(abstractContent)
                                         $container.find(".post-content").append('<div style="text-align: justify;" class="abstract"> ' + abstractContent + ' </div>');
 
                                         if (talk.video) {
