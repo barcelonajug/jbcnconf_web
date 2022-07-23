@@ -352,7 +352,14 @@
       "speakers": [
         "311027298ebb9e1b88923214cff580786cf3d908"
       ],
-      "scheduleId": "#MON-TC4-SE6"
+      "scheduleId": "#MON-TC4-SE6",
+      "slides": {
+        "url": "https://speakerdeck.com/thomasvitale/developer-experience-with-java-on-kubernetes-jbcnconf-2022",
+        "text": "Developer Experience With Java on Kubernetes (speakerdeck)"
+      },
+      "instructions": {
+        "link": "https://github.com/ThomasVitale/developer-experience-java-kubernetes"
+      }
     },
     {
       "id": "621907a14010570ba9b6dd69",
@@ -392,7 +399,11 @@
       "speakers": [
         "772aed76233c2cc81c2c9787426760c125fbe421"
       ],
-      "scheduleId": "#WED-TC2-SE1"
+      "scheduleId": "#WED-TC2-SE1",
+      "slides": {
+        "url": "assets/speakers-slides/Enter_Serverless_Functions_Journey_with_Quarkus.pdf",
+        "text": "Enter Serverless Functions Journey with Quarkus (PDF)"
+      }
     },
     {
       "id": "621909084010570ba9b6dd6c",
@@ -466,7 +477,11 @@
       "speakers": [
         "d8b71cf333c0d6c1dd9126059adf41444e95a605"
       ],
-      "scheduleId": "#TUE-TC1-SE2"
+      "scheduleId": "#TUE-TC1-SE2",
+      "slides": {
+        "url": "assets/speakers-slides/Jakarta_EE_10_JBCNConf_2022.pdf",
+        "text": "Jakarta EE 10 Feature by Feature (PDF)"
+      }
     },
     {
       "id": "62190ab64010570ba9b6dd6f",
@@ -1458,7 +1473,7 @@
       "scheduleId": "#WED-TC5-SE2",
       "slides": {
         "url": "https://strehler.github.io/workshop-jbcn/docs/",
-        "text": "Write You An Actor (System) For Great Good!"
+        "text": "Write You An Actor (System) For Great Good! (online)"
       },
       "instructions": {
         "link": "https://github.com/strehler/workshop-jbcn"
@@ -1565,7 +1580,11 @@
       "speakers": [
         "9d03908f0bc0a612d8ab46b8aebbc62cc26ee324"
       ],
-      "scheduleId": "#TUE-TC5-SE1"
+      "scheduleId": "#TUE-TC5-SE1",
+      "slides": {
+        "url": "assets/speakers-slides/How_to_write_an_API_Gateway_Plugin_talk.pdf",
+        "text": "How to Write an API Gateway Plugin in Java (PDF)"
+      }
     },
     {
       "id": "62c2a0abd5da000812712787",

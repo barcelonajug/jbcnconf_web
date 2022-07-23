@@ -264,7 +264,7 @@ bodyClass: home page-template-default page page-id-7 eventstation-class eventsta
                                             + '<a href="' + talk.slides.url + '" style="text-decoration: underline; color: blue;" target="_blank">' + talk.slides.text + '</a>';
                                     }
                                     if (talk.instructions) {
-                                        abstractContent += '<br><br><span style="font-size:18px;font-weight:bold;">Instructions for the workshop</span>: '
+                                        abstractContent += '<br><br><span style="font-size:18px;font-weight:bold;">Instructions for the ' + talk.type + '</span>: '
                                             + (talk.instructions.htmlText ? '<div>' + talk.instructions.htmlText + '</div>' : '')
                                             + (talk.instructions.link ? '<a href="' + talk.instructions.link + '" style="text-decoration: underline; color: blue;" target="_blank"> 👉 Find them here!!</a>' : '')
                                     }
