@@ -8,7 +8,7 @@
                     <i class="fa fa-lg fa-signal" aria-hidden="true"></i> Level: {{talk.level}}
                 </div>
                 <div class="talk-language">
-                    <i class="fa fa-lg fa-language" aria-hidden="true"></i> 
+                    <i class="fa fa-lg fa-language" aria-hidden="true"></i>
                     {% case talk_language %}
                         {% when "eng" %}
                             English
@@ -18,9 +18,15 @@
                             {{talk_language}}
                     {% endcase %}
                 </div>
+                {% if talk.slides %}
+                <div class="talk-language">
+                    <i class="fa fa-lg fa-slideshare" aria-hidden="true"></i>
+                    <a href="{{talk.slides.url}}" title="{{talk.slides.text}}">Slides</a>
+                </div>
+                {% endif %}
             </div>
             <div class="talk-item-header">
-
+                <!-- TODO move up, next to slides to make it more visible -->
                 {% if talk.video %}
                     <a href="{{talk.video}}"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
                 {% endif %}
