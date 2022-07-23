@@ -355,7 +355,7 @@
       "scheduleId": "#MON-TC4-SE6",
       "slides": {
         "url": "https://speakerdeck.com/thomasvitale/developer-experience-with-java-on-kubernetes-jbcnconf-2022",
-        "text": "Developer Experience With Java on Kubernetes (speakerdeck)"
+        "text": "Developer Experience With Java on Kubernetes (speakerdeck.com)"
       },
       "instructions": {
         "link": "https://github.com/ThomasVitale/developer-experience-java-kubernetes"
@@ -1286,7 +1286,11 @@
       "speakers": [
         "de2cd836ea5980909c79dfc4ea139f8db52b14bb"
       ],
-      "scheduleId": "#TUE-TC2-SE4"
+      "scheduleId": "#TUE-TC2-SE4",
+      "slides": {
+        "url": "https://speakerdeck.com/mlvandijk/use-testing-to-develop-better-software-faster-584e6130-6aa9-433a-bf65-c9dcedc1d9d4",
+        "text": "Use Testing to Develop Better Software Faster (speakerdeck.com)"
+      }
     },
     {
       "id": "62855388d7a7c108376c3a66",
@@ -1305,7 +1309,11 @@
       "speakers": [
         "3932177414abf39b49cc295816a61762874d8b1e"
       ],
-      "scheduleId": "#TUE-TC5-SE2"
+      "scheduleId": "#TUE-TC5-SE2",
+      "slides": {
+        "url": "https://ionutbalosin.com/wp-content/uploads/2022/07/Techniques-for-a-faster-JVM-start-up.pdf",
+        "text": "Techniques for a faster JVM start-up (PDF)"
+      }
     },
     {
       "id": "628554aed7a7c108376c3a67",
