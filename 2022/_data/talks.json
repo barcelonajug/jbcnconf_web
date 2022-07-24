@@ -100,7 +100,11 @@
       "speakers": [
         "f33256b1512b570f58cde29c69166d0fab470334"
       ],
-      "scheduleId": "#TUE-TC1-SE4"
+      "scheduleId": "#TUE-TC1-SE4",
+      "slides": {
+        "url": "https://speakerdeck.com/mthmulders/dapr-dinosaur-or-developers-dream-jbcnconf",
+        "text": "Dapr: Dinosaur or Developer's Dream? (speakerdeck.com)"
+      }
     },
     {
       "id": "61f1ba52c4c4120b9d29afa6",
@@ -1030,7 +1034,11 @@
       "speakers": [
         "1e65ff335ce12cb03cc2dc5130ad907c4d47da6f"
       ],
-      "scheduleId": "#MON-TC4-SE7"
+      "scheduleId": "#MON-TC4-SE7",
+      "slides": {
+        "url": "https://github.com/guillempg/jbcnconf2022/blob/6bdf3055e2d2e142cf712041aeffd6bbd5a52bdb/slides/JBcnConf2022_talk.odp",
+        "text": "Gentle introduction to machine learning algorithms, with examples (OpenOffice Presentation)"
+      }
     },
     {
       "id": "6272e7bc71e11d0858e82246",
