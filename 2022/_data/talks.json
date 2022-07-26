@@ -125,7 +125,11 @@
       "speakers": [
         "78328a04b91142ff18f2a8885d6ec99391906a66"
       ],
-      "scheduleId": "#TUE-TC1-SE6"
+      "scheduleId": "#TUE-TC1-SE6",
+      "slides": {
+        "url": "https://slides.nipafx.dev/java-next/2022-07-19-jbcnconf/#/",
+        "text": "Java Next - From Amber to Loom, from Panama to Valhalla (online)"
+      }
     },
     {
       "id": "61fc3c0a4fc8140baaa031b4",
@@ -208,7 +212,14 @@
       "speakers": [
         "98d92074e12051b600499049a3773caf3fc5dd60"
       ],
-      "scheduleId": "#TUE-TC5-SE4"
+      "scheduleId": "#TUE-TC5-SE4",
+      "slides": {
+        "url": "https://github.com/KoTurk/Kafka/blob/main/JBCNConf/slides.pdf",
+        "text": "Event streaming applications With Kafka Streams, Spring Kafka and Actuator (PDF)"
+      },
+      "instructions": {
+        "link": "https://github.com/KoTurk/Kafka/tree/main/JBCNConf/PaymentEngine"
+      }
     },
     {
       "id": "61fd72704fc8140baaa031bf",
@@ -244,7 +255,11 @@
       "speakers": [
         "16b53ff6547870b3f9c9ef9f5eb97b015ba88e8b"
       ],
-      "scheduleId": "#TUE-TC2-SE2"
+      "scheduleId": "#TUE-TC2-SE2",
+      "slides": {
+        "url": "https://speakerdeck.com/hollycummins/why-you-cant-buy-cloud-native-618b8238-d076-42d7-baae-1a4fdaa61ac3",
+        "text": "why You Can’t Buy Cloud Native (speakerdeck.com)"
+      }
     },
     {
       "id": "61fd74f14fc8140baaa031c1",
@@ -528,7 +543,11 @@
       "speakers": [
         "e5979093f4775ff480701b323ef5f347812a3ce0"
       ],
-      "scheduleId": "#MON-TC2-SE7"
+      "scheduleId": "#MON-TC2-SE7",
+      "slides": {
+        "url": "https://www.slideshare.net/han_solo/what-the-crac-superfast-jvm-startup",
+        "text": "What the CRaC - Superfast JVM startup (slideshare)"
+      }
     },
     {
       "id": "622916e656274e0bddf0079b",
@@ -841,7 +860,11 @@
       "speakers": [
         "114845540f08032641a03bf464caff7815303e5e"
       ],
-      "scheduleId": "#TUE-TC3-SE6"
+      "scheduleId": "#TUE-TC3-SE6",
+      "slides": {
+        "url": "https://docs.google.com/presentation/d/1sjF35VlS6plEh9ON0xeqeD0z0xl1QE35G9iQLeqw4TM/edit#slide=id.g13c93426f7f_0_0",
+        "text": " Lenguaje específico de dominio - por diversión y provecho (Google sheets)"
+      }
     },
     {
       "id": "625724b7aa23f0085462dda9",
@@ -1098,7 +1121,11 @@
       "speakers": [
         "54502dffd46874a385c1e0c37cea135bc9240db3"
       ],
-      "scheduleId": "#TUE-TC4-SE4"
+      "scheduleId": "#TUE-TC4-SE4",
+      "slides": {
+        "url": "https://slides.delawen.com/2022/JBCNConf/",
+        "text": "Bungee jumping to Quarkus (online)"
+      }
     },
     {
       "id": "627c180d26f9720858a38ef1",
@@ -1139,7 +1166,11 @@
       "speakers": [
         "44775844c7cf4df6e20eb4b208e13ebdb02a3ef9"
       ],
-      "scheduleId": "#MON-TC1-SE8"
+      "scheduleId": "#MON-TC1-SE8",
+      "slides": {
+        "url": "https://speakerdeck.com/gunnarmorling/keep-your-cache-always-fresh-with-debezium",
+        "text": "Keep Your Cache Always Fresh with Debezium! (speakerdeck.com)"
+      }
     },
     {
       "id": "627c18f226f9720858a38ef3",
@@ -1158,7 +1189,11 @@
         "6e6c32699364da6fd090b2002c3e64da4cecacbb",
         "efddc30dae7a2df8f301c9afbebbb8e0bb3fb27a"
       ],
-      "scheduleId": "#TUE-TC4-SE7"
+      "scheduleId": "#TUE-TC4-SE7",
+      "slides": {
+        "url": "https://www.slideshare.net/svenpeters/the-hitchhikers-guide-to-a-great-developer-career",
+        "text": "The Hitchhiker's Guide to a Great Developer Career (slideshare)"
+      }
     },
     {
       "id": "627c1b0426f9720858a38ef6",
@@ -1274,7 +1309,11 @@
       "speakers": [
         "c5ec49ea9516fdcd9aad629778979043b2fe331e"
       ],
-      "scheduleId": "#TUE-TC1-SE5"
+      "scheduleId": "#TUE-TC1-SE5",
+      "slides": {
+        "url": "https://speakerdeck.com/miciek/immutability-against-the-machine",
+        "text": "Immutability Against The Machine (speakerdeck.com)"
+      }
     },
     {
       "id": "628551e8d7a7c108376c3a65",
@@ -1362,7 +1401,11 @@
       "speakers": [
         "8fc3e7dd2d1a897d037ce00e9be96e35a493bd5b"
       ],
-      "scheduleId": "#TUE-TC3-SE7"
+      "scheduleId": "#TUE-TC3-SE7",
+      "slides": {
+        "url": "assets/speakers-slides/Lil_Exception_English.pdf",
+        "text": "The Exceptional Performance of Kotlin (PDF)"
+      }
     },
     {
       "id": "628e91130cb98308207c30df",
@@ -1554,7 +1597,11 @@
       "speakers": [
         "c856e449e2ade396c1365e144fed54a33a558810"
       ],
-      "scheduleId": "#MON-TC1-SE2"
+      "scheduleId": "#MON-TC1-SE2",
+      "slides": {
+        "url": "assets/speakers-slides/Nerea_Java_BCN_Conf.pdf",
+        "text": "Artificial Intelligence needs Backend & DevOps to reach the real-world (PDF)"
+      }
     },
     {
       "id": "62bab55996d7c00b689850eb",
@@ -1575,7 +1622,11 @@
       "speakers": [
         "06cc66ac133088d8c673c44ccf2f4bba731eb446"
       ],
-      "scheduleId": "#TUE-TC2-SE1"
+      "scheduleId": "#TUE-TC2-SE1",
+      "slides": {
+        "url": "https://www.slideshare.net/FerranGalReniu/realtime-real-estate-listings-with-apache-kafka",
+        "text": "Real-time, real estate listings with Apache Kafka (slideshare)"
+      }
     },
     {
       "id": "62c1cc94d5da000812712784",
