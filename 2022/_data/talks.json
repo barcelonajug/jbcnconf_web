@@ -765,7 +765,11 @@
       "speakers": [
         "851e5eddc5337f77150e3b753a676b412dab892a"
       ],
-      "scheduleId": "#TUE-TC4-SE5"
+      "scheduleId": "#TUE-TC4-SE5",
+      "slides": {
+        "url": "assets/speakers-slides/JakartaEE_Community_Power_and_Progress.pdf",
+        "text": "Jakarta EE: Community Power and Progress (PDF)"
+      }
     },
     {
       "id": "62bd8c5756138308140760e0",
@@ -1382,7 +1386,14 @@
       "speakers": [
         "ffaad51498cdf845c5c9f24c4eff0d9b17bba237"
       ],
-      "scheduleId": "#MON-TC4-SE3"
+      "scheduleId": "#MON-TC4-SE3",
+      "slides": {
+        "url": "https://github.com/jasonrclark/better-understanding-through-bytecode/blob/main/Better-Understanding-Through-Bytecode.pdf",
+        "text": "Better Understanding through Bytecode (PDF)"
+      },
+      "instructions": {
+        "link": "https://github.com/jasonrclark/better-understanding-through-bytecode"
+      }
     },
     {
       "id": "628e909d0cb98308207c30de",
