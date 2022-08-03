@@ -302,7 +302,11 @@
       "speakers": [
         "b21e540e924111f0e9d271ed82350fa020b9972e"
       ],
-      "scheduleId": "#TUE-TC5-SE3"
+      "scheduleId": "#TUE-TC5-SE3",
+      "slides": {
+        "url": "https://www.slideshare.net/GraceJansen/jbcnconfaddressingthetransactionchallengelrapptx",
+        "text": "Addressing the transaction challenge in a cloud-native world (slideshare)"
+      }
     },
     {
       "id": "620d61808fcdb80b9ff53720",
@@ -635,7 +639,11 @@
       "speakers": [
         "459fc7466dfa9163817d35cc884ca96e154c2420"
       ],
-      "scheduleId": "#MON-TC2-SE3"
+      "scheduleId": "#MON-TC2-SE3",
+      "slides": {
+        "url": "https://wkorando.github.io/presentations/to-java-n-and-beyond/",
+        "text": "To Java 19 and Beyond! (Online)"
+      }
     },
     {
       "id": "62291eab56274e0bddf007a0",
@@ -1012,7 +1020,11 @@
       "speakers": [
         "72036b8655975d50ae6e51b7e51402b767c06c0e"
       ],
-      "scheduleId": "#MON-TC5-SE3"
+      "scheduleId": "#MON-TC5-SE3",
+      "slides": {
+        "url": "assets/speakers-slides/commercetools-Akshita_Rastogi-Shifting_Left-Securing_Infrastructure_as_Code.pdf",
+        "text": "Shifting Left - Securing Infrastructure as Code (PDF)"
+      }
     },
     {
       "id": "6272e56271e11d0858e82244",
