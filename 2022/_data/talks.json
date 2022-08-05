@@ -149,7 +149,11 @@
       "speakers": [
         "6d4ec093aeee2a5dde4bbce8e9698776ce7bd5b8"
       ],
-      "scheduleId": "#WED-TC5-SE1"
+      "scheduleId": "#WED-TC5-SE1",
+      "slides": {
+        "url": "assets/speakers-slides/What_Java_Devs_Need_To_Know_About_Observability.pdf",
+        "text": "What Java Devs Need To Know About Observability (PDF)"
+      }
     },
     {
       "id": "61fd70f54fc8140baaa031bc",
