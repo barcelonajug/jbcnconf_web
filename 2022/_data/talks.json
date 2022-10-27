@@ -37,7 +37,8 @@
       "speakers": [
         "959143ffd6c954e5e544cdce71383429895e3679"
       ],
-      "scheduleId": "#MON-TC1-SE3"
+      "scheduleId": "#MON-TC1-SE3",
+      "video": "NRwfV9PQQnA"
     },
     {
       "id": "61f1a0e0c4c4120b9d29afa0",
@@ -82,7 +83,8 @@
       "speakers": [
         "576aeba6a8ebcbe244cc16bd0f973593673cc530"
       ],
-      "scheduleId": "#TUE-TC1-SE7"
+      "scheduleId": "#TUE-TC1-SE7",
+      "video": "1FgAEuyWzNQ"
     },
     {
       "id": "61f1a45bc4c4120b9d29afa4",
@@ -104,7 +106,8 @@
       "slides": {
         "url": "https://speakerdeck.com/mthmulders/dapr-dinosaur-or-developers-dream-jbcnconf",
         "text": "Dapr: Dinosaur or Developer's Dream? (speakerdeck.com)"
-      }
+      },
+      "video": "FYa-yJECeik"
     },
     {
       "id": "61f1ba52c4c4120b9d29afa6",
@@ -129,7 +132,8 @@
       "slides": {
         "url": "https://slides.nipafx.dev/java-next/2022-07-19-jbcnconf/#/",
         "text": "Java Next - From Amber to Loom, from Panama to Valhalla (online)"
-      }
+      },
+      "video": "0UuIREqnkG0"
     },
     {
       "id": "61fc3c0a4fc8140baaa031b4",
@@ -197,7 +201,8 @@
       "slides": {
         "url": "https://dmitryalexandrov.net/ReactiveHelidon.pdf",
         "text": "Going Reactive with Helidon (PDF)"
-      }
+      },
+      "video": "DYgI8YKUUII"
     },
     {
       "id": "61fd71544fc8140baaa031be",
@@ -223,7 +228,8 @@
       },
       "instructions": {
         "link": "https://github.com/KoTurk/Kafka/tree/main/JBCNConf/PaymentEngine"
-      }
+      },
+      "video": "1YusEKiiWRs"
     },
     {
       "id": "61fd72704fc8140baaa031bf",
@@ -241,7 +247,8 @@
       "speakers": [
         "5c8cf21786cae4a337b4c305fe244359243ded67"
       ],
-      "scheduleId": "#TUE-TC2-SE5"
+      "scheduleId": "#TUE-TC2-SE5",
+      "video": "8F0pDrLfG48"
     },
     {
       "id": "61fd73e74fc8140baaa031c0",
@@ -263,7 +270,8 @@
       "slides": {
         "url": "https://speakerdeck.com/hollycummins/why-you-cant-buy-cloud-native-618b8238-d076-42d7-baae-1a4fdaa61ac3",
         "text": "why You Can’t Buy Cloud Native (speakerdeck.com)"
-      }
+      },
+      "video": "QOrepfefjhs"
     },
     {
       "id": "61fd74f14fc8140baaa031c1",
@@ -332,7 +340,8 @@
       "slides": {
         "url": "https://static.architectis.je/jbcnconf2022-diagrams-as-code-2.pdf",
         "text": "Diagrams as code 2.0 (PDF)"
-      }
+      },
+      "video": "0-gVFWONnQw"
     },
     {
       "id": "620d629d8fcdb80b9ff53721",
@@ -405,7 +414,8 @@
       "speakers": [
         "a4529dc3081fc5242a51aecadc114b5ff5aa1520"
       ],
-      "scheduleId": "#MON-TC2-SE4"
+      "scheduleId": "#MON-TC2-SE4",
+      "video": "Lp8vxAArXeo"
     },
     {
       "id": "621908084010570ba9b6dd6b",
@@ -508,7 +518,8 @@
       "slides": {
         "url": "assets/speakers-slides/Jakarta_EE_10_JBCNConf_2022.pdf",
         "text": "Jakarta EE 10 Feature by Feature (PDF)"
-      }
+      },
+      "video": "oUKGxpzDGMg"
     },
     {
       "id": "62190ab64010570ba9b6dd6f",
@@ -555,7 +566,8 @@
       "slides": {
         "url": "https://www.slideshare.net/han_solo/what-the-crac-superfast-jvm-startup",
         "text": "What the CRaC - Superfast JVM startup (slideshare)"
-      }
+      },
+      "video": "opjVRX0Z7fU"
     },
     {
       "id": "622916e656274e0bddf0079b",
@@ -647,7 +659,8 @@
       "slides": {
         "url": "https://wkorando.github.io/presentations/to-java-n-and-beyond/",
         "text": "To Java 19 and Beyond! (Online)"
-      }
+      },
+      "video": "_-7QU-KFS_U"
     },
     {
       "id": "62291eab56274e0bddf007a0",
@@ -665,7 +678,8 @@
       "speakers": [
         "333c3c7a68eddba59d67331ec6422d0092a814b3"
       ],
-      "scheduleId": "#MON-TC1-SE5"
+      "scheduleId": "#MON-TC1-SE5",
+      "video": "3v8t9CG1t0E"
     },
     {
       "id": "6229f5eb56274e0bddf007a2",
@@ -737,7 +751,8 @@
       "speakers": [
         "907ad623981c92e789c5b74ed8c18db8a0c1be71"
       ],
-      "scheduleId": "#MON-TC2-SE6"
+      "scheduleId": "#MON-TC2-SE6",
+      "video": "eC8op6UTM-4"
     },
     {
       "id": "623b8c513a63410bd73c06fd",
@@ -756,7 +771,8 @@
       "speakers": [
         "eecf1fc106a3fda9197602173d272b9e3c7b8613"
       ],
-      "scheduleId": "#TUE-TC2-SE7"
+      "scheduleId": "#TUE-TC2-SE7",
+      "video": "--eh11nr1SM"
     },
     {
       "id": "62505e6faa23f0085462dda2",
@@ -837,7 +853,8 @@
       "speakers": [
         "222e9ee3f64709eb49f3299baaa4f39693e5fb82"
       ],
-      "scheduleId": "#MON-TC1-SE7"
+      "scheduleId": "#MON-TC1-SE7",
+      "video": "JeTRIla1keE"
     },
     {
       "id": "6250631eaa23f0085462dda7",
@@ -899,7 +916,8 @@
       "speakers": [
         "836bf32dd2283312420733bcbb619965af16ee57"
       ],
-      "scheduleId": "#MON-TC2-SE5"
+      "scheduleId": "#MON-TC2-SE5",
+      "video": "hpYe-NtCIi0"
     },
     {
       "id": "625724d1aa23f0085462ddaa",
@@ -982,7 +1000,8 @@
         "959143ffd6c954e5e544cdce71383429895e3679",
         "72b36c4f06a1b0211e42921b9815136568fa1b73"
       ],
-      "scheduleId": "#TUE-TC1-SE3"
+      "scheduleId": "#TUE-TC1-SE3",
+      "video": "Gmez5MZNcuQ"
     },
     {
       "id": "6272de1a71e11d0858e82242",
@@ -1190,7 +1209,8 @@
       "slides": {
         "url": "https://speakerdeck.com/gunnarmorling/keep-your-cache-always-fresh-with-debezium",
         "text": "Keep Your Cache Always Fresh with Debezium! (speakerdeck.com)"
-      }
+      },
+      "video": "_3iJ3SPKmZM"
     },
     {
       "id": "627c18f226f9720858a38ef3",
@@ -1333,7 +1353,8 @@
       "slides": {
         "url": "https://speakerdeck.com/miciek/immutability-against-the-machine",
         "text": "Immutability Against The Machine (speakerdeck.com)"
-      }
+      },
+      "video": "1LbEh8q-0E0"
     },
     {
       "id": "628551e8d7a7c108376c3a65",
@@ -1357,7 +1378,8 @@
       "slides": {
         "url": "https://speakerdeck.com/mlvandijk/use-testing-to-develop-better-software-faster-584e6130-6aa9-433a-bf65-c9dcedc1d9d4",
         "text": "Use Testing to Develop Better Software Faster (speakerdeck.com)"
-      }
+      },
+      "video": "SS11UNiAIJw"
     },
     {
       "id": "62855388d7a7c108376c3a66",
@@ -1582,7 +1604,8 @@
       "speakers": [
         "5c4dc84af05c736fb61555d97670869511e52764"
       ],
-      "scheduleId": "#MON-TC1-SE1"
+      "scheduleId": "#MON-TC1-SE1",
+      "video": "-Jq3aCOSKsg"
     },
     {
       "id": "62b3769796d7c00b689850ad",
@@ -1605,7 +1628,8 @@
       "slides": {
         "url": "https://pivovarit.github.io/talks/completable-future-quirks",
         "text": "CompletableFuture and its Quirks (Online)"
-      }
+      },
+      "video": "-R0x65HCj4k"
     },
     {
       "id": "62b83cb796d7c00b689850af",
@@ -1628,7 +1652,8 @@
       "slides": {
         "url": "assets/speakers-slides/Nerea_Java_BCN_Conf.pdf",
         "text": "Artificial Intelligence needs Backend & DevOps to reach the real-world (PDF)"
-      }
+      },
+      "video": "mZtNOfAWX_g"
     },
     {
       "id": "62bab55996d7c00b689850eb",
@@ -1653,7 +1678,8 @@
       "slides": {
         "url": "https://www.slideshare.net/FerranGalReniu/realtime-real-estate-listings-with-apache-kafka",
         "text": "Real-time, real estate listings with Apache Kafka (slideshare)"
-      }
+      },
+      "video": "7GbExi0T2V8"
     },
     {
       "id": "62c1cc94d5da000812712784",
@@ -1697,7 +1723,8 @@
       "speakers": [
         "1e9640271099b69351d75d534a65a3379aaeae12"
       ],
-      "scheduleId": "#MON-TC1-SE4"
+      "scheduleId": "#MON-TC1-SE4",
+      "video": "bNCMCs6gr7k"
     },
     {
       "id": "62c34b94d5da000812712788",
@@ -1759,7 +1786,8 @@
       "speakers": [
         "6d4ec093aeee2a5dde4bbce8e9698776ce7bd5b8"
       ],
-      "scheduleId": "#MON-TC2-SE8"
+      "scheduleId": "#MON-TC2-SE8",
+      "video": "C2jX5KMAyQA"
     }
   ]
 }

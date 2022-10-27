@@ -24,13 +24,14 @@
                     <a href="{{talk.slides.url}}" title="{{talk.slides.text}}">Slides</a>
                 </div>
                 {% endif %}
+                {% if talk.video %}
+                <div class="talk-language">
+                    <i class="fa fa-lg fa-youtube-play" aria-hidden="true"></i>
+                    <a href="https://www.youtube.com/watch?v={{talk.video}}">Recording</a>
+                </div>
+                {% endif %}
             </div>
             <div class="talk-item-header">
-                <!-- TODO move up, next to slides to make it more visible -->
-                {% if talk.video %}
-                    <a href="{{talk.video}}"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                {% endif %}
-
                 <a href="{{base}}/infoTalk.html?id={{talk.id}}">
                     <h3>{{talk.title}}</h3> by
                 </a>
