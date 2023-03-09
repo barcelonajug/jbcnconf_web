@@ -6686,7 +6686,7 @@ _::-ms-reveal, .speakers-widget .speaker-item-body .speaker-item-information li 
     margin: auto;
     left: 0;
     right: 0;
-    width: 569px;
+    max-width:75%;
 }
 
 .counter-box.left .counter-box-general-wrapper .counter-box-general-content-wrapper {
